@@ -645,6 +645,20 @@
     "official": true
   },
   {
+    "name": "Xquik MCP Server",
+    "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+    "description": "Search, monitor, and extract X/Twitter data from Xquik through MCP.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Xquik",
+    "tags": [
+      "twitter",
+      "social-data",
+      "search"
+    ],
+    "official": true
+  },
+  {
     "name": "MarkItDown MCP",
     "url": "https://github.com/microsoft/markitdown",
     "description": "Convert PDFs, Office docs, and media into markdown for LLM ingestion.",

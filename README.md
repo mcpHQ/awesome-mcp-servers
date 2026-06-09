@@ -35,7 +35,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (13)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (12)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (10)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (11)
 - [Filesystems and Documents](#filesystems-and-documents) (7)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (9)
 - [Communication and Productivity](#communication-and-productivity) (8)
@@ -164,6 +164,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `puppeteer` `browser` `scraping`
 - **[Tavily MCP Server](https://github.com/tavily-ai/tavily-mcp)** `Official` `Python` — AI-native search and content extraction for research agents.  
   `search` `research` `agents`
+- **[Xquik MCP Server](https://github.com/Xquik-dev/x-twitter-scraper)** `Official` `TypeScript` - Search, monitor, and extract X/Twitter data from Xquik through MCP.
+  `twitter` `social-data` `search`
 
 <a id="filesystems-and-documents"></a>
 
