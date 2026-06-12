@@ -656,7 +656,7 @@
       "social-data",
       "search"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "MarkItDown MCP",
