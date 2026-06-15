@@ -1023,6 +1023,20 @@
     "official": false
   },
   {
+    "name": "AccInt",
+    "url": "https://github.com/maxbaluev/accreted-intelligence",
+    "description": "Local-first MCP Work Model that gives coding agents scored memory retrieval, commitments, and outcome-based credit.",
+    "category": "ai-agents-and-memory",
+    "language": "Rust",
+    "provider": "AccInt",
+    "tags": [
+      "memory",
+      "coding-agents",
+      "local-first"
+    ],
+    "official": true
+  },
+  {
     "name": "LangGraph MCP Server",
     "url": "https://github.com/langchain-ai/langgraph-mcp",
     "description": "Orchestrate LangGraph agents and workflows through MCP.",
