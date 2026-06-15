@@ -1034,7 +1034,7 @@
       "coding-agents",
       "local-first"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "LangGraph MCP Server",
