@@ -1135,6 +1135,20 @@
     "official": true
   },
   {
+    "name": "Agentage Memory",
+    "url": "https://agentage.io/blog/mcp-endpoint-is-live",
+    "description": "Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Agentage",
+    "tags": [
+      "memory",
+      "remote",
+      "oauth"
+    ],
+    "official": true
+  },
+  {
     "name": "dbt MCP Server",
     "url": "https://github.com/dbt-labs/dbt-mcp",
     "description": "Run dbt models, tests, and documentation workflows via MCP.",

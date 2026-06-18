@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-112-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-113-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -39,7 +39,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Filesystems and Documents](#filesystems-and-documents) (7)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (9)
 - [Communication and Productivity](#communication-and-productivity) (8)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (10)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (11)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (8)
 - [Security and Identity](#security-and-identity) (6)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (8)
@@ -242,8 +242,10 @@ Integrate chat, email, calendars, and team collaboration tools.
 
 LLM bridges, agent orchestration, RAG, and persistent memory layers.
 
-- **[AccInt](https://github.com/maxbaluev/accreted-intelligence)** `Official` `Rust` — Local-first MCP Work Model that gives coding agents scored memory retrieval, commitments, and outcome-based credit.  
+- **[AccInt](https://github.com/maxbaluev/accreted-intelligence)** `Rust` — Local-first MCP Work Model that gives coding agents scored memory retrieval, commitments, and outcome-based credit.  
   `memory` `coding-agents` `local-first`
+- **[Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live)** `Official` `TypeScript` — Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp.  
+  `memory` `remote` `oauth`
 - **[CrewAI MCP Server](https://github.com/crewAIInc/crewAI)** `Official` `Python` — Multi-agent orchestration framework with MCP integration support.  
   `agents` `multi-agent` `orchestration`
 - **[Graphiti MCP Server](https://github.com/getzep/graphiti)** `Official` `Python` — Temporal knowledge graphs for agent memory and context building.  
