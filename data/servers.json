@@ -1457,6 +1457,21 @@
     "official": true
   },
   {
+    "name": "NotFair",
+    "url": "https://github.com/nowork-studio/NotFair",
+    "description": "Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "official": false
+  },
+  {
     "name": "Anyquery",
     "url": "https://github.com/julien040/anyquery",
     "description": "Query 40+ apps and databases with SQL from a single local binary.",
