@@ -407,6 +407,20 @@
     "official": true
   },
   {
+    "name": "ax",
+    "url": "https://github.com/Necmttn/ax",
+    "description": "Local-first MCP server for querying coding-agent sessions, tool calls, skills, and costs.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "observability",
+      "coding-agents",
+      "costs"
+    ],
+    "official": false
+  },
+  {
     "name": "Docker MCP Server",
     "url": "https://github.com/docker/mcp-gateway",
     "description": "Manage containers, images, and Docker environments through MCP.",

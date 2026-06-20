@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-114-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-115-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -34,7 +34,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (13)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (12)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (13)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (11)
 - [Filesystems and Documents](#filesystems-and-documents) (7)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (9)
@@ -115,6 +115,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
 
 - **[Harness MCP Server](https://github.com/harness/mcp-server)** `Official` `TypeScript` — Official Harness.io MCP server for CI/CD pipelines, deployments, GitOps, and platform engineering workflows.  
   `harness` `cicd` `devops`
+- **[ax](https://github.com/Necmttn/ax)** `TypeScript` — Local-first MCP server for querying coding-agent sessions, tool calls, skills, and costs.  
+  `observability` `coding-agents` `costs`
 - **[Context7 MCP](https://github.com/upstash/context7)** `Official` `TypeScript` — Up-to-date library and framework documentation injected into prompts.  
   `docs` `libraries` `coding`
 - **[Docker MCP Server](https://github.com/docker/mcp-gateway)** `Official` `Go` — Manage containers, images, and Docker environments through MCP.  
