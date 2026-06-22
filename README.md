@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-115-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-116-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -35,7 +35,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (13)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (13)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (11)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (12)
 - [Filesystems and Documents](#filesystems-and-documents) (7)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (9)
 - [Communication and Productivity](#communication-and-productivity) (8)
@@ -148,6 +148,8 @@ Browse the web, scrape content, search, and automate browser interactions.
 
 - **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `Official` `TypeScript` — Run Apify Actors and extract web datasets at scale.  
   `scraping` `actors` `data`
+- **[BGPT MCP](https://github.com/connerlambden/bgpt-mcp)** `Python` — Search full-text scientific papers and return structured evidence for research agents.  
+  `search` `research` `science` `literature`
 - **[Brave Search MCP Server](https://github.com/brave/brave-search-mcp-server)** `Official` `TypeScript` — Privacy-focused web and local search through the Brave Search API.  
   `search` `privacy` `web`
 - **[Browser MCP](https://github.com/browsermcp/mcp)** `Official` `TypeScript` — Automate a local Chrome browser from MCP-compatible AI clients.  

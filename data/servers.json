@@ -603,6 +603,21 @@
     "official": true
   },
   {
+    "name": "BGPT MCP",
+    "url": "https://github.com/connerlambden/bgpt-mcp",
+    "description": "Search full-text scientific papers and return structured evidence for research agents.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "search",
+      "research",
+      "science",
+      "literature"
+    ],
+    "official": false
+  },
+  {
     "name": "Tavily MCP Server",
     "url": "https://github.com/tavily-ai/tavily-mcp",
     "description": "AI-native search and content extraction for research agents.",
