@@ -1641,5 +1641,21 @@
       "cursor"
     ],
     "official": false
+  },
+  {
+    "name": "Network Sketcher",
+    "url": "https://github.com/cisco-open/network-sketcher",
+    "description": "Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.",
+    "category": "cloud-and-infrastructure",
+    "language": "Python",
+    "provider": "Cisco Open Source",
+    "tags": [
+      "networking",
+      "diagrams",
+      "automation",
+      "cursor",
+      "cisco"
+    ],
+    "official": false
   }
 ]

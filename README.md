@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-117-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-118-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -37,7 +37,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (14)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (12)
 - [Filesystems and Documents](#filesystems-and-documents) (7)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (9)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (10)
 - [Communication and Productivity](#communication-and-productivity) (8)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (11)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (8)
@@ -208,6 +208,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `cloudflare` `edge` `workers`
 - **[Fly.io MCP Server](https://github.com/superfly/flymcp)** `Official` `TypeScript` — Manage Fly.io apps, machines, and deployments via MCP.  
   `fly` `deploy` `edge`
+- **[Network Sketcher](https://github.com/cisco-open/network-sketcher)** `Python` — Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.  
+  `networking` `diagrams` `automation` `cursor` `cisco`
 - **[Port MCP Server](https://github.com/port-labs/port-mcp-server)** `Official` `TypeScript` — Manage software catalog, scorecards, and actions in Port.io.  
   `platform-engineering` `catalog` `devops`
 - **[Pulumi MCP Server](https://www.pulumi.com/docs/ai/mcp-server/)** `Official` `TypeScript` — Infrastructure as code operations with Pulumi stacks and resources.  
