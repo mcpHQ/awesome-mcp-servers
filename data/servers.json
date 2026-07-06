@@ -1276,6 +1276,20 @@
     "official": true
   },
   {
+    "name": "LLM Pulse MCP Server",
+    "url": "https://github.com/LLM-Pulse/llmpulse-mcp",
+    "description": "Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "LLM Pulse",
+    "tags": [
+      "ai-visibility",
+      "analytics",
+      "marketing"
+    ],
+    "official": true
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
