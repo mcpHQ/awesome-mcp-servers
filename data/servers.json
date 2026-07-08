@@ -1657,25 +1657,6 @@
     "official": false
   },
   {
-    "name": "AIServices",
-    "url": "https://github.com/vbkotecha/aiservices-api",
-    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Python",
-    "provider": "AIServices",
-    "tags": [
-      "crypto",
-      "defi",
-      "x402",
-      "micropayments",
-      "dispute-resolution",
-      "mcp",
-      "finance",
-      "agents"
-    ],
-    "endpoints": {
-      "sse": "https://api.aiservices.to/mcp"
-    },
     "name": "Network Sketcher",
     "url": "https://github.com/cisco-open/network-sketcher",
     "description": "Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.",
@@ -1688,6 +1669,79 @@
       "automation",
       "cursor",
       "cisco"
+    ],
+    "endpoints": {
+      "sse": "https://api.aiservices.to/mcp"
+    },
+    "official": false
+  },
+  {
+    "name": "mcp-probe",
+    "url": "https://github.com/alvabillwu/mcp-probe",
+    "description": "CLI to probe and inspect any MCP server, listing tools, resources, and prompts and validating connectivity.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "cli",
+      "testing",
+      "inspection"
+    ],
+    "official": false
+  },
+  {
+    "name": "mcp-guard",
+    "url": "https://github.com/alvabillwu/mcp-guard",
+    "description": "Security scanner that detects potential vulnerabilities and misconfigurations in MCP server tool implementations.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "security",
+      "scanner",
+      "mcp"
+    ],
+    "official": false
+  },
+  {
+    "name": "mcp-compliance-lite",
+    "url": "https://github.com/alvabillwu/mcp-compliance-lite",
+    "description": "Conformance tester that validates MCP server implementations against the protocol specification.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "testing",
+      "conformance",
+      "protocol"
+    ],
+    "official": false
+  },
+  {
+    "name": "mcp-factory",
+    "url": "https://github.com/alvabillwu/mcp-factory",
+    "description": "Scaffolding CLI that generates new MCP server projects from templates.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "scaffold",
+      "template",
+      "cli"
+    ],
+    "official": false
+  },
+  {
+    "name": "mcpindex",
+    "url": "https://github.com/alvabillwu/mcpindex",
+    "description": "Search and discovery directory for finding and browsing MCP servers.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "discovery",
+      "search",
+      "registry"
     ],
     "official": false
   }
