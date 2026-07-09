@@ -1657,25 +1657,6 @@
     "official": false
   },
   {
-    "name": "AIServices",
-    "url": "https://github.com/vbkotecha/aiservices-api",
-    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Python",
-    "provider": "AIServices",
-    "tags": [
-      "crypto",
-      "defi",
-      "x402",
-      "micropayments",
-      "dispute-resolution",
-      "mcp",
-      "finance",
-      "agents"
-    ],
-    "endpoints": {
-      "sse": "https://api.aiservices.to/mcp"
-    },
     "name": "Network Sketcher",
     "url": "https://github.com/cisco-open/network-sketcher",
     "description": "Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.",
@@ -1688,6 +1669,25 @@
       "automation",
       "cursor",
       "cisco"
+    ],
+    "endpoints": {
+      "sse": "https://api.aiservices.to/mcp"
+    },
+    "official": false
+  },
+  {
+    "name": "SigRank MCP",
+    "url": "https://github.com/SunrisesIllNeverSee/sigrank-mcp",
+    "description": "AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.",
+    "category": "ai-data-and-knowledge",
+    "language": "JavaScript",
+    "provider": "SigRank",
+    "tags": [
+      "token-efficiency",
+      "leaderboard",
+      "ai-agents",
+      "telemetry",
+      "yield-cascade"
     ],
     "official": false
   }
