@@ -393,6 +393,21 @@
     "official": true
   },
   {
+    "name": "mcp-pool",
+    "url": "https://github.com/yuzu-octopus/mcp-pool",
+    "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "yuzu-octopus",
+    "tags": [
+      "mcp",
+      "proxy",
+      "pool",
+      "api-keys",
+      "rate-limiting"
+    ]
+  },
+  {
     "name": "Sentry MCP Server",
     "url": "https://docs.sentry.io/product/sentry-mcp/",
     "description": "Investigate errors, releases, and performance issues in Sentry.",
