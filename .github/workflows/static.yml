@@ -41,7 +41,7 @@ jobs:
         env:
           LANDSCAPE_BASE_PATH: ""
       - name: Upload build folder
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./landscape/build
       - name: Deploy to GitHub Pages
