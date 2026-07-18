@@ -1721,5 +1721,22 @@
       "yield-cascade"
     ],
     "official": false
+  },
+  {
+    "name": "Pyrimid",
+    "url": "https://github.com/pyrimid-ai/pyrimid",
+    "description": "Onchain payment protocol for AI agents \u2014 sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Pyrimid Protocol",
+    "tags": [
+      "x402",
+      "ai-agent",
+      "payments",
+      "base",
+      "usdc",
+      "mcp"
+    ],
+    "official": false
   }
 ]
