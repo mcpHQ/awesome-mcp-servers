@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mcpHQ/awesome-mcp-servers/blob/main/data/servers.schema.json",
+  "title": "Awesome MCP Servers catalog",
+  "type": "array",
+  "minItems": 75,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name",
+      "url",
+      "description",
+      "category",
+      "language",
+      "provider",
+      "tags",
+      "official"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "description": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 240
+      },
+      "category": {
+        "type": "string",
+        "minLength": 1
+      },
+      "language": {
+        "enum": [
+          "C",
+          "C#",
+          "C++",
+          "Dart",
+          "Elixir",
+          "GDScript",
+          "Go",
+          "Java",
+          "JavaScript",
+          "Kotlin",
+          "Other",
+          "PHP",
+          "Python",
+          "Ruby",
+          "Rust",
+          "Swift",
+          "TypeScript",
+          "Zig"
+        ]
+      },
+      "provider": {
+        "type": "string",
+        "minLength": 1
+      },
+      "tags": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 5,
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        }
+      },
+      "official": {
+        "type": "boolean"
+      },
+      "order": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "endpoints": {
+        "type": "object",
+        "additionalProperties": false,
+        "minProperties": 1,
+        "properties": {
+          "sse": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "streamableHttp": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          }
+        }
+      }
+    }
+  }
+}

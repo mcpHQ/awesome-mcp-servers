@@ -1,4 +1,4 @@
-# MCP Landspace
+# MCP Landscape
 
 Interactive, searchable map of the curated MCP servers in this repo. Built with [CNCF Landscape2](https://github.com/cncf/landscape2).
 
@@ -123,7 +123,7 @@ After editing `settings.yml` or `guide.yml`, rebuild:
 npm run build-landscape
 ```
 
-**Note:** Landscape2 appends `" Landscape"` to the foundation name in page titles. The build patch script corrects this so the site title stays **MCP Landspace**.
+**Note:** Landscape2 appends `" Landscape"` to the foundation name in page titles. The build patch script corrects this so the site title stays **MCP Landscape**.
 
 ## GitHub Pages
 

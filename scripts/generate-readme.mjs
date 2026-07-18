@@ -5,6 +5,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const checkOnly = process.argv.includes("--check");
 const categories = JSON.parse(
   readFileSync(join(root, "data/categories.json"), "utf8")
 );
@@ -142,5 +143,18 @@ node scripts/validate-data.mjs
 This list is released under the [MIT License](LICENSE).
 `;
 
-writeFileSync(join(root, "README.md"), readme);
-console.log(`Generated README.md with ${servers.length} servers.`);
+const readmePath = join(root, "README.md");
+
+if (checkOnly) {
+  const currentReadme = readFileSync(readmePath, "utf8");
+  if (currentReadme !== readme) {
+    console.error(
+      "README.md is out of date. Run `npm run generate` and commit the result."
+    );
+    process.exit(1);
+  }
+  console.log(`README.md is up to date with ${servers.length} servers.`);
+} else {
+  writeFileSync(readmePath, readme);
+  console.log(`Generated README.md with ${servers.length} servers.`);
+}

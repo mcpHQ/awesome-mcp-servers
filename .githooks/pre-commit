@@ -4,17 +4,16 @@ set -e
 cd "$(git rev-parse --show-toplevel)"
 
 needs_validate=0
-needs_links=0
+needs_generated_check=0
 
 for file in $(git diff --cached --name-only); do
   case "$file" in
     data/*)
       needs_validate=1
       case "$file" in
-        data/servers.json) needs_links=1 ;;
+        data/servers.json|data/categories.json) needs_generated_check=1 ;;
       esac
       ;;
-    *.md) needs_links=1 ;;
   esac
 done
 
@@ -22,6 +21,6 @@ if [ "$needs_validate" = 1 ]; then
   node scripts/validate-data.mjs
 fi
 
-if [ "$needs_links" = 1 ]; then
-  node scripts/check-links.mjs
+if [ "$needs_generated_check" = 1 ]; then
+  node scripts/generate-readme.mjs --check
 fi

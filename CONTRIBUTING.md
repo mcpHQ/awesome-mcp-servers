@@ -47,7 +47,12 @@ Add servers that are:
 | `language` | Yes | Primary implementation language |
 | `provider` | Yes | Company, org, or `Community` |
 | `tags` | Yes | 2–5 lowercase keywords |
-| `official` | No | Set `true` only for official MCP or vendor-backed servers |
+| `official` | Yes | Boolean; use `true` only for official MCP or vendor-backed servers |
+
+The machine-readable schemas are
+[`data/servers.schema.json`](data/servers.schema.json) and
+[`data/categories.schema.json`](data/categories.schema.json). They define
+allowed fields, languages, tag formatting, and optional endpoint metadata.
 
 ## Category selection
 
@@ -61,17 +66,23 @@ Available categories are defined in [`data/categories.json`](data/categories.jso
 - [ ] No duplicate names or URLs
 - [ ] Description is accurate and concise
 - [ ] Category and tags are appropriate
-- [ ] Ran `node scripts/validate-data.mjs`
-- [ ] Ran `node scripts/generate-readme.mjs`
+- [ ] `official` accurately reflects whether the provider backs the server
+- [ ] Ran `npm run validate`
+- [ ] Ran `npm run generate`
+- [ ] Ran `npm run check-generated`
 
 ## Validation
 
 ```bash
-node scripts/validate-data.mjs
-node scripts/generate-readme.mjs
+npm run validate
+npm run generate
+npm run check-generated
 ```
 
-Validation checks required fields, category validity, duplicate names/URLs, and minimum catalog size.
+Validation checks required and unknown fields, field types, category validity,
+language and tag formatting, duplicate names/URLs, endpoint metadata, and
+minimum catalog size. Pull requests also check newly added or changed external
+links.
 
 ## Code of conduct
 

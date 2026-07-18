@@ -2,6 +2,7 @@
 
 import { readFileSync, readdirSync, statSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -44,23 +45,47 @@ function collectFromServersJson() {
   }
 }
 
-function collectFromMarkdown(filePath) {
-  const relPath = relative(root, filePath);
-  const content = readFileSync(filePath, "utf8");
-
+function collectFromText(content, source) {
   for (const match of content.matchAll(/\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)) {
-    addLink(match[2], relPath);
+    addLink(match[2], source);
   }
 
   for (const match of content.matchAll(/<((?:https?):\/\/[^>]+)>/g)) {
-    addLink(match[1], relPath);
+    addLink(match[1], source);
   }
 
   for (const match of content.matchAll(
     /(?<![(\[])(https?:\/\/[^\s<>"')\]`]+)/g
   )) {
-    addLink(match[1], relPath);
+    addLink(match[1], source);
   }
+}
+
+function collectFromMarkdown(filePath) {
+  const relPath = relative(root, filePath);
+  collectFromText(readFileSync(filePath, "utf8"), relPath);
+}
+
+function collectFromDiff(range) {
+  let diff;
+  try {
+    diff = execFileSync(
+      "git",
+      ["diff", "--unified=0", "--no-color", range, "--", "*.md", "data/*.json"],
+      { cwd: root, encoding: "utf8" }
+    );
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "git diff failed";
+    console.error(`Unable to inspect changed links: ${message}`);
+    process.exit(1);
+  }
+
+  const additions = diff
+    .split("\n")
+    .filter((line) => line.startsWith("+") && !line.startsWith("+++"))
+    .map((line) => line.slice(1))
+    .join("\n");
+  collectFromText(additions, `git diff ${range}`);
 }
 
 function collectMarkdownFiles(dir) {
@@ -92,13 +117,18 @@ async function checkLink(url) {
       headers: { "User-Agent": USER_AGENT },
     });
 
-    if (response.status === 405 || response.status === 501) {
+    if ([403, 405, 501].includes(response.status)) {
       response = await fetch(url, {
         method: "GET",
         redirect: "follow",
         signal: controller.signal,
         headers: { "User-Agent": USER_AGENT },
       });
+    }
+
+    // Authentication and method restrictions still prove the target exists.
+    if ([401, 403, 405].includes(response.status)) {
+      return { ok: true };
     }
 
     if (response.status >= 400) {
@@ -137,12 +167,26 @@ async function mapWithConcurrency(items, limit, fn) {
   return Promise.all(results);
 }
 
-collectFromServersJson();
-for (const filePath of collectMarkdownFiles(root)) {
-  collectFromMarkdown(filePath);
+const changedArgument = process.argv.indexOf("--changed");
+if (changedArgument !== -1) {
+  const range = process.argv[changedArgument + 1];
+  if (!range) {
+    console.error("Usage: check-links.mjs --changed <git-range>");
+    process.exit(1);
+  }
+  collectFromDiff(range);
+} else {
+  collectFromServersJson();
+  for (const filePath of collectMarkdownFiles(root)) {
+    collectFromMarkdown(filePath);
+  }
 }
 
 const uniqueLinks = [...links.keys()].sort();
+if (uniqueLinks.length === 0) {
+  console.log("No external links to check.");
+  process.exit(0);
+}
 console.error(`Checking ${uniqueLinks.length} unique links...\n`);
 
 const results = await mapWithConcurrency(uniqueLinks, CONCURRENCY, async (url) => {

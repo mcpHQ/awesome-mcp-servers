@@ -1,0 +1,78 @@
+name: Suggest an MCP server
+description: Propose a server for inclusion in the catalog
+title: "Add: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting, confirm the server meets the criteria in
+        [CONTRIBUTING.md](https://github.com/mcpHQ/awesome-mcp-servers/blob/main/CONTRIBUTING.md).
+
+  - type: input
+    id: name
+    attributes:
+      label: Server name
+      placeholder: Example MCP Server
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Project URL
+      description: Link to the primary repository, documentation, or registry page.
+      placeholder: https://github.com/example/example-mcp-server
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: In one factual sentence, explain what the server enables.
+    validations:
+      required: true
+
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+      description: Company, organization, maintainer, or Community.
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Primary implementation language
+      placeholder: TypeScript
+    validations:
+      required: true
+
+  - type: dropdown
+    id: official
+    attributes:
+      label: Is this an official or vendor-backed server?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: MCP support and maintenance evidence
+      description: Link to MCP setup documentation and recent maintenance activity.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched the catalog and confirmed this is not a duplicate.
+          required: true
+        - label: The project has a verifiable source or installation path.
+          required: true

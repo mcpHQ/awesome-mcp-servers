@@ -12,7 +12,7 @@ const fullPath = join(buildDir, "data/full.json");
 const settingsPath = join(root, "landscape/settings.yml");
 const settings = readFileSync(settingsPath, "utf8");
 const foundationMatch = settings.match(/^foundation:\s*(.+)$/m);
-const foundation = foundationMatch?.[1]?.trim() ?? "MCP Landspace";
+const foundation = foundationMatch?.[1]?.trim() ?? "MCP Landscape";
 
 const fullData = readFileSync(fullPath, "utf8");
 let html = readFileSync(indexPath, "utf8");

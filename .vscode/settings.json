@@ -1,0 +1,16 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/data/servers.json"
+      ],
+      "url": "./data/servers.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/categories.json"
+      ],
+      "url": "./data/categories.schema.json"
+    }
+  ]
+}
