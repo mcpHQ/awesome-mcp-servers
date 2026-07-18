@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-120-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-122-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -39,7 +39,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Filesystems and Documents](#filesystems-and-documents) (7)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (10)
 - [Communication and Productivity](#communication-and-productivity) (8)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (11)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (13)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (9)
 - [Security and Identity](#security-and-identity) (6)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (9)
@@ -272,6 +272,10 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `ollama` `local-llm` `inference`
 - **[OpenAI MCP Bridge](https://github.com/jaspertvdm/mcp-server-openai-bridge)** `Python` — Bridge OpenAI GPT models into MCP-compatible agent workflows.  
   `openai` `gpt` `inference`
+- **[Pyrimid](https://github.com/pyrimid-ai/pyrimid)** `TypeScript` — Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.  
+  `x402` `ai-agent` `payments` `base` `usdc` `mcp`
+- **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
+  `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
 - **[Zep MCP Server](https://github.com/jaysack/zep-mcp)** `Python` — Community MCP wrapper for long-term memory and context retrieval with Zep.  
   `memory` `context` `rag`
 

@@ -1710,7 +1710,7 @@
     "name": "SigRank MCP",
     "url": "https://github.com/SunrisesIllNeverSee/sigrank-mcp",
     "description": "AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.",
-    "category": "ai-data-and-knowledge",
+    "category": "ai-agents-and-memory",
     "language": "JavaScript",
     "provider": "SigRank",
     "tags": [
