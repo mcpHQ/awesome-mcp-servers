@@ -1124,6 +1124,20 @@
     "official": true
   },
   {
+    "name": "RunAPI MCP Server",
+    "url": "https://github.com/runapi-ai/mcp",
+    "description": "Discover model inputs and create AI image, video, music, speech, and other model API tasks.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "RunAPI",
+    "tags": [
+      "models",
+      "media-generation",
+      "inference"
+    ],
+    "official": true
+  },
+  {
     "name": "OpenAI MCP Bridge",
     "url": "https://github.com/jaspertvdm/mcp-server-openai-bridge",
     "description": "Bridge OpenAI GPT models into MCP-compatible agent workflows.",
