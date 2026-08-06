@@ -1673,25 +1673,25 @@
     "official": false
   },
   {
-    "name": "AIServices",
-    "url": "https://github.com/vbkotecha/aiservices-api",
-    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
+    "name": "AgentServices",
+    "url": "https://github.com/vbkotecha/agentservices-api",
+    "description": "Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
-    "provider": "AIServices",
+    "provider": "AgentServices",
     "tags": [
       "crypto",
       "defi",
       "x402",
-      "micropayments",
-      "dispute-resolution",
       "mcp",
-      "finance",
       "agents"
     ],
     "endpoints": {
-      "sse": "https://api.aiservices.to/mcp"
+      "sse": "https://agentservices.to/mcp"
     },
+    "official": false
+  },
+  {
     "name": "Network Sketcher",
     "url": "https://github.com/cisco-open/network-sketcher",
     "description": "Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.",

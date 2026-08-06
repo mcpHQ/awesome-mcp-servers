@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-122-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-123-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -42,7 +42,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [AI, Agents, and Memory](#ai-agents-and-memory) (13)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (9)
 - [Security and Identity](#security-and-identity) (6)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (9)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (10)
 - [Utilities and Examples](#utilities-and-examples) (9)
 
 <a id="official-and-reference"></a>
@@ -329,6 +329,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
 
 Payments, banking, CRM, e-commerce, and business system integrations.
 
+- **[AgentServices](https://github.com/vbkotecha/agentservices-api)** `Python` — Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.  
+  `crypto` `defi` `x402` `mcp` `agents`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
 - **[NotFair](https://github.com/nowork-studio/NotFair)** `TypeScript` — Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.  
