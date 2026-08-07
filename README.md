@@ -244,6 +244,7 @@ Integrate chat, email, calendars, and team collaboration tools.
 - **[Todoist MCP Server](https://github.com/abhiz123/todoist-mcp-server)** `TypeScript` — Manage Todoist tasks, projects, and due dates from AI assistants.  
   `tasks` `productivity` `todoist`
 - **[Zoom MCP Server](https://github.com/zoom/mcp-registry)** `Official` `TypeScript` — Schedule and manage Zoom meetings and recordings.  
+- **[Autoposting](https://github.com/Autoposting-ai/autoposting-mcp)** `Official` `TypeScript` — Schedule, generate and publish social posts to X, LinkedIn, Instagram, Threads and YouTube.  
   `zoom` `meetings` `video`
 
 <a id="ai-agents-and-memory"></a>
