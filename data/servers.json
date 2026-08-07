@@ -802,6 +802,24 @@
     "official": false
   },
   {
+    "name": "API Status Check MCP",
+    "url": "https://apistatuscheck.com/mcp",
+    "description": "Query current and historical uptime for 62 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Bity LLC",
+    "tags": [
+      "uptime",
+      "monitoring",
+      "status",
+      "incidents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://apistatuscheck.com/api/mcp"
+    }
+  },
+  {
     "name": "AWS MCP Server",
     "url": "https://github.com/alexei-led/aws-mcp-server",
     "description": "Execute AWS CLI commands safely in a containerized environment.",
@@ -1740,7 +1758,7 @@
   {
     "name": "Pyrimid",
     "url": "https://github.com/pyrimid-ai/pyrimid",
-    "description": "Onchain payment protocol for AI agents \u2014 sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
+    "description": "Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
     "provider": "Pyrimid Protocol",

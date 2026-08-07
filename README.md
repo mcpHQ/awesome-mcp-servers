@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-123-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-125-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -37,9 +37,9 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (15)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (12)
 - [Filesystems and Documents](#filesystems-and-documents) (7)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (10)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
 - [Communication and Productivity](#communication-and-productivity) (8)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (13)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (14)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (9)
 - [Security and Identity](#security-and-identity) (6)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (10)
@@ -202,6 +202,8 @@ Read and write files, convert documents, and connect to knowledge bases.
 
 Manage cloud resources, deploy services, and operate infrastructure.
 
+- **[API Status Check MCP](https://apistatuscheck.com/mcp)** `Official` `TypeScript` — Query current and historical uptime for 62 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug.  
+  `uptime` `monitoring` `status` `incidents`
 - **[AWS MCP Server](https://github.com/alexei-led/aws-mcp-server)** `Python` — Execute AWS CLI commands safely in a containerized environment.  
   `aws` `cloud` `cli`
 - **[Azure MCP Server](https://github.com/Azure/azure-mcp)** `Official` `TypeScript` — Manage Azure resources and services through MCP tools.  
@@ -244,7 +246,6 @@ Integrate chat, email, calendars, and team collaboration tools.
 - **[Todoist MCP Server](https://github.com/abhiz123/todoist-mcp-server)** `TypeScript` — Manage Todoist tasks, projects, and due dates from AI assistants.  
   `tasks` `productivity` `todoist`
 - **[Zoom MCP Server](https://github.com/zoom/mcp-registry)** `Official` `TypeScript` — Schedule and manage Zoom meetings and recordings.  
-- **[Autoposting](https://github.com/Autoposting-ai/autoposting-mcp)** `Official` `TypeScript` — Schedule, generate and publish social posts to X, LinkedIn, Instagram, Threads and YouTube.  
   `zoom` `meetings` `video`
 
 <a id="ai-agents-and-memory"></a>
@@ -275,6 +276,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `openai` `gpt` `inference`
 - **[Pyrimid](https://github.com/pyrimid-ai/pyrimid)** `TypeScript` — Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.  
   `x402` `ai-agent` `payments` `base` `usdc`
+- **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)** `Official` `TypeScript` — Discover model inputs and create AI image, video, music, speech, and other model API tasks.  
+  `models` `media-generation` `inference`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
 - **[Zep MCP Server](https://github.com/jaysack/zep-mcp)** `Python` — Community MCP wrapper for long-term memory and context retrieval with Zep.  
