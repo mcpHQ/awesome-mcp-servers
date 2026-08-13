@@ -1737,9 +1737,6 @@
       "cursor",
       "cisco"
     ],
-    "endpoints": {
-      "sse": "https://api.aiservices.to/mcp"
-    },
     "official": false
   },
   {
