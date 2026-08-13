@@ -202,7 +202,7 @@ Read and write files, convert documents, and connect to knowledge bases.
 
 Manage cloud resources, deploy services, and operate infrastructure.
 
-- **[API Status Check MCP](https://apistatuscheck.com/mcp)** `Official` `TypeScript` — Query current and historical uptime for 62 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug.  
+- **[API Status Check MCP](https://apistatuscheck.com/mcp)** `Official` `TypeScript` — Query current and historical uptime for 285 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug.  
   `uptime` `monitoring` `status` `incidents`
 - **[AWS MCP Server](https://github.com/alexei-led/aws-mcp-server)** `Python` — Execute AWS CLI commands safely in a containerized environment.  
   `aws` `cloud` `cli`

@@ -804,7 +804,7 @@
   {
     "name": "API Status Check MCP",
     "url": "https://apistatuscheck.com/mcp",
-    "description": "Query current and historical uptime for 62 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug.",
+    "description": "Query current and historical uptime for 285 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug.",
     "category": "cloud-and-infrastructure",
     "language": "TypeScript",
     "provider": "Bity LLC",
