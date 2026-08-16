@@ -351,6 +351,22 @@
     "order": 0
   },
   {
+    "name": "Agent QA",
+    "url": "https://github.com/vostride/agent-qa",
+    "description": "Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Vostride",
+    "tags": [
+      "testing",
+      "regression",
+      "browser",
+      "mobile",
+      "mcp"
+    ],
+    "official": true
+  },
+  {
     "name": "GitHub MCP Server",
     "url": "https://github.com/github/github-mcp-server",
     "description": "Official GitHub integration for repos, issues, pull requests, and code search.",
