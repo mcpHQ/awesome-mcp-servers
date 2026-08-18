@@ -1074,6 +1074,24 @@
     "official": true
   },
   {
+    "name": "Faceless",
+    "url": "https://faceless.so",
+    "description": "Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Faceless",
+    "tags": [
+      "video",
+      "social-media",
+      "publishing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://faceless.so/api/v1/mcp"
+    }
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://github.com/mem0ai/mem0-mcp",
     "description": "Persistent memory layer for personalized agent interactions.",
