@@ -1092,6 +1092,24 @@
     }
   },
   {
+    "name": "Taskfolk",
+    "url": "https://github.com/taskfolk/mcp",
+    "description": "Project management for teams and their AI agents. Agents join as named members.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Taskfolk",
+    "tags": [
+      "project-management",
+      "tasks",
+      "agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://taskfolk.ai/api/mcp/v1"
+    }
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://github.com/mem0ai/mem0-mcp",
     "description": "Persistent memory layer for personalized agent interactions.",
