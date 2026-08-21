@@ -1822,5 +1822,22 @@
       "usdc"
     ],
     "official": false
+  },
+  {
+    "name": "Pocket Drives",
+    "url": "https://github.com/RevList/pocket-drives-mcp",
+    "description": "Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "PocketList Inc",
+    "tags": [
+      "travel",
+      "car-rental",
+      "marketplace"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://pocketdrives.ai/mcp"
+    }
   }
 ]
