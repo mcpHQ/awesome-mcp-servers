@@ -1822,5 +1822,20 @@
       "usdc"
     ],
     "official": false
+  },
+  {
+    "name": "mcp-trellis",
+    "url": "https://github.com/amir1824/mcp-trellis",
+    "description": "Zero-dependency TypeScript library that ships an MCP handler and OAuth 2.1 authorization server in one package for Claude, Gemini, and Codex connectors.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "framework",
+      "oauth",
+      "typescript",
+      "zero-deps"
+    ],
+    "official": false
   }
 ]
