@@ -1110,6 +1110,21 @@
     }
   },
   {
+    "name": "OrkasVideoStudio",
+    "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+    "description": "Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Orkas AI",
+    "tags": [
+      "video",
+      "editing",
+      "automation",
+      "mcp"
+    ],
+    "official": true
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://github.com/mem0ai/mem0-mcp",
     "description": "Persistent memory layer for personalized agent interactions.",
@@ -1822,6 +1837,22 @@
       "usdc"
     ],
     "official": false
+  },
+  {
+    "name": "Live Tennis API MCP",
+    "url": "https://github.com/livetennisapi/livetennisapi-mcp",
+    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Live Tennis API",
+    "tags": [
+      "tennis",
+      "sports",
+      "live-scores",
+      "fixtures",
+      "event-markets"
+    ],
+    "official": true
   },
   {
     "name": "mcp-trellis",
