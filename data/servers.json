@@ -1837,5 +1837,21 @@
       "usdc"
     ],
     "official": false
+  },
+  {
+    "name": "Live Tennis API MCP",
+    "url": "https://github.com/livetennisapi/livetennisapi-mcp",
+    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Live Tennis API",
+    "tags": [
+      "tennis",
+      "sports",
+      "live-scores",
+      "fixtures",
+      "event-markets"
+    ],
+    "official": true
   }
 ]
