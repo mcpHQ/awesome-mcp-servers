@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-127-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-129-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -38,7 +38,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (12)
 - [Filesystems and Documents](#filesystems-and-documents) (7)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
-- [Communication and Productivity](#communication-and-productivity) (9)
+- [Communication and Productivity](#communication-and-productivity) (11)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (14)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (9)
 - [Security and Identity](#security-and-identity) (6)
@@ -245,6 +245,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `calendar` `scheduling` `google`
 - **[Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server)** `TypeScript` — Interact with Microsoft Teams channels, messages, and meetings.  
   `teams` `chat` `microsoft`
+- **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `Official` `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
+  `video` `editing` `automation` `mcp`
 - **[Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** `Python` — Send messages and interact with Slack channels and workspaces.  
   `slack` `chat` `team`
 - **[Taskfolk](https://github.com/taskfolk/mcp)** `Official` `Other` — Project management for teams and their AI agents. Agents join as named members.  

@@ -1110,6 +1110,21 @@
     }
   },
   {
+    "name": "OrkasVideoStudio",
+    "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+    "description": "Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Orkas AI",
+    "tags": [
+      "video",
+      "editing",
+      "automation",
+      "mcp"
+    ],
+    "official": true
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://github.com/mem0ai/mem0-mcp",
     "description": "Persistent memory layer for personalized agent interactions.",
