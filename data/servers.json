@@ -1293,6 +1293,23 @@
     "official": true
   },
   {
+    "name": "Basedash MCP Server",
+    "url": "https://github.com/Basedash/mcp",
+    "description": "Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Basedash",
+    "tags": [
+      "bi",
+      "dashboards",
+      "sql"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://charts.basedash.com/api/public/mcp"
+    }
+  },
+  {
     "name": "dbt MCP Server",
     "url": "https://github.com/dbt-labs/dbt-mcp",
     "description": "Run dbt models, tests, and documentation workflows via MCP.",
