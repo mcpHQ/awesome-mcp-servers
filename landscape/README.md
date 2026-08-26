@@ -123,7 +123,7 @@ After editing `settings.yml` or `guide.yml`, rebuild:
 npm run build-landscape
 ```
 
-**Note:** Landscape2 appends `" Landscape"` to the foundation name in page titles. The build patch script corrects this so the site title stays **MCP Landscape**.
+**Note:** Landscape2 appends `" Landscape"` to the foundation name in page titles. The `foundation` is set to `MCP` so the generated title is **MCP Landscape**, which is the correct display name.
 
 ## GitHub Pages
 

@@ -17,12 +17,8 @@ const foundation = foundationMatch?.[1]?.trim() ?? "MCP Landscape";
 const fullData = readFileSync(fullPath, "utf8");
 let html = readFileSync(indexPath, "utf8");
 
-const siteName = foundation;
-const generatedTitle = `${foundation} Landscape`;
-
-if (html.includes(generatedTitle)) {
-  html = html.replaceAll(generatedTitle, siteName);
-}
+// Landscape2 appends " Landscape" to the foundation name (e.g. "MCP" → "MCP Landscape").
+// That generated title is exactly what we want to display, so no replacement is needed.
 
 const faviconLink = '<link rel="icon" href="./images/logo.png" type="image/png" />';
 if (!html.includes('rel="icon"')) {
