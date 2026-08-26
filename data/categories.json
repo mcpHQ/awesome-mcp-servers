@@ -45,6 +45,11 @@
     "description": "Analytics platforms, monitoring, and business intelligence tooling."
   },
   {
+    "id": "legal-and-court-data",
+    "name": "Legal and Court Data",
+    "description": "Court records, legal research, case search, and judicial workflow data."
+  },
+  {
     "id": "security-and-identity",
     "name": "Security and Identity",
     "description": "Secrets, vulnerability scanning, authentication, and security operations."
