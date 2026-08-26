@@ -351,6 +351,22 @@
     "order": 0
   },
   {
+    "name": "Agent QA",
+    "url": "https://github.com/vostride/agent-qa",
+    "description": "Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Vostride",
+    "tags": [
+      "testing",
+      "regression",
+      "browser",
+      "mobile",
+      "mcp"
+    ],
+    "official": true
+  },
+  {
     "name": "GitHub MCP Server",
     "url": "https://github.com/github/github-mcp-server",
     "description": "Official GitHub integration for repos, issues, pull requests, and code search.",
@@ -1058,6 +1074,57 @@
     "official": true
   },
   {
+    "name": "Faceless",
+    "url": "https://faceless.so",
+    "description": "Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Faceless",
+    "tags": [
+      "video",
+      "social-media",
+      "publishing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://faceless.so/api/v1/mcp"
+    }
+  },
+  {
+    "name": "Taskfolk",
+    "url": "https://github.com/taskfolk/mcp",
+    "description": "Project management for teams and their AI agents. Agents join as named members.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Taskfolk",
+    "tags": [
+      "project-management",
+      "tasks",
+      "agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://taskfolk.ai/api/mcp/v1"
+    }
+  },
+  {
+    "name": "OrkasVideoStudio",
+    "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+    "description": "Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Orkas AI",
+    "tags": [
+      "video",
+      "editing",
+      "automation",
+      "mcp"
+    ],
+    "official": true
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://github.com/mem0ai/mem0-mcp",
     "description": "Persistent memory layer for personalized agent interactions.",
@@ -1226,6 +1293,23 @@
     "official": true
   },
   {
+    "name": "Basedash MCP Server",
+    "url": "https://github.com/Basedash/mcp",
+    "description": "Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Basedash",
+    "tags": [
+      "bi",
+      "dashboards",
+      "sql"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://charts.basedash.com/api/public/mcp"
+    }
+  },
+  {
     "name": "dbt MCP Server",
     "url": "https://github.com/dbt-labs/dbt-mcp",
     "description": "Run dbt models, tests, and documentation workflows via MCP.",
@@ -1350,6 +1434,24 @@
       "metrics"
     ],
     "official": true
+  },
+  {
+    "name": "eCourts India MCP",
+    "url": "https://mcp.ecourtsindia.com/",
+    "description": "Official hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.",
+    "category": "legal-and-court-data",
+    "language": "Other",
+    "provider": "eCourts India",
+    "tags": [
+      "legal",
+      "court-data",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.ecourtsindia.com/mcp"
+    }
   },
   {
     "name": "1Password MCP Server",
@@ -1768,6 +1870,72 @@
       "payments",
       "base",
       "usdc"
+    ],
+    "official": false
+  },
+  {
+    "name": "Live Tennis API MCP",
+    "url": "https://github.com/livetennisapi/livetennisapi-mcp",
+    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Live Tennis API",
+    "tags": [
+      "tennis",
+      "sports",
+      "live-scores",
+      "fixtures",
+      "event-markets"
+    ],
+    "official": true
+  },
+  {
+    "name": "Worklittle Jobs",
+    "url": "https://github.com/worklittle/jobs-mcp",
+    "description": "Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Worklittle",
+    "tags": [
+      "jobs",
+      "recruiting",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.worklittle.com/"
+    }
+  },
+  {
+    "name": "Pocket Drives",
+    "url": "https://github.com/RevList/pocket-drives-mcp",
+    "description": "Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "PocketList Inc",
+    "tags": [
+      "travel",
+      "car-rental",
+      "marketplace"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://pocketdrives.ai/mcp"
+    }
+  },
+  {
+    "name": "mcp-trellis",
+    "url": "https://github.com/amir1824/mcp-trellis",
+    "description": "Zero-dependency TypeScript library that ships an MCP handler and OAuth 2.1 authorization server in one package for Claude, Gemini, and Codex connectors.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "framework",
+      "oauth",
+      "typescript",
+      "zero-deps"
     ],
     "official": false
   },
