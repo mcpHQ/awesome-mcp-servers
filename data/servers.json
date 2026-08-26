@@ -356,7 +356,7 @@
     "description": "Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
-    "provider": "Vostride",
+    "provider": "Community",
     "tags": [
       "testing",
       "regression",
@@ -364,7 +364,7 @@
       "mobile",
       "mcp"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "GitHub MCP Server",
@@ -1097,14 +1097,14 @@
     "description": "Project management for teams and their AI agents. Agents join as named members.",
     "category": "communication-and-productivity",
     "language": "Other",
-    "provider": "Taskfolk",
+    "provider": "Community",
     "tags": [
       "project-management",
       "tasks",
       "agents",
       "remote"
     ],
-    "official": true,
+    "official": false,
     "endpoints": {
       "streamableHttp": "https://taskfolk.ai/api/mcp/v1"
     }
@@ -1115,14 +1115,14 @@
     "description": "Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.",
     "category": "communication-and-productivity",
     "language": "TypeScript",
-    "provider": "Orkas AI",
+    "provider": "Community",
     "tags": [
       "video",
       "editing",
       "automation",
       "mcp"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "mem0 MCP Server",
@@ -1214,13 +1214,13 @@
     "description": "Discover model inputs and create AI image, video, music, speech, and other model API tasks.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
-    "provider": "RunAPI",
+    "provider": "Community",
     "tags": [
       "models",
       "media-generation",
       "inference"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "OpenAI MCP Bridge",
@@ -1298,13 +1298,13 @@
     "description": "Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth.",
     "category": "data-analytics-and-bi",
     "language": "Other",
-    "provider": "Basedash",
+    "provider": "Community",
     "tags": [
       "bi",
       "dashboards",
       "sql"
     ],
-    "official": true,
+    "official": false,
     "endpoints": {
       "streamableHttp": "https://charts.basedash.com/api/public/mcp"
     }
@@ -1413,13 +1413,13 @@
     "description": "Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic.",
     "category": "data-analytics-and-bi",
     "language": "JavaScript",
-    "provider": "LLM Pulse",
+    "provider": "Community",
     "tags": [
       "ai-visibility",
       "analytics",
       "marketing"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "Netdata MCP Server",
@@ -1768,13 +1768,13 @@
     "description": "Middleware MCP server that aggregates and manages multiple connections.",
     "category": "utilities-and-examples",
     "language": "TypeScript",
-    "provider": "MetaTool",
+    "provider": "Community",
     "tags": [
       "aggregator",
       "gateway",
       "middleware"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "MCPJungle",
@@ -1879,7 +1879,7 @@
     "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
-    "provider": "Live Tennis API",
+    "provider": "Community",
     "tags": [
       "tennis",
       "sports",
@@ -1887,7 +1887,7 @@
       "fixtures",
       "event-markets"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "Worklittle Jobs",
@@ -1895,14 +1895,14 @@
     "description": "Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.",
     "category": "finance-commerce-and-business-apps",
     "language": "Other",
-    "provider": "Worklittle",
+    "provider": "Community",
     "tags": [
       "jobs",
       "recruiting",
       "remote",
       "oauth"
     ],
-    "official": true,
+    "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.worklittle.com/"
     }
