@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-134-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-135-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -43,7 +43,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Data, Analytics, and BI](#data-analytics-and-bi) (10)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (6)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (12)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (13)
 - [Utilities and Examples](#utilities-and-examples) (10)
 
 <a id="official-and-reference"></a>
@@ -365,6 +365,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `commerce` `fintech`
 - **[Plaid MCP Server](https://plaid.com/docs/resources/mcp/)** `Official` `TypeScript` — Connect bank accounts and retrieve financial transaction data.  
   `banking` `finance` `open-banking`
+- **[Pocket Drives](https://github.com/RevList/pocket-drives-mcp)** `TypeScript` — Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.  
+  `travel` `car-rental` `marketplace`
 - **[QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server)** `Official` `TypeScript` — Manage QuickBooks accounting records and financial reports.  
   `accounting` `finance` `bookkeeping`
 - **[Salesforce MCP Server](https://github.com/salesforcecli/mcp)** `Official` `TypeScript` — Query Salesforce CRM records and manage business workflows.  
