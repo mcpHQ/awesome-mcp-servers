@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-133-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-134-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -41,6 +41,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Communication and Productivity](#communication-and-productivity) (11)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (14)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (10)
+- [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (6)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (12)
 - [Utilities and Examples](#utilities-and-examples) (10)
@@ -317,6 +318,15 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `analytics` `funnels` `product`
 - **[Netdata MCP Server](https://github.com/netdata/netdata)** `Official` `C` — Real-time infrastructure monitoring and health metrics via MCP.  
   `monitoring` `infra` `metrics`
+
+<a id="legal-and-court-data"></a>
+
+## Legal and Court Data
+
+Court records, legal research, case search, and judicial workflow data.
+
+- **[eCourts India MCP](https://mcp.ecourtsindia.com/)** `Official` `Other` — Official hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.  
+  `legal` `court-data` `remote` `oauth`
 
 <a id="security-and-identity"></a>
 

@@ -1436,6 +1436,24 @@
     "official": true
   },
   {
+    "name": "eCourts India MCP",
+    "url": "https://mcp.ecourtsindia.com/",
+    "description": "Official hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.",
+    "category": "legal-and-court-data",
+    "language": "Other",
+    "provider": "eCourts India",
+    "tags": [
+      "legal",
+      "court-data",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.ecourtsindia.com/mcp"
+    }
+  },
+  {
     "name": "1Password MCP Server",
     "url": "https://github.com/CakeRepository/1Password-MCP",
     "description": "Community-maintained integration for accessing 1Password vault items in agent workflows.",
