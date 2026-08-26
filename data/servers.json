@@ -1938,5 +1938,24 @@
       "zero-deps"
     ],
     "official": false
+  },
+  {
+    "name": "Constitution Lint MCP Server",
+    "url": "https://github.com/joeyycli/constitution-lint-action",
+    "description": "Lints CLAUDE.md-style AI agent constitution files for missing operational guardrails: spend limits, injection defense, escalation paths, and secrets handling.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "joeyycli",
+    "tags": [
+      "agents",
+      "guardrails",
+      "linting",
+      "ci-cd",
+      "safety"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://agentopskit.dev/mcp"
+    }
   }
 ]
