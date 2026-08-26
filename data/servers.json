@@ -364,7 +364,7 @@
       "mobile",
       "mcp"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "GitHub MCP Server",
@@ -1104,7 +1104,7 @@
       "agents",
       "remote"
     ],
-    "official": true,
+    "official": false,
     "endpoints": {
       "streamableHttp": "https://taskfolk.ai/api/mcp/v1"
     }
@@ -1122,7 +1122,7 @@
       "automation",
       "mcp"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "mem0 MCP Server",
@@ -1220,7 +1220,7 @@
       "media-generation",
       "inference"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "OpenAI MCP Bridge",
@@ -1304,7 +1304,7 @@
       "dashboards",
       "sql"
     ],
-    "official": true,
+    "official": false,
     "endpoints": {
       "streamableHttp": "https://charts.basedash.com/api/public/mcp"
     }
@@ -1419,7 +1419,7 @@
       "analytics",
       "marketing"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "Netdata MCP Server",
@@ -1774,7 +1774,7 @@
       "gateway",
       "middleware"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "MCPJungle",
@@ -1887,7 +1887,7 @@
       "fixtures",
       "event-markets"
     ],
-    "official": true
+    "official": false
   },
   {
     "name": "Worklittle Jobs",
@@ -1902,7 +1902,7 @@
       "remote",
       "oauth"
     ],
-    "official": true,
+    "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.worklittle.com/"
     }
