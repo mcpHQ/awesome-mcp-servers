@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-131-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-133-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -40,9 +40,9 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
 - [Communication and Productivity](#communication-and-productivity) (11)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (14)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (9)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (10)
 - [Security and Identity](#security-and-identity) (6)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (11)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (12)
 - [Utilities and Examples](#utilities-and-examples) (10)
 
 <a id="official-and-reference"></a>
@@ -299,6 +299,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
 
 - **[Amplitude MCP Server](https://amplitude.com/docs/amplitude-ai/amplitude-mcp)** `Official` `TypeScript` — Analyze product analytics events and user behavior in Amplitude.  
   `product-analytics` `events` `bi`
+- **[Basedash MCP Server](https://github.com/Basedash/mcp)** `Official` `Other` — Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth.  
+  `bi` `dashboards` `sql`
 - **[Datadog MCP Server](https://github.com/datadog-labs/mcp-server)** `Official` `Python` — Query metrics, logs, and monitors from Datadog via the official Datadog Labs MCP server.  
   `datadog` `metrics` `logs`
 - **[dbt MCP Server](https://github.com/dbt-labs/dbt-mcp)** `Official` `Python` — Run dbt models, tests, and documentation workflows via MCP.  
@@ -363,6 +365,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `pos` `commerce`
 - **[Stripe MCP Server](https://github.com/stripe/agent-toolkit)** `Official` `TypeScript` — Manage Stripe payments, customers, and subscriptions via MCP tools.  
   `payments` `billing` `fintech`
+- **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Official` `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
+  `jobs` `recruiting` `remote` `oauth`
 
 <a id="utilities-and-examples"></a>
 
