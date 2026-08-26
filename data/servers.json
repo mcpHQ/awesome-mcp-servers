@@ -1890,6 +1890,24 @@
     "official": true
   },
   {
+    "name": "Worklittle Jobs",
+    "url": "https://github.com/worklittle/jobs-mcp",
+    "description": "Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Worklittle",
+    "tags": [
+      "jobs",
+      "recruiting",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.worklittle.com/"
+    }
+  },
+  {
     "name": "mcp-trellis",
     "url": "https://github.com/amir1824/mcp-trellis",
     "description": "Zero-dependency TypeScript library that ships an MCP handler and OAuth 2.1 authorization server in one package for Claude, Gemini, and Codex connectors.",
