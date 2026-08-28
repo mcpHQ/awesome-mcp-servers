@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-136-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-137-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -39,7 +39,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Filesystems and Documents](#filesystems-and-documents) (7)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
 - [Communication and Productivity](#communication-and-productivity) (11)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (14)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (15)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (10)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (6)
@@ -289,6 +289,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `x402` `ai-agent` `payments` `base` `usdc`
 - **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)** `TypeScript` — Discover model inputs and create AI image, video, music, speech, and other model API tasks.  
   `models` `media-generation` `inference`
+- **[SandBase CLI](https://github.com/sandbaseai/cli)** `Official` `TypeScript` — Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools.  
+  `ai-models` `api-gateway` `local`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
 - **[Zep MCP Server](https://github.com/jaysack/zep-mcp)** `Python` — Community MCP wrapper for long-term memory and context retrieval with Zep.  
