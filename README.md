@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-137-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-138-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -40,7 +40,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
 - [Communication and Productivity](#communication-and-productivity) (11)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (15)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (10)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (11)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (6)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (13)
@@ -322,6 +322,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `analytics` `funnels` `product`
 - **[Netdata MCP Server](https://github.com/netdata/netdata)** `Official` `C` — Real-time infrastructure monitoring and health metrics via MCP.  
   `monitoring` `infra` `metrics`
+- **[PolymarketScan MCP](https://polymarketscan.org/agents)** `Other` — Independent Polymarket explorer data for agents: markets, wallets, whale trades, and trader leaderboards over a hosted endpoint.  
+  `prediction-markets` `analytics` `onchain`
 
 <a id="legal-and-court-data"></a>
 
