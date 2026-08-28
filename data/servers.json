@@ -1957,5 +1957,19 @@
     "endpoints": {
       "streamableHttp": "https://agentopskit.dev/mcp"
     }
+  },
+  {
+    "name": "SandBase CLI",
+    "url": "https://github.com/sandbaseai/cli",
+    "description": "Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "SandBase AI",
+    "tags": [
+      "ai-models",
+      "api-gateway",
+      "local"
+    ],
+    "official": true
   }
 ]
