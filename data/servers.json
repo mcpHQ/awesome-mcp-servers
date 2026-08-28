@@ -1436,6 +1436,20 @@
     "official": true
   },
   {
+    "name": "PolymarketScan MCP",
+    "url": "https://polymarketscan.org/agents",
+    "description": "Independent Polymarket explorer data for agents: markets, wallets, whale trades, and trader leaderboards over a hosted endpoint.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "PolymarketScan",
+    "tags": [
+      "prediction-markets",
+      "analytics",
+      "onchain"
+    ],
+    "official": false
+  },
+  {
     "name": "eCourts India MCP",
     "url": "https://mcp.ecourtsindia.com/",
     "description": "Official hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.",
