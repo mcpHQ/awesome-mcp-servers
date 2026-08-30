@@ -1971,5 +1971,21 @@
       "local"
     ],
     "official": true
+  },
+  {
+    "name": "SandBase Harness",
+    "url": "https://github.com/sandbaseai/sandbase-harness",
+    "description": "Self-hosted MCP bridge for agent sessions, sandboxed turns, artifacts, audit, and replay.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "SandBase AI",
+    "tags": [
+      "agent-runtime",
+      "sandbox",
+      "audit",
+      "replay",
+      "self-hosted"
+    ],
+    "official": true
   }
 ]
