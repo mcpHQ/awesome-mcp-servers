@@ -1987,5 +1987,24 @@
       "self-hosted"
     ],
     "official": true
+  },
+  {
+    "name": "Magic Hour MCP Server",
+    "url": "https://magichour.ai",
+    "description": "Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Magic Hour",
+    "tags": [
+      "ai-video",
+      "image-generation",
+      "audio-generation",
+      "media-editing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.magichour.ai/"
+    }
   }
 ]
