@@ -2021,5 +2021,20 @@
       "operations"
     ],
     "official": true
+  },
+  {
+    "name": "ContextStream",
+    "url": "https://github.com/contextstream/mcp-server",
+    "description": "Shared project memory that both developers and AI agents read and write across Cursor, Claude Code, Codex, Grok, Windsurf and the rest.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "ContextStream, LLC",
+    "tags": [
+      "memory",
+      "context",
+      "agents",
+      "coding"
+    ],
+    "official": true
   }
 ]
