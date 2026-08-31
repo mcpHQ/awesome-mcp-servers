@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-138-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-139-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -39,7 +39,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Filesystems and Documents](#filesystems-and-documents) (7)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
 - [Communication and Productivity](#communication-and-productivity) (11)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (16)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (17)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (10)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (6)
@@ -279,6 +279,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `agents` `orchestration` `langgraph`
 - **[LlamaIndex MCP Server](https://github.com/run-llama/llama_index)** `Official` `Python` — Data framework for LLM apps with MCP tool and agent connectors.  
   `rag` `indexing` `agents`
+- **[Magic Hour MCP Server](https://magichour.ai)** `Official` `Python` — Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.  
+  `ai-video` `image-generation` `audio-generation` `media-editing` `remote`
 - **[mem0 MCP Server](https://github.com/mem0ai/mem0-mcp)** `Official` `Python` — Persistent memory layer for personalized agent interactions.  
   `memory` `personalization` `agents`
 - **[Ollama MCP Bridge](https://github.com/jaspertvdm/mcp-server-ollama-bridge)** `Python` — Run local Llama, Mistral, and Qwen models via Ollama through MCP.  
