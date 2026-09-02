@@ -2036,5 +2036,20 @@
       "coding"
     ],
     "official": true
+  },
+  {
+    "name": "BulkPublish MCP Server",
+    "url": "https://github.com/azeemkafridi/bulkpublish-api",
+    "description": "MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "BulkPublish",
+    "tags": [
+      "mcp",
+      "social-media",
+      "publishing",
+      "bulkpublish"
+    ],
+    "official": true
   }
 ]
