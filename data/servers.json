@@ -1538,6 +1538,21 @@
     "official": true
   },
   {
+    "name": "Lodestar Stamp",
+    "url": "https://lodestarstamp.com",
+    "description": "Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Lodestar Stamp",
+    "tags": [
+      "trust",
+      "receipts",
+      "agents",
+      "security"
+    ],
+    "official": false
+  },
+  {
     "name": "Stripe MCP Server",
     "url": "https://github.com/stripe/agent-toolkit",
     "description": "Manage Stripe payments, customers, and subscriptions via MCP tools.",
