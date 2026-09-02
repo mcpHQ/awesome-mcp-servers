@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-141-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-142-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -38,7 +38,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (12)
 - [Filesystems and Documents](#filesystems-and-documents) (7)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
-- [Communication and Productivity](#communication-and-productivity) (12)
+- [Communication and Productivity](#communication-and-productivity) (13)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (18)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (10)
 - [Legal and Court Data](#legal-and-court-data) (1)
@@ -238,6 +238,8 @@ Integrate chat, email, calendars, and team collaboration tools.
 
 - **[Atlassian MCP Server](https://github.com/atlassian/atlassian-mcp-server)** `Official` `TypeScript` — Manage Jira issues and Confluence pages across Atlassian Cloud.  
   `jira` `confluence` `atlassian`
+- **[BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api)** `Official` `TypeScript` — MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.  
+  `mcp` `social-media` `publishing` `bulkpublish`
 - **[Discord MCP Server](https://github.com/SaseQ/discord-mcp)** `Python` — Read and send messages in Discord servers and channels.  
   `discord` `chat` `community`
 - **[Faceless](https://faceless.so)** `Official` `TypeScript` — Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).  
