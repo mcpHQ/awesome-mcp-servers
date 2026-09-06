@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-143-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-144-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -43,7 +43,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Data, Analytics, and BI](#data-analytics-and-bi) (10)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (7)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (13)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (14)
 - [Utilities and Examples](#utilities-and-examples) (10)
 
 <a id="official-and-reference"></a>
@@ -389,6 +389,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crm` `sales` `enterprise`
 - **[Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp)** `TypeScript` — Community-maintained integration for Shopify products, orders, and store operations.  
   `ecommerce` `shopify` `retail`
+- **[Solana Sniper Bot MCP](https://github.com/solara-sniper-bot/MCP)** `Other` — Free autonomous Solana trading bot with 281 MCP tools for Pump.fun meme sniping, Jupiter spot trading, perpetual futures, and mirror copy-trading. Requires Solana Sniper Bot V4 for Windows.  
+  `solana` `trading` `crypto` `defi`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
   `payments` `pos` `commerce`
 - **[Stripe MCP Server](https://github.com/stripe/agent-toolkit)** `Official` `TypeScript` — Manage Stripe payments, customers, and subscriptions via MCP tools.  

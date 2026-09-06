@@ -1567,6 +1567,21 @@
     "official": true
   },
   {
+    "name": "Solana Sniper Bot MCP",
+    "url": "https://github.com/solara-sniper-bot/MCP",
+    "description": "Free autonomous Solana trading bot with 281 MCP tools for Pump.fun meme sniping, Jupiter spot trading, perpetual futures, and mirror copy-trading. Requires Solana Sniper Bot V4 for Windows.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Solana Sniper Bot",
+    "tags": [
+      "solana",
+      "trading",
+      "crypto",
+      "defi"
+    ],
+    "official": false
+  },
+  {
     "name": "PayPal MCP Server",
     "url": "https://github.com/paypal/agent-toolkit",
     "description": "Process PayPal payments and manage merchant operations.",

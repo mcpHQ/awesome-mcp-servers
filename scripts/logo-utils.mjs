@@ -102,6 +102,7 @@ export const NAME_SLUGS = {
 export const SERVER_LOGO_URLS = {
   "Harness MCP Server":
     "https://raw.githubusercontent.com/harness/mcp-server/main/icon.png",
+  "Solana Sniper Bot MCP": "https://solsniperbot.co/mcp/sniper-icon-400.png",
 };
 
 export const PROVIDER_DOMAINS = {
