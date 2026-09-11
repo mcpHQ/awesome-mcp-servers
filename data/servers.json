@@ -2068,6 +2068,21 @@
     "official": true
   },
   {
+    "name": "Neither MCP",
+    "url": "https://github.com/stonianua/neither-mcp",
+    "description": "Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Neither",
+    "tags": [
+      "memory",
+      "context",
+      "cursor",
+      "knowledge"
+    ],
+    "official": false
+  },
+  {
     "name": "BulkPublish MCP Server",
     "url": "https://github.com/azeemkafridi/bulkpublish-api",
     "description": "MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.",
