@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-145-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-146-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -42,7 +42,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [AI, Agents, and Memory](#ai-agents-and-memory) (19)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (10)
 - [Legal and Court Data](#legal-and-court-data) (1)
-- [Security and Identity](#security-and-identity) (7)
+- [Security and Identity](#security-and-identity) (8)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (14)
 - [Utilities and Examples](#utilities-and-examples) (10)
 
@@ -358,6 +358,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `endpoint` `security` `soc`
 - **[Lodestar Stamp](https://lodestarstamp.com)** `TypeScript` — Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.  
   `trust` `receipts` `agents` `security`
+- **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.  
+  `auth` `identity` `oauth` `mcp`
 - **[Snyk MCP Server](https://github.com/snyk/studio-mcp)** `Official` `TypeScript` — Scan dependencies and code for vulnerabilities with Snyk.  
   `security` `vulnerabilities` `dependencies`
 - **[Vault MCP Server](https://github.com/hashicorp/vault-mcp-server)** `Official` `Go` — Read secrets and manage HashiCorp Vault policies via MCP.  

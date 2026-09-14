@@ -1496,6 +1496,21 @@
     "official": true
   },
   {
+    "name": "Scalekit MCP Server",
+    "url": "https://github.com/scalekit-inc/scalekit-mcp-server",
+    "description": "Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Scalekit",
+    "tags": [
+      "auth",
+      "identity",
+      "oauth",
+      "mcp"
+    ],
+    "official": true
+  },
+  {
     "name": "Vault MCP Server",
     "url": "https://github.com/hashicorp/vault-mcp-server",
     "description": "Read secrets and manage HashiCorp Vault policies via MCP.",
