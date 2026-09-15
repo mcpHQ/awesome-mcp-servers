@@ -182,6 +182,21 @@
     "official": true
   },
   {
+    "name": "Statsnet",
+    "url": "https://github.com/usenetstate/statsnet-mcp",
+    "description": "Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Statsnet",
+    "tags": [
+      "company-data",
+      "business",
+      "finance",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "Supabase MCP Server",
     "url": "https://github.com/supabase-community/supabase-mcp",
     "description": "Community-maintained integration for Supabase projects, tables, and auth through MCP tools.",

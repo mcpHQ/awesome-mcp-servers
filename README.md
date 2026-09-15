@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-146-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-147-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -43,7 +43,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Data, Analytics, and BI](#data-analytics-and-bi) (10)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (8)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (14)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (15)
 - [Utilities and Examples](#utilities-and-examples) (10)
 
 <a id="official-and-reference"></a>
@@ -397,6 +397,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `solana` `trading` `crypto` `defi`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
   `payments` `pos` `commerce`
+- **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.  
+  `company-data` `business` `finance` `remote`
 - **[Stripe MCP Server](https://github.com/stripe/agent-toolkit)** `Official` `TypeScript` — Manage Stripe payments, customers, and subscriptions via MCP tools.  
   `payments` `billing` `fintech`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
