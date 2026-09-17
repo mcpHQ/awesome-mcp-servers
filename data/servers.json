@@ -2145,5 +2145,24 @@
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/invoice"
     }
+  },
+  {
+    "name": "Zovo Office Suite",
+    "url": "https://github.com/theluckystrike/mcp-servers",
+    "description": "Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracking, spreadsheets, PDFs and resumes; 30 servers also reachable as hosted Streamable HTTP endpoints.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Zovo",
+    "tags": [
+      "productivity",
+      "invoice",
+      "expenses",
+      "spreadsheet",
+      "pdf"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.zovo.one/mcp/expense-tracker"
+    }
   }
 ]
