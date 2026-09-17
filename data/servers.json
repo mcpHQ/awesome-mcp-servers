@@ -2126,5 +2126,24 @@
       "bulkpublish"
     ],
     "official": true
+  },
+  {
+    "name": "Zovo Invoice MCP",
+    "url": "https://github.com/theluckystrike/mcp-servers",
+    "description": "Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Zovo",
+    "tags": [
+      "invoice",
+      "pdf",
+      "billing",
+      "bookkeeping",
+      "finance"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.zovo.one/mcp/invoice"
+    }
   }
 ]
