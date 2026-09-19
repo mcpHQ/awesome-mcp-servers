@@ -2183,5 +2183,20 @@
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/expense-tracker"
     }
+  },
+  {
+    "name": "Hyperconsciousness",
+    "url": "https://github.com/louis030195/hyperconsciousness",
+    "description": "Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants.",
+    "category": "ai-agents-and-memory",
+    "language": "Rust",
+    "provider": "Community",
+    "tags": [
+      "memory",
+      "knowledge",
+      "encryption",
+      "local"
+    ],
+    "official": false
   }
 ]
