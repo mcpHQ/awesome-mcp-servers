@@ -31,6 +31,7 @@ Interactive, searchable map of the MCP servers in this catalog. **[Open the live
 See [landscape/README.md](landscape/README.md) for how the landscape is built and how to preview or customize it locally.
 
 ## Catalog
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — a tool for recording and replaying AI agent runs.
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (13)
