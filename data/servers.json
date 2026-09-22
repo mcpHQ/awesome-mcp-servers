@@ -2213,5 +2213,20 @@
       "self-hosted"
     ],
     "official": false
+  },
+  {
+    "name": "Screenpipe",
+    "url": "https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp",
+    "description": "Search locally captured screen text and audio history via MCP under the Screenpipe Commercial License, with optional cloud features and connected AI clients able to transmit context off-device.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Screenpipe",
+    "tags": [
+      "memory",
+      "screen",
+      "audio",
+      "local-first"
+    ],
+    "official": true
   }
 ]
