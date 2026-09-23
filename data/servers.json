@@ -2321,5 +2321,39 @@
       "local-first"
     ],
     "official": true
+  },
+  {
+    "name": "Zovo Invoice Generator",
+    "url": "https://github.com/theluckystrike/mcp-invoice-generator",
+    "description": "Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Zovo",
+    "tags": [
+      "invoice",
+      "billing",
+      "pdf"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.zovo.one/mcp/invoice"
+    }
+  },
+  {
+    "name": "Zovo E-commerce Suite",
+    "url": "https://github.com/theluckystrike/mcp-e-commerce-suite",
+    "description": "Product catalog, pricing rules, and order management tools for e-commerce workflows; hosted Streamable HTTP endpoint available.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Zovo",
+    "tags": [
+      "ecommerce",
+      "catalog",
+      "orders"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.zovo.one/mcp/e-commerce"
+    }
   }
 ]
