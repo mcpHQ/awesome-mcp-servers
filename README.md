@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-158-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-159-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -40,7 +40,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
 - [Communication and Productivity](#communication-and-productivity) (15)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (21)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (11)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (12)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (8)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (17)
@@ -350,6 +350,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `monitoring` `infra` `metrics`
 - **[Robot Speed](https://github.com/robot-speed/mcp)** `Official` `TypeScript` — SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.  
   `seo` `analytics` `keywords` `content`
+- **[SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite)** `TypeScript` — Read-only access to Google Search Console performance, indexing, and sitemap data from an MCP client.  
+  `seo` `search-console` `analytics` `google`
 
 <a id="legal-and-court-data"></a>
 

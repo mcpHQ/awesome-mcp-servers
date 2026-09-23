@@ -1974,6 +1974,21 @@
     }
   },
   {
+    "name": "SearchLink Lite",
+    "url": "https://github.com/GlobalMatchHub/searchlink-lite",
+    "description": "Read-only access to Google Search Console performance, indexing, and sitemap data from an MCP client.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "seo",
+      "search-console",
+      "analytics",
+      "google"
+    ],
+    "official": false
+  },
+  {
     "name": "Kleap",
     "url": "https://github.com/kleaphq/cli",
     "description": "Create, edit, and publish websites from AI clients through a hosted MCP server.",
