@@ -319,6 +319,9 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `screen` `audio` `local-first`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
+- **[Vestige](https://github.com/samvallad33/vestige)** `Rust` - Local-first memory system for coding agents. Backfill reaches back weeks to rank earlier records as candidate causes of a fresh failure, the composed graph surfaces never-tried combinations of past decisions, receipts fail closed after compaction, retrieval decays on an FSRS-6 schedule.
+  `memory` `coding-agents` `local-first` `receipts`
+
 - **[Zep MCP Server](https://github.com/jaysack/zep-mcp)** `Python` — Community MCP wrapper for long-term memory and context retrieval with Zep.  
   `memory` `context` `rag`
 
