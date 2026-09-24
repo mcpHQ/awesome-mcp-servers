@@ -2370,5 +2370,24 @@
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/e-commerce"
     }
+  },
+  {
+    "name": "Screpy SEO MCP",
+    "url": "https://screpy.com/feature/seo-mcp/",
+    "description": "Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Screpy",
+    "tags": [
+      "seo",
+      "analytics",
+      "ai-visibility",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.screpy.com"
+    }
   }
 ]
