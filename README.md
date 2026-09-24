@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-159-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-162-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -40,10 +40,10 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
 - [Communication and Productivity](#communication-and-productivity) (15)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (21)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (12)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (13)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (8)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (17)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (19)
 - [Utilities and Examples](#utilities-and-examples) (11)
 
 <a id="official-and-reference"></a>
@@ -350,6 +350,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `monitoring` `infra` `metrics`
 - **[Robot Speed](https://github.com/robot-speed/mcp)** `Official` `TypeScript` — SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.  
   `seo` `analytics` `keywords` `content`
+- **[Screpy SEO MCP](https://screpy.com/feature/seo-mcp/)** `Official` `Other` — Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.  
+  `seo` `analytics` `ai-visibility` `remote` `oauth`
 - **[SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite)** `TypeScript` — Read-only access to Google Search Console performance, indexing, and sitemap data from an MCP client.  
   `seo` `search-console` `analytics` `google`
 
@@ -423,6 +425,10 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `billing` `fintech`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
   `jobs` `recruiting` `remote` `oauth`
+- **[Zovo E-commerce Suite](https://github.com/theluckystrike/mcp-e-commerce-suite)** `TypeScript` — Product catalog, pricing rules, and order management tools for e-commerce workflows; hosted Streamable HTTP endpoint available.  
+  `ecommerce` `catalog` `orders`
+- **[Zovo Invoice Generator](https://github.com/theluckystrike/mcp-invoice-generator)** `TypeScript` — Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint.  
+  `invoice` `billing` `pdf`
 - **[Zovo Invoice MCP](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice)** `TypeScript` — Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.  
   `invoice` `pdf` `billing` `bookkeeping` `finance`
 
