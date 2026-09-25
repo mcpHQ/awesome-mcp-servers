@@ -2,7 +2,7 @@
 
 Interactive, searchable map of the curated MCP servers in this repo. Built with [CNCF Landscape2](https://github.com/cncf/landscape2).
 
-**Live site:** [mcphq.github.io/awesome-mcp-servers](https://mcphq.github.io/awesome-mcp-servers)
+**Live site:** [landscape.mcphq.org](https://landscape.mcphq.org)
 
 ## How it works
 
@@ -123,7 +123,7 @@ After editing `settings.yml` or `guide.yml`, rebuild:
 npm run build-landscape
 ```
 
-**Note:** Landscape2 appends `" Landscape"` to the foundation name in page titles. The build patch script corrects this so the site title stays **MCP Landscape**.
+**Note:** Landscape2 appends `" Landscape"` to the foundation name in page titles. The build patch script corrects this, sets the public page title, and writes `robots.txt`, `sitemap.xml`, and the Open Graph image into the build.
 
 ## GitHub Pages
 
@@ -133,7 +133,7 @@ Build with the Pages base path, then deploy the contents of `landscape/build/`:
 npm run build-landscape:pages
 ```
 
-The `url` and `base_path` in [`settings.yml`](settings.yml) must match your Pages URL.
+The `url` in [`settings.yml`](settings.yml) must stay `https://landscape.mcphq.org`. That value becomes the canonical URL, Open Graph URL, and structured data URL. `base_path` is only needed when the site is hosted under a subpath.
 
 ## Generated files (do not commit)
 
