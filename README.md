@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-164-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-163-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -43,7 +43,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Data, Analytics, and BI](#data-analytics-and-bi) (13)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (8)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (20)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (19)
 - [Utilities and Examples](#utilities-and-examples) (11)
 
 <a id="official-and-reference"></a>
@@ -246,7 +246,7 @@ Integrate chat, email, calendars, and team collaboration tools.
 
 - **[Atlassian MCP Server](https://github.com/atlassian/atlassian-mcp-server)** `Official` `TypeScript` — Manage Jira issues and Confluence pages across Atlassian Cloud.  
   `jira` `confluence` `atlassian`
-- **[BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api)** `Official` `TypeScript` — MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.  
+- **[BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api)** `TypeScript` — MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.  
   `mcp` `social-media` `publishing` `bulkpublish`
 - **[Discord MCP Server](https://github.com/SaseQ/discord-mcp)** `Python` — Read and send messages in Discord servers and channels.  
   `discord` `chat` `community`
@@ -363,7 +363,7 @@ Analytics platforms, monitoring, and business intelligence tooling.
 
 Court records, legal research, case search, and judicial workflow data.
 
-- **[eCourts India MCP](https://mcp.ecourtsindia.com/)** `Official` `Other` — Official hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.  
+- **[eCourts India MCP](https://mcp.ecourtsindia.com/)** `Other` — Third-party hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.  
   `legal` `court-data` `remote` `oauth`
 
 <a id="security-and-identity"></a>
@@ -419,8 +419,6 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crm` `sales` `enterprise`
 - **[Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp)** `TypeScript` — Community-maintained integration for Shopify products, orders, and store operations.  
   `ecommerce` `shopify` `retail`
-- **[Solana Sniper Bot MCP](https://github.com/solara-sniper-bot/MCP)** `Other` — Free autonomous Solana trading bot with 281 MCP tools for Pump.fun meme sniping, Jupiter spot trading, perpetual futures, and mirror copy-trading. Requires Solana Sniper Bot V4 for Windows.  
-  `solana` `trading` `crypto` `defi`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
   `payments` `pos` `commerce`
 - **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.  
@@ -446,7 +444,7 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `discovery` `search` `registry`
 - **[Anyquery](https://github.com/julien040/anyquery)** `Go` — Query 40+ apps and databases with SQL from a single local binary.  
   `sql` `integration` `local`
-- **[CareClinic Health Tracker](https://github.com/tandemloop/careclinic_mcp)** `Official` `Other` — Track symptoms, mood, medications, and wellness patterns through a remote OAuth MCP server.  
+- **[CareClinic Health Tracker](https://github.com/tandemloop/careclinic_mcp)** `Other` — Track symptoms, mood, medications, and wellness patterns through a remote OAuth MCP server.  
   `health` `tracking` `oauth` `wellness`
 - **[FastMCP](https://github.com/jlowin/fastmcp)** `Python` — Python framework for building MCP servers quickly with decorators.  
   `framework` `python` `starter`
