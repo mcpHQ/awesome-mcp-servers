@@ -10,6 +10,13 @@ const CONCURRENCY = 10;
 const TIMEOUT_MS = 15_000;
 const USER_AGENT = "awesome-mcp-servers-link-checker/1.0";
 
+// Created by this repo's own deploy, so they 404 in a PR until it merges.
+// The scheduled full check still verifies them.
+const SELF_DEPLOYED_PREFIXES = [
+  "https://landscape.mcphq.org/api/",
+  "https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/",
+];
+
 /** @type {Map<string, Set<string>>} */
 const links = new Map();
 
@@ -175,6 +182,11 @@ if (changedArgument !== -1) {
     process.exit(1);
   }
   collectFromDiff(range);
+  for (const url of [...links.keys()]) {
+    if (SELF_DEPLOYED_PREFIXES.some((prefix) => url.startsWith(prefix))) {
+      links.delete(url);
+    }
+  }
 } else {
   collectFromServersJson();
   for (const filePath of collectMarkdownFiles(root)) {

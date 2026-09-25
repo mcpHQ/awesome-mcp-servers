@@ -184,7 +184,7 @@
   {
     "name": "Statsnet",
     "url": "https://github.com/usenetstate/statsnet-mcp",
-    "description": "Background check any company in the world: registration, executives, courts and finances.",
+    "description": "Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Statsnet",
