@@ -84,6 +84,14 @@ language and tag formatting, duplicate names/URLs, endpoint metadata, and
 minimum catalog size. Pull requests also check newly added or changed external
 links.
 
+## After your entry is merged
+
+You're welcome to add the "Listed on mcpHQ" badge to your project's README:
+
+```markdown
+[![Listed on mcpHQ](https://img.shields.io/badge/Listed%20on-mcpHQ-8A2BE2)](https://github.com/mcpHQ/awesome-mcp-servers)
+```
+
 ## Code of conduct
 
 Be respectful, cite sources accurately, and prefer quality over quantity.

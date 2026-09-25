@@ -1974,21 +1974,6 @@
     }
   },
   {
-    "name": "SearchLink Lite",
-    "url": "https://github.com/GlobalMatchHub/searchlink-lite",
-    "description": "Read-only access to Google Search Console performance, indexing, and sitemap data from an MCP client.",
-    "category": "data-analytics-and-bi",
-    "language": "TypeScript",
-    "provider": "Community",
-    "tags": [
-      "seo",
-      "search-console",
-      "analytics",
-      "google"
-    ],
-    "official": false
-  },
-  {
     "name": "Kleap",
     "url": "https://github.com/kleaphq/cli",
     "description": "Create, edit, and publish websites from AI clients through a hosted MCP server.",
@@ -2352,23 +2337,6 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/invoice"
-    }
-  },
-  {
-    "name": "Zovo E-commerce Suite",
-    "url": "https://github.com/theluckystrike/mcp-e-commerce-suite",
-    "description": "Product catalog, pricing rules, and order management tools for e-commerce workflows; hosted Streamable HTTP endpoint available.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "TypeScript",
-    "provider": "Zovo",
-    "tags": [
-      "ecommerce",
-      "catalog",
-      "orders"
-    ],
-    "official": false,
-    "endpoints": {
-      "streamableHttp": "https://mcp.zovo.one/mcp/e-commerce"
     }
   },
   {
