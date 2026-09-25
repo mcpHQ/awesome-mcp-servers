@@ -1,50 +1,56 @@
 # Awesome MCP Servers
 
+[![Servers](https://img.shields.io/badge/servers-162-brightgreen)](#catalog)
+[![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
+[![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-146-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
+**A hand-curated, link-checked catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers, with an [interactive map](https://landscape.mcphq.org/) and a [JSON API](#use-the-data).**
+
+<a href="https://landscape.mcphq.org/" target="_blank" rel="noopener noreferrer">
+  <img src="assets/mcp-landscape.png" alt="MCP Landscape: interactive, searchable map of every server in this catalog">
+</a>
+
+<p align="center"><b><a href="https://landscape.mcphq.org/">Explore the live MCP Landscape →</a></b></p>
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This list focuses on well-scoped, source-available servers that extend AI workflows with databases, developer tools, browsers, cloud services, and more.
 
-> **Explore visually:** Browse the [MCP Landscape](#mcp-landscape) — an interactive, searchable map of every server in this catalog.
+## Why this list
 
-> **Source of truth:** [`data/servers.json`](data/servers.json) is the canonical catalog. The README is generated from that file.
+- **Curated, not scraped.** Every entry is reviewed against the [quality criteria](#quality-criteria). Spam, impersonators, and abandoned forks are rejected.
+- **No dead links.** Every link is checked on each pull request and again every week. Broken entries get fixed or removed.
+- **Structured data.** Every server has a category, language, provider, tags, and an official/community flag in [`data/servers.json`](data/servers.json). The README and the landscape are both generated from that file.
+- **Built to be reused.** You can pull the whole catalog as JSON into your own tools, agents, or dashboards.
+
+If this list saves you time, please ⭐ star the repo. It helps other people find it.
 
 ## Quick Links
 
-- [MCP Landscape](https://landscape.mcphq.org/) — interactive server map
+- [MCP Landscape](https://landscape.mcphq.org/): interactive server map
+- [Use the data](#use-the-data): JSON API for tools and agents
+- [Listed on mcpHQ badge](#listed-on-mcphq-badge): for server maintainers
 - [Official MCP Registry](https://registry.modelcontextprotocol.io/)
 - [MCP Specification](https://modelcontextprotocol.io/specification/latest)
 - [Reference Servers](https://github.com/modelcontextprotocol/servers)
 - [Contributing Guide](CONTRIBUTING.md)
 
-## MCP Landscape
-
-<a href="https://landscape.mcphq.org/" target="_blank" rel="noopener noreferrer">
-  <img src="assets/mcp-landscape.png" alt="MCP Landscape">
-</a>
-
-Interactive, searchable map of the MCP servers in this catalog. **[Open the live site →](https://landscape.mcphq.org/)**
-
-See [landscape/README.md](landscape/README.md) for how the landscape is built and how to preview or customize it locally.
-
 ## Catalog
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (13)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (17)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (12)
-- [Filesystems and Documents](#filesystems-and-documents) (7)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (19)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (13)
+- [Filesystems and Documents](#filesystems-and-documents) (8)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
-- [Communication and Productivity](#communication-and-productivity) (13)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (19)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (10)
+- [Communication and Productivity](#communication-and-productivity) (15)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (21)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (12)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (8)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (14)
-- [Utilities and Examples](#utilities-and-examples) (10)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (19)
+- [Utilities and Examples](#utilities-and-examples) (11)
 
 <a id="official-and-reference"></a>
 
@@ -118,6 +124,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `harness` `cicd` `devops`
 - **[Agent QA](https://github.com/vostride/agent-qa)** `TypeScript` — Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces.  
   `testing` `regression` `browser` `mobile` `mcp`
+- **[API.market MCP Gateway](https://api.market/mcp)** `Official` `TypeScript` — Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API.  
+  `api` `gateway` `oauth` `hosted`
 - **[ax](https://github.com/Necmttn/ax)** `TypeScript` — Local-first MCP server for querying coding-agent sessions, tool calls, skills, and costs.  
   `observability` `coding-agents` `costs`
 - **[Constitution Lint MCP Server](https://github.com/joeyycli/constitution-lint-action)** `Python` — Lints CLAUDE.md-style AI agent constitution files for missing operational guardrails: spend limits, injection defense, escalation paths, and secrets handling.  
@@ -134,6 +142,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `gitlab` `devops` `issues`
 - **[GodotMCP](https://github.com/vberai/godot-mcp)** `GDScript` — A secure, 100% native GDScript Server-Sent Events (SSE) server bridging Claude, Cursor, and Windsurf directly to Godot 4.x scene trees. No Node.js or C# dependencies required.  
   `godot` `developer-tools` `code-intelligence` `claude` `cursor`
+- **[Kleap](https://github.com/kleaphq/cli)** `Official` `JavaScript` — Create, edit, and publish websites from AI clients through a hosted MCP server.  
+  `websites` `publishing` `cli` `agents`
 - **[Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes)** `TypeScript` — Operate Kubernetes clusters with kubectl-style MCP tools.  
   `kubernetes` `devops` `cloud`
 - **[Linear MCP Server](https://linear.app/docs/mcp)** `Official` `TypeScript` — Create and manage Linear issues, projects, and team workflows.  
@@ -157,7 +167,7 @@ Browse the web, scrape content, search, and automate browser interactions.
 
 - **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `Official` `TypeScript` — Run Apify Actors and extract web datasets at scale.  
   `scraping` `actors` `data`
-- **[BGPT MCP](https://github.com/connerlambden/bgpt-mcp)** `Python` — Search full-text scientific papers and return structured evidence for research agents.  
+- **[BGPT MCP](https://bgpt.pro/mcp/)** `Python` — Search full-text scientific papers and return structured evidence for research agents.  
   `search` `research` `science` `literature`
 - **[Brave Search MCP Server](https://github.com/brave/brave-search-mcp-server)** `Official` `TypeScript` — Privacy-focused web and local search through the Brave Search API.  
   `search` `privacy` `web`
@@ -167,6 +177,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `browser` `cloud` `automation`
 - **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `Official` `TypeScript` — Control and inspect Chrome through DevTools protocol for debugging and automation.  
   `chrome` `devtools` `debugging`
+- **[ContHunt](https://github.com/Synthenova/conthunt-mcp)** `Official` `Other` — Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.  
+  `social` `content` `research` `tiktok`
 - **[Exa MCP Server](https://github.com/exa-labs/exa-mcp-server)** `Official` `TypeScript` — Neural and keyword web search optimized for AI research workflows.  
   `search` `research` `web`
 - **[Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server)** `Official` `TypeScript` — Scrape, crawl, and extract structured web data with Firecrawl.  
@@ -192,6 +204,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `google-drive` `files` `cloud`
 - **[MarkItDown MCP](https://github.com/microsoft/markitdown)** `Official` `Python` — Convert PDFs, Office docs, and media into markdown for LLM ingestion.  
   `documents` `conversion` `markdown`
+- **[Markovo](https://github.com/fisher-byte/markovo)** `Python` — Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio.  
+  `pdf` `documents` `markdown` `conversion` `remote`
 - **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `Official` `TypeScript` — Read and write Notion pages, databases, and workspace content.  
   `notion` `knowledge-base` `docs`
 - **[Obsidian MCP Server](https://github.com/MarkusPfundstein/mcp-obsidian)** `TypeScript` — Search and read notes from local Obsidian vaults.  
@@ -252,6 +266,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `teams` `chat` `microsoft`
 - **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
   `video` `editing` `automation` `mcp`
+- **[Postbag MCP Server](https://github.com/faahim/postbag)** `TypeScript` — Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks.  
+  `forms` `email` `webhooks` `self-hosted`
 - **[Process Street MCP Server](https://github.com/process-street/process-street-mcp)** `Official` `Other` — Connect AI clients to Process Street workflows, workflow runs, tasks, users, data sets, and operational records.  
   `workflows` `tasks` `process-management` `operations`
 - **[Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** `Python` — Send messages and interact with Slack channels and workspaces.  
@@ -262,6 +278,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `tasks` `productivity` `todoist`
 - **[Zoom MCP Server](https://github.com/zoom/mcp-registry)** `Official` `TypeScript` — Schedule and manage Zoom meetings and recordings.  
   `zoom` `meetings` `video`
+- **[Zovo Office Suite](https://github.com/theluckystrike/mcp-servers)** `TypeScript` — Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracking, spreadsheets, PDFs and resumes; 30 servers also reachable as hosted Streamable HTTP endpoints.  
+  `productivity` `invoice` `expenses` `spreadsheet` `pdf`
 
 <a id="ai-agents-and-memory"></a>
 
@@ -281,6 +299,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `knowledge-graph` `memory` `temporal`
 - **[Hugging Face MCP Server](https://github.com/huggingface/hf-mcp-server)** `Official` `TypeScript` — Access Hugging Face models, datasets, and Spaces from MCP clients.  
   `huggingface` `models` `ml`
+- **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)** `Rust` — Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants.  
+  `memory` `knowledge` `encryption` `local`
 - **[LangGraph MCP Server](https://github.com/langchain-ai/langgraph-mcp)** `Official` `Python` — Orchestrate LangGraph agents and workflows through MCP.  
   `agents` `orchestration` `langgraph`
 - **[LlamaIndex MCP Server](https://github.com/run-llama/llama_index)** `Official` `Python` — Data framework for LLM apps with MCP tool and agent connectors.  
@@ -303,6 +323,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `ai-models` `api-gateway` `local`
 - **[SandBase Harness](https://github.com/sandbaseai/sandbase-harness)** `Official` `TypeScript` — Self-hosted MCP bridge for agent sessions, sandboxed turns, artifacts, audit, and replay.  
   `agent-runtime` `sandbox` `audit` `replay` `self-hosted`
+- **[Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)** `Official` `TypeScript` — Search locally captured screen text and audio history via MCP under the Screenpipe Commercial License, with optional cloud features and connected AI clients able to transmit context off-device.  
+  `memory` `screen` `audio` `local-first`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
 - **[Zep MCP Server](https://github.com/jaysack/zep-mcp)** `Python` — Community MCP wrapper for long-term memory and context retrieval with Zep.  
@@ -334,6 +356,10 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `analytics` `funnels` `product`
 - **[Netdata MCP Server](https://github.com/netdata/netdata)** `Official` `C` — Real-time infrastructure monitoring and health metrics via MCP.  
   `monitoring` `infra` `metrics`
+- **[Robot Speed](https://github.com/robot-speed/mcp)** `Official` `TypeScript` — SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.  
+  `seo` `analytics` `keywords` `content`
+- **[Screpy SEO MCP](https://screpy.com/feature/seo-mcp/)** `Official` `Other` — Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.  
+  `seo` `analytics` `ai-visibility` `remote` `oauth`
 
 <a id="legal-and-court-data"></a>
 
@@ -375,6 +401,10 @@ Payments, banking, CRM, e-commerce, and business system integrations.
 
 - **[AgentServices](https://github.com/vbkotecha/agentservices-api)** `Python` — Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.  
   `crypto` `defi` `x402` `mcp` `agents`
+- **[Astral Twin](https://astraldaily.com)** `Official` `Other` — Create and mint NFT asset packs on the Base blockchain from AI clients.  
+  `nft` `blockchain` `base` `minting`
+- **[Clera](https://github.com/getclera/mcp)** `Official` `TypeScript` — Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.  
+  `recruiting` `hiring` `candidates` `remote` `oauth`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
 - **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `TypeScript` — Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.  
@@ -397,10 +427,16 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `solana` `trading` `crypto` `defi`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
   `payments` `pos` `commerce`
+- **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Background check any company in the world: registration, executives, courts and finances.  
+  `company-data` `business` `finance` `remote`
 - **[Stripe MCP Server](https://github.com/stripe/agent-toolkit)** `Official` `TypeScript` — Manage Stripe payments, customers, and subscriptions via MCP tools.  
   `payments` `billing` `fintech`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
   `jobs` `recruiting` `remote` `oauth`
+- **[Zovo Invoice Generator](https://github.com/theluckystrike/mcp-invoice-generator)** `TypeScript` — Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint.  
+  `invoice` `billing` `pdf`
+- **[Zovo Invoice MCP](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice)** `TypeScript` — Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.  
+  `invoice` `pdf` `billing` `bookkeeping` `finance`
 
 <a id="utilities-and-examples"></a>
 
@@ -412,6 +448,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `discovery` `search` `registry`
 - **[Anyquery](https://github.com/julien040/anyquery)** `Go` — Query 40+ apps and databases with SQL from a single local binary.  
   `sql` `integration` `local`
+- **[CareClinic Health Tracker](https://github.com/tandemloop/careclinic_mcp)** `Official` `Other` — Track symptoms, mood, medications, and wellness patterns through a remote OAuth MCP server.  
+  `health` `tracking` `oauth` `wellness`
 - **[FastMCP](https://github.com/jlowin/fastmcp)** `Python` — Python framework for building MCP servers quickly with decorators.  
   `framework` `python` `starter`
 - **[Google Maps MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** `Python` — Geocoding, directions, and place search via Google Maps.  
@@ -429,14 +467,41 @@ Helpful utilities, templates, and starter servers for learning MCP.
 - **[Weather MCP Server](https://github.com/isdaniel/mcp_weather_server)** `Python` — Fetch current weather and forecasts from public weather APIs.  
   `weather` `api` `utility`
 
+## Use the Data
+
+The full catalog is published as JSON with every landscape deploy:
+
+| File | URL |
+| --- | --- |
+| Servers | [`https://landscape.mcphq.org/api/servers.json`](https://landscape.mcphq.org/api/servers.json) |
+| Categories | [`https://landscape.mcphq.org/api/categories.json`](https://landscape.mcphq.org/api/categories.json) |
+
+```bash
+curl -s https://landscape.mcphq.org/api/servers.json | jq '.[] | select(.official) | .name'
+```
+
+The fields are described in [`data/servers.schema.json`](data/servers.schema.json). Please link back to this repo if you build on the data.
+
+## Listed on mcpHQ Badge
+
+If your server is in this catalog, you can add this badge to your README:
+
+[![Listed on mcpHQ](https://img.shields.io/badge/Listed%20on-mcpHQ-8A2BE2)](https://github.com/mcpHQ/awesome-mcp-servers)
+
+```markdown
+[![Listed on mcpHQ](https://img.shields.io/badge/Listed%20on-mcpHQ-8A2BE2)](https://github.com/mcpHQ/awesome-mcp-servers)
+```
+
 ## Quality Criteria
 
-We prioritize servers that are:
+An entry is accepted if the server is:
 
-- **Purposeful** — clear tools/resources for a real workflow
-- **Discoverable** — public repo, docs, or registry listing
-- **Maintainable** — recent activity or official backing
-- **Safe to evaluate** — no obvious spam or impersonation
+- **Purposeful**: clear tools/resources for a real workflow
+- **Discoverable**: public repo, docs, or registry listing
+- **Maintainable**: recent activity or official backing
+- **Safe to evaluate**: no obvious spam or impersonation
+
+An entry is removed if its link stays broken, its repository is archived without a maintained successor, or it turns out to be misleading about what it does or who backs it.
 
 ## Contribute
 
@@ -448,6 +513,8 @@ Then regenerate the README:
 node scripts/generate-readme.mjs
 node scripts/validate-data.mjs
 ```
+
+See [landscape/README.md](landscape/README.md) for how the landscape is built and how to preview or customize it locally.
 
 ## License
 

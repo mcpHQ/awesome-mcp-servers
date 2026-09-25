@@ -182,6 +182,21 @@
     "official": true
   },
   {
+    "name": "Statsnet",
+    "url": "https://github.com/usenetstate/statsnet-mcp",
+    "description": "Background check any company in the world: registration, executives, courts and finances.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Statsnet",
+    "tags": [
+      "company-data",
+      "business",
+      "finance",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "Supabase MCP Server",
     "url": "https://github.com/supabase-community/supabase-mcp",
     "description": "Community-maintained integration for Supabase projects, tables, and auth through MCP tools.",
@@ -636,7 +651,7 @@
   },
   {
     "name": "BGPT MCP",
-    "url": "https://github.com/connerlambden/bgpt-mcp",
+    "url": "https://bgpt.pro/mcp/",
     "description": "Search full-text scientific papers and return structured evidence for research agents.",
     "category": "browsers-search-and-web-automation",
     "language": "Python",
@@ -647,7 +662,10 @@
       "science",
       "literature"
     ],
-    "official": false
+    "official": false,
+    "endpoints": {
+      "sse": "https://bgpt.pro/mcp/sse"
+    }
   },
   {
     "name": "Tavily MCP Server",
@@ -816,6 +834,25 @@
       "data"
     ],
     "official": false
+  },
+  {
+    "name": "Markovo",
+    "url": "https://github.com/fisher-byte/markovo",
+    "description": "Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "Markovo",
+    "tags": [
+      "pdf",
+      "documents",
+      "markdown",
+      "conversion",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://markovo.net/mcp"
+    }
   },
   {
     "name": "API Status Check MCP",
@@ -1919,6 +1956,96 @@
     "official": false
   },
   {
+    "name": "Robot Speed",
+    "url": "https://github.com/robot-speed/mcp",
+    "description": "SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Robot Speed",
+    "tags": [
+      "seo",
+      "analytics",
+      "keywords",
+      "content"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.robot-speed.com/api/mcp"
+    }
+  },
+  {
+    "name": "Kleap",
+    "url": "https://github.com/kleaphq/cli",
+    "description": "Create, edit, and publish websites from AI clients through a hosted MCP server.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Kleap",
+    "tags": [
+      "websites",
+      "publishing",
+      "cli",
+      "agents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://kleap.co/api/mcp"
+    }
+  },
+  {
+    "name": "CareClinic Health Tracker",
+    "url": "https://github.com/tandemloop/careclinic_mcp",
+    "description": "Track symptoms, mood, medications, and wellness patterns through a remote OAuth MCP server.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "CareClinic",
+    "tags": [
+      "health",
+      "tracking",
+      "oauth",
+      "wellness"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.careclinic.io/mcp"
+    }
+  },
+  {
+    "name": "Astral Twin",
+    "url": "https://astraldaily.com",
+    "description": "Create and mint NFT asset packs on the Base blockchain from AI clients.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Astral Daily",
+    "tags": [
+      "nft",
+      "blockchain",
+      "base",
+      "minting"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://astraldaily.com/api/mcp"
+    }
+  },
+  {
+    "name": "ContHunt",
+    "url": "https://github.com/Synthenova/conthunt-mcp",
+    "description": "Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "ContHunt",
+    "tags": [
+      "social",
+      "content",
+      "research",
+      "tiktok"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.conthunt.app/"
+    }
+  },
+  {
     "name": "Live Tennis API MCP",
     "url": "https://github.com/livetennisapi/livetennisapi-mcp",
     "description": "Real-time tennis match state \u2014 score, current server, three-valued break-point flag, and retirement/walkover/completed status \u2014 plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
@@ -2111,5 +2238,161 @@
       "bulkpublish"
     ],
     "official": true
+  },
+  {
+    "name": "Zovo Invoice MCP",
+    "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice",
+    "description": "Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Zovo",
+    "tags": [
+      "invoice",
+      "pdf",
+      "billing",
+      "bookkeeping",
+      "finance"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.zovo.one/mcp/invoice"
+    }
+  },
+  {
+    "name": "Zovo Office Suite",
+    "url": "https://github.com/theluckystrike/mcp-servers",
+    "description": "Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracking, spreadsheets, PDFs and resumes; 30 servers also reachable as hosted Streamable HTTP endpoints.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Zovo",
+    "tags": [
+      "productivity",
+      "invoice",
+      "expenses",
+      "spreadsheet",
+      "pdf"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.zovo.one/mcp/expense-tracker"
+    }
+  },
+  {
+    "name": "Hyperconsciousness",
+    "url": "https://github.com/louis030195/hyperconsciousness",
+    "description": "Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants.",
+    "category": "ai-agents-and-memory",
+    "language": "Rust",
+    "provider": "Community",
+    "tags": [
+      "memory",
+      "knowledge",
+      "encryption",
+      "local"
+    ],
+    "official": false
+  },
+  {
+    "name": "Postbag MCP Server",
+    "url": "https://github.com/faahim/postbag",
+    "description": "Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Postbag",
+    "tags": [
+      "forms",
+      "email",
+      "webhooks",
+      "self-hosted"
+    ],
+    "official": false
+  },
+  {
+    "name": "Screenpipe",
+    "url": "https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp",
+    "description": "Search locally captured screen text and audio history via MCP under the Screenpipe Commercial License, with optional cloud features and connected AI clients able to transmit context off-device.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Screenpipe",
+    "tags": [
+      "memory",
+      "screen",
+      "audio",
+      "local-first"
+    ],
+    "official": true
+  },
+  {
+    "name": "Zovo Invoice Generator",
+    "url": "https://github.com/theluckystrike/mcp-invoice-generator",
+    "description": "Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Zovo",
+    "tags": [
+      "invoice",
+      "billing",
+      "pdf"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.zovo.one/mcp/invoice"
+    }
+  },
+  {
+    "name": "Screpy SEO MCP",
+    "url": "https://screpy.com/feature/seo-mcp/",
+    "description": "Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Screpy",
+    "tags": [
+      "seo",
+      "analytics",
+      "ai-visibility",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.screpy.com"
+    }
+  },
+  {
+    "name": "Clera",
+    "url": "https://github.com/getclera/mcp",
+    "description": "Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Clera",
+    "tags": [
+      "recruiting",
+      "hiring",
+      "candidates",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.getclera.com"
+    }
+  },
+  {
+    "name": "API.market MCP Gateway",
+    "url": "https://api.market/mcp",
+    "description": "Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "API.market",
+    "tags": [
+      "api",
+      "gateway",
+      "oauth",
+      "hosted"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.market/api/mcp/gateway"
+    }
   }
 ]
