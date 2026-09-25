@@ -85,12 +85,12 @@ Query, manage, and explore databases, vector stores, and data warehouses.
   `vector` `embeddings` `rag`
 - **[DBHub](https://github.com/bytebase/dbhub)** `Official` `Go` — Universal database gateway supporting PostgreSQL, MySQL, SQL Server, SQLite, and MariaDB.  
   `sql` `postgres` `mysql`
-- **[DuckDB MCP Server](https://github.com/motherduckdb/mcp-server-motherduck)** `Official` `Python` — Run analytical SQL queries against DuckDB databases and files.  
-  `analytics` `sql` `olap`
 - **[Elasticsearch MCP Server](https://github.com/elastic/mcp-server-elasticsearch)** `Official` `TypeScript` — Search and analyze data in Elasticsearch clusters via MCP.  
   `search` `analytics` `elastic`
 - **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `Official` `TypeScript` — Query and manage MongoDB databases and collections from AI clients.  
   `mongodb` `nosql` `documents`
+- **[MotherDuck MCP Server](https://github.com/motherduckdb/mcp-server-motherduck)** `Official` `Python` — Run analytical SQL queries against local DuckDB files and MotherDuck cloud databases.  
+  `analytics` `sql` `olap`
 - **[Neon MCP Server](https://github.com/neondatabase/mcp-server-neon)** `Official` `TypeScript` — Manage Neon Postgres databases, branches, and SQL queries via MCP.  
   `postgres` `serverless` `sql`
 - **[Pinecone MCP Server](https://github.com/pinecone-io/pinecone-mcp)** `Official` `TypeScript` — Manage Pinecone indexes and run semantic vector queries.  
@@ -128,7 +128,7 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `docs` `libraries` `coding`
 - **[Docker MCP Server](https://github.com/docker/mcp-gateway)** `Official` `Go` — Manage containers, images, and Docker environments through MCP.  
   `containers` `devops` `docker`
-- **[E2B MCP Server](https://github.com/e2b-dev/mcp-server)** `Official` `TypeScript` — Execute code in secure cloud sandboxes for agentic coding workflows.  
+- **[E2B MCP Server](https://docs.e2b.dev/mcp)** `Official` `Other` — Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows.  
   `sandbox` `code-execution` `agents`
 - **[GitHub MCP Server](https://github.com/github/github-mcp-server)** `Official` `Go` — Official GitHub integration for repos, issues, pull requests, and code search.  
   `github` `git` `ci-cd`
@@ -219,7 +219,7 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `uptime` `monitoring` `status` `incidents`
 - **[AWS MCP Server](https://github.com/alexei-led/aws-mcp-server)** `Python` — Execute AWS CLI commands safely in a containerized environment.  
   `aws` `cloud` `cli`
-- **[Azure MCP Server](https://github.com/Azure/azure-mcp)** `Official` `TypeScript` — Manage Azure resources and services through MCP tools.  
+- **[Azure MCP Server](https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server)** `Official` `C#` — Manage Azure resources and services through MCP tools.  
   `azure` `cloud` `infra`
 - **[Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare)** `Official` `TypeScript` — Manage Workers, KV, R2, and Cloudflare platform resources.  
   `cloudflare` `edge` `workers`
@@ -231,11 +231,11 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `platform-engineering` `catalog` `devops`
 - **[Pulumi MCP Server](https://www.pulumi.com/docs/ai/mcp-server/)** `Official` `TypeScript` — Infrastructure as code operations with Pulumi stacks and resources.  
   `pulumi` `iac` `cloud`
-- **[Railway MCP Server](https://github.com/railwayapp/railway-mcp-server)** `Official` `TypeScript` — Deploy services and manage Railway projects through MCP.  
+- **[Railway MCP Server](https://docs.railway.com/cli/mcp)** `Official` `Rust` — Deploy services and manage Railway projects through the MCP server built into the Railway CLI.  
   `railway` `deploy` `paas`
 - **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `Official` `Go` — Generate and validate Terraform configurations with HashiCorp tooling.  
   `terraform` `iac` `infra`
-- **[Vercel MCP Server](https://github.com/vercel/mcp-handler)** `Official` `TypeScript` — Deploy and manage Vercel projects and deployments from AI clients.  
+- **[Vercel MCP Server](https://vercel.com/docs/agent-resources/vercel-mcp)** `Official` `Other` — Deploy and manage Vercel projects and deployments from AI clients.  
   `vercel` `deploy` `frontend`
 
 <a id="communication-and-productivity"></a>
@@ -270,7 +270,7 @@ Integrate chat, email, calendars, and team collaboration tools.
   `project-management` `tasks` `agents` `remote`
 - **[Todoist MCP Server](https://github.com/abhiz123/todoist-mcp-server)** `TypeScript` — Manage Todoist tasks, projects, and due dates from AI assistants.  
   `tasks` `productivity` `todoist`
-- **[Zoom MCP Server](https://github.com/zoom/mcp-registry)** `Official` `TypeScript` — Schedule and manage Zoom meetings and recordings.  
+- **[Zoom MCP Server](https://developers.zoom.us/docs/mcp/)** `Official` `Other` — Official hosted Zoom MCP servers for meetings, chat, docs, and whiteboards.  
   `zoom` `meetings` `video`
 - **[Zovo Office Suite](https://github.com/theluckystrike/mcp-servers)** `TypeScript` — Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracking, spreadsheets, PDFs and resumes; 30 servers also reachable as hosted Streamable HTTP endpoints.  
   `productivity` `invoice` `expenses` `spreadsheet` `pdf`
@@ -287,7 +287,7 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `remote` `oauth`
 - **[ContextStream](https://github.com/contextstream/mcp-server)** `Official` `TypeScript` — Shared project memory that both developers and AI agents read and write across Cursor, Claude Code, Codex, Grok, Windsurf and the rest.  
   `memory` `context` `agents` `coding`
-- **[CrewAI MCP Server](https://github.com/crewAIInc/crewAI)** `Official` `Python` — Multi-agent orchestration framework with MCP integration support.  
+- **[CrewAI Enterprise MCP Server](https://github.com/crewAIInc/enterprise-mcp-server)** `Official` `Python` — Kick off CrewAI crew deployments and check their status from MCP clients.  
   `agents` `multi-agent` `orchestration`
 - **[Graphiti MCP Server](https://github.com/getzep/graphiti)** `Official` `Python` — Temporal knowledge graphs for agent memory and context building.  
   `knowledge-graph` `memory` `temporal`
@@ -295,13 +295,13 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `huggingface` `models` `ml`
 - **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)** `Rust` — Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants.  
   `memory` `knowledge` `encryption` `local`
-- **[LangGraph MCP Server](https://github.com/langchain-ai/langgraph-mcp)** `Official` `Python` — Orchestrate LangGraph agents and workflows through MCP.  
+- **[LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp)** `Official` `Other` — Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint.  
   `agents` `orchestration` `langgraph`
-- **[LlamaIndex MCP Server](https://github.com/run-llama/llama_index)** `Official` `Python` — Data framework for LLM apps with MCP tool and agent connectors.  
+- **[LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/)** `Official` `Other` — Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.  
   `rag` `indexing` `agents`
 - **[Magic Hour MCP Server](https://magichour.ai)** `Official` `Python` — Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.  
   `ai-video` `image-generation` `audio-generation` `media-editing` `remote`
-- **[mem0 MCP Server](https://github.com/mem0ai/mem0-mcp)** `Official` `Python` — Persistent memory layer for personalized agent interactions.  
+- **[mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp)** `Official` `Other` — Hosted persistent memory layer for personalized agent interactions.  
   `memory` `personalization` `agents`
 - **[Neither MCP](https://github.com/stonianua/neither-mcp)** `TypeScript` — Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.  
   `memory` `context` `cursor` `knowledge`

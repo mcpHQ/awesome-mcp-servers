@@ -295,12 +295,12 @@
     "official": true
   },
   {
-    "name": "DuckDB MCP Server",
+    "name": "MotherDuck MCP Server",
     "url": "https://github.com/motherduckdb/mcp-server-motherduck",
-    "description": "Run analytical SQL queries against DuckDB databases and files.",
+    "description": "Run analytical SQL queries against local DuckDB files and MotherDuck cloud databases.",
     "category": "databases-and-storage",
     "language": "Python",
-    "provider": "DuckDB",
+    "provider": "MotherDuck",
     "tags": [
       "analytics",
       "sql",
@@ -539,10 +539,10 @@
   },
   {
     "name": "E2B MCP Server",
-    "url": "https://github.com/e2b-dev/mcp-server",
-    "description": "Execute code in secure cloud sandboxes for agentic coding workflows.",
+    "url": "https://docs.e2b.dev/mcp",
+    "description": "Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows.",
     "category": "developer-tools-and-code-intelligence",
-    "language": "TypeScript",
+    "language": "Other",
     "provider": "E2B",
     "tags": [
       "sandbox",
@@ -888,10 +888,10 @@
   },
   {
     "name": "Azure MCP Server",
-    "url": "https://github.com/Azure/azure-mcp",
+    "url": "https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server",
     "description": "Manage Azure resources and services through MCP tools.",
     "category": "cloud-and-infrastructure",
-    "language": "TypeScript",
+    "language": "C#",
     "provider": "Microsoft",
     "tags": [
       "azure",
@@ -930,10 +930,10 @@
   },
   {
     "name": "Vercel MCP Server",
-    "url": "https://github.com/vercel/mcp-handler",
+    "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
     "description": "Deploy and manage Vercel projects and deployments from AI clients.",
     "category": "cloud-and-infrastructure",
-    "language": "TypeScript",
+    "language": "Other",
     "provider": "Vercel",
     "tags": [
       "vercel",
@@ -944,10 +944,10 @@
   },
   {
     "name": "Railway MCP Server",
-    "url": "https://github.com/railwayapp/railway-mcp-server",
-    "description": "Deploy services and manage Railway projects through MCP.",
+    "url": "https://docs.railway.com/cli/mcp",
+    "description": "Deploy services and manage Railway projects through the MCP server built into the Railway CLI.",
     "category": "cloud-and-infrastructure",
-    "language": "TypeScript",
+    "language": "Rust",
     "provider": "Railway",
     "tags": [
       "railway",
@@ -1098,10 +1098,10 @@
   },
   {
     "name": "Zoom MCP Server",
-    "url": "https://github.com/zoom/mcp-registry",
-    "description": "Schedule and manage Zoom meetings and recordings.",
+    "url": "https://developers.zoom.us/docs/mcp/",
+    "description": "Official hosted Zoom MCP servers for meetings, chat, docs, and whiteboards.",
     "category": "communication-and-productivity",
-    "language": "TypeScript",
+    "language": "Other",
     "provider": "Zoom",
     "tags": [
       "zoom",
@@ -1163,17 +1163,20 @@
   },
   {
     "name": "mem0 MCP Server",
-    "url": "https://github.com/mem0ai/mem0-mcp",
-    "description": "Persistent memory layer for personalized agent interactions.",
+    "url": "https://docs.mem0.ai/platform/mem0-mcp",
+    "description": "Hosted persistent memory layer for personalized agent interactions.",
     "category": "ai-agents-and-memory",
-    "language": "Python",
+    "language": "Other",
     "provider": "mem0",
     "tags": [
       "memory",
       "personalization",
       "agents"
     ],
-    "official": true
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.mem0.ai/mcp"
+    }
   },
   {
     "name": "Zep MCP Server",
@@ -1205,10 +1208,10 @@
   },
   {
     "name": "LangGraph MCP Server",
-    "url": "https://github.com/langchain-ai/langgraph-mcp",
-    "description": "Orchestrate LangGraph agents and workflows through MCP.",
+    "url": "https://docs.langchain.com/langsmith/server-mcp",
+    "description": "Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint.",
     "category": "ai-agents-and-memory",
-    "language": "Python",
+    "language": "Other",
     "provider": "LangChain",
     "tags": [
       "agents",
@@ -1274,9 +1277,9 @@
     "official": false
   },
   {
-    "name": "CrewAI MCP Server",
-    "url": "https://github.com/crewAIInc/crewAI",
-    "description": "Multi-agent orchestration framework with MCP integration support.",
+    "name": "CrewAI Enterprise MCP Server",
+    "url": "https://github.com/crewAIInc/enterprise-mcp-server",
+    "description": "Kick off CrewAI crew deployments and check their status from MCP clients.",
     "category": "ai-agents-and-memory",
     "language": "Python",
     "provider": "CrewAI",
@@ -1288,18 +1291,21 @@
     "official": true
   },
   {
-    "name": "LlamaIndex MCP Server",
-    "url": "https://github.com/run-llama/llama_index",
-    "description": "Data framework for LLM apps with MCP tool and agent connectors.",
+    "name": "LlamaParse MCP Server",
+    "url": "https://developers.llamaindex.ai/for-agents/",
+    "description": "Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.",
     "category": "ai-agents-and-memory",
-    "language": "Python",
+    "language": "Other",
     "provider": "LlamaIndex",
     "tags": [
       "rag",
       "indexing",
       "agents"
     ],
-    "official": true
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.llamaindex.ai/mcp"
+    }
   },
   {
     "name": "Graphiti MCP Server",
