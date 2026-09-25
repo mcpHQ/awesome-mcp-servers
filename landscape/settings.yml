@@ -1,6 +1,10 @@
 foundation: MCP Landscape
-url: https://mcphq.github.io/awesome-mcp-servers
-description: Interactive map of curated Model Context Protocol servers for research and discovery.
+url: https://landscape.mcphq.org
+description: Searchable directory of curated Model Context Protocol (MCP) servers for databases, developer tools, browsers, cloud, security, and AI agents.
+
+images:
+  favicon: https://landscape.mcphq.org/images/logo.png
+  open_graph: https://landscape.mcphq.org/images/og.jpg
 
 grid_items_size: small
 view_mode: grid
