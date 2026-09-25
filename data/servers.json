@@ -1975,7 +1975,7 @@
   },
   {
     "name": "SearchLink Lite",
-    "url": "https://github.com/GlobalMatchHub/searchlink-lite",
+    "url": "https://glama.ai/mcp/servers/GlobalMatchHub/searchlink-lite",
     "description": "Read-only access to Google Search Console performance, indexing, and sitemap data from an MCP client.",
     "category": "data-analytics-and-bi",
     "language": "TypeScript",
@@ -2356,7 +2356,7 @@
   },
   {
     "name": "Zovo E-commerce Suite",
-    "url": "https://github.com/theluckystrike/mcp-e-commerce-suite",
+    "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/catalogue",
     "description": "Product catalog, pricing rules, and order management tools for e-commerce workflows; hosted Streamable HTTP endpoint available.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
@@ -2368,7 +2368,7 @@
     ],
     "official": false,
     "endpoints": {
-      "streamableHttp": "https://mcp.zovo.one/mcp/e-commerce"
+      "streamableHttp": "https://mcp.zovo.one/mcp/catalogue"
     }
   },
   {
@@ -2388,6 +2388,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.screpy.com"
+    }
+  },
+  {
+    "name": "Clera",
+    "url": "https://github.com/getclera/mcp",
+    "description": "Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Clera",
+    "tags": [
+      "recruiting",
+      "hiring",
+      "candidates",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.getclera.com"
     }
   },
   {

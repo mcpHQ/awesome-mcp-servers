@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-163-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-164-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -43,7 +43,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Data, Analytics, and BI](#data-analytics-and-bi) (13)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (8)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (19)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (20)
 - [Utilities and Examples](#utilities-and-examples) (11)
 
 <a id="official-and-reference"></a>
@@ -354,7 +354,7 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `analytics` `keywords` `content`
 - **[Screpy SEO MCP](https://screpy.com/feature/seo-mcp/)** `Official` `Other` — Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.  
   `seo` `analytics` `ai-visibility` `remote` `oauth`
-- **[SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite)** `TypeScript` — Read-only access to Google Search Console performance, indexing, and sitemap data from an MCP client.  
+- **[SearchLink Lite](https://glama.ai/mcp/servers/GlobalMatchHub/searchlink-lite)** `TypeScript` — Read-only access to Google Search Console performance, indexing, and sitemap data from an MCP client.  
   `seo` `search-console` `analytics` `google`
 
 <a id="legal-and-court-data"></a>
@@ -399,6 +399,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `defi` `x402` `mcp` `agents`
 - **[Astral Twin](https://astraldaily.com)** `Official` `Other` — Create and mint NFT asset packs on the Base blockchain from AI clients.  
   `nft` `blockchain` `base` `minting`
+- **[Clera](https://github.com/getclera/mcp)** `Official` `TypeScript` — Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.  
+  `recruiting` `hiring` `candidates` `remote` `oauth`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
 - **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `TypeScript` — Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.  
@@ -427,7 +429,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `billing` `fintech`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
   `jobs` `recruiting` `remote` `oauth`
-- **[Zovo E-commerce Suite](https://github.com/theluckystrike/mcp-e-commerce-suite)** `TypeScript` — Product catalog, pricing rules, and order management tools for e-commerce workflows; hosted Streamable HTTP endpoint available.  
+- **[Zovo E-commerce Suite](https://github.com/theluckystrike/mcp-servers/tree/main/servers/catalogue)** `TypeScript` — Product catalog, pricing rules, and order management tools for e-commerce workflows; hosted Streamable HTTP endpoint available.  
   `ecommerce` `catalog` `orders`
 - **[Zovo Invoice Generator](https://github.com/theluckystrike/mcp-invoice-generator)** `TypeScript` — Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint.  
   `invoice` `billing` `pdf`
