@@ -1,0 +1,60 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-check
+  cancel-in-progress: true
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Check all links
+        id: check
+        run: |
+          set +e
+          npm run --silent check-links > link-report.txt
+          status=$?
+          cat link-report.txt
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update broken-links issue
+        if: steps.check.outputs.status != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Broken links detected"
+          {
+            echo "The [weekly link check](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) found unreachable links."
+            echo
+            echo '```'
+            cat link-report.txt
+            echo '```'
+          } > issue-body.md
+          existing=$(gh issue list --state open --label broken-links --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file issue-body.md
+          else
+            gh label create broken-links --color d73a4a --description "Catalog links that failed the link check" 2>/dev/null || true
+            gh issue create --title "$title" --label broken-links --body-file issue-body.md
+          fi
+
+      - name: Fail on broken links
+        if: steps.check.outputs.status != '0'
+        run: exit 1

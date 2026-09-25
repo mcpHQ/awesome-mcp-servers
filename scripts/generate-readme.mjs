@@ -82,35 +82,41 @@ ${rows}`;
 
 const readme = `# Awesome MCP Servers
 
-[![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
 [![Servers](https://img.shields.io/badge/servers-${servers.length}-brightgreen)](#catalog)
+[![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
+[![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
+[![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
+**A hand-curated, link-checked catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers, with an [interactive map](https://landscape.mcphq.org/) and a [JSON API](#use-the-data).**
+
+<a href="https://landscape.mcphq.org/" target="_blank" rel="noopener noreferrer">
+  <img src="assets/mcp-landscape.png" alt="MCP Landscape: interactive, searchable map of every server in this catalog">
+</a>
+
+<p align="center"><b><a href="https://landscape.mcphq.org/">Explore the live MCP Landscape →</a></b></p>
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This list focuses on well-scoped, source-available servers that extend AI workflows with databases, developer tools, browsers, cloud services, and more.
 
-> **Explore visually:** Browse the [MCP Landscape](#mcp-landscape) — an interactive, searchable map of every server in this catalog.
+## Why this list
 
-> **Source of truth:** [\`data/servers.json\`](data/servers.json) is the canonical catalog. The README is generated from that file.
+- **Curated, not scraped.** Every entry is reviewed against the [quality criteria](#quality-criteria). Spam, impersonators, and abandoned forks are rejected.
+- **No dead links.** Every link is checked on each pull request and again every week. Broken entries get fixed or removed.
+- **Structured data.** Every server has a category, language, provider, tags, and an official/community flag in [\`data/servers.json\`](data/servers.json). The README and the landscape are both generated from that file.
+- **Built to be reused.** You can pull the whole catalog as JSON into your own tools, agents, or dashboards.
+
+If this list saves you time, please ⭐ star the repo. It helps other people find it.
 
 ## Quick Links
 
-- [MCP Landscape](https://landscape.mcphq.org/) — interactive server map
+- [MCP Landscape](https://landscape.mcphq.org/): interactive server map
+- [Use the data](#use-the-data): JSON API for tools and agents
+- [Listed on mcpHQ badge](#listed-on-mcphq-badge): for server maintainers
 - [Official MCP Registry](https://registry.modelcontextprotocol.io/)
 - [MCP Specification](https://modelcontextprotocol.io/specification/latest)
 - [Reference Servers](https://github.com/modelcontextprotocol/servers)
 - [Contributing Guide](CONTRIBUTING.md)
-
-## MCP Landscape
-
-<a href="https://landscape.mcphq.org/" target="_blank" rel="noopener noreferrer">
-  <img src="assets/mcp-landscape.png" alt="MCP Landscape">
-</a>
-
-Interactive, searchable map of the MCP servers in this catalog. **[Open the live site →](https://landscape.mcphq.org/)**
-
-See [landscape/README.md](landscape/README.md) for how the landscape is built and how to preview or customize it locally.
 
 ## Catalog
 
@@ -118,14 +124,41 @@ ${toc}
 
 ${sections}
 
+## Use the Data
+
+The full catalog is published as JSON with every landscape deploy:
+
+| File | URL |
+| --- | --- |
+| Servers | [\`https://landscape.mcphq.org/api/servers.json\`](https://landscape.mcphq.org/api/servers.json) |
+| Categories | [\`https://landscape.mcphq.org/api/categories.json\`](https://landscape.mcphq.org/api/categories.json) |
+
+\`\`\`bash
+curl -s https://landscape.mcphq.org/api/servers.json | jq '.[] | select(.official) | .name'
+\`\`\`
+
+The fields are described in [\`data/servers.schema.json\`](data/servers.schema.json). Please link back to this repo if you build on the data.
+
+## Listed on mcpHQ Badge
+
+If your server is in this catalog, you can add this badge to your README:
+
+[![Listed on mcpHQ](https://img.shields.io/badge/Listed%20on-mcpHQ-8A2BE2)](https://github.com/mcpHQ/awesome-mcp-servers)
+
+\`\`\`markdown
+[![Listed on mcpHQ](https://img.shields.io/badge/Listed%20on-mcpHQ-8A2BE2)](https://github.com/mcpHQ/awesome-mcp-servers)
+\`\`\`
+
 ## Quality Criteria
 
-We prioritize servers that are:
+An entry is accepted if the server is:
 
-- **Purposeful** — clear tools/resources for a real workflow
-- **Discoverable** — public repo, docs, or registry listing
-- **Maintainable** — recent activity or official backing
-- **Safe to evaluate** — no obvious spam or impersonation
+- **Purposeful**: clear tools/resources for a real workflow
+- **Discoverable**: public repo, docs, or registry listing
+- **Maintainable**: recent activity or official backing
+- **Safe to evaluate**: no obvious spam or impersonation
+
+An entry is removed if its link stays broken, its repository is archived without a maintained successor, or it turns out to be misleading about what it does or who backs it.
 
 ## Contribute
 
@@ -137,6 +170,8 @@ Then regenerate the README:
 node scripts/generate-readme.mjs
 node scripts/validate-data.mjs
 \`\`\`
+
+See [landscape/README.md](landscape/README.md) for how the landscape is built and how to preview or customize it locally.
 
 ## License
 
