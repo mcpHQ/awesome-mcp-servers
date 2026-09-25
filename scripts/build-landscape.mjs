@@ -1,7 +1,13 @@
 #!/usr/bin/env node
 
 import { spawnSync } from "node:child_process";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import {
+  copyFileSync,
+  existsSync,
+  mkdirSync,
+  readFileSync,
+  writeFileSync,
+} from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -182,7 +188,16 @@ if (useDocker) {
   }
 }
 
+function publishCatalogData() {
+  const apiDir = join(landscapeDir, "build", "api");
+  mkdirSync(apiDir, { recursive: true });
+  for (const file of ["servers.json", "categories.json"]) {
+    copyFileSync(join(root, "data", file), join(apiDir, file));
+  }
+}
+
 if ((result.status ?? 1) === 0) {
+  publishCatalogData();
   const patch = spawnSync(
     "node",
     [join(root, "scripts/patch-landscape-search.mjs")],
