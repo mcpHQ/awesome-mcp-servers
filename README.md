@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-161-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-162-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (8)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
 - [Communication and Productivity](#communication-and-productivity) (15)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (21)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (22)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (12)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (8)
@@ -291,6 +291,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `coding-agents` `local-first`
 - **[Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live)** `Official` `TypeScript` — Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp.  
   `memory` `remote` `oauth`
+- **[Aident Loadout](https://github.com/Aident-AI/aident-skill)** `Official` `TypeScript` — Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ Skills through one OAuth setup, with vaulted credentials and an audit trail.  
+  `agents` `remote` `oauth` `integrations`
 - **[ContextStream](https://github.com/contextstream/mcp-server)** `Official` `TypeScript` — Shared project memory that both developers and AI agents read and write across Cursor, Claude Code, Codex, Grok, Windsurf and the rest.  
   `memory` `context` `agents` `coding`
 - **[CrewAI Enterprise MCP Server](https://github.com/crewAIInc/enterprise-mcp-server)** `Official` `Python` — Kick off CrewAI crew deployments and check their status from MCP clients.  
@@ -425,7 +427,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `shopify` `retail`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
   `payments` `pos` `commerce`
-- **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Background check any company in the world: registration, executives, courts and finances.  
+- **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.  
   `company-data` `business` `finance` `remote`
 - **[Stripe MCP Server](https://github.com/stripe/agent-toolkit)** `Official` `TypeScript` — Manage Stripe payments, customers, and subscriptions via MCP tools.  
   `payments` `billing` `fintech`

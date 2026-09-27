@@ -1162,6 +1162,24 @@
     "official": false
   },
   {
+    "name": "Aident Loadout",
+    "url": "https://github.com/Aident-AI/aident-skill",
+    "description": "Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ Skills through one OAuth setup, with vaulted credentials and an audit trail.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Aident AI",
+    "tags": [
+      "agents",
+      "remote",
+      "oauth",
+      "integrations"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://loadout.aident.ai/mcp"
+    }
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://docs.mem0.ai/platform/mem0-mcp",
     "description": "Hosted persistent memory layer for personalized agent interactions.",
