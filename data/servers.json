@@ -2421,5 +2421,23 @@
     "endpoints": {
       "streamableHttp": "https://swarmmemo.com/mcp"
     }
+  },
+  {
+    "name": "BuyWhere MCP",
+    "url": "https://github.com/BuyWhere/buywhere-mcp",
+    "description": "Hosted product-search MCP server for multi-merchant price comparison across Singapore, SEA, and US catalogs.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "BuyWhere",
+    "tags": [
+      "ecommerce",
+      "shopping",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.buywhere.ai/mcp"
+    }
   }
 ]
