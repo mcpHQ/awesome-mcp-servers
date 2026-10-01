@@ -2471,5 +2471,23 @@
       "local"
     ],
     "official": false
+  },
+  {
+    "name": "Communicate",
+    "url": "https://developer.communicate.so/docs/mcp",
+    "description": "List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Communicate",
+    "tags": [
+      "agents",
+      "customer-support",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.communicate.so/mcp"
+    }
   }
 ]
