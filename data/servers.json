@@ -2489,5 +2489,24 @@
     "endpoints": {
       "streamableHttp": "https://app.communicate.so/mcp"
     }
+  },
+  {
+    "name": "FirstSales MCP",
+    "url": "https://developer.firstsales.io/agents/mcp-server",
+    "description": "Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "FirstSales",
+    "tags": [
+      "crm",
+      "contacts",
+      "sales",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.app.firstsales.io/mcp"
+    }
   }
 ]
