@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
 - [Communication and Productivity](#communication-and-productivity) (16)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (22)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (12)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (13)
 - [Legal and Court Data](#legal-and-court-data) (2)
 - [Security and Identity](#security-and-identity) (8)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (20)
@@ -358,6 +358,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `monitoring` `dashboards` `observability`
 - **[LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp)** `JavaScript` — Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic.  
   `ai-visibility` `analytics` `marketing`
+- **[MadeOnSol MCP Server](https://github.com/MadeOnSol/mcp-server-madeonsol)** `Official` `TypeScript` — Solana KOL trades, wallet analytics, token and deployer intelligence, and DEX data via an API key or keyless x402 pay-per-call in USDC.  
+  `solana` `crypto` `analytics` `x402`
 - **[Metabase MCP Server](https://www.metabase.com/docs/latest/ai/mcp)** `Official` `TypeScript` — Query dashboards and explore data in Metabase BI.  
   `bi` `dashboards` `sql`
 - **[Mixpanel MCP Server](https://docs.mixpanel.com/docs/mcp)** `Official` `TypeScript` — Query Mixpanel funnels, retention, and event analytics.  
