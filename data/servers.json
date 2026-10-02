@@ -1281,6 +1281,24 @@
     "official": false
   },
   {
+    "name": "VideoGen MCP",
+    "url": "https://videogen.io/videogen-mcp",
+    "description": "Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "VideoGen",
+    "tags": [
+      "video",
+      "images",
+      "audio",
+      "marketing"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.videogen.io/mcp"
+    }
+  },
+  {
     "name": "OpenAI MCP Bridge",
     "url": "https://github.com/jaspertvdm/mcp-server-openai-bridge",
     "description": "Bridge OpenAI GPT models into MCP-compatible agent workflows.",
