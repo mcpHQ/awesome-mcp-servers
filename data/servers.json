@@ -1533,6 +1533,21 @@
     }
   },
   {
+    "name": "US Code MCP",
+    "url": "https://github.com/lrehmann/uscode-mcp",
+    "description": "Read-only U.S. Code search, section retrieval, and title browsing with citations linked to uscode.ecfr.io and published OLRC release metadata; independent OLRC corpus mirror, not a government service.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "eCFR.io",
+    "tags": [
+      "legal",
+      "statutes",
+      "us-code",
+      "citations"
+    ],
+    "official": false
+  },
+  {
     "name": "1Password MCP Server",
     "url": "https://github.com/CakeRepository/1Password-MCP",
     "description": "Community-maintained integration for accessing 1Password vault items in agent workflows.",
