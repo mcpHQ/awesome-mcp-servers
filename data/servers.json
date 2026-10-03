@@ -901,6 +901,22 @@
     "official": true
   },
   {
+    "name": "CloudBurn",
+    "url": "https://github.com/towardsthecloud/cloudburn",
+    "description": "Read-only AWS cost analysis for Terraform, CloudFormation, and live AWS accounts through a local stdio MCP server.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Towards The Cloud",
+    "tags": [
+      "aws",
+      "finops",
+      "terraform",
+      "cloudformation",
+      "read-only"
+    ],
+    "official": true
+  },
+  {
     "name": "Cloudflare MCP Server",
     "url": "https://github.com/cloudflare/mcp-server-cloudflare",
     "description": "Manage Workers, KV, R2, and Cloudflare platform resources.",
