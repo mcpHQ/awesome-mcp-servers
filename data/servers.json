@@ -2508,5 +2508,24 @@
     "endpoints": {
       "streamableHttp": "https://api.app.firstsales.io/mcp"
     }
+  },
+  {
+    "name": "LogNorm",
+    "url": "https://github.com/lognorm/lognorm-mcp",
+    "description": "Hosted MCP server that hands a site's SEO/GEO growth backlog (audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor via OAuth.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "LogNorm",
+    "tags": [
+      "seo",
+      "geo",
+      "marketing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://lognorm.com/api/mcp"
+    }
   }
 ]
