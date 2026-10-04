@@ -2508,5 +2508,23 @@
     "endpoints": {
       "streamableHttp": "https://api.app.firstsales.io/mcp"
     }
+  },
+  {
+    "name": "Invompt",
+    "url": "https://mcp.invompt.com/mcp",
+    "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Invompt",
+    "tags": [
+      "invoicing",
+      "finance",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.invompt.com/mcp"
+    }
   }
 ]
