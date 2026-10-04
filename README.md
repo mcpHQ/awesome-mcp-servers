@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-176-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-177-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Communication and Productivity](#communication-and-productivity) (16)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (24)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (14)
-- [Legal and Court Data](#legal-and-court-data) (3)
+- [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (9)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (21)
 - [Utilities and Examples](#utilities-and-examples) (11)
@@ -386,6 +386,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
 
 Court records, legal research, case search, and judicial workflow data.
 
+- **[Court Rules MCP](https://github.com/foklepoint/court-rules-mcp)** `Other` — Read U.S. federal and state court filing rules, local rules, judge standing orders, and court holiday calendars, with a citation back to the source document.  
+  `legal` `court-rules` `standing-orders` `citations` `remote`
 - **[eCFR MCP](https://github.com/lrehmann/ecfr-mcp)** `TypeScript` — Search and read U.S. federal regulations with legal citations, source dates, stale-data flags, and paginated text; an independent eCFR mirror, not the official legal edition.  
   `legal` `regulations` `citations` `streamable-http`
 - **[eCourts India MCP](https://mcp.ecourtsindia.com/)** `Other` — Third-party hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.  

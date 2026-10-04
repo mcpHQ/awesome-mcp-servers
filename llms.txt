@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 176 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 177 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -174,6 +174,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 ## Legal and Court Data
 
+- [Court Rules MCP](https://github.com/foklepoint/court-rules-mcp): Read U.S. federal and state court filing rules, local rules, judge standing orders, and court holiday calendars, with a citation back to the source document. (Other)
 - [eCFR MCP](https://github.com/lrehmann/ecfr-mcp): Search and read U.S. federal regulations with legal citations, source dates, stale-data flags, and paginated text; an independent eCFR mirror, not the official legal edition. (TypeScript)
 - [eCourts India MCP](https://mcp.ecourtsindia.com/): Third-party hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals. (Other)
 - [US Code MCP](https://github.com/lrehmann/uscode-mcp): Read-only U.S. Code search, section retrieval, and title browsing with citations linked to uscode.ecfr.io and published OLRC release metadata; independent OLRC corpus mirror, not a government service. (TypeScript)

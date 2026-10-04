@@ -2643,5 +2643,24 @@
     "endpoints": {
       "streamableHttp": "https://continuitywriter.com/mcp"
     }
+  },
+  {
+    "name": "Court Rules MCP",
+    "url": "https://github.com/foklepoint/court-rules-mcp",
+    "description": "Read U.S. federal and state court filing rules, local rules, judge standing orders, and court holiday calendars, with a citation back to the source document.",
+    "category": "legal-and-court-data",
+    "language": "Other",
+    "provider": "Court Rules",
+    "tags": [
+      "legal",
+      "court-rules",
+      "standing-orders",
+      "citations",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.courtrules.app/mcp"
+    }
   }
 ]
