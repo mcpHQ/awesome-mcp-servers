@@ -2736,5 +2736,24 @@
     "endpoints": {
       "streamableHttp": "https://app.linkmcp.io/api/mcp"
     }
+  },
+  {
+    "name": "TableJourney",
+    "url": "https://github.com/lewismvaughan/tablejourney-mcp",
+    "description": "Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "TableJourney",
+    "tags": [
+      "travel",
+      "food",
+      "restaurants",
+      "festivals",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://tablejourney.com/mcp"
+    }
   }
 ]
