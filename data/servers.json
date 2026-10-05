@@ -2718,5 +2718,23 @@
     "endpoints": {
       "streamableHttp": "https://anansi-haven.anansidata.workers.dev/mcp"
     }
+  },
+  {
+    "name": "LinkMCP",
+    "url": "https://app.linkmcp.io",
+    "description": "Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "LinkMCP",
+    "tags": [
+      "linkedin",
+      "sales",
+      "remote",
+      "oauth"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://app.linkmcp.io/api/mcp"
+    }
   }
 ]
