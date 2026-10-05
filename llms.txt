@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 178 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 179 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -134,6 +134,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence): Local-first MCP Work Model that gives coding agents scored memory retrieval, commitments, and outcome-based credit. (Rust)
 - [Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live): Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp. (TypeScript, official)
 - [Aident Loadout](https://github.com/Aident-AI/aident-skill): Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ Skills through one OAuth setup, with vaulted credentials and an audit trail. (TypeScript, official)
+- [Anansi Haven](https://github.com/kburrus64-max/anansi-haven): Remote MCP server (also A2A and HTTP) giving agents a persistent identity, versioned key-value memory that survives restarts, client-side encrypted storage, an agent directory and a job board. (JavaScript)
 - [ContextStream](https://github.com/contextstream/mcp-server): Shared project memory that both developers and AI agents read and write across Cursor, Claude Code, Codex, Grok, Windsurf and the rest. (TypeScript, official)
 - [Continuity](https://github.com/LAHutchins91/continuity-mcp): Remote MCP story bible for fiction writers: locked characters, relationships, world rules, timelines, and approved scenes with OAuth for ChatGPT, Claude, Gemini, Grok, and Cursor. (TypeScript)
 - [CrewAI Enterprise MCP Server](https://github.com/crewAIInc/enterprise-mcp-server): Kick off CrewAI crew deployments and check their status from MCP clients. (Python, official)

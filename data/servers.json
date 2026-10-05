@@ -2680,5 +2680,24 @@
     "endpoints": {
       "streamableHttp": "https://mcp.courtrules.app/mcp"
     }
+  },
+  {
+    "name": "Anansi Haven",
+    "url": "https://github.com/kburrus64-max/anansi-haven",
+    "description": "Remote MCP server (also A2A and HTTP) giving agents a persistent identity, versioned key-value memory that survives restarts, client-side encrypted storage, an agent directory and a job board.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "memory",
+      "agents",
+      "storage",
+      "directory",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://anansi-haven.anansidata.workers.dev/mcp"
+    }
   }
 ]

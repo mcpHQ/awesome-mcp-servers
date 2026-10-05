@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 178 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 179 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1127,6 +1127,18 @@ Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ S
 - Tags: agents, remote, oauth, integrations
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://loadout.aident.ai/mcp
+
+### Anansi Haven
+
+Remote MCP server (also A2A and HTTP) giving agents a persistent identity, versioned key-value memory that survives restarts, client-side encrypted storage, an agent directory and a job board.
+
+- URL: https://github.com/kburrus64-max/anansi-haven
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: memory, agents, storage, directory, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://anansi-haven.anansidata.workers.dev/mcp
 
 ### ContextStream
 
