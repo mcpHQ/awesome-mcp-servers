@@ -2755,5 +2755,24 @@
     "endpoints": {
       "streamableHttp": "https://tablejourney.com/mcp"
     }
+  },
+  {
+    "name": "canli-validation-mcp",
+    "url": "https://github.com/arhancanli/canli-validation-mcp",
+    "description": "Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Canli Capital",
+    "tags": [
+      "finance",
+      "backtesting",
+      "statistics",
+      "quant",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://canlicapital.com/mcp"
+    }
   }
 ]
