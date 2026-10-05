@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 190 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 191 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1974,6 +1974,18 @@ Community-maintained integration for Shopify products, orders, and store operati
 - Official: no
 - Tags: ecommerce, shopify, retail
 - Category: Finance, Commerce, and Business Apps
+
+### SkyAccess
+
+Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.
+
+- URL: https://github.com/sky-access/skyaccess-mcp
+- Language: JavaScript
+- Provider: SkyAccess
+- Official: yes
+- Tags: travel, private-jet, charter, marketplace, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.skyaccess.com/mcp
 
 ### Square MCP Server
 

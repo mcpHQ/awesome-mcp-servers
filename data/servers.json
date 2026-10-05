@@ -2084,6 +2084,25 @@
     "official": false
   },
   {
+    "name": "SkyAccess",
+    "url": "https://github.com/sky-access/skyaccess-mcp",
+    "description": "Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "SkyAccess",
+    "tags": [
+      "travel",
+      "private-jet",
+      "charter",
+      "marketplace",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.skyaccess.com/mcp"
+    }
+  },
+  {
     "name": "Robot Speed",
     "url": "https://github.com/robot-speed/mcp",
     "description": "SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.",
