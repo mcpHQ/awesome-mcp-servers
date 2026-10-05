@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 183 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 185 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -689,6 +689,18 @@ Access and search files in Google Drive from MCP clients.
 - Official: no
 - Tags: google-drive, files, cloud
 - Category: Filesystems and Documents
+
+### Grandpa's AI
+
+Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.
+
+- URL: https://github.com/wescorp/grandpasai-mcp
+- Language: JavaScript
+- Provider: Grandpa's AI
+- Official: yes
+- Tags: research, knowledge-base, longevity, search
+- Category: Filesystems and Documents
+- Streamable HTTP endpoint: https://grandpasai.com/mcp
 
 ### MarkItDown MCP
 

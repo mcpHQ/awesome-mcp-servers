@@ -2793,5 +2793,23 @@
     "endpoints": {
       "streamableHttp": "https://canlicapital.com/mcp"
     }
+  },
+  {
+    "name": "Grandpa's AI",
+    "url": "https://github.com/wescorp/grandpasai-mcp",
+    "description": "Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "Grandpa's AI",
+    "tags": [
+      "research",
+      "knowledge-base",
+      "longevity",
+      "search"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://grandpasai.com/mcp"
+    }
   }
 ]
