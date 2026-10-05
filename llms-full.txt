@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 179 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 180 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1480,6 +1480,18 @@ Solana KOL trades, wallet analytics, token and deployer intelligence, and DEX da
 - Official: yes
 - Tags: solana, crypto, analytics, x402
 - Category: Data, Analytics, and BI
+
+### Manifold MCP
+
+An MCP for marketers that gives agents tools for SEO, AEO, socials and ads data, from keywords, backlinks and Search Console to AI answer visibility, ad libraries and social platforms, with a generous free tier.
+
+- URL: https://www.manifoldmcp.com
+- Language: Other
+- Provider: Manifold
+- Official: yes
+- Tags: marketing, seo, aeo, social-media, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.manifoldmcp.com/mcp
 
 ### Metabase MCP Server
 

@@ -2644,6 +2644,25 @@
     }
   },
   {
+    "name": "Manifold MCP",
+    "url": "https://www.manifoldmcp.com",
+    "description": "An MCP for marketers that gives agents tools for SEO, AEO, socials and ads data, from keywords, backlinks and Search Console to AI answer visibility, ad libraries and social platforms, with a generous free tier.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Manifold",
+    "tags": [
+      "marketing",
+      "seo",
+      "aeo",
+      "social-media",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.manifoldmcp.com/mcp"
+    }
+  },
+  {
     "name": "Continuity",
     "url": "https://github.com/LAHutchins91/continuity-mcp",
     "description": "Remote MCP story bible for fiction writers: locked characters, relationships, world rules, timelines, and approved scenes with OAuth for ChatGPT, Claude, Gemini, Grok, and Cursor.",

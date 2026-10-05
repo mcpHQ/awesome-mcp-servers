@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 179 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 180 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -168,6 +168,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp): Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic. (JavaScript)
 - [LogNorm](https://github.com/lognorm/lognorm-mcp): Hosted MCP server that hands a site's SEO/GEO growth backlog (audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor via OAuth. (Other, official)
 - [MadeOnSol MCP Server](https://github.com/MadeOnSol/mcp-server-madeonsol): Solana KOL trades, wallet analytics, token and deployer intelligence, and DEX data via an API key or keyless x402 pay-per-call in USDC. (TypeScript, official)
+- [Manifold MCP](https://www.manifoldmcp.com): An MCP for marketers that gives agents tools for SEO, AEO, socials and ads data, from keywords, backlinks and Search Console to AI answer visibility, ad libraries and social platforms, with a generous free tier. (Other, official)
 - [Metabase MCP Server](https://www.metabase.com/docs/latest/ai/mcp): Query dashboards and explore data in Metabase BI. (TypeScript, official)
 - [Mixpanel MCP Server](https://docs.mixpanel.com/docs/mcp): Query Mixpanel funnels, retention, and event analytics. (TypeScript, official)
 - [Netdata MCP Server](https://github.com/netdata/netdata): Real-time infrastructure monitoring and health metrics via MCP. (C, official)
