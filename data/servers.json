@@ -1,3 +1,4 @@
+
 [
   {
     "name": "MCP Everything",
@@ -2811,5 +2812,21 @@
     "endpoints": {
       "streamableHttp": "https://grandpasai.com/mcp"
     }
+  },
+  {
+    "name": "SEAL MCP",
+    "url": "https://seal.net/docs/mcp",
+    "description": "Transfer large files and secrets between people and AI agents through client-side encrypted, expiring handoffs.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "SEAL",
+    "tags": [
+      "file-transfer",
+      "encryption",
+      "agents",
+      "handoff"
+    ],
+    "official": true
   }
+
 ]
