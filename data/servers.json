@@ -1703,6 +1703,25 @@
     "official": true
   },
   {
+    "name": "MAQAMI Travel",
+    "url": "https://github.com/negm17111995/mcp-server",
+    "description": "Search hotels (3M+) and flights, read hotel details and reviews, then prebook and book a chosen offer on MAQAMI. Booking creates a real reservation. Hosted, no API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "MAQAMI",
+    "tags": [
+      "travel",
+      "hotels",
+      "flights",
+      "booking",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.maqami.co/"
+    }
+  },
+  {
     "name": "Wiz MCP Server",
     "url": "https://www.wiz.io/blog/introducing-mcp-server-for-wiz",
     "description": "Cloud security posture management and risk insights from Wiz.",
