@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 193 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 194 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2055,6 +2055,18 @@ Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings
 - Tags: banking, personal-finance, open-banking, oauth, read-only
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.synci.io/mcp
+
+### Voidpay Marketplace MCP
+
+Find services and storefronts on Voidly's hosted marketplace for AI-agent services and prepare checkout links that the owner reviews and approves in their own browser; the connector never signs, pays or holds keys.
+
+- URL: https://github.com/voidly-ai/pay-mcp
+- Language: TypeScript
+- Provider: Voidly
+- Official: yes
+- Tags: marketplace, agent-payments, checkout, commerce, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.voidly.ai/mcp/voidpay
 
 ### Worklittle Jobs
 

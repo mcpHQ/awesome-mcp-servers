@@ -2887,6 +2887,25 @@
     }
   },
   {
+    "name": "Voidpay Marketplace MCP",
+    "url": "https://github.com/voidly-ai/pay-mcp",
+    "description": "Find services and storefronts on Voidly's hosted marketplace for AI-agent services and prepare checkout links that the owner reviews and approves in their own browser; the connector never signs, pays or holds keys.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Voidly",
+    "tags": [
+      "marketplace",
+      "agent-payments",
+      "checkout",
+      "commerce",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.voidly.ai/mcp/voidpay"
+    }
+  },
+  {
     "name": "agproxy",
     "url": "https://agproxy.shveik.dev",
     "description": "Pay-per-call residential proxy traffic and raw fetch for agents, with country targeting and sticky sessions; paid with x402 stablecoins, no API key.",
