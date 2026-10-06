@@ -508,6 +508,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `invoice` `billing` `pdf`
 - **[Zovo Invoice MCP](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice)** `TypeScript` — Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.  
   `invoice` `pdf` `billing` `bookkeeping` `finance`
+- **[HostDeFi](https://github.com/verixiaapps/nexus-dex)** `TypeScript` — Hosted multi-chain token risk scanner and x402 agent API: free safety grades for Solana and EVM tokens, markets explorer, and per-call paid JSON-RPC on 82 chains via https://hostdefi.com/api/v1/mcp.  
+  `crypto` `defi` `x402` `token-risk` `remote`
 
 <a id="utilities-and-examples"></a>
 
