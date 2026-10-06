@@ -426,7 +426,7 @@
   {
     "name": "mcp-pool",
     "url": "https://github.com/yuzu-octopus/mcp-pool",
-    "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
+    "description": "MCP Key Pool Proxy \u2014 pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "yuzu-octopus",
@@ -1771,6 +1771,25 @@
     "official": true
   },
   {
+    "name": "Synci",
+    "url": "https://github.com/synciio/synci-mcp",
+    "description": "Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Synci",
+    "tags": [
+      "banking",
+      "personal-finance",
+      "open-banking",
+      "oauth",
+      "read-only"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.synci.io/mcp"
+    }
+  },
+  {
     "name": "Shopify MCP Server",
     "url": "https://github.com/GeLi2001/shopify-mcp",
     "description": "Community-maintained integration for Shopify products, orders, and store operations.",
@@ -2000,7 +2019,7 @@
   {
     "name": "AgentServices",
     "url": "https://github.com/vbkotecha/agentservices-api",
-    "description": "Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
+    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "AgentServices",
@@ -2051,7 +2070,7 @@
   {
     "name": "Pyrimid",
     "url": "https://github.com/pyrimid-ai/pyrimid",
-    "description": "Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
+    "description": "Onchain payment protocol for AI agents \u2014 sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
     "provider": "Pyrimid Protocol",
@@ -2157,7 +2176,7 @@
   {
     "name": "Live Tennis API MCP",
     "url": "https://github.com/livetennisapi/livetennisapi-mcp",
-    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "description": "Real-time tennis match state \u2014 score, current server, three-valued break-point flag, and retirement/walkover/completed status \u2014 plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Live Tennis API",
@@ -2609,7 +2628,7 @@
   {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
-    "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
+    "description": "Turn AI-host work into invoices you review before send \u2014 Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Invompt",
@@ -2738,6 +2757,131 @@
     }
   },
   {
+    "name": "TableJourney",
+    "url": "https://github.com/lewismvaughan/tablejourney-mcp",
+    "description": "Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "TableJourney",
+    "tags": [
+      "travel",
+      "food",
+      "restaurants",
+      "festivals",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://tablejourney.com/mcp"
+    }
+  },
+  {
+    "name": "canli-validation-mcp",
+    "url": "https://github.com/arhancanli/canli-validation-mcp",
+    "description": "Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Canli Capital",
+    "tags": [
+      "finance",
+      "backtesting",
+      "statistics",
+      "quant",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://canlicapital.com/mcp"
+    }
+  },
+  {
+    "name": "Grandpa's AI",
+    "url": "https://github.com/wescorp/grandpasai-mcp",
+    "description": "Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "Grandpa's AI",
+    "tags": [
+      "research",
+      "knowledge-base",
+      "longevity",
+      "search"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://grandpasai.com/mcp"
+    }
+  },
+  {
+    "name": "agdata",
+    "url": "https://agdata.shveik.dev",
+    "description": "Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Go",
+    "provider": "agdata",
+    "tags": [
+      "web-scraping",
+      "x402",
+      "markdown",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agdata.shveik.dev/mcp"
+    }
+  },
+  {
+    "name": "agproxy",
+    "url": "https://agproxy.shveik.dev",
+    "description": "Pay-per-call residential proxy traffic and raw fetch for agents, with country targeting and sticky sessions; paid with x402 stablecoins, no API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Go",
+    "provider": "agproxy",
+    "tags": [
+      "proxy",
+      "residential-proxy",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agproxy.shveik.dev/mcp"
+    }
+  },
+  {
+    "name": "agvps",
+    "url": "https://agvps.shveik.dev",
+    "description": "Servers for agents, rented by the month: a Linux server with root access and a public IPv4, paid per call with x402 stablecoins, renewed by paying again; no API key.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "agvps",
+    "tags": [
+      "vps",
+      "hosting",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agvps.shveik.dev/mcp"
+    }
+  },
+  {
+    "name": "SEAL MCP",
+    "url": "https://seal.net/docs/mcp",
+    "description": "Transfer large files and secrets between people and AI agents through client-side encrypted, expiring handoffs.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "SEAL",
+    "tags": [
+      "file-transfer",
+      "encryption",
+      "agents",
+      "handoff"
+    ],
+    "official": true
+  },
+  {
     "name": "AcqPath",
     "url": "https://github.com/reflectme-source/acqpath-distribution",
     "description": "Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows.",
@@ -2755,5 +2899,4 @@
     "endpoints": {
       "streamableHttp": "https://api.getacqpath.com/mcp"
     }
-  }
 ]

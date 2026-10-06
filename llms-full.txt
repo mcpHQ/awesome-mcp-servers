@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 181 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 188 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -508,6 +508,30 @@ Code intelligence and search across large codebases with Cody.
 
 Browse the web, scrape content, search, and automate browser interactions.
 
+### agdata
+
+Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key.
+
+- URL: https://agdata.shveik.dev
+- Language: Go
+- Provider: agdata
+- Official: yes
+- Tags: web-scraping, x402, markdown, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://agdata.shveik.dev/mcp
+
+### agproxy
+
+Pay-per-call residential proxy traffic and raw fetch for agents, with country targeting and sticky sessions; paid with x402 stablecoins, no API key.
+
+- URL: https://agproxy.shveik.dev
+- Language: Go
+- Provider: agproxy
+- Official: yes
+- Tags: proxy, residential-proxy, x402, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://agproxy.shveik.dev/mcp
+
 ### Apify MCP Server
 
 Run Apify Actors and extract web datasets at scale.
@@ -690,6 +714,18 @@ Access and search files in Google Drive from MCP clients.
 - Tags: google-drive, files, cloud
 - Category: Filesystems and Documents
 
+### Grandpa's AI
+
+Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.
+
+- URL: https://github.com/wescorp/grandpasai-mcp
+- Language: JavaScript
+- Provider: Grandpa's AI
+- Official: yes
+- Tags: research, knowledge-base, longevity, search
+- Category: Filesystems and Documents
+- Streamable HTTP endpoint: https://grandpasai.com/mcp
+
 ### MarkItDown MCP
 
 Convert PDFs, Office docs, and media into markdown for LLM ingestion.
@@ -760,6 +796,18 @@ Search highlights and reading notes from Readwise.
 ## Cloud and Infrastructure
 
 Manage cloud resources, deploy services, and operate infrastructure.
+
+### agvps
+
+Servers for agents, rented by the month: a Linux server with root access and a public IPv4, paid per call with x402 stablecoins, renewed by paying again; no API key.
+
+- URL: https://agvps.shveik.dev
+- Language: Go
+- Provider: agvps
+- Official: yes
+- Tags: vps, hosting, x402, remote
+- Category: Cloud and Infrastructure
+- Streamable HTTP endpoint: https://agvps.shveik.dev/mcp
 
 ### API Status Check MCP
 
@@ -1756,6 +1804,18 @@ Hosted product-search MCP server for multi-merchant price comparison across Sing
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.buywhere.ai/mcp
 
+### canli-validation-mcp
+
+Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos.
+
+- URL: https://github.com/arhancanli/canli-validation-mcp
+- Language: JavaScript
+- Provider: Canli Capital
+- Official: yes
+- Tags: finance, backtesting, statistics, quant, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://canlicapital.com/mcp
+
 ### Clera
 
 Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.
@@ -1925,6 +1985,18 @@ Manage Stripe payments, customers, and subscriptions via MCP tools.
 - Tags: payments, billing, fintech
 - Category: Finance, Commerce, and Business Apps
 
+### Synci
+
+Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health.
+
+- URL: https://github.com/synciio/synci-mcp
+- Language: Other
+- Provider: Synci
+- Official: yes
+- Tags: banking, personal-finance, open-banking, oauth, read-only
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.synci.io/mcp
+
 ### Worklittle Jobs
 
 Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.
@@ -2075,6 +2147,18 @@ Middleware MCP server that aggregates and manages multiple connections.
 - Official: no
 - Tags: aggregator, gateway, middleware
 - Category: Utilities and Examples
+
+### TableJourney
+
+Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth.
+
+- URL: https://github.com/lewismvaughan/tablejourney-mcp
+- Language: Python
+- Provider: TableJourney
+- Official: yes
+- Tags: travel, food, restaurants, festivals, remote
+- Category: Utilities and Examples
+- Streamable HTTP endpoint: https://tablejourney.com/mcp
 
 ### Weather MCP Server
 
