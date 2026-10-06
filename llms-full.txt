@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 196 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 197 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2091,6 +2091,18 @@ Find services and storefronts on Voidly's hosted marketplace for AI-agent servic
 - Tags: marketplace, agent-payments, checkout, commerce, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.voidly.ai/mcp/voidpay
+
+### Whimbrel MedTech Analyst
+
+Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.
+
+- URL: https://github.com/WhimbrelResearch/whimbrel-mcp
+- Language: JavaScript
+- Provider: Whimbrel Research
+- Official: yes
+- Tags: medtech, fda, company-research, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://data.whimbrelresearch.com
 
 ### Worklittle Jobs
 

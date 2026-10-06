@@ -1525,6 +1525,25 @@
     "official": true
   },
   {
+    "name": "Whimbrel MedTech Analyst",
+    "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
+    "description": "Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Whimbrel Research",
+    "tags": [
+      "medtech",
+      "fda",
+      "company-research",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://data.whimbrelresearch.com"
+    }
+  },
+  {
     "name": "Mixpanel MCP Server",
     "url": "https://docs.mixpanel.com/docs/mcp",
     "description": "Query Mixpanel funnels, retention, and event analytics.",
