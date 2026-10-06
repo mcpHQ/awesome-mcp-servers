@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 185 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 188 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -68,6 +68,8 @@ Links under each category point at the upstream project, docs, or registry page.
 
 ## Browsers, Search, and Web Automation
 
+- [agdata](https://agdata.shveik.dev): Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key. (Go, official)
+- [agproxy](https://agproxy.shveik.dev): Pay-per-call residential proxy traffic and raw fetch for agents, with country targeting and sticky sessions; paid with x402 stablecoins, no API key. (Go, official)
 - [Apify MCP Server](https://github.com/apify/apify-mcp-server): Run Apify Actors and extract web datasets at scale. (TypeScript, official)
 - [BGPT MCP](https://bgpt.pro/mcp/): Search full-text scientific papers and return structured evidence for research agents. (Python)
 - [Brave Search MCP Server](https://github.com/brave/brave-search-mcp-server): Privacy-focused web and local search through the Brave Search API. (TypeScript, official)
@@ -97,6 +99,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 ## Cloud and Infrastructure
 
+- [agvps](https://agvps.shveik.dev): Servers for agents, rented by the month: a Linux server with root access and a public IPv4, paid per call with x402 stablecoins, renewed by paying again; no API key. (Go, official)
 - [API Status Check MCP](https://apistatuscheck.com/mcp): Query current and historical uptime for 285 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug. (TypeScript, official)
 - [AWS MCP Server](https://github.com/alexei-led/aws-mcp-server): Execute AWS CLI commands safely in a containerized environment. (Python)
 - [Azure MCP Server](https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server): Manage Azure resources and services through MCP tools. (C#, official)

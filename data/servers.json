@@ -1,4 +1,3 @@
-
 [
   {
     "name": "MCP Everything",
@@ -2814,6 +2813,60 @@
     }
   },
   {
+    "name": "agdata",
+    "url": "https://agdata.shveik.dev",
+    "description": "Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Go",
+    "provider": "agdata",
+    "tags": [
+      "web-scraping",
+      "x402",
+      "markdown",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agdata.shveik.dev/mcp"
+    }
+  },
+  {
+    "name": "agproxy",
+    "url": "https://agproxy.shveik.dev",
+    "description": "Pay-per-call residential proxy traffic and raw fetch for agents, with country targeting and sticky sessions; paid with x402 stablecoins, no API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Go",
+    "provider": "agproxy",
+    "tags": [
+      "proxy",
+      "residential-proxy",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agproxy.shveik.dev/mcp"
+    }
+  },
+  {
+    "name": "agvps",
+    "url": "https://agvps.shveik.dev",
+    "description": "Servers for agents, rented by the month: a Linux server with root access and a public IPv4, paid per call with x402 stablecoins, renewed by paying again; no API key.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "agvps",
+    "tags": [
+      "vps",
+      "hosting",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agvps.shveik.dev/mcp"
+    }
+  },
+  {
     "name": "SEAL MCP",
     "url": "https://seal.net/docs/mcp",
     "description": "Transfer large files and secrets between people and AI agents through client-side encrypted, expiring handoffs.",
@@ -2828,5 +2881,4 @@
     ],
     "official": true
   }
-
 ]

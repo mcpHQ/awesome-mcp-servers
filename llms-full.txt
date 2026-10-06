@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 185 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 188 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -508,6 +508,30 @@ Code intelligence and search across large codebases with Cody.
 
 Browse the web, scrape content, search, and automate browser interactions.
 
+### agdata
+
+Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key.
+
+- URL: https://agdata.shveik.dev
+- Language: Go
+- Provider: agdata
+- Official: yes
+- Tags: web-scraping, x402, markdown, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://agdata.shveik.dev/mcp
+
+### agproxy
+
+Pay-per-call residential proxy traffic and raw fetch for agents, with country targeting and sticky sessions; paid with x402 stablecoins, no API key.
+
+- URL: https://agproxy.shveik.dev
+- Language: Go
+- Provider: agproxy
+- Official: yes
+- Tags: proxy, residential-proxy, x402, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://agproxy.shveik.dev/mcp
+
 ### Apify MCP Server
 
 Run Apify Actors and extract web datasets at scale.
@@ -772,6 +796,18 @@ Search highlights and reading notes from Readwise.
 ## Cloud and Infrastructure
 
 Manage cloud resources, deploy services, and operate infrastructure.
+
+### agvps
+
+Servers for agents, rented by the month: a Linux server with root access and a public IPv4, paid per call with x402 stablecoins, renewed by paying again; no API key.
+
+- URL: https://agvps.shveik.dev
+- Language: Go
+- Provider: agvps
+- Official: yes
+- Tags: vps, hosting, x402, remote
+- Category: Cloud and Infrastructure
+- Streamable HTTP endpoint: https://agvps.shveik.dev/mcp
 
 ### API Status Check MCP
 
