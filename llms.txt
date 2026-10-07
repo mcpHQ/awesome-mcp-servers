@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 199 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 200 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -57,6 +57,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server): Official GitHub integration for repos, issues, pull requests, and code search. (Go, official)
 - [GitLab MCP Server](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/): GitLab Duo MCP server for merge requests, issues, and project management. (Ruby, official)
 - [GodotMCP](https://github.com/vberai/godot-mcp): A secure, 100% native GDScript Server-Sent Events (SSE) server bridging Claude, Cursor, and Windsurf directly to Godot 4.x scene trees. No Node.js or C# dependencies required. (GDScript)
+- [ipvolt Proxy Toolkit](https://github.com/ipvolt/proxy-toolkit-mcp): Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure. (TypeScript, official)
 - [Kleap](https://github.com/kleaphq/cli): Create, edit, and publish websites from AI clients through a hosted MCP server. (JavaScript, official)
 - [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes): Operate Kubernetes clusters with kubectl-style MCP tools. (TypeScript)
 - [Linear MCP Server](https://linear.app/docs/mcp): Create and manage Linear issues, projects, and team workflows. (TypeScript, official)

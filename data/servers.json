@@ -1199,6 +1199,24 @@
     }
   },
   {
+    "name": "ipvolt Proxy Toolkit",
+    "url": "https://github.com/ipvolt/proxy-toolkit-mcp",
+    "description": "Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "ipvolt",
+    "tags": [
+      "proxy",
+      "networking",
+      "troubleshooting",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.ipvolt.com/mcp"
+    }
+  },
+  {
     "name": "OrkasVideoStudio",
     "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
     "description": "Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.",
