@@ -1112,6 +1112,21 @@
     "official": false
   },
   {
+    "name": "TvojeLajky MCP",
+    "url": "https://tvojelajky.cz/developers",
+    "description": "Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "TvojeLajky / Tomáš Přibyl",
+    "tags": [
+      "commerce",
+      "social-media",
+      "oauth",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "Discord MCP Server",
     "url": "https://github.com/SaseQ/discord-mcp",
     "description": "Read and send messages in Discord servers and channels.",

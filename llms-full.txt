@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 209 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 210 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2218,6 +2218,17 @@ Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings
 - Tags: banking, personal-finance, open-banking, oauth, read-only
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.synci.io/mcp
+
+### TvojeLajky MCP
+
+Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.
+
+- URL: https://tvojelajky.cz/developers
+- Language: TypeScript
+- Provider: TvojeLajky / Tomáš Přibyl
+- Official: yes
+- Tags: commerce, social-media, oauth, remote
+- Category: Finance, Commerce, and Business Apps
 
 ### Voidpay Marketplace MCP
 
