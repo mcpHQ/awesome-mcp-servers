@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 199 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 200 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -414,6 +414,18 @@ A secure, 100% native GDScript Server-Sent Events (SSE) server bridging Claude, 
 - Official: no
 - Tags: godot, developer-tools, code-intelligence, claude, cursor
 - Category: Developer Tools and Code Intelligence
+
+### ipvolt Proxy Toolkit
+
+Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure.
+
+- URL: https://github.com/ipvolt/proxy-toolkit-mcp
+- Language: TypeScript
+- Provider: ipvolt
+- Official: yes
+- Tags: proxy, networking, troubleshooting, remote
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://mcp.ipvolt.com/mcp
 
 ### Kleap
 
