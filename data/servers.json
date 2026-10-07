@@ -1876,6 +1876,25 @@
     "official": true
   },
   {
+    "name": "DC Hub",
+    "url": "https://github.com/azmartone67/dchub-mcp-server",
+    "description": "Hosted MCP server and live data layer for data-center site selection: mapped power, grid, gas and fiber assets, daily DCPI scores for 300+ markets and live grid feeds from the seven US ISOs; free tier needs no key.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "DC Hub",
+    "tags": [
+      "data-centers",
+      "energy",
+      "power-grid",
+      "site-selection",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://dchub.cloud/mcp"
+    }
+  },
+  {
     "name": "CrowdStrike MCP Server",
     "url": "https://github.com/CrowdStrike/falcon-mcp",
     "description": "Query CrowdStrike Falcon detections and endpoint security data.",
