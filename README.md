@@ -194,7 +194,7 @@ Browse the web, scrape content, search, and automate browser interactions.
   `browser` `cloud` `automation`
 - **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `Official` `TypeScript` — Control and inspect Chrome through DevTools protocol for debugging and automation.  
   `chrome` `devtools` `debugging`
-- **[Cluefinch MCP](https://github.com/cluefinch/mcp-server)** `Official` `Python` — Local-first web research server for AI agents with SearXNG search, incremental page reading, link navigation, and multi-source evidence collection.  
+- **[Cluefinch MCP](https://github.com/cluefinch/mcp-server)** `Official` `Python` — Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.  
   `deep-research` `web-search` `research` `ai-agents` `local-first`
 - **[ContHunt](https://github.com/Synthenova/conthunt-mcp)** `Official` `Other` — Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.  
   `social` `content` `research` `tiktok`

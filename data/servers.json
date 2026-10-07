@@ -1415,7 +1415,7 @@
   {
     "name": "Cluefinch MCP",
     "url": "https://github.com/cluefinch/mcp-server",
-    "description": "Local-first web research server for AI agents with SearXNG search, incremental page reading, link navigation, and multi-source evidence collection.",
+    "description": "Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.",
     "category": "browsers-search-and-web-automation",
     "language": "Python",
     "provider": "Cluefinch",

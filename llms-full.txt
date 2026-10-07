@@ -657,7 +657,7 @@ Control and inspect Chrome through DevTools protocol for debugging and automatio
 
 ### Cluefinch MCP
 
-Local-first web research server for AI agents with SearXNG search, incremental page reading, link navigation, and multi-source evidence collection.
+Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.
 
 - URL: https://github.com/cluefinch/mcp-server
 - Language: Python

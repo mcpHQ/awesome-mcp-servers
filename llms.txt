@@ -81,7 +81,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [browser-buddy](https://github.com/hahahahahahahahah6/browser-buddy): MCP server plus Chrome extension that lets coding agents read the user's real, logged-in browser pages. (Python)
 - [Browserbase MCP Server](https://github.com/browserbase/mcp-server-browserbase): Cloud browser automation for navigation, scraping, and form filling. (TypeScript, official)
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp): Control and inspect Chrome through DevTools protocol for debugging and automation. (TypeScript, official)
-- [Cluefinch MCP](https://github.com/cluefinch/mcp-server): Local-first web research server for AI agents with SearXNG search, incremental page reading, link navigation, and multi-source evidence collection. (Python, official)
+- [Cluefinch MCP](https://github.com/cluefinch/mcp-server): Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection. (Python, official)
 - [ContHunt](https://github.com/Synthenova/conthunt-mcp): Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts. (Other, official)
 - [Exa MCP Server](https://github.com/exa-labs/exa-mcp-server): Neural and keyword web search optimized for AI research workflows. (TypeScript, official)
 - [Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server): Scrape, crawl, and extract structured web data with Firecrawl. (TypeScript, official)
