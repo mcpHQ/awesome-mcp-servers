@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 211 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 214 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -222,6 +222,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ADEXTO](https://github.com/0xcuy/adexto): Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key. (TypeScript, official)
 - [AgentServices](https://github.com/vbkotecha/agentservices-api): Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments. (Python)
 - [Astral Twin](https://astraldaily.com): Create and mint NFT asset packs on the Base blockchain from AI clients. (Other, official)
+- [BankBridge](https://bankbridge.money): Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings. (TypeScript, official)
 - [Bilbop x402](https://github.com/bilbop1/bilbop-x402-mcp): Pay-per-call agent tools paid in USDC on Solana over x402, no account or API key: text summarize, Solana token brief and mint info, text-to-speech, and human brand feedback. (JavaScript, official)
 - [BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp): Hosted product-search MCP server for multi-merchant price comparison across Singapore, SEA, and US catalogs. (TypeScript, official)
 - [canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp): Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos. (JavaScript, official)

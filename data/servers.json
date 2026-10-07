@@ -2068,6 +2068,24 @@
     }
   },
   {
+    "name": "BankBridge",
+    "url": "https://bankbridge.money",
+    "description": "Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "banking",
+      "personal-finance",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://bankbridge.money/api/mcp"
+    }
+  },
+  {
     "name": "Shopify MCP Server",
     "url": "https://github.com/GeLi2001/shopify-mcp",
     "description": "Community-maintained integration for Shopify products, orders, and store operations.",
