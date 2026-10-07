@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 210 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 211 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1915,6 +1915,18 @@ Scan dependencies and code for vulnerabilities with Snyk.
 - Official: yes
 - Tags: security, vulnerabilities, dependencies
 - Category: Security and Identity
+
+### Tanod
+
+Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).
+
+- URL: https://tanod.dev
+- Language: Python
+- Provider: Tanod
+- Official: yes
+- Tags: security, smart-contracts, x402, web3, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://tanod.dev/mcp
 
 ### Vault MCP Server
 

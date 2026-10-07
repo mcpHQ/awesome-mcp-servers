@@ -1535,6 +1535,25 @@
     "official": true
   },
   {
+    "name": "Tanod",
+    "url": "https://tanod.dev",
+    "description": "Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "Tanod",
+    "tags": [
+      "security",
+      "smart-contracts",
+      "x402",
+      "web3",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://tanod.dev/mcp"
+    }
+  },
+  {
     "name": "Metabase MCP Server",
     "url": "https://www.metabase.com/docs/latest/ai/mcp",
     "description": "Query dashboards and explore data in Metabase BI.",
