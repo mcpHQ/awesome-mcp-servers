@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 211 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 214 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -699,6 +699,18 @@ Scrape, crawl, and extract structured web data with Firecrawl.
 - Official: yes
 - Tags: scraping, crawl, web
 - Category: Browsers, Search, and Web Automation
+
+### looot
+
+Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance.
+
+- URL: https://github.com/loootai/looot-mcp
+- Language: TypeScript
+- Provider: looot
+- Official: yes
+- Tags: data, enrichment, search, api-gateway
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://api.looot.ai/mcp
 
 ### Playwright MCP
 
