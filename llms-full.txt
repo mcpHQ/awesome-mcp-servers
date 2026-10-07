@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 208 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 209 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1577,6 +1577,18 @@ Governed BI MCP. Ask questions of live company data and list workspace sources v
 - Tags: bi, dashboards, sql
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://charts.basedash.com/api/public/mcp
+
+### BOIM (보임)
+
+Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.
+
+- URL: https://github.com/kikiyop1101/boim-mcp
+- Language: Other
+- Provider: Public identity Co., Ltd.
+- Official: yes
+- Tags: korea, business-directory, public-procurement, public-bids, read-only
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://boim.io/api/mcp
 
 ### CompanyProof
 

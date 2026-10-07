@@ -1722,6 +1722,25 @@
     }
   },
   {
+    "name": "BOIM (보임)",
+    "url": "https://github.com/kikiyop1101/boim-mcp",
+    "description": "Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Public identity Co., Ltd.",
+    "tags": [
+      "korea",
+      "business-directory",
+      "public-procurement",
+      "public-bids",
+      "read-only"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://boim.io/api/mcp"
+    }
+  },
+  {
     "name": "US Code MCP",
     "url": "https://github.com/lrehmann/uscode-mcp",
     "description": "Read-only U.S. Code search, section retrieval, and title browsing with citations linked to uscode.ecfr.io and published OLRC release metadata; independent OLRC corpus mirror, not a government service.",

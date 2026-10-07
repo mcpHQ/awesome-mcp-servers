@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 208 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 209 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -176,6 +176,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [Amplitude MCP Server](https://amplitude.com/docs/amplitude-ai/amplitude-mcp): Analyze product analytics events and user behavior in Amplitude. (TypeScript, official)
 - [Basedash MCP Server](https://github.com/Basedash/mcp): Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth. (Other)
+- [BOIM (보임)](https://github.com/kikiyop1101/boim-mcp): Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool. (Other, official)
 - [CompanyProof](https://companyproof.ai/docs/mcp): Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits. (Other, official)
 - [Datadog MCP Server](https://github.com/datadog-labs/mcp-server): Query metrics, logs, and monitors from Datadog via the official Datadog Labs MCP server. (Python, official)
 - [dbt MCP Server](https://github.com/dbt-labs/dbt-mcp): Run dbt models, tests, and documentation workflows via MCP. (Python, official)
