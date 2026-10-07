@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 208 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 209 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1218,6 +1218,18 @@ Project plans for teams that answer to a sponsor: read goals and deliverables, u
 - Tags: project-management, productivity, oauth, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://unblockd.ai/mcp
+
+### Unsora
+
+AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more.
+
+- URL: https://github.com/Shipped-Studio/unsora
+- Language: TypeScript
+- Provider: Shipped Studio
+- Official: yes
+- Tags: video, image-generation, social-media, scheduling, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.tryunsora.com/mcp
 
 ### Zoom MCP Server
 

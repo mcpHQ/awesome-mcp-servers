@@ -1246,6 +1246,25 @@
     }
   },
   {
+    "name": "Unsora",
+    "url": "https://github.com/Shipped-Studio/unsora",
+    "description": "AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Shipped Studio",
+    "tags": [
+      "video",
+      "image-generation",
+      "social-media",
+      "scheduling",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.tryunsora.com/mcp"
+    }
+  },
+  {
     "name": "Taskfolk",
     "url": "https://github.com/taskfolk/mcp",
     "description": "Project management for teams and their AI agents. Agents join as named members.",
