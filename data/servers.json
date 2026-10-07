@@ -1630,7 +1630,7 @@
     "url": "https://comment.io/llms/mcp.md",
     "description": "Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.",
     "category": "filesystems-and-documents",
-    "language": "Other",
+    "language": "Rust",
     "provider": "Comment.io",
     "tags": [
       "documents",

@@ -93,7 +93,7 @@ Links under each category point at the upstream project, docs, or registry page.
 ## Filesystems and Documents
 
 - [Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server): Read and write Airtable bases, tables, and records via MCP. (TypeScript)
-- [Comment.io MCP Server](https://comment.io/llms/mcp.md): Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server. (Other, official)
+- [Comment.io MCP Server](https://comment.io/llms/mcp.md): Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server. (Rust, official)
 - [Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive): Access and search files in Google Drive from MCP clients. (Python)
 - [Grandpa's AI](https://github.com/wescorp/grandpasai-mcp): Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization. (JavaScript, official)
 - [MarkItDown MCP](https://github.com/microsoft/markitdown): Convert PDFs, Office docs, and media into markdown for LLM ingestion. (Python, official)

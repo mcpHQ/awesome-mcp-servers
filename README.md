@@ -219,7 +219,7 @@ Read and write files, convert documents, and connect to knowledge bases.
 
 - **[Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server)** `TypeScript` — Read and write Airtable bases, tables, and records via MCP.  
   `airtable` `spreadsheets` `data`
-- **[Comment.io MCP Server](https://comment.io/llms/mcp.md)** `Official` `Other` — Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.  
+- **[Comment.io MCP Server](https://comment.io/llms/mcp.md)** `Official` `Rust` — Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.  
   `documents` `collaboration` `remote` `oauth`
 - **[Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** `Python` — Access and search files in Google Drive from MCP clients.  
   `google-drive` `files` `cloud`

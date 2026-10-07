@@ -764,7 +764,7 @@ Read and write Airtable bases, tables, and records via MCP.
 Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.
 
 - URL: https://comment.io/llms/mcp.md
-- Language: Other
+- Language: Rust
 - Provider: Comment.io
 - Official: yes
 - Tags: documents, collaboration, remote, oauth
