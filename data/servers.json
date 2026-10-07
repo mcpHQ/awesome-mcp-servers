@@ -1877,7 +1877,7 @@
   {
     "name": "MAQAMI Travel",
     "url": "https://github.com/negm17111995/mcp-server",
-    "description": "Search hotels (3M+) and flights, read hotel details and reviews, then prebook and book a chosen offer on MAQAMI. Booking creates a real reservation. Hosted, no API key.",
+    "description": "Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key.",
     "category": "finance-commerce-and-business-apps",
     "language": "JavaScript",
     "provider": "MAQAMI",

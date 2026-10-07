@@ -2074,7 +2074,7 @@ Real-time tennis match state — score, current server, three-valued break-point
 
 ### MAQAMI Travel
 
-Search hotels (3M+) and flights, read hotel details and reviews, then prebook and book a chosen offer on MAQAMI. Booking creates a real reservation. Hosted, no API key.
+Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key.
 
 - URL: https://github.com/negm17111995/mcp-server
 - Language: JavaScript

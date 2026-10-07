@@ -494,7 +494,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `invoicing` `finance` `oauth` `remote`
 - **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `TypeScript` — Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.  
   `tennis` `sports` `live-scores` `fixtures` `event-markets`
-- **[MAQAMI Travel](https://github.com/negm17111995/mcp-server)** `Official` `JavaScript` — Search hotels (3M+) and flights, read hotel details and reviews, then prebook and book a chosen offer on MAQAMI. Booking creates a real reservation. Hosted, no API key.  
+- **[MAQAMI Travel](https://github.com/negm17111995/mcp-server)** `Official` `JavaScript` — Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key.  
   `travel` `hotels` `flights` `booking` `remote`
 - **[NotFair](https://github.com/nowork-studio/NotFair)** `TypeScript` — Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.  
   `seo` `google-ads` `meta-ads` `marketing`
