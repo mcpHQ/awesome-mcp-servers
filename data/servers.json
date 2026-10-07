@@ -1626,6 +1626,24 @@
     "official": true
   },
   {
+    "name": "Comment.io MCP Server",
+    "url": "https://comment.io/llms/mcp.md",
+    "description": "Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.",
+    "category": "filesystems-and-documents",
+    "language": "Other",
+    "provider": "Comment.io",
+    "tags": [
+      "documents",
+      "collaboration",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://comment.io/mcp"
+    }
+  },
+  {
     "name": "CompanyProof",
     "url": "https://companyproof.ai/docs/mcp",
     "description": "Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.",

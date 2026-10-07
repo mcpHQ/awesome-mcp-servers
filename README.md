@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-211-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-213-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (13)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (24)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (17)
-- [Filesystems and Documents](#filesystems-and-documents) (10)
+- [Filesystems and Documents](#filesystems-and-documents) (11)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (15)
 - [Communication and Productivity](#communication-and-productivity) (19)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (27)
@@ -219,6 +219,8 @@ Read and write files, convert documents, and connect to knowledge bases.
 
 - **[Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server)** `TypeScript` — Read and write Airtable bases, tables, and records via MCP.  
   `airtable` `spreadsheets` `data`
+- **[Comment.io MCP Server](https://comment.io/llms/mcp.md)** `Official` `Other` — Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.  
+  `documents` `collaboration` `remote` `oauth`
 - **[Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** `Python` — Access and search files in Google Drive from MCP clients.  
   `google-drive` `files` `cloud`
 - **[Grandpa's AI](https://github.com/wescorp/grandpasai-mcp)** `Official` `JavaScript` — Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.  
