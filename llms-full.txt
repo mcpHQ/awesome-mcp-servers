@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 210 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 211 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -653,6 +653,17 @@ Control and inspect Chrome through DevTools protocol for debugging and automatio
 - Provider: Google
 - Official: yes
 - Tags: chrome, devtools, debugging
+- Category: Browsers, Search, and Web Automation
+
+### Cluefinch MCP
+
+Local-first web research server for AI agents with SearXNG search, incremental page reading, link navigation, and multi-source evidence collection.
+
+- URL: https://github.com/cluefinch/mcp-server
+- Language: Python
+- Provider: Cluefinch
+- Official: yes
+- Tags: deep-research, web-search, research, ai-agents, local-first
 - Category: Browsers, Search, and Web Automation
 
 ### ContHunt
