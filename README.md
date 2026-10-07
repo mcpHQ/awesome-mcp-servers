@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-211-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-214-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (17)
 - [Filesystems and Documents](#filesystems-and-documents) (10)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (15)
-- [Communication and Productivity](#communication-and-productivity) (19)
+- [Communication and Productivity](#communication-and-productivity) (20)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (27)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (19)
 - [Legal and Court Data](#legal-and-court-data) (4)
@@ -287,6 +287,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `jira` `confluence` `atlassian`
 - **[BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api)** `TypeScript` — MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.  
   `mcp` `social-media` `publishing` `bulkpublish`
+- **[CallForMe](https://github.com/callforme-tel/callforme)** `Official` `TypeScript` — Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers.  
+  `phone-calls` `voice` `telephony` `remote`
 - **[Discord MCP Server](https://github.com/SaseQ/discord-mcp)** `Python` — Read and send messages in Discord servers and channels.  
   `discord` `chat` `community`
 - **[Faceless](https://faceless.so)** `Official` `TypeScript` — Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).  

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 211 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 214 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -126,6 +126,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [agmail](https://agmail.shveik.dev): Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account. (Go, official)
 - [Atlassian MCP Server](https://github.com/atlassian/atlassian-mcp-server): Manage Jira issues and Confluence pages across Atlassian Cloud. (TypeScript, official)
 - [BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api): MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish. (TypeScript)
+- [CallForMe](https://github.com/callforme-tel/callforme): Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers. (TypeScript, official)
 - [Discord MCP Server](https://github.com/SaseQ/discord-mcp): Read and send messages in Discord servers and channels. (Python)
 - [Faceless](https://faceless.so): Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...). (TypeScript, official)
 - [Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server): Search, read, and compose Gmail messages from MCP clients. (TypeScript)

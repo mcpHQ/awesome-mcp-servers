@@ -1413,6 +1413,24 @@
     "official": false
   },
   {
+    "name": "CallForMe",
+    "url": "https://github.com/callforme-tel/callforme",
+    "description": "Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "phone-calls",
+      "voice",
+      "telephony",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://callforme.tel/mcp"
+    }
+  },
+  {
     "name": "Cluefinch MCP",
     "url": "https://github.com/cluefinch/mcp-server",
     "description": "Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.",
