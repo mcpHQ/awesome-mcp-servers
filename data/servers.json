@@ -1127,6 +1127,20 @@
     "official": true
   },
   {
+    "name": "Tale",
+    "url": "https://docs.tale.dev/develop/mcp-endpoint",
+    "description": "Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Tale",
+    "tags": [
+      "knowledge",
+      "automations",
+      "productivity"
+    ],
+    "official": true
+  },
+  {
     "name": "Discord MCP Server",
     "url": "https://github.com/SaseQ/discord-mcp",
     "description": "Read and send messages in Discord servers and channels.",
