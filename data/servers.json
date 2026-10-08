@@ -1606,6 +1606,24 @@
     }
   },
   {
+    "name": "Prisma MCP Server",
+    "url": "https://www.prisma.io/docs/ai/tools/mcp-server",
+    "description": "Manage Prisma Postgres databases, Prisma Compute deployments, and Object Storage from AI tools through a remote MCP server.",
+    "category": "databases-and-storage",
+    "language": "Other",
+    "provider": "Prisma",
+    "tags": [
+      "postgres",
+      "sql",
+      "serverless",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.prisma.io/mcp"
+    }
+  },
+  {
     "name": "Metabase MCP Server",
     "url": "https://www.metabase.com/docs/latest/ai/mcp",
     "description": "Query dashboards and explore data in Metabase BI.",
