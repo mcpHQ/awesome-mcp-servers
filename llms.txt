@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 219 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 220 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -37,6 +37,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Neon MCP Server](https://github.com/neondatabase/mcp-server-neon): Manage Neon Postgres databases, branches, and SQL queries via MCP. (TypeScript, official)
 - [Pinecone MCP Server](https://github.com/pinecone-io/pinecone-mcp): Manage Pinecone indexes and run semantic vector queries. (TypeScript, official)
 - [PlanetScale MCP Server](https://planetscale.com/docs/connect/mcp): Manage PlanetScale MySQL databases, branches, and schema changes. (TypeScript, official)
+- [Prisma MCP Server](https://www.prisma.io/docs/ai/tools/mcp-server): Manage Prisma Postgres databases, Prisma Compute deployments, and Object Storage from AI tools through a remote MCP server. (Other, official)
 - [Qdrant MCP Server](https://github.com/qdrant/mcp-server-qdrant): Store and retrieve vectors in Qdrant for RAG workflows. (Python, official)
 - [Redis MCP Server](https://github.com/redis/mcp-redis): Read and write Redis keys, lists, and data structures through MCP. (Python, official)
 - [Snowflake MCP Server](https://github.com/Snowflake-Labs/mcp): Query Snowflake warehouses and manage data platform resources. (Python, official)
