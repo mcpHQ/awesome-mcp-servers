@@ -2405,6 +2405,21 @@
     "official": true
   },
   {
+    "name": "Glongus MCP",
+    "url": "https://github.com/glongusmain/glongus-mcp",
+    "description": "Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Glongus",
+    "tags": [
+      "marketplace",
+      "ecommerce",
+      "escrow",
+      "shopping"
+    ],
+    "official": true
+  },
+  {
     "name": "NotFair",
     "url": "https://github.com/nowork-studio/NotFair",
     "description": "Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.",
