@@ -1936,6 +1936,25 @@
     "official": true
   },
   {
+    "name": "Arcmira: YouTube Transcript Search",
+    "url": "https://arcmira.com/docs/mcp-server",
+    "description": "Search indexed YouTube transcripts for timestamped passages, speaker appearances, mentions, sponsors and recommendations over a hosted MCP connection.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Arcmira",
+    "tags": [
+      "youtube",
+      "transcripts",
+      "search",
+      "speakers",
+      "research"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.arcmira.com/mcp"
+    }
+  },
+  {
     "name": "NAIF Gravity",
     "url": "https://naifgravity.com",
     "description": "Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.",
