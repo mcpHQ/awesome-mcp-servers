@@ -1020,6 +1020,25 @@
     "official": true
   },
   {
+    "name": "Voidly Atlas",
+    "url": "https://github.com/voidly-ai/atlas-mcp",
+    "description": "Internet-censorship data from OONI, Censored Planet and IODA, with Sentinel shutdown-risk forecasts and opt-in agent relay tools; relay writes are off by default and relay messages are relay-readable, not end-to-end encrypted.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Voidly",
+    "tags": [
+      "censorship",
+      "internet-measurement",
+      "ooni",
+      "forecasts",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://atlas-mcp.voidly.ai/mcp"
+    }
+  },
+  {
     "name": "Shipvela",
     "url": "https://shipvela.com/integrations/codex",
     "description": "Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.",
@@ -2121,6 +2140,24 @@
       "open-banking"
     ],
     "official": true
+  },
+  {
+    "name": "Voidmail",
+    "url": "https://github.com/voidly-ai/mcp-email",
+    "description": "Email inboxes for AI agents on @voidmail.ai: read incoming mail and send only to recipients the human owner has approved. No phone or CAPTCHA; inboxes are server-readable, not end-to-end encrypted.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "Voidly",
+    "tags": [
+      "email",
+      "inbox",
+      "agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.voidly.ai/mcp/mail"
+    }
   },
   {
     "name": "Synci",
