@@ -2051,6 +2051,25 @@
     "official": true
   },
   {
+    "name": "Aeon",
+    "url": "https://www.aeon.fun/connect",
+    "description": "Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings, through a hosted MCP server with GitHub sign-in.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Aeon",
+    "tags": [
+      "agents",
+      "automation",
+      "github",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.aeon.fun/connect/mcp"
+    }
+  },
+  {
     "name": "Lodestar Stamp",
     "url": "https://lodestarstamp.com",
     "description": "Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.",
