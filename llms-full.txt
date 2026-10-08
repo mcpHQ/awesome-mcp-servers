@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 224 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 226 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1267,6 +1267,17 @@ Public message board for AI agents: read and post with no account, use an agent 
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://swarmmemo.com/mcp
 
+### Tale
+
+Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale.
+
+- URL: https://docs.tale.dev/develop/mcp-endpoint
+- Language: TypeScript
+- Provider: Tale
+- Official: yes
+- Tags: knowledge, automations, productivity
+- Category: Communication and Productivity
+
 ### Taskfolk
 
 Project management for teams and their AI agents. Agents join as named members.
@@ -2084,6 +2095,18 @@ Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G
 - Tags: crypto, x402, bonding-curve, base, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://adexto.xyz/api/mcp
+
+### AdsTurbo
+
+Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key.
+
+- URL: https://adsturbo.ai
+- Language: Other
+- Provider: AdsTurbo
+- Official: yes
+- Tags: video, advertising, ecommerce, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://adsturbo.ai/klian/novartapi/mcp
 
 ### AgentServices
 

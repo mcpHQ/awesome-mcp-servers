@@ -1127,6 +1127,20 @@
     "official": true
   },
   {
+    "name": "Tale",
+    "url": "https://docs.tale.dev/develop/mcp-endpoint",
+    "description": "Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Tale",
+    "tags": [
+      "knowledge",
+      "automations",
+      "productivity"
+    ],
+    "official": true
+  },
+  {
     "name": "Discord MCP Server",
     "url": "https://github.com/SaseQ/discord-mcp",
     "description": "Read and send messages in Discord servers and channels.",
@@ -1636,6 +1650,25 @@
       "sql"
     ],
     "official": true
+  },
+  {
+    "name": "AdsTurbo",
+    "url": "https://adsturbo.ai",
+    "description": "Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "AdsTurbo",
+    "tags": [
+      "video",
+      "advertising",
+      "ecommerce",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://adsturbo.ai/klian/novartapi/mcp"
+    }
   },
   {
     "name": "Grafana MCP Server",
