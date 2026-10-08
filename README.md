@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-219-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-221-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,9 +45,9 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (19)
 - [Filesystems and Documents](#filesystems-and-documents) (10)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (15)
-- [Communication and Productivity](#communication-and-productivity) (20)
+- [Communication and Productivity](#communication-and-productivity) (21)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (27)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (19)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (20)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (12)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (33)
@@ -321,6 +321,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `tasks` `productivity` `todoist`
 - **[Unblockd](https://unblockd.ai/setup.md)** `Official` `TypeScript` — Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask.  
   `project-management` `productivity` `oauth` `remote`
+- **[Voidmail](https://github.com/voidly-ai/mcp-email)** `Official` `JavaScript` — Email inboxes for AI agents on @voidmail.ai: read incoming mail and send only to recipients the human owner has approved. No phone or CAPTCHA; inboxes are server-readable, not end-to-end encrypted.  
+  `email` `inbox` `agents` `remote`
 - **[Zoom MCP Server](https://developers.zoom.us/docs/mcp/)** `Official` `Other` — Official hosted Zoom MCP servers for meetings, chat, docs, and whiteboards.  
   `zoom` `meetings` `video`
 - **[Zovo Office Suite](https://github.com/theluckystrike/mcp-servers)** `TypeScript` — Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracking, spreadsheets, PDFs and resumes; 30 servers also reachable as hosted Streamable HTTP endpoints.  
@@ -431,6 +433,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `analytics` `keywords` `content`
 - **[Screpy SEO MCP](https://screpy.com/feature/seo-mcp/)** `Official` `Other` — Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.  
   `seo` `analytics` `ai-visibility` `remote` `oauth`
+- **[Voidly Atlas](https://github.com/voidly-ai/atlas-mcp)** `Official` `TypeScript` — Internet-censorship data from OONI, Censored Planet and IODA, with Sentinel shutdown-risk forecasts and opt-in agent relay tools; relay writes are off by default and relay messages are relay-readable, not end-to-end encrypted.  
+  `censorship` `internet-measurement` `ooni` `forecasts` `remote`
 
 <a id="legal-and-court-data"></a>
 
