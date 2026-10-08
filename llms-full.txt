@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 220 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 224 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -783,6 +783,18 @@ Read and write Airtable bases, tables, and records via MCP.
 - Tags: airtable, spreadsheets, data
 - Category: Filesystems and Documents
 
+### Comment.io MCP Server
+
+Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.
+
+- URL: https://comment.io/llms/mcp.md
+- Language: Rust
+- Provider: Comment.io
+- Official: yes
+- Tags: documents, collaboration, remote, oauth
+- Category: Filesystems and Documents
+- Streamable HTTP endpoint: https://comment.io/mcp
+
 ### Google Drive MCP Server
 
 Access and search files in Google Drive from MCP clients.
@@ -1095,6 +1107,18 @@ MCP server for AI agents to plan, review, schedule, publish, and analyze social 
 - Tags: mcp, social-media, publishing, bulkpublish
 - Category: Communication and Productivity
 
+### CallForMe
+
+Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers.
+
+- URL: https://github.com/callforme-tel/callforme
+- Language: TypeScript
+- Provider: Great Work LLC
+- Official: yes
+- Tags: phone-calls, voice, telephony, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://callforme.tel/mcp
+
 ### Discord MCP Server
 
 Read and send messages in Discord servers and channels.
@@ -1266,6 +1290,18 @@ Project plans for teams that answer to a sponsor: read goals and deliverables, u
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://unblockd.ai/mcp
 
+### Unsora
+
+AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more.
+
+- URL: https://github.com/Shipped-Studio/unsora
+- Language: TypeScript
+- Provider: Shipped Studio
+- Official: yes
+- Tags: video, image-generation, social-media, scheduling, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.tryunsora.com/mcp
+
 ### Zoom MCP Server
 
 Official hosted Zoom MCP servers for meetings, chat, docs, and whiteboards.
@@ -1303,6 +1339,18 @@ Local-first MCP Work Model that gives coding agents scored memory retrieval, com
 - Official: no
 - Tags: memory, coding-agents, local-first
 - Category: AI, Agents, and Memory
+
+### Aeon
+
+Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings, through a hosted MCP server with GitHub sign-in.
+
+- URL: https://www.aeon.fun/connect
+- Language: TypeScript
+- Provider: Aeon
+- Official: yes
+- Tags: agents, automation, github, remote, oauth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://www.aeon.fun/connect/mcp
 
 ### Agentage Memory
 

@@ -2070,6 +2070,25 @@
     "official": true
   },
   {
+    "name": "Aeon",
+    "url": "https://www.aeon.fun/connect",
+    "description": "Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings, through a hosted MCP server with GitHub sign-in.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Aeon",
+    "tags": [
+      "agents",
+      "automation",
+      "github",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.aeon.fun/connect/mcp"
+    }
+  },
+  {
     "name": "Lodestar Stamp",
     "url": "https://lodestarstamp.com",
     "description": "Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.",
@@ -3329,6 +3348,43 @@
     }
   },
   {
+    "name": "CallForMe",
+    "url": "https://github.com/callforme-tel/callforme",
+    "description": "Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "phone-calls",
+      "voice",
+      "telephony",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://callforme.tel/mcp"
+    }
+  },
+  {
+    "name": "Unsora",
+    "url": "https://github.com/Shipped-Studio/unsora",
+    "description": "AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Shipped Studio",
+    "tags": [
+      "video",
+      "image-generation",
+      "social-media",
+      "scheduling",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.tryunsora.com/mcp"
+    }
+  },
+  {
     "name": "agpay",
     "url": "https://agpay.shveik.dev",
     "description": "Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account.",
@@ -3415,6 +3471,24 @@
       "handoff"
     ],
     "official": true
+  },
+  {
+    "name": "Comment.io MCP Server",
+    "url": "https://comment.io/llms/mcp.md",
+    "description": "Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.",
+    "category": "filesystems-and-documents",
+    "language": "Rust",
+    "provider": "Comment.io",
+    "tags": [
+      "documents",
+      "collaboration",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://comment.io/mcp"
+    }
   },
   {
     "name": "AcqPath",
