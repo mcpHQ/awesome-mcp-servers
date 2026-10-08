@@ -455,7 +455,7 @@
   {
     "name": "mcp-pool",
     "url": "https://github.com/yuzu-octopus/mcp-pool",
-    "description": "MCP Key Pool Proxy \u2014 pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
+    "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "yuzu-octopus",
@@ -1413,21 +1413,21 @@
     "official": false
   },
   {
-    "name": "CallForMe",
-    "url": "https://github.com/callforme-tel/callforme",
-    "description": "Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers.",
-    "category": "communication-and-productivity",
+    "name": "looot",
+    "url": "https://github.com/loootai/looot-mcp",
+    "description": "Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance.",
+    "category": "browsers-search-and-web-automation",
     "language": "TypeScript",
-    "provider": "Great Work LLC",
+    "provider": "looot",
     "tags": [
-      "phone-calls",
-      "voice",
-      "telephony",
-      "remote"
+      "data",
+      "enrichment",
+      "search",
+      "api-gateway"
     ],
     "official": true,
     "endpoints": {
-      "streamableHttp": "https://callforme.tel/mcp"
+      "streamableHttp": "https://api.looot.ai/mcp"
     }
   },
   {
@@ -1477,6 +1477,24 @@
       "inference"
     ],
     "official": false
+  },
+  {
+    "name": "HeyReagent",
+    "url": "https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing",
+    "description": "Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send messages and connection invitations, search people, and read profiles and posts; OAuth or API key, free plan available. Not affiliated with LinkedIn.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "HeyReagent",
+    "tags": [
+      "linkedin",
+      "sales",
+      "remote",
+      "oauth"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://api.heyreagent.com/mcp"
+    }
   },
   {
     "name": "CrewAI Enterprise MCP Server",
@@ -1660,6 +1678,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://companyproof.ai/v2/mcp"
+    }
+  },
+  {
+    "name": "Equibles",
+    "url": "https://equibles.com/mcp",
+    "description": "Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "C#",
+    "provider": "Equibles",
+    "tags": [
+      "finance",
+      "sec-filings",
+      "stocks",
+      "earnings-calls",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.equibles.com/mcp"
     }
   },
   {
@@ -1899,6 +1936,25 @@
     "official": true
   },
   {
+    "name": "Arcmira: YouTube Transcript Search",
+    "url": "https://arcmira.com/docs/mcp-server",
+    "description": "Search indexed YouTube transcripts for timestamped passages, speaker appearances, mentions, sponsors and recommendations over a hosted MCP connection.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Arcmira",
+    "tags": [
+      "youtube",
+      "transcripts",
+      "search",
+      "speakers",
+      "research"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.arcmira.com/mcp"
+    }
+  },
+  {
     "name": "NAIF Gravity",
     "url": "https://naifgravity.com",
     "description": "Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.",
@@ -2083,6 +2139,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.synci.io/mcp"
+    }
+  },
+  {
+    "name": "BankBridge",
+    "url": "https://bankbridge.money",
+    "description": "Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "banking",
+      "personal-finance",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://bankbridge.money/api/mcp"
     }
   },
   {
@@ -2334,7 +2408,7 @@
   {
     "name": "AgentServices",
     "url": "https://github.com/vbkotecha/agentservices-api",
-    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
+    "description": "Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "AgentServices",
@@ -2404,7 +2478,7 @@
   {
     "name": "Pyrimid",
     "url": "https://github.com/pyrimid-ai/pyrimid",
-    "description": "Onchain payment protocol for AI agents \u2014 sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
+    "description": "Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
     "provider": "Pyrimid Protocol",
@@ -2529,7 +2603,7 @@
   {
     "name": "Live Tennis API MCP",
     "url": "https://github.com/livetennisapi/livetennisapi-mcp",
-    "description": "Real-time tennis match state \u2014 score, current server, three-valued break-point flag, and retirement/walkover/completed status \u2014 plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Live Tennis API",
@@ -2998,7 +3072,7 @@
   {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
-    "description": "Turn AI-host work into invoices you review before send \u2014 Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
+    "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Invompt",
@@ -3233,6 +3307,42 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agmail.shveik.dev/mcp"
+    }
+  },
+  {
+    "name": "CallForMe",
+    "url": "https://github.com/callforme-tel/callforme",
+    "description": "Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "phone-calls",
+      "voice",
+      "telephony",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://callforme.tel/mcp"
+    }
+  },
+  {
+    "name": "agpay",
+    "url": "https://agpay.shveik.dev",
+    "description": "Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Go",
+    "provider": "agpay",
+    "tags": [
+      "payments",
+      "x402",
+      "stablecoins",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agpay.shveik.dev/mcp"
     }
   },
   {
