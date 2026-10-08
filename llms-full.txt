@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 211 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 214 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1115,6 +1115,18 @@ View and manage Google Calendar events and schedules.
 - Official: no
 - Tags: calendar, scheduling, google
 - Category: Communication and Productivity
+
+### HeyReagent
+
+Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send messages and connection invitations, search people, and read profiles and posts; OAuth or API key, free plan available. Not affiliated with LinkedIn.
+
+- URL: https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing
+- Language: JavaScript
+- Provider: HeyReagent
+- Official: no
+- Tags: linkedin, sales, remote, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://api.heyreagent.com/mcp
 
 ### LinkMCP
 
