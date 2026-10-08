@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 220 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 224 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -95,6 +95,7 @@ Links under each category point at the upstream project, docs, or registry page.
 ## Filesystems and Documents
 
 - [Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server): Read and write Airtable bases, tables, and records via MCP. (TypeScript)
+- [Comment.io MCP Server](https://comment.io/llms/mcp.md): Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server. (Rust, official)
 - [Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive): Access and search files in Google Drive from MCP clients. (Python)
 - [Grandpa's AI](https://github.com/wescorp/grandpasai-mcp): Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization. (JavaScript, official)
 - [MarkItDown MCP](https://github.com/microsoft/markitdown): Convert PDFs, Office docs, and media into markdown for LLM ingestion. (Python, official)
@@ -128,6 +129,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [agmail](https://agmail.shveik.dev): Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account. (Go, official)
 - [Atlassian MCP Server](https://github.com/atlassian/atlassian-mcp-server): Manage Jira issues and Confluence pages across Atlassian Cloud. (TypeScript, official)
 - [BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api): MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish. (TypeScript)
+- [CallForMe](https://github.com/callforme-tel/callforme): Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers. (TypeScript, official)
 - [Discord MCP Server](https://github.com/SaseQ/discord-mcp): Read and send messages in Discord servers and channels. (Python)
 - [Faceless](https://faceless.so): Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...). (TypeScript, official)
 - [Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server): Search, read, and compose Gmail messages from MCP clients. (TypeScript)
@@ -143,12 +145,14 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Taskfolk](https://github.com/taskfolk/mcp): Project management for teams and their AI agents. Agents join as named members. (Other)
 - [Todoist MCP Server](https://github.com/abhiz123/todoist-mcp-server): Manage Todoist tasks, projects, and due dates from AI assistants. (TypeScript)
 - [Unblockd](https://unblockd.ai/setup.md): Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask. (TypeScript, official)
+- [Unsora](https://github.com/Shipped-Studio/unsora): AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more. (TypeScript, official)
 - [Zoom MCP Server](https://developers.zoom.us/docs/mcp/): Official hosted Zoom MCP servers for meetings, chat, docs, and whiteboards. (Other, official)
 - [Zovo Office Suite](https://github.com/theluckystrike/mcp-servers): Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracking, spreadsheets, PDFs and resumes; 30 servers also reachable as hosted Streamable HTTP endpoints. (TypeScript)
 
 ## AI, Agents, and Memory
 
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence): Local-first MCP Work Model that gives coding agents scored memory retrieval, commitments, and outcome-based credit. (Rust)
+- [Aeon](https://www.aeon.fun/connect): Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings, through a hosted MCP server with GitHub sign-in. (TypeScript, official)
 - [Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live): Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp. (TypeScript, official)
 - [Aident Loadout](https://github.com/Aident-AI/aident-skill): Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ Skills through one OAuth setup, with vaulted credentials and an audit trail. (TypeScript, official)
 - [Anansi Haven](https://github.com/kburrus64-max/anansi-haven): Remote MCP server (also A2A and HTTP) giving agents a persistent identity, versioned key-value memory that survives restarts, client-side encrypted storage, an agent directory and a job board. (JavaScript)
