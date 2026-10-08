@@ -1645,6 +1645,25 @@
     }
   },
   {
+    "name": "Equibles",
+    "url": "https://equibles.com/mcp",
+    "description": "Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "C#",
+    "provider": "Equibles",
+    "tags": [
+      "finance",
+      "sec-filings",
+      "stocks",
+      "earnings-calls",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.equibles.com/mcp"
+    }
+  },
+  {
     "name": "Amplitude MCP Server",
     "url": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp",
     "description": "Analyze product analytics events and user behavior in Amplitude.",
