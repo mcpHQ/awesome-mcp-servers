@@ -1127,6 +1127,20 @@
     "official": true
   },
   {
+    "name": "Tale",
+    "url": "https://docs.tale.dev/develop/mcp-endpoint",
+    "description": "Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Tale",
+    "tags": [
+      "knowledge",
+      "automations",
+      "productivity"
+    ],
+    "official": true
+  },
+  {
     "name": "Discord MCP Server",
     "url": "https://github.com/SaseQ/discord-mcp",
     "description": "Read and send messages in Discord servers and channels.",
@@ -1587,6 +1601,39 @@
     "official": true
   },
   {
+    "name": "Bruin MCP",
+    "url": "https://getbruin.com/docs/bruin/getting-started/bruin-mcp.html",
+    "description": "Local MCP server in the open-source Bruin CLI that lets agents query databases, ingest data, compare tables, and build SQL and Python data pipelines.",
+    "category": "data-analytics-and-bi",
+    "language": "Go",
+    "provider": "Bruin",
+    "tags": [
+      "data-pipelines",
+      "etl",
+      "sql",
+      "data-quality"
+    ],
+    "official": true
+  },
+  {
+    "name": "Bruin Cloud MCP",
+    "url": "https://getbruin.com/docs/bruin/cloud/mcp-setup.html",
+    "description": "Hosted MCP server for Bruin Cloud to list data pipelines, inspect runs, and trigger actions from Claude, Cursor, Claude Code, or Codex via OAuth or an access token.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Bruin",
+    "tags": [
+      "data-pipelines",
+      "orchestration",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://cloud.getbruin.com/mcp"
+    }
+  },
+  {
     "name": "Tanod",
     "url": "https://tanod.dev",
     "description": "Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).",
@@ -1606,6 +1653,24 @@
     }
   },
   {
+    "name": "Prisma MCP Server",
+    "url": "https://www.prisma.io/docs/ai/tools/mcp-server",
+    "description": "Manage Prisma Postgres databases, Prisma Compute deployments, and Object Storage from AI tools through a remote MCP server.",
+    "category": "databases-and-storage",
+    "language": "Other",
+    "provider": "Prisma",
+    "tags": [
+      "postgres",
+      "sql",
+      "serverless",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.prisma.io/mcp"
+    }
+  },
+  {
     "name": "Metabase MCP Server",
     "url": "https://www.metabase.com/docs/latest/ai/mcp",
     "description": "Query dashboards and explore data in Metabase BI.",
@@ -1618,6 +1683,25 @@
       "sql"
     ],
     "official": true
+  },
+  {
+    "name": "AdsTurbo",
+    "url": "https://adsturbo.ai",
+    "description": "Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "AdsTurbo",
+    "tags": [
+      "video",
+      "advertising",
+      "ecommerce",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://adsturbo.ai/klian/novartapi/mcp"
+    }
   },
   {
     "name": "Grafana MCP Server",
@@ -1727,6 +1811,25 @@
       "bi"
     ],
     "official": true
+  },
+  {
+    "name": "HANRIA Mandate Check",
+    "url": "https://hanria.ai",
+    "description": "Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.",
+    "category": "security-and-identity",
+    "language": "JavaScript",
+    "provider": "HANRIA",
+    "tags": [
+      "mandates",
+      "authorization",
+      "agent-safety",
+      "receipts",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://check.hanria.ai/v1/mcp"
+    }
   },
   {
     "name": "Whimbrel MedTech Analyst",

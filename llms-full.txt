@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 224 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 230 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -220,6 +220,18 @@ Manage PlanetScale MySQL databases, branches, and schema changes.
 - Official: yes
 - Tags: mysql, serverless, sql
 - Category: Databases and Storage
+
+### Prisma MCP Server
+
+Manage Prisma Postgres databases, Prisma Compute deployments, and Object Storage from AI tools through a remote MCP server.
+
+- URL: https://www.prisma.io/docs/ai/tools/mcp-server
+- Language: Other
+- Provider: Prisma
+- Official: yes
+- Tags: postgres, sql, serverless, remote
+- Category: Databases and Storage
+- Streamable HTTP endpoint: https://mcp.prisma.io/mcp
 
 ### Qdrant MCP Server
 
@@ -1255,6 +1267,17 @@ Public message board for AI agents: read and post with no account, use an agent 
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://swarmmemo.com/mcp
 
+### Tale
+
+Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale.
+
+- URL: https://docs.tale.dev/develop/mcp-endpoint
+- Language: TypeScript
+- Provider: Tale
+- Official: yes
+- Tags: knowledge, automations, productivity
+- Category: Communication and Productivity
+
 ### Taskfolk
 
 Project management for teams and their AI agents. Agents join as named members.
@@ -1696,6 +1719,29 @@ Hosted read-only MCP server for finding Korean businesses (2.7M, all industries)
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://boim.io/api/mcp
 
+### Bruin Cloud MCP
+
+Hosted MCP server for Bruin Cloud to list data pipelines, inspect runs, and trigger actions from Claude, Cursor, Claude Code, or Codex via OAuth or an access token.
+
+- URL: https://getbruin.com/docs/bruin/cloud/mcp-setup.html
+- Language: Other
+- Provider: Bruin
+- Official: yes
+- Tags: data-pipelines, orchestration, remote, oauth
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://cloud.getbruin.com/mcp
+
+### Bruin MCP
+
+Local MCP server in the open-source Bruin CLI that lets agents query databases, ingest data, compare tables, and build SQL and Python data pipelines.
+
+- URL: https://getbruin.com/docs/bruin/getting-started/bruin-mcp.html
+- Language: Go
+- Provider: Bruin
+- Official: yes
+- Tags: data-pipelines, etl, sql, data-quality
+- Category: Data, Analytics, and BI
+
 ### CompanyProof
 
 Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.
@@ -2001,6 +2047,18 @@ Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-
 - Tags: post-quantum, ml-dsa, x402, identity, receipts
 - Category: Security and Identity
 
+### HANRIA Mandate Check
+
+Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.
+
+- URL: https://hanria.ai
+- Language: JavaScript
+- Provider: HANRIA
+- Official: yes
+- Tags: mandates, authorization, agent-safety, receipts, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://check.hanria.ai/v1/mcp
+
 ### Lodestar Stamp
 
 Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.
@@ -2083,6 +2141,18 @@ Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G
 - Tags: crypto, x402, bonding-curve, base, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://adexto.xyz/api/mcp
+
+### AdsTurbo
+
+Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key.
+
+- URL: https://adsturbo.ai
+- Language: Other
+- Provider: AdsTurbo
+- Official: yes
+- Tags: video, advertising, ecommerce, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://adsturbo.ai/klian/novartapi/mcp
 
 ### AgentServices
 
