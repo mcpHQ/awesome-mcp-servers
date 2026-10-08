@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 231 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 232 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2409,6 +2409,17 @@ Search 5,000+ live empty leg flights, get charter price estimates and booking li
 - Tags: travel, private-jet, charter, marketplace, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.skyaccess.com/mcp
+
+### SpellBook Finance
+
+Hosted MCP server for Magic: The Gathering and Pokémon card prices, market movers, sealed-product expected value, and authenticated seller inventory and listing tools.
+
+- URL: https://spellbook-finance.com/agent/mcp.md
+- Language: TypeScript
+- Provider: SpellBook Finance
+- Official: yes
+- Tags: trading-cards, market-data, inventory, ecommerce, remote
+- Category: Finance, Commerce, and Business Apps
 
 ### Square MCP Server
 

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-231-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-232-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -50,7 +50,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (21)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (13)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (34)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (35)
 - [Utilities and Examples](#utilities-and-examples) (13)
 
 <a id="official-and-reference"></a>
@@ -552,6 +552,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `shopify` `retail`
 - **[SkyAccess](https://github.com/sky-access/skyaccess-mcp)** `Official` `JavaScript` — Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.  
   `travel` `private-jet` `charter` `marketplace` `remote`
+- **[SpellBook Finance](https://spellbook-finance.com/agent/mcp.md)** `Official` `TypeScript` — Hosted MCP server for Magic: The Gathering and Pokémon card prices, market movers, sealed-product expected value, and authenticated seller inventory and listing tools.  
+  `trading-cards` `market-data` `inventory` `ecommerce` `remote`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
   `payments` `pos` `commerce`
 - **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.  
