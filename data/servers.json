@@ -1620,6 +1620,25 @@
     "official": true
   },
   {
+    "name": "AdsTurbo",
+    "url": "https://adsturbo.ai",
+    "description": "Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "AdsTurbo",
+    "tags": [
+      "video",
+      "advertising",
+      "ecommerce",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://adsturbo.ai/klian/novartapi/mcp"
+    }
+  },
+  {
     "name": "Grafana MCP Server",
     "url": "https://github.com/grafana/mcp-grafana",
     "description": "Explore Grafana dashboards, alerts, and observability data.",
