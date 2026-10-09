@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 243 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 246 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -415,6 +415,18 @@ Drive an ERIUS PHONE hosted Android phone or tablet: read the screen, tap, type,
 - Official: yes
 - Tags: android, mobile, testing, automation
 - Category: Developer Tools and Code Intelligence
+
+### Flare
+
+Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP.
+
+- URL: https://flareapp.io/docs/flare/general/our-mcp-server
+- Language: PHP
+- Provider: Spatie
+- Official: yes
+- Tags: error-tracking, observability, laravel, php, oauth
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://flareapp.io/mcp
 
 ### GitHub MCP Server
 
@@ -1211,6 +1223,18 @@ Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, peop
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://app.linkmcp.io/api/mcp
 
+### Mailcoach
+
+Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list.
+
+- URL: https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/
+- Language: PHP
+- Provider: Spatie
+- Official: yes
+- Tags: email-marketing, newsletters, campaigns, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.mailcoach.app
+
 ### Microsoft Teams MCP Server
 
 Interact with Microsoft Teams channels, messages, and meetings.
@@ -1300,6 +1324,18 @@ Project management for teams and their AI agents. Agents join as named members.
 - Tags: project-management, tasks, agents, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://taskfolk.ai/api/mcp/v1
+
+### There There
+
+Read, search and triage There There helpdesk tickets, save private reply drafts, send replies and manage knowledge base articles, limited to the abilities granted over OAuth.
+
+- URL: https://there-there.app/docs/integrations/mcp-server
+- Language: PHP
+- Provider: Spatie
+- Official: yes
+- Tags: helpdesk, customer-support, tickets, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://there-there.app/mcp
 
 ### Todoist MCP Server
 

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 243 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 246 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -57,6 +57,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Docker MCP Server](https://github.com/docker/mcp-gateway): Manage containers, images, and Docker environments through MCP. (Go, official)
 - [E2B MCP Server](https://docs.e2b.dev/mcp): Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows. (Other, official)
 - [ERIUS PHONE MCP](https://github.com/Protremix/erius-phone-mcp): Drive an ERIUS PHONE hosted Android phone or tablet: read the screen, tap, type, swipe, launch apps, install APKs, and pull crash logs. (Python, official)
+- [Flare](https://flareapp.io/docs/flare/general/our-mcp-server): Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP. (PHP, official)
 - [GitHub MCP Server](https://github.com/github/github-mcp-server): Official GitHub integration for repos, issues, pull requests, and code search. (Go, official)
 - [GitLab MCP Server](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/): GitLab Duo MCP server for merge requests, issues, and project management. (Ruby, official)
 - [GodotMCP](https://github.com/vberai/godot-mcp): A secure, 100% native GDScript Server-Sent Events (SSE) server bridging Claude, Cursor, and Windsurf directly to Godot 4.x scene trees. No Node.js or C# dependencies required. (GDScript)
@@ -138,6 +139,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Google Calendar MCP Server](https://github.com/nspady/google-calendar-mcp): View and manage Google Calendar events and schedules. (TypeScript)
 - [HeyReagent](https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing): Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send messages and connection invitations, search people, and read profiles and posts; OAuth or API key, free plan available. Not affiliated with LinkedIn. (JavaScript)
 - [LinkMCP](https://app.linkmcp.io): Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial. (TypeScript)
+- [Mailcoach](https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/): Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list. (PHP, official)
 - [Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server): Interact with Microsoft Teams channels, messages, and meetings. (TypeScript)
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server. (TypeScript)
 - [Postbag MCP Server](https://github.com/faahim/postbag): Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks. (TypeScript)
@@ -146,6 +148,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [SwarmMemo](https://github.com/Hugo0/swarmmemo): Public message board for AI agents: read and post with no account, use an agent toolkit (web fetch, memory, wake-ups, webhook receivers) and paid APIs on a free daily allowance, and sign in with OAuth for MCP clients. (Go, official)
 - [Tale](https://docs.tale.dev/develop/mcp-endpoint): Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale. (TypeScript, official)
 - [Taskfolk](https://github.com/taskfolk/mcp): Project management for teams and their AI agents. Agents join as named members. (Other)
+- [There There](https://there-there.app/docs/integrations/mcp-server): Read, search and triage There There helpdesk tickets, save private reply drafts, send replies and manage knowledge base articles, limited to the abilities granted over OAuth. (PHP, official)
 - [Todoist MCP Server](https://github.com/abhiz123/todoist-mcp-server): Manage Todoist tasks, projects, and due dates from AI assistants. (TypeScript)
 - [Unblockd](https://unblockd.ai/setup.md): Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask. (TypeScript, official)
 - [Unsora](https://github.com/Shipped-Studio/unsora): AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more. (TypeScript, official)
