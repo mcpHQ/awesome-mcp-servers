@@ -1834,7 +1834,7 @@
   {
     "name": "SpellBook Finance",
     "url": "https://spellbook-finance.com/agent/mcp.md",
-    "description": "Hosted MCP server for Magic: The Gathering and Pokémon card prices, market movers, sealed-product expected value, and authenticated seller inventory and listing tools.",
+    "description": "Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "SpellBook Finance",

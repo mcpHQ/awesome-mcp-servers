@@ -256,7 +256,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Salesforce MCP Server](https://github.com/salesforcecli/mcp): Query Salesforce CRM records and manage business workflows. (TypeScript, official)
 - [Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp): Community-maintained integration for Shopify products, orders, and store operations. (TypeScript)
 - [SkyAccess](https://github.com/sky-access/skyaccess-mcp): Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key. (JavaScript, official)
-- [SpellBook Finance](https://spellbook-finance.com/agent/mcp.md): Hosted MCP server for Magic: The Gathering and Pokémon card prices, market movers, sealed-product expected value, and authenticated seller inventory and listing tools. (TypeScript, official)
+- [SpellBook Finance](https://spellbook-finance.com/agent/mcp.md): Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools. (TypeScript, official)
 - [Square MCP Server](https://github.com/square/square-mcp-server): Process Square payments and manage point-of-sale operations. (TypeScript, official)
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp): Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances. (TypeScript, official)
 - [Stripe MCP Server](https://github.com/stripe/agent-toolkit): Manage Stripe payments, customers, and subscriptions via MCP tools. (TypeScript, official)
