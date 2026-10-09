@@ -1556,6 +1556,17 @@
     "official": true
   },
   {
+    "name": "Takibi Base",
+    "url": "https://takibibase.com/docs/connector",
+    "description": "Ask your Takibi Base collections anything; get answers with cited passages and a support score.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Takibi Base",
+    "tags": ["knowledge-base", "citations", "remote", "oauth"],
+    "official": true,
+    "endpoints": { "streamableHttp": "https://app.takibibase.com/mcp" }
+  },
+  {
     "name": "Agentage Memory",
     "url": "https://agentage.io/blog/mcp-endpoint-is-live",
     "description": "Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp.",
