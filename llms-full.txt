@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 232 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 237 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1511,6 +1511,18 @@ Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpo
 - Tags: agents, orchestration, langgraph
 - Category: AI, Agents, and Memory
 
+### Liminal
+
+Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps.
+
+- URL: https://github.com/jaybro2042-alt/liminality-mcp
+- Language: Python
+- Provider: Physea
+- Official: yes
+- Tags: agents, memory, remote, oauth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://liminality.physea.ai/mcp
+
 ### LlamaParse MCP Server
 
 Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.
@@ -1546,6 +1558,18 @@ Hosted persistent memory layer for personalized agent interactions.
 - Tags: memory, personalization, agents
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.mem0.ai/mcp
+
+### MuAPI MCP Server
+
+Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.
+
+- URL: https://muapi.ai/docs/mcp
+- Language: Other
+- Provider: MuAPI
+- Official: yes
+- Tags: ai-video, image-generation, audio-generation, media-editing, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://api.muapi.ai/mcp
 
 ### MusedIn
 
@@ -1601,6 +1625,18 @@ Bridge OpenAI GPT models into MCP-compatible agent workflows.
 - Official: no
 - Tags: openai, gpt, inference
 - Category: AI, Agents, and Memory
+
+### ORANO
+
+Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.
+
+- URL: https://oranoai.com/mcp
+- Language: Python
+- Provider: ORANO
+- Official: yes
+- Tags: memory, knowledge, video, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://orano-ai-backend-1037939693300.us-central1.run.app/mcp/
 
 ### Pyrimid
 
@@ -2285,6 +2321,17 @@ Retrieve CRM contacts, deals, lists and workflows, and create contacts in approv
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.app.firstsales.io/mcp
 
+### Glongus MCP
+
+Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.
+
+- URL: https://github.com/glongusmain/glongus-mcp
+- Language: JavaScript
+- Provider: Glongus
+- Official: yes
+- Tags: marketplace, ecommerce, escrow, shopping
+- Category: Finance, Commerce, and Business Apps
+
 ### HubSpot MCP Server
 
 Access HubSpot contacts, deals, and marketing automation data.
@@ -2420,6 +2467,17 @@ Search 5,000+ live empty leg flights, get charter price estimates and booking li
 - Tags: travel, private-jet, charter, marketplace, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.skyaccess.com/mcp
+
+### SpellBook Finance
+
+Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.
+
+- URL: https://spellbook-finance.com/agent/mcp.md
+- Language: TypeScript
+- Provider: SpellBook Finance
+- Official: yes
+- Tags: trading-cards, market-data, inventory, ecommerce, remote
+- Category: Finance, Commerce, and Business Apps
 
 ### Square MCP Server
 
