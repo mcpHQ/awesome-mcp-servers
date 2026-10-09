@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 248 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 249 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -537,6 +537,17 @@ Explore and run Postman collections and API workflows from AI clients.
 - Provider: Postman
 - Official: yes
 - Tags: api, testing, http
+- Category: Developer Tools and Code Intelligence
+
+### REA
+
+Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies.
+
+- URL: https://github.com/morluto/rea
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: reverse-engineering, binary-analysis, devtools
 - Category: Developer Tools and Code Intelligence
 
 ### Semgrep MCP Server

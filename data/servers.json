@@ -2491,6 +2491,20 @@
     }
   },
   {
+    "name": "REA",
+    "url": "https://github.com/morluto/rea",
+    "description": "Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "reverse-engineering",
+      "binary-analysis",
+      "devtools"
+    ],
+    "official": false
+  },
+  {
     "name": "Lodestar Stamp",
     "url": "https://lodestarstamp.com",
     "description": "Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.",
