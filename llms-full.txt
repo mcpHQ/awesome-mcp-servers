@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 231 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 232 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1510,6 +1510,18 @@ Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpo
 - Official: yes
 - Tags: agents, orchestration, langgraph
 - Category: AI, Agents, and Memory
+
+### Liminal
+
+Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps.
+
+- URL: https://github.com/jaybro2042-alt/liminality-mcp
+- Language: Python
+- Provider: Physea
+- Official: yes
+- Tags: agents, memory, remote, oauth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://liminality.physea.ai/mcp
 
 ### LlamaParse MCP Server
 

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-231-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-232-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (11)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (15)
 - [Communication and Productivity](#communication-and-productivity) (23)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (29)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (30)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (21)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (13)
@@ -370,6 +370,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `knowledge` `encryption` `local`
 - **[LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp)** `Official` `Other` — Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint.  
   `agents` `orchestration` `langgraph`
+- **[Liminal](https://github.com/jaybro2042-alt/liminality-mcp)** `Official` `Python` — Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps.  
+  `agents` `memory` `remote` `oauth`
 - **[LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/)** `Official` `Other` — Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.  
   `rag` `indexing` `agents`
 - **[Magic Hour MCP Server](https://magichour.ai)** `Official` `Python` — Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.  

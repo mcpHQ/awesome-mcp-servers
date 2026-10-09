@@ -1813,6 +1813,24 @@
     "official": true
   },
   {
+    "name": "Liminal",
+    "url": "https://github.com/jaybro2042-alt/liminality-mcp",
+    "description": "Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Physea",
+    "tags": [
+      "agents",
+      "memory",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://liminality.physea.ai/mcp"
+    }
+  },
+  {
     "name": "HANRIA Mandate Check",
     "url": "https://hanria.ai",
     "description": "Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.",

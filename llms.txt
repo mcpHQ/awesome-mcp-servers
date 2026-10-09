@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 231 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 232 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -167,6 +167,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [HumanEndpoint](https://humanendpoint.au): Quote-first human execution for AI agents: business and supplier calls, stock and availability checks, physical verification, manual research, and human QA. (TypeScript, official)
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness): Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants. (Rust)
 - [LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp): Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint. (Other, official)
+- [Liminal](https://github.com/jaybro2042-alt/liminality-mcp): Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps. (Python, official)
 - [LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/): Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs. (Other, official)
 - [Magic Hour MCP Server](https://magichour.ai): Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing. (Python, official)
 - [mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp): Hosted persistent memory layer for personalized agent interactions. (Other, official)
