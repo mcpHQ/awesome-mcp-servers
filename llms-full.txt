@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 231 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 232 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1546,6 +1546,18 @@ Hosted persistent memory layer for personalized agent interactions.
 - Tags: memory, personalization, agents
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.mem0.ai/mcp
+
+### MuAPI MCP Server
+
+Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.
+
+- URL: https://muapi.ai/docs/mcp
+- Language: Other
+- Provider: MuAPI
+- Official: yes
+- Tags: ai-video, image-generation, audio-generation, media-editing, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://api.muapi.ai/mcp
 
 ### MusedIn
 

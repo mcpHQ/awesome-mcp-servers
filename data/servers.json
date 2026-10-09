@@ -1427,6 +1427,25 @@
     "official": false
   },
   {
+    "name": "MuAPI MCP Server",
+    "url": "https://muapi.ai/docs/mcp",
+    "description": "Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "MuAPI",
+    "tags": [
+      "ai-video",
+      "image-generation",
+      "audio-generation",
+      "media-editing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.muapi.ai/mcp"
+    }
+  },
+  {
     "name": "looot",
     "url": "https://github.com/loootai/looot-mcp",
     "description": "Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance.",
