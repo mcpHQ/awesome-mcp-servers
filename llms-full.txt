@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 249 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 250 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2664,6 +2664,18 @@ Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, finan
 - Tags: stocks, india, market-data, remote, oauth
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.tapetide.com/mcp
+
+### TraderSpy
+
+Read-only crypto futures market data: AI signals, top-trader positions on Hyperliquid, Binance, Bybit and OKX, indicators, funding, open interest, a screener and backtests. No order or withdrawal tools.
+
+- URL: https://github.com/target1m/traderspy-mcp
+- Language: Other
+- Provider: Target1M
+- Official: yes
+- Tags: crypto, trading, market-data, oauth, read-only
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.traderspy.app/mcp
 
 ### TvojeLajky MCP
 
