@@ -1851,6 +1851,22 @@
     }
   },
   {
+    "name": "SpellBook Finance",
+    "url": "https://spellbook-finance.com/agent/mcp.md",
+    "description": "Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "SpellBook Finance",
+    "tags": [
+      "trading-cards",
+      "market-data",
+      "inventory",
+      "ecommerce",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "Whimbrel MedTech Analyst",
     "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
     "description": "Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.",
@@ -2074,6 +2090,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "ORANO",
+    "url": "https://oranoai.com/mcp",
+    "description": "Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "ORANO",
+    "tags": [
+      "memory",
+      "knowledge",
+      "video",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://orano-ai-backend-1037939693300.us-central1.run.app/mcp/"
     }
   },
   {
@@ -2420,6 +2454,21 @@
       "payments",
       "pos",
       "commerce"
+    ],
+    "official": true
+  },
+  {
+    "name": "Glongus MCP",
+    "url": "https://github.com/glongusmain/glongus-mcp",
+    "description": "Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Glongus",
+    "tags": [
+      "marketplace",
+      "ecommerce",
+      "escrow",
+      "shopping"
     ],
     "official": true
   },

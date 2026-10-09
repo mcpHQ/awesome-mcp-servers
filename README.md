@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-232-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-235-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,11 +46,11 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (11)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (15)
 - [Communication and Productivity](#communication-and-productivity) (23)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (30)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (31)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (21)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (13)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (34)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (36)
 - [Utilities and Examples](#utilities-and-examples) (13)
 
 <a id="official-and-reference"></a>
@@ -386,6 +386,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `ollama` `local-llm` `inference`
 - **[OpenAI MCP Bridge](https://github.com/jaspertvdm/mcp-server-openai-bridge)** `Python` — Bridge OpenAI GPT models into MCP-compatible agent workflows.  
   `openai` `gpt` `inference`
+- **[ORANO](https://oranoai.com/mcp)** `Official` `Python` — Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.  
+  `memory` `knowledge` `video` `remote`
 - **[Pyrimid](https://github.com/pyrimid-ai/pyrimid)** `TypeScript` — Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.  
   `x402` `ai-agent` `payments` `base` `usdc`
 - **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)** `TypeScript` — Discover model inputs and create AI image, video, music, speech, and other model API tasks.  
@@ -530,6 +532,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `finance` `sec-filings` `stocks` `earnings-calls` `oauth`
 - **[FirstSales MCP](https://developer.firstsales.io/agents/mcp-server)** `Official` `TypeScript` — Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan.  
   `crm` `contacts` `sales` `oauth` `remote`
+- **[Glongus MCP](https://github.com/glongusmain/glongus-mcp)** `Official` `JavaScript` — Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.  
+  `marketplace` `ecommerce` `escrow` `shopping`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
 - **[Invompt](https://mcp.invompt.com/mcp)** `Official` `TypeScript` — Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com  
@@ -554,6 +558,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `shopify` `retail`
 - **[SkyAccess](https://github.com/sky-access/skyaccess-mcp)** `Official` `JavaScript` — Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.  
   `travel` `private-jet` `charter` `marketplace` `remote`
+- **[SpellBook Finance](https://spellbook-finance.com/agent/mcp.md)** `Official` `TypeScript` — Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.  
+  `trading-cards` `market-data` `inventory` `ecommerce` `remote`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
   `payments` `pos` `commerce`
 - **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.  
