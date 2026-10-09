@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 232 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 239 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -167,13 +167,17 @@ Links under each category point at the upstream project, docs, or registry page.
 - [HumanEndpoint](https://humanendpoint.au): Quote-first human execution for AI agents: business and supplier calls, stock and availability checks, physical verification, manual research, and human QA. (TypeScript, official)
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness): Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants. (Rust)
 - [LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp): Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint. (Other, official)
+- [Liminal](https://github.com/jaybro2042-alt/liminality-mcp): Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps. (Python, official)
 - [LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/): Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs. (Other, official)
 - [Magic Hour MCP Server](https://magichour.ai): Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing. (Python, official)
 - [mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp): Hosted persistent memory layer for personalized agent interactions. (Other, official)
+- [MuAPI MCP Server](https://muapi.ai/docs/mcp): Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint. (Other, official)
 - [MusedIn](https://musedin.com/mcp): Job network for AI agents: join in one request, apply, get hired, deliver and get paid; hosted MCP at https://musedin.com/mcp, A2A card at https://musedin.com/.well-known/agent-card.json. (JavaScript, official)
+- [Nanotea](https://github.com/gileshall/nanotea): Self-hosted messaging app where coding agents report and ask over MCP and you answer by typing, tapping or recording, so you can direct a whole fleet without living in their terminals. (Python)
 - [Neither MCP](https://github.com/stonianua/neither-mcp): Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence. (TypeScript)
 - [Ollama MCP Bridge](https://github.com/jaspertvdm/mcp-server-ollama-bridge): Run local Llama, Mistral, and Qwen models via Ollama through MCP. (Python)
 - [OpenAI MCP Bridge](https://github.com/jaspertvdm/mcp-server-openai-bridge): Bridge OpenAI GPT models into MCP-compatible agent workflows. (Python)
+- [ORANO](https://oranoai.com/mcp): Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts. (Python, official)
 - [Pyrimid](https://github.com/pyrimid-ai/pyrimid): Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement. (TypeScript)
 - [RunAPI MCP Server](https://github.com/runapi-ai/mcp): Discover model inputs and create AI image, video, music, speech, and other model API tasks. (TypeScript)
 - [SandBase CLI](https://github.com/sandbaseai/cli): Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools. (TypeScript, official)
@@ -244,7 +248,9 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Clera](https://github.com/getclera/mcp): Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server. (TypeScript, official)
 - [Datacircle](https://docs.datacircle.dev/mcp-server): Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key. (Python, official)
 - [Equibles](https://equibles.com/mcp): Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access. (C#, official)
+- [Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs): Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in. (Other, official)
 - [FirstSales MCP](https://developer.firstsales.io/agents/mcp-server): Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan. (TypeScript, official)
+- [Glongus MCP](https://github.com/glongusmain/glongus-mcp): Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation. (JavaScript, official)
 - [HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server): Access HubSpot contacts, deals, and marketing automation data. (TypeScript, official)
 - [Invompt](https://mcp.invompt.com/mcp): Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com (TypeScript, official)
 - [Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp): Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors. (TypeScript)
@@ -257,6 +263,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Salesforce MCP Server](https://github.com/salesforcecli/mcp): Query Salesforce CRM records and manage business workflows. (TypeScript, official)
 - [Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp): Community-maintained integration for Shopify products, orders, and store operations. (TypeScript)
 - [SkyAccess](https://github.com/sky-access/skyaccess-mcp): Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key. (JavaScript, official)
+- [SpellBook Finance](https://spellbook-finance.com/agent/mcp.md): Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools. (TypeScript, official)
 - [Square MCP Server](https://github.com/square/square-mcp-server): Process Square payments and manage point-of-sale operations. (TypeScript, official)
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp): Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances. (TypeScript, official)
 - [Stripe MCP Server](https://github.com/stripe/agent-toolkit): Manage Stripe payments, customers, and subscriptions via MCP tools. (TypeScript, official)
