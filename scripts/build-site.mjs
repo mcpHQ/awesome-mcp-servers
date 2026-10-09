@@ -28,7 +28,7 @@ const staticDir = join(siteDir, "static");
 const logosDir = join(siteDir, "logos");
 const outDir = join(siteDir, "dist");
 
-const siteUrl = (process.env.SITE_URL ?? "https://landscape.mcphq.org").replace(/\/$/, "");
+const siteUrl = (process.env.SITE_URL ?? "https://mcphq.org").replace(/\/$/, "");
 const base = (process.env.SITE_BASE_PATH ?? "").replace(/\/$/, "");
 const repoUrl = "https://github.com/mcpHQ/awesome-mcp-servers";
 const submitUrl = `${repoUrl}/issues/new?template=add-server.yml`;

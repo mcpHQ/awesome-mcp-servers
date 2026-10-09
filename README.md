@@ -7,13 +7,13 @@
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**A hand-curated, link-checked catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers, with a [searchable directory](https://landscape.mcphq.org/) and a [JSON API](#use-the-data).**
+**A hand-curated, link-checked catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers, with a [searchable directory](https://mcphq.org/) and a [JSON API](#use-the-data).**
 
-<a href="https://landscape.mcphq.org/" target="_blank" rel="noopener noreferrer">
+<a href="https://mcphq.org/" target="_blank" rel="noopener noreferrer">
   <img src="assets/site-preview.png" alt="mcpHQ: searchable MCP server directory with filters, install configs, and a stack builder">
 </a>
 
-<p align="center"><b><a href="https://landscape.mcphq.org/">Open the mcpHQ directory →</a></b></p>
+<p align="center"><b><a href="https://mcphq.org/">Open the mcpHQ directory →</a></b></p>
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This list focuses on well-scoped, source-available servers that extend AI workflows with databases, developer tools, browsers, cloud services, and more.
 
@@ -29,10 +29,10 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 ## Quick Links
 
-- [mcpHQ directory](https://landscape.mcphq.org/): search, filter, and install servers
-- [Stack builder](https://landscape.mcphq.org/stack/): merge several servers into one client config
+- [mcpHQ directory](https://mcphq.org/): search, filter, and install servers
+- [Stack builder](https://mcphq.org/stack/): merge several servers into one client config
 - [Use the data](#use-the-data): JSON API and LLM catalog files
-- [LLM index](https://landscape.mcphq.org/llms.txt): short catalog index for agents
+- [LLM index](https://mcphq.org/llms.txt): short catalog index for agents
 - [Listed on mcpHQ badge](#listed-on-mcphq-badge): for server maintainers
 - [Official MCP Registry](https://registry.modelcontextprotocol.io/)
 - [MCP Specification](https://modelcontextprotocol.io/specification/latest)
@@ -652,13 +652,13 @@ The full catalog is published with every website deploy:
 
 | File | URL |
 | --- | --- |
-| Servers | [`https://landscape.mcphq.org/api/servers.json`](https://landscape.mcphq.org/api/servers.json) |
-| Categories | [`https://landscape.mcphq.org/api/categories.json`](https://landscape.mcphq.org/api/categories.json) |
-| LLM index | [`https://landscape.mcphq.org/llms.txt`](https://landscape.mcphq.org/llms.txt) |
-| LLM full catalog | [`https://landscape.mcphq.org/llms-full.txt`](https://landscape.mcphq.org/llms-full.txt) |
+| Servers | [`https://mcphq.org/api/servers.json`](https://mcphq.org/api/servers.json) |
+| Categories | [`https://mcphq.org/api/categories.json`](https://mcphq.org/api/categories.json) |
+| LLM index | [`https://mcphq.org/llms.txt`](https://mcphq.org/llms.txt) |
+| LLM full catalog | [`https://mcphq.org/llms-full.txt`](https://mcphq.org/llms-full.txt) |
 
 ```bash
-curl -s https://landscape.mcphq.org/api/servers.json | jq '.[] | select(.official) | .name'
+curl -s https://mcphq.org/api/servers.json | jq '.[] | select(.official) | .name'
 ```
 
 The fields are described in [`data/servers.schema.json`](data/servers.schema.json). Please link back to this repo if you build on the data.

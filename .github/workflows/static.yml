@@ -36,7 +36,7 @@ jobs:
       - name: Build site
         run: npm run build-site
         env:
-          SITE_URL: https://landscape.mcphq.org
+          SITE_URL: https://mcphq.org
       - name: Upload build folder
         uses: actions/upload-pages-artifact@v5
         with:

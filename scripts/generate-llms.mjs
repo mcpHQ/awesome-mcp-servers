@@ -5,7 +5,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const siteUrl = "https://landscape.mcphq.org";
+const siteUrl = "https://mcphq.org";
 const repoUrl = "https://github.com/mcpHQ/awesome-mcp-servers";
 
 const args = process.argv.slice(2);
