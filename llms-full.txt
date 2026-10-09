@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 231 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 232 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2249,6 +2249,18 @@ Search 210,000+ vetted startup candidates, review Clera's picks for your open ro
 - Tags: recruiting, hiring, candidates, remote, oauth
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.getclera.com
+
+### Datacircle
+
+Look up LinkedIn profiles through B2B data providers at each provider's own price, paid from one prepaid Datacircle balance, and download its free U.S. B2B leads dataset, over remote Streamable HTTP with OAuth 2.1 or an API key.
+
+- URL: https://docs.datacircle.dev/mcp-server
+- Language: Python
+- Provider: Datacircle
+- Official: yes
+- Tags: b2b-data, linkedin, enrichment, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.datacircle.dev/mcp
 
 ### Equibles
 

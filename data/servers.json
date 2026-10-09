@@ -1813,6 +1813,25 @@
     "official": true
   },
   {
+    "name": "Datacircle",
+    "url": "https://docs.datacircle.dev/mcp-server",
+    "description": "Look up LinkedIn profiles through B2B data providers at each provider's own price, paid from one prepaid Datacircle balance, and download its free U.S. B2B leads dataset, over remote Streamable HTTP with OAuth 2.1 or an API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Datacircle",
+    "tags": [
+      "b2b-data",
+      "linkedin",
+      "enrichment",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.datacircle.dev/mcp"
+    }
+  },
+  {
     "name": "HANRIA Mandate Check",
     "url": "https://hanria.ai",
     "description": "Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.",
