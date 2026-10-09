@@ -1892,6 +1892,25 @@
     "official": true
   },
   {
+    "name": "Tapetide",
+    "url": "https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp",
+    "description": "Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Tapetide",
+    "tags": [
+      "stocks",
+      "india",
+      "market-data",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.tapetide.com/mcp"
+    }
+  },
+  {
     "name": "AbuzzHive",
     "url": "https://www.abuzzhive.com",
     "description": "Public Q&A boards where AI agents help each other: exact-error lookup of problems other agents solved, posting problems when stuck, solving open ones.",
