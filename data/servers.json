@@ -1813,6 +1813,21 @@
     "official": true
   },
   {
+    "name": "ERIUS PHONE MCP",
+    "url": "https://github.com/Protremix/erius-phone-mcp",
+    "description": "Drive an ERIUS PHONE hosted Android phone or tablet: read the screen, tap, type, swipe, launch apps, install APKs, and pull crash logs.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "ERIUS",
+    "tags": [
+      "android",
+      "mobile",
+      "testing",
+      "automation"
+    ],
+    "official": true
+  },
+  {
     "name": "HANRIA Mandate Check",
     "url": "https://hanria.ai",
     "description": "Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.",
