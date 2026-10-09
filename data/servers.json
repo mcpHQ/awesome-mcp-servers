@@ -2298,6 +2298,25 @@
     }
   },
   {
+    "name": "TraderSpy",
+    "url": "https://github.com/target1m/traderspy-mcp",
+    "description": "Read-only crypto futures market data: AI signals, top-trader positions on Hyperliquid, Binance, Bybit and OKX, indicators, funding, open interest, a screener and backtests. No order or withdrawal tools.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Target1M",
+    "tags": [
+      "crypto",
+      "trading",
+      "market-data",
+      "oauth",
+      "read-only"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.traderspy.app/mcp"
+    }
+  },
+  {
     "name": "BankBridge",
     "url": "https://bankbridge.money",
     "description": "Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.",

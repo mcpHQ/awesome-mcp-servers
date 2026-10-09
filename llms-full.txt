@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 231 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 232 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2454,6 +2454,18 @@ Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings
 - Tags: banking, personal-finance, open-banking, oauth, read-only
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.synci.io/mcp
+
+### TraderSpy
+
+Read-only crypto futures market data: AI signals, top-trader positions on Hyperliquid, Binance, Bybit and OKX, indicators, funding, open interest, a screener and backtests. No order or withdrawal tools.
+
+- URL: https://github.com/target1m/traderspy-mcp
+- Language: Other
+- Provider: Target1M
+- Official: yes
+- Tags: crypto, trading, market-data, oauth, read-only
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.traderspy.app/mcp
 
 ### TvojeLajky MCP
 
