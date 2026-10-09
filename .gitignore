@@ -1,3 +1,2 @@
-landscape/build/
-landscape/data.yml
-landscape/settings.build.yml
+node_modules/
+site/dist/

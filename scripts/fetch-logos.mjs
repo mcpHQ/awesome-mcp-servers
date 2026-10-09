@@ -15,7 +15,7 @@ import {
 } from "./logo-utils.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const logosDir = join(root, "landscape/logos");
+const logosDir = join(root, "site/logos");
 const officialMcpLogoPath = join(logosDir, "mcp.svg");
 const servers = JSON.parse(
   readFileSync(join(root, "data/servers.json"), "utf8")
@@ -228,7 +228,7 @@ for (const server of servers) {
 }
 
 writeFileSync(
-  join(root, "landscape/logo-map.json"),
+  join(root, "site/logo-map.json"),
   `${JSON.stringify(logoMap, null, 2)}\n`
 );
 

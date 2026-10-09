@@ -7,13 +7,13 @@
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**A hand-curated, link-checked catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers, with an [interactive map](https://landscape.mcphq.org/) and a [JSON API](#use-the-data).**
+**A hand-curated, link-checked catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers, with a [searchable directory](https://landscape.mcphq.org/) and a [JSON API](#use-the-data).**
 
 <a href="https://landscape.mcphq.org/" target="_blank" rel="noopener noreferrer">
-  <img src="assets/mcp-landscape.png" alt="MCP Landscape: interactive, searchable map of every server in this catalog">
+  <img src="assets/site-preview.png" alt="mcpHQ: searchable MCP server directory with filters, install configs, and a stack builder">
 </a>
 
-<p align="center"><b><a href="https://landscape.mcphq.org/">Explore the live MCP Landscape →</a></b></p>
+<p align="center"><b><a href="https://landscape.mcphq.org/">Open the mcpHQ directory →</a></b></p>
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This list focuses on well-scoped, source-available servers that extend AI workflows with databases, developer tools, browsers, cloud services, and more.
 
@@ -21,14 +21,16 @@ MCP is an open protocol that lets AI applications connect to external tools and 
 
 - **Curated, not scraped.** Every entry is reviewed against the [quality criteria](#quality-criteria). Spam, impersonators, and abandoned forks are rejected.
 - **No dead links.** Every link is checked on each pull request and again every week. Broken entries get fixed or removed.
-- **Structured data.** Every server has a category, language, provider, tags, and an official/community flag in [`data/servers.json`](data/servers.json). The README, [`llms.txt`](llms.txt), [`llms-full.txt`](llms-full.txt), and the landscape are generated from that file.
+- **Structured data.** Every server has a category, language, provider, tags, and an official/community flag in [`data/servers.json`](data/servers.json). The README, [`llms.txt`](llms.txt), [`llms-full.txt`](llms-full.txt), and the website are generated from that file.
+- **Ready to plug in.** Every server has its own page on the website. Hosted servers come with one-click install links and configs for Cursor, VS Code, Claude Code, Claude Desktop, and Codex, and you can merge several into one config with the stack builder.
 - **Built to be reused.** You can pull the whole catalog as JSON into your own tools, agents, or dashboards.
 
 If this list saves you time, please ⭐ star the repo. It helps other people find it.
 
 ## Quick Links
 
-- [MCP Landscape](https://landscape.mcphq.org/): interactive server map
+- [mcpHQ directory](https://landscape.mcphq.org/): search, filter, and install servers
+- [Stack builder](https://landscape.mcphq.org/stack/): merge several servers into one client config
 - [Use the data](#use-the-data): JSON API and LLM catalog files
 - [LLM index](https://landscape.mcphq.org/llms.txt): short catalog index for agents
 - [Listed on mcpHQ badge](#listed-on-mcphq-badge): for server maintainers
@@ -562,7 +564,7 @@ Helpful utilities, templates, and starter servers for learning MCP.
 
 ## Use the Data
 
-The full catalog is published with every landscape deploy:
+The full catalog is published with every website deploy:
 
 | File | URL |
 | --- | --- |
@@ -609,7 +611,7 @@ npm run generate
 npm run validate
 ```
 
-See [landscape/README.md](landscape/README.md) for how the landscape is built and how to preview or customize it locally.
+See [site/README.md](site/README.md) for how the website is built and how to preview it locally.
 
 ## License
 
