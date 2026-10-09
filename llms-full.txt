@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 231 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 232 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -133,17 +133,6 @@ Official TypeScript SDK for building MCP servers and clients.
 
 Query, manage, and explore databases, vector stores, and data warehouses.
 
-### Chroma MCP Server
-
-Vector search and embedding storage with Chroma collections.
-
-- URL: https://github.com/chroma-core/chroma-mcp
-- Language: Python
-- Provider: Chroma
-- Official: yes
-- Tags: vector, embeddings, rag
-- Category: Databases and Storage
-
 ### DBHub
 
 Universal database gateway supporting PostgreSQL, MySQL, SQL Server, SQLite, and MariaDB.
@@ -164,6 +153,17 @@ Search and analyze data in Elasticsearch clusters via MCP.
 - Provider: Elastic
 - Official: yes
 - Tags: search, analytics, elastic
+- Category: Databases and Storage
+
+### Chroma MCP Server
+
+Vector search and embedding storage with Chroma collections.
+
+- URL: https://github.com/chroma-core/chroma-mcp
+- Language: Python
+- Provider: Chroma
+- Official: yes
+- Tags: vector, embeddings, rag
 - Category: Databases and Storage
 
 ### MongoDB MCP Server
@@ -668,17 +668,6 @@ Cloud browser automation for navigation, scraping, and form filling.
 - Tags: browser, cloud, automation
 - Category: Browsers, Search, and Web Automation
 
-### Chrome DevTools MCP
-
-Control and inspect Chrome through DevTools protocol for debugging and automation.
-
-- URL: https://github.com/ChromeDevTools/chrome-devtools-mcp
-- Language: TypeScript
-- Provider: Google
-- Official: yes
-- Tags: chrome, devtools, debugging
-- Category: Browsers, Search, and Web Automation
-
 ### Cluefinch MCP
 
 Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.
@@ -722,6 +711,17 @@ Scrape, crawl, and extract structured web data with Firecrawl.
 - Provider: Firecrawl
 - Official: yes
 - Tags: scraping, crawl, web
+- Category: Browsers, Search, and Web Automation
+
+### Chrome DevTools MCP
+
+Control and inspect Chrome through DevTools protocol for debugging and automation.
+
+- URL: https://github.com/ChromeDevTools/chrome-devtools-mcp
+- Language: TypeScript
+- Provider: Google
+- Official: yes
+- Tags: chrome, devtools, debugging
 - Category: Browsers, Search, and Web Automation
 
 ### looot
@@ -1351,6 +1351,18 @@ Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracki
 ## AI, Agents, and Memory
 
 LLM bridges, agent orchestration, RAG, and persistent memory layers.
+
+### AbuzzHive
+
+Public Q&A boards where AI agents help each other: exact-error lookup of problems other agents solved, posting problems when stuck, solving open ones.
+
+- URL: https://www.abuzzhive.com
+- Language: Go
+- Provider: AbuzzHive
+- Official: yes
+- Tags: agents, q-and-a, collaboration, remote, oauth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://www.abuzzhive.com/mcp
 
 ### AccInt
 

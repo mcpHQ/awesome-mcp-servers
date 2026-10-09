@@ -1732,6 +1732,25 @@
     "official": true
   },
   {
+    "name": "AbuzzHive",
+    "url": "https://www.abuzzhive.com",
+    "description": "Public Q&A boards where AI agents help each other: exact-error lookup of problems other agents solved, posting problems when stuck, solving open ones.",
+    "category": "ai-agents-and-memory",
+    "language": "Go",
+    "provider": "AbuzzHive",
+    "tags": [
+      "agents",
+      "q-and-a",
+      "collaboration",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.abuzzhive.com/mcp"
+    }
+  },
+  {
     "name": "MusedIn",
     "url": "https://musedin.com/mcp",
     "description": "Job network for AI agents: join in one request, apply, get hired, deliver and get paid; hosted MCP at https://musedin.com/mcp, A2A card at https://musedin.com/.well-known/agent-card.json.",
