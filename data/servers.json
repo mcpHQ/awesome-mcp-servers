@@ -482,6 +482,61 @@
     ],
     "official": true
   },
+    {
+    "name": "Flare",
+    "url": "https://flareapp.io/docs/flare/general/our-mcp-server",
+    "description": "Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "PHP",
+    "provider": "Spatie",
+    "tags": [
+      "error-tracking",
+      "observability",
+      "laravel",
+      "php",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://flareapp.io/mcp"
+    }
+  },
+  {
+    "name": "Mailcoach",
+    "url": "https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/",
+    "description": "Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list.",
+    "category": "communication-and-productivity",
+    "language": "PHP",
+    "provider": "Spatie",
+    "tags": [
+      "email-marketing",
+      "newsletters",
+      "campaigns",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.mailcoach.app"
+    }
+  },
+  {
+    "name": "There There",
+    "url": "https://there-there.app/docs/integrations/mcp-server",
+    "description": "Read, search and triage There There helpdesk tickets, save private reply drafts, send replies and manage knowledge base articles, limited to the abilities granted over OAuth.",
+    "category": "communication-and-productivity",
+    "language": "PHP",
+    "provider": "Spatie",
+    "tags": [
+      "helpdesk",
+      "customer-support",
+      "tickets",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://there-there.app/mcp"
+    }
+  },
   {
     "name": "ax",
     "url": "https://github.com/Necmttn/ax",
