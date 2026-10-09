@@ -1127,6 +1127,25 @@
     "official": true
   },
   {
+    "name": "Fincept MCP",
+    "url": "https://github.com/Fincept-Corporation/fincept-mcp-docs",
+    "description": "Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Fincept Corporation",
+    "tags": [
+      "finance",
+      "stock-market",
+      "trading",
+      "quant",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://enterprise.fincept.in/mcp"
+    }
+  },
+  {
     "name": "Tale",
     "url": "https://docs.tale.dev/develop/mcp-endpoint",
     "description": "Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 231 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 232 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2261,6 +2261,18 @@ Hosted MCP server for US company fundamentals as reported in SEC filings, filing
 - Tags: finance, sec-filings, stocks, earnings-calls, oauth
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.equibles.com/mcp
+
+### Fincept MCP
+
+Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in.
+
+- URL: https://github.com/Fincept-Corporation/fincept-mcp-docs
+- Language: Other
+- Provider: Fincept Corporation
+- Official: yes
+- Tags: finance, stock-market, trading, quant, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://enterprise.fincept.in/mcp
 
 ### FirstSales MCP
 
