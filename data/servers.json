@@ -1446,6 +1446,25 @@
     "official": false
   },
   {
+    "name": "MuAPI MCP Server",
+    "url": "https://muapi.ai/docs/mcp",
+    "description": "Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "MuAPI",
+    "tags": [
+      "ai-video",
+      "image-generation",
+      "audio-generation",
+      "media-editing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.muapi.ai/mcp"
+    }
+  },
+  {
     "name": "looot",
     "url": "https://github.com/loootai/looot-mcp",
     "description": "Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance.",
@@ -1723,6 +1742,22 @@
     }
   },
   {
+    "name": "Nanotea",
+    "url": "https://github.com/gileshall/nanotea",
+    "description": "Self-hosted messaging app where coding agents report and ask over MCP and you answer by typing, tapping or recording, so you can direct a whole fleet without living in their terminals.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "human-in-the-loop",
+      "agents",
+      "notifications",
+      "voice",
+      "self-hosted"
+    ],
+    "official": false
+  },
+  {
     "name": "Grafana MCP Server",
     "url": "https://github.com/grafana/mcp-grafana",
     "description": "Explore Grafana dashboards, alerts, and observability data.",
@@ -1832,6 +1867,24 @@
     "official": true
   },
   {
+    "name": "Liminal",
+    "url": "https://github.com/jaybro2042-alt/liminality-mcp",
+    "description": "Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Physea",
+    "tags": [
+      "agents",
+      "memory",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://liminality.physea.ai/mcp"
+    }
+  },
+  {
     "name": "HANRIA Mandate Check",
     "url": "https://hanria.ai",
     "description": "Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.",
@@ -1849,6 +1902,22 @@
     "endpoints": {
       "streamableHttp": "https://check.hanria.ai/v1/mcp"
     }
+  },
+  {
+    "name": "SpellBook Finance",
+    "url": "https://spellbook-finance.com/agent/mcp.md",
+    "description": "Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "SpellBook Finance",
+    "tags": [
+      "trading-cards",
+      "market-data",
+      "inventory",
+      "ecommerce",
+      "remote"
+    ],
+    "official": true
   },
   {
     "name": "Whimbrel MedTech Analyst",
@@ -2074,6 +2143,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "ORANO",
+    "url": "https://oranoai.com/mcp",
+    "description": "Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "ORANO",
+    "tags": [
+      "memory",
+      "knowledge",
+      "video",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://orano-ai-backend-1037939693300.us-central1.run.app/mcp/"
     }
   },
   {
@@ -2420,6 +2507,21 @@
       "payments",
       "pos",
       "commerce"
+    ],
+    "official": true
+  },
+  {
+    "name": "Glongus MCP",
+    "url": "https://github.com/glongusmain/glongus-mcp",
+    "description": "Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Glongus",
+    "tags": [
+      "marketplace",
+      "ecommerce",
+      "escrow",
+      "shopping"
     ],
     "official": true
   },
