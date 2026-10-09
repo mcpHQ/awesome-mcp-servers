@@ -1,6 +1,6 @@
 # Contributing to Awesome MCP Servers
 
-Thanks for helping improve this catalog. This project keeps a curated list of MCP servers in `data/servers.json` and generates the README, `llms.txt`, and `llms-full.txt` from that file.
+Thanks for helping improve this catalog. This project keeps a curated list of MCP servers in `data/servers.json` and generates the README, `llms.txt`, `llms-full.txt`, and the [website](https://landscape.mcphq.org) from that file.
 
 ## What belongs here
 
@@ -86,6 +86,7 @@ Available categories are defined in [`data/categories.json`](data/categories.jso
 npm run validate
 npm run generate
 npm run check-generated
+npm run dev   # optional: preview the website at http://localhost:4321
 ```
 
 Validation checks required and unknown fields, field types, category validity,

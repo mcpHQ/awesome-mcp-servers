@@ -97,7 +97,7 @@ function renderLlms() {
 
   const optional = `## Optional
 
-- [MCP Landscape](${siteUrl}/): Interactive, searchable map of this catalog.
+- [mcpHQ directory](${siteUrl}/): Searchable website for this catalog, with a page and install configs for every server.
 - [GitHub repository](${repoUrl}): Catalog source, README, and issue templates.
 - [Contributing guide](${repoUrl}/blob/main/CONTRIBUTING.md): How to add or update a server.
 - [MCP specification](https://modelcontextprotocol.io/specification/latest): The Model Context Protocol specification.
@@ -106,7 +106,7 @@ function renderLlms() {
 
   return `# Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of ${servers.length} Model Context Protocol (MCP) servers in ${activeCategories.length} categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of ${servers.length} Model Context Protocol (MCP) servers in ${activeCategories.length} categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 

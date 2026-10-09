@@ -1,6 +1,7 @@
 {
   "name": "awesome-mcp-servers",
   "private": true,
+  "type": "module",
   "description": "A curated catalog of Model Context Protocol (MCP) servers",
   "scripts": {
     "prepare": "node scripts/install-hooks.mjs",
@@ -8,11 +9,9 @@
     "generate": "node scripts/generate-readme.mjs && node scripts/generate-llms.mjs",
     "check-generated": "node scripts/generate-readme.mjs --check && node scripts/generate-llms.mjs --check",
     "fetch-logos": "node scripts/fetch-logos.mjs",
-    "generate-landscape": "node scripts/fetch-logos.mjs && node scripts/generate-landscape.mjs",
-    "build-landscape": "node scripts/build-landscape.mjs",
-    "build-landscape:docker": "node scripts/build-landscape.mjs --docker",
-    "build-landscape:pages": "node scripts/build-landscape.mjs --pages",
-    "serve-landscape": "landscape2 serve --landscape-dir landscape/build",
+    "build-site": "node scripts/build-site.mjs",
+    "serve-site": "node scripts/serve-site.mjs",
+    "dev": "node scripts/build-site.mjs && node scripts/serve-site.mjs",
     "check-links": "node scripts/check-links.mjs",
     "install-hooks": "node scripts/install-hooks.mjs"
   }
