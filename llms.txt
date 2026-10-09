@@ -8,9 +8,9 @@ Links under each category point at the upstream project, docs, or registry page.
 
 ## Data
 
-- [Full catalog](https://landscape.mcphq.org/llms-full.txt): Every server in Markdown, with language, provider, tags, official status, and remote endpoints when listed.
-- [Servers JSON](https://landscape.mcphq.org/api/servers.json): The same catalog as a JSON array.
-- [Categories JSON](https://landscape.mcphq.org/api/categories.json): Category ids, names, and descriptions.
+- [Full catalog](https://mcphq.org/llms-full.txt): Every server in Markdown, with language, provider, tags, official status, and remote endpoints when listed.
+- [Servers JSON](https://mcphq.org/api/servers.json): The same catalog as a JSON array.
+- [Categories JSON](https://mcphq.org/api/categories.json): Category ids, names, and descriptions.
 - [Server schema](https://github.com/mcpHQ/awesome-mcp-servers/blob/main/data/servers.schema.json): Allowed fields for each catalog entry.
 
 ## Official and Reference Servers
@@ -304,7 +304,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 ## Optional
 
-- [mcpHQ directory](https://landscape.mcphq.org/): Searchable website for this catalog, with a page and install configs for every server.
+- [mcpHQ directory](https://mcphq.org/): Searchable website for this catalog, with a page and install configs for every server.
 - [GitHub repository](https://github.com/mcpHQ/awesome-mcp-servers): Catalog source, README, and issue templates.
 - [Contributing guide](https://github.com/mcpHQ/awesome-mcp-servers/blob/main/CONTRIBUTING.md): How to add or update a server.
 - [MCP specification](https://modelcontextprotocol.io/specification/latest): The Model Context Protocol specification.

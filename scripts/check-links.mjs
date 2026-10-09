@@ -13,7 +13,7 @@ const USER_AGENT = "awesome-mcp-servers-link-checker/1.0";
 // Created by this repo's own deploy, so they 404 in a PR until it merges.
 // The scheduled full check still verifies them.
 const SELF_DEPLOYED_PREFIXES = [
-  "https://landscape.mcphq.org/api/",
+  "https://mcphq.org/api/",
   "https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/",
 ];
 

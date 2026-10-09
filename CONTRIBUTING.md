@@ -1,6 +1,6 @@
 # Contributing to Awesome MCP Servers
 
-Thanks for helping improve this catalog. This project keeps a curated list of MCP servers in `data/servers.json` and generates the README, `llms.txt`, `llms-full.txt`, and the [website](https://landscape.mcphq.org) from that file.
+Thanks for helping improve this catalog. This project keeps a curated list of MCP servers in `data/servers.json` and generates the README, `llms.txt`, `llms-full.txt`, and the [website](https://mcphq.org) from that file.
 
 ## What belongs here
 

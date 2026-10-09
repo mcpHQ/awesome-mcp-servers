@@ -1,6 +1,6 @@
 # mcpHQ website
 
-The searchable directory at [landscape.mcphq.org](https://landscape.mcphq.org). It is a static site generated from [`data/servers.json`](../data/servers.json) by a zero-dependency Node script. There is no framework and no `npm install` step.
+The searchable directory at [mcphq.org](https://mcphq.org). It is a static site generated from [`data/servers.json`](../data/servers.json) by a zero-dependency Node script. There is no framework and no `npm install` step.
 
 ## What it builds
 
@@ -30,7 +30,7 @@ npm run dev
 npm run fetch-logos
 ```
 
-`SITE_URL` sets the canonical URL (default `https://landscape.mcphq.org`). `SITE_BASE_PATH` serves the site from a subpath, for example `/awesome-mcp-servers`.
+`SITE_URL` sets the canonical URL (default `https://mcphq.org`). `SITE_BASE_PATH` serves the site from a subpath, for example `/awesome-mcp-servers`.
 
 ## Layout
 
