@@ -2252,7 +2252,7 @@ Search 210,000+ vetted startup candidates, review Clera's picks for your open ro
 
 ### Datacircle
 
-Look up LinkedIn profiles through B2B data providers at each provider's own price, paid from one prepaid Datacircle balance, and download its free U.S. B2B leads dataset, over remote Streamable HTTP with OAuth 2.1 or an API key.
+Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.
 
 - URL: https://docs.datacircle.dev/mcp-server
 - Language: Python
