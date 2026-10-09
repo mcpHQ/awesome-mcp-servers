@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 240 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 241 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1715,6 +1715,18 @@ AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for a
 - Official: no
 - Tags: token-efficiency, leaderboard, ai-agents, telemetry, yield-cascade
 - Category: AI, Agents, and Memory
+
+### Takibi Base
+
+Ask your Takibi Base collections anything; get answers with cited passages and a support score.
+
+- URL: https://takibibase.com/docs/connector
+- Language: Other
+- Provider: Takibi Base
+- Official: yes
+- Tags: knowledge-base, citations, remote, oauth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://app.takibibase.com/mcp
 
 ### VideoGen MCP
 

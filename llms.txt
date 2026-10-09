@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 240 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 241 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -185,6 +185,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness): Self-hosted MCP bridge for agent sessions, sandboxed turns, artifacts, audit, and replay. (TypeScript, official)
 - [Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp): Search locally captured screen text and audio history via MCP under the Screenpipe Commercial License, with optional cloud features and connected AI clients able to transmit context off-device. (TypeScript, official)
 - [SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp): AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage. (JavaScript)
+- [Takibi Base](https://takibibase.com/docs/connector): Ask your Takibi Base collections anything; get answers with cited passages and a support score. (Other, official)
 - [VideoGen MCP](https://videogen.io/videogen-mcp): Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects. (TypeScript, official)
 - [Zep MCP Server](https://github.com/jaysack/zep-mcp): Community MCP wrapper for long-term memory and context retrieval with Zep. (Python)
 
