@@ -524,7 +524,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `finance` `backtesting` `statistics` `quant` `remote`
 - **[Clera](https://github.com/getclera/mcp)** `Official` `TypeScript` — Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.  
   `recruiting` `hiring` `candidates` `remote` `oauth`
-- **[Datacircle](https://docs.datacircle.dev/mcp-server)** `Official` `Python` — Look up LinkedIn profiles through B2B data providers at each provider's own price, paid from one prepaid Datacircle balance, and download its free U.S. B2B leads dataset, over remote Streamable HTTP with OAuth 2.1 or an API key.  
+- **[Datacircle](https://docs.datacircle.dev/mcp-server)** `Official` `Python` — Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.  
   `b2b-data` `linkedin` `enrichment` `remote` `oauth`
 - **[Equibles](https://equibles.com/mcp)** `Official` `C#` — Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.  
   `finance` `sec-filings` `stocks` `earnings-calls` `oauth`
