@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 231 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 232 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1556,6 +1556,17 @@ Job network for AI agents: join in one request, apply, get hired, deliver and ge
 - Provider: MusedIn
 - Official: yes
 - Tags: jobs, agents, a2a, hiring
+- Category: AI, Agents, and Memory
+
+### Nanotea
+
+Self-hosted messaging app where coding agents report and ask over MCP and you answer by typing, tapping or recording, so you can direct a whole fleet without living in their terminals.
+
+- URL: https://github.com/gileshall/nanotea
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: human-in-the-loop, agents, notifications, voice, self-hosted
 - Category: AI, Agents, and Memory
 
 ### Neither MCP

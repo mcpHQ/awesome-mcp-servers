@@ -1704,6 +1704,22 @@
     }
   },
   {
+    "name": "Nanotea",
+    "url": "https://github.com/gileshall/nanotea",
+    "description": "Self-hosted messaging app where coding agents report and ask over MCP and you answer by typing, tapping or recording, so you can direct a whole fleet without living in their terminals.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "human-in-the-loop",
+      "agents",
+      "notifications",
+      "voice",
+      "self-hosted"
+    ],
+    "official": false
+  },
+  {
     "name": "Grafana MCP Server",
     "url": "https://github.com/grafana/mcp-grafana",
     "description": "Explore Grafana dashboards, alerts, and observability data.",

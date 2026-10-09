@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 231 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 232 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -171,6 +171,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Magic Hour MCP Server](https://magichour.ai): Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing. (Python, official)
 - [mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp): Hosted persistent memory layer for personalized agent interactions. (Other, official)
 - [MusedIn](https://musedin.com/mcp): Job network for AI agents: join in one request, apply, get hired, deliver and get paid; hosted MCP at https://musedin.com/mcp, A2A card at https://musedin.com/.well-known/agent-card.json. (JavaScript, official)
+- [Nanotea](https://github.com/gileshall/nanotea): Self-hosted messaging app where coding agents report and ask over MCP and you answer by typing, tapping or recording, so you can direct a whole fleet without living in their terminals. (Python)
 - [Neither MCP](https://github.com/stonianua/neither-mcp): Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence. (TypeScript)
 - [Ollama MCP Bridge](https://github.com/jaspertvdm/mcp-server-ollama-bridge): Run local Llama, Mistral, and Qwen models via Ollama through MCP. (Python)
 - [OpenAI MCP Bridge](https://github.com/jaspertvdm/mcp-server-openai-bridge): Bridge OpenAI GPT models into MCP-compatible agent workflows. (Python)
