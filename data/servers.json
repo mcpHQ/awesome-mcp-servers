@@ -1704,6 +1704,21 @@
     }
   },
   {
+    "name": "Zovo Time Tracker",
+    "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker",
+    "description": "Track billable time from chat: start and stop timers, log entries against jobs, and produce timesheets and billable summaries; hosted streamable-HTTP endpoint at https://mcp.zovo.one/mcp/time-tracker with a free anonymous token from https://mcp.zovo.one/mcp/token.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "time-tracking",
+      "billable-hours",
+      "timesheet",
+      "hosted"
+    ],
+    "official": false
+  },
+  {
     "name": "Grafana MCP Server",
     "url": "https://github.com/grafana/mcp-grafana",
     "description": "Explore Grafana dashboards, alerts, and observability data.",
