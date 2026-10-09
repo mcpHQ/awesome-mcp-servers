@@ -482,7 +482,7 @@
     ],
     "official": true
   },
-    {
+  {
     "name": "Flare",
     "url": "https://flareapp.io/docs/flare/general/our-mcp-server",
     "description": "Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP.",
@@ -1780,6 +1780,21 @@
     "endpoints": {
       "streamableHttp": "https://mcp.prisma.io/mcp"
     }
+  },
+  {
+    "name": "PandaStock",
+    "url": "https://github.com/D-Asce/pandastocksdk",
+    "description": "A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "pandaData",
+    "tags": [
+      "a-share",
+      "stock-data",
+      "real-time-quotes",
+      "market-data"
+    ],
+    "official": false
   },
   {
     "name": "Metabase MCP Server",

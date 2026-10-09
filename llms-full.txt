@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 246 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 247 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2494,6 +2494,17 @@ Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, con
 - Provider: Community
 - Official: no
 - Tags: seo, google-ads, meta-ads, marketing
+- Category: Finance, Commerce, and Business Apps
+
+### PandaStock
+
+A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.
+
+- URL: https://github.com/D-Asce/pandastocksdk
+- Language: Python
+- Provider: pandaData
+- Official: no
+- Tags: a-share, stock-data, real-time-quotes, market-data
 - Category: Finance, Commerce, and Business Apps
 
 ### PayPal MCP Server
