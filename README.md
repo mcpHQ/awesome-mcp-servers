@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-231-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-243-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -41,16 +41,16 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (14)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (24)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (25)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (19)
 - [Filesystems and Documents](#filesystems-and-documents) (11)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (15)
-- [Communication and Productivity](#communication-and-productivity) (23)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (29)
+- [Communication and Productivity](#communication-and-productivity) (24)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (35)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (21)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (13)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (34)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (38)
 - [Utilities and Examples](#utilities-and-examples) (13)
 
 <a id="official-and-reference"></a>
@@ -143,6 +143,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `containers` `devops` `docker`
 - **[E2B MCP Server](https://docs.e2b.dev/mcp)** `Official` `Other` — Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows.  
   `sandbox` `code-execution` `agents`
+- **[ERIUS PHONE MCP](https://github.com/Protremix/erius-phone-mcp)** `Official` `Python` — Drive an ERIUS PHONE hosted Android phone or tablet: read the screen, tap, type, swipe, launch apps, install APKs, and pull crash logs.  
+  `android` `mobile` `testing` `automation`
 - **[GitHub MCP Server](https://github.com/github/github-mcp-server)** `Official` `Go` — Official GitHub integration for repos, issues, pull requests, and code search.  
   `github` `git` `ci-cd`
 - **[GitLab MCP Server](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/)** `Official` `Ruby` — GitLab Duo MCP server for merge requests, issues, and project management.  
@@ -335,6 +337,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `zoom` `meetings` `video`
 - **[Zovo Office Suite](https://github.com/theluckystrike/mcp-servers)** `TypeScript` — Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracking, spreadsheets, PDFs and resumes; 30 servers also reachable as hosted Streamable HTTP endpoints.  
   `productivity` `invoice` `expenses` `spreadsheet` `pdf`
+- **[Zovo Time Tracker](https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker)** `TypeScript` — Track billable time from chat: start and stop timers, log entries against jobs, and produce timesheets and billable summaries; hosted endpoint uses a free anonymous token from https://mcp.zovo.one/mcp/token.  
+  `time-tracking` `billable-hours` `timesheet` `hosted`
 
 <a id="ai-agents-and-memory"></a>
 
@@ -342,6 +346,8 @@ Integrate chat, email, calendars, and team collaboration tools.
 
 LLM bridges, agent orchestration, RAG, and persistent memory layers.
 
+- **[AbuzzHive](https://www.abuzzhive.com)** `Official` `Go` — Public Q&A boards where AI agents help each other: exact-error lookup of problems other agents solved, posting problems when stuck, solving open ones.  
+  `agents` `q-and-a` `collaboration` `remote` `oauth`
 - **[AccInt](https://github.com/maxbaluev/accreted-intelligence)** `Rust` — Local-first MCP Work Model that gives coding agents scored memory retrieval, commitments, and outcome-based credit.  
   `memory` `coding-agents` `local-first`
 - **[Aeon](https://www.aeon.fun/connect)** `Official` `TypeScript` — Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings, through a hosted MCP server with GitHub sign-in.  
@@ -370,20 +376,28 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `knowledge` `encryption` `local`
 - **[LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp)** `Official` `Other` — Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint.  
   `agents` `orchestration` `langgraph`
+- **[Liminal](https://github.com/jaybro2042-alt/liminality-mcp)** `Official` `Python` — Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps.  
+  `agents` `memory` `remote` `oauth`
 - **[LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/)** `Official` `Other` — Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.  
   `rag` `indexing` `agents`
 - **[Magic Hour MCP Server](https://magichour.ai)** `Official` `Python` — Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.  
   `ai-video` `image-generation` `audio-generation` `media-editing` `remote`
 - **[mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp)** `Official` `Other` — Hosted persistent memory layer for personalized agent interactions.  
   `memory` `personalization` `agents`
+- **[MuAPI MCP Server](https://muapi.ai/docs/mcp)** `Official` `Other` — Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.  
+  `ai-video` `image-generation` `audio-generation` `media-editing` `remote`
 - **[MusedIn](https://musedin.com/mcp)** `Official` `JavaScript` — Job network for AI agents: join in one request, apply, get hired, deliver and get paid; hosted MCP at https://musedin.com/mcp, A2A card at https://musedin.com/.well-known/agent-card.json.  
   `jobs` `agents` `a2a` `hiring`
+- **[Nanotea](https://github.com/gileshall/nanotea)** `Python` — Self-hosted messaging app where coding agents report and ask over MCP and you answer by typing, tapping or recording, so you can direct a whole fleet without living in their terminals.  
+  `human-in-the-loop` `agents` `notifications` `voice` `self-hosted`
 - **[Neither MCP](https://github.com/stonianua/neither-mcp)** `TypeScript` — Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.  
   `memory` `context` `cursor` `knowledge`
 - **[Ollama MCP Bridge](https://github.com/jaspertvdm/mcp-server-ollama-bridge)** `Python` — Run local Llama, Mistral, and Qwen models via Ollama through MCP.  
   `ollama` `local-llm` `inference`
 - **[OpenAI MCP Bridge](https://github.com/jaspertvdm/mcp-server-openai-bridge)** `Python` — Bridge OpenAI GPT models into MCP-compatible agent workflows.  
   `openai` `gpt` `inference`
+- **[ORANO](https://oranoai.com/mcp)** `Official` `Python` — Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.  
+  `memory` `knowledge` `video` `remote`
 - **[Pyrimid](https://github.com/pyrimid-ai/pyrimid)** `TypeScript` — Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.  
   `x402` `ai-agent` `payments` `base` `usdc`
 - **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)** `TypeScript` — Discover model inputs and create AI image, video, music, speech, and other model API tasks.  
@@ -396,6 +410,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `screen` `audio` `local-first`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
+- **[Takibi Base](https://takibibase.com/docs/connector)** `Official` `Other` — Ask your Takibi Base collections anything; get answers with cited passages and a support score.  
+  `knowledge-base` `citations` `remote` `oauth`
 - **[VideoGen MCP](https://videogen.io/videogen-mcp)** `Official` `TypeScript` — Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects.  
   `video` `images` `audio` `marketing`
 - **[Zep MCP Server](https://github.com/jaysack/zep-mcp)** `Python` — Community MCP wrapper for long-term memory and context retrieval with Zep.  
@@ -524,10 +540,16 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `finance` `backtesting` `statistics` `quant` `remote`
 - **[Clera](https://github.com/getclera/mcp)** `Official` `TypeScript` — Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.  
   `recruiting` `hiring` `candidates` `remote` `oauth`
+- **[Datacircle](https://docs.datacircle.dev/mcp-server)** `Official` `Python` — Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.  
+  `b2b-data` `linkedin` `enrichment` `remote` `oauth`
 - **[Equibles](https://equibles.com/mcp)** `Official` `C#` — Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.  
   `finance` `sec-filings` `stocks` `earnings-calls` `oauth`
+- **[Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs)** `Official` `Other` — Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in.  
+  `finance` `stock-market` `trading` `quant` `remote`
 - **[FirstSales MCP](https://developer.firstsales.io/agents/mcp-server)** `Official` `TypeScript` — Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan.  
   `crm` `contacts` `sales` `oauth` `remote`
+- **[Glongus MCP](https://github.com/glongusmain/glongus-mcp)** `Official` `JavaScript` — Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.  
+  `marketplace` `ecommerce` `escrow` `shopping`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
 - **[Invompt](https://mcp.invompt.com/mcp)** `Official` `TypeScript` — Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com  
@@ -552,6 +574,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `shopify` `retail`
 - **[SkyAccess](https://github.com/sky-access/skyaccess-mcp)** `Official` `JavaScript` — Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.  
   `travel` `private-jet` `charter` `marketplace` `remote`
+- **[SpellBook Finance](https://spellbook-finance.com/agent/mcp.md)** `Official` `TypeScript` — Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.  
+  `trading-cards` `market-data` `inventory` `ecommerce` `remote`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
   `payments` `pos` `commerce`
 - **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.  
