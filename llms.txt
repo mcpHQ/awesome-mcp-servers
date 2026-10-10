@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 254 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 255 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -65,6 +65,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Kleap](https://github.com/kleaphq/cli): Create, edit, and publish websites from AI clients through a hosted MCP server. (JavaScript, official)
 - [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes): Operate Kubernetes clusters with kubectl-style MCP tools. (TypeScript)
 - [Linear MCP Server](https://linear.app/docs/mcp): Create and manage Linear issues, projects, and team workflows. (TypeScript, official)
+- [LynxPrompt MCP Server](https://github.com/GeiserX/lynxprompt-mcp): Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance. (Go, official)
 - [mcp-pool](https://github.com/yuzu-octopus/mcp-pool): MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown. (TypeScript)
 - [NAIF Gravity](https://naifgravity.com): Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs. (Other, official)
 - [Postman MCP Server](https://github.com/postmanlabs/postman-mcp-server): Explore and run Postman collections and API workflows from AI clients. (TypeScript, official)

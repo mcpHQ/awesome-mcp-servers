@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 254 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 255 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -504,6 +504,17 @@ Create and manage Linear issues, projects, and team workflows.
 - Provider: Linear
 - Official: yes
 - Tags: issues, project-management, product
+- Category: Developer Tools and Code Intelligence
+
+### LynxPrompt MCP Server
+
+Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance.
+
+- URL: https://github.com/GeiserX/lynxprompt-mcp
+- Language: Go
+- Provider: LynxPrompt
+- Official: yes
+- Tags: agents-md, prompts, ai-rules
 - Category: Developer Tools and Code Intelligence
 
 ### mcp-pool

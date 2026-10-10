@@ -1878,6 +1878,20 @@
     "official": true
   },
   {
+    "name": "LynxPrompt MCP Server",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp",
+    "description": "Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "LynxPrompt",
+    "tags": [
+      "agents-md",
+      "prompts",
+      "ai-rules"
+    ],
+    "official": true
+  },
+  {
     "name": "Elori",
     "url": "https://github.com/elori-debug/elori-mcp",
     "description": "Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.",
