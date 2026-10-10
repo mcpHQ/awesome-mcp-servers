@@ -2410,6 +2410,20 @@
     "official": true
   },
   {
+    "name": "Spinnaker MCP Server",
+    "url": "https://github.com/GeiserX/spinnaker-mcp",
+    "description": "Read and operate a Spinnaker instance through its Gate API: 37 tools for applications, pipelines, executions, deployment strategies, and infrastructure, plus a read-only toolset.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "spinnaker",
+      "continuous-delivery",
+      "devops"
+    ],
+    "official": false
+  },
+  {
     "name": "Vault MCP Server",
     "url": "https://github.com/hashicorp/vault-mcp-server",
     "description": "Read secrets and manage HashiCorp Vault policies via MCP.",
