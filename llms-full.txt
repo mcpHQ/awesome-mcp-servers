@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 251 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 252 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2199,6 +2199,18 @@ Free, advisory pre-action check: check_action returns permit, deny or escalate f
 - Tags: mandates, authorization, agent-safety, receipts, remote
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://check.hanria.ai/v1/mcp
+
+### INAM Protocol
+
+Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts.
+
+- URL: https://github.com/inamprotocol/inam-protocol/tree/main/mcp
+- Language: TypeScript
+- Provider: INAM Protocol
+- Official: yes
+- Tags: reputation, x402, receipts, identity, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://api.inamprotocol.org/mcp
 
 ### Lodestar Stamp
 
