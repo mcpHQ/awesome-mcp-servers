@@ -2211,6 +2211,18 @@ Free, advisory pre-action check: check_action returns permit, deny or escalate f
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://check.hanria.ai/v1/mcp
 
+### INAM Protocol
+
+Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts.
+
+- URL: https://github.com/inamprotocol/inam-protocol/tree/main/mcp
+- Language: TypeScript
+- Provider: INAM Protocol
+- Official: yes
+- Tags: reputation, x402, receipts, identity, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://api.inamprotocol.org/mcp
+
 ### Lodestar Stamp
 
 Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.

@@ -2081,6 +2081,25 @@
     }
   },
   {
+    "name": "INAM Protocol",
+    "url": "https://github.com/inamprotocol/inam-protocol/tree/main/mcp",
+    "description": "Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "INAM Protocol",
+    "tags": [
+      "reputation",
+      "x402",
+      "receipts",
+      "identity",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.inamprotocol.org/mcp"
+    }
+  },
+  {
     "name": "HANRIA Mandate Check",
     "url": "https://hanria.ai",
     "description": "Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.",
