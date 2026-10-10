@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-252-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-254-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (15)
 - [Communication and Productivity](#communication-and-productivity) (26)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (35)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (21)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (22)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (14)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (42)
@@ -459,6 +459,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `bigquery` `gcp` `data`
 - **[Grafana MCP Server](https://github.com/grafana/mcp-grafana)** `Official` `Go` — Explore Grafana dashboards, alerts, and observability data.  
   `monitoring` `dashboards` `observability`
+- **[Hoot Lens](https://github.com/Parallel-Platforms/hootlens-mcp)** `Official` `TypeScript` — Read website session replays, click heatmaps and broken clicks, trace one to its JavaScript error and source line, and check whether a shipped change helped.  
+  `session-replay` `heatmaps` `web-analytics` `debugging`
 - **[LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp)** `JavaScript` — Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic.  
   `ai-visibility` `analytics` `marketing`
 - **[LogNorm](https://github.com/lognorm/lognorm-mcp)** `Official` `Other` — Hosted MCP server that hands a site's SEO/GEO growth backlog (audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor via OAuth.  
