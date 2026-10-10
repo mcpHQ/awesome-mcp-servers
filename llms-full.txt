@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 250 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 251 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2402,6 +2402,18 @@ Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same r
 - Tags: b2b-data, linkedin, enrichment, remote, oauth
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.datacircle.dev/mcp
+
+### Elori
+
+Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.
+
+- URL: https://github.com/elori-debug/elori-mcp
+- Language: TypeScript
+- Provider: Elori
+- Official: yes
+- Tags: crm, sales, meetings, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://elori.app/mcp
 
 ### Equibles
 
