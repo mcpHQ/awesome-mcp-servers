@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 251 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 252 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -593,6 +593,17 @@ Code intelligence and search across large codebases with Cody.
 - Provider: Sourcegraph
 - Official: yes
 - Tags: code-search, ai, enterprise
+- Category: Developer Tools and Code Intelligence
+
+### Spinnaker MCP Server
+
+Read and operate a Spinnaker instance through its Gate API: 37 tools for applications, pipelines, executions, deployment strategies, and infrastructure, plus a read-only toolset.
+
+- URL: https://github.com/GeiserX/spinnaker-mcp
+- Language: Go
+- Provider: Community
+- Official: no
+- Tags: spinnaker, continuous-delivery, devops
 - Category: Developer Tools and Code Intelligence
 
 ## Browsers, Search, and Web Automation

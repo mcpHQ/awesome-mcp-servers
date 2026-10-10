@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 251 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 252 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -73,6 +73,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Sentry MCP Server](https://docs.sentry.io/product/sentry-mcp/): Investigate errors, releases, and performance issues in Sentry. (TypeScript, official)
 - [SkillDB](https://github.com/devchad-cmd/skilldb-sdk): Search reusable AI agent skills through an installable TypeScript MCP server; full skill content requires a Pro or Studio account. (TypeScript, official)
 - [Sourcegraph Cody MCP](https://sourcegraph.com/docs/api/mcp): Code intelligence and search across large codebases with Cody. (TypeScript, official)
+- [Spinnaker MCP Server](https://github.com/GeiserX/spinnaker-mcp): Read and operate a Spinnaker instance through its Gate API: 37 tools for applications, pipelines, executions, deployment strategies, and infrastructure, plus a read-only toolset. (Go)
 
 ## Browsers, Search, and Web Automation
 
