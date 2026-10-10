@@ -1878,6 +1878,24 @@
     "official": true
   },
   {
+    "name": "Elori",
+    "url": "https://github.com/elori-debug/elori-mcp",
+    "description": "Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Elori",
+    "tags": [
+      "crm",
+      "sales",
+      "meetings",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://elori.app/mcp"
+    }
+  },
+  {
     "name": "Datadog MCP Server",
     "url": "https://github.com/datadog-labs/mcp-server",
     "description": "Query metrics, logs, and monitors from Datadog via the official Datadog Labs MCP server.",
