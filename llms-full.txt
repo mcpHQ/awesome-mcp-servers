@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 254 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 255 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2733,6 +2733,17 @@ Czech Instagram/TikTok follower, like and view service catalog, exact quotes, or
 - Provider: TvojeLajky / Tomáš Přibyl
 - Official: yes
 - Tags: commerce, social-media, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+
+### Universal Crypto MCP
+
+MCP server for agents to work across Ethereum, Arbitrum, Base, Polygon and BNB Chain: swaps, bridges, gas, staking, lending and x402 payments.
+
+- URL: https://github.com/nirholas/universal-crypto-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: crypto, defi, x402, blockchain
 - Category: Finance, Commerce, and Business Apps
 
 ### Voidpay Marketplace MCP

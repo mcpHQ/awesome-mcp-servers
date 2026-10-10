@@ -1963,6 +1963,21 @@
     "official": true
   },
   {
+    "name": "Universal Crypto MCP",
+    "url": "https://github.com/nirholas/universal-crypto-mcp",
+    "description": "MCP server for agents to work across Ethereum, Arbitrum, Base, Polygon and BNB Chain: swaps, bridges, gas, staking, lending and x402 payments.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "crypto",
+      "defi",
+      "x402",
+      "blockchain"
+    ],
+    "official": false
+  },
+  {
     "name": "Google GenAI Toolbox",
     "url": "https://github.com/googleapis/genai-toolbox",
     "description": "Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources.",
