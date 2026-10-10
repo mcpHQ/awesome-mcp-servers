@@ -2081,6 +2081,24 @@
     }
   },
   {
+    "name": "Hoot Lens",
+    "url": "https://github.com/Parallel-Platforms/hootlens-mcp",
+    "description": "Read website session replays, click heatmaps and broken clicks, trace one to its JavaScript error and source line, and check whether a shipped change helped.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Parallel Platforms",
+    "tags": [
+      "session-replay",
+      "heatmaps",
+      "web-analytics",
+      "debugging"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.hootlens.com/mcp"
+    }
+  },
+  {
     "name": "INAM Protocol",
     "url": "https://github.com/inamprotocol/inam-protocol/tree/main/mcp",
     "description": "Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts.",
