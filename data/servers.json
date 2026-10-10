@@ -1963,6 +1963,21 @@
     "official": true
   },
   {
+    "name": "XActions",
+    "url": "https://github.com/nirholas/xactions",
+    "description": "X/Twitter toolkit with an MCP server, CLI and browser scripts to scrape profiles, followers and tweets, monitor analytics and automate engagement without API fees.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "twitter",
+      "scraping",
+      "social-data",
+      "automation"
+    ],
+    "official": false
+  },
+  {
     "name": "Google GenAI Toolbox",
     "url": "https://github.com/googleapis/genai-toolbox",
     "description": "Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources.",

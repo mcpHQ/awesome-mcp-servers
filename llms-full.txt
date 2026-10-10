@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 254 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 255 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -812,6 +812,17 @@ AI-native search and content extraction for research agents.
 - Provider: Tavily
 - Official: yes
 - Tags: search, research, agents
+- Category: Browsers, Search, and Web Automation
+
+### XActions
+
+X/Twitter toolkit with an MCP server, CLI and browser scripts to scrape profiles, followers and tweets, monitor analytics and automate engagement without API fees.
+
+- URL: https://github.com/nirholas/xactions
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: twitter, scraping, social-data, automation
 - Category: Browsers, Search, and Web Automation
 
 ### Xquik MCP Server
