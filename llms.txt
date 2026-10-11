@@ -120,7 +120,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Azure MCP Server](https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server): Manage Azure resources and services through MCP tools. (C#, official)
 - [CloudBurn](https://github.com/towardsthecloud/cloudburn): Read-only AWS cost analysis for Terraform, CloudFormation, and live AWS accounts through a local stdio MCP server. (TypeScript, official)
 - [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare): Manage Workers, KV, R2, and Cloudflare platform resources. (TypeScript, official)
-- [DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp): Puts a site online on a free HTTPS link with no account for a first deploy, or on a .com (€19/$19) that goes live with no DNS after the human pays a link. Optional mailbox. No tool spends money. (JavaScript, official)
+- [DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp): Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google. (JavaScript, official)
 - [Fly.io MCP Server](https://github.com/superfly/flymcp): Manage Fly.io apps, machines, and deployments via MCP. (TypeScript, official)
 - [Network Sketcher](https://github.com/cisco-open/network-sketcher): Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation. (Python)
 - [Port MCP Server](https://github.com/port-labs/port-mcp-server): Manage software catalog, scorecards, and actions in Port.io. (TypeScript, official)
