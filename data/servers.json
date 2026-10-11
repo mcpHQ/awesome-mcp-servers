@@ -1349,6 +1349,24 @@
     }
   },
   {
+    "name": "Agent Media",
+    "url": "https://github.com/agent-media-ai/agent-media",
+    "description": "Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Agent Media",
+    "tags": [
+      "video",
+      "ugc",
+      "ai-video",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.agent-media.ai/mcp"
+    }
+  },
+  {
     "name": "Taskfolk",
     "url": "https://github.com/taskfolk/mcp",
     "description": "Project management for teams and their AI agents. Agents join as named members.",
