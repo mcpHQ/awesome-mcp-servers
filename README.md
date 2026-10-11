@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-262-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-263-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (14)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (29)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (21)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (22)
 - [Filesystems and Documents](#filesystems-and-documents) (11)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (16)
 - [Communication and Productivity](#communication-and-productivity) (26)
@@ -192,6 +192,8 @@ Browse the web, scrape content, search, and automate browser interactions.
 
 - **[agdata](https://agdata.shveik.dev)** `Official` `Go` — Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key.  
   `web-scraping` `x402` `markdown` `remote`
+- **[AgentRender](https://github.com/corbinvachal48/agentrender-mcp)** `Official` `Python` — Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.  
+  `screenshot` `pdf` `web-extraction` `remote`
 - **[agproxy](https://agproxy.shveik.dev)** `Official` `Go` — Pay-per-call residential proxy traffic and raw fetch for agents, with country targeting and sticky sessions; paid with x402 stablecoins, no API key.  
   `proxy` `residential-proxy` `x402` `remote`
 - **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `Official` `TypeScript` — Run Apify Actors and extract web datasets at scale.  
