@@ -1815,6 +1815,22 @@
     }
   },
   {
+    "name": "Silicon Floor",
+    "url": "https://github.com/Baptoshi/silicon-floor",
+    "description": "Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Silicon Floor",
+    "tags": [
+      "stocks",
+      "sec-filings",
+      "ownership",
+      "semiconductors",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "Metabase MCP Server",
     "url": "https://www.metabase.com/docs/latest/ai/mcp",
     "description": "Query dashboards and explore data in Metabase BI.",
