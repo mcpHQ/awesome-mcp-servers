@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 255 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 259 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -65,6 +65,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Kleap](https://github.com/kleaphq/cli): Create, edit, and publish websites from AI clients through a hosted MCP server. (JavaScript, official)
 - [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes): Operate Kubernetes clusters with kubectl-style MCP tools. (TypeScript)
 - [Linear MCP Server](https://linear.app/docs/mcp): Create and manage Linear issues, projects, and team workflows. (TypeScript, official)
+- [LynxPrompt MCP Server](https://github.com/GeiserX/lynxprompt-mcp): Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance. (Go, official)
 - [mcp-pool](https://github.com/yuzu-octopus/mcp-pool): MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown. (TypeScript)
 - [NAIF Gravity](https://naifgravity.com): Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs. (Other, official)
 - [Postman MCP Server](https://github.com/postmanlabs/postman-mcp-server): Explore and run Postman collections and API workflows from AI clients. (TypeScript, official)
@@ -120,7 +121,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Azure MCP Server](https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server): Manage Azure resources and services through MCP tools. (C#, official)
 - [CloudBurn](https://github.com/towardsthecloud/cloudburn): Read-only AWS cost analysis for Terraform, CloudFormation, and live AWS accounts through a local stdio MCP server. (TypeScript, official)
 - [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare): Manage Workers, KV, R2, and Cloudflare platform resources. (TypeScript, official)
-- [DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp): Puts a site online on a free HTTPS link with no account for a first deploy, or on a .com (€19/$19) that goes live with no DNS after the human pays a link. Optional mailbox. No tool spends money. (JavaScript, official)
+- [DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp): Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google. (JavaScript, official)
 - [Fly.io MCP Server](https://github.com/superfly/flymcp): Manage Fly.io apps, machines, and deployments via MCP. (TypeScript, official)
 - [Network Sketcher](https://github.com/cisco-open/network-sketcher): Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation. (Python)
 - [Port MCP Server](https://github.com/port-labs/port-mcp-server): Manage software catalog, scorecards, and actions in Port.io. (TypeScript, official)
@@ -202,6 +203,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [Amplitude MCP Server](https://amplitude.com/docs/amplitude-ai/amplitude-mcp): Analyze product analytics events and user behavior in Amplitude. (TypeScript, official)
 - [Basedash MCP Server](https://github.com/Basedash/mcp): Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth. (Other)
+- [Blawgy](https://github.com/adamgusky/blawgy-mcp): Hosted SEO blog server that researches keywords, manages the content plan, writes and refreshes articles, reads Search Console traffic, and publishes to WordPress, Shopify, Webflow, Wix, Framer, Ghost or Duda via OAuth or API key. (JavaScript, official)
 - [BOIM (보임)](https://github.com/kikiyop1101/boim-mcp): Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool. (Other, official)
 - [Bruin Cloud MCP](https://getbruin.com/docs/bruin/cloud/mcp-setup.html): Hosted MCP server for Bruin Cloud to list data pipelines, inspect runs, and trigger actions from Claude, Cursor, Claude Code, or Codex via OAuth or an access token. (Other, official)
 - [Bruin MCP](https://getbruin.com/docs/bruin/getting-started/bruin-mcp.html): Local MCP server in the open-source Bruin CLI that lets agents query databases, ingest data, compare tables, and build SQL and Python data pipelines. (Go, official)
@@ -234,6 +236,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [1Password MCP Server](https://github.com/CakeRepository/1Password-MCP): Community-maintained integration for accessing 1Password vault items in agent workflows. (Go)
 - [AcqPath](https://github.com/reflectme-source/acqpath-distribution): Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows. (Other, official)
 - [Auth0 MCP Server](https://github.com/auth0/auth0-mcp-server): Manage Auth0 tenants, applications, and user identity settings. (TypeScript, official)
+- [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai): AI-governance measurement MCP server with free verification readers and x402-metered signed-evidence doors; remote endpoint at https://councilof.ai/mcp/. (TypeScript)
 - [CrowdStrike MCP Server](https://github.com/CrowdStrike/falcon-mcp): Query CrowdStrike Falcon detections and endpoint security data. (Python, official)
 - [Darkmoon MCP Server](https://github.com/ASCIT31/darkmoon-mcp-server): Start autonomous AI pentest runs, poll status, list campaigns and read findings on a self-hosted Darkmoon Pro instance over stdio. (TypeScript, official)
 - [FractalAI Agent Passport](https://www.npmjs.com/package/@fractalai/agent-passport-mcp): Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts. (TypeScript, official)
@@ -255,6 +258,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Astral Twin](https://astraldaily.com): Create and mint NFT asset packs on the Base blockchain from AI clients. (Other, official)
 - [BankBridge](https://bankbridge.money): Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings. (TypeScript, official)
 - [Bilbop x402](https://github.com/bilbop1/bilbop-x402-mcp): Pay-per-call agent tools paid in USDC on Solana over x402, no account or API key: text summarize, Solana token brief and mint info, text-to-speech, and human brand feedback. (JavaScript, official)
+- [BlockVectra](https://github.com/blockvectra/mcp): Remote MCP server for multi-chain EVM JSON-RPC, an indexed Data API, documentation, pricing and status, for developers and AI agents. Documentation, chain and status tools need no API key; Data API tools require one. (Other, official)
 - [BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp): Hosted product-search MCP server for multi-merchant price comparison across Singapore, SEA, and US catalogs. (TypeScript, official)
 - [canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp): Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos. (JavaScript, official)
 - [Clera](https://github.com/getclera/mcp): Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server. (TypeScript, official)

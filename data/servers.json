@@ -1878,6 +1878,20 @@
     "official": true
   },
   {
+    "name": "LynxPrompt MCP Server",
+    "url": "https://github.com/GeiserX/lynxprompt-mcp",
+    "description": "Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "LynxPrompt",
+    "tags": [
+      "agents-md",
+      "prompts",
+      "ai-rules"
+    ],
+    "official": true
+  },
+  {
     "name": "Elori",
     "url": "https://github.com/elori-debug/elori-mcp",
     "description": "Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.",
@@ -2098,7 +2112,7 @@
   {
     "name": "DropTheHassle",
     "url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
-    "description": "Puts a site online on a free HTTPS link with no account for a first deploy, or on a .com (€19/$19) that goes live with no DNS after the human pays a link. Optional mailbox. No tool spends money.",
+    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
     "category": "cloud-and-infrastructure",
     "language": "JavaScript",
     "provider": "DropTheHassle",
@@ -2395,6 +2409,25 @@
     }
   },
   {
+    "name": "Blawgy",
+    "url": "https://github.com/adamgusky/blawgy-mcp",
+    "description": "Hosted SEO blog server that researches keywords, manages the content plan, writes and refreshes articles, reads Search Console traffic, and publishes to WordPress, Shopify, Webflow, Wix, Framer, Ghost or Duda via OAuth or API key.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "Blawgy",
+    "tags": [
+      "seo",
+      "blogging",
+      "content",
+      "wordpress",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.blawgy.com/mcp"
+    }
+  },
+  {
     "name": "ORANO",
     "url": "https://oranoai.com/mcp",
     "description": "Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.",
@@ -2444,6 +2477,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.arcmira.com/mcp"
+    }
+  },
+  {
+    "name": "BlockVectra",
+    "url": "https://github.com/blockvectra/mcp",
+    "description": "Remote MCP server for multi-chain EVM JSON-RPC, an indexed Data API, documentation, pricing and status, for developers and AI agents. Documentation, chain and status tools need no API key; Data API tools require one.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "BlockVectra",
+    "tags": [
+      "blockchain",
+      "json-rpc",
+      "evm",
+      "data-api"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://docs.blockvectra.com/mcp"
     }
   },
   {
@@ -2861,6 +2912,21 @@
       "framework",
       "python",
       "starter"
+    ],
+    "official": false
+  },
+  {
+    "name": "Council of AI GSPC",
+    "url": "https://github.com/CSOAI-ORG/councilof-ai",
+    "description": "AI-governance measurement MCP server with free verification readers and x402-metered signed-evidence doors; remote endpoint at https://councilof.ai/mcp/.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Council of AI",
+    "tags": [
+      "governance",
+      "compliance",
+      "evidence",
+      "x402"
     ],
     "official": false
   },
@@ -3770,7 +3836,7 @@
     ],
     "official": false,
     "endpoints": {
-      "streamableHttp": "https://app.linkmcp.io/api/mcp"
+      "streamableHttp": "https://app.linkmcp.io/api/mcp?ref=mcphq"
     }
   },
   {
