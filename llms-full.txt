@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 262 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 263 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2600,6 +2600,17 @@ Turn AI-host work into invoices you review before send — Continue as guest or 
 - Tags: invoicing, finance, oauth, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.invompt.com/mcp
+
+### Kooperativa.io
+
+People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.
+
+- URL: https://github.com/kooperativa-team/kooperativa-mcp
+- Language: TypeScript
+- Provider: Kooperativa.io
+- Official: yes
+- Tags: b2b-data, enrichment, people-search, hiring-signals
+- Category: Finance, Commerce, and Business Apps
 
 ### Live Tennis API MCP
 

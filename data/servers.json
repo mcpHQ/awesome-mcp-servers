@@ -2565,6 +2565,21 @@
     "official": true
   },
   {
+    "name": "Kooperativa.io",
+    "url": "https://github.com/kooperativa-team/kooperativa-mcp",
+    "description": "People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Kooperativa.io",
+    "tags": [
+      "b2b-data",
+      "enrichment",
+      "people-search",
+      "hiring-signals"
+    ],
+    "official": true
+  },
+  {
     "name": "Spinnaker MCP Server",
     "url": "https://github.com/GeiserX/spinnaker-mcp",
     "description": "Read and operate a Spinnaker instance through its Gate API: 37 tools for applications, pipelines, executions, deployment strategies, and infrastructure, plus a read-only toolset.",
