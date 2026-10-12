@@ -2077,6 +2077,24 @@
     }
   },
   {
+    "name": "ScaledThought",
+    "url": "https://github.com/Scaled-Thought/scaledthought-mcp",
+    "description": "Manage a ScaledThought account (OpenAI-compatible API for open-weight models) from an agent: API keys, budgets per key, usage, prepaid top-ups, webhooks, model and docs search.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "ScaledThought",
+    "tags": [
+      "llm",
+      "inference",
+      "api-keys",
+      "openai-compatible"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.us.scaledthought.com/mcp?source=org-mcphq"
+    }
+  },
+  {
     "name": "Amplitude MCP Server",
     "url": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp",
     "description": "Analyze product analytics events and user behavior in Amplitude.",
