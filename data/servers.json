@@ -2206,6 +2206,19 @@
     }
   },
   {
+    "name": "AnswerLine",
+    "url": "https://answerline.dev",
+    "description": "Hosted MCP server returning what ChatGPT, Gemini and Google (Search, AI Overviews, AI Mode, News) answer as structured JSON with cited sources and country targeting.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Rust",
+    "provider": "Quantive Bt.",
+    "tags": ["ai-answers", "serp", "brand-monitoring", "search", "json-api"],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.answerline.dev/mcp"
+    }
+  },
+  {
     "name": "CompanyProof",
     "url": "https://companyproof.ai/docs/mcp",
     "description": "Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.",
