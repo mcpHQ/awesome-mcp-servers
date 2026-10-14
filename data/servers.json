@@ -2413,6 +2413,24 @@
     "official": true
   },
   {
+    "name": "Karma.Domains Expired Domains",
+    "url": "https://github.com/karma-domains/expired-domains-mcp",
+    "description": "Hosted server to search expired, auction and backorder domains with SEO metrics, Wayback history and live WHOIS/DNS checks; OAuth or API key, Pro plan required.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Karma.Domains",
+    "tags": [
+      "domains",
+      "seo",
+      "expired-domains",
+      "whois"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.karma.domains/mcp"
+    }
+  },
+  {
     "name": "Agent Commons",
     "url": "https://github.com/sibi-narendran/common-agent-network",
     "description": "Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed.",
