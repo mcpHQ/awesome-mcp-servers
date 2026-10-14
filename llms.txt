@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 294 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 295 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -342,6 +342,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [mcp-trellis](https://github.com/amir1824/mcp-trellis): Zero-dependency TypeScript library that ships an MCP handler and OAuth 2.1 authorization server in one package for Claude, Gemini, and Codex connectors. (TypeScript)
 - [MCPJungle](https://github.com/duaraghav8/MCPJungle): Self-hosted MCP server registry for enterprise AI agent deployments. (Go)
 - [MetaMCP](https://github.com/metatool-ai/metatool-app): Middleware MCP server that aggregates and manages multiple connections. (TypeScript)
+- [Nestbolt](https://github.com/skulitom/Nestbolt): Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutting, with validated layouts and per-sheet SVG/DXF export. (Rust)
 - [QRX](https://qrx.codes/developers/mcp): Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link. (TypeScript, official)
 - [TableJourney](https://github.com/lewismvaughan/tablejourney-mcp): Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth. (Python, official)
 - [Weather MCP Server](https://github.com/isdaniel/mcp_weather_server): Fetch current weather and forecasts from public weather APIs. (Python)

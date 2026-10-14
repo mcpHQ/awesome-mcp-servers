@@ -2959,6 +2959,22 @@
     "official": true
   },
   {
+    "name": "Nestbolt",
+    "url": "https://github.com/skulitom/Nestbolt",
+    "description": "Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutting, with validated layouts and per-sheet SVG/DXF export.",
+    "category": "utilities-and-examples",
+    "language": "Rust",
+    "provider": "Community",
+    "tags": [
+      "nesting",
+      "dxf",
+      "svg",
+      "laser-cutting",
+      "cnc"
+    ],
+    "official": false
+  },
+  {
     "name": "Kooperativa.io",
     "url": "https://github.com/kooperativa-team/kooperativa-mcp",
     "description": "People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.",
