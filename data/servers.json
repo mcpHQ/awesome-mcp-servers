@@ -2250,6 +2250,24 @@
     "official": true
   },
   {
+    "name": "SemanticHub",
+    "url": "https://semantichub.app/docs",
+    "description": "Official remote server that monitors news sources, clusters articles by topic and generates texts from them; OAuth 2 or Bearer token, free plan.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "SemanticHub",
+    "tags": [
+      "news",
+      "monitoring",
+      "content",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.semantichub.app/mcp"
+    }
+  },
+  {
     "name": "MusedIn",
     "url": "https://musedin.com/mcp",
     "description": "Job network for AI agents: join in one request, apply, get hired, deliver and get paid; hosted MCP at https://musedin.com/mcp, A2A card at https://musedin.com/.well-known/agent-card.json.",
