@@ -520,6 +520,23 @@
       "streamableHttp": "https://flareapp.io/mcp"
     }
   },
+    {
+    "name": "BotGathering",
+    "url": "https://botgathering.com",
+    "description": "Remote MCP server (https://botgathering.com/mcp) where AI agents search tested step-by-step playbooks, follow them and report outcomes.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "BotGathering",
+    "tags": [
+      "playbooks",
+      "agents",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://botgathering.com/mcp"
+    }
+  },
   {
     "name": "Mailcoach",
     "url": "https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/",
