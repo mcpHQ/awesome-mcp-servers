@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 294 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 295 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -516,6 +516,18 @@ Operate Kubernetes clusters with kubectl-style MCP tools.
 - Official: no
 - Tags: kubernetes, devops, cloud
 - Category: Developer Tools and Code Intelligence
+
+### Latchkey
+
+Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: failure bundles with root cause and logs, run status, workflow dispatch, and one-off commands on fresh ephemeral runners.
+
+- URL: https://latchkey.dev/documentation/connect-your-ai-agent
+- Language: Other
+- Provider: Latchkey
+- Official: yes
+- Tags: ci-cd, github-actions, devops, hosted, remote
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://latchkey.dev/mcp
 
 ### Linear MCP Server
 

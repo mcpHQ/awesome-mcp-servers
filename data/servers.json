@@ -4709,5 +4709,24 @@
     "endpoints": {
       "streamableHttp": "https://mcp.pintonotes.com"
     }
+  },
+  {
+    "name": "Latchkey",
+    "url": "https://latchkey.dev/documentation/connect-your-ai-agent",
+    "description": "Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: failure bundles with root cause and logs, run status, workflow dispatch, and one-off commands on fresh ephemeral runners.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Latchkey",
+    "tags": [
+      "ci-cd",
+      "github-actions",
+      "devops",
+      "hosted",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://latchkey.dev/mcp"
+    }
   }
 ]
