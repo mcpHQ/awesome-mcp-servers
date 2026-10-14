@@ -2666,6 +2666,24 @@
     }
   },
   {
+    "name": "CurlShot",
+    "url": "https://curlshot.com/docs",
+    "description": "Hosted screenshot API over remote MCP: renders any public URL as PNG, JPEG, WebP, PDF or a scrolling video, full page or at a device preset. API key as Bearer token; free plan 100 screenshots/month, no card.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "CurlShot",
+    "tags": [
+      "screenshot",
+      "pdf",
+      "web-capture",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://curlshot.com/api/mcp"
+    }
+  },
+  {
     "name": "FractalAI Agent Passport",
     "url": "https://www.npmjs.com/package/@fractalai/agent-passport-mcp",
     "description": "Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts.",

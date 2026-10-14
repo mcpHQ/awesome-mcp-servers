@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 294 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 295 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -95,6 +95,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp): Control and inspect Chrome through DevTools protocol for debugging and automation. (TypeScript, official)
 - [Cluefinch MCP](https://github.com/cluefinch/mcp-server): Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection. (Python, official)
 - [ContHunt](https://github.com/Synthenova/conthunt-mcp): Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts. (Other, official)
+- [CurlShot](https://curlshot.com/docs): Hosted screenshot API over remote MCP: renders any public URL as PNG, JPEG, WebP, PDF or a scrolling video, full page or at a device preset. API key as Bearer token; free plan 100 screenshots/month, no card. (TypeScript, official)
 - [Exa MCP Server](https://github.com/exa-labs/exa-mcp-server): Neural and keyword web search optimized for AI research workflows. (TypeScript, official)
 - [Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server): Scrape, crawl, and extract structured web data with Firecrawl. (TypeScript, official)
 - [Hyperresearch](https://hyperresearch.ai/docs/mcp): Hyperresearch is an AI deep research API. One question in, an adversarially reviewed report out, cited claims checked against their sources. (Other)

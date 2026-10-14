@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-294-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-295-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (14)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (32)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (23)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (24)
 - [Filesystems and Documents](#filesystems-and-documents) (12)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (18)
 - [Communication and Productivity](#communication-and-productivity) (32)
@@ -224,6 +224,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `deep-research` `web-search` `research` `ai-agents` `local-first`
 - **[ContHunt](https://github.com/Synthenova/conthunt-mcp)** `Official` `Other` — Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.  
   `social` `content` `research` `tiktok`
+- **[CurlShot](https://curlshot.com/docs)** `Official` `TypeScript` — Hosted screenshot API over remote MCP: renders any public URL as PNG, JPEG, WebP, PDF or a scrolling video, full page or at a device preset. API key as Bearer token; free plan 100 screenshots/month, no card.  
+  `screenshot` `pdf` `web-capture` `remote`
 - **[Exa MCP Server](https://github.com/exa-labs/exa-mcp-server)** `Official` `TypeScript` — Neural and keyword web search optimized for AI research workflows.  
   `search` `research` `web`
 - **[Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server)** `Official` `TypeScript` — Scrape, crawl, and extract structured web data with Firecrawl.  
