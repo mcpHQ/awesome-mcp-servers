@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 294 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 299 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -124,6 +124,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [agvps](https://agvps.shveik.dev): Servers for agents, rented by the month: a Linux server with root access and a public IPv4, paid per call with x402 stablecoins, renewed by paying again; no API key. (Go, official)
 - [API Status Check MCP](https://apistatuscheck.com/mcp): Query current and historical uptime for 285 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug. (TypeScript, official)
+- [Ausca](https://ausca.com/docs/mcp/): Discover metered OCR, transcription, browser and receive-only inbox services; paid invocations require x402 payment authority and return receipts. (Go, official)
 - [AWS MCP Server](https://github.com/alexei-led/aws-mcp-server): Execute AWS CLI commands safely in a containerized environment. (Python)
 - [Azure MCP Server](https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server): Manage Azure resources and services through MCP tools. (C#, official)
 - [CloudBurn](https://github.com/towardsthecloud/cloudburn): Read-only AWS cost analysis for Terraform, CloudFormation, and live AWS accounts through a local stdio MCP server. (TypeScript, official)
@@ -159,6 +160,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [LinkMCP](https://app.linkmcp.io): Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial. (TypeScript)
 - [Mailcoach](https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/): Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list. (PHP, official)
 - [Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server): Interact with Microsoft Teams channels, messages, and meetings. (TypeScript)
+- [Nitrosend](https://docs.nitrosend.com/mcp): Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server. (Ruby, official)
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server. (TypeScript)
 - [Pinto Notes](https://github.com/pinto-notes/pinto-notes): Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth. (TypeScript, official)
 - [Postbag MCP Server](https://github.com/faahim/postbag): Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks. (TypeScript)
@@ -209,6 +211,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Plazmi](https://plazmi.gg/SKILL.md): A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard. (Other)
 - [Pyrimid](https://github.com/pyrimid-ai/pyrimid): Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement. (TypeScript)
 - [RunAPI MCP Server](https://github.com/runapi-ai/mcp): Discover model inputs and create AI image, video, music, speech, and other model API tasks. (TypeScript)
+- [Runx](https://runx.ai/docs/mcp): Search and inspect portable agent skills through read-only hosted MCP; execution and signed receipts belong to Runx's Apache-2.0 local runtime. (TypeScript, official)
 - [SandBase CLI](https://github.com/sandbaseai/cli): Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools. (TypeScript, official)
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness): Self-hosted MCP bridge for agent sessions, sandboxed turns, artifacts, audit, and replay. (TypeScript, official)
 - [Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp): Search locally captured screen text and audio history via MCP under the Screenpipe Commercial License, with optional cloud features and connected AI clients able to transmit context off-device. (TypeScript, official)
@@ -245,6 +248,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Robot Speed](https://github.com/robot-speed/mcp): SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing. (TypeScript, official)
 - [Screpy SEO MCP](https://screpy.com/feature/seo-mcp/): Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth. (Other, official)
 - [Serpel](https://serpel.app/developers/mcp): Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring. (TypeScript, official)
+- [Sourcey](https://sourcey.com/mcp): Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record. (TypeScript, official)
 - [StatOrigin](https://statorigin.org/docs/mcp): Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence. (Other, official)
 
 ## Legal and Court Data
@@ -294,6 +298,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Equibles](https://equibles.com/mcp): Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access. (C#, official)
 - [Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs): Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in. (Other, official)
 - [FirstSales MCP](https://developer.firstsales.io/agents/mcp-server): Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan. (TypeScript, official)
+- [Frantic](https://github.com/gofrantic/frantic-mcp): Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results. (TypeScript, official)
 - [Glongus MCP](https://github.com/glongusmain/glongus-mcp): Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation. (JavaScript, official)
 - [HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server): Access HubSpot contacts, deals, and marketing automation data. (TypeScript, official)
 - [Invompt](https://mcp.invompt.com/mcp): Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com (TypeScript, official)

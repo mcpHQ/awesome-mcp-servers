@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 294 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 299 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1082,6 +1082,18 @@ Query current and historical uptime for 285 third-party developer APIs (OpenAI, 
 - Category: Cloud and Infrastructure
 - Streamable HTTP endpoint: https://apistatuscheck.com/api/mcp
 
+### Ausca
+
+Discover metered OCR, transcription, browser and receive-only inbox services; paid invocations require x402 payment authority and return receipts.
+
+- URL: https://ausca.com/docs/mcp/
+- Language: Go
+- Provider: Ausca
+- Official: yes
+- Tags: x402, ocr, transcription, browser-automation, agent-infrastructure
+- Category: Cloud and Infrastructure
+- Streamable HTTP endpoint: https://ausca.com/mcp
+
 ### AWS MCP Server
 
 Execute AWS CLI commands safely in a containerized environment.
@@ -1450,6 +1462,18 @@ Interact with Microsoft Teams channels, messages, and meetings.
 - Official: no
 - Tags: teams, chat, microsoft
 - Category: Communication and Productivity
+
+### Nitrosend
+
+Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.
+
+- URL: https://docs.nitrosend.com/mcp
+- Language: Ruby
+- Provider: Nitrosend
+- Official: yes
+- Tags: email-marketing, campaigns, automation, transactional-email, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://api.nitrosend.com/mcp
 
 ### OrkasVideoStudio
 
@@ -1996,6 +2020,18 @@ Discover model inputs and create AI image, video, music, speech, and other model
 - Tags: models, media-generation, inference
 - Category: AI, Agents, and Memory
 
+### Runx
+
+Search and inspect portable agent skills through read-only hosted MCP; execution and signed receipts belong to Runx's Apache-2.0 local runtime.
+
+- URL: https://runx.ai/docs/mcp
+- Language: TypeScript
+- Provider: Runx
+- Official: yes
+- Tags: agent-skills, discovery, governance, receipts, open-source
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://api.runx.ai/mcp
+
 ### SandBase CLI
 
 Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools.
@@ -2379,6 +2415,18 @@ Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keywor
 - Tags: seo, analytics, ai-visibility, remote
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://serpel.app/mcp
+
+### Sourcey
+
+Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record.
+
+- URL: https://sourcey.com/mcp
+- Language: TypeScript
+- Provider: Sourcey
+- Official: yes
+- Tags: startup-credits, company-data, agent-readiness, evidence
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.sourcey.com/mcp
 
 ### StatOrigin
 
@@ -2858,6 +2906,18 @@ Retrieve CRM contacts, deals, lists and workflows, and create contacts in approv
 - Tags: crm, contacts, sales, oauth, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.app.firstsales.io/mcp
+
+### Frantic
+
+Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results.
+
+- URL: https://github.com/gofrantic/frantic-mcp
+- Language: TypeScript
+- Provider: Frantic
+- Official: yes
+- Tags: agent-marketplace, bounties, funded-work, payments
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.gofrantic.com/mcp
 
 ### Glongus MCP
 

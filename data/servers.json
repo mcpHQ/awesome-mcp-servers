@@ -1084,6 +1084,25 @@
     "official": true
   },
   {
+    "name": "Nitrosend",
+    "url": "https://docs.nitrosend.com/mcp",
+    "description": "Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.",
+    "category": "communication-and-productivity",
+    "language": "Ruby",
+    "provider": "Nitrosend",
+    "tags": [
+      "email-marketing",
+      "campaigns",
+      "automation",
+      "transactional-email",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.nitrosend.com/mcp"
+    }
+  },
+  {
     "name": "SolidPing",
     "url": "https://github.com/fclairamb/solidping",
     "description": "Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio.",
@@ -1770,6 +1789,25 @@
     "official": true
   },
   {
+    "name": "Runx",
+    "url": "https://runx.ai/docs/mcp",
+    "description": "Search and inspect portable agent skills through read-only hosted MCP; execution and signed receipts belong to Runx's Apache-2.0 local runtime.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Runx",
+    "tags": [
+      "agent-skills",
+      "discovery",
+      "governance",
+      "receipts",
+      "open-source"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.runx.ai/mcp"
+    }
+  },
+  {
     "name": "LlamaParse MCP Server",
     "url": "https://developers.llamaindex.ai/for-agents/",
     "description": "Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.",
@@ -2344,6 +2382,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://companyproof.ai/v2/mcp"
+    }
+  },
+  {
+    "name": "Sourcey",
+    "url": "https://sourcey.com/mcp",
+    "description": "Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Sourcey",
+    "tags": [
+      "startup-credits",
+      "company-data",
+      "agent-readiness",
+      "evidence"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.sourcey.com/mcp"
     }
   },
   {
@@ -3054,6 +3110,24 @@
     }
   },
   {
+    "name": "Frantic",
+    "url": "https://github.com/gofrantic/frantic-mcp",
+    "description": "Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Frantic",
+    "tags": [
+      "agent-marketplace",
+      "bounties",
+      "funded-work",
+      "payments"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.gofrantic.com/mcp"
+    }
+  },
+  {
     "name": "Wiz MCP Server",
     "url": "https://www.wiz.io/blog/introducing-mcp-server-for-wiz",
     "description": "Cloud security posture management and risk insights from Wiz.",
@@ -3731,6 +3805,25 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.worklittle.com/"
+    }
+  },
+  {
+    "name": "Ausca",
+    "url": "https://ausca.com/docs/mcp/",
+    "description": "Discover metered OCR, transcription, browser and receive-only inbox services; paid invocations require x402 payment authority and return receipts.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "Ausca",
+    "tags": [
+      "x402",
+      "ocr",
+      "transcription",
+      "browser-automation",
+      "agent-infrastructure"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://ausca.com/mcp"
     }
   },
   {

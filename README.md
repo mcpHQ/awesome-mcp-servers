@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-294-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-299-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,13 +46,13 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (32)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (23)
 - [Filesystems and Documents](#filesystems-and-documents) (12)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (18)
-- [Communication and Productivity](#communication-and-productivity) (32)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (38)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (27)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (19)
+- [Communication and Productivity](#communication-and-productivity) (33)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (39)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (28)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (17)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (51)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (52)
 - [Utilities and Examples](#utilities-and-examples) (15)
 
 <a id="official-and-reference"></a>
@@ -284,6 +284,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `vps` `hosting` `x402` `remote`
 - **[API Status Check MCP](https://apistatuscheck.com/mcp)** `Official` `TypeScript` — Query current and historical uptime for 285 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug.  
   `uptime` `monitoring` `status` `incidents`
+- **[Ausca](https://ausca.com/docs/mcp/)** `Official` `Go` — Discover metered OCR, transcription, browser and receive-only inbox services; paid invocations require x402 payment authority and return receipts.  
+  `x402` `ocr` `transcription` `browser-automation` `agent-infrastructure`
 - **[AWS MCP Server](https://github.com/alexei-led/aws-mcp-server)** `Python` — Execute AWS CLI commands safely in a containerized environment.  
   `aws` `cloud` `cli`
 - **[Azure MCP Server](https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server)** `Official` `C#` — Manage Azure resources and services through MCP tools.  
@@ -355,6 +357,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `email-marketing` `newsletters` `campaigns` `oauth`
 - **[Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server)** `TypeScript` — Interact with Microsoft Teams channels, messages, and meetings.  
   `teams` `chat` `microsoft`
+- **[Nitrosend](https://docs.nitrosend.com/mcp)** `Official` `Ruby` — Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.  
+  `email-marketing` `campaigns` `automation` `transactional-email` `oauth`
 - **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
   `video` `editing` `automation` `mcp`
 - **[Pinto Notes](https://github.com/pinto-notes/pinto-notes)** `Official` `TypeScript` — Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.  
@@ -456,6 +460,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `x402` `ai-agent` `payments` `base` `usdc`
 - **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)** `TypeScript` — Discover model inputs and create AI image, video, music, speech, and other model API tasks.  
   `models` `media-generation` `inference`
+- **[Runx](https://runx.ai/docs/mcp)** `Official` `TypeScript` — Search and inspect portable agent skills through read-only hosted MCP; execution and signed receipts belong to Runx's Apache-2.0 local runtime.  
+  `agent-skills` `discovery` `governance` `receipts` `open-source`
 - **[SandBase CLI](https://github.com/sandbaseai/cli)** `Official` `TypeScript` — Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools.  
   `ai-models` `api-gateway` `local`
 - **[SandBase Harness](https://github.com/sandbaseai/sandbase-harness)** `Official` `TypeScript` — Self-hosted MCP bridge for agent sessions, sandboxed turns, artifacts, audit, and replay.  
@@ -529,6 +535,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `analytics` `ai-visibility` `remote` `oauth`
 - **[Serpel](https://serpel.app/developers/mcp)** `Official` `TypeScript` — Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring.  
   `seo` `analytics` `ai-visibility` `remote`
+- **[Sourcey](https://sourcey.com/mcp)** `Official` `TypeScript` — Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record.  
+  `startup-credits` `company-data` `agent-readiness` `evidence`
 - **[StatOrigin](https://statorigin.org/docs/mcp)** `Official` `Other` — Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence.  
   `statistics` `open-data` `citations` `remote`
 
@@ -630,6 +638,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `finance` `stock-market` `trading` `quant` `remote`
 - **[FirstSales MCP](https://developer.firstsales.io/agents/mcp-server)** `Official` `TypeScript` — Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan.  
   `crm` `contacts` `sales` `oauth` `remote`
+- **[Frantic](https://github.com/gofrantic/frantic-mcp)** `Official` `TypeScript` — Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results.  
+  `agent-marketplace` `bounties` `funded-work` `payments`
 - **[Glongus MCP](https://github.com/glongusmain/glongus-mcp)** `Official` `JavaScript` — Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.  
   `marketplace` `ecommerce` `escrow` `shopping`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
