@@ -9,6 +9,10 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CONCURRENCY = 10;
 const TIMEOUT_MS = 15_000;
 const USER_AGENT = "awesome-mcp-servers-link-checker/1.0";
+const REQUEST_HEADERS = {
+  "User-Agent": USER_AGENT,
+  Accept: "application/json, text/event-stream, text/html, */*",
+};
 
 // Created by this repo's own deploy, so they 404 in a PR until it merges.
 // The scheduled full check still verifies them.
@@ -115,21 +119,23 @@ function collectMarkdownFiles(dir) {
 async function checkLink(url) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), TIMEOUT_MS);
+  let response;
 
   try {
-    let response = await fetch(url, {
+    response = await fetch(url, {
       method: "HEAD",
       redirect: "follow",
       signal: controller.signal,
-      headers: { "User-Agent": USER_AGENT },
+      headers: REQUEST_HEADERS,
     });
 
     if ([403, 405, 501].includes(response.status)) {
+      await response.body?.cancel();
       response = await fetch(url, {
         method: "GET",
         redirect: "follow",
         signal: controller.signal,
-        headers: { "User-Agent": USER_AGENT },
+        headers: REQUEST_HEADERS,
       });
     }
 
@@ -148,6 +154,7 @@ async function checkLink(url) {
       error instanceof Error ? error.message : "request failed";
     return { ok: false, reason: message };
   } finally {
+    await response?.body?.cancel().catch(() => {});
     clearTimeout(timeout);
   }
 }
