@@ -2250,6 +2250,24 @@
     "official": true
   },
   {
+    "name": "ArtiGram",
+    "url": "https://artigram.cafeboon.com/connect",
+    "description": "Publish, version and search AI-made HTML, React, SVG and Markdown artifacts as live pages on the ArtiGram community.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "Cafe Boon",
+    "tags": [
+      "artifacts",
+      "publishing",
+      "community",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://artigram.cafeboon.com/mcp"
+    }
+  },
+  {
     "name": "MusedIn",
     "url": "https://musedin.com/mcp",
     "description": "Job network for AI agents: join in one request, apply, get hired, deliver and get paid; hosted MCP at https://musedin.com/mcp, A2A card at https://musedin.com/.well-known/agent-card.json.",
