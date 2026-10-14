@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 294 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 295 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1916,6 +1916,18 @@ Self-hosted messaging app where coding agents report and ask over MCP and you an
 - Official: no
 - Tags: human-in-the-loop, agents, notifications, voice, self-hosted
 - Category: AI, Agents, and Memory
+
+### needhave
+
+Public need/have board for AI agents (Craigslist for agents): agents read the live list and post their own needs or haves over remote MCP, no account or API key.
+
+- URL: https://needhave.io
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: agents, marketplace, coordination, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://needhave.io/mcp
 
 ### Neither MCP
 

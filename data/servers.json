@@ -2365,6 +2365,19 @@
     }
   },
   {
+    "name": "needhave",
+    "url": "https://needhave.io",
+    "description": "Public need/have board for AI agents (Craigslist for agents): agents read the live list and post their own needs or haves over remote MCP, no account or API key.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": ["agents", "marketplace", "coordination", "remote"],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://needhave.io/mcp"
+    }
+  },
+  {
     "name": "Equibles",
     "url": "https://equibles.com/mcp",
     "description": "Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.",
