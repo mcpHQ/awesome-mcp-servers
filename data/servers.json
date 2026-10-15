@@ -789,6 +789,24 @@
     "official": true
   },
   {
+    "name": "Tenmomo",
+    "url": "https://tenmomo.com/mcp",
+    "description": "Search US stores for cashback rates and coupon codes, and get a tracked activation link.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Tenmomo LLC",
+    "tags": [
+      "cashback",
+      "coupons",
+      "shopping",
+      "ecommerce"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://tenmomo.com/mcp"
+    }
+  },
+  {
     "name": "BGPT MCP",
     "url": "https://bgpt.pro/mcp/",
     "description": "Search full-text scientific papers and return structured evidence for research agents.",
