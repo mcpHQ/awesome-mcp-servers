@@ -3407,6 +3407,24 @@
     }
   },
   {
+    "name": "Openhook",
+    "url": "https://github.com/openhook-dev/openhook-inbox",
+    "description": "Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, and wait for events over MCP; hosted or self-hosted, with private per-inbox access tokens.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Openhook",
+    "tags": [
+      "webhooks",
+      "testing",
+      "callbacks",
+      "agents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://openhook.dev/mcp"
+    }
+  },
+  {
     "name": "Blawgy",
     "url": "https://github.com/adamgusky/blawgy-mcp",
     "description": "Hosted SEO blog server that researches keywords, manages the content plan, writes and refreshes articles, reads Search Console traffic, and publishes to WordPress, Shopify, Webflow, Wix, Framer, Ghost or Duda via OAuth or API key.",
