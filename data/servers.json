@@ -2648,6 +2648,25 @@
     }
   },
   {
+    "name": "Shortform Kit",
+    "url": "https://shortformkit.com/mcp-server/",
+    "description": "Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "Shortform Kit",
+    "tags": [
+      "video",
+      "transcription",
+      "social-media",
+      "youtube",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://shortformkit.com/mcp"
+    }
+  },
+  {
     "name": "TubeText Meta Ad Library & Video Ad Analyzer",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence",
     "description": "Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result.",
