@@ -2891,6 +2891,20 @@
     }
   },
   {
+    "name": "RowSafe",
+    "url": "https://github.com/rowsafe/rowsafe",
+    "description": "CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points; requires a RowSafe account.",
+    "category": "databases-and-storage",
+    "language": "Go",
+    "provider": "RowSafe",
+    "tags": [
+      "postgresql",
+      "backups",
+      "migrations"
+    ],
+    "official": true
+  },
+  {
     "name": "Scalekit MCP Server",
     "url": "https://github.com/scalekit-inc/scalekit-mcp-server",
     "description": "Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.",

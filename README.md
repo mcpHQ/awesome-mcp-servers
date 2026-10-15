@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-294-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-295-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -42,7 +42,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 ## Catalog
 
 - [Official and Reference Servers](#official-and-reference) (11)
-- [Databases and Storage](#databases-and-storage) (14)
+- [Databases and Storage](#databases-and-storage) (15)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (32)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (23)
 - [Filesystems and Documents](#filesystems-and-documents) (12)
@@ -112,6 +112,8 @@ Query, manage, and explore databases, vector stores, and data warehouses.
   `vector` `search` `rag`
 - **[Redis MCP Server](https://github.com/redis/mcp-redis)** `Official` `Python` — Read and write Redis keys, lists, and data structures through MCP.  
   `redis` `cache` `kv`
+- **[RowSafe](https://github.com/rowsafe/rowsafe)** `Official` `Go` — CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points; requires a RowSafe account.  
+  `postgresql` `backups` `migrations`
 - **[Snowflake MCP Server](https://github.com/Snowflake-Labs/mcp)** `Official` `Python` — Query Snowflake warehouses and manage data platform resources.  
   `warehouse` `sql` `analytics`
 - **[SQLite MCP Server](https://github.com/ktanaka101/mcp-server-duckdb)** `Python` — Lightweight SQLite database access for local development workflows.  
