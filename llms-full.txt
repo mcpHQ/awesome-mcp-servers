@@ -257,7 +257,7 @@ Read and write Redis keys, lists, and data structures through MCP.
 
 ### RowSafe
 
-CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points; requires a RowSafe account.
+Database health, backups, recovery and provisioning via local stdio or remote Streamable HTTP; requires a RowSafe account for the separate hosted service, with an Apache-2.0 agent, CLI and MCP server.
 
 - URL: https://github.com/rowsafe/rowsafe
 - Language: Go
@@ -265,6 +265,7 @@ CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on
 - Official: yes
 - Tags: postgresql, backups, migrations
 - Category: Databases and Storage
+- Streamable HTTP endpoint: https://api.rowsafe.sh/mcp
 
 ### Snowflake MCP Server
 

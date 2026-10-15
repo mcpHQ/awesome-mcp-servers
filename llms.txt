@@ -40,7 +40,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Prisma MCP Server](https://www.prisma.io/docs/ai/tools/mcp-server): Manage Prisma Postgres databases, Prisma Compute deployments, and Object Storage from AI tools through a remote MCP server. (Other, official)
 - [Qdrant MCP Server](https://github.com/qdrant/mcp-server-qdrant): Store and retrieve vectors in Qdrant for RAG workflows. (Python, official)
 - [Redis MCP Server](https://github.com/redis/mcp-redis): Read and write Redis keys, lists, and data structures through MCP. (Python, official)
-- [RowSafe](https://github.com/rowsafe/rowsafe): CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points; requires a RowSafe account. (Go, official)
+- [RowSafe](https://github.com/rowsafe/rowsafe): Database health, backups, recovery and provisioning via local stdio or remote Streamable HTTP; requires a RowSafe account for the separate hosted service, with an Apache-2.0 agent, CLI and MCP server. (Go, official)
 - [Snowflake MCP Server](https://github.com/Snowflake-Labs/mcp): Query Snowflake warehouses and manage data platform resources. (Python, official)
 - [SQLite MCP Server](https://github.com/ktanaka101/mcp-server-duckdb): Lightweight SQLite database access for local development workflows. (Python)
 - [Supabase MCP Server](https://github.com/supabase-community/supabase-mcp): Community-maintained integration for Supabase projects, tables, and auth through MCP tools. (TypeScript)

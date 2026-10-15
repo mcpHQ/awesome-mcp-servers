@@ -112,7 +112,7 @@ Query, manage, and explore databases, vector stores, and data warehouses.
   `vector` `search` `rag`
 - **[Redis MCP Server](https://github.com/redis/mcp-redis)** `Official` `Python` — Read and write Redis keys, lists, and data structures through MCP.  
   `redis` `cache` `kv`
-- **[RowSafe](https://github.com/rowsafe/rowsafe)** `Official` `Go` — CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points; requires a RowSafe account.  
+- **[RowSafe](https://github.com/rowsafe/rowsafe)** `Official` `Go` — Database health, backups, recovery and provisioning via local stdio or remote Streamable HTTP; requires a RowSafe account for the separate hosted service, with an Apache-2.0 agent, CLI and MCP server.  
   `postgresql` `backups` `migrations`
 - **[Snowflake MCP Server](https://github.com/Snowflake-Labs/mcp)** `Official` `Python` — Query Snowflake warehouses and manage data platform resources.  
   `warehouse` `sql` `analytics`
