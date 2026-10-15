@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 326 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 327 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -210,6 +210,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ContextStream](https://github.com/contextstream/mcp-server): Shared project memory that both developers and AI agents read and write across Cursor, Claude Code, Codex, Grok, Windsurf and the rest. (TypeScript, official)
 - [Continuity](https://github.com/LAHutchins91/continuity-mcp): Remote MCP story bible for fiction writers: locked characters, relationships, world rules, timelines, and approved scenes with OAuth for ChatGPT, Claude, Gemini, Grok, and Cursor. (TypeScript)
 - [CrewAI Enterprise MCP Server](https://github.com/crewAIInc/enterprise-mcp-server): Kick off CrewAI crew deployments and check their status from MCP clients. (Python, official)
+- [Dare MCP Server](https://github.com/avi-aggarwal14/dare-mcp-server): Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs. (TypeScript)
 - [Decide Runtime](https://www.decide.fyi/mcp#connect-runtime): Evaluate supplied facts against approved rules and read/export owned decision records via scoped bearer or registered OAuth/PKCE; USD 10/1,000 records in a controlled business pilot, with no external execution. (JavaScript, official)
 - [fitlog-mcp](https://github.com/hahahahahahahahah6/fitlog-mcp): Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by voice, track personal records, and get workout plans. (Python)
 - [Graphiti MCP Server](https://github.com/getzep/graphiti): Temporal knowledge graphs for agent memory and context building. (Python, official)

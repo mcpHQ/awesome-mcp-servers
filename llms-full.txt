@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 326 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 327 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -538,7 +538,6 @@ Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: f
 - Official: yes
 - Tags: ci-cd, github-actions, devops, hosted, remote
 - Category: Developer Tools and Code Intelligence
-- Streamable HTTP endpoint: https://latchkey.dev/mcp
 
 ### Linear MCP Server
 
@@ -2010,6 +2009,17 @@ Kick off CrewAI crew deployments and check their status from MCP clients.
 - Provider: CrewAI
 - Official: yes
 - Tags: agents, multi-agent, orchestration
+- Category: AI, Agents, and Memory
+
+### Dare MCP Server
+
+Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs.
+
+- URL: https://github.com/avi-aggarwal14/dare-mcp-server
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: ai-video, image-generation, video-generation, claude
 - Category: AI, Agents, and Memory
 
 ### Decide Runtime
