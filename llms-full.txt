@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 326 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 327 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3101,6 +3101,18 @@ Checks whether a backtest result is real or just the luckiest of the variants tr
 - Tags: finance, backtesting, statistics, quant, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://canlicapital.com/mcp
+
+### Chord
+
+Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial.
+
+- URL: https://github.com/getchordlabs/chord
+- Language: TypeScript
+- Provider: Chord
+- Official: yes
+- Tags: blockchain, defi, swap, trading, crypto
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.getchord.xyz/v1/mcp
 
 ### Clera
 
