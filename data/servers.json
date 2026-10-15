@@ -2309,6 +2309,22 @@
     "official": true
   },
   {
+    "name": "vibe-testing",
+    "url": "https://github.com/AishwaryShrivastav/vibe-testing",
+    "description": "Scan web app routes and forms, run Playwright browser checks, and produce HTML QA reports through a local MCP server.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Aishwary Shrivastav",
+    "tags": [
+      "testing",
+      "browser",
+      "playwright",
+      "qa",
+      "mcp"
+    ],
+    "official": false
+  },
+  {
     "name": "Invokely",
     "url": "https://invokely.ai/docs",
     "description": "Query source-cited official statistics by indicator, place and period; retrieve values and time series, compare places, and rank regions. No-account MCP trial allows 25 calls per IP per day.",
