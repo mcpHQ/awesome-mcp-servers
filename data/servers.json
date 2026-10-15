@@ -1386,6 +1386,24 @@
     }
   },
   {
+    "name": "Sequential",
+    "url": "https://www.usesequential.com/docs/agent-tools.md",
+    "description": "Hosted MCP server for Sequential session replay and product analytics: query sessions, AI-judge findings, events, funnels, flows and retention, with OAuth sign-in.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Sequential",
+    "tags": [
+      "session-replay",
+      "product-analytics",
+      "funnels",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.usesequential.com/mcp"
+    }
+  },
+  {
     "name": "Slack MCP Server",
     "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
     "description": "Send messages and interact with Slack channels and workspaces.",
