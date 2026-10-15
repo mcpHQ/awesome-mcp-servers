@@ -2250,6 +2250,20 @@
     "official": true
   },
   {
+    "name": "Baizhi Cloud Agent Toolkit",
+    "url": "https://github.com/chaitin/baizhi-agent-toolkit",
+    "description": "Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Baizhi Cloud",
+    "tags": [
+      "search",
+      "web",
+      "hosted"
+    ],
+    "official": true
+  },
+  {
     "name": "MusedIn",
     "url": "https://musedin.com/mcp",
     "description": "Job network for AI agents: join in one request, apply, get hired, deliver and get paid; hosted MCP at https://musedin.com/mcp, A2A card at https://musedin.com/.well-known/agent-card.json.",

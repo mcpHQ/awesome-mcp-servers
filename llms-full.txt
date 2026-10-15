@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 294 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 295 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -723,6 +723,17 @@ Search indexed YouTube transcripts for timestamped passages, speaker appearances
 - Tags: youtube, transcripts, search, speakers, research
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://mcp.arcmira.com/mcp
+
+### Baizhi Cloud Agent Toolkit
+
+Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits.
+
+- URL: https://github.com/chaitin/baizhi-agent-toolkit
+- Language: Other
+- Provider: Baizhi Cloud
+- Official: yes
+- Tags: search, web, hosted
+- Category: Browsers, Search, and Web Automation
 
 ### BGPT MCP
 
