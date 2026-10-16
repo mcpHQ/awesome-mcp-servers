@@ -5392,7 +5392,7 @@
     "name": "Money Reactor",
     "url": "https://github.com/makar52nn2016-jpg/money-reactor",
     "description": "x402 paid APIs for AI agents: funded crypto bounty radar, honeypot scam scoring (trust 0-100) and repo safety verdicts. Pay per call in USDC on Base; MCP server (registry-listed) + streamable HTTP transport.",
-    "category": "other",
+    "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "makar52nn2016-jpg",
     "tags": [
