@@ -207,6 +207,7 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
 <a id="browsers-search-and-web-automation"></a>
 
 ## Browsers, Search, and Web Automation
+- **[Vend Browser Agent](https://extract.paypercall.dev/mcp)** `Official` — Pay-per-call browser automation and stealth scraping over x402, settled in Nano (XNO); real-browser task runs plus single/batch page scraping, no account or API key.
 
 Browse the web, scrape content, search, and automate browser interactions.
 
