@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3632,6 +3632,18 @@ MCP server for agents to work across Ethereum, Arbitrum, Base, Polygon and BNB C
 - Official: no
 - Tags: crypto, defi, x402, blockchain
 - Category: Finance, Commerce, and Business Apps
+
+### Vedar Kamchatka
+
+Kamchatka (Russia) travel: search tours, accommodation and transfers, build trip plans, send booking requests, and get volcano status, weather and safety info. Hosted, no API key.
+
+- URL: https://github.com/tourhabk-ui/pos
+- Language: TypeScript
+- Provider: Vedar
+- Official: yes
+- Tags: travel, tours, kamchatka, booking, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://vedarai.ru/api/mcp
 
 ### Voidpay Marketplace MCP
 
