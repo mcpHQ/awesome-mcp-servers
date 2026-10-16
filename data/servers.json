@@ -2684,6 +2684,25 @@
     "official": true
   },
   {
+    "name": "AltoRank",
+    "url": "https://github.com/AltoRank/altorank",
+    "description": "Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "AltoRank",
+    "tags": [
+      "seo",
+      "content",
+      "marketing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.altorank.co/api/mcp"
+    }
+  },
+  {
     "name": "Plazmi",
     "url": "https://plazmi.gg/SKILL.md",
     "description": "A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.",
@@ -3431,7 +3450,7 @@
   {
     "name": "Google Hotels",
     "url": "https://github.com/huynhtanan/google-hotels-mcp",
-    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
+    "description": "Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "Community",
