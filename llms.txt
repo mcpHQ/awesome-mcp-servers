@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 327 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 332 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -80,6 +80,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [SanctionsKit Developer MCP](https://www.sanctionskit.com/resources/mcp): Public SanctionsKit documentation, API schemas, and request validation, with authenticated synthetic sandbox tools for building sanctions screening integrations. (Other, official)
 - [Semgrep MCP Server](https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp): Run static analysis and security scans on codebases via Semgrep. (Python, official)
 - [Sentry MCP Server](https://docs.sentry.io/product/sentry-mcp/): Investigate errors, releases, and performance issues in Sentry. (TypeScript, official)
+- [SheetsData](https://sheetsdata.com): Electronic component datasheets for AI agents: pinouts, specs, package info and design checks from manufacturer PDFs, with part search across JLCPCB, Mouser and DigiKey; hosted, OAuth or API key, paid per call. (Python, official)
 - [SkillDB](https://github.com/devchad-cmd/skilldb-sdk): Search reusable AI agent skills through an installable TypeScript MCP server; full skill content requires a Pro or Studio account. (TypeScript, official)
 - [Sourcegraph Cody MCP](https://sourcegraph.com/docs/api/mcp): Code intelligence and search across large codebases with Cody. (TypeScript, official)
 - [Spinnaker MCP Server](https://github.com/GeiserX/spinnaker-mcp): Read and operate a Spinnaker instance through its Gate API: 37 tools for applications, pipelines, executions, deployment strategies, and infrastructure, plus a read-only toolset. (Go)
@@ -273,6 +274,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Proofsource](https://proofsource.co/docs/chatgpt-and-claude): Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth. (Go, official)
 - [Robot Speed](https://github.com/robot-speed/mcp): SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing. (TypeScript, official)
 - [Screpy SEO MCP](https://screpy.com/feature/seo-mcp/): Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth. (Other, official)
+- [Sequential](https://www.usesequential.com/docs/agent-tools.md): Hosted MCP server for Sequential session replay and product analytics: query sessions, AI-judge findings, events, funnels, flows and retention, with OAuth sign-in. (TypeScript, official)
 - [Serpel](https://serpel.app/developers/mcp): Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring. (TypeScript, official)
 - [Sourcey](https://sourcey.com/mcp): Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record. (TypeScript, official)
 - [StatOrigin](https://statorigin.org/docs/mcp): Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence. (Other, official)
@@ -327,6 +329,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [FirstSales MCP](https://developer.firstsales.io/agents/mcp-server): Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan. (TypeScript, official)
 - [Frantic](https://github.com/gofrantic/frantic-mcp): Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results. (TypeScript, official)
 - [Glongus MCP](https://github.com/glongusmain/glongus-mcp): Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation. (JavaScript, official)
+- [Google Hotels](https://github.com/huynhtanan/google-hotels-mcp): Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN). (Python)
 - [HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server): Access HubSpot contacts, deals, and marketing automation data. (TypeScript, official)
 - [Invompt](https://mcp.invompt.com/mcp): Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com (TypeScript, official)
 - [Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp): People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors. (TypeScript, official)

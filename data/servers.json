@@ -2539,6 +2539,25 @@
     "official": false
   },
   {
+    "name": "SheetsData",
+    "url": "https://sheetsdata.com",
+    "description": "Electronic component datasheets for AI agents: pinouts, specs, package info and design checks from manufacturer PDFs, with part search across JLCPCB, Mouser and DigiKey; hosted, OAuth or API key, paid per call.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Octoco Ltd",
+    "tags": [
+      "electronics",
+      "datasheets",
+      "hardware",
+      "embedded",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.sheetsdata.com/mcp"
+    }
+  },
+  {
     "name": "Chain.Love MCP",
     "url": "https://github.com/Chain-Love/chain.love-mcp",
     "description": "Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.",
