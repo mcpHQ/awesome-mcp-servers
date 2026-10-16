@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 334 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 335 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -161,6 +161,7 @@ Links under each category point at the upstream project, docs, or registry page.
 ## Communication and Productivity
 
 - [Agent Media](https://github.com/agent-media-ai/agent-media): Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts. (Other, official)
+- [agentcomms](https://github.com/web3wes/agentcomms): Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub. (Python, official)
 - [agmail](https://agmail.shveik.dev): Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account. (Go, official)
 - [ArtiGram](https://artigram.cafeboon.com/connect): Publish, version and search AI-made HTML, React, SVG and Markdown artifacts as live pages on the ArtiGram community. (Python, official)
 - [Atlassian Browser MCP Server](https://github.com/GeiserX/atlassian-browser-mcp): Wraps mcp-atlassian with Playwright browser-cookie login, so its Jira and Confluence tools work on Atlassian Server/Data Center behind corporate SSO (Okta, SAML) where API tokens are not available. (Python)

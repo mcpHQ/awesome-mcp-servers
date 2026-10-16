@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1473,6 +1473,17 @@ Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable
 - Tags: video, ugc, ai-video, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.agent-media.ai/mcp
+
+### agentcomms
+
+Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub.
+
+- URL: https://github.com/web3wes/agentcomms
+- Language: Python
+- Provider: web3wes
+- Official: yes
+- Tags: agents, messaging, encryption, self-hosted, mcp
+- Category: Communication and Productivity
 
 ### agmail
 

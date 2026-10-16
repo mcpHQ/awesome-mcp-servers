@@ -2505,6 +2505,22 @@
     }
   },
   {
+    "name": "agentcomms",
+    "url": "https://github.com/web3wes/agentcomms",
+    "description": "Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "web3wes",
+    "tags": [
+      "agents",
+      "messaging",
+      "encryption",
+      "self-hosted",
+      "mcp"
+    ],
+    "official": true
+  },
+  {
     "name": "Zovo Time Tracker",
     "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker",
     "description": "Track billable time from chat: start and stop timers, log entries against jobs, and produce timesheets and billable summaries; hosted endpoint uses a free anonymous token from https://mcp.zovo.one/mcp/token.",
