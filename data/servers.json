@@ -2721,6 +2721,25 @@
     }
   },
   {
+    "name": "YouTube Transcripts MCP",
+    "url": "https://github.com/gunnargray-dev/youtube-transcripts-mcp",
+    "description": "Fetches YouTube transcripts with video metadata as text, timestamped segments, or SRT, plus filtered YouTube search, chapters, and timestamped extractive summaries, with no YouTube API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Parallel Studio",
+    "tags": [
+      "youtube",
+      "transcripts",
+      "search",
+      "summaries",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://parallelstudio--youtube-transcripts-mcp.apify.actor/mcp"
+    }
+  },
+  {
     "name": "TubeText Meta Ad Library & Video Ad Analyzer",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence",
     "description": "Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result.",
@@ -3450,7 +3469,7 @@
   {
     "name": "Google Hotels",
     "url": "https://github.com/huynhtanan/google-hotels-mcp",
-    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
+    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ others) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "Community",

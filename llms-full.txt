@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1076,6 +1076,18 @@ Search, monitor, and extract X/Twitter data from Xquik through MCP.
 - Official: no
 - Tags: twitter, social-data, search
 - Category: Browsers, Search, and Web Automation
+
+### YouTube Transcripts MCP
+
+Fetches YouTube transcripts with video metadata as text, timestamped segments, or SRT, plus filtered YouTube search, chapters, and timestamped extractive summaries, with no YouTube API key.
+
+- URL: https://github.com/gunnargray-dev/youtube-transcripts-mcp
+- Language: TypeScript
+- Provider: Parallel Studio
+- Official: no
+- Tags: youtube, transcripts, search, summaries, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://parallelstudio--youtube-transcripts-mcp.apify.actor/mcp
 
 ## Filesystems and Documents
 
@@ -3270,7 +3282,7 @@ Lets an agent buy and sell physical goods on the Glongus UK marketplace, with ha
 
 ### Google Hotels
 
-Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).
+Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ others) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).
 
 - URL: https://github.com/huynhtanan/google-hotels-mcp
 - Language: Python

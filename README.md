@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-334-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-335-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (38)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (30)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (31)
 - [Filesystems and Documents](#filesystems-and-documents) (13)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
 - [Communication and Productivity](#communication-and-productivity) (39)
@@ -270,6 +270,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `twitter` `scraping` `social-data` `automation`
 - **[Xquik MCP Server](https://github.com/Xquik-dev/x-twitter-scraper)** `TypeScript` — Search, monitor, and extract X/Twitter data from Xquik through MCP.  
   `twitter` `social-data` `search`
+- **[YouTube Transcripts MCP](https://github.com/gunnargray-dev/youtube-transcripts-mcp)** `TypeScript` — Fetches YouTube transcripts with video metadata as text, timestamped segments, or SRT, plus filtered YouTube search, chapters, and timestamped extractive summaries, with no YouTube API key.  
+  `youtube` `transcripts` `search` `summaries` `remote`
 
 <a id="filesystems-and-documents"></a>
 
@@ -700,7 +702,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `agent-marketplace` `bounties` `funded-work` `payments`
 - **[Glongus MCP](https://github.com/glongusmain/glongus-mcp)** `Official` `JavaScript` — Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.  
   `marketplace` `ecommerce` `escrow` `shopping`
-- **[Google Hotels](https://github.com/huynhtanan/google-hotels-mcp)** `Python` — Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).  
+- **[Google Hotels](https://github.com/huynhtanan/google-hotels-mcp)** `Python` — Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ others) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).  
   `hotels` `travel` `pricing` `apify`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
