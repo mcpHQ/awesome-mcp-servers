@@ -2684,6 +2684,24 @@
     "official": true
   },
   {
+    "name": "Domain Mail Check",
+    "url": "https://tools.openkrill.app/#mailcheck",
+    "description": "Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "OpenKrill",
+    "tags": [
+      "email",
+      "dns",
+      "dmarc",
+      "deliverability"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mailcheck.openkrill.app/mcp"
+    }
+  },
+  {
     "name": "Plazmi",
     "url": "https://plazmi.gg/SKILL.md",
     "description": "A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.",
