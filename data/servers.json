@@ -2702,6 +2702,25 @@
     }
   },
   {
+    "name": "MedBillAnalyzer",
+    "url": "https://medbillanalyzer.com",
+    "description": "Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "RMK Capital, Inc.",
+    "tags": [
+      "health",
+      "medical-bills",
+      "billing",
+      "insurance",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.medbillanalyzer.com/mcp/apps?via=mcphq"
+    }
+  },
+  {
     "name": "TubeText Meta Ad Library & Video Ad Analyzer",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence",
     "description": "Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-327-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-332-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,16 +43,16 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (37)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (38)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (30)
 - [Filesystems and Documents](#filesystems-and-documents) (13)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
 - [Communication and Productivity](#communication-and-productivity) (39)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (41)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (31)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (32)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (17)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (54)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (56)
 - [Utilities and Examples](#utilities-and-examples) (16)
 
 <a id="official-and-reference"></a>
@@ -585,6 +585,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `analytics` `keywords` `content`
 - **[Screpy SEO MCP](https://screpy.com/feature/seo-mcp/)** `Official` `Other` — Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.  
   `seo` `analytics` `ai-visibility` `remote` `oauth`
+- **[Sequential](https://www.usesequential.com/docs/agent-tools.md)** `Official` `TypeScript` — Hosted MCP server for Sequential session replay and product analytics: query sessions, AI-judge findings, events, funnels, flows and retention, with OAuth sign-in.  
+  `session-replay` `product-analytics` `funnels` `oauth`
 - **[Serpel](https://serpel.app/developers/mcp)** `Official` `TypeScript` — Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring.  
   `seo` `analytics` `ai-visibility` `remote`
 - **[Sourcey](https://sourcey.com/mcp)** `Official` `TypeScript` — Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record.  
@@ -696,6 +698,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `agent-marketplace` `bounties` `funded-work` `payments`
 - **[Glongus MCP](https://github.com/glongusmain/glongus-mcp)** `Official` `JavaScript` — Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.  
   `marketplace` `ecommerce` `escrow` `shopping`
+- **[Google Hotels](https://github.com/huynhtanan/google-hotels-mcp)** `Python` — Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).  
+  `hotels` `travel` `pricing` `apify`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
 - **[Invompt](https://mcp.invompt.com/mcp)** `Official` `TypeScript` — Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com  
@@ -706,6 +710,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `tennis` `sports` `live-scores` `fixtures` `event-markets`
 - **[MAQAMI Travel](https://github.com/negm17111995/mcp-server)** `Official` `JavaScript` — Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key.  
   `travel` `hotels` `flights` `booking` `remote`
+- **[MedBillAnalyzer](https://medbillanalyzer.com)** `Official` `TypeScript` — Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter.  
+  `health` `medical-bills` `billing` `insurance` `remote`
 - **[NotFair](https://github.com/nowork-studio/NotFair)** `TypeScript` — Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.  
   `seo` `google-ads` `meta-ads` `marketing`
 - **[PandaStock](https://github.com/D-Asce/pandastocksdk)** `Python` — A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.  
