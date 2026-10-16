@@ -2586,6 +2586,25 @@
     "official": true
   },
   {
+    "name": "MCP Ads",
+    "url": "https://mcp-ads.com",
+    "description": "Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "MCP Ads",
+    "tags": [
+      "advertising",
+      "google-ads",
+      "meta-ads",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp-ads.com/mcp-slim"
+    }
+  },
+  {
     "name": "Pink Agentic AI Payments",
     "url": "https://pinkwallet.com/agentic/developers/",
     "description": "Approval layer for AI agent payments: per-agent budgets and rules return allow (single-use credential), ask a human, or block before money moves, over remote Streamable HTTP with OAuth 2.1; public sandbox with test money only.",
