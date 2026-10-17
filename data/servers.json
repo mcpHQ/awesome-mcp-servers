@@ -3111,6 +3111,23 @@
     }
   },
   {
+    "name": "Shop Nobi",
+    "url": "https://nobi.ai/shop",
+    "description": "Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Java",
+    "provider": "Nobi",
+    "tags": [
+      "shopping",
+      "product-search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.nobi.ai/v1/shop/mcp"
+    }
+  },
+  {
     "name": "Hoot Lens",
     "url": "https://github.com/Parallel-Platforms/hootlens-mcp",
     "description": "Read website session replays, click heatmaps and broken clicks, trace one to its JavaScript error and source line, and check whether a shipped change helped.",
@@ -3450,7 +3467,7 @@
   {
     "name": "Google Hotels",
     "url": "https://github.com/huynhtanan/google-hotels-mcp",
-    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
+    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your APIFY_TOKEN).",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "Community",
