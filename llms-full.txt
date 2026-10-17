@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3232,6 +3232,18 @@ Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamen
 - Tags: finance, stock-market, trading, quant, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://enterprise.fincept.in/mcp
+
+### Finder Jobs
+
+Job vacancies and salary stats for Russia, Kazakhstan, Belarus, Kyrgyzstan, Germany, France, Belgium, Switzerland, Sweden and Indonesia. Free, read-only, no auth.
+
+- URL: https://mcp.finder.work
+- Language: Python
+- Provider: Finder
+- Official: yes
+- Tags: jobs, salaries, vacancies, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.finder.work/mcp
 
 ### FirstSales MCP
 

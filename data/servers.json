@@ -2671,6 +2671,24 @@
     }
   },
   {
+    "name": "Finder Jobs",
+    "url": "https://mcp.finder.work",
+    "description": "Job vacancies and salary stats for Russia, Kazakhstan, Belarus, Kyrgyzstan, Germany, France, Belgium, Switzerland, Sweden and Indonesia. Free, read-only, no auth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Finder",
+    "tags": [
+      "jobs",
+      "salaries",
+      "vacancies",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.finder.work/mcp"
+    }
+  },
+  {
     "name": "Elori",
     "url": "https://github.com/elori-debug/elori-mcp",
     "description": "Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.",
