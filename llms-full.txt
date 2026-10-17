@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2353,6 +2353,17 @@ AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for a
 - Provider: SigRank
 - Official: no
 - Tags: token-efficiency, leaderboard, ai-agents, telemetry, yield-cascade
+- Category: AI, Agents, and Memory
+
+### Sqwakie
+
+Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards.
+
+- URL: https://github.com/alexcarney460-hue/walkie
+- Language: TypeScript
+- Provider: RC Studios
+- Official: yes
+- Tags: multi-agent, claude-code, codex, kanban, agent-messaging
 - Category: AI, Agents, and Memory
 
 ### Takibi Base

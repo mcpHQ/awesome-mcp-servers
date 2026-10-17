@@ -2671,6 +2671,22 @@
     }
   },
   {
+    "name": "Sqwakie",
+    "url": "https://github.com/alexcarney460-hue/walkie",
+    "description": "Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "RC Studios",
+    "tags": [
+      "multi-agent",
+      "claude-code",
+      "codex",
+      "kanban",
+      "agent-messaging"
+    ],
+    "official": true
+  },
+  {
     "name": "Elori",
     "url": "https://github.com/elori-debug/elori-mcp",
     "description": "Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.",
