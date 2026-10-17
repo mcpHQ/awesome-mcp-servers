@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 334 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 335 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -71,6 +71,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Latchkey](https://latchkey.dev/documentation/connect-your-ai-agent): Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: failure bundles with root cause and logs, run status, workflow dispatch, and one-off commands on fresh ephemeral runners. (Other, official)
 - [Linear MCP Server](https://linear.app/docs/mcp): Create and manage Linear issues, projects, and team workflows. (TypeScript, official)
 - [LynxPrompt MCP Server](https://github.com/GeiserX/lynxprompt-mcp): Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance. (Go, official)
+- [Mac MCP](https://github.com/bulutarkan/mac-mcp): Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal. (Python)
 - [mcp-pool](https://github.com/yuzu-octopus/mcp-pool): MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown. (TypeScript)
 - [NAIF Gravity](https://naifgravity.com): Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs. (Other, official)
 - [Oh My Android](https://github.com/ateymoori/oh-my-android): Native macOS app with a built-in MCP server that lets AI agents see and drive the Android Emulator and adb devices: screenshots, UI tree in dp, taps, logcat, dark mode, font scale, and locale. (Swift)
@@ -329,7 +330,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [FirstSales MCP](https://developer.firstsales.io/agents/mcp-server): Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan. (TypeScript, official)
 - [Frantic](https://github.com/gofrantic/frantic-mcp): Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results. (TypeScript, official)
 - [Glongus MCP](https://github.com/glongusmain/glongus-mcp): Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation. (JavaScript, official)
-- [Google Hotels](https://github.com/huynhtanan/google-hotels-mcp): Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN). (Python)
+- [Google Hotels](https://github.com/huynhtanan/google-hotels-mcp): Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN). (Python)
 - [HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server): Access HubSpot contacts, deals, and marketing automation data. (TypeScript, official)
 - [Invompt](https://mcp.invompt.com/mcp): Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com (TypeScript, official)
 - [Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp): People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors. (TypeScript, official)

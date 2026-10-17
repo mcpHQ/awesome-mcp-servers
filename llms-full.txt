@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -571,6 +571,17 @@ Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS
 - Provider: LynxPrompt
 - Official: yes
 - Tags: agents-md, prompts, ai-rules
+- Category: Developer Tools and Code Intelligence
+
+### Mac MCP
+
+Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal.
+
+- URL: https://github.com/bulutarkan/mac-mcp
+- Language: Python
+- Provider: bulutarkan
+- Official: no
+- Tags: macos, browser-automation, desktop-automation, agents, local
 - Category: Developer Tools and Code Intelligence
 
 ### mcp-pool
@@ -3270,7 +3281,7 @@ Lets an agent buy and sell physical goods on the Glongus UK marketplace, with ha
 
 ### Google Hotels
 
-Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).
+Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).
 
 - URL: https://github.com/huynhtanan/google-hotels-mcp
 - Language: Python

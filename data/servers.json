@@ -2828,6 +2828,22 @@
     }
   },
   {
+    "name": "Mac MCP",
+    "url": "https://github.com/bulutarkan/mac-mcp",
+    "description": "Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "bulutarkan",
+    "tags": [
+      "macos",
+      "browser-automation",
+      "desktop-automation",
+      "agents",
+      "local"
+    ],
+    "official": false
+  },
+  {
     "name": "AsItIs",
     "url": "https://github.com/Katta041/asitis-agent-tools",
     "description": "Read-only server that lints CLAUDE.md, AGENTS.md and SKILL.md against vendor rules, estimates the tokens they load per session, and flags hidden instructions such as comments addressed to the AI and invisible Unicode.",
@@ -3450,7 +3466,7 @@
   {
     "name": "Google Hotels",
     "url": "https://github.com/huynhtanan/google-hotels-mcp",
-    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
+    "description": "Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "Community",
