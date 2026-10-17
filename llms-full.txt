@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2486,6 +2486,18 @@ Local MCP server in the open-source Bruin CLI that lets agents query databases, 
 - Official: yes
 - Tags: data-pipelines, etl, sql, data-quality
 - Category: Data, Analytics, and BI
+
+### CareJobs.Now Healthcare Jobs
+
+Remote MCP server for US healthcare jobs: search 170,000+ open jobs read daily from 270 hospitals' and health systems' career sites, with the posted pay. Free, read-only, no API key.
+
+- URL: https://github.com/yumaheymans/carejobs-mcp
+- Language: Other
+- Provider: CareJobs.Now (O-mega Enterprise, Inc.)
+- Official: yes
+- Tags: healthcare, jobs, job-search, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://carejobs.now/api/mcp
 
 ### CompanyProof
 

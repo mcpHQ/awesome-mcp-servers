@@ -2219,6 +2219,24 @@
     }
   },
   {
+    "name": "CareJobs.Now Healthcare Jobs",
+    "url": "https://github.com/yumaheymans/carejobs-mcp",
+    "description": "Remote MCP server for US healthcare jobs: search 170,000+ open jobs read daily from 270 hospitals' and health systems' career sites, with the posted pay. Free, read-only, no API key.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "CareJobs.Now (O-mega Enterprise, Inc.)",
+    "tags": [
+      "healthcare",
+      "jobs",
+      "job-search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://carejobs.now/api/mcp"
+    }
+  },
+  {
     "name": "Agentage Memory",
     "url": "https://agentage.io/blog/mcp-endpoint-is-live",
     "description": "Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp.",
