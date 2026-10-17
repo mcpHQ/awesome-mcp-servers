@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -849,6 +849,18 @@ Automate a local Chrome browser from MCP-compatible AI clients.
 - Official: yes
 - Tags: chrome, local, automation
 - Category: Browsers, Search, and Web Automation
+
+### Browser Use MCP Server
+
+Hosted MCP server that runs browser agent tasks in Browser Use stealth cloud browsers and returns results, sessions, and saved browser profiles.
+
+- URL: https://docs.browser-use.com/cloud/guides/mcp-server
+- Language: Python
+- Provider: Browser Use
+- Official: yes
+- Tags: browser, cloud, automation, agents
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://api.browser-use.com/v3/mcp
 
 ### browser-buddy
 

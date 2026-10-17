@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 334 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 335 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -98,6 +98,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [BGPT MCP](https://bgpt.pro/mcp/): Search full-text scientific papers and return structured evidence for research agents. (Python)
 - [Brave Search MCP Server](https://github.com/brave/brave-search-mcp-server): Privacy-focused web and local search through the Brave Search API. (TypeScript, official)
 - [Browser MCP](https://github.com/browsermcp/mcp): Automate a local Chrome browser from MCP-compatible AI clients. (TypeScript, official)
+- [Browser Use MCP Server](https://docs.browser-use.com/cloud/guides/mcp-server): Hosted MCP server that runs browser agent tasks in Browser Use stealth cloud browsers and returns results, sessions, and saved browser profiles. (Python, official)
 - [browser-buddy](https://github.com/hahahahahahahahah6/browser-buddy): MCP server plus Chrome extension that lets coding agents read the user's real, logged-in browser pages. (Python)
 - [Browserbase MCP Server](https://github.com/browserbase/mcp-server-browserbase): Cloud browser automation for navigation, scraping, and form filling. (TypeScript, official)
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp): Control and inspect Chrome through DevTools protocol for debugging and automation. (TypeScript, official)
