@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2342,6 +2342,17 @@ Search locally captured screen text and audio history via MCP under the Screenpi
 - Provider: Screenpipe
 - Official: yes
 - Tags: memory, screen, audio, local-first
+- Category: AI, Agents, and Memory
+
+### Selvedge
+
+Local SQLite decision memory for coding agents to save and retrieve rationale, rejected approaches, and entity history.
+
+- URL: https://github.com/masondelan/selvedge
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: decision-memory, coding-agents, sqlite, local-first
 - Category: AI, Agents, and Memory
 
 ### SigRank MCP

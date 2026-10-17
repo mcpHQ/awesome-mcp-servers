@@ -2120,6 +2120,21 @@
     }
   },
   {
+    "name": "Selvedge",
+    "url": "https://github.com/masondelan/selvedge",
+    "description": "Local SQLite decision memory for coding agents to save and retrieve rationale, rejected approaches, and entity history.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "decision-memory",
+      "coding-agents",
+      "sqlite",
+      "local-first"
+    ],
+    "official": false
+  },
+  {
     "name": "CrewAI Enterprise MCP Server",
     "url": "https://github.com/crewAIInc/enterprise-mcp-server",
     "description": "Kick off CrewAI crew deployments and check their status from MCP clients.",
