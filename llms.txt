@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 334 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 335 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -338,6 +338,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [MCP Ads](https://mcp-ads.com): Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth. (Python, official)
 - [MoltNode by Chord](https://github.com/tuantqse90/moltnode-mcp): Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key. (Other, official)
 - [NotFair](https://github.com/nowork-studio/NotFair): Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. (TypeScript)
+- [OutreachGenie](https://github.com/Outreachgenie/outreachgenie-linkedin-mcp): Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys. (TypeScript, official)
 - [PandaStock](https://github.com/D-Asce/pandastocksdk): A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account. (Python)
 - [PayPal MCP Server](https://github.com/paypal/agent-toolkit): Process PayPal payments and manage merchant operations. (TypeScript, official)
 - [Pink Agentic AI Payments](https://pinkwallet.com/agentic/developers/): Approval layer for AI agent payments: per-agent budgets and rules return allow (single-use credential), ask a human, or block before money moves, over remote Streamable HTTP with OAuth 2.1; public sandbox with test money only. (TypeScript, official)

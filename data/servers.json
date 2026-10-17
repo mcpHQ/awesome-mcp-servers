@@ -1741,6 +1741,25 @@
     }
   },
   {
+    "name": "OutreachGenie",
+    "url": "https://github.com/Outreachgenie/outreachgenie-linkedin-mcp",
+    "description": "Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "OutreachGenie",
+    "tags": [
+      "linkedin",
+      "crm",
+      "outreach",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.outreachgenie.ai/mcp"
+    }
+  },
+  {
     "name": "Nestbolt",
     "url": "https://github.com/skulitom/Nestbolt",
     "description": "Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutting, with validated layouts and per-sheet SVG/DXF export.",
