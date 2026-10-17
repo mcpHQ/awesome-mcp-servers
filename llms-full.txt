@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3124,6 +3124,18 @@ Pay-per-call agent tools paid in USDC on Solana over x402, no account or API key
 - Tags: x402, solana, usdc, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp
+
+### BKK Staff
+
+Automated resume screening for small businesses: create and manage job posts, rank applicants (strong/possible/weak), search candidates and email applicants via a hosted OAuth MCP server.
+
+- URL: https://app.bkkstaff.com/mcp
+- Language: Other
+- Provider: BKK Staff
+- Official: yes
+- Tags: recruiting, hiring, resume-screening, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://app.bkkstaff.com/mcp
 
 ### BlockVectra
 

@@ -4746,6 +4746,25 @@
     }
   },
   {
+    "name": "BKK Staff",
+    "url": "https://app.bkkstaff.com/mcp",
+    "description": "Automated resume screening for small businesses: create and manage job posts, rank applicants (strong/possible/weak), search candidates and email applicants via a hosted OAuth MCP server.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "BKK Staff",
+    "tags": [
+      "recruiting",
+      "hiring",
+      "resume-screening",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.bkkstaff.com/mcp"
+    }
+  },
+  {
     "name": "API.market MCP Gateway",
     "url": "https://api.market/mcp",
     "description": "Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API.",
