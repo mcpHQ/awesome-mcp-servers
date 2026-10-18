@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 364 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 365 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -324,6 +324,17 @@ Run natural-language web and mobile regression tests with persistent test memory
 - Provider: Vostride
 - Official: no
 - Tags: testing, regression, browser, mobile, mcp
+- Category: Developer Tools and Code Intelligence
+
+### agent-chain-doctor
+
+Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd) and trace files of a scheduled AI agent and reports which of 30 silent-failure modes it is exposed to.
+
+- URL: https://github.com/elfovo/agent-chain-doctor
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: scheduled-agents, diagnostics, launchd, cron, claude-code
 - Category: Developer Tools and Code Intelligence
 
 ### API.market MCP Gateway

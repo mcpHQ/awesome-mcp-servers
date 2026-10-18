@@ -2872,6 +2872,22 @@
     }
   },
   {
+    "name": "agent-chain-doctor",
+    "url": "https://github.com/elfovo/agent-chain-doctor",
+    "description": "Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd) and trace files of a scheduled AI agent and reports which of 30 silent-failure modes it is exposed to.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "scheduled-agents",
+      "diagnostics",
+      "launchd",
+      "cron",
+      "claude-code"
+    ],
+    "official": false
+  },
+  {
     "name": "MakeAIVideo",
     "url": "https://github.com/makeaivideo-ai/mcp",
     "description": "Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts.",

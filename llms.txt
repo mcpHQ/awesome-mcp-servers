@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 364 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 365 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -49,6 +49,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [Harness MCP Server](https://github.com/harness/mcp-server): Official Harness.io MCP server for CI/CD pipelines, deployments, GitOps, and platform engineering workflows. (TypeScript, official)
 - [Agent QA](https://github.com/vostride/agent-qa): Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces. (TypeScript)
+- [agent-chain-doctor](https://github.com/elfovo/agent-chain-doctor): Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd) and trace files of a scheduled AI agent and reports which of 30 silent-failure modes it is exposed to. (Python)
 - [API.market MCP Gateway](https://api.market/mcp): Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API. (TypeScript, official)
 - [Apple Docs 2.0 MCP](https://github.com/mishafyi/Apple-Docs-2.0-MCP): Searches and reads Apple's developer documentation, Human Interface Guidelines and 1,700 WWDC sessions with code, with an offline index of 336,629 pages. (TypeScript)
 - [AsItIs](https://github.com/Katta041/asitis-agent-tools): Read-only server that lints CLAUDE.md, AGENTS.md and SKILL.md against vendor rules, estimates the tokens they load per session, and flags hidden instructions such as comments addressed to the AI and invisible Unicode. (TypeScript, official)
