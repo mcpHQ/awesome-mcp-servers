@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 363 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 364 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -189,6 +189,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [MakeAIVideo](https://github.com/makeaivideo-ai/mcp): Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts. (TypeScript, official)
 - [Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server): Interact with Microsoft Teams channels, messages, and meetings. (TypeScript)
 - [Multi Upload Tool](https://docs.multi-upload-tool.com/mcp): Schedule and publish videos and photos to TikTok, YouTube Shorts, Instagram, Facebook, LinkedIn, Pinterest, Bluesky, Threads and X; validate, reschedule, cancel and retry posts, and read post status and analytics. (TypeScript, official)
+- [Muslim Prayer Reminder MCP](https://github.com/tareq7/muslim-prayer-mcp): Calculates Muslim prayer times by location and regional method, including next-prayer countdowns. (TypeScript)
 - [Nitrosend](https://docs.nitrosend.com/mcp): Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server. (Ruby, official)
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server. (TypeScript)
 - [Pinto Notes](https://github.com/pinto-notes/pinto-notes): Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth. (TypeScript, official)

@@ -2839,6 +2839,21 @@
     "official": true
   },
   {
+    "name": "Muslim Prayer Reminder MCP",
+    "url": "https://github.com/tareq7/muslim-prayer-mcp",
+    "description": "Calculates Muslim prayer times by location and regional method, including next-prayer countdowns.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "prayer-times",
+      "islamic",
+      "location",
+      "reminders"
+    ],
+    "official": false
+  },
+  {
     "name": "TubeText TikTok Transcripts & Video Breakdown",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/tiktok-transcripts",
     "description": "TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown. Hosted on Apify (OAuth), pay per result.",

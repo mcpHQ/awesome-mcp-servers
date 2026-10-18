@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 363 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 364 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1799,6 +1799,17 @@ Schedule and publish videos and photos to TikTok, YouTube Shorts, Instagram, Fac
 - Tags: social-media, publishing, video, remote, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.multi-upload-tool.com/mcp
+
+### Muslim Prayer Reminder MCP
+
+Calculates Muslim prayer times by location and regional method, including next-prayer countdowns.
+
+- URL: https://github.com/tareq7/muslim-prayer-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: prayer-times, islamic, location, reminders
+- Category: Communication and Productivity
 
 ### Nitrosend
 
