@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-364-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-367-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,15 +44,15 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (42)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (33)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (34)
 - [Filesystems and Documents](#filesystems-and-documents) (13)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
-- [Communication and Productivity](#communication-and-productivity) (43)
+- [Communication and Productivity](#communication-and-productivity) (44)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (44)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (37)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (18)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (67)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (68)
 - [Utilities and Examples](#utilities-and-examples) (17)
 
 <a id="official-and-reference"></a>
@@ -254,6 +254,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `screenshot` `pdf` `web-capture` `remote`
 - **[Exa MCP Server](https://github.com/exa-labs/exa-mcp-server)** `Official` `TypeScript` — Neural and keyword web search optimized for AI research workflows.  
   `search` `research` `web`
+- **[Fairquery Website Tech, SEO & AI-Readiness](https://github.com/fairquery/website-tech-seo-ai-readiness)** `Official` `TypeScript` — Seven free tools for a site's tech stack, SEO score, AI-crawler robots.txt rules, llms.txt, sitemap and security headers, plus an optional paid bulk audit.  
+  `seo` `llms-txt` `robots-txt` `tech-stack`
 - **[Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server)** `Official` `TypeScript` — Scrape, crawl, and extract structured web data with Firecrawl.  
   `scraping` `crawl` `web`
 - **[Hyperresearch](https://hyperresearch.ai/docs/mcp)** `Other` — Hyperresearch is an AI deep research API. One question in, an adversarially reviewed report out, cited claims checked against their sources.  
@@ -397,6 +399,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `discord` `chat` `community`
 - **[Faceless](https://faceless.so)** `Official` `TypeScript` — Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).  
   `video` `social-media` `publishing` `remote`
+- **[Fairquery Email Validator](https://github.com/fairquery/email-validator-mx-disposable)** `Official` `TypeScript` — Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks.  
+  `email` `validation` `mx` `disposable`
 - **[Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server)** `TypeScript` — Search, read, and compose Gmail messages from MCP clients.  
   `gmail` `email` `google`
 - **[Google Calendar MCP Server](https://github.com/nspady/google-calendar-mcp)** `TypeScript` — View and manage Google Calendar events and schedules.  
@@ -736,6 +740,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crm` `sales` `meetings` `oauth`
 - **[Equibles](https://equibles.com/mcp)** `Official` `C#` — Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.  
   `finance` `sec-filings` `stocks` `earnings-calls` `oauth`
+- **[Fairquery EDGAR](https://github.com/fairquery/edgar-company-facts-filings)** `Official` `TypeScript` — SEC EDGAR filings and XBRL financial facts by ticker, CIK or company name, with five free tools that query sec.gov directly and an optional paid bulk export.  
+  `sec` `edgar` `xbrl` `finance`
 - **[Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs)** `Official` `Other` — Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in.  
   `finance` `stock-market` `trading` `quant` `remote`
 - **[Finder Jobs](https://mcp.finder.work)** `Official` `Python` — Job vacancies and salary stats for Russia, Kazakhstan, Belarus, Kyrgyzstan, Germany, France, Belgium, Switzerland, Sweden and Indonesia. Free, read-only, no auth.  
