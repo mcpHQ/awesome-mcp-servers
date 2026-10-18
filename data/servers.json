@@ -2189,7 +2189,7 @@
   },
   {
     "name": "ShortSmash",
-    "url": "https://github.com/abicevoice1-sudo/shortsmash",
+    "url": "https://github.com/hydope/shortsmash",
     "description": "MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms.",
     "category": "ai-agents-and-memory",
     "language": "Python",

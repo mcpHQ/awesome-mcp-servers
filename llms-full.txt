@@ -2498,7 +2498,7 @@ Local SQLite decision memory for coding agents to save and retrieve rationale, r
 
 MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms.
 
-- URL: https://github.com/abicevoice1-sudo/shortsmash
+- URL: https://github.com/hydope/shortsmash
 - Language: Python
 - Provider: Community
 - Official: no
