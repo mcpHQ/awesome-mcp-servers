@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 364 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 367 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -987,6 +987,17 @@ Neural and keyword web search optimized for AI research workflows.
 - Tags: search, research, web
 - Category: Browsers, Search, and Web Automation
 
+### Fairquery Website Tech, SEO & AI-Readiness
+
+Seven free tools for a site's tech stack, SEO score, AI-crawler robots.txt rules, llms.txt, sitemap and security headers, plus an optional paid bulk audit.
+
+- URL: https://github.com/fairquery/website-tech-seo-ai-readiness
+- Language: TypeScript
+- Provider: Fairquery
+- Official: yes
+- Tags: seo, llms-txt, robots-txt, tech-stack
+- Category: Browsers, Search, and Web Automation
+
 ### Firecrawl MCP Server
 
 Scrape, crawl, and extract structured web data with Firecrawl.
@@ -1694,6 +1705,17 @@ Create AI faceless videos from a script, run automated series, and publish to Yo
 - Tags: video, social-media, publishing, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://faceless.so/api/v1/mcp
+
+### Fairquery Email Validator
+
+Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks.
+
+- URL: https://github.com/fairquery/email-validator-mx-disposable
+- Language: TypeScript
+- Provider: Fairquery
+- Official: yes
+- Tags: email, validation, mx, disposable
+- Category: Communication and Productivity
 
 ### Gmail MCP Server
 
@@ -3475,6 +3497,17 @@ Hosted MCP server for US company fundamentals as reported in SEC filings, filing
 - Tags: finance, sec-filings, stocks, earnings-calls, oauth
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.equibles.com/mcp
+
+### Fairquery EDGAR
+
+SEC EDGAR filings and XBRL financial facts by ticker, CIK or company name, with five free tools that query sec.gov directly and an optional paid bulk export.
+
+- URL: https://github.com/fairquery/edgar-company-facts-filings
+- Language: TypeScript
+- Provider: Fairquery
+- Official: yes
+- Tags: sec, edgar, xbrl, finance
+- Category: Finance, Commerce, and Business Apps
 
 ### Fincept MCP
 

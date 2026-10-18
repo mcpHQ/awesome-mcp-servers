@@ -1755,6 +1755,21 @@
     }
   },
   {
+    "name": "Fairquery Email Validator",
+    "url": "https://github.com/fairquery/email-validator-mx-disposable",
+    "description": "Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Fairquery",
+    "tags": [
+      "email",
+      "validation",
+      "mx",
+      "disposable"
+    ],
+    "official": true
+  },
+  {
     "name": "OutreachGenie",
     "url": "https://github.com/Outreachgenie/outreachgenie-linkedin-mcp",
     "description": "Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.",
@@ -2334,6 +2349,21 @@
     "official": true
   },
   {
+    "name": "Fairquery Website Tech, SEO & AI-Readiness",
+    "url": "https://github.com/fairquery/website-tech-seo-ai-readiness",
+    "description": "Seven free tools for a site's tech stack, SEO score, AI-crawler robots.txt rules, llms.txt, sitemap and security headers, plus an optional paid bulk audit.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Fairquery",
+    "tags": [
+      "seo",
+      "llms-txt",
+      "robots-txt",
+      "tech-stack"
+    ],
+    "official": true
+  },
+  {
     "name": "Basedash MCP Server",
     "url": "https://github.com/Basedash/mcp",
     "description": "Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth.",
@@ -2888,6 +2918,21 @@
     "endpoints": {
       "streamableHttp": "https://mcp.makeaivideo.ai"
     }
+  },
+  {
+    "name": "Fairquery EDGAR",
+    "url": "https://github.com/fairquery/edgar-company-facts-filings",
+    "description": "SEC EDGAR filings and XBRL financial facts by ticker, CIK or company name, with five free tools that query sec.gov directly and an optional paid bulk export.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Fairquery",
+    "tags": [
+      "sec",
+      "edgar",
+      "xbrl",
+      "finance"
+    ],
+    "official": true
   },
   {
     "name": "Sqwakie",

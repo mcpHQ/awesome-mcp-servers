@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 364 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 367 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -110,6 +110,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ContHunt](https://github.com/Synthenova/conthunt-mcp): Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts. (Other, official)
 - [CurlShot](https://curlshot.com/docs): Hosted screenshot API over remote MCP: renders any public URL as PNG, JPEG, WebP, PDF or a scrolling video, full page or at a device preset. API key as Bearer token; free plan 100 screenshots/month, no card. (TypeScript, official)
 - [Exa MCP Server](https://github.com/exa-labs/exa-mcp-server): Neural and keyword web search optimized for AI research workflows. (TypeScript, official)
+- [Fairquery Website Tech, SEO & AI-Readiness](https://github.com/fairquery/website-tech-seo-ai-readiness): Seven free tools for a site's tech stack, SEO score, AI-crawler robots.txt rules, llms.txt, sitemap and security headers, plus an optional paid bulk audit. (TypeScript, official)
 - [Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server): Scrape, crawl, and extract structured web data with Firecrawl. (TypeScript, official)
 - [Hyperresearch](https://hyperresearch.ai/docs/mcp): Hyperresearch is an AI deep research API. One question in, an adversarially reviewed report out, cited claims checked against their sources. (Other)
 - [Karma.Domains Expired Domains](https://github.com/karma-domains/expired-domains-mcp): Hosted server to search expired, auction and backorder domains with SEO metrics, Wayback history and live WHOIS/DNS checks; OAuth or API key, Pro plan required. (Other, official)
@@ -180,6 +181,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [day3](https://docs.day3.app/mcp): Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope. (TypeScript, official)
 - [Discord MCP Server](https://github.com/SaseQ/discord-mcp): Read and send messages in Discord servers and channels. (Python)
 - [Faceless](https://faceless.so): Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...). (TypeScript, official)
+- [Fairquery Email Validator](https://github.com/fairquery/email-validator-mx-disposable): Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks. (TypeScript, official)
 - [Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server): Search, read, and compose Gmail messages from MCP clients. (TypeScript)
 - [Google Calendar MCP Server](https://github.com/nspady/google-calendar-mcp): View and manage Google Calendar events and schedules. (TypeScript)
 - [HeyReagent](https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing): Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send messages and connection invitations, search people, and read profiles and posts; OAuth or API key, free plan available. Not affiliated with LinkedIn. (JavaScript)
@@ -347,6 +349,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Datacircle](https://docs.datacircle.dev/mcp-server): Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key. (Python, official)
 - [Elori](https://github.com/elori-debug/elori-mcp): Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required. (TypeScript, official)
 - [Equibles](https://equibles.com/mcp): Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access. (C#, official)
+- [Fairquery EDGAR](https://github.com/fairquery/edgar-company-facts-filings): SEC EDGAR filings and XBRL financial facts by ticker, CIK or company name, with five free tools that query sec.gov directly and an optional paid bulk export. (TypeScript, official)
 - [Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs): Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in. (Other, official)
 - [Finder Jobs](https://mcp.finder.work): Job vacancies and salary stats for Russia, Kazakhstan, Belarus, Kyrgyzstan, Germany, France, Belgium, Switzerland, Sweden and Indonesia. Free, read-only, no auth. (Python, official)
 - [FirstSales MCP](https://developer.firstsales.io/agents/mcp-server): Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan. (TypeScript, official)
