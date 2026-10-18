@@ -3437,6 +3437,24 @@
     }
   },
   {
+    "name": "BirkinBagStock",
+    "url": "https://birkinbagstock.com/llms.txt",
+    "description": "Independent Hermès resale listings, price comparisons, and price alerts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "BirkinBagStock",
+    "tags": [
+      "ecommerce",
+      "resale",
+      "price-comparison",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://birkinbagstock.com/mcp"
+    }
+  },
+  {
     "name": "DropTheHassle",
     "url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
     "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
