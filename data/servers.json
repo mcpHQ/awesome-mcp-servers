@@ -956,6 +956,25 @@
     "official": true
   },
   {
+    "name": "NeverApply",
+    "url": "https://github.com/kasovy/neverapply-mcp",
+    "description": "AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "NeverApply",
+    "tags": [
+      "jobs",
+      "career",
+      "resume",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://neverapply.co/mcp"
+    }
+  },
+  {
     "name": "Google Drive MCP Server",
     "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive",
     "description": "Access and search files in Google Drive from MCP clients.",
