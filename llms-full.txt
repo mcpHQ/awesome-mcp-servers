@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 364 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 365 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3983,6 +3983,18 @@ Find services and storefronts on Voidly's hosted marketplace for AI-agent servic
 - Tags: marketplace, agent-payments, checkout, commerce, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.voidly.ai/mcp/voidpay
+
+### Whale Coupons
+
+Read-only remote server that helps AI assistants find store-issued coupon and discount codes for independent online stores, with no auth required.
+
+- URL: https://github.com/whalecoupons/whale-coupons-mcp
+- Language: JavaScript
+- Provider: Whale Coupons
+- Official: yes
+- Tags: coupons, discount-codes, shopping, ecommerce, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://whalecoupons.co/mcp
 
 ### Whimbrel MedTech Analyst
 

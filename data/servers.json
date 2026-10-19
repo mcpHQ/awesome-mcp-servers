@@ -2010,6 +2010,25 @@
     "official": false
   },
   {
+    "name": "Whale Coupons",
+    "url": "https://github.com/whalecoupons/whale-coupons-mcp",
+    "description": "Read-only remote server that helps AI assistants find store-issued coupon and discount codes for independent online stores, with no auth required.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Whale Coupons",
+    "tags": [
+      "coupons",
+      "discount-codes",
+      "shopping",
+      "ecommerce",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://whalecoupons.co/mcp"
+    }
+  },
+  {
     "name": "MuAPI MCP Server",
     "url": "https://muapi.ai/docs/mcp",
     "description": "Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.",
