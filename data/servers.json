@@ -2103,6 +2103,25 @@
     }
   },
   {
+    "name": "Account Executive Jobs",
+    "url": "https://github.com/854Labs/account-executive-jobs",
+    "description": "Hosted OAuth MCP server to search and apply to account executive and sales jobs, and for employers to manage job posts and applicants.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Account Executive Jobs",
+    "tags": [
+      "jobs",
+      "sales",
+      "recruiting",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.accountexecutivejobs.com/mcp"
+    }
+  },
+  {
     "name": "Cluefinch MCP",
     "url": "https://github.com/cluefinch/mcp-server",
     "description": "Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 364 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 365 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3248,6 +3248,18 @@ Cloud security posture management and risk insights from Wiz.
 ## Finance, Commerce, and Business Apps
 
 Payments, banking, CRM, e-commerce, and business system integrations.
+
+### Account Executive Jobs
+
+Hosted OAuth MCP server to search and apply to account executive and sales jobs, and for employers to manage job posts and applicants.
+
+- URL: https://github.com/854Labs/account-executive-jobs
+- Language: Other
+- Provider: Account Executive Jobs
+- Official: yes
+- Tags: jobs, sales, recruiting, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.accountexecutivejobs.com/mcp
 
 ### ADEXTO
 
