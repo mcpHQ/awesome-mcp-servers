@@ -1811,6 +1811,18 @@ Calculates Muslim prayer times by location and regional method, including next-p
 - Tags: prayer-times, islamic, location, reminders
 - Category: Communication and Productivity
 
+### NeverApply
+
+AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.
+
+- URL: https://github.com/kasovy/neverapply-mcp
+- Language: Other
+- Provider: NeverApply
+- Official: yes
+- Tags: jobs, career, resume, oauth, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://neverapply.co/mcp
+
 ### Nitrosend
 
 Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.
