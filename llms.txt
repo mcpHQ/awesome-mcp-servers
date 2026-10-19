@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 364 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 365 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -287,6 +287,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Manifold MCP](https://www.manifoldmcp.com): An MCP for marketers that gives agents tools for SEO, AEO, socials and ads data, from keywords, backlinks and Search Console to AI answer visibility, ad libraries and social platforms, with a generous free tier. (Other, official)
 - [Metabase MCP Server](https://www.metabase.com/docs/latest/ai/mcp): Query dashboards and explore data in Metabase BI. (TypeScript, official)
 - [Mixpanel MCP Server](https://docs.mixpanel.com/docs/mcp): Query Mixpanel funnels, retention, and event analytics. (TypeScript, official)
+- [Mysocial](https://github.com/mysocialio/mysocial-intelligence): Official hosted OAuth MCP for social media intelligence: connected content history, performance signals, and creator memory over Streamable HTTP. (JavaScript, official)
 - [Netdata MCP Server](https://github.com/netdata/netdata): Real-time infrastructure monitoring and health metrics via MCP. (C, official)
 - [Open Health Sync](https://github.com/soma-intelligence/open-health-sync): Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources. (Go, official)
 - [Proofsource](https://proofsource.co/docs/chatgpt-and-claude): Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth. (Go, official)

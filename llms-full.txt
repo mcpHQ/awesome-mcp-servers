@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 364 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 365 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2867,6 +2867,18 @@ Query Mixpanel funnels, retention, and event analytics.
 - Official: yes
 - Tags: analytics, funnels, product
 - Category: Data, Analytics, and BI
+
+### Mysocial
+
+Official hosted OAuth MCP for social media intelligence: connected content history, performance signals, and creator memory over Streamable HTTP.
+
+- URL: https://github.com/mysocialio/mysocial-intelligence
+- Language: JavaScript
+- Provider: Mysocial
+- Official: yes
+- Tags: social-media, content-memory, analytics, oauth
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://app.mysocial.io/mcp
 
 ### Netdata MCP Server
 

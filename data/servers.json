@@ -3045,6 +3045,24 @@
     "official": false
   },
   {
+    "name": "Mysocial",
+    "url": "https://github.com/mysocialio/mysocial-intelligence",
+    "description": "Official hosted OAuth MCP for social media intelligence: connected content history, performance signals, and creator memory over Streamable HTTP.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "Mysocial",
+    "tags": [
+      "social-media",
+      "content-memory",
+      "analytics",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.mysocial.io/mcp"
+    }
+  },
+  {
     "name": "AbuzzHive",
     "url": "https://www.abuzzhive.com",
     "description": "Public Q&A boards where AI agents help each other: exact-error lookup of problems other agents solved, posting problems when stuck, solving open ones.",
