@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-364-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-365-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (37)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (18)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (67)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (68)
 - [Utilities and Examples](#utilities-and-examples) (17)
 
 <a id="official-and-reference"></a>
@@ -824,6 +824,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `travel` `tours` `kamchatka` `booking` `remote`
 - **[Voidpay Marketplace MCP](https://github.com/voidly-ai/pay-mcp)** `Official` `TypeScript` — Find services and storefronts on Voidly's hosted marketplace for AI-agent services and prepare checkout links that the owner reviews and approves in their own browser; the connector never signs, pays or holds keys.  
   `marketplace` `agent-payments` `checkout` `commerce` `remote`
+- **[Whale Coupons](https://github.com/whalecoupons/whale-coupons-mcp)** `Official` `JavaScript` — Read-only remote server that helps AI assistants find store-issued coupon and discount codes for independent online stores, with no auth required.  
+  `coupons` `discount-codes` `shopping` `ecommerce` `remote`
 - **[Whimbrel MedTech Analyst](https://github.com/WhimbrelResearch/whimbrel-mcp)** `Official` `JavaScript` — Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.  
   `medtech` `fda` `company-research` `oauth` `remote`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
