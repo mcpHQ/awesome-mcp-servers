@@ -2084,6 +2084,24 @@
     }
   },
   {
+    "name": "Seonix",
+    "url": "https://seonix.ai/mcp",
+    "description": "Hosted read-only MCP server for a Seonix SEO project: Search Console and GA4 rankings and clicks, site audit issues, keyword clusters, articles, and brand mentions in ChatGPT, Gemini, Claude and Perplexity answers.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Seonix",
+    "tags": [
+      "seo",
+      "ai-visibility",
+      "search-console",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.seonix.ai/mcp"
+    }
+  },
+  {
     "name": "GSCmate",
     "url": "https://gscmate.com",
     "description": "Read-only access to Google Search Console properties, Search Analytics, sitemaps, and URL inspection through user-authorized OAuth 2.1.",
