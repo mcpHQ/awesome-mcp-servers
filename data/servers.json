@@ -2854,6 +2854,22 @@
     "official": false
   },
   {
+    "name": "Kandle",
+    "url": "https://github.com/Kernel-Hunter/kandle",
+    "description": "Lets an agent drive candlestick charts for crypto, stocks and forex in an open browser tab: read candles and indicator values, draw levels, set alerts, run scripts and strategy backtests, and take screenshots.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Kandle",
+    "tags": [
+      "finance",
+      "trading",
+      "charts",
+      "crypto",
+      "backtesting"
+    ],
+    "official": true
+  },
+  {
     "name": "TubeText TikTok Transcripts & Video Breakdown",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/tiktok-transcripts",
     "description": "TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown. Hosted on Apify (OAuth), pay per result.",
