@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 383 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 386 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3788,6 +3788,18 @@ Turn AI-host work into invoices you review before send — Continue as guest or 
 - Tags: invoicing, finance, oauth, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.invompt.com/mcp
+
+### Johto Data
+
+Pay-per-call x402 data tools: one $0.011 call returns 40 fresh tender notices across EU, UK, France and Australia; sanctions screening at $0.0025 per call; SEC 8-K/13F and Japan invoice checks; free sample on every tool.
+
+- URL: https://johtodata.com
+- Language: TypeScript
+- Provider: Johto Data
+- Official: yes
+- Tags: tenders, procurement, sanctions, x402, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://johto-x402-api.johtodata.workers.dev/mcp
 
 ### Kandle
 
