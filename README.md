@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-380-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-382-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (15)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (43)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (35)
-- [Filesystems and Documents](#filesystems-and-documents) (14)
+- [Filesystems and Documents](#filesystems-and-documents) (15)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
 - [Communication and Productivity](#communication-and-productivity) (45)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (48)
@@ -305,6 +305,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `google-drive` `files` `cloud`
 - **[Grandpa's AI](https://github.com/wescorp/grandpasai-mcp)** `Official` `JavaScript` — Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.  
   `research` `knowledge-base` `longevity` `search`
+- **[isGenAI](https://isgenai.com/developers/mcp)** `Official` `TypeScript` — Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels.  
+  `c2pa` `provenance` `metadata` `ai-detection` `remote`
 - **[MarkItDown MCP](https://github.com/microsoft/markitdown)** `Official` `Python` — Convert PDFs, Office docs, and media into markdown for LLM ingestion.  
   `documents` `conversion` `markdown`
 - **[Markovo](https://github.com/fisher-byte/markovo)** `Python` — Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio.  

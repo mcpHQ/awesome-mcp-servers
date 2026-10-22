@@ -3146,6 +3146,25 @@
     }
   },
   {
+    "name": "isGenAI",
+    "url": "https://isgenai.com/developers/mcp",
+    "description": "Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "isGenAI",
+    "tags": [
+      "c2pa",
+      "provenance",
+      "metadata",
+      "ai-detection",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://isgenai.com/mcp"
+    }
+  },
+  {
     "name": "Mailcoach",
     "url": "https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/",
     "description": "Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list.",

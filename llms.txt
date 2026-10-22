@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 380 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 382 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -135,6 +135,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Comment.io MCP Server](https://comment.io/llms/mcp.md): Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server. (Rust, official)
 - [Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive): Access and search files in Google Drive from MCP clients. (Python)
 - [Grandpa's AI](https://github.com/wescorp/grandpasai-mcp): Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization. (JavaScript, official)
+- [isGenAI](https://isgenai.com/developers/mcp): Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels. (TypeScript, official)
 - [MarkItDown MCP](https://github.com/microsoft/markitdown): Convert PDFs, Office docs, and media into markdown for LLM ingestion. (Python, official)
 - [Markovo](https://github.com/fisher-byte/markovo): Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio. (Python)
 - [Notion MCP Server](https://github.com/makenotion/notion-mcp-server): Read and write Notion pages, databases, and workspace content. (TypeScript, official)
