@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 423 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 424 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -352,6 +352,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [AcqPath](https://github.com/reflectme-source/acqpath-distribution): Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows. (Other, official)
 - [ActSeal](https://github.com/arults/actseal-mcp): Issue and verify Ed25519-signed receipts for agent actions via MCP tools issue_receipt and verify_receipt. Best-effort signed log; free 100/day at actseal.xyz. (TypeScript, official)
 - [Auth0 MCP Server](https://github.com/auth0/auth0-mcp-server): Manage Auth0 tenants, applications, and user identity settings. (TypeScript, official)
+- [Automaton Onchain Tools](https://github.com/povrouyre-wq/automaton-onchain-tools): Read-only crypto safety checks for Base, Ethereum and BNB Chain (tx explainer, approvals, contract risk, URL phishing, token deep scan with honeypot simulation), pay-per-call via x402 USDC; remote, no key. (JavaScript)
 - [Bridge Watch](https://github.com/LakeSky/bridge-watch-mcp): On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call. (TypeScript, official)
 - [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai): AI-governance measurement MCP server with free verification readers and x402-metered signed-evidence doors; remote endpoint at https://councilof.ai/mcp/. (TypeScript)
 - [CrowdStrike MCP Server](https://github.com/CrowdStrike/falcon-mcp): Query CrowdStrike Falcon detections and endpoint security data. (Python, official)

@@ -3006,6 +3006,22 @@
     "official": true
   },
   {
+    "name": "Automaton Onchain Tools",
+    "url": "https://github.com/povrouyre-wq/automaton-onchain-tools",
+    "description": "Read-only crypto safety checks for Base, Ethereum and BNB Chain (tx explainer, approvals, contract risk, URL phishing, token deep scan with honeypot simulation), pay-per-call via x402 USDC; remote, no key.",
+    "category": "security-and-identity",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "crypto",
+      "security",
+      "x402",
+      "base",
+      "remote"
+    ],
+    "official": false
+  },
+  {
     "name": "Liminal",
     "url": "https://github.com/jaybro2042-alt/liminality-mcp",
     "description": "Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps.",

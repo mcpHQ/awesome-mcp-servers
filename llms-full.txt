@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3559,6 +3559,17 @@ Manage Auth0 tenants, applications, and user identity settings.
 - Provider: Auth0
 - Official: yes
 - Tags: auth, identity, oauth
+- Category: Security and Identity
+
+### Automaton Onchain Tools
+
+Read-only crypto safety checks for Base, Ethereum and BNB Chain (tx explainer, approvals, contract risk, URL phishing, token deep scan with honeypot simulation), pay-per-call via x402 USDC; remote, no key.
+
+- URL: https://github.com/povrouyre-wq/automaton-onchain-tools
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: crypto, security, x402, base, remote
 - Category: Security and Identity
 
 ### Bridge Watch
