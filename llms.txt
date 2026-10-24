@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 423 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 424 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -61,6 +61,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Communicate](https://developer.communicate.so/docs/mcp): List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials. (TypeScript, official)
 - [Concord MCP](https://github.com/Get-Concord-AI/concord-mcp): Local-first shared work-state for coding agents with presence, claims, messaging, handoffs, and review packets. (TypeScript)
 - [Constitution Lint MCP Server](https://github.com/joeyycli/constitution-lint-action): Lints CLAUDE.md-style AI agent constitution files for missing operational guardrails: spend limits, injection defense, escalation paths, and secrets handling. (Python)
+- [ContactLint](https://github.com/zksyncer/contactlint): Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing. (TypeScript, official)
 - [Context7 MCP](https://github.com/upstash/context7): Up-to-date library and framework documentation injected into prompts. (TypeScript, official)
 - [Docker MCP Server](https://github.com/docker/mcp-gateway): Manage containers, images, and Docker environments through MCP. (Go, official)
 - [E2B MCP Server](https://docs.e2b.dev/mcp): Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows. (Other, official)

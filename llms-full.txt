@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -462,6 +462,18 @@ Lints CLAUDE.md-style AI agent constitution files for missing operational guardr
 - Tags: agents, guardrails, linting, ci-cd, safety
 - Category: Developer Tools and Code Intelligence
 - Streamable HTTP endpoint: https://agentopskit.dev/mcp
+
+### ContactLint
+
+Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing.
+
+- URL: https://github.com/zksyncer/contactlint
+- Language: TypeScript
+- Provider: ContactLint
+- Official: yes
+- Tags: email-validation, phone-validation, data-validation, crm, remote
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://contactlint.com/mcp
 
 ### Context7 MCP
 
