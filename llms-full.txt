@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -719,6 +719,18 @@ Local CLI and MCP server for agent-assisted reverse engineering of native binari
 - Official: no
 - Tags: reverse-engineering, binary-analysis, devtools
 - Category: Developer Tools and Code Intelligence
+
+### ReMCP
+
+Securely access computers explicitly paired to your account through a hosted OAuth MCP connection, including state-changing file, terminal, browser, and desktop tools.
+
+- URL: https://github.com/getremcp/remcp
+- Language: TypeScript
+- Provider: getremcp
+- Official: yes
+- Tags: computer-use, desktop-automation, terminal, browser, oauth
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://remcp.site/mcp
 
 ### SanctionsKit Developer MCP
 
