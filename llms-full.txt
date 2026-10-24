@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2122,6 +2122,17 @@ Compose and assemble videos from editable JSON timelines through a source-instal
 - Provider: Orkas AI
 - Official: no
 - Tags: video, editing, automation, mcp
+- Category: Communication and Productivity
+
+### Outbound OS
+
+Local MCP tools for evidence-gated email outreach with default-disabled live sending
+
+- URL: https://github.com/RecepioHQ/outbound-os
+- Language: JavaScript
+- Provider: RecepioHQ
+- Official: no
+- Tags: email, ai-agents, outreach, approval
 - Category: Communication and Productivity
 
 ### Pinto Notes
