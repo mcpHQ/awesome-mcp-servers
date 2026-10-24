@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4368,6 +4368,18 @@ Finds US restaurants and bars 1-6 months before they open by fusing public liquo
 - Tags: lead-generation, restaurants, sales, public-records, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.restosignals.com/mcp
+
+### SaaSCity
+
+Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.
+
+- URL: https://github.com/nyyhao/saascity-mcp
+- Language: JavaScript
+- Provider: SaaSCity
+- Official: yes
+- Tags: launch, directories, seo, marketing, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://saascity.io/api/mcp
 
 ### Salesforce MCP Server
 

@@ -3516,6 +3516,25 @@
     }
   },
   {
+    "name": "SaaSCity",
+    "url": "https://github.com/nyyhao/saascity-mcp",
+    "description": "Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "SaaSCity",
+    "tags": [
+      "launch",
+      "directories",
+      "seo",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://saascity.io/api/mcp"
+    }
+  },
+  {
     "name": "Zaptu",
     "url": "https://github.com/TommyTap11/zaptu",
     "description": "Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.",
