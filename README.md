@@ -832,6 +832,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `product-search` `prices` `remote` `oauth`
 - **[Dexra](https://github.com/dexra-dev/mcp)** `Official` `JavaScript` — Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC.  
   `solana` `crypto` `risk` `x402`
+- **[DoomPay](https://github.com/doomsday-network/doom-pay)** `Official` `Python` — Stripe-style 3-line non-custodial crypto checkout SDK (`/v1/checkout/sessions`, `pay.js`) and Streamable HTTP MCP payment receipt verifier (`verify_payment` at `https://doomsday.network/mcp`) for Base Mainnet (`wDOOM`) and Doomsday Layer-1 (`DOOM`).
+  `payments` `checkout` `crypto` `finance` `remote`
 - **[Elori](https://github.com/elori-debug/elori-mcp)** `Official` `TypeScript` — Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.  
   `crm` `sales` `meetings` `oauth`
 - **[Equibles](https://equibles.com/mcp)** `Official` `C#` — Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.  
@@ -950,7 +952,6 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `invoice` `pdf` `billing` `bookkeeping` `finance`
 
 <a id="utilities-and-examples"></a>
-
 ## Utilities and Examples
 
 Helpful utilities, templates, and starter servers for learning MCP.
