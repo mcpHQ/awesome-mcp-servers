@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4289,6 +4289,18 @@ Manage saved prospects, lists, outreach flows and campaign drafts in an Outreach
 - Tags: linkedin, crm, outreach, remote, oauth
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.outreachgenie.ai/mcp
+
+### Panda Greetings
+
+Finds ready-made greeting card designs for an occasion with your message placed inside, each linking to its page to order it printed and mailed in the US; free hosted server, no sign-in.
+
+- URL: https://www.pandagreetings.com/ai-assistants
+- Language: JavaScript
+- Provider: Panda Greetings
+- Official: yes
+- Tags: greeting-cards, shopping, printing, read-only, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://www.pandagreetings.com/mcp/designs
 
 ### PandaStock
 
