@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 423 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 424 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -395,6 +395,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Datacircle](https://datacircle.dev/docs/mcp): Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor. (Python, official)
 - [datawebot](https://github.com/datawebot/datawebot-mcp): Hosted product search and seller prices across online shops worldwide, plus extraction jobs for Amazon and Shopify pages, over remote Streamable HTTP with OAuth or an API key. (Other, official)
 - [Dexra](https://github.com/dexra-dev/mcp): Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC. (JavaScript, official)
+- [Edgrapi](https://edgrapi.com): US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants, House STOCK Act trades and SEC EDGAR filings, 19 read-only tools. (Python, official)
 - [Elori](https://github.com/elori-debug/elori-mcp): Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required. (TypeScript, official)
 - [Equibles](https://equibles.com/mcp): Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access. (C#, official)
 - [Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs): Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in. (Other, official)
