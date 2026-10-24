@@ -3618,6 +3618,21 @@
     "official": true
   },
   {
+    "name": "toolkb-mcp",
+    "url": "https://github.com/jack-reson8/toolkb-mcp",
+    "description": "Local server that returns YouTube transcripts and playlists, web pages as Markdown and App Store reviews, with no API key or account.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "youtube",
+      "transcripts",
+      "markdown",
+      "app-store"
+    ],
+    "official": false
+  },
+  {
     "name": "MCP Python SDK",
     "url": "https://github.com/modelcontextprotocol/python-sdk",
     "description": "Official Python SDK for building MCP servers and clients.",

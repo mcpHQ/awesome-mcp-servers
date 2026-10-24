@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 423 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 424 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -134,6 +134,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Solvecha](https://solvecha.com/mcp-captcha-solver): Solves reCAPTCHA v2 image grids, text captchas, GeeTest sliders and FunCAPTCHA for AI agents over a hosted MCP endpoint; free tier included. (Go, official)
 - [Surface](https://github.com/Surface-ops/surface): URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key. (JavaScript, official)
 - [Tavily MCP Server](https://github.com/tavily-ai/tavily-mcp): AI-native search and content extraction for research agents. (Python, official)
+- [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp): Local server that returns YouTube transcripts and playlists, web pages as Markdown and App Store reviews, with no API key or account. (JavaScript)
 - [TubeText TikTok Transcripts & Video Breakdown](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/tiktok-transcripts): TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown. Hosted on Apify (OAuth), pay per result. (Other, official)
 - [TubeText YouTube Transcripts & Channel Analytics](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/youtube-transcripts): YouTube transcripts from videos, Shorts, playlists or channels, plus channel and Social Blade stats. Hosted on Apify (OAuth), pay per result. (Other, official)
 - [XActions](https://github.com/nirholas/xactions): X/Twitter toolkit with an MCP server, CLI and browser scripts to scrape profiles, followers and tweets, monitor analytics and automate engagement without API fees. (JavaScript)
