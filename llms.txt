@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 423 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 424 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -63,6 +63,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Constitution Lint MCP Server](https://github.com/joeyycli/constitution-lint-action): Lints CLAUDE.md-style AI agent constitution files for missing operational guardrails: spend limits, injection defense, escalation paths, and secrets handling. (Python)
 - [Context7 MCP](https://github.com/upstash/context7): Up-to-date library and framework documentation injected into prompts. (TypeScript, official)
 - [Docker MCP Server](https://github.com/docker/mcp-gateway): Manage containers, images, and Docker environments through MCP. (Go, official)
+- [Docsy](https://github.com/getremcp/docsy-plugin): Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools. (TypeScript, official)
 - [E2B MCP Server](https://docs.e2b.dev/mcp): Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows. (Other, official)
 - [ERIUS PHONE MCP](https://github.com/Protremix/erius-phone-mcp): Drive an ERIUS PHONE hosted Android phone or tablet: read the screen, tap, type, swipe, launch apps, install APKs, and pull crash logs. (Python, official)
 - [Flare](https://flareapp.io/docs/flare/general/our-mcp-server): Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP. (PHP, official)

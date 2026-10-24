@@ -3516,6 +3516,25 @@
     }
   },
   {
+    "name": "Docsy",
+    "url": "https://github.com/getremcp/docsy-plugin",
+    "description": "Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "getremcp",
+    "tags": [
+      "documentation",
+      "developer-tools",
+      "versions",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://docsy.remcp.site/mcp/registry"
+    }
+  },
+  {
     "name": "Zaptu",
     "url": "https://github.com/TommyTap11/zaptu",
     "description": "Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.",

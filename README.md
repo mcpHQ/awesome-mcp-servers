@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-423-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-424-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (16)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (47)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (48)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (41)
 - [Filesystems and Documents](#filesystems-and-documents) (16)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (23)
@@ -159,6 +159,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `docs` `libraries` `coding`
 - **[Docker MCP Server](https://github.com/docker/mcp-gateway)** `Official` `Go` — Manage containers, images, and Docker environments through MCP.  
   `containers` `devops` `docker`
+- **[Docsy](https://github.com/getremcp/docsy-plugin)** `Official` `TypeScript` — Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools.  
+  `documentation` `developer-tools` `versions` `oauth` `remote`
 - **[E2B MCP Server](https://docs.e2b.dev/mcp)** `Official` `Other` — Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows.  
   `sandbox` `code-execution` `agents`
 - **[ERIUS PHONE MCP](https://github.com/Protremix/erius-phone-mcp)** `Official` `Python` — Drive an ERIUS PHONE hosted Android phone or tablet: read the screen, tap, type, swipe, launch apps, install APKs, and pull crash logs.  

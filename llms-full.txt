@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -484,6 +484,18 @@ Manage containers, images, and Docker environments through MCP.
 - Official: yes
 - Tags: containers, devops, docker
 - Category: Developer Tools and Code Intelligence
+
+### Docsy
+
+Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools.
+
+- URL: https://github.com/getremcp/docsy-plugin
+- Language: TypeScript
+- Provider: getremcp
+- Official: yes
+- Tags: documentation, developer-tools, versions, oauth, remote
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://docsy.remcp.site/mcp/registry
 
 ### E2B MCP Server
 
