@@ -3390,6 +3390,19 @@
     }
   },
   {
+    "name": "ExtensionDash",
+    "url": "https://extensiondash.com/",
+    "description": "Query Chrome and Firefox extension users, ratings, and search-rank data through ExtensionDash's hosted MCP server with OAuth authentication.",
+    "category": "data-analytics-and-bi",
+    "language": "Ruby",
+    "provider": "ExtensionDash",
+    "tags": ["browser-extensions", "analytics", "chrome", "firefox", "remote"],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://extensiondash.com/mcp"
+    }
+  },
+  {
     "name": "MarkItDown MCP",
     "url": "https://github.com/microsoft/markitdown",
     "description": "Convert PDFs, Office docs, and media into markdown for LLM ingestion.",
