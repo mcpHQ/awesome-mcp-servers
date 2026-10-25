@@ -4055,6 +4055,24 @@
     }
   },
   {
+    "name": "CreditUnions",
+    "url": "https://creditunions.fyi",
+    "description": "Query federally insured US credit unions from NCUA call report data by city and state: charter, field of membership, assets, members and branches.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Beeloud",
+    "tags": [
+      "credit-unions",
+      "ncua",
+      "banking",
+      "directory"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://creditunions.fyi/mcp"
+    }
+  },
+  {
     "name": "NAIF Gravity",
     "url": "https://naifgravity.com",
     "description": "Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.",
