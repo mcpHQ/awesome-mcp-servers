@@ -3442,6 +3442,24 @@
     }
   },
   {
+    "name": "Hail",
+    "url": "https://hail.so/mcp",
+    "description": "Give your AI assistant a phone number and an email inbox to handle calls, texts, and email.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "Hail",
+    "tags": [
+      "voice",
+      "sms",
+      "email",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.hail.so"
+    }
+  },
+  {
     "name": "OpenBait Lookalike Domains",
     "url": "https://openbait.com/tools/typosquat-check",
     "description": "Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows.",
