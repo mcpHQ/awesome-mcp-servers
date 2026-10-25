@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -348,6 +348,18 @@ Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd)
 - Official: no
 - Tags: scheduled-agents, diagnostics, launchd, cron, claude-code
 - Category: Developer Tools and Code Intelligence
+
+### AgentSandboxes
+
+Search an index of cloud sandbox providers for AI agents: isolation, cold start, persistence, GPU support and pricing, each fact linked to its source.
+
+- URL: https://agentsandboxes.fyi
+- Language: TypeScript
+- Provider: Beeloud
+- Official: no
+- Tags: sandboxes, agents, developer-tools, directory
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://agentsandboxes.fyi/mcp
 
 ### AgentTask Atlas
 
