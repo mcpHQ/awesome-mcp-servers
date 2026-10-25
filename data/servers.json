@@ -3534,6 +3534,22 @@
     }
   },
   {
+    "name": "Vulnerability Exposure",
+    "url": "https://github.com/MRFrazer25/Vulnerability-Exposure-MCP",
+    "description": "Checks public IPs, domains, CVE IDs and software versions for confirmed vulnerabilities using NVD version ranges, CISA KEV, EPSS, distro backports and Shodan, with all API keys optional.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "vulnerabilities",
+      "cve",
+      "threat-intelligence",
+      "osint",
+      "nvd"
+    ],
+    "official": false
+  },
+  {
     "name": "MCP Everything",
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
     "description": "Reference server exposing prompts, resources, and tools for protocol testing.",
