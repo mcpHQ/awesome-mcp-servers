@@ -928,6 +928,25 @@
     }
   },
   {
+    "name": "Best Electrician Jobs",
+    "url": "https://github.com/854Labs/best-electrician-jobs",
+    "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Best Electrician Jobs",
+    "tags": [
+      "jobs",
+      "recruiting",
+      "electrician",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.bestelectricianjobs.com/mcp"
+    }
+  },
+  {
     "name": "Bestax",
     "url": "https://github.com/allxsmith/bestax/tree/main/bestax-mcp",
     "description": "Build Bulma v1 React apps with Bestax using an offline index of its component props, examples, CSS variables and Agent Skills.",

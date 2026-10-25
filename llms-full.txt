@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3901,6 +3901,18 @@ Hosted MCP server that gives an agent read-only access to your own bank, credit 
 - Tags: banking, personal-finance, read-only, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://bankbridge.money/api/mcp
+
+### Best Electrician Jobs
+
+Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.
+
+- URL: https://github.com/854Labs/best-electrician-jobs
+- Language: Other
+- Provider: Best Electrician Jobs
+- Official: yes
+- Tags: jobs, recruiting, electrician, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://www.bestelectricianjobs.com/mcp
 
 ### Bilbop x402
 
