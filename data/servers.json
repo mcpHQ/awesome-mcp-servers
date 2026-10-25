@@ -3815,6 +3815,24 @@
     }
   },
   {
+    "name": "HireFerry",
+    "url": "https://github.com/TokenNotIncluded/hireferry",
+    "description": "Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Rust",
+    "provider": "TokenNotIncluded",
+    "tags": [
+      "jobs",
+      "recruiting",
+      "resumes",
+      "self-hosted"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://hireferry.lmm.best/mcp/public"
+    }
+  },
+  {
     "name": "MEDIAPRONET",
     "url": "https://mediapronet.com/mcp",
     "description": "Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.",

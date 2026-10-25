@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4150,6 +4150,18 @@ HelloAsso for French associations: members, event tickets, donations, payments, 
 - Official: no
 - Tags: payments, nonprofit, donations, france, ticketing
 - Category: Finance, Commerce, and Business Apps
+
+### HireFerry
+
+Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows.
+
+- URL: https://github.com/TokenNotIncluded/hireferry
+- Language: Rust
+- Provider: TokenNotIncluded
+- Official: no
+- Tags: jobs, recruiting, resumes, self-hosted
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://hireferry.lmm.best/mcp/public
 
 ### HubSpot MCP Server
 
