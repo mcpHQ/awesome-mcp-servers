@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3500,6 +3500,18 @@ Third-party hosted MCP for Indian court data, including Supreme Court, High Cour
 - Tags: legal, court-data, remote, oauth
 - Category: Legal and Court Data
 - Streamable HTTP endpoint: https://mcp.ecourtsindia.com/mcp
+
+### ForeclosureListings
+
+Look up US foreclosure resources by city and state: county sale schedules, notice postings, HUD-approved counselors and legal aid, each fact citing its public source.
+
+- URL: https://foreclosurelistings.fyi
+- Language: TypeScript
+- Provider: Beeloud
+- Official: no
+- Tags: foreclosure, public-records, legal-aid, housing
+- Category: Legal and Court Data
+- Streamable HTTP endpoint: https://foreclosurelistings.fyi/mcp
 
 ### US Code MCP
 

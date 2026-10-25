@@ -2929,6 +2929,24 @@
     }
   },
   {
+    "name": "ForeclosureListings",
+    "url": "https://foreclosurelistings.fyi",
+    "description": "Look up US foreclosure resources by city and state: county sale schedules, notice postings, HUD-approved counselors and legal aid, each fact citing its public source.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "Beeloud",
+    "tags": [
+      "foreclosure",
+      "public-records",
+      "legal-aid",
+      "housing"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://foreclosurelistings.fyi/mcp"
+    }
+  },
+  {
     "name": "Kleap",
     "url": "https://github.com/kleaphq/cli",
     "description": "Create, edit, and publish websites from AI clients through a hosted MCP server.",
