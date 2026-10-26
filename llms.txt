@@ -203,7 +203,7 @@ Links under each category point at the upstream project, docs, or registry page.
 ## Communication and Productivity
 
 - [/call-me](https://github.com/radres/call-me): Hosted MCP server that rings the user's iPhone, reads the agent's question aloud and returns the spoken answer as text; it can also text. Needs the /call-me iPhone app (paid subscription). (Python)
-- [Agent Media](https://github.com/agent-media-ai/agent-media): Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts. (Other, official)
+- [Agent Media](https://github.com/agent-media-ai/agent-media): Hosted MCP server that makes short drama series (micro-dramas, sitcoms, K-drama style, any language) and other short vertical videos from Claude, ChatGPT or Codex, with the same cast every episode. (Other, official)
 - [agentcomms](https://github.com/web3wes/agentcomms): Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub. (Python, official)
 - [agentic sinkhole research](https://docs.rocketship.sh/llms.txt): Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research honeypot, no login, traffic logged, do not send secrets. (JavaScript)
 - [agmail](https://agmail.shveik.dev): Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account. (Go, official)
