@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 424 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 427 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -61,6 +61,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Communicate](https://developer.communicate.so/docs/mcp): List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials. (TypeScript, official)
 - [Concord MCP](https://github.com/Get-Concord-AI/concord-mcp): Local-first shared work-state for coding agents with presence, claims, messaging, handoffs, and review packets. (TypeScript)
 - [Constitution Lint MCP Server](https://github.com/joeyycli/constitution-lint-action): Lints CLAUDE.md-style AI agent constitution files for missing operational guardrails: spend limits, injection defense, escalation paths, and secrets handling. (Python)
+- [ContactLint](https://github.com/zksyncer/contactlint): Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing. (TypeScript, official)
 - [Context7 MCP](https://github.com/upstash/context7): Up-to-date library and framework documentation injected into prompts. (TypeScript, official)
 - [Docker MCP Server](https://github.com/docker/mcp-gateway): Manage containers, images, and Docker environments through MCP. (Go, official)
 - [E2B MCP Server](https://docs.e2b.dev/mcp): Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows. (Other, official)
@@ -146,6 +147,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Comment.io MCP Server](https://comment.io/llms/mcp.md): Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server. (Rust, official)
 - [Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive): Access and search files in Google Drive from MCP clients. (Python)
 - [Grandpa's AI](https://github.com/wescorp/grandpasai-mcp): Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization. (JavaScript, official)
+- [isGenAI](https://isgenai.com/developers/mcp): Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels. (TypeScript, official)
 - [Koru MCP Server](https://github.com/koruworks/mono): Search and read documents and files, and create and edit documents, in the local database of the Koru notes, docs and files app. (Rust, official)
 - [MarkItDown MCP](https://github.com/microsoft/markitdown): Convert PDFs, Office docs, and media into markdown for LLM ingestion. (Python, official)
 - [Markovo](https://github.com/fisher-byte/markovo): Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio. (Python)
@@ -418,6 +420,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [NotFair](https://github.com/nowork-studio/NotFair): Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. (TypeScript)
 - [Openpath](https://openpath.sh/docs/connect): Hosted read-only MCP server that searches live employer job-board listings and Austin business listings with no sign-in or API key. (TypeScript, official)
 - [OutreachGenie](https://github.com/Outreachgenie/outreachgenie-linkedin-mcp): Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys. (TypeScript, official)
+- [Panda Greetings](https://www.pandagreetings.com/ai-assistants): Finds ready-made greeting card designs for an occasion with your message placed inside, each linking to its page to order it printed and mailed in the US; free hosted server, no sign-in. (JavaScript, official)
 - [PandaStock](https://github.com/D-Asce/pandastocksdk): A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account. (Python)
 - [PayPal MCP Server](https://github.com/paypal/agent-toolkit): Process PayPal payments and manage merchant operations. (TypeScript, official)
 - [Pink Agentic AI Payments](https://pinkwallet.com/agentic/developers/): Approval layer for AI agent payments: per-agent budgets and rules return allow (single-use credential), ask a human, or block before money moves, over remote Streamable HTTP with OAuth 2.1; public sandbox with test money only. (TypeScript, official)
