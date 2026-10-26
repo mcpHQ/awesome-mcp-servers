@@ -3516,6 +3516,174 @@
     }
   },
   {
+    "name": "Zaptu",
+    "url": "https://github.com/TommyTap11/zaptu",
+    "description": "Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Zaptu",
+    "tags": [
+      "home-services",
+      "local-services",
+      "leads",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.zaptu.ai/mcp"
+    }
+  },
+  {
+    "name": "ContactLint",
+    "url": "https://github.com/zksyncer/contactlint",
+    "description": "Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "ContactLint",
+    "tags": [
+      "email-validation",
+      "phone-validation",
+      "data-validation",
+      "crm",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://contactlint.com/mcp"
+    }
+  },
+  {
+    "name": "Edgrapi",
+    "url": "https://edgrapi.com",
+    "description": "US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants, House STOCK Act trades and SEC EDGAR filings, 19 read-only tools.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Edgrapi",
+    "tags": [
+      "government-data",
+      "sec-edgar",
+      "procurement",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.edgrapi.com/mcp"
+    }
+  },
+  {
+    "name": "Outbound OS",
+    "url": "https://github.com/RecepioHQ/outbound-os",
+    "description": "Local MCP tools for evidence-gated email outreach with default-disabled live sending",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "RecepioHQ",
+    "tags": [
+      "email",
+      "ai-agents",
+      "outreach",
+      "approval"
+    ],
+    "official": false
+  },
+  {
+    "name": "Tavero",
+    "url": "https://github.com/baccaraaa/tavero",
+    "description": "Scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors, and spacing, and returns fixes with file and line references to the coding agent.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "react",
+      "ui-consistency",
+      "design-system",
+      "frontend"
+    ],
+    "official": false
+  },
+  {
+    "name": "Automaton Onchain Tools",
+    "url": "https://github.com/povrouyre-wq/automaton-onchain-tools",
+    "description": "Read-only crypto safety checks for Base, Ethereum and BNB Chain (tx explainer, approvals, contract risk, URL phishing, token deep scan with honeypot simulation), pay-per-call via x402 USDC; remote, no key.",
+    "category": "security-and-identity",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "crypto",
+      "security",
+      "x402",
+      "base",
+      "remote"
+    ],
+    "official": false
+  },
+  {
+    "name": "CreditUnions",
+    "url": "https://creditunions.fyi",
+    "description": "Query federally insured US credit unions from NCUA call report data by city and state: charter, field of membership, assets, members and branches.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Beeloud",
+    "tags": [
+      "credit-unions",
+      "ncua",
+      "banking",
+      "directory"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://creditunions.fyi/mcp"
+    }
+  },
+  {
+    "name": "PushNotif",
+    "url": "https://github.com/AarsyDesign/pushnotif-mcp",
+    "description": "Hosted remote and stdio MCP server with 24 tools for Web Push (VAPID), Android (FCM), iOS (APNs), In-App Popups, Social Proof Toasts, and Transactional Email OTP.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "PushNotif",
+    "tags": [
+      "notifications",
+      "push-notifications",
+      "email",
+      "web-push",
+      "remote"
+    ],
+    "official": true
+  },
+  {
+    "name": "Solana Pulse",
+    "url": "https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway",
+    "description": "Read-only pre-sign checks for Solana agents: dry-runs a transaction on mainnet, confirms it matches the requested transfer or swap, and rates token risk; 25 free calls per tool a day, then x402 in USDC.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Solana Pulse",
+    "tags": [
+      "solana",
+      "crypto",
+      "security",
+      "x402"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://solana-pulse-gateway-1021990235790.us-central1.run.app/mcp"
+    }
+  },
+  {
+    "name": "Baizhi Cloud Browser (CapyBrowser)",
+    "url": "https://github.com/chaitin/baizhi-cloud-browser",
+    "description": "Manage cloud browser sessions, saved profiles, human handoff and downloads via hosted MCP; page actions require a CDP client, and a Baizhi API key and paid browser runtime apply.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Baizhi Cloud",
+    "tags": [
+      "browser",
+      "remote",
+      "session-management"
+    ],
+    "official": false
+  },
+  {
     "name": "SaaSCity",
     "url": "https://github.com/nyyhao/saascity-mcp",
     "description": "Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.",
@@ -3535,21 +3703,179 @@
     }
   },
   {
-    "name": "Zaptu",
-    "url": "https://github.com/TommyTap11/zaptu",
-    "description": "Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Python",
-    "provider": "Zaptu",
+    "name": "Sports Odds API (BetRivers, Unibet & 22 more books)",
+    "url": "https://apify.com/publicrecords/sports-odds-api",
+    "description": "Live odds from 24 Kambi-powered sportsbooks in one call, including BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel and ATG, with every book's price and the best price per outcome; pay per call.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "publicrecords",
     "tags": [
-      "home-services",
-      "local-services",
-      "leads",
+      "sports",
+      "betting",
+      "odds",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/sports-odds-api"
+    }
+  },
+  {
+    "name": "Vulnerability Exposure",
+    "url": "https://github.com/MRFrazer25/Vulnerability-Exposure-MCP",
+    "description": "Checks public IPs, domains, CVE IDs and software versions for confirmed vulnerabilities using NVD version ranges, CISA KEV, EPSS, distro backports and Shodan, with all API keys optional.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "vulnerabilities",
+      "cve",
+      "threat-intelligence",
+      "osint",
+      "nvd"
+    ],
+    "official": false
+  },
+  {
+    "name": "ExtensionDash",
+    "url": "https://extensiondash.com/",
+    "description": "Query Chrome and Firefox extension users, ratings, and search-rank data through ExtensionDash's hosted MCP server with OAuth authentication.",
+    "category": "data-analytics-and-bi",
+    "language": "Ruby",
+    "provider": "ExtensionDash",
+    "tags": [
+      "browser-extensions",
+      "analytics",
+      "chrome",
+      "firefox",
       "remote"
     ],
     "official": true,
     "endpoints": {
-      "streamableHttp": "https://api.zaptu.ai/mcp"
+      "streamableHttp": "https://extensiondash.com/mcp"
+    }
+  },
+  {
+    "name": "ForeclosureListings",
+    "url": "https://foreclosurelistings.fyi",
+    "description": "Look up US foreclosure resources by city and state: county sale schedules, notice postings, HUD-approved counselors and legal aid, each fact citing its public source.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "Beeloud",
+    "tags": [
+      "foreclosure",
+      "public-records",
+      "legal-aid",
+      "housing"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://foreclosurelistings.fyi/mcp"
+    }
+  },
+  {
+    "name": "AgentSandboxes",
+    "url": "https://agentsandboxes.fyi",
+    "description": "Search an index of cloud sandbox providers for AI agents: isolation, cold start, persistence, GPU support and pricing, each fact linked to its source.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Beeloud",
+    "tags": [
+      "sandboxes",
+      "agents",
+      "developer-tools",
+      "directory"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://agentsandboxes.fyi/mcp"
+    }
+  },
+  {
+    "name": "installed-api",
+    "url": "https://github.com/ajwann/installed-api",
+    "description": "Answers API questions from the packages installed in the project: Python signatures, docstrings and source from the project's interpreter, TypeScript declarations from node_modules, and installed versions.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "python",
+      "typescript",
+      "api-docs",
+      "claude-code"
+    ],
+    "official": false
+  },
+  {
+    "name": "Cooper Email",
+    "url": "https://cooperemail.com/docs/mcp",
+    "description": "Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Cooper Email",
+    "tags": [
+      "email",
+      "inbox",
+      "agents",
+      "otp",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://cooperemail.com/mcp"
+    }
+  },
+  {
+    "name": "toolkb-mcp",
+    "url": "https://github.com/jack-reson8/toolkb-mcp",
+    "description": "Local server that returns YouTube transcripts and playlists, web pages as Markdown and App Store reviews, with no API key or account.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "youtube",
+      "transcripts",
+      "markdown",
+      "app-store"
+    ],
+    "official": false
+  },
+  {
+    "name": "Panda Greetings",
+    "url": "https://www.pandagreetings.com/ai-assistants",
+    "description": "Finds ready-made greeting card designs for an occasion with your message placed inside, each linking to its page to order it printed and mailed in the US; free hosted server, no sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Panda Greetings",
+    "tags": [
+      "greeting-cards",
+      "shopping",
+      "printing",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.pandagreetings.com/mcp/designs"
+    }
+  },
+  {
+    "name": "isGenAI",
+    "url": "https://isgenai.com/developers/mcp",
+    "description": "Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "isGenAI",
+    "tags": [
+      "c2pa",
+      "provenance",
+      "metadata",
+      "ai-detection",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://isgenai.com/mcp"
     }
   },
   {
