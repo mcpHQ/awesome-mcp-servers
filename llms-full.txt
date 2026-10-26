@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 423 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 424 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1287,6 +1287,18 @@ YouTube transcripts from videos, Shorts, playlists or channels, plus channel and
 - Tags: transcripts, youtube, social-blade, remote
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://mcp.apify.com/?tools=fetch-actor-details,tubetext/youtube-transcript-fast,tubetext/youtube-channel-analytics,tubetext/socialblade-scraper
+
+### WebExtract
+
+Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).
+
+- URL: https://github.com/nyx464664816-stack/webextract
+- Language: Other
+- Provider: TAINCHENG, L.L.C.
+- Official: yes
+- Tags: web-scraping, markdown, structured-data, x402, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://api.webextract.dev/mcp
 
 ### XActions
 
