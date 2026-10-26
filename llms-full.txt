@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2659,6 +2659,18 @@ Remote MCP memory server - one markdown memory every AI reads and writes via OAu
 - Official: yes
 - Tags: memory, remote, oauth
 - Category: AI, Agents, and Memory
+
+### AI Agents Listing
+
+Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending.
+
+- URL: https://github.com/nyyhao/aiagentslisting-mcp
+- Language: JavaScript
+- Provider: AI Agents Listing
+- Official: yes
+- Tags: directory, discovery, mcp, agents, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://aiagentslisting.com/api/mcp
 
 ### Aident Loadout
 

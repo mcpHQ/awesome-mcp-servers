@@ -3843,6 +3843,25 @@
     }
   },
   {
+    "name": "AI Agents Listing",
+    "url": "https://github.com/nyyhao/aiagentslisting-mcp",
+    "description": "Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "AI Agents Listing",
+    "tags": [
+      "directory",
+      "discovery",
+      "mcp",
+      "agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://aiagentslisting.com/api/mcp"
+    }
+  },
+  {
     "name": "402cron",
     "url": "https://402cron.com",
     "description": "Remote MCP server (streamable HTTP) for a paid cron service for agents: pricing and docs need no key, and thirteen more tools manage scheduled webhook tasks with the API token bought over x402.",
