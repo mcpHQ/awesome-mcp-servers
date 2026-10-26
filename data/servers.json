@@ -3879,6 +3879,25 @@
     }
   },
   {
+    "name": "Waspes",
+    "url": "https://waspes.com/api",
+    "description": "AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Waspes",
+    "tags": [
+      "website-builder",
+      "3d-generation",
+      "roblox",
+      "image-to-3d",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://waspes.com/api/mcp"
+    }
+  },
+  {
     "name": "Stivio",
     "url": "https://stivio.ai/mcp",
     "description": "AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts.",
