@@ -171,6 +171,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `android` `mobile` `testing` `automation`
 - **[Flare](https://flareapp.io/docs/flare/general/our-mcp-server)** `Official` `PHP` — Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP.  
   `error-tracking` `observability` `laravel` `php` `oauth`
+- **[FastMCP Forge](https://github.com/johannschiffer/fastmcp-forge)** `Python` — Deterministic CLI and code generator for scaffolding high-throughput production FastMCP servers with Pydantic validation and lifecycle management.  
+  `fastmcp` `developer-tools` `code-generation` `scaffolding`
 - **[GitHub MCP Server](https://github.com/github/github-mcp-server)** `Official` `Go` — Official GitHub integration for repos, issues, pull requests, and code search.  
   `github` `git` `ci-cd`
 - **[GitLab MCP Server](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/)** `Official` `Ruby` — GitLab Duo MCP server for merge requests, issues, and project management.  
@@ -288,6 +290,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `social` `content` `research` `tiktok`
 - **[crawlbrulee mcp server](https://github.com/crawlbrulee/crawlbrulee-mcp)** `Official` `TypeScript` — Scrape any page into clean markdown, screenshots, metadata and links, or map a site's urls, with an EU-hosted web scraping api.  
   `scraping` `markdown` `screenshots` `eu`
+- **[CrawlEngine MCP](https://github.com/johannschiffer/crawlengine-mcp)** `Python` — Resilient anti-bot web scraping and dynamic DOM extraction for AI coding agents with clean token-optimized markdown conversion. Available on PyPI (`uvx crawlengine-mcp`).  
+  `web-scraping` `anti-bot` `browser-automation` `markdown`
 - **[crawlerpeek](https://github.com/crawlerpeek/crawlerpeek)** `TypeScript` — Check whether AI crawlers such as GPTBot, ClaudeBot and PerplexityBot can access a URL: robots.txt rules per bot (RFC 9309) plus the live HTTP status fetched with each bot's user agent.  
   `robots-txt` `ai-crawlers` `seo` `web`
 - **[CurlShot](https://curlshot.com/docs)** `Official` `TypeScript` — Hosted screenshot API over remote MCP: renders any public URL as PNG, JPEG, WebP, PDF or a scrolling video, full page or at a device preset. API key as Bearer token; free plan 100 screenshots/month, no card.  
