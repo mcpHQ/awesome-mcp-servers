@@ -3879,6 +3879,60 @@
     }
   },
   {
+    "name": "Wine Labs",
+    "url": "https://github.com/imiraoui/winelabs-mcp",
+    "description": "Fine-wine matching, market prices, auctions, merchant offers, and portfolio intelligence through a hosted MCP server; browser OAuth and account plans or credits apply.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Wine Labs",
+    "tags": [
+      "wine",
+      "pricing",
+      "auctions",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://chat.wine-labs.com/mcp"
+    }
+  },
+  {
+    "name": "RentReboot",
+    "url": "https://github.com/imiraoui/rentreboot-mcp",
+    "description": "Search NYC apartments and renter guides, explore rent data, and access personal alerts and saved searches with scoped OAuth; website alert plans are separate.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "RentReboot",
+    "tags": [
+      "housing",
+      "apartments",
+      "nyc",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://rentreboot.com/api/mcp"
+    }
+  },
+  {
+    "name": "PennyOCR",
+    "url": "https://github.com/imiraoui/pennyocr-mcp",
+    "description": "Convert PDFs and images to Markdown or text, estimate document-processing costs, and check credit balances with an API key and hard spend caps.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "PennyOCR",
+    "tags": [
+      "ocr",
+      "pdf",
+      "documents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.pennyocr.com"
+    }
+  },
+  {
     "name": "Stivio",
     "url": "https://stivio.ai/mcp",
     "description": "AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 467 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1619,6 +1619,18 @@ Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured 
 - Official: yes
 - Tags: pdf, documents, markdown, conversion, ocr
 - Category: Filesystems and Documents
+
+### PennyOCR
+
+Convert PDFs and images to Markdown or text, estimate document-processing costs, and check credit balances with an API key and hard spend caps.
+
+- URL: https://github.com/imiraoui/pennyocr-mcp
+- Language: TypeScript
+- Provider: PennyOCR
+- Official: yes
+- Tags: ocr, pdf, documents, remote
+- Category: Filesystems and Documents
+- Streamable HTTP endpoint: https://mcp.pennyocr.com
 
 ### ReadGZH
 
@@ -4823,6 +4835,18 @@ Manage QuickBooks accounting records and financial reports.
 - Tags: accounting, finance, bookkeeping
 - Category: Finance, Commerce, and Business Apps
 
+### RentReboot
+
+Search NYC apartments and renter guides, explore rent data, and access personal alerts and saved searches with scoped OAuth; website alert plans are separate.
+
+- URL: https://github.com/imiraoui/rentreboot-mcp
+- Language: Other
+- Provider: RentReboot
+- Official: yes
+- Tags: housing, apartments, nyc, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://rentreboot.com/api/mcp
+
 ### RestoSignals
 
 Finds US restaurants and bars 1-6 months before they open by fusing public liquor-license, food-permit and new-business filings into scored venues with owner contact.
@@ -5136,6 +5160,18 @@ Research up-and-coming US medtech companies from NIH and NSF grants, federal con
 - Tags: medtech, fda, company-research, oauth, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://data.whimbrelresearch.com
+
+### Wine Labs
+
+Fine-wine matching, market prices, auctions, merchant offers, and portfolio intelligence through a hosted MCP server; browser OAuth and account plans or credits apply.
+
+- URL: https://github.com/imiraoui/winelabs-mcp
+- Language: Other
+- Provider: Wine Labs
+- Official: yes
+- Tags: wine, pricing, auctions, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://chat.wine-labs.com/mcp
 
 ### Worklittle Jobs
 

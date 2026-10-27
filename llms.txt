@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 464 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 467 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -168,6 +168,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [officegrep](https://github.com/Asgoresmilelong/officegrep): Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index. (Python)
 - [PDF MCP Server](https://github.com/jztan/pdf-mcp): Extract text and metadata from PDF documents for analysis. (Python)
 - [PDFtoMarkdown.ai](https://github.com/happywpco/pdftomarkdown-mcp): Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured Markdown with headings, tables and optional OCR via the PDFtoMarkdown.ai API; free pages, then pay-per-page credits. (JavaScript, official)
+- [PennyOCR](https://github.com/imiraoui/pennyocr-mcp): Convert PDFs and images to Markdown or text, estimate document-processing costs, and check credit balances with an API key and hard spend caps. (TypeScript, official)
 - [ReadGZH](https://github.com/sweesama/readgzh): Read public WeChat Official Account articles as Markdown for AI agents over remote MCP and REST. (TypeScript)
 - [Readwise MCP Server](https://github.com/readwiseio/readwise-mcp): Search highlights and reading notes from Readwise. (TypeScript, official)
 - [SEAL MCP](https://seal.net/docs/mcp): Transfer large files and secrets between people and AI agents through client-side encrypted, expiring handoffs. (TypeScript, official)
@@ -463,6 +464,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Plaid MCP Server](https://plaid.com/docs/resources/mcp/): Connect bank accounts and retrieve financial transaction data. (TypeScript, official)
 - [Pocket Drives](https://github.com/RevList/pocket-drives-mcp): Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app. (TypeScript)
 - [QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server): Manage QuickBooks accounting records and financial reports. (TypeScript, official)
+- [RentReboot](https://github.com/imiraoui/rentreboot-mcp): Search NYC apartments and renter guides, explore rent data, and access personal alerts and saved searches with scoped OAuth; website alert plans are separate. (Other, official)
 - [RestoSignals](https://github.com/paperandbeyond23-gif/restosignals-mcp): Finds US restaurants and bars 1-6 months before they open by fusing public liquor-license, food-permit and new-business filings into scored venues with owner contact. (Python, official)
 - [SaaSCity](https://github.com/nyyhao/saascity-mcp): Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity. (JavaScript, official)
 - [Salesforce MCP Server](https://github.com/salesforcecli/mcp): Query Salesforce CRM records and manage business workflows. (TypeScript, official)
@@ -490,6 +492,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Voidpay Marketplace MCP](https://github.com/voidly-ai/pay-mcp): Find services and storefronts on Voidly's hosted marketplace for AI-agent services and prepare checkout links that the owner reviews and approves in their own browser; the connector never signs, pays or holds keys. (TypeScript, official)
 - [Warden MCP](https://github.com/warden-protocol/warden-mcp): Remote MCP server for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within user-set limits. (Other, official)
 - [Whimbrel MedTech Analyst](https://github.com/WhimbrelResearch/whimbrel-mcp): Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source. (JavaScript, official)
+- [Wine Labs](https://github.com/imiraoui/winelabs-mcp): Fine-wine matching, market prices, auctions, merchant offers, and portfolio intelligence through a hosted MCP server; browser OAuth and account plans or credits apply. (Other, official)
 - [Worklittle Jobs](https://github.com/worklittle/jobs-mcp): Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth. (Other)
 - [Zaptu](https://github.com/TommyTap11/zaptu): Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work. (Python, official)
 - [Zovo Invoice Generator](https://github.com/theluckystrike/mcp-invoice-generator): Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint. (TypeScript)
