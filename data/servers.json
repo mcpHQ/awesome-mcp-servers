@@ -3951,6 +3951,25 @@
     }
   },
   {
+    "name": "Weir",
+    "url": "https://github.com/tarun-khatri/weir-mcp",
+    "description": "Search and read public X (Twitter) and Reddit data: posts, replies, threads, profiles, followers, subreddits and comments, plus monitors for new matches.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Weir",
+    "tags": [
+      "twitter",
+      "reddit",
+      "social-media",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.weirapp.io/mcp"
+    }
+  },
+  {
     "name": "Agent Payment Node",
     "url": "https://github.com/nuanu-ai/agent-payment-node",
     "description": "Local CLI and stdio MCP payment tools for AI agents on macOS Apple Silicon, with foreground human approval for signing.",

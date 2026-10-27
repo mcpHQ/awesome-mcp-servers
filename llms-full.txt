@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1423,6 +1423,18 @@ Turns a public URL into structured JSON (product, tables, metadata) plus clean M
 - Tags: web-scraping, markdown, structured-data, x402, remote
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://api.webextract.dev/mcp
+
+### Weir
+
+Search and read public X (Twitter) and Reddit data: posts, replies, threads, profiles, followers, subreddits and comments, plus monitors for new matches.
+
+- URL: https://github.com/tarun-khatri/weir-mcp
+- Language: TypeScript
+- Provider: Weir
+- Official: yes
+- Tags: twitter, reddit, social-media, remote, oauth
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://api.weirapp.io/mcp
 
 ### XActions
 
