@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 464 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 465 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -188,6 +188,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Duplicacy MCP Server](https://github.com/GeiserX/duplicacy-mcp): Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status. (Go)
 - [Fly.io MCP Server](https://github.com/superfly/flymcp): Manage Fly.io apps, machines, and deployments via MCP. (TypeScript, official)
 - [gpu.nz GPU Cloud](https://gpu.nz/en/docs/mcp): Find live cloud GPU offers, estimate model VRAM needs, and launch, stop, or delete per-minute GPU servers on gpu.nz. (TypeScript, official)
+- [InternetVitals](https://github.com/internetvitals/mcp-server): Real-time status, recent incidents and an overall health score for 41 internet backbone services such as AWS, Cloudflare, GitHub and OpenAI. (TypeScript, official)
 - [mountable.io](https://github.com/writeitai/mountable): Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid mountable.io service. (Go, official)
 - [Network Sketcher](https://github.com/cisco-open/network-sketcher): Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation. (Python)
 - [Port MCP Server](https://github.com/port-labs/port-mcp-server): Manage software catalog, scorecards, and actions in Port.io. (TypeScript, official)

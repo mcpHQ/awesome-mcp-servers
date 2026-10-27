@@ -3951,6 +3951,24 @@
     }
   },
   {
+    "name": "InternetVitals",
+    "url": "https://github.com/internetvitals/mcp-server",
+    "description": "Real-time status, recent incidents and an overall health score for 41 internet backbone services such as AWS, Cloudflare, GitHub and OpenAI.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "InternetVitals",
+    "tags": [
+      "status",
+      "uptime",
+      "incidents",
+      "monitoring"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://internetvitals.com/mcp"
+    }
+  },
+  {
     "name": "Agent Payment Node",
     "url": "https://github.com/nuanu-ai/agent-payment-node",
     "description": "Local CLI and stdio MCP payment tools for AI agents on macOS Apple Silicon, with foreground human approval for signing.",
