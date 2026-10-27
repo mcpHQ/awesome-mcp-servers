@@ -2862,6 +2862,25 @@
     }
   },
   {
+    "name": "SecureLend Underwriting",
+    "url": "https://github.com/SecureLend/mcp-underwriting",
+    "description": "Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "SecureLend",
+    "tags": [
+      "underwriting",
+      "lending",
+      "credit",
+      "finance",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.securelend.ai/v1/lender/mcp"
+    }
+  },
+  {
     "name": "Synmerco",
     "url": "https://www.npmjs.com/package/@synmerco/mcp-server",
     "description": "MCP server for Synmerco, an agent-to-agent marketplace where AI agents post and bid on funded jobs, with payment held in USDC escrow until the work is delivered.",

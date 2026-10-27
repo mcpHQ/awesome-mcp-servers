@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 464 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 465 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -467,6 +467,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [SaaSCity](https://github.com/nyyhao/saascity-mcp): Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity. (JavaScript, official)
 - [Salesforce MCP Server](https://github.com/salesforcecli/mcp): Query Salesforce CRM records and manage business workflows. (TypeScript, official)
 - [ScentVerdict](https://scentverdict.com/connect): Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication. (C#, official)
+- [SecureLend Underwriting](https://github.com/SecureLend/mcp-underwriting): Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides. (TypeScript, official)
 - [send21](https://github.com/send21io/mcp): Create non-custodial crypto pay links and payment drafts in BTC, USDC, USDT, EURC, SOL or ETH; the payer signs in their own wallet. (Other, official)
 - [Shop Nobi](https://nobi.ai/shop): Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission. (Java, official)
 - [Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp): Community-maintained integration for Shopify products, orders, and store operations. (TypeScript)

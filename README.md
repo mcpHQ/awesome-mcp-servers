@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-464-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-465-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (49)
 - [Legal and Court Data](#legal-and-court-data) (6)
 - [Security and Identity](#security-and-identity) (25)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (88)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (89)
 - [Utilities and Examples](#utilities-and-examples) (18)
 
 <a id="official-and-reference"></a>
@@ -976,6 +976,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crm` `sales` `enterprise`
 - **[ScentVerdict](https://scentverdict.com/connect)** `Official` `C#` — Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.  
   `fragrance` `perfume` `shopping` `read-only` `remote`
+- **[SecureLend Underwriting](https://github.com/SecureLend/mcp-underwriting)** `Official` `TypeScript` — Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides.  
+  `underwriting` `lending` `credit` `finance` `remote`
 - **[send21](https://github.com/send21io/mcp)** `Official` `Other` — Create non-custodial crypto pay links and payment drafts in BTC, USDC, USDT, EURC, SOL or ETH; the payer signs in their own wallet.  
   `payments` `crypto` `bitcoin` `stablecoins` `lightning`
 - **[Shop Nobi](https://nobi.ai/shop)** `Official` `Java` — Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.  

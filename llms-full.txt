@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4869,6 +4869,18 @@ Look up fragrances with verdicts, similarity scores, scent profiles, drydowns an
 - Tags: fragrance, perfume, shopping, read-only, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://scentverdict.com/mcp
+
+### SecureLend Underwriting
+
+Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides.
+
+- URL: https://github.com/SecureLend/mcp-underwriting
+- Language: TypeScript
+- Provider: SecureLend
+- Official: yes
+- Tags: underwriting, lending, credit, finance, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.securelend.ai/v1/lender/mcp
 
 ### send21
 
