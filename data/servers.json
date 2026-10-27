@@ -3879,6 +3879,22 @@
     }
   },
   {
+    "name": "mcp-gatehouse",
+    "url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
+    "description": "Python library that adds permission tiers, fail-closed human approval gates and a secret-redacting JSONL audit log to MCP servers built on the official SDK.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "security",
+      "audit-log",
+      "permissions",
+      "human-in-the-loop",
+      "python"
+    ],
+    "official": false
+  },
+  {
     "name": "Stivio",
     "url": "https://stivio.ai/mcp",
     "description": "AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts.",
