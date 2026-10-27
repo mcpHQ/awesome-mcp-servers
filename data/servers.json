@@ -4772,6 +4772,25 @@
     "official": false
   },
   {
+    "name": "Perceptlayer",
+    "url": "https://docs.perceptlayer.com/ai-agents",
+    "description": "Searches and calls 1,659 data endpoints across 248 websites (maps, real estate, jobs, travel, search) over a hosted MCP endpoint and returns structured JSON; free tier included.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Perceptlayer",
+    "tags": [
+      "web-data",
+      "web-scraping",
+      "structured-data",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.perceptlayer.com/mcp"
+    }
+  },
+  {
     "name": "Mysocial",
     "url": "https://github.com/mysocialio/mysocial-intelligence",
     "description": "Official hosted OAuth MCP for social media intelligence: connected content history, performance signals, and creator memory over Streamable HTTP.",
