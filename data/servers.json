@@ -4546,6 +4546,24 @@
     "official": true
   },
   {
+    "name": "Equivista",
+    "url": "https://equivista.be/api/docs",
+    "description": "Read-only Belgian company search, KBO profiles, annual financials, employees and company relationships.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Ruby",
+    "provider": "Equivista",
+    "tags": [
+      "belgium",
+      "company-data",
+      "financials",
+      "kbo"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://equivista.be/mcp"
+    }
+  },
+  {
     "name": "Lintelly HR Deutschland",
     "url": "https://github.com/NicksAdvisory/lintelly-hr-deutschland",
     "description": "German employment law for small companies: 38 read-only tools for notice periods, employer costs, sick pay, maternity protection and contract clauses, each answer with calculation and official source; remote server without sign-in.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 534 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 535 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5125,6 +5125,18 @@ Hosted MCP server for US company fundamentals as reported in SEC filings, filing
 - Tags: finance, sec-filings, stocks, earnings-calls, oauth
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.equibles.com/mcp
+
+### Equivista
+
+Read-only Belgian company search, KBO profiles, annual financials, employees and company relationships.
+
+- URL: https://equivista.be/api/docs
+- Language: Ruby
+- Provider: Equivista
+- Official: yes
+- Tags: belgium, company-data, financials, kbo
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://equivista.be/mcp
 
 ### Feminiq Rides
 
