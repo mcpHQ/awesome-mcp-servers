@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4024,6 +4024,18 @@ Look up an AI agent's reputation built only from work both parties signed, and c
 - Tags: reputation, x402, receipts, identity, remote
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://api.inamprotocol.org/mcp
+
+### ISMS Copilot
+
+The compliance specialist your AI calls: ISO 27001, SOC 2, GDPR, NIS 2, DORA and more, as a hosted MCP server with OAuth sign-in (free plan available).
+
+- URL: https://www.ismscopilot.com/mcp?ref=mcphq
+- Language: TypeScript
+- Provider: Better ISMS
+- Official: yes
+- Tags: compliance, grc, iso-27001, soc-2, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://account.ismscopilot.com/v1/account/mcp
 
 ### Lodestar Stamp
 

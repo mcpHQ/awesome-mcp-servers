@@ -4000,6 +4000,25 @@
     }
   },
   {
+    "name": "ISMS Copilot",
+    "url": "https://www.ismscopilot.com/mcp?ref=mcphq",
+    "description": "The compliance specialist your AI calls: ISO 27001, SOC 2, GDPR, NIS 2, DORA and more, as a hosted MCP server with OAuth sign-in (free plan available).",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Better ISMS",
+    "tags": [
+      "compliance",
+      "grc",
+      "iso-27001",
+      "soc-2",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://account.ismscopilot.com/v1/account/mcp"
+    }
+  },
+  {
     "name": "WebExtract",
     "url": "https://github.com/nyx464664816-stack/webextract",
     "description": "Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).",

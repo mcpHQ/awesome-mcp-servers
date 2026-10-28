@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 464 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 465 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -392,6 +392,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [FractalAI Agent Passport](https://www.npmjs.com/package/@fractalai/agent-passport-mcp): Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts. (TypeScript, official)
 - [HANRIA Mandate Check](https://hanria.ai): Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors. (JavaScript, official)
 - [INAM Protocol](https://github.com/inamprotocol/inam-protocol/tree/main/mcp): Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts. (TypeScript, official)
+- [ISMS Copilot](https://www.ismscopilot.com/mcp?ref=mcphq): The compliance specialist your AI calls: ISO 27001, SOC 2, GDPR, NIS 2, DORA and more, as a hosted MCP server with OAuth sign-in (free plan available). (TypeScript, official)
 - [Lodestar Stamp](https://lodestarstamp.com): Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking. (TypeScript)
 - [NPMScan](https://npmscan.com/docs/mcp): Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs. (TypeScript, official)
 - [OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check): Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows. (Go, official)
