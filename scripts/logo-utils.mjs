@@ -102,6 +102,13 @@ export const NAME_SLUGS = {
 export const SERVER_LOGO_URLS = {
   "Harness MCP Server":
     "https://raw.githubusercontent.com/harness/mcp-server/main/icon.png",
+  Nitrosend:
+    "https://raw.githubusercontent.com/nitrosend/cursor/main/assets/logo.png",
+  Runx: "https://runx.ai/assets/logo/runx-symbol-512.png",
+  Sourcey: "https://sourcey.com/brand/sourcey-mark.png",
+  Frantic: "https://gofrantic.com/favicon-512.png",
+  Ausca:
+    "https://raw.githubusercontent.com/auscahq/ausca-plugin/main/assets/marketplace-icon.svg",
 };
 
 export const PROVIDER_DOMAINS = {
