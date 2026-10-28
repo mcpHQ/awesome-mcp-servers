@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4720,6 +4720,18 @@ Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, 
 - Tags: blockchain, json-rpc, defi, swap, crypto
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://moltnode.ag/mcp
+
+### Noonlaunch
+
+Launch a product on Noonlaunch, search its product directory and weekly winners, and find 333 startup launch directories; hosted, no API key or account needed to connect.
+
+- URL: https://github.com/mukund1158/noonlaunch-mcp
+- Language: PHP
+- Provider: Noonlaunch
+- Official: yes
+- Tags: product-launch, startups, directory, marketing, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://noonlaunch.com/mcp
 
 ### NotFair
 

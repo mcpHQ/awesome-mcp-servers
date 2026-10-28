@@ -3320,6 +3320,25 @@
     }
   },
   {
+    "name": "Noonlaunch",
+    "url": "https://github.com/mukund1158/noonlaunch-mcp",
+    "description": "Launch a product on Noonlaunch, search its product directory and weekly winners, and find 333 startup launch directories; hosted, no API key or account needed to connect.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Noonlaunch",
+    "tags": [
+      "product-launch",
+      "startups",
+      "directory",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://noonlaunch.com/mcp"
+    }
+  },
+  {
     "name": "mountable.io",
     "url": "https://github.com/writeitai/mountable",
     "description": "Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid mountable.io service.",
