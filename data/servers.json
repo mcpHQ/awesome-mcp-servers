@@ -3463,6 +3463,25 @@
     "official": true
   },
   {
+    "name": "Monito",
+    "url": "https://www.monito.dev/docs/mcp",
+    "description": "Checks a deployed URL against a plain-English expectation in a cloud browser and returns passed, failed or cannot verify with screenshots, network and console logs.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Monito",
+    "tags": [
+      "testing",
+      "browser",
+      "qa",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.monito.dev/api/mcp"
+    }
+  },
+  {
     "name": "NebenkostenPro",
     "url": "https://github.com/julianfaalk/nebenkostenpro-mcp",
     "description": "Free remote MCP server for German utility costs (Nebenkosten): property tax rates for 10,304 municipalities, costs of 400 cities, housing benefit levels, deadlines and links to check or create a utility bill.",
