@@ -893,6 +893,25 @@
     "official": true
   },
   {
+    "name": "InsertChat",
+    "url": "https://insertchat.com",
+    "description": "AI receptionist and AI chatbot: triage calls and chats that need you, draft replies, look up leads, review reports, and train your assistant on web pages.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "MindCrafters LLC",
+    "tags": [
+      "customer-support",
+      "receptionist",
+      "crm",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.insertchat.com/v2/mcp"
+    }
+  },
+  {
     "name": "RoboParts",
     "url": "https://github.com/lm203688/roboparts",
     "description": "Vendor-neutral robot hardware compatibility checker across 868 entities with three-state verdicts and ISO 9409-1 flange anchor.",
