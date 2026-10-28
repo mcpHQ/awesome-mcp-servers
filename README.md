@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-465-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-468-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,16 +43,16 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (17)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (52)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (53)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (47)
 - [Filesystems and Documents](#filesystems-and-documents) (18)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (24)
-- [Communication and Productivity](#communication-and-productivity) (55)
+- [Communication and Productivity](#communication-and-productivity) (56)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (55)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (49)
 - [Legal and Court Data](#legal-and-court-data) (6)
 - [Security and Identity](#security-and-identity) (25)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (88)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (89)
 - [Utilities and Examples](#utilities-and-examples) (18)
 
 <a id="official-and-reference"></a>
@@ -181,6 +181,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `python` `typescript` `api-docs` `claude-code`
 - **[IntlPull MCP Server](https://intlpull.com/docs/mcp)** `Official` `TypeScript` — Manage translation keys, translate strings, and sync localization files with IntlPull from MCP clients.  
   `localization` `translation` `i18n` `developer-tools`
+- **[ipvolt Proxy Toolkit](https://github.com/ipvolt/proxy-toolkit-mcp)** `Official` `TypeScript` — Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure.  
+  `proxy` `networking` `troubleshooting` `remote`
 - **[Kleap](https://github.com/kleaphq/cli)** `Official` `JavaScript` — Create, edit, and publish websites from AI clients through a hosted MCP server.  
   `websites` `publishing` `cli` `agents`
 - **[Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes)** `TypeScript` — Operate Kubernetes clusters with kubectl-style MCP tools.  
@@ -210,7 +212,7 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
 - **[REA](https://github.com/morluto/rea)** `TypeScript` — Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies.  
   `reverse-engineering` `binary-analysis` `devtools`
 - **[RoboParts](https://github.com/lm203688/roboparts)** `Official` `JavaScript` — Vendor-neutral robot hardware compatibility checker across 868 entities with three-state verdicts and ISO 9409-1 flange anchor.  
-  `robotics` `hardware` `compatibility` `iot` `industrial` `three-state` `iso-9409-1` `3d-printing`
+  `robotics` `hardware` `compatibility` `industrial` `iso-9409-1`
 - **[SanctionsKit Developer MCP](https://www.sanctionskit.com/resources/mcp)** `Official` `Other` — Public SanctionsKit documentation, API schemas, and request validation, with authenticated synthetic sandbox tools for building sanctions screening integrations.  
   `api` `documentation` `sanctions` `sandbox`
 - **[Semgrep MCP Server](https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp)** `Official` `Python` — Run static analysis and security scans on codebases via Semgrep.  
@@ -275,7 +277,7 @@ Browse the web, scrape content, search, and automate browser interactions.
 - **[Browserbase MCP Server](https://github.com/browserbase/mcp-server-browserbase)** `Official` `TypeScript` — Cloud browser automation for navigation, scraping, and form filling.  
   `browser` `cloud` `automation`
 - **[BusyBee](https://github.com/danfeistar/busybee-mcp)** `Python` — Hosted remote MCP server for public social media data across TikTok, Instagram, YouTube, X, Douyin and Xiaohongshu: search posts and creators, read post detail, pull comments and comment insights, and read trending topics.  
-  `social-media` `tiktok` `instagram` `youtube` `comments` `remote-mcp`
+  `social-media` `remote` `tiktok` `instagram` `youtube`
 - **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `Official` `TypeScript` — Control and inspect Chrome through DevTools protocol for debugging and automation.  
   `chrome` `devtools` `debugging`
 - **[CloakBrowser MCP](https://github.com/swimmwatch/cloakbrowser-mcp)** `TypeScript` — Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.  
@@ -501,6 +503,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `social-media` `publishing` `video` `remote` `oauth`
 - **[Muslim Prayer Reminder MCP](https://github.com/tareq7/muslim-prayer-mcp)** `TypeScript` — Calculates Muslim prayer times by location and regional method, including next-prayer countdowns.  
   `prayer-times` `islamic` `location` `reminders`
+- **[NeverApply](https://github.com/kasovy/neverapply-mcp)** `Official` `Other` — AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.  
+  `jobs` `career` `resume` `oauth` `remote`
 - **[Nitrosend](https://docs.nitrosend.com/mcp)** `Official` `Ruby` — Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.  
   `email-marketing` `campaigns` `automation` `transactional-email` `oauth`
 - **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
@@ -934,6 +938,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `nonprofit` `donations` `france` `ticketing`
 - **[HireFerry](https://github.com/TokenNotIncluded/hireferry)** `Rust` — Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows.  
   `jobs` `recruiting` `resumes` `self-hosted`
+- **[HireLayer](https://github.com/HireLayer/hirelayer-mcp)** `Official` `TypeScript` — Parse resumes and CVs into structured JSON, extract weighted criteria from a job description, match and rank candidates with per-criterion explanations, and normalize skills.  
+  `recruiting` `resume-parsing` `hiring` `remote` `oauth`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
 - **[Invompt](https://mcp.invompt.com/mcp)** `Official` `TypeScript` — Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com  
