@@ -893,6 +893,25 @@
     "official": true
   },
   {
+    "name": "Checkout Page",
+    "url": "https://checkoutpage.com/mcp?utm_source=mcphq&utm_medium=listing",
+    "description": "Create and manage checkout pages, events, forms, products, coupons, customers, payments and subscriptions on Checkout Page, a checkout platform on Stripe Connect, over remote Streamable HTTP with OAuth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Checkout Page",
+    "tags": [
+      "payments",
+      "ecommerce",
+      "events",
+      "stripe",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.checkoutpage.com"
+    }
+  },
+  {
     "name": "RoboParts",
     "url": "https://github.com/lm203688/roboparts",
     "description": "Vendor-neutral robot hardware compatibility checker across 868 entities with three-state verdicts and ISO 9409-1 flange anchor.",
