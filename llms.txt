@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 534 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 535 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -525,6 +525,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Plaid MCP Server](https://plaid.com/docs/resources/mcp/): Connect bank accounts and retrieve financial transaction data. (TypeScript, official)
 - [Pocket Drives](https://github.com/RevList/pocket-drives-mcp): Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app. (TypeScript)
 - [QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server): Manage QuickBooks accounting records and financial reports. (TypeScript, official)
+- [Relaticle](https://github.com/relaticle/relaticle): Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields. (PHP, official)
 - [RentReboot](https://github.com/imiraoui/rentreboot-mcp): Search NYC apartments and renter guides, explore rent data, and access personal alerts and saved searches with scoped OAuth; website alert plans are separate. (Other, official)
 - [Requstory](https://requstory.com/developers/api/): Map how a company works from its website, who owns each process, and which steps AI agents can run; search public company maps and AI-readiness scores. (PHP, official)
 - [RestoSignals](https://github.com/paperandbeyond23-gif/restosignals-mcp): Finds US restaurants and bars 1-6 months before they open by fusing public liquor-license, food-permit and new-business filings into scored venues with owner contact. (Python, official)

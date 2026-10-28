@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 534 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 535 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5556,6 +5556,18 @@ Manage QuickBooks accounting records and financial reports.
 - Official: yes
 - Tags: accounting, finance, bookkeeping
 - Category: Finance, Commerce, and Business Apps
+
+### Relaticle
+
+Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields.
+
+- URL: https://github.com/relaticle/relaticle
+- Language: PHP
+- Provider: Relaticle
+- Official: yes
+- Tags: crm, sales, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.relaticle.com
 
 ### RentReboot
 

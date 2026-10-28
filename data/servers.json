@@ -5103,6 +5103,24 @@
     "official": true
   },
   {
+    "name": "Relaticle",
+    "url": "https://github.com/relaticle/relaticle",
+    "description": "Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Relaticle",
+    "tags": [
+      "crm",
+      "sales",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.relaticle.com"
+    }
+  },
+  {
     "name": "mcp-pool",
     "url": "https://github.com/yuzu-octopus/mcp-pool",
     "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
