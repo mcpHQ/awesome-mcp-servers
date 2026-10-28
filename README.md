@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-514-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-515-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (17)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (58)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (51)
-- [Filesystems and Documents](#filesystems-and-documents) (19)
+- [Filesystems and Documents](#filesystems-and-documents) (20)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (27)
 - [Communication and Productivity](#communication-and-productivity) (60)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (60)
@@ -363,6 +363,8 @@ Browse the web, scrape content, search, and automate browser interactions.
 
 Read and write files, convert documents, and connect to knowledge bases.
 
+- **[3Q Tools](https://getwold.com)** `Official` `JavaScript` — Buy-once Windows PDF and Excel tools with no subscription: 36 offline PDF commands and 8 auto-calculating spreadsheet templates, each with a direct checkout link.  
+  `pdf` `excel` `documents` `offline` `remote`
 - **[Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server)** `TypeScript` — Read and write Airtable bases, tables, and records via MCP.  
   `airtable` `spreadsheets` `data`
 - **[Comment.io MCP Server](https://comment.io/llms/mcp.md)** `Official` `Rust` — Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.  
