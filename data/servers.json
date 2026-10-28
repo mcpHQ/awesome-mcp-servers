@@ -4498,6 +4498,25 @@
     }
   },
   {
+    "name": "Speechyou MCP",
+    "url": "https://speechyou.com/mcp",
+    "description": "Search and read voice notes and meeting transcripts from Claude, with full transcripts, AI summaries, tags, recent notes and audio links through read-only OAuth access.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Speechyou",
+    "tags": [
+      "voice-notes",
+      "transcription",
+      "oauth",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.speechyou.com/api/mcp/mcp"
+    }
+  },
+  {
     "name": "402post",
     "url": "https://402post.com",
     "description": "Remote MCP server (streamable HTTP, no key) for paid classified listings for agents: list categories, validate, create, search and read listings; a listing costs $0.03 for 30 days over x402.",
