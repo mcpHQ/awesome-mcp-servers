@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 534 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 535 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2051,6 +2051,18 @@ Manage persistent agent filesystems, issue mount tickets and revoke mount sessio
 - Official: yes
 - Tags: filesystem, storage, stdio
 - Category: Cloud and Infrastructure
+
+### NetActuate MCP Server
+
+Answers from NetActuate's own published data: data centers and specs, compliance by site, internet exchanges, products and pricing, marketplace apps, docs and API, each linked to its source page.
+
+- URL: https://netactuate.com/mcp
+- Language: TypeScript
+- Provider: NetActuate
+- Official: yes
+- Tags: anycast, data-centers, edge, networking
+- Category: Cloud and Infrastructure
+- Streamable HTTP endpoint: https://netactuate.com/mcp
 
 ### Network Sketcher
 

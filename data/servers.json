@@ -4218,6 +4218,24 @@
     "official": true
   },
   {
+    "name": "NetActuate MCP Server",
+    "url": "https://netactuate.com/mcp",
+    "description": "Answers from NetActuate's own published data: data centers and specs, compliance by site, internet exchanges, products and pricing, marketplace apps, docs and API, each linked to its source page.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "NetActuate",
+    "tags": [
+      "anycast",
+      "data-centers",
+      "edge",
+      "networking"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://netactuate.com/mcp"
+    }
+  },
+  {
     "name": "Solana Pulse",
     "url": "https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway",
     "description": "Read-only pre-sign checks for Solana agents: dry-runs a transaction on mainnet, confirms it matches the requested transfer or swap, and rates token risk; 25 free calls per tool a day, then x402 in USDC.",

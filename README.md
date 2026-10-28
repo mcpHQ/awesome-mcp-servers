@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-534-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-535-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (59)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (52)
 - [Filesystems and Documents](#filesystems-and-documents) (21)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (27)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (28)
 - [Communication and Productivity](#communication-and-productivity) (64)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (60)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (55)
@@ -452,6 +452,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `status` `uptime` `incidents` `monitoring`
 - **[mountable.io](https://github.com/writeitai/mountable)** `Official` `Go` — Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid mountable.io service.  
   `filesystem` `storage` `stdio`
+- **[NetActuate MCP Server](https://netactuate.com/mcp)** `Official` `TypeScript` — Answers from NetActuate's own published data: data centers and specs, compliance by site, internet exchanges, products and pricing, marketplace apps, docs and API, each linked to its source page.  
+  `anycast` `data-centers` `edge` `networking`
 - **[Network Sketcher](https://github.com/cisco-open/network-sketcher)** `Python` — Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.  
   `networking` `diagrams` `automation` `cursor` `cisco`
 - **[Port MCP Server](https://github.com/port-labs/port-mcp-server)** `Official` `TypeScript` — Manage software catalog, scorecards, and actions in Port.io.  
