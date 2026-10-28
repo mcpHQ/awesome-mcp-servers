@@ -940,6 +940,9 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `finance` `trading` `charts` `crypto` `backtesting`
 - **[Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp)** `Official` `TypeScript` — People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.  
   `b2b-data` `enrichment` `people-search` `hiring-signals`
+- **[Lava / 熔岩](https://github.com/dustinliang666-blip/lava-mcp)** `Official` `TypeScript` — Read-only A-share stock and concept-board news-flow heat monitoring via structured remote MCP/REST for quant tools and AI Agent market research. Endpoint `https://lava.ai-dolphin.com/subscribe/v1/mcp` (API key). Docs: https://lava.ai-dolphin.com/subscribe/docs. Skill: https://lava.ai-dolphin.com/subscribe/v1/skill.
+  `a-share` `stocks` `market-research` `quant` `remote` `read-only`
+
 - **[Live Tennis API MCP](https://www.npmjs.com/package/livetennisapi-mcp)** `TypeScript` — Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.  
   `tennis` `sports` `live-scores` `fixtures` `event-markets`
 - **[MAQAMI Travel](https://github.com/negm17111995/mcp-server)** `Official` `JavaScript` — Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key.  
