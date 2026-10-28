@@ -3958,6 +3958,25 @@
     }
   },
   {
+    "name": "SEOclar",
+    "url": "https://seoclar.com/mcp-tools",
+    "description": "Provides keyword research, live SERPs, backlink analysis, site audits, and AI visibility data through a remote MCP server.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "SEOclar",
+    "tags": [
+      "seo",
+      "keyword-research",
+      "serp",
+      "backlinks",
+      "site-audit"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://seoclar.com/mcp"
+    }
+  },
+  {
     "name": "deed.page",
     "url": "https://deed.page/docs",
     "description": "Publishes HTML or a static folder to a permanent HTTPS URL with no account; update, version, restore and delete sites through a remote MCP server.",
