@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-534-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-535-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (21)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (27)
 - [Communication and Productivity](#communication-and-productivity) (64)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (60)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (61)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (55)
 - [Legal and Court Data](#legal-and-court-data) (7)
 - [Security and Identity](#security-and-identity) (28)
@@ -718,6 +718,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `video` `content-creation` `agents` `publishing`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
+- **[Speechyou MCP](https://speechyou.com/mcp)** `Official` `TypeScript` — Search and read voice notes and meeting transcripts from Claude, with full transcripts, AI summaries, tags, recent notes and audio links through read-only OAuth access.  
+  `voice-notes` `transcription` `oauth` `read-only` `remote`
 - **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** `Python` — Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file.  
   `memory` `rag` `obsidian` `sqlite` `knowledge-graph`
 - **[Sqwakie](https://github.com/alexcarney460-hue/walkie)** `Official` `TypeScript` — Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards.  

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 534 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 535 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -340,6 +340,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Selvedge](https://github.com/masondelan/selvedge): Local SQLite decision memory for coding agents to save and retrieve rationale, rejected approaches, and entity history. (Python)
 - [ShortSmash](https://github.com/hydope/shortsmash): MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms. (Python)
 - [SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp): AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage. (JavaScript)
+- [Speechyou MCP](https://speechyou.com/mcp): Search and read voice notes and meeting transcripts from Claude, with full transcripts, AI summaries, tags, recent notes and audio links through read-only OAuth access. (TypeScript, official)
 - [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory): Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file. (Python)
 - [Sqwakie](https://github.com/alexcarney460-hue/walkie): Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards. (TypeScript, official)
 - [Stivio](https://stivio.ai/mcp): AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts. (Other, official)
