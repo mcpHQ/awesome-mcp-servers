@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-464-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-465-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (52)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (47)
 - [Filesystems and Documents](#filesystems-and-documents) (18)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (24)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (25)
 - [Communication and Productivity](#communication-and-productivity) (55)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (54)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (49)
@@ -402,6 +402,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `aws` `finops` `terraform` `cloudformation` `read-only`
 - **[Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare)** `Official` `TypeScript` — Manage Workers, KV, R2, and Cloudflare platform resources.  
   `cloudflare` `edge` `workers`
+- **[CloudGPU MCP Server](https://github.com/mrhy7176/cloudgpu-mcp)** `Official` `JavaScript` — Rent per-minute cloud GPUs from an MCP client: browse available GPUs, launch an instance, run a job, download results, and destroy it on CloudGPU.  
+  `gpu` `cloud` `ai-infrastructure`
 - **[deed.page](https://deed.page/docs)** `Official` `TypeScript` — Publishes HTML or a static folder to a permanent HTTPS URL with no account; update, version, restore and delete sites through a remote MCP server.  
   `hosting` `static-sites` `deploy` `publish` `remote`
 - **[DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp)** `Official` `JavaScript` — Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.  

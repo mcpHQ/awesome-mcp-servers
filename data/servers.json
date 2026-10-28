@@ -3423,6 +3423,20 @@
     "official": true
   },
   {
+    "name": "CloudGPU MCP Server",
+    "url": "https://github.com/mrhy7176/cloudgpu-mcp",
+    "description": "Rent per-minute cloud GPUs from an MCP client: browse available GPUs, launch an instance, run a job, download results, and destroy it on CloudGPU.",
+    "category": "cloud-and-infrastructure",
+    "language": "JavaScript",
+    "provider": "CloudGPU",
+    "tags": [
+      "gpu",
+      "cloud",
+      "ai-infrastructure"
+    ],
+    "official": true
+  },
+  {
     "name": "Markovo",
     "url": "https://github.com/fisher-byte/markovo",
     "description": "Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio.",
