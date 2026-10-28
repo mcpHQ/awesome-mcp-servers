@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2085,6 +2085,18 @@ Two-way SMS bridge for coding agents: the agent texts you when it finishes or is
 - Tags: sms, notifications, human-in-the-loop, coding-agents
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.campfiresms.com/mcp
+
+### CiteWing
+
+Find AI-cited publisher prospects, review outreach and publisher replies, and draft emails requesting brand mentions.
+
+- URL: https://citewing.com/docs
+- Language: TypeScript
+- Provider: CiteWing
+- Official: yes
+- Tags: marketing, seo, outreach, email, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://citewing.com/mcp
 
 ### Cooper Email
 
