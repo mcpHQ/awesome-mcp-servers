@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 466 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4512,6 +4512,18 @@ Hosted MCP server for US company fundamentals as reported in SEC filings, filing
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.equibles.com/mcp
 
+### Feminiq Rides
+
+Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request.
+
+- URL: https://www.feminiqrides.nl/llms.txt
+- Language: JavaScript
+- Provider: Feminiq Rides
+- Official: yes
+- Tags: travel, taxi, booking, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://www.feminiqrides.nl/mcp
+
 ### Fincept MCP
 
 Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in.
@@ -4639,6 +4651,18 @@ Turn AI-host work into invoices you review before send — Continue as guest or 
 - Tags: invoicing, finance, oauth, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.invompt.com/mcp
+
+### Jet Cab AMS
+
+Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.
+
+- URL: https://www.jetcabams.nl/llms.txt
+- Language: JavaScript
+- Provider: Jet Cab AMS
+- Official: yes
+- Tags: travel, taxi, booking, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://www.jetcabams.nl/mcp
 
 ### Kandle
 

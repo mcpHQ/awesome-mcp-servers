@@ -2948,6 +2948,24 @@
     }
   },
   {
+    "name": "Feminiq Rides",
+    "url": "https://www.feminiqrides.nl/llms.txt",
+    "description": "Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Feminiq Rides",
+    "tags": [
+      "travel",
+      "taxi",
+      "booking",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.feminiqrides.nl/mcp"
+    }
+  },
+  {
     "name": "Kleap",
     "url": "https://github.com/kleaphq/cli",
     "description": "Create, edit, and publish websites from AI clients through a hosted MCP server.",
@@ -4423,6 +4441,24 @@
       "ticketing"
     ],
     "official": false
+  },
+  {
+    "name": "Jet Cab AMS",
+    "url": "https://www.jetcabams.nl/llms.txt",
+    "description": "Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Jet Cab AMS",
+    "tags": [
+      "travel",
+      "taxi",
+      "booking",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.jetcabams.nl/mcp"
+    }
   },
   {
     "name": "MCP Server Templates",
