@@ -3951,6 +3951,24 @@
     }
   },
   {
+    "name": "Pallyy",
+    "url": "https://pallyy.com/docs/api/mcp",
+    "description": "Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Pallyy",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.pallyy.com/mcp"
+    }
+  },
+  {
     "name": "Agent Payment Node",
     "url": "https://github.com/nuanu-ai/agent-payment-node",
     "description": "Local CLI and stdio MCP payment tools for AI agents on macOS Apple Silicon, with foreground human approval for signing.",
