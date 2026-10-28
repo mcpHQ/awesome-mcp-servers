@@ -228,7 +228,7 @@
   {
     "name": "Agent Media",
     "url": "https://github.com/agent-media-ai/agent-media",
-    "description": "Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.",
+    "description": "Hosted MCP server that makes short drama series (micro-dramas, sitcoms, K-drama style, any language) and other short vertical videos from Claude, ChatGPT or Codex, with the same cast every episode.",
     "category": "communication-and-productivity",
     "language": "Other",
     "provider": "Agent Media",
@@ -360,6 +360,24 @@
       "sse": "https://agentservices.to/mcp"
     },
     "official": false
+  },
+  {
+    "name": "ipvolt Proxy Toolkit",
+    "url": "https://github.com/ipvolt/proxy-toolkit-mcp",
+    "description": "Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "ipvolt",
+    "tags": [
+      "proxy",
+      "networking",
+      "troubleshooting",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.ipvolt.com/mcp"
+    }
   },
   {
     "name": "agmail",
@@ -903,11 +921,8 @@
       "robotics",
       "hardware",
       "compatibility",
-      "iot",
       "industrial",
-      "three-state",
-      "iso-9409-1",
-      "3d-printing"
+      "iso-9409-1"
     ],
     "official": true
   },
@@ -2693,6 +2708,22 @@
     }
   },
   {
+    "name": "Polish MCP Servers",
+    "url": "https://github.com/kamilkaczmareksolutions/polish-mcp-servers",
+    "description": "Stdio server with 12 read-only tools for Polish law and public registers (Sejm ELI acts, SAOS judgments, tenders, building permits, land parcels and zoning), each running a public Apify Actor billed to your Apify account.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "legal",
+      "court-data",
+      "poland",
+      "public-registers",
+      "apify"
+    ],
+    "official": false
+  },
+  {
     "name": "CodeTrendy",
     "url": "https://codetrendy.com/mcp",
     "description": "Read-only MCP server for the CodeTrendy startup discovery directory: search 682 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.",
@@ -3543,11 +3574,10 @@
     "provider": "BusyBee",
     "tags": [
       "social-media",
+      "remote",
       "tiktok",
       "instagram",
-      "youtube",
-      "comments",
-      "remote-mcp"
+      "youtube"
     ],
     "official": false
   },
@@ -3652,6 +3682,21 @@
       "remote"
     ],
     "official": false
+  },
+  {
+    "name": "OpenAgentForum",
+    "url": "https://github.com/swarmrelay/openagentforum",
+    "description": "Coordination mesh for autonomous agents as an MCP server: signed message envelopes any peer verifies offline, encrypted private channels, a searchable intel exchange, a task bounty board and ledger polls.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "OpenAgentForum",
+    "tags": [
+      "agents",
+      "collaboration",
+      "tasks",
+      "encrypted"
+    ],
+    "official": true
   },
   {
     "name": "CreditUnions",
@@ -4299,6 +4344,24 @@
     "official": true
   },
   {
+    "name": "LifeVerse Product Discovery",
+    "url": "https://github.com/lifeversegu/lifeverse-mcp",
+    "description": "Discover, search, inspect, and recommend eleven public LifeVerse AI products and interactive experiences through four read-only tools.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "LifeVerse",
+    "tags": [
+      "product-discovery",
+      "recommendations",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://lifeverse.gufreelancer.com/api/mcp"
+    }
+  },
+  {
     "name": "MCP Fetch",
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
     "description": "Fetch web content and convert HTML to markdown for LLM consumption.",
@@ -4383,6 +4446,21 @@
     "official": true
   },
   {
+    "name": "AgentFEM MCP",
+    "url": "https://github.com/haoming-luo/agentfem-mcp",
+    "description": "Create, validate and run finite-element projects and inspect numerical results through local stdio tools, with a separately installed compatible AgentFEM scientific runtime.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "AgentFEM",
+    "tags": [
+      "finite-element",
+      "simulation",
+      "scientific-computing",
+      "local"
+    ],
+    "official": true
+  },
+  {
     "name": "MCP Registry",
     "url": "https://github.com/modelcontextprotocol/registry",
     "description": "Official MCP registry service and API for discovering publicly available MCP servers.",
@@ -4439,6 +4517,25 @@
       "ticketing"
     ],
     "official": false
+  },
+  {
+    "name": "Docsy",
+    "url": "https://github.com/getremcp/docsy-plugin",
+    "description": "Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "getremcp",
+    "tags": [
+      "documentation",
+      "developer-tools",
+      "versions",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://docsy.remcp.site/mcp/registry"
+    }
   },
   {
     "name": "MCP Server Templates",
@@ -4853,6 +4950,25 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://needhave.io/mcp"
+    }
+  },
+  {
+    "name": "NeverApply",
+    "url": "https://github.com/kasovy/neverapply-mcp",
+    "description": "AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "NeverApply",
+    "tags": [
+      "jobs",
+      "career",
+      "resume",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://neverapply.co/mcp"
     }
   },
   {
@@ -5305,6 +5421,24 @@
       "sql"
     ],
     "official": true
+  },
+  {
+    "name": "Landed MCP",
+    "url": "https://github.com/landedjobs/landed-mcp",
+    "description": "Search AI and tech jobs ranked against a role brief, read a job's application form fields, and fetch free interview prep through a hosted MCP endpoint.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Landed",
+    "tags": [
+      "jobs",
+      "job-search",
+      "interview-prep",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.landed.jobs/mcp"
+    }
   },
   {
     "name": "Playwright MCP",
@@ -6305,6 +6439,25 @@
     }
   },
   {
+    "name": "Waspes",
+    "url": "https://waspes.com/api",
+    "description": "AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Waspes",
+    "tags": [
+      "website-builder",
+      "3d-generation",
+      "roblox",
+      "image-to-3d",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://waspes.com/api/mcp"
+    }
+  },
+  {
     "name": "SpellBook Finance",
     "url": "https://spellbook-finance.com/agent/mcp.md",
     "description": "Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.",
@@ -6455,6 +6608,25 @@
       "python"
     ],
     "official": false
+  },
+  {
+    "name": "ReMCP",
+    "url": "https://github.com/getremcp/remcp",
+    "description": "Securely access computers explicitly paired to your account through a hosted OAuth MCP connection, including state-changing file, terminal, browser, and desktop tools.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "getremcp",
+    "tags": [
+      "computer-use",
+      "desktop-automation",
+      "terminal",
+      "browser",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://remcp.site/mcp"
+    }
   },
   {
     "name": "Supabase MCP Server",
@@ -6991,6 +7163,25 @@
     "official": false
   },
   {
+    "name": "AI Agents Listing",
+    "url": "https://github.com/nyyhao/aiagentslisting-mcp",
+    "description": "Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "AI Agents Listing",
+    "tags": [
+      "directory",
+      "discovery",
+      "mcp",
+      "agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://aiagentslisting.com/api/mcp"
+    }
+  },
+  {
     "name": "Vault MCP Server",
     "url": "https://github.com/hashicorp/vault-mcp-server",
     "description": "Read secrets and manage HashiCorp Vault policies via MCP.",
@@ -7173,6 +7364,25 @@
       "risk"
     ],
     "official": true
+  },
+  {
+    "name": "HireLayer",
+    "url": "https://github.com/HireLayer/hirelayer-mcp",
+    "description": "Parse resumes and CVs into structured JSON, extract weighted criteria from a job description, match and rank candidates with per-criterion explanations, and normalize skills.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "HireLayer",
+    "tags": [
+      "recruiting",
+      "resume-parsing",
+      "hiring",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://hirelayer.co/mcp"
+    }
   },
   {
     "name": "Worklittle Jobs",
