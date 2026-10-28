@@ -4202,6 +4202,24 @@
     }
   },
   {
+    "name": "Edusign MCP",
+    "url": "https://developers.edusign.com/docs/mcp",
+    "description": "Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Edusign",
+    "tags": [
+      "education",
+      "attendance",
+      "documents",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.edusign.com"
+    }
+  },
+  {
     "name": "PushNotif",
     "url": "https://github.com/AarsyDesign/pushnotif-mcp",
     "description": "Hosted remote and stdio MCP server with 24 tools for Web Push (VAPID), Android (FCM), iOS (APNs), In-App Popups, Social Proof Toasts, and Transactional Email OTP.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 534 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 535 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2366,6 +2366,18 @@ Read and send messages in Discord servers and channels.
 - Official: no
 - Tags: discord, chat, community
 - Category: Communication and Productivity
+
+### Edusign MCP
+
+Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server.
+
+- URL: https://developers.edusign.com/docs/mcp
+- Language: TypeScript
+- Provider: Edusign
+- Official: yes
+- Tags: education, attendance, documents, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.edusign.com
 
 ### Enhanciar
 
