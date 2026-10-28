@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 470 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -609,6 +609,18 @@ Manage translation keys, translate strings, and sync localization files with Int
 - Tags: localization, translation, i18n, developer-tools
 - Category: Developer Tools and Code Intelligence
 
+### ipvolt Proxy Toolkit
+
+Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure.
+
+- URL: https://github.com/ipvolt/proxy-toolkit-mcp
+- Language: TypeScript
+- Provider: ipvolt
+- Official: yes
+- Tags: proxy, networking, troubleshooting, remote
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://mcp.ipvolt.com/mcp
+
 ### Kleap
 
 Create, edit, and publish websites from AI clients through a hosted MCP server.
@@ -774,7 +786,7 @@ Vendor-neutral robot hardware compatibility checker across 868 entities with thr
 - Language: JavaScript
 - Provider: RoboParts (lm203688)
 - Official: yes
-- Tags: robotics, hardware, compatibility, iot, industrial, three-state, iso-9409-1, 3d-printing
+- Tags: robotics, hardware, compatibility, industrial, iso-9409-1
 - Category: Developer Tools and Code Intelligence
 
 ### SanctionsKit Developer MCP
@@ -1110,7 +1122,7 @@ Hosted remote MCP server for public social media data across TikTok, Instagram, 
 - Language: Python
 - Provider: BusyBee
 - Official: no
-- Tags: social-media, tiktok, instagram, youtube, comments, remote-mcp
+- Tags: social-media, remote, tiktok, instagram, youtube
 - Category: Browsers, Search, and Web Automation
 
 ### Chrome DevTools MCP
@@ -1960,7 +1972,7 @@ Hosted MCP server that rings the user's iPhone, reads the agent's question aloud
 
 ### Agent Media
 
-Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.
+Hosted MCP server that makes short drama series (micro-dramas, sitcoms, K-drama style, any language) and other short vertical videos from Claude, ChatGPT or Codex, with the same cast every episode.
 
 - URL: https://github.com/agent-media-ai/agent-media
 - Language: Other
@@ -2295,6 +2307,18 @@ Calculates Muslim prayer times by location and regional method, including next-p
 - Official: no
 - Tags: prayer-times, islamic, location, reminders
 - Category: Communication and Productivity
+
+### NeverApply
+
+AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.
+
+- URL: https://github.com/kasovy/neverapply-mcp
+- Language: Other
+- Provider: NeverApply
+- Official: yes
+- Tags: jobs, career, resume, oauth, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://neverapply.co/mcp
 
 ### Nitrosend
 
@@ -3197,6 +3221,18 @@ Official VideoGen server for creating and editing videos, images, voiceovers, mu
 - Tags: video, images, audio, marketing
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.videogen.io/mcp
+
+### Waspes
+
+AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server.
+
+- URL: https://waspes.com/api
+- Language: Other
+- Provider: Waspes
+- Official: yes
+- Tags: website-builder, 3d-generation, roblox, image-to-3d, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://waspes.com/api/mcp
 
 ### Zep MCP Server
 
@@ -4629,6 +4665,18 @@ Self-hostable talent matching platform with read-only MCP search for public jobs
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://hireferry.lmm.best/mcp/public
 
+### HireLayer
+
+Parse resumes and CVs into structured JSON, extract weighted criteria from a job description, match and rank candidates with per-criterion explanations, and normalize skills.
+
+- URL: https://github.com/HireLayer/hirelayer-mcp
+- Language: TypeScript
+- Provider: HireLayer
+- Official: yes
+- Tags: recruiting, resume-parsing, hiring, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://hirelayer.co/mcp
+
 ### HubSpot MCP Server
 
 Access HubSpot contacts, deals, and marketing automation data.
@@ -5210,6 +5258,17 @@ Search thousands of MCP servers, agents, and CLI tools by capability.
 - Provider: Community
 - Official: no
 - Tags: discovery, search, registry
+- Category: Utilities and Examples
+
+### AgentFEM MCP
+
+Create, validate and run finite-element projects and inspect numerical results through local stdio tools, with a separately installed compatible AgentFEM scientific runtime.
+
+- URL: https://github.com/haoming-luo/agentfem-mcp
+- Language: Python
+- Provider: AgentFEM
+- Official: yes
+- Tags: finite-element, simulation, scientific-computing, local
 - Category: Utilities and Examples
 
 ### Anyquery
