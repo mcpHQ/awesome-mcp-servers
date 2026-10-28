@@ -1972,7 +1972,7 @@ Hosted MCP server that rings the user's iPhone, reads the agent's question aloud
 
 ### Agent Media
 
-Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.
+Hosted MCP server that makes short drama series (micro-dramas, sitcoms, K-drama style, any language) and other short vertical videos from Claude, ChatGPT or Codex, with the same cast every episode.
 
 - URL: https://github.com/agent-media-ai/agent-media
 - Language: Other
