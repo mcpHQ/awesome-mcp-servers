@@ -3442,6 +3442,25 @@
     }
   },
   {
+    "name": "EventSend",
+    "url": "https://eventsend.io/docs/mcp",
+    "description": "Ask your AI about your product's events, delivery health and usage: search events, follow a customer's timeline, and see why a Slack, Discord or webhook notification failed. Read-only, over OAuth.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "EventSend",
+    "tags": [
+      "events",
+      "observability",
+      "notifications",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://eventsend.io/mcp"
+    }
+  },
+  {
     "name": "deed.page",
     "url": "https://deed.page/docs",
     "description": "Publishes HTML or a static folder to a permanent HTTPS URL with no account; update, version, restore and delete sites through a remote MCP server.",
