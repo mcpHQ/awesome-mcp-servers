@@ -3879,6 +3879,25 @@
     }
   },
   {
+    "name": "Leal",
+    "url": "https://www.getleal.com/mcp",
+    "description": "Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Ruby",
+    "provider": "Leal",
+    "tags": [
+      "loyalty",
+      "apple-wallet",
+      "retail",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.getleal.com/mcp"
+    }
+  },
+  {
     "name": "Stivio",
     "url": "https://stivio.ai/mcp",
     "description": "AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts.",
