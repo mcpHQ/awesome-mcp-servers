@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 464 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 465 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -277,6 +277,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Dare MCP Server](https://github.com/avi-aggarwal14/dare-mcp-server): Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs. (TypeScript)
 - [Decide Runtime](https://www.decide.fyi/mcp#connect-runtime): Evaluate supplied facts against approved rules and read/export owned decision records via scoped bearer or registered OAuth/PKCE; USD 10/1,000 records in a controlled business pilot, with no external execution. (JavaScript, official)
 - [DeltaX Preflight](https://github.com/DeltaX-Public/deltax-preflight): Preview local stdio MCP server checks finite candidate proposals against separate policy and evidence, with admissible candidates and SHA-256 receipts; it does not authenticate facts, select candidates, execute actions or grant authority. (JavaScript, official)
+- [Easy-Peasy.AI](https://easy-peasy.ai/mcp): Hosted Easy-Peasy.AI server: run 200+ writing templates, create and edit images, make AI videos, turn text into speech and transcribe audio or video from any MCP client, with OAuth sign-in or an API key. (TypeScript, official)
 - [fitlog-mcp](https://github.com/hahahahahahahahah6/fitlog-mcp): Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by voice, track personal records, and get workout plans. (Python)
 - [Graphiti MCP Server](https://github.com/getzep/graphiti): Temporal knowledge graphs for agent memory and context building. (Python, official)
 - [Hugging Face MCP Server](https://github.com/huggingface/hf-mcp-server): Access Hugging Face models, datasets, and Spaces from MCP clients. (TypeScript, official)

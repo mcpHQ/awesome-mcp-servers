@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2787,6 +2787,18 @@ Preview local stdio MCP server checks finite candidate proposals against separat
 - Official: yes
 - Tags: preflight, policy, evidence, stdio, receipts
 - Category: AI, Agents, and Memory
+
+### Easy-Peasy.AI
+
+Hosted Easy-Peasy.AI server: run 200+ writing templates, create and edit images, make AI videos, turn text into speech and transcribe audio or video from any MCP client, with OAuth sign-in or an API key.
+
+- URL: https://easy-peasy.ai/mcp
+- Language: TypeScript
+- Provider: Easy-Peasy.AI
+- Official: yes
+- Tags: image-generation, video-generation, text-to-speech, transcription, copywriting
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://easy-peasy.ai/mcp
 
 ### fitlog-mcp
 

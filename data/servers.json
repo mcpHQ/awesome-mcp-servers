@@ -4584,6 +4584,25 @@
     "official": true
   },
   {
+    "name": "Easy-Peasy.AI",
+    "url": "https://easy-peasy.ai/mcp",
+    "description": "Hosted Easy-Peasy.AI server: run 200+ writing templates, create and edit images, make AI videos, turn text into speech and transcribe audio or video from any MCP client, with OAuth sign-in or an API key.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Easy-Peasy.AI",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "text-to-speech",
+      "transcription",
+      "copywriting"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://easy-peasy.ai/mcp"
+    }
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://docs.mem0.ai/platform/mem0-mcp",
     "description": "Hosted persistent memory layer for personalized agent interactions.",
