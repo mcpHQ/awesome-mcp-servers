@@ -2180,7 +2180,7 @@
   {
     "name": "Paper Plane Post",
     "url": "https://paperplanepost.com/for/agents",
-    "description": "Create an unpaid photo postcard draft, then review and pay for printing and mailing on the website.",
+    "description": "Create and send an AI-illustrated postcard anywhere in the world",
     "category": "communication-and-productivity",
     "language": "TypeScript",
     "provider": "Paper Plane Post, Inc.",
@@ -2867,6 +2867,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.usegrowo.com/"
+    }
+  },
+  {
+    "name": "Tera Studio",
+    "url": "https://terastudio.co/ai-assistants/",
+    "description": "Find a song's key and tempo or move it up or down by up to 6 semitones, with the file processed in the user's browser and never uploaded, and get the steps to hear a song in the user's own voice.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Tera Studio",
+    "tags": [
+      "music",
+      "audio",
+      "singing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://terastudio.co/mcp"
     }
   },
   {
@@ -4446,16 +4464,6 @@
     "endpoints": {
       "streamableHttp": "https://mcp.zip-codes.com/mcp"
     }
-  },
-  {
-    "name": "FastOCR MCP",
-    "url": "https://github.com/fastocr-org/fastocr-mcp",
-    "description": "OCR local PDF files through the FastOCR API and check API balance from MCP clients.",
-    "category": "filesystems-and-documents",
-    "language": "Python",
-    "provider": "FastOCR",
-    "tags": ["ocr", "pdf", "documents"],
-    "official": true
   },
   {
     "name": "402registry",
@@ -6795,6 +6803,24 @@
     "official": false
   },
   {
+    "name": "Orizn Visa",
+    "url": "https://github.com/MattJeff/orizn-mcp-server",
+    "description": "Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Orizn",
+    "tags": [
+      "visa",
+      "travel",
+      "immigration",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://visa.orizn.app/mcp"
+    }
+  },
+  {
     "name": "SemanticHub",
     "url": "https://semantichub.app/docs",
     "description": "Official remote server that monitors news sources, clusters articles by topic and generates texts from them; OAuth 2 or Bearer token, free plan.",
@@ -7066,6 +7092,20 @@
     "endpoints": {
       "streamableHttp": "https://mcp.skyaccess.com/mcp"
     }
+  },
+  {
+    "name": "FastOCR MCP",
+    "url": "https://github.com/fastocr-org/fastocr-mcp",
+    "description": "OCR local PDF files through the FastOCR API and check API balance from MCP clients.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "FastOCR",
+    "tags": [
+      "ocr",
+      "pdf",
+      "documents"
+    ],
+    "official": true
   },
   {
     "name": "Slack MCP Server",
@@ -7528,6 +7568,25 @@
     }
   },
   {
+    "name": "Iris",
+    "url": "https://iriscan.app/mcp",
+    "description": "Hosted on-chain investigations: wallet analysis, fund tracing through mixers, exchanges and instant swaps, and Solana token insiders, on Solana, EVM chains, Bitcoin and Tron. API key (10 free calls a day) or x402 per call.",
+    "category": "security-and-identity",
+    "language": "Rust",
+    "provider": "Iris",
+    "tags": [
+      "blockchain",
+      "crypto-forensics",
+      "solana",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://iriscan.app/mcp"
+    }
+  },
+  {
     "name": "TableJourney",
     "url": "https://github.com/lewismvaughan/tablejourney-mcp",
     "description": "Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth.",
@@ -7712,6 +7771,22 @@
     "endpoints": {
       "streamableHttp": "https://there-there.app/mcp"
     }
+  },
+  {
+    "name": "Iris Code",
+    "url": "https://www.iriscode.co/mcp",
+    "description": "Local code-quality rules, findings, preview-first safe fixes, refactor verification and gate results for coding agents.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Iris Code",
+    "tags": [
+      "code-quality",
+      "static-analysis",
+      "refactoring",
+      "security",
+      "local"
+    ],
+    "official": true
   },
   {
     "name": "Nhost MCP Server",

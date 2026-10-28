@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 529 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 533 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -643,6 +643,17 @@ Search reviewed proxy guides, generate tested proxy configuration templates for 
 - Tags: proxy, networking, troubleshooting, remote
 - Category: Developer Tools and Code Intelligence
 - Streamable HTTP endpoint: https://mcp.ipvolt.com/mcp
+
+### Iris Code
+
+Local code-quality rules, findings, preview-first safe fixes, refactor verification and gate results for coding agents.
+
+- URL: https://www.iriscode.co/mcp
+- Language: TypeScript
+- Provider: Iris Code
+- Official: yes
+- Tags: code-quality, static-analysis, refactoring, security, local
+- Category: Developer Tools and Code Intelligence
 
 ### Kleap
 
@@ -2592,7 +2603,7 @@ Schedules social media posts from an AI agent: lists social sets, creates and up
 
 ### Paper Plane Post
 
-Create an unpaid photo postcard draft, then review and pay for printing and mailing on the website.
+Create and send an AI-illustrated postcard anywhere in the world
 
 - URL: https://paperplanepost.com/for/agents
 - Language: TypeScript
@@ -4487,6 +4498,18 @@ Look up an AI agent's reputation built only from work both parties signed, and c
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://api.inamprotocol.org/mcp
 
+### Iris
+
+Hosted on-chain investigations: wallet analysis, fund tracing through mixers, exchanges and instant swaps, and Solana token insiders, on Solana, EVM chains, Bitcoin and Tron. API key (10 free calls a day) or x402 per call.
+
+- URL: https://iriscan.app/mcp
+- Language: Rust
+- Provider: Iris
+- Official: yes
+- Tags: blockchain, crypto-forensics, solana, x402, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://iriscan.app/mcp
+
 ### ISMS Copilot
 
 The compliance specialist your AI calls: ISO 27001, SOC 2, GDPR, NIS 2, DORA and more, as a hosted MCP server with OAuth sign-in (free plan available).
@@ -5420,6 +5443,18 @@ Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, con
 - Tags: seo, google-ads, meta-ads, marketing
 - Category: Finance, Commerce, and Business Apps
 
+### Orizn Visa
+
+Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs.
+
+- URL: https://github.com/MattJeff/orizn-mcp-server
+- Language: TypeScript
+- Provider: Orizn
+- Official: yes
+- Tags: visa, travel, immigration, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://visa.orizn.app/mcp
+
 ### OutreachGenie
 
 Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.
@@ -6137,6 +6172,18 @@ Where to eat in 222 cities, signature dishes, and dates of the next edition of 1
 - Tags: travel, food, restaurants, festivals, remote
 - Category: Utilities and Examples
 - Streamable HTTP endpoint: https://tablejourney.com/mcp
+
+### Tera Studio
+
+Find a song's key and tempo or move it up or down by up to 6 semitones, with the file processed in the user's browser and never uploaded, and get the steps to hear a song in the user's own voice.
+
+- URL: https://terastudio.co/ai-assistants/
+- Language: Python
+- Provider: Tera Studio
+- Official: yes
+- Tags: music, audio, singing, remote
+- Category: Utilities and Examples
+- Streamable HTTP endpoint: https://terastudio.co/mcp
 
 ### Weather MCP Server
 
