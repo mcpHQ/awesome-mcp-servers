@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1306,6 +1306,18 @@ MCP server that completes authorized test or owned verification flows in an agen
 - Official: yes
 - Tags: browser-automation, agent-completion, playwright, cdp, verification
 - Category: Browsers, Search, and Web Automation
+
+### RecordHTML
+
+Record public web pages or HTML5 creatives (banners, ads, animations) to MP4, WebM or GIF in a real browser and get a signed video link; remote Streamable HTTP with OAuth 2.1 or an API key.
+
+- URL: https://recordhtml.com/mcp
+- Language: TypeScript
+- Provider: RecordHTML
+- Official: yes
+- Tags: video, screen-recording, html5-ads, remote, oauth
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://mcp.recordhtml.com
 
 ### Rolês em SP
 

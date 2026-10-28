@@ -5615,6 +5615,25 @@
     "official": true
   },
   {
+    "name": "RecordHTML",
+    "url": "https://recordhtml.com/mcp",
+    "description": "Record public web pages or HTML5 creatives (banners, ads, animations) to MP4, WebM or GIF in a real browser and get a signed video link; remote Streamable HTTP with OAuth 2.1 or an API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "RecordHTML",
+    "tags": [
+      "video",
+      "screen-recording",
+      "html5-ads",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.recordhtml.com"
+    }
+  },
+  {
     "name": "Redis MCP Server",
     "url": "https://github.com/redis/mcp-redis",
     "description": "Read and write Redis keys, lists, and data structures through MCP.",
