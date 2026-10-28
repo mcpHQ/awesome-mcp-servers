@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 464 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 465 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -430,6 +430,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Chord](https://github.com/getchordlabs/chord): Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial. (TypeScript, official)
 - [Clera](https://github.com/getclera/mcp): Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server. (TypeScript, official)
 - [CreditUnions](https://creditunions.fyi): Query federally insured US credit unions from NCUA call report data by city and state: charter, field of membership, assets, members and branches. (TypeScript)
+- [Darioa Web Developer](https://www.darioa.nl/llms.txt): Remote server for a one-person web developer in the Netherlands: list fixed-price websites, booking sites, webshops and web apps, get the price for a described need, see client work and ask for contact. (TypeScript, official)
 - [Datacircle](https://datacircle.dev/docs/mcp): Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor. (Python, official)
 - [datawebot](https://github.com/datawebot/datawebot-mcp): Hosted product search and seller prices across online shops worldwide, plus extraction jobs for Amazon and Shopify pages, over remote Streamable HTTP with OAuth or an API key. (Other, official)
 - [Dexra](https://github.com/dexra-dev/mcp): Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC. (JavaScript, official)

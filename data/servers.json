@@ -4000,6 +4000,25 @@
     }
   },
   {
+    "name": "Darioa Web Developer",
+    "url": "https://www.darioa.nl/llms.txt",
+    "description": "Remote server for a one-person web developer in the Netherlands: list fixed-price websites, booking sites, webshops and web apps, get the price for a described need, see client work and ask for contact.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "darioa",
+    "tags": [
+      "web-development",
+      "website",
+      "ecommerce",
+      "quote",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.darioa.nl/mcp"
+    }
+  },
+  {
     "name": "WebExtract",
     "url": "https://github.com/nyx464664816-stack/webextract",
     "description": "Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).",

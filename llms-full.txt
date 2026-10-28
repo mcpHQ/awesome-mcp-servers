@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4439,6 +4439,18 @@ Query federally insured US credit unions from NCUA call report data by city and 
 - Tags: credit-unions, ncua, banking, directory
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://creditunions.fyi/mcp
+
+### Darioa Web Developer
+
+Remote server for a one-person web developer in the Netherlands: list fixed-price websites, booking sites, webshops and web apps, get the price for a described need, see client work and ask for contact.
+
+- URL: https://www.darioa.nl/llms.txt
+- Language: TypeScript
+- Provider: darioa
+- Official: yes
+- Tags: web-development, website, ecommerce, quote, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://www.darioa.nl/mcp
 
 ### Datacircle
 
