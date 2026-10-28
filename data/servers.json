@@ -3879,6 +3879,24 @@
     }
   },
   {
+    "name": "Requstory",
+    "url": "https://requstory.com/developers/api/",
+    "description": "Map how a company works from its website, who owns each process, and which steps AI agents can run; search public company maps and AI-readiness scores.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Requstory",
+    "tags": [
+      "business-process",
+      "operating-model",
+      "ai-agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://requstory.com/mcp"
+    }
+  },
+  {
     "name": "Stivio",
     "url": "https://stivio.ai/mcp",
     "description": "AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts.",
