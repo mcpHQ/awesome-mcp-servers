@@ -14,6 +14,16 @@
     "official": false
   },
   {
+    "name": "FastOCR MCP",
+    "url": "https://github.com/fastocr-org/fastocr-mcp",
+    "description": "OCR local PDF files through the FastOCR API and check API balance from MCP clients.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "FastOCR",
+    "tags": ["ocr", "pdf", "documents"],
+    "official": true
+  },
+  {
     "name": "2Captcha MCP",
     "url": "https://github.com/2captcha/2captcha-mcp",
     "description": "Scrape pages past anti-bot protection, parse marketplaces into JSON, automate a browser, and solve CAPTCHAs.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 528 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 529 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -170,6 +170,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server): Read and write Airtable bases, tables, and records via MCP. (TypeScript)
 - [Comment.io MCP Server](https://comment.io/llms/mcp.md): Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server. (Rust, official)
 - [DocuQueue MCP](https://github.com/docuqueue/docuqueue-mcp): Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier. (TypeScript, official)
+- [FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp): OCR local PDF files through the FastOCR API and check API balance from MCP clients. (Python, official)
 - [Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive): Access and search files in Google Drive from MCP clients. (Python)
 - [Grandpa's AI](https://github.com/wescorp/grandpasai-mcp): Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization. (JavaScript, official)
 - [isGenAI](https://isgenai.com/developers/mcp): Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels. (TypeScript, official)

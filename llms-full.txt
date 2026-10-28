@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 528 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 529 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1648,6 +1648,17 @@ Generate PDFs from templates, fill existing PDF forms, and batch-create invoices
 - Provider: DocuQueue
 - Official: yes
 - Tags: pdf, document-generation, form-filling, invoice
+- Category: Filesystems and Documents
+
+### FastOCR MCP
+
+OCR local PDF files through the FastOCR API and check API balance from MCP clients.
+
+- URL: https://github.com/fastocr-org/fastocr-mcp
+- Language: Python
+- Provider: FastOCR
+- Official: yes
+- Tags: ocr, pdf, documents
 - Category: Filesystems and Documents
 
 ### Google Drive MCP Server
