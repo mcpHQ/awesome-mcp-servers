@@ -3706,6 +3706,24 @@
     }
   },
   {
+    "name": "Scoopkit",
+    "url": "https://github.com/nateslabach/scoopkit-mcp",
+    "description": "Hosted AI-industry news server: returns each story once as a taxonomy-classified event with sources and correction history; no key needed to start, Pro adds semantic search.",
+    "category": "data-analytics-and-bi",
+    "language": "Python",
+    "provider": "Scoopkit",
+    "tags": [
+      "news",
+      "ai-industry",
+      "events",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.scoopkit.dev/mcp"
+    }
+  },
+  {
     "name": "Baizhi Cloud Browser (CapyBrowser)",
     "url": "https://github.com/chaitin/baizhi-cloud-browser",
     "description": "Manage cloud browser sessions, saved profiles, human handoff and downloads via hosted MCP; page actions require a CDP client, and a Baizhi API key and paid browser runtime apply.",
