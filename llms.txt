@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 534 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 535 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -277,6 +277,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Telegram Archive MCP Server](https://github.com/GeiserX/telegram-archive-mcp): Search messages, browse chats and read archived Telegram history from a self-hosted Telegram-Archive instance. (Go, official)
 - [There There](https://there-there.app/docs/integrations/mcp-server): Read, search and triage There There helpdesk tickets, save private reply drafts, send replies and manage knowledge base articles, limited to the abilities granted over OAuth. (PHP, official)
 - [Timesheet MCP Server](https://github.com/timesheetIO/timesheet-mcp): Official Timesheet time tracking server: run timers, log work, manage projects, todos, expenses and absences, and pull reports and exports. (TypeScript, official)
+- [Toads](https://github.com/854Labs/toads): Edit screen recordings in Toads on your Mac: tidy up filler words, cut by transcript, add captions, titles and zooms, and export. (Swift, official)
 - [Todoist MCP Server](https://github.com/abhiz123/todoist-mcp-server): Manage Todoist tasks, projects, and due dates from AI assistants. (TypeScript)
 - [Unblockd](https://unblockd.ai/setup.md): Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask. (TypeScript, official)
 - [Unsora](https://github.com/Shipped-Studio/unsora): AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more. (TypeScript, official)

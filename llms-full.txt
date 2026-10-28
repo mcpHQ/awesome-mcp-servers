@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 534 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 535 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2821,6 +2821,17 @@ Official Timesheet time tracking server: run timers, log work, manage projects, 
 - Tags: time-tracking, timesheet, productivity, hosted
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://mcp.timesheet.io
+
+### Toads
+
+Edit screen recordings in Toads on your Mac: tidy up filler words, cut by transcript, add captions, titles and zooms, and export.
+
+- URL: https://github.com/854Labs/toads
+- Language: Swift
+- Provider: 854Labs
+- Official: yes
+- Tags: video-editing, screen-recording, captions, macos, local
+- Category: Communication and Productivity
 
 ### Todoist MCP Server
 
