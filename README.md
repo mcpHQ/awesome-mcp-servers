@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-464-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-465-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (49)
 - [Legal and Court Data](#legal-and-court-data) (6)
 - [Security and Identity](#security-and-identity) (25)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (88)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (89)
 - [Utilities and Examples](#utilities-and-examples) (18)
 
 <a id="official-and-reference"></a>
@@ -940,6 +940,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `finance` `trading` `charts` `crypto` `backtesting`
 - **[Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp)** `Official` `TypeScript` — People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.  
   `b2b-data` `enrichment` `people-search` `hiring-signals`
+- **[Lasso](https://getlasso.co/mcp)** `Official` `Python` — Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one site.  
+  `affiliate` `ecommerce` `marketing` `remote`
 - **[Live Tennis API MCP](https://www.npmjs.com/package/livetennisapi-mcp)** `TypeScript` — Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.  
   `tennis` `sports` `live-scores` `fixtures` `event-markets`
 - **[MAQAMI Travel](https://github.com/negm17111995/mcp-server)** `Official` `JavaScript` — Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key.  

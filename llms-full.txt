@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4661,6 +4661,18 @@ People and company data from Kooperativa.io: enrich and search profiles, hiring 
 - Official: yes
 - Tags: b2b-data, enrichment, people-search, hiring-signals
 - Category: Finance, Commerce, and Business Apps
+
+### Lasso
+
+Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one site.
+
+- URL: https://getlasso.co/mcp
+- Language: Python
+- Provider: Lasso Analytics
+- Official: yes
+- Tags: affiliate, ecommerce, marketing, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://lasso.link/mcp
 
 ### Live Tennis API MCP
 
