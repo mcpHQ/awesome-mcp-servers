@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 534 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 535 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -263,6 +263,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Pinto Notes](https://github.com/pinto-notes/pinto-notes): Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth. (TypeScript, official)
 - [PlaceCall](https://github.com/voygr-tech/placecall): VOYGR's hosted MCP server whose voice agent places real outbound calls to US businesses for reservations, appointments, inquiries and quotes, gets through phone menus and hold, and reports back the outcome, transcript and recording. (Python, official)
 - [Postbag MCP Server](https://github.com/faahim/postbag): Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks. (TypeScript)
+- [Posty: Social Media Scheduler](https://posty.hu/en/docs/mcp): Hosted MCP server to write, schedule and publish posts to 20 social platforms, including Facebook, Instagram, X, LinkedIn, TikTok and YouTube, with a content calendar and full-quality media uploads. (TypeScript, official)
 - [Process Street MCP Server](https://github.com/process-street/process-street-mcp): Connect AI clients to Process Street workflows, workflow runs, tasks, users, data sets, and operational records. (Other, official)
 - [PushNotif](https://github.com/AarsyDesign/pushnotif-mcp): Hosted remote and stdio MCP server with 24 tools for Web Push (VAPID), Android (FCM), iOS (APNs), In-App Popups, Social Proof Toasts, and Transactional Email OTP. (JavaScript, official)
 - [Quibbly LinkedIn MCP](https://github.com/Scriptify-Inc/linkedin-mcp): Reads your LinkedIn inbox as synced by the Quibbly Chrome extension, shows who watched your videos, sets follow-ups and notes, and drafts replies you send yourself. (TypeScript, official)

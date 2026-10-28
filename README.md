@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-534-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-535-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (52)
 - [Filesystems and Documents](#filesystems-and-documents) (21)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (27)
-- [Communication and Productivity](#communication-and-productivity) (64)
+- [Communication and Productivity](#communication-and-productivity) (65)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (60)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (55)
 - [Legal and Court Data](#legal-and-court-data) (7)
@@ -563,6 +563,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `phone-calls` `voice-agent` `telephony` `reservations` `remote`
 - **[Postbag MCP Server](https://github.com/faahim/postbag)** `TypeScript` — Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks.  
   `forms` `email` `webhooks` `self-hosted`
+- **[Posty: Social Media Scheduler](https://posty.hu/en/docs/mcp)** `Official` `TypeScript` — Hosted MCP server to write, schedule and publish posts to 20 social platforms, including Facebook, Instagram, X, LinkedIn, TikTok and YouTube, with a content calendar and full-quality media uploads.  
+  `social-media` `scheduling` `publishing` `content-calendar` `remote`
 - **[Process Street MCP Server](https://github.com/process-street/process-street-mcp)** `Official` `Other` — Connect AI clients to Process Street workflows, workflow runs, tasks, users, data sets, and operational records.  
   `workflows` `tasks` `process-management` `operations`
 - **[PushNotif](https://github.com/AarsyDesign/pushnotif-mcp)** `Official` `JavaScript` — Hosted remote and stdio MCP server with 24 tools for Web Push (VAPID), Android (FCM), iOS (APNs), In-App Popups, Social Proof Toasts, and Transactional Email OTP.  
