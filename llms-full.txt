@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4475,6 +4475,17 @@ Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches
 - Tags: solana, crypto, risk, x402
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.dexra.dev/mcp
+
+### Dropify
+
+Looks up the official merch stores Dropify tracks for an artist or brand and returns the page where restock and drop alerts are set.
+
+- URL: https://github.com/xozxro/dropify-mcp
+- Language: TypeScript
+- Provider: Dropify
+- Official: yes
+- Tags: merch, restock-alerts, shopping, music
+- Category: Finance, Commerce, and Business Apps
 
 ### Edgrapi
 

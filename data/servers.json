@@ -3879,6 +3879,21 @@
     }
   },
   {
+    "name": "Dropify",
+    "url": "https://github.com/xozxro/dropify-mcp",
+    "description": "Looks up the official merch stores Dropify tracks for an artist or brand and returns the page where restock and drop alerts are set.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Dropify",
+    "tags": [
+      "merch",
+      "restock-alerts",
+      "shopping",
+      "music"
+    ],
+    "official": true
+  },
+  {
     "name": "Stivio",
     "url": "https://stivio.ai/mcp",
     "description": "AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts.",
