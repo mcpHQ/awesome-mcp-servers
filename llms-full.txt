@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -743,6 +743,17 @@ Runs WCAG accessibility (axe-core), color-contrast and design-token audits on an
 - Tags: accessibility, wcag, design-qa, qa, issue-tracking
 - Category: Developer Tools and Code Intelligence
 - Streamable HTTP endpoint: https://api.overlayqa.com/mcp
+
+### POSH
+
+Search and read local Ruby and gem documentation matched to project versions; proprietary POSH agent-tools license required.
+
+- URL: https://github.com/skatkov/posh-mcp
+- Language: Go
+- Provider: KROONI B.V.
+- Official: yes
+- Tags: ruby, rails, documentation, local, stdio
+- Category: Developer Tools and Code Intelligence
 
 ### Postman MCP Server
 

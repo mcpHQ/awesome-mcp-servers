@@ -3879,6 +3879,22 @@
     }
   },
   {
+    "name": "POSH",
+    "url": "https://github.com/skatkov/posh-mcp",
+    "description": "Search and read local Ruby and gem documentation matched to project versions; proprietary POSH agent-tools license required.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "KROONI B.V.",
+    "tags": [
+      "ruby",
+      "rails",
+      "documentation",
+      "local",
+      "stdio"
+    ],
+    "official": true
+  },
+  {
     "name": "Stivio",
     "url": "https://stivio.ai/mcp",
     "description": "AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts.",
