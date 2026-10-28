@@ -228,7 +228,7 @@
   {
     "name": "Agent Media",
     "url": "https://github.com/agent-media-ai/agent-media",
-    "description": "Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.",
+    "description": "Hosted MCP server that makes short drama series (micro-dramas, sitcoms, K-drama style, any language) and other short vertical videos from Claude, ChatGPT or Codex, with the same cast every episode.",
     "category": "communication-and-productivity",
     "language": "Other",
     "provider": "Agent Media",
@@ -360,6 +360,24 @@
       "sse": "https://agentservices.to/mcp"
     },
     "official": false
+  },
+  {
+    "name": "ipvolt Proxy Toolkit",
+    "url": "https://github.com/ipvolt/proxy-toolkit-mcp",
+    "description": "Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "ipvolt",
+    "tags": [
+      "proxy",
+      "networking",
+      "troubleshooting",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.ipvolt.com/mcp"
+    }
   },
   {
     "name": "agmail",
@@ -517,6 +535,24 @@
       "bi"
     ],
     "official": true
+  },
+  {
+    "name": "AccountsOS",
+    "url": "https://github.com/thriveventurelabs/accountsos-mcp-server",
+    "description": "AI accounting MCP server: query your live AccountsOS books (balances, transactions, VAT, deadlines, invoices, documents) from any MCP client.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Thrive Venture Labs",
+    "tags": [
+      "accounting",
+      "vat",
+      "bookkeeping",
+      "invoices"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://accounts-os.com/api/mcp/plugin"
+    }
   },
   {
     "name": "Anansi Haven",
@@ -861,6 +897,44 @@
     "official": true
   },
   {
+    "name": "imageat",
+    "url": "https://github.com/incendies/imageat-mcp",
+    "description": "AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imageat/mcp` with an API key, or use the hosted Streamable HTTP server with OAuth. Credits per generation.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "imageat",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "image-editing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.imageat.com/mcp"
+    }
+  },
+  {
+    "name": "MaxiBestOf",
+    "url": "https://github.com/luminous8/maxibestof-mcp",
+    "description": "Search website designs, UI sections, fonts, palettes, and design profiles. Requires MaxiBestOf Pro.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "MaxiBestOf",
+    "tags": [
+      "design",
+      "websites",
+      "fonts",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://maxibestof.one/mcp-server"
+    }
+  },
+  {
     "name": "BacklinkGenie",
     "url": "https://backlinkgenie.com/mcp/",
     "description": "Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key.",
@@ -876,6 +950,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.backlinkgenie.com/mcp"
+    }
+  },
+  {
+    "name": "Checkout Page",
+    "url": "https://checkoutpage.com/mcp?utm_source=mcphq&utm_medium=listing",
+    "description": "Create and manage checkout pages, events, forms, products, coupons, customers, payments and subscriptions on Checkout Page, a checkout platform on Stripe Connect, over remote Streamable HTTP with OAuth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Checkout Page",
+    "tags": [
+      "payments",
+      "ecommerce",
+      "events",
+      "stripe",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.checkoutpage.com"
     }
   },
   {
@@ -903,11 +996,8 @@
       "robotics",
       "hardware",
       "compatibility",
-      "iot",
       "industrial",
-      "three-state",
-      "iso-9409-1",
-      "3d-printing"
+      "iso-9409-1"
     ],
     "official": true
   },
@@ -1422,6 +1512,20 @@
     }
   },
   {
+    "name": "CloudGPU MCP Server",
+    "url": "https://github.com/mrhy7176/cloudgpu-mcp",
+    "description": "Rent per-minute cloud GPUs from an MCP client: browse available GPUs, launch an instance, run a job, download results, and destroy it on CloudGPU.",
+    "category": "cloud-and-infrastructure",
+    "language": "JavaScript",
+    "provider": "CloudGPU",
+    "tags": [
+      "gpu",
+      "cloud",
+      "ai-infrastructure"
+    ],
+    "official": true
+  },
+  {
     "name": "CloudBurn",
     "url": "https://github.com/towardsthecloud/cloudburn",
     "description": "Read-only AWS cost analysis for Terraform, CloudFormation, and live AWS accounts through a local stdio MCP server.",
@@ -1670,6 +1774,25 @@
     "official": true
   },
   {
+    "name": "Phasoric",
+    "url": "https://developers.phasoric.com/mcp-client-setup",
+    "description": "Search, read, and safely update Markdown notes in explicitly connected Phasoric knowledge vaults.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "Phasoric",
+    "tags": [
+      "memory",
+      "knowledge",
+      "markdown",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://phasoric.com/api/mcp"
+    }
+  },
+  {
     "name": "CrowdStrike MCP Server",
     "url": "https://github.com/CrowdStrike/falcon-mcp",
     "description": "Query CrowdStrike Falcon detections and endpoint security data.",
@@ -1715,6 +1838,25 @@
       "claude"
     ],
     "official": false
+  },
+  {
+    "name": "SecureLend Underwriting",
+    "url": "https://github.com/SecureLend/mcp-underwriting",
+    "description": "Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "SecureLend",
+    "tags": [
+      "underwriting",
+      "lending",
+      "credit",
+      "finance",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.securelend.ai/v1/lender/mcp"
+    }
   },
   {
     "name": "Darkmoon MCP Server",
@@ -1896,6 +2038,39 @@
     "official": true
   },
   {
+    "name": "Easy-Peasy.AI",
+    "url": "https://easy-peasy.ai/mcp",
+    "description": "Hosted Easy-Peasy.AI server: run 200+ writing templates, create and edit images, make AI videos, turn text into speech and transcribe audio or video from any MCP client, with OAuth sign-in or an API key.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Easy-Peasy.AI",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "text-to-speech",
+      "transcription",
+      "copywriting"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://easy-peasy.ai/mcp"
+    }
+  },
+  {
+    "name": "Airport Lounge List MCP Server",
+    "url": "https://github.com/Airport-Lounge-List/mcp-server",
+    "description": "Hosted server for searching 8,500+ airport lounges and checking access by card or membership.",
+    "category": "utilities-and-examples",
+    "language": "Ruby",
+    "provider": "Airport Lounge List",
+    "tags": [
+      "travel",
+      "airports",
+      "lounges"
+    ],
+    "official": true
+  },
+  {
     "name": "Domain Mail Check",
     "url": "https://tools.openkrill.app/#mailcheck",
     "description": "Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.",
@@ -1945,6 +2120,23 @@
       "prometheus"
     ],
     "official": false
+  },
+  {
+    "name": "Paper Plane Post",
+    "url": "https://paperplanepost.com/for/agents",
+    "description": "Create an unpaid photo postcard draft, then review and pay for printing and mailing on the website.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Paper Plane Post, Inc.",
+    "tags": [
+      "postcards",
+      "photos",
+      "mail"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.paperplanepost.com/v1/mcp"
+    }
   },
   {
     "name": "E2B MCP Server",
@@ -2156,6 +2348,24 @@
       "starter"
     ],
     "official": false
+  },
+  {
+    "name": "Buy-Box",
+    "url": "https://buybox.agentconsult.ai",
+    "description": "Saves your buying criteria for homes, cars or any category (budget, must-haves, dealbreakers) so AI agents load them before they search and rank listings against them.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Agentic Consulting LLC",
+    "tags": [
+      "shopping",
+      "preferences",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://buybox.agentconsult.ai/mcp"
+    }
   },
   {
     "name": "FaviconDL",
@@ -2534,6 +2744,25 @@
     }
   },
   {
+    "name": "Sitekick CMS",
+    "url": "https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing",
+    "description": "Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Sitekick",
+    "tags": [
+      "wordpress",
+      "cms",
+      "websites",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.sitekick.ai/mcp"
+    }
+  },
+  {
     "name": "Graphiti MCP Server",
     "url": "https://github.com/getzep/graphiti",
     "description": "Temporal knowledge graphs for agent memory and context building.",
@@ -2693,6 +2922,22 @@
     }
   },
   {
+    "name": "Polish MCP Servers",
+    "url": "https://github.com/kamilkaczmareksolutions/polish-mcp-servers",
+    "description": "Stdio server with 12 read-only tools for Polish law and public registers (Sejm ELI acts, SAOS judgments, tenders, building permits, land parcels and zoning), each running a public Apify Actor billed to your Apify account.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "legal",
+      "court-data",
+      "poland",
+      "public-registers",
+      "apify"
+    ],
+    "official": false
+  },
+  {
     "name": "CodeTrendy",
     "url": "https://codetrendy.com/mcp",
     "description": "Read-only MCP server for the CodeTrendy startup discovery directory: search 682 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.",
@@ -2737,6 +2982,24 @@
       "ml"
     ],
     "official": true
+  },
+  {
+    "name": "PennyOCR",
+    "url": "https://github.com/imiraoui/pennyocr-mcp",
+    "description": "Convert PDFs and images to Markdown or text, estimate document-processing costs, and check credit balances with an API key and hard spend caps.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "PennyOCR",
+    "tags": [
+      "ocr",
+      "pdf",
+      "documents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.pennyocr.com"
+    }
   },
   {
     "name": "HumanEndpoint",
@@ -2911,6 +3174,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://kanbanmcp.com/"
+    }
+  },
+  {
+    "name": "Flight Seatmap",
+    "url": "https://flightseatmap.com/mcp",
+    "description": "Seat maps, seat ratings, traveller reviews and seat alerts for 100+ airlines, as a hosted remote MCP server.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "FlightSeatmap",
+    "tags": [
+      "travel",
+      "flights",
+      "seat-map",
+      "aviation"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.flightseatmap.com/mcp"
     }
   },
   {
@@ -3126,6 +3407,24 @@
     }
   },
   {
+    "name": "Kineticist",
+    "url": "https://github.com/colinize/kineticist-mcp",
+    "description": "Pinball news, games and editions, designers, places to play and the Hype Index from Kineticist, with a free hosted endpoint and a local npm package.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Kineticist",
+    "tags": [
+      "pinball",
+      "games",
+      "news",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.kineticist.com/api/mcp"
+    }
+  },
+  {
     "name": "LLM Pulse MCP Server",
     "url": "https://github.com/LLM-Pulse/llmpulse-mcp",
     "description": "Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic.",
@@ -3219,6 +3518,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.looot.ai/mcp"
+    }
+  },
+  {
+    "name": "RentReboot",
+    "url": "https://github.com/imiraoui/rentreboot-mcp",
+    "description": "Search NYC apartments and renter guides, explore rent data, and access personal alerts and saved searches with scoped OAuth; website alert plans are separate.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "RentReboot",
+    "tags": [
+      "housing",
+      "apartments",
+      "nyc",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://rentreboot.com/api/mcp"
     }
   },
   {
@@ -3368,6 +3685,43 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.makeaivideo.ai"
+    }
+  },
+  {
+    "name": "Jet Cab AMS",
+    "url": "https://www.jetcabams.nl/llms.txt",
+    "description": "Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Jet Cab AMS",
+    "tags": [
+      "travel",
+      "taxi",
+      "booking",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.jetcabams.nl/mcp"
+    }
+  },
+  {
+    "name": "Shipmail",
+    "url": "https://github.com/shipmail-to/shipmail-mcp",
+    "description": "Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Shipmail",
+    "tags": [
+      "email",
+      "business-email",
+      "calendar",
+      "newsletters",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://shipmail.to/api/mcp"
     }
   },
   {
@@ -3543,11 +3897,10 @@
     "provider": "BusyBee",
     "tags": [
       "social-media",
+      "remote",
       "tiktok",
       "instagram",
-      "youtube",
-      "comments",
-      "remote-mcp"
+      "youtube"
     ],
     "official": false
   },
@@ -3652,6 +4005,21 @@
       "remote"
     ],
     "official": false
+  },
+  {
+    "name": "OpenAgentForum",
+    "url": "https://github.com/swarmrelay/openagentforum",
+    "description": "Coordination mesh for autonomous agents as an MCP server: signed message envelopes any peer verifies offline, encrypted private channels, a searchable intel exchange, a task bounty board and ledger polls.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "OpenAgentForum",
+    "tags": [
+      "agents",
+      "collaboration",
+      "tasks",
+      "encrypted"
+    ],
+    "official": true
   },
   {
     "name": "CreditUnions",
@@ -3775,6 +4143,25 @@
     }
   },
   {
+    "name": "AyHire",
+    "url": "https://ayhire.com/agents.md",
+    "description": "Hosted OAuth MCP server to find, judge and shortlist engineers for a role from their public GitHub work, with links to the evidence for each pick.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "AyHire",
+    "tags": [
+      "recruiting",
+      "hiring",
+      "github",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://ayhire.com/mcp"
+    }
+  },
+  {
     "name": "BotsRated",
     "url": "https://github.com/botsrated/botsrated",
     "description": "Checks a paid x402 seller or remote MCP server before an agent pays it: latest unpaid probe, listed vs quoted price and payTo, with signed receipts; free preflight and search, paid lookups via x402 on Base.",
@@ -3877,6 +4264,22 @@
     "endpoints": {
       "streamableHttp": "https://api.aiskills402.com/mcp"
     }
+  },
+  {
+    "name": "mcp-gatehouse",
+    "url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
+    "description": "Python library that adds permission tiers, fail-closed human approval gates and a secret-redacting JSONL audit log to MCP servers built on the official SDK.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "security",
+      "audit-log",
+      "permissions",
+      "human-in-the-loop",
+      "python"
+    ],
+    "official": false
   },
   {
     "name": "Stivio",
@@ -4231,6 +4634,25 @@
     "official": false
   },
   {
+    "name": "RecordHTML",
+    "url": "https://recordhtml.com/mcp",
+    "description": "Record public web pages or HTML5 creatives (banners, ads, animations) to MP4, WebM or GIF in a real browser and get a signed video link; remote Streamable HTTP with OAuth 2.1 or an API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "RecordHTML",
+    "tags": [
+      "video",
+      "screen-recording",
+      "html5-ads",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.recordhtml.com"
+    }
+  },
+  {
     "name": "Panda Greetings",
     "url": "https://www.pandagreetings.com/ai-assistants",
     "description": "Finds ready-made greeting card designs for an occasion with your message placed inside, each linking to its page to order it printed and mailed in the US; free hosted server, no sign-in.",
@@ -4281,6 +4703,24 @@
       "official"
     ],
     "official": true
+  },
+  {
+    "name": "LifeVerse Product Discovery",
+    "url": "https://github.com/lifeversegu/lifeverse-mcp",
+    "description": "Discover, search, inspect, and recommend eleven public LifeVerse AI products and interactive experiences through four read-only tools.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "LifeVerse",
+    "tags": [
+      "product-discovery",
+      "recommendations",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://lifeverse.gufreelancer.com/api/mcp"
+    }
   },
   {
     "name": "MCP Fetch",
@@ -4367,6 +4807,21 @@
     "official": true
   },
   {
+    "name": "AgentFEM MCP",
+    "url": "https://github.com/haoming-luo/agentfem-mcp",
+    "description": "Create, validate and run finite-element projects and inspect numerical results through local stdio tools, with a separately installed compatible AgentFEM scientific runtime.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "AgentFEM",
+    "tags": [
+      "finite-element",
+      "simulation",
+      "scientific-computing",
+      "local"
+    ],
+    "official": true
+  },
+  {
     "name": "MCP Registry",
     "url": "https://github.com/modelcontextprotocol/registry",
     "description": "Official MCP registry service and API for discovering publicly available MCP servers.",
@@ -4423,6 +4878,25 @@
       "ticketing"
     ],
     "official": false
+  },
+  {
+    "name": "Docsy",
+    "url": "https://github.com/getremcp/docsy-plugin",
+    "description": "Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "getremcp",
+    "tags": [
+      "documentation",
+      "developer-tools",
+      "versions",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://docsy.remcp.site/mcp/registry"
+    }
   },
   {
     "name": "MCP Server Templates",
@@ -4582,6 +5056,25 @@
       "recovery"
     ],
     "official": true
+  },
+  {
+    "name": "3Q Tools",
+    "url": "https://getwold.com",
+    "description": "Buy-once Windows PDF and Excel tools with no subscription: 36 offline PDF commands and 8 auto-calculating spreadsheet templates, each with a direct checkout link.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "3Q Tools",
+    "tags": [
+      "pdf",
+      "excel",
+      "documents",
+      "offline",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://getwold.com/mcp"
+    }
   },
   {
     "name": "mem0 MCP Server",
@@ -4840,6 +5333,44 @@
     }
   },
   {
+    "name": "Crevio",
+    "url": "https://crevio.co/docs/developer/mcp",
+    "description": "Delegate work to an AI agent that runs your small business (products, orders, customers, email, sites), or run scripts against the Crevio API and 3,000+ connected apps.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Ruby",
+    "provider": "Crevio",
+    "tags": [
+      "small-business",
+      "ecommerce",
+      "agents",
+      "automation",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.crevio.co/mcp"
+    }
+  },
+  {
+    "name": "NeverApply",
+    "url": "https://github.com/kasovy/neverapply-mcp",
+    "description": "AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "NeverApply",
+    "tags": [
+      "jobs",
+      "career",
+      "resume",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://neverapply.co/mcp"
+    }
+  },
+  {
     "name": "Neither MCP",
     "url": "https://github.com/stonianua/neither-mcp",
     "description": "Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.",
@@ -5008,6 +5539,24 @@
     "official": false
   },
   {
+    "name": "Scoopkit",
+    "url": "https://github.com/nateslabach/scoopkit-mcp",
+    "description": "Hosted AI-industry news server: returns each story once as a taxonomy-classified event with sources and correction history; no key needed to start, Pro adds semantic search.",
+    "category": "data-analytics-and-bi",
+    "language": "Python",
+    "provider": "Scoopkit",
+    "tags": [
+      "news",
+      "ai-industry",
+      "events",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.scoopkit.dev/mcp"
+    }
+  },
+  {
     "name": "Oh My Android",
     "url": "https://github.com/ateymoori/oh-my-android",
     "description": "Native macOS app with a built-in MCP server that lets AI agents see and drive the Android Emulator and adb devices: screenshots, UI tree in dp, taps, logcat, dark mode, font scale, and locale.",
@@ -5137,6 +5686,25 @@
     }
   },
   {
+    "name": "Perceptlayer",
+    "url": "https://docs.perceptlayer.com/ai-agents",
+    "description": "Searches and calls 1,659 data endpoints across 248 websites (maps, real estate, jobs, travel, search) over a hosted MCP endpoint and returns structured JSON; free tier included.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Perceptlayer",
+    "tags": [
+      "web-data",
+      "web-scraping",
+      "structured-data",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.perceptlayer.com/mcp"
+    }
+  },
+  {
     "name": "PandaStock",
     "url": "https://github.com/D-Asce/pandastocksdk",
     "description": "A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.",
@@ -5245,6 +5813,42 @@
     "official": true
   },
   {
+    "name": "Cockatoo",
+    "url": "https://cockatoo.com.au/docs/",
+    "description": "Create, edit and publish hosted business websites with owner-approved access.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Cockatoo",
+    "tags": [
+      "websites",
+      "hosting",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.cockatoo.com.au/mcp"
+    }
+  },
+  {
+    "name": "Feminiq Rides",
+    "url": "https://www.feminiqrides.nl/llms.txt",
+    "description": "Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Feminiq Rides",
+    "tags": [
+      "travel",
+      "taxi",
+      "booking",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.feminiqrides.nl/mcp"
+    }
+  },
+  {
     "name": "Pinto Notes",
     "url": "https://github.com/pinto-notes/pinto-notes",
     "description": "Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.",
@@ -5289,6 +5893,24 @@
       "sql"
     ],
     "official": true
+  },
+  {
+    "name": "Landed MCP",
+    "url": "https://github.com/landedjobs/landed-mcp",
+    "description": "Search AI and tech jobs ranked against a role brief, read a job's application form fields, and fetch free interview prep through a hosted MCP endpoint.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Landed",
+    "tags": [
+      "jobs",
+      "job-search",
+      "interview-prep",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.landed.jobs/mcp"
+    }
   },
   {
     "name": "Playwright MCP",
@@ -5448,6 +6070,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.proofsource.co/v1/mcp"
+    }
+  },
+  {
+    "name": "foto foto",
+    "url": "https://github.com/nternet-company/fotofoto-mcp",
+    "description": "Turn your photos or a public iCloud Shared Album into a printed hardcover photo book, and compare photo book prices across services.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "foto foto",
+    "tags": [
+      "photos",
+      "photo-book",
+      "printing",
+      "ecommerce",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://fotofoto.app/mcp"
     }
   },
   {
@@ -5615,25 +6256,6 @@
     "official": true
   },
   {
-    "name": "RecordHTML",
-    "url": "https://recordhtml.com/mcp",
-    "description": "Record public web pages or HTML5 creatives (banners, ads, animations) to MP4, WebM or GIF in a real browser and get a signed video link; remote Streamable HTTP with OAuth 2.1 or an API key.",
-    "category": "browsers-search-and-web-automation",
-    "language": "TypeScript",
-    "provider": "RecordHTML",
-    "tags": [
-      "video",
-      "screen-recording",
-      "html5-ads",
-      "remote",
-      "oauth"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://mcp.recordhtml.com"
-    }
-  },
-  {
     "name": "Redis MCP Server",
     "url": "https://github.com/redis/mcp-redis",
     "description": "Read and write Redis keys, lists, and data structures through MCP.",
@@ -5682,6 +6304,25 @@
     }
   },
   {
+    "name": "Nicelydone",
+    "url": "https://github.com/nicelydoneapp/mcp",
+    "description": "Search web app screens, UI elements, and user flows for design research. Requires Nicelydone Premium.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Nicelydone",
+    "tags": [
+      "design",
+      "ui",
+      "ux",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.nicelydone.club/mcp"
+    }
+  },
+  {
     "name": "Robot Speed",
     "url": "https://github.com/robot-speed/mcp",
     "description": "SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.",
@@ -5717,6 +6358,21 @@
     }
   },
   {
+    "name": "Dropify",
+    "url": "https://github.com/xozxro/dropify-mcp",
+    "description": "Looks up the official merch stores Dropify tracks for an artist or brand and returns the page where restock and drop alerts are set.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Dropify",
+    "tags": [
+      "merch",
+      "restock-alerts",
+      "shopping",
+      "music"
+    ],
+    "official": true
+  },
+  {
     "name": "RunAPI MCP Server",
     "url": "https://github.com/runapi-ai/mcp",
     "description": "Discover model inputs and create AI image, video, music, speech, and other model API tasks.",
@@ -5747,6 +6403,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.runx.ai/mcp"
+    }
+  },
+  {
+    "name": "Pallyy",
+    "url": "https://pallyy.com/docs/api/mcp",
+    "description": "Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Pallyy",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.pallyy.com/mcp"
     }
   },
   {
@@ -5911,6 +6585,25 @@
       "handoff"
     ],
     "official": true
+  },
+  {
+    "name": "Award Travel Finder",
+    "url": "https://github.com/AwardTravelFinder/mcp",
+    "description": "Search award flight availability and points pricing across 27 airlines and 23 loyalty programs from any MCP client.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Award Travel Finder",
+    "tags": [
+      "travel",
+      "flights",
+      "airlines",
+      "award-travel",
+      "points"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.awardtravelfinder.com/mcp"
+    }
   },
   {
     "name": "Selvedge",
@@ -6244,6 +6937,24 @@
     "official": true
   },
   {
+    "name": "Wine Labs",
+    "url": "https://github.com/imiraoui/winelabs-mcp",
+    "description": "Fine-wine matching, market prices, auctions, merchant offers, and portfolio intelligence through a hosted MCP server; browser OAuth and account plans or credits apply.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Wine Labs",
+    "tags": [
+      "wine",
+      "pricing",
+      "auctions",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://chat.wine-labs.com/mcp"
+    }
+  },
+  {
     "name": "Snyk MCP Server",
     "url": "https://github.com/snyk/studio-mcp",
     "description": "Scan dependencies and code for vulnerabilities with Snyk.",
@@ -6308,6 +7019,25 @@
     }
   },
   {
+    "name": "Waspes",
+    "url": "https://waspes.com/api",
+    "description": "AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Waspes",
+    "tags": [
+      "website-builder",
+      "3d-generation",
+      "roblox",
+      "image-to-3d",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://waspes.com/api/mcp"
+    }
+  },
+  {
     "name": "SpellBook Finance",
     "url": "https://spellbook-finance.com/agent/mcp.md",
     "description": "Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.",
@@ -6350,6 +7080,25 @@
       "sql"
     ],
     "official": false
+  },
+  {
+    "name": "EventSend",
+    "url": "https://eventsend.io/docs/mcp",
+    "description": "Ask your AI about your product's events, delivery health and usage: search events, follow a customer's timeline, and see why a Slack, Discord or webhook notification failed. Read-only, over OAuth.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "EventSend",
+    "tags": [
+      "events",
+      "observability",
+      "notifications",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://eventsend.io/mcp"
+    }
   },
   {
     "name": "sqlite-graph-memory",
@@ -6460,6 +7209,25 @@
     "official": false
   },
   {
+    "name": "ReMCP",
+    "url": "https://github.com/getremcp/remcp",
+    "description": "Securely access computers explicitly paired to your account through a hosted OAuth MCP connection, including state-changing file, terminal, browser, and desktop tools.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "getremcp",
+    "tags": [
+      "computer-use",
+      "desktop-automation",
+      "terminal",
+      "browser",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://remcp.site/mcp"
+    }
+  },
+  {
     "name": "Supabase MCP Server",
     "url": "https://github.com/supabase-community/supabase-mcp",
     "description": "Community-maintained integration for Supabase projects, tables, and auth through MCP tools.",
@@ -6542,6 +7310,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://symbioza.dev/mcp"
+    }
+  },
+  {
+    "name": "Requstory",
+    "url": "https://requstory.com/developers/api/",
+    "description": "Map how a company works from its website, who owns each process, and which steps AI agents can run; search public company maps and AI-readiness scores.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Requstory",
+    "tags": [
+      "business-process",
+      "operating-model",
+      "ai-agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://requstory.com/mcp"
     }
   },
   {
@@ -6927,6 +7713,25 @@
     }
   },
   {
+    "name": "Noonlaunch",
+    "url": "https://github.com/mukund1158/noonlaunch-mcp",
+    "description": "Launch a product on Noonlaunch, search its product directory and weekly winners, and find 333 startup launch directories; hosted, no API key or account needed to connect.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Noonlaunch",
+    "tags": [
+      "product-launch",
+      "startups",
+      "directory",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://noonlaunch.com/mcp"
+    }
+  },
+  {
     "name": "Unblockd",
     "url": "https://unblockd.ai/setup.md",
     "description": "Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask.",
@@ -6992,6 +7797,25 @@
       "citations"
     ],
     "official": false
+  },
+  {
+    "name": "AI Agents Listing",
+    "url": "https://github.com/nyyhao/aiagentslisting-mcp",
+    "description": "Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "AI Agents Listing",
+    "tags": [
+      "directory",
+      "discovery",
+      "mcp",
+      "agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://aiagentslisting.com/api/mcp"
+    }
   },
   {
     "name": "Vault MCP Server",
@@ -7178,6 +8002,25 @@
     "official": true
   },
   {
+    "name": "HireLayer",
+    "url": "https://github.com/HireLayer/hirelayer-mcp",
+    "description": "Parse resumes and CVs into structured JSON, extract weighted criteria from a job description, match and rank candidates with per-criterion explanations, and normalize skills.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "HireLayer",
+    "tags": [
+      "recruiting",
+      "resume-parsing",
+      "hiring",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://hirelayer.co/mcp"
+    }
+  },
+  {
     "name": "Worklittle Jobs",
     "url": "https://github.com/worklittle/jobs-mcp",
     "description": "Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.",
@@ -7223,6 +8066,23 @@
       "search"
     ],
     "official": false
+  },
+  {
+    "name": "agbrowser",
+    "url": "https://agbrowser.shveik.dev",
+    "description": "Hosted browser sessions for agents: navigate, interact, read pages and take screenshots. Session purchases and extensions use stablecoins over x402 or MPP on Base; browser operations use session credentials.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Go",
+    "provider": "shveik.dev",
+    "tags": [
+      "browser-automation",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agbrowser.shveik.dev/mcp"
+    }
   },
   {
     "name": "YouTube Transcripts MCP",
@@ -7286,6 +8146,24 @@
       "video"
     ],
     "official": true
+  },
+  {
+    "name": "InternetVitals",
+    "url": "https://github.com/internetvitals/mcp-server",
+    "description": "Real-time status, recent incidents and an overall health score for 41 internet backbone services such as AWS, Cloudflare, GitHub and OpenAI.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "InternetVitals",
+    "tags": [
+      "status",
+      "uptime",
+      "incidents",
+      "monitoring"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://internetvitals.com/mcp"
+    }
   },
   {
     "name": "Zovo Invoice Generator",
@@ -7377,6 +8255,22 @@
     "official": true
   },
   {
+    "name": "POSH",
+    "url": "https://github.com/skatkov/posh-mcp",
+    "description": "Search and read local Ruby and gem documentation matched to project versions; proprietary POSH agent-tools license required.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "KROONI B.V.",
+    "tags": [
+      "ruby",
+      "rails",
+      "documentation",
+      "local",
+      "stdio"
+    ],
+    "official": true
+  },
+  {
     "name": "send21",
     "url": "https://github.com/send21io/mcp",
     "description": "Create non-custodial crypto pay links and payment drafts in BTC, USDC, USDT, EURC, SOL or ETH; the payer signs in their own wallet.",
@@ -7393,6 +8287,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://send21.io/mcp"
+    }
+  },
+  {
+    "name": "CrakSEO Search Console MCP",
+    "url": "https://docs.crakseo.com/mcp-servers/search-console",
+    "description": "Free remote MCP access to owned-site Google Search Console and Bing Webmaster data; CrakSEO authentication and authorization for the user's own properties required.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "CrakSEO",
+    "tags": [
+      "analytics",
+      "seo",
+      "search-console",
+      "bing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://crakseo.com/mcp/search-console"
     }
   },
   {
@@ -7624,6 +8537,25 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://callmemcp.com/mcp"
+    }
+  },
+  {
+    "name": "Weir",
+    "url": "https://github.com/tarun-khatri/weir-mcp",
+    "description": "Search and read public X (Twitter) and Reddit data: posts, replies, threads, profiles, followers, subreddits and comments, plus monitors for new matches.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Weir",
+    "tags": [
+      "twitter",
+      "reddit",
+      "social-media",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.weirapp.io/mcp"
     }
   },
   {
