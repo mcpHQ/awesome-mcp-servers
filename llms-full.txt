@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 464 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 465 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4189,6 +4189,18 @@ Hosted OAuth MCP server to search and apply to account executive and sales jobs,
 - Tags: jobs, sales, recruiting, oauth, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.accountexecutivejobs.com/mcp
+
+### AccountsOS
+
+AI accounting MCP server: query your live AccountsOS books (balances, transactions, VAT, deadlines, invoices, documents) from any MCP client.
+
+- URL: https://github.com/thriveventurelabs/accountsos-mcp-server
+- Language: TypeScript
+- Provider: Thrive Venture Labs
+- Official: yes
+- Tags: accounting, vat, bookkeeping, invoices
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://accounts-os.com/api/mcp/plugin
 
 ### ADEXTO
 

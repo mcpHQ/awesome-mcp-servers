@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 464 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 465 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -409,6 +409,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [3Descu 3D Printing Quotes (EU)](https://quote.3descu.com/ai-agents/): Instant FDM and SLA 3D printing quotes from an ISO 9001:2015 certified EU factory: list materials, measure an STL or OBJ link and get a price in EUR. (TypeScript, official)
 - [402post](https://402post.com): Remote MCP server (streamable HTTP, no key) for paid classified listings for agents: list categories, validate, create, search and read listings; a listing costs $0.03 for 30 days over x402. (TypeScript, official)
 - [Account Executive Jobs](https://github.com/854Labs/account-executive-jobs): Hosted OAuth MCP server to search and apply to account executive and sales jobs, and for employers to manage job posts and applicants. (Other, official)
+- [AccountsOS](https://github.com/thriveventurelabs/accountsos-mcp-server): AI accounting MCP server: query your live AccountsOS books (balances, transactions, VAT, deadlines, invoices, documents) from any MCP client. (TypeScript, official)
 - [ADEXTO](https://github.com/0xcuy/adexto): Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key. (TypeScript, official)
 - [AdsTurbo](https://adsturbo.ai): Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key. (Other, official)
 - [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node): Local CLI and stdio MCP payment tools for AI agents on macOS Apple Silicon, with foreground human approval for signing. (TypeScript, official)

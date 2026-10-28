@@ -3897,6 +3897,24 @@
     }
   },
   {
+    "name": "AccountsOS",
+    "url": "https://github.com/thriveventurelabs/accountsos-mcp-server",
+    "description": "AI accounting MCP server: query your live AccountsOS books (balances, transactions, VAT, deadlines, invoices, documents) from any MCP client.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Thrive Venture Labs",
+    "tags": [
+      "accounting",
+      "vat",
+      "bookkeeping",
+      "invoices"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://accounts-os.com/api/mcp/plugin"
+    }
+  },
+  {
     "name": "Zip-Codes.com ZIP & Postal Code MCP",
     "url": "https://www.zip-codes.com/api/mcp",
     "description": "Validates and standardizes US street addresses to ZIP+4 and looks up US ZIP Codes and Canadian postal codes, with optional census tract demographics, county and district overlaps, radius search and distance.",
