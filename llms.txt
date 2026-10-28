@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 464 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 468 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -74,6 +74,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [GodotMCP](https://github.com/vberai/godot-mcp): A secure, 100% native GDScript Server-Sent Events (SSE) server bridging Claude, Cursor, and Windsurf directly to Godot 4.x scene trees. No Node.js or C# dependencies required. (GDScript)
 - [installed-api](https://github.com/ajwann/installed-api): Answers API questions from the packages installed in the project: Python signatures, docstrings and source from the project's interpreter, TypeScript declarations from node_modules, and installed versions. (Python)
 - [IntlPull MCP Server](https://intlpull.com/docs/mcp): Manage translation keys, translate strings, and sync localization files with IntlPull from MCP clients. (TypeScript, official)
+- [ipvolt Proxy Toolkit](https://github.com/ipvolt/proxy-toolkit-mcp): Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure. (TypeScript, official)
 - [Kleap](https://github.com/kleaphq/cli): Create, edit, and publish websites from AI clients through a hosted MCP server. (JavaScript, official)
 - [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes): Operate Kubernetes clusters with kubectl-style MCP tools. (TypeScript)
 - [Latchkey](https://latchkey.dev/documentation/connect-your-ai-agent): Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: failure bundles with root cause and logs, run status, workflow dispatch, and one-off commands on fresh ephemeral runners. (Other, official)
@@ -232,6 +233,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server): Interact with Microsoft Teams channels, messages, and meetings. (TypeScript)
 - [Multi Upload Tool](https://docs.multi-upload-tool.com/mcp): Schedule and publish videos and photos to TikTok, YouTube Shorts, Instagram, Facebook, LinkedIn, Pinterest, Bluesky, Threads and X; validate, reschedule, cancel and retry posts, and read post status and analytics. (TypeScript, official)
 - [Muslim Prayer Reminder MCP](https://github.com/tareq7/muslim-prayer-mcp): Calculates Muslim prayer times by location and regional method, including next-prayer countdowns. (TypeScript)
+- [NeverApply](https://github.com/kasovy/neverapply-mcp): AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval. (Other, official)
 - [Nitrosend](https://docs.nitrosend.com/mcp): Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server. (Ruby, official)
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server. (TypeScript)
 - [Outbound OS](https://github.com/RecepioHQ/outbound-os): Local MCP tools for evidence-gated email outreach with default-disabled live sending (JavaScript)
@@ -312,6 +314,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Stivio](https://stivio.ai/mcp): AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts. (Other, official)
 - [Takibi Base](https://takibibase.com/docs/connector): Ask your Takibi Base collections anything; get answers with cited passages and a support score. (Other, official)
 - [VideoGen MCP](https://videogen.io/videogen-mcp): Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects. (TypeScript, official)
+- [Waspes](https://waspes.com/api): AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server. (Other, official)
 - [Zep MCP Server](https://github.com/jaysack/zep-mcp): Community MCP wrapper for long-term memory and context retrieval with Zep. (Python)
 - [Zerouter MCP](https://github.com/ZerouterAI/zerouter-mcp): AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via Zerouter, an OpenAI-compatible API, to chat, compare models side by side, and look up API pricing. (TypeScript, official)
 
@@ -445,6 +448,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Grey Ridge x402 Market & DeFi Data](https://github.com/rezearcher/x402-data-api): Keyless Base market data for agents: live DeFi yields, perp funding rates, crypto spot prices, Polymarket odds and a pre-trade token-safety gate. Free preview tools; paid calls settle per request in USDC via x402, no key or account. (TypeScript)
 - [helloasso-mcp](https://github.com/edouard-claude/helloasso-mcp): HelloAsso for French associations: members, event tickets, donations, payments, refunds and checkout links, covering all 36 routes of the v5 API. (Rust)
 - [HireFerry](https://github.com/TokenNotIncluded/hireferry): Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows. (Rust)
+- [HireLayer](https://github.com/HireLayer/hirelayer-mcp): Parse resumes and CVs into structured JSON, extract weighted criteria from a job description, match and rank candidates with per-criterion explanations, and normalize skills. (TypeScript, official)
 - [HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server): Access HubSpot contacts, deals, and marketing automation data. (TypeScript, official)
 - [Invompt](https://mcp.invompt.com/mcp): Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com (TypeScript, official)
 - [Kandle](https://github.com/Kernel-Hunter/kandle): Lets an agent drive candlestick charts for crypto, stocks and forex in an open browser tab: read candles and indicator values, draw levels, set alerts, run scripts and strategy backtests, and take screenshots. (TypeScript, official)

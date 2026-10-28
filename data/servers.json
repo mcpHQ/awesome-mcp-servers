@@ -362,6 +362,24 @@
     "official": false
   },
   {
+    "name": "ipvolt Proxy Toolkit",
+    "url": "https://github.com/ipvolt/proxy-toolkit-mcp",
+    "description": "Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "ipvolt",
+    "tags": [
+      "proxy",
+      "networking",
+      "troubleshooting",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.ipvolt.com/mcp"
+    }
+  },
+  {
     "name": "agmail",
     "url": "https://agmail.shveik.dev",
     "description": "Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account.",
@@ -903,11 +921,8 @@
       "robotics",
       "hardware",
       "compatibility",
-      "iot",
       "industrial",
-      "three-state",
-      "iso-9409-1",
-      "3d-printing"
+      "iso-9409-1"
     ],
     "official": true
   },
@@ -3543,11 +3558,10 @@
     "provider": "BusyBee",
     "tags": [
       "social-media",
+      "remote",
       "tiktok",
       "instagram",
-      "youtube",
-      "comments",
-      "remote-mcp"
+      "youtube"
     ],
     "official": false
   },
@@ -4837,6 +4851,25 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://needhave.io/mcp"
+    }
+  },
+  {
+    "name": "NeverApply",
+    "url": "https://github.com/kasovy/neverapply-mcp",
+    "description": "AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "NeverApply",
+    "tags": [
+      "jobs",
+      "career",
+      "resume",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://neverapply.co/mcp"
     }
   },
   {
@@ -6289,6 +6322,25 @@
     }
   },
   {
+    "name": "Waspes",
+    "url": "https://waspes.com/api",
+    "description": "AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Waspes",
+    "tags": [
+      "website-builder",
+      "3d-generation",
+      "roblox",
+      "image-to-3d",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://waspes.com/api/mcp"
+    }
+  },
+  {
     "name": "SpellBook Finance",
     "url": "https://spellbook-finance.com/agent/mcp.md",
     "description": "Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.",
@@ -7157,6 +7209,25 @@
       "risk"
     ],
     "official": true
+  },
+  {
+    "name": "HireLayer",
+    "url": "https://github.com/HireLayer/hirelayer-mcp",
+    "description": "Parse resumes and CVs into structured JSON, extract weighted criteria from a job description, match and rank candidates with per-criterion explanations, and normalize skills.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "HireLayer",
+    "tags": [
+      "recruiting",
+      "resume-parsing",
+      "hiring",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://hirelayer.co/mcp"
+    }
   },
   {
     "name": "Worklittle Jobs",
