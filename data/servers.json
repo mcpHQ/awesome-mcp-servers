@@ -4374,6 +4374,25 @@
     "official": false
   },
   {
+    "name": "Serpier",
+    "url": "https://serpier.com/mcp",
+    "description": "Hosted SEO server: track rankings, search traffic and AI visibility, monitor published links, browse vetted publishers and place link-building orders; OAuth sign-in.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Serpier",
+    "tags": [
+      "seo",
+      "link-building",
+      "ai-visibility",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.serpier.com/api/mcp"
+    }
+  },
+  {
     "name": "Trends MCP",
     "url": "https://github.com/trendsmcp-ai/Trends-MCP",
     "description": "Gives AI assistants trend data (search interest over time, growth percentages and live top-trends boards) from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, npm, Steam and app stores through one remote MCP server.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 534 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 535 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -399,6 +399,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Seonix](https://seonix.ai/mcp): Hosted read-only MCP server for a Seonix SEO project: Search Console and GA4 rankings and clicks, site audit issues, keyword clusters, articles, and brand mentions in ChatGPT, Gemini, Claude and Perplexity answers. (Other, official)
 - [Sequential](https://www.usesequential.com/docs/agent-tools.md): Hosted MCP server for Sequential session replay and product analytics: query sessions, AI-judge findings, events, funnels, flows and retention, with OAuth sign-in. (TypeScript, official)
 - [Serpel](https://serpel.app/developers/mcp): Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring. (TypeScript, official)
+- [Serpier](https://serpier.com/mcp): Hosted SEO server: track rankings, search traffic and AI visibility, monitor published links, browse vetted publishers and place link-building orders; OAuth sign-in. (TypeScript, official)
 - [SlashYear](https://github.com/ctrl-maud/slashyear): Look up history by year, date and country, plus world leaders, historical prices and No. 1 songs, each line cited to a Wikipedia revision. (JavaScript, official)
 - [Sourcey](https://sourcey.com/mcp): Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record. (TypeScript, official)
 - [Sports Odds API (BetRivers, Unibet & 22 more books)](https://apify.com/publicrecords/sports-odds-api): Live odds from 24 Kambi-powered sportsbooks in one call, including BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel and ATG, with every book's price and the best price per outcome; pay per call. (JavaScript)
