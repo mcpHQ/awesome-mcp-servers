@@ -306,25 +306,6 @@
     "official": true
   },
   {
-    "name": "agentic sinkhole research",
-    "url": "https://docs.rocketship.sh/llms.txt",
-    "description": "Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research honeypot, no login, traffic logged, do not send secrets.",
-    "category": "communication-and-productivity",
-    "language": "JavaScript",
-    "provider": "Community",
-    "tags": [
-      "inbox",
-      "webhook",
-      "honeypot",
-      "research",
-      "remote"
-    ],
-    "official": false,
-    "endpoints": {
-      "streamableHttp": "https://mcp.rocketship.sh/mcp"
-    }
-  },
-  {
     "name": "AgentRender",
     "url": "https://github.com/corbinvachal48/agentrender-mcp",
     "description": "Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.",
