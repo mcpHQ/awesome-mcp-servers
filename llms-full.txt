@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 534 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 535 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2751,6 +2751,18 @@ Send messages and interact with Slack channels and workspaces.
 - Official: no
 - Tags: slack, chat, team
 - Category: Communication and Productivity
+
+### Social Post Flow
+
+Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Threads, Pinterest, TikTok, Bluesky, Mastodon and more.
+
+- URL: https://www.socialpostflow.com/documentation/mcp/
+- Language: PHP
+- Provider: Social Post Flow
+- Official: yes
+- Tags: social-media, scheduling, marketing, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://app.socialpostflow.com/mcp
 
 ### SwarmMemo
 
