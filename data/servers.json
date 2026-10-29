@@ -4498,6 +4498,24 @@
     }
   },
   {
+    "name": "TextKit",
+    "url": "https://jointextkit.com/docs/mcp",
+    "description": "Hosted MCP server to send and receive SMS, verify phone numbers, buy US and Canada numbers, and manage contacts, segments, broadcasts and automations.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "TextKit",
+    "tags": [
+      "sms",
+      "phone-verification",
+      "messaging",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.jointextkit.com"
+    }
+  },
+  {
     "name": "402post",
     "url": "https://402post.com",
     "description": "Remote MCP server (streamable HTTP, no key) for paid classified listings for agents: list categories, validate, create, search and read listings; a listing costs $0.03 for 30 days over x402.",
