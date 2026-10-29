@@ -6587,6 +6587,24 @@
     }
   },
   {
+    "name": "Social Post Flow",
+    "url": "https://www.socialpostflow.com/documentation/mcp/",
+    "description": "Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Threads, Pinterest, TikTok, Bluesky, Mastodon and more.",
+    "category": "communication-and-productivity",
+    "language": "PHP",
+    "provider": "Social Post Flow",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.socialpostflow.com/mcp"
+    }
+  },
+  {
     "name": "Pallyy",
     "url": "https://pallyy.com/docs/api/mcp",
     "description": "Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks.",
