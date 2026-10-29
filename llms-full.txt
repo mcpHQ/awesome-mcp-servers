@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 534 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 535 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4886,6 +4886,18 @@ Hosted OAuth MCP server for employers to manage electrician job posts and applic
 - Tags: jobs, recruiting, electrician, oauth, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://www.bestelectricianjobs.com/mcp
+
+### BestPrice Shopping
+
+Official read-only shopping MCP for Greece from BestPrice.gr: shopping recommendations, product search, store offers with delivered totals, and price history; no API key.
+
+- URL: https://github.com/TheBestCo/bestprice-mcp
+- Language: JavaScript
+- Provider: BestPrice
+- Official: yes
+- Tags: ecommerce, price-comparison, shopping, greece, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.bestprice.gr/mcp
 
 ### Bilbop x402
 

@@ -4565,6 +4565,25 @@
     }
   },
   {
+    "name": "BestPrice Shopping",
+    "url": "https://github.com/TheBestCo/bestprice-mcp",
+    "description": "Official read-only shopping MCP for Greece from BestPrice.gr: shopping recommendations, product search, store offers with delivered totals, and price history; no API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "BestPrice",
+    "tags": [
+      "ecommerce",
+      "price-comparison",
+      "shopping",
+      "greece",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.bestprice.gr/mcp"
+    }
+  },
+  {
     "name": "WebExtract",
     "url": "https://github.com/nyx464664816-stack/webextract",
     "description": "Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).",
