@@ -5609,6 +5609,23 @@
     "official": true
   },
   {
+    "name": "xmcp",
+    "url": "https://xmcp.dev",
+    "description": "Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "basement.studio",
+    "tags": [
+      "documentation",
+      "search",
+      "typescript"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://xmcp.dev/mcp"
+    }
+  },
+  {
     "name": "Relaticle",
     "url": "https://github.com/relaticle/relaticle",
     "description": "Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields.",
