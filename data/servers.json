@@ -4908,6 +4908,25 @@
     }
   },
   {
+    "name": "BatchData",
+    "url": "https://github.com/batchdataco/batchdata-mcp-server",
+    "description": "Hosted MCP server for U.S. property data: property search, comps, owner skip tracing, and phone and address verification. OAuth 2.1 or API token.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "BatchData",
+    "tags": [
+      "real-estate",
+      "property-data",
+      "skip-tracing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.batchdata.com"
+    }
+  },
+  {
     "name": "HEY Research Lab",
     "url": "https://github.com/hey-research-lab/hey-research-open",
     "description": "Read-only research on Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its public source.",
