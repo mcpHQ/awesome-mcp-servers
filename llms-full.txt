@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 567 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 568 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1080,6 +1080,17 @@ Turns a URL into a screenshot, PDF, or structured extract (title, text, links) v
 - Tags: screenshot, pdf, web-extraction, remote
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://api.agentrenderapi.com/mcp
+
+### AgentSearch
+
+Real-time web search, any URL to clean Markdown, and JavaScript-heavy page rendering for agents over Pocket Network; free keyless search tier (up to 25 calls a day), paid calls $0.005 each, install with `npx -y @agentsearchhq/agentsearch-mcp`.
+
+- URL: https://github.com/agentsearchhq-coder/agentsearch-mcp
+- Language: TypeScript
+- Provider: AgentSearch
+- Official: yes
+- Tags: web-search, web-extraction, markdown, rendering
+- Category: Browsers, Search, and Web Automation
 
 ### agproxy
 

@@ -4780,6 +4780,21 @@
     "official": true
   },
   {
+    "name": "AgentSearch",
+    "url": "https://github.com/agentsearchhq-coder/agentsearch-mcp",
+    "description": "Real-time web search, any URL to clean Markdown, and JavaScript-heavy page rendering for agents over Pocket Network; free keyless search tier (up to 25 calls a day), paid calls $0.005 each, install with `npx -y @agentsearchhq/agentsearch-mcp`.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "AgentSearch",
+    "tags": [
+      "web-search",
+      "web-extraction",
+      "markdown",
+      "rendering"
+    ],
+    "official": true
+  },
+  {
     "name": "Mothership",
     "url": "https://github.com/mothership/agent-plugins",
     "description": "Mothership LTL, FTL & Local Freight: get quotes and track shipments.",
