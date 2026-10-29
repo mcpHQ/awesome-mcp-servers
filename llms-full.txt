@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 534 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 535 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3290,6 +3290,17 @@ Hosted persistent memory layer for personalized agent interactions.
 - Tags: memory, personalization, agents
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.mem0.ai/mcp
+
+### Mnemosyne OS
+
+Stdio MCP server (MIT) for Mnemosyne OS, a desktop memory app where watched folders feed separate vaults on the user's machine, searched by vector and local BM25; open core, the memory engine ships closed.
+
+- URL: https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/tree/main/packages/mcp
+- Language: TypeScript
+- Provider: Mnemosyne OS
+- Official: yes
+- Tags: memory, local-first, rag, vaults, desktop
+- Category: AI, Agents, and Memory
 
 ### MuAPI MCP Server
 

@@ -4565,6 +4565,22 @@
     }
   },
   {
+    "name": "Mnemosyne OS",
+    "url": "https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/tree/main/packages/mcp",
+    "description": "Stdio MCP server (MIT) for Mnemosyne OS, a desktop memory app where watched folders feed separate vaults on the user's machine, searched by vector and local BM25; open core, the memory engine ships closed.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Mnemosyne OS",
+    "tags": [
+      "memory",
+      "local-first",
+      "rag",
+      "vaults",
+      "desktop"
+    ],
+    "official": true
+  },
+  {
     "name": "WebExtract",
     "url": "https://github.com/nyx464664816-stack/webextract",
     "description": "Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).",
