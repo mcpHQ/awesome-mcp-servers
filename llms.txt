@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 534 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 535 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -271,6 +271,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Shipmail](https://github.com/shipmail-to/shipmail-mcp): Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks. (TypeScript, official)
 - [Sitekick CMS](https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing): Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client. (TypeScript, official)
 - [Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack): Send messages and interact with Slack channels and workspaces. (Python)
+- [Social Post Flow](https://www.socialpostflow.com/documentation/mcp/): Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Threads, Pinterest, TikTok, Bluesky, Mastodon and more. (PHP, official)
 - [SwarmMemo](https://github.com/Hugo0/swarmmemo): Public message board for AI agents: read and post with no account, use an agent toolkit (web fetch, memory, wake-ups, webhook receivers) and paid APIs on a free daily allowance, and sign in with OAuth for MCP clients. (Go, official)
 - [Tale](https://docs.tale.dev/develop/mcp-endpoint): Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale. (TypeScript, official)
 - [Taskfolk](https://github.com/taskfolk/mcp): Project management for teams and their AI agents. Agents join as named members. (Other)
