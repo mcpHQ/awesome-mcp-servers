@@ -3353,6 +3353,21 @@
     }
   },
   {
+    "name": "Crispy",
+    "url": "https://crispy.sh",
+    "description": "Hosted LinkedIn MCP server. Sign in with OAuth, or use a Bearer API key. Search people and companies, read profile and company data, and send and read messages.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Shyft AI",
+    "tags": [
+      "linkedin",
+      "sales",
+      "remote",
+      "oauth"
+    ],
+    "official": false
+  },
+  {
     "name": "Kooperativa.io",
     "url": "https://github.com/kooperativa-team/kooperativa-mcp",
     "description": "People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.",
