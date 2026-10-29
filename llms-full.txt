@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 534 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 535 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4934,6 +4934,17 @@ Remote MCP server for multi-chain EVM JSON-RPC, an indexed Data API, documentati
 - Tags: blockchain, json-rpc, evm, data-api
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://docs.blockvectra.com/mcp
+
+### Budna MCP
+
+Read-only search and inspection of public listings, sellers, bids and ratings on Budna, a Swedish second-hand marketplace; no account or API key.
+
+- URL: https://github.com/budna-marketplace/mcp
+- Language: Rust
+- Provider: Budna
+- Official: yes
+- Tags: marketplace, second-hand, shopping, sweden
+- Category: Finance, Commerce, and Business Apps
 
 ### Buy-Box
 

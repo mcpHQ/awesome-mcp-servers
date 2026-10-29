@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-534-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-535-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (55)
 - [Legal and Court Data](#legal-and-court-data) (7)
 - [Security and Identity](#security-and-identity) (28)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (110)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (111)
 - [Utilities and Examples](#utilities-and-examples) (22)
 
 <a id="official-and-reference"></a>
@@ -986,6 +986,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `recruiting` `hiring` `resume-screening` `remote` `oauth`
 - **[BlockVectra](https://github.com/blockvectra/mcp)** `Official` `Other` — Remote MCP server for multi-chain EVM JSON-RPC, an indexed Data API, documentation, pricing and status, for developers and AI agents. Documentation, chain and status tools need no API key; Data API tools require one.  
   `blockchain` `json-rpc` `evm` `data-api`
+- **[Budna MCP](https://github.com/budna-marketplace/mcp)** `Official` `Rust` — Read-only search and inspection of public listings, sellers, bids and ratings on Budna, a Swedish second-hand marketplace; no account or API key.  
+  `marketplace` `second-hand` `shopping` `sweden`
 - **[Buy-Box](https://buybox.agentconsult.ai)** `Official` `Other` — Saves your buying criteria for homes, cars or any category (budget, must-haves, dealbreakers) so AI agents load them before they search and rank listings against them.  
   `shopping` `preferences` `remote` `oauth`
 - **[BuyWhere MCP](https://github.com/BuyWhere/buywhere-mcp)** `Official` `TypeScript` — Hosted product-search MCP server for multi-merchant price comparison across Singapore, SEA, and US catalogs.  

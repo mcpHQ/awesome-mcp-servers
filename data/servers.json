@@ -1181,6 +1181,21 @@
     }
   },
   {
+    "name": "Budna MCP",
+    "url": "https://github.com/budna-marketplace/mcp",
+    "description": "Read-only search and inspection of public listings, sellers, bids and ratings on Budna, a Swedish second-hand marketplace; no account or API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Rust",
+    "provider": "Budna",
+    "tags": [
+      "marketplace",
+      "second-hand",
+      "shopping",
+      "sweden"
+    ],
+    "official": true
+  },
+  {
     "name": "Ignav Flights",
     "url": "https://github.com/gusgordon/ignav-skill",
     "description": "Search live flight prices, compare departure dates, resolve airports, and get booking links.",
