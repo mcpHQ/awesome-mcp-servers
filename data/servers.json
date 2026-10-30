@@ -5977,7 +5977,7 @@
   {
     "name": "Fax for Agents",
     "url": "https://github.com/faxforagents/mcp",
-    "description": "Send and receive faxes from AI agents through the Fax for Agents API, with quotes, human review, delegated policies and delivery evidence.",
+    "description": "Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence.",
     "category": "communication-and-productivity",
     "language": "TypeScript",
     "provider": "Fax for Agents",
@@ -5987,10 +5987,7 @@
       "agents",
       "remote"
     ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://mcp.faxforagents.com/mcp/"
-    }
+    "official": true
   },
   {
     "name": "NPMScan",

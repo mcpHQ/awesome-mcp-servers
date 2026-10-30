@@ -2579,7 +2579,7 @@ Create AI faceless videos from a script, run automated series, and publish to Yo
 
 ### Fax for Agents
 
-Send and receive faxes from AI agents through the Fax for Agents API, with quotes, human review, delegated policies and delivery evidence.
+Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence.
 
 - URL: https://github.com/faxforagents/mcp
 - Language: TypeScript
@@ -2587,7 +2587,6 @@ Send and receive faxes from AI agents through the Fax for Agents API, with quote
 - Official: yes
 - Tags: fax, communication, agents, remote
 - Category: Communication and Productivity
-- Streamable HTTP endpoint: https://mcp.faxforagents.com/mcp/
 
 ### Gmail MCP Server
 

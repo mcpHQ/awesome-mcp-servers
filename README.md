@@ -550,7 +550,7 @@ Integrate chat, email, calendars, and team collaboration tools.
   `education` `school` `france` `messaging` `parents`
 - **[Faceless](https://faceless.so)** `Official` `TypeScript` — Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).  
   `video` `social-media` `publishing` `remote`
-- **[Fax for Agents](https://github.com/faxforagents/mcp)** `Official` `TypeScript` — Send and receive faxes from AI agents through the Fax for Agents API, with quotes, human review, delegated policies and delivery evidence.  
+- **[Fax for Agents](https://github.com/faxforagents/mcp)** `Official` `TypeScript` — Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence.  
   `fax` `communication` `agents` `remote`
 - **[Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server)** `TypeScript` — Search, read, and compose Gmail messages from MCP clients.  
   `gmail` `email` `google`
