@@ -4926,6 +4926,25 @@
     }
   },
   {
+    "name": "GetYouTubeTranscript",
+    "url": "https://github.com/tubeagentkit/youtube-mcp",
+    "description": "YouTube transcripts and data over MCP: fetch a video's captions (language choice, optional timestamps), search YouTube, and browse channels, playlists and related videos.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "GetYouTubeTranscript",
+    "tags": [
+      "youtube",
+      "transcripts",
+      "video",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://getyoutubetranscript.com/api/mcp"
+    }
+  },
+  {
     "name": "My Spain Visa",
     "url": "https://myspainvisa.com/mcp/",
     "description": "Spain visa rules for 2026, a Schengen 90/180 calculator and consulate processing times from a Barcelona immigration law firm's own cases. Free hosted server, no account.",

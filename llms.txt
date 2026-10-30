@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 567 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 568 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -142,6 +142,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Exa MCP Server](https://github.com/exa-labs/exa-mcp-server): Neural and keyword web search optimized for AI research workflows. (TypeScript, official)
 - [FindAIforWork](https://findaiforwork.com/llms.txt): Read-only MCP server for a human-reviewed AI tools directory organized by work scenario: search tools, list categories, read listing details and compare tools; no account or API key. (TypeScript, official)
 - [Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server): Scrape, crawl, and extract structured web data with Firecrawl. (TypeScript, official)
+- [GetYouTubeTranscript](https://github.com/tubeagentkit/youtube-mcp): YouTube transcripts and data over MCP: fetch a video's captions (language choice, optional timestamps), search YouTube, and browse channels, playlists and related videos. (JavaScript, official)
 - [Hyperresearch](https://hyperresearch.ai/docs/mcp): Hyperresearch is an AI deep research API. One question in, an adversarially reviewed report out, cited claims checked against their sources. (Other)
 - [Karma.Domains Expired Domains](https://karma.domains/en/expired-domains-mcp/): Hosted server to search expired, auction and backorder domains with SEO metrics, Wayback history and live WHOIS/DNS checks; OAuth or API key, Pro plan required. (Other, official)
 - [LifeVerse Product Discovery](https://github.com/lifeversegu/lifeverse-mcp): Discover, search, inspect, and recommend eleven public LifeVerse AI products and interactive experiences through four read-only tools. (TypeScript, official)
