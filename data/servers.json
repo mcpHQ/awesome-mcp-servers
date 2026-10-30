@@ -776,6 +776,25 @@
     "official": false
   },
   {
+    "name": "OMOPHub",
+    "url": "https://github.com/OMOPHub/omophub-mcp",
+    "description": "Search, map and navigate the OHDSI OMOP standardized vocabularies (11M+ concepts, including SNOMED CT, ICD-10, LOINC and RxNorm) from AI agents, with concept hierarchies and cross-vocabulary mappings.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "OMOPHub",
+    "tags": [
+      "healthcare",
+      "omop",
+      "medical-vocabularies",
+      "fhir",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.omophub.com"
+    }
+  },
+  {
     "name": "Timesheet MCP Server",
     "url": "https://github.com/timesheetIO/timesheet-mcp",
     "description": "Official Timesheet time tracking server: run timers, log work, manage projects, todos, expenses and absences, and pull reports and exports.",

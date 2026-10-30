@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
 - [Communication and Productivity](#communication-and-productivity) (73)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (64)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (58)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (59)
 - [Legal and Court Data](#legal-and-court-data) (8)
 - [Security and Identity](#security-and-identity) (28)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (120)
@@ -856,6 +856,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `germany` `real-estate` `utility-costs` `property-tax` `remote`
 - **[Netdata MCP Server](https://github.com/netdata/netdata)** `Official` `C` — Real-time infrastructure monitoring and health metrics via MCP.  
   `monitoring` `infra` `metrics`
+- **[OMOPHub](https://github.com/OMOPHub/omophub-mcp)** `Official` `TypeScript` — Search, map and navigate the OHDSI OMOP standardized vocabularies (11M+ concepts, including SNOMED CT, ICD-10, LOINC and RxNorm) from AI agents, with concept hierarchies and cross-vocabulary mappings.  
+  `healthcare` `omop` `medical-vocabularies` `fhir` `remote`
 - **[Open Health Sync](https://github.com/soma-intelligence/open-health-sync)** `Official` `Go` — Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources.  
   `health` `wearables` `fitness` `fhir` `self-hosted`
 - **[PeekPanda](https://github.com/fdarkaou/peekpanda-mcp)** `Official` `Other` — Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps paying for, the App Store searches it ranks for and the organic posts that went viral.  
