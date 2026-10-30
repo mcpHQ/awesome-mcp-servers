@@ -4780,6 +4780,20 @@
     "official": true
   },
   {
+    "name": "Kilobat CLI",
+    "url": "https://github.com/seifip/kilobat-cli",
+    "description": "Mac network monitoring and diagnostics through a local stdio MCP server.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Swift",
+    "provider": "Philip Seifi",
+    "tags": [
+      "macos",
+      "network",
+      "diagnostics"
+    ],
+    "official": true
+  },
+  {
     "name": "Mothership",
     "url": "https://github.com/mothership/agent-plugins",
     "description": "Mothership LTL, FTL & Local Freight: get quotes and track shipments.",
