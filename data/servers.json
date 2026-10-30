@@ -5607,6 +5607,25 @@
     }
   },
   {
+    "name": "SrcLog",
+    "url": "https://github.com/srclogcom/srclog-mcp",
+    "description": "Search open-source GitHub repositories, find alternatives to any project, browse curated topics, and rank top developers and organizations by language and country.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "PHP",
+    "provider": "SrcLog",
+    "tags": [
+      "github",
+      "open-source",
+      "search",
+      "developer-rankings",
+      "alternatives"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://srclog.com/mcp"
+    }
+  },
+  {
     "name": "isGenAI",
     "url": "https://isgenai.com/developers/mcp",
     "description": "Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels.",
