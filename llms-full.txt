@@ -4279,6 +4279,18 @@ Real-time infrastructure monitoring and health metrics via MCP.
 - Tags: monitoring, infra, metrics
 - Category: Data, Analytics, and BI
 
+### OMOPHub
+
+Search, map and navigate the OHDSI OMOP standardized vocabularies (11M+ concepts, including SNOMED CT, ICD-10, LOINC and RxNorm) from AI agents, with concept hierarchies and cross-vocabulary mappings.
+
+- URL: https://github.com/OMOPHub/omophub-mcp
+- Language: TypeScript
+- Provider: OMOPHub
+- Official: yes
+- Tags: healthcare, omop, medical-vocabularies, fhir, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.omophub.com
+
 ### Open Health Sync
 
 Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources.
