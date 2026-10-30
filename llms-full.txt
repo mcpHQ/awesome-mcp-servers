@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 567 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 568 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -428,6 +428,18 @@ Searches and reads Apple's developer documentation, Human Interface Guidelines a
 - Official: no
 - Tags: apple, ios, swift, documentation, wwdc
 - Category: Developer Tools and Code Intelligence
+
+### AppScreen
+
+Build App Store and Google Play screenshots in the AppScreen browser editor: slides, device frames, text, app screenshots, backgrounds, export and share links, over remote Streamable HTTP with OAuth 2.1 (Pro plan).
+
+- URL: https://appscreen.pro
+- Language: TypeScript
+- Provider: Intenseloop
+- Official: yes
+- Tags: app-store, google-play, screenshots, remote, oauth
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://appscreen.pro/mcp
 
 ### AsItIs
 

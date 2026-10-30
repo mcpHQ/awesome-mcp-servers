@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 567 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 568 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -58,6 +58,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [API.market MCP Gateway](https://api.market/mcp): Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API. (TypeScript, official)
 - [app-console-mcp](https://github.com/Alekla0126/app-console-mcp): Manage Google Play Console, App Store Connect and AdMob through their official APIs: listings, reviews, releases, rollouts, vitals and ad reports, with every change a dry run by default. (Python)
 - [Apple Docs 2.0 MCP](https://github.com/mishafyi/Apple-Docs-2.0-MCP): Searches and reads Apple's developer documentation, Human Interface Guidelines and 1,700 WWDC sessions with code, with an offline index of 336,629 pages. (TypeScript)
+- [AppScreen](https://appscreen.pro): Build App Store and Google Play screenshots in the AppScreen browser editor: slides, device frames, text, app screenshots, backgrounds, export and share links, over remote Streamable HTTP with OAuth 2.1 (Pro plan). (TypeScript, official)
 - [AsItIs](https://github.com/Katta041/asitis-agent-tools): Read-only server that lints CLAUDE.md, AGENTS.md and SKILL.md against vendor rules, estimates the tokens they load per session, and flags hidden instructions such as comments addressed to the AI and invisible Unicode. (TypeScript, official)
 - [ax](https://github.com/Necmttn/ax): Local-first MCP server for querying coding-agent sessions, tool calls, skills, and costs. (TypeScript)
 - [Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp): Build Bulma v1 React apps with Bestax using an offline index of its component props, examples, CSS variables and Agent Skills. (TypeScript, official)
