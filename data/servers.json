@@ -4971,6 +4971,21 @@
     "official": true
   },
   {
+    "name": "Bowmark",
+    "url": "https://github.com/bowmark-ai/mcp",
+    "description": "Remote MCP server that gives agents typed, tested functions for live websites such as LinkedIn, YouTube, Amazon and flight search.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "Bowmark AI",
+    "tags": [
+      "web-data",
+      "websites",
+      "remote",
+      "agents"
+    ],
+    "official": true
+  },
+  {
     "name": "Mothership",
     "url": "https://github.com/mothership/agent-plugins",
     "description": "Mothership LTL, FTL & Local Freight: get quotes and track shipments.",

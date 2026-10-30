@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 584 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 585 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1230,6 +1230,17 @@ Search full-text scientific papers and return structured evidence for research a
 - Tags: search, research, science, literature
 - Category: Browsers, Search, and Web Automation
 - SSE endpoint: https://bgpt.pro/mcp/sse
+
+### Bowmark
+
+Remote MCP server that gives agents typed, tested functions for live websites such as LinkedIn, YouTube, Amazon and flight search.
+
+- URL: https://github.com/bowmark-ai/mcp
+- Language: Python
+- Provider: Bowmark AI
+- Official: yes
+- Tags: web-data, websites, remote, agents
+- Category: Browsers, Search, and Web Automation
 
 ### Brave Search MCP Server
 
