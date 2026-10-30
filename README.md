@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (59)
 - [Legal and Court Data](#legal-and-court-data) (8)
 - [Security and Identity](#security-and-identity) (28)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (119)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (120)
 - [Utilities and Examples](#utilities-and-examples) (23)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1023,6 +1023,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `travel` `flights` `airlines` `award-travel` `points`
 - **[AyHire](https://ayhire.com/agents.md)** `Official` `Other` — Hosted OAuth MCP server to find, judge and shortlist engineers for a role from their public GitHub work, with links to the evidence for each pick.  
   `recruiting` `hiring` `github` `oauth` `remote`
+- **[b2bsearch](https://github.com/b2bsearch/mcp)** `Official` `TypeScript` — Six B2B prospecting tools over the b2bsearch Actors on Apify: people search (count and market modes free), decision makers by domain, new hires, lookalikes, email format. Bring your own APIFY_TOKEN; pay per result.  
+  `b2b-data` `lead-generation` `people-search` `sales` `apify`
 - **[BankBridge](https://bankbridge.money)** `Official` `TypeScript` — Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.  
   `banking` `personal-finance` `read-only` `remote`
 - **[Best Electrician Jobs](https://github.com/854Labs/best-electrician-jobs)** `Official` `Other` — Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.  
