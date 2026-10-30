@@ -4780,6 +4780,25 @@
     "official": true
   },
   {
+    "name": "Pagelive MCP Server",
+    "url": "https://pagelive.io/mcp",
+    "description": "Publish HTML that Claude builds as a private, view-tracked link, then update it, read views and answer comments.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "Pagelive",
+    "tags": [
+      "publishing",
+      "html",
+      "documents",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.pagelive.io/api/mcp"
+    }
+  },
+  {
     "name": "Mothership",
     "url": "https://github.com/mothership/agent-plugins",
     "description": "Mothership LTL, FTL & Local Freight: get quotes and track shipments.",

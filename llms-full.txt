@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 567 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 568 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1808,6 +1808,18 @@ Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, s
 - Official: no
 - Tags: documents, search, docx, pdf, sqlite
 - Category: Filesystems and Documents
+
+### Pagelive MCP Server
+
+Publish HTML that Claude builds as a private, view-tracked link, then update it, read views and answer comments.
+
+- URL: https://pagelive.io/mcp
+- Language: TypeScript
+- Provider: Pagelive
+- Official: yes
+- Tags: publishing, html, documents, oauth, remote
+- Category: Filesystems and Documents
+- Streamable HTTP endpoint: https://app.pagelive.io/api/mcp
 
 ### PDF MCP Server
 

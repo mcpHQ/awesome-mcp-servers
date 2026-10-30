@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-567-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-568-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (18)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (60)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (54)
-- [Filesystems and Documents](#filesystems-and-documents) (21)
+- [Filesystems and Documents](#filesystems-and-documents) (22)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
 - [Communication and Productivity](#communication-and-productivity) (73)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (64)
@@ -404,6 +404,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `obsidian` `notes` `local`
 - **[officegrep](https://github.com/Asgoresmilelong/officegrep)** `Python` — Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index.  
   `documents` `search` `docx` `pdf` `sqlite`
+- **[Pagelive MCP Server](https://pagelive.io/mcp)** `Official` `TypeScript` — Publish HTML that Claude builds as a private, view-tracked link, then update it, read views and answer comments.  
+  `publishing` `html` `documents` `oauth` `remote`
 - **[PDF MCP Server](https://github.com/jztan/pdf-mcp)** `Python` — Extract text and metadata from PDF documents for analysis.  
   `pdf` `documents` `extraction`
 - **[PDFtoMarkdown.ai](https://github.com/happywpco/pdftomarkdown-mcp)** `Official` `JavaScript` — Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured Markdown with headings, tables and optional OCR via the PDFtoMarkdown.ai API; free pages, then pay-per-page credits.  
