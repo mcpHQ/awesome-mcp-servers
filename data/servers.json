@@ -5975,6 +5975,24 @@
     }
   },
   {
+    "name": "Fax for Agents",
+    "url": "https://github.com/faxforagents/mcp",
+    "description": "Send and receive faxes from AI agents through the Fax for Agents API, with quotes, human review, delegated policies and delivery evidence.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Fax for Agents",
+    "tags": [
+      "fax",
+      "communication",
+      "agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.faxforagents.com/mcp/"
+    }
+  },
+  {
     "name": "NPMScan",
     "url": "https://npmscan.com/docs/mcp",
     "description": "Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs.",
