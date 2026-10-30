@@ -362,6 +362,22 @@
     "official": false
   },
   {
+    "name": "Babelize MCP",
+    "url": "https://docs.babelize.co/integrations/mcp-server",
+    "description": "Analyzes a codebase for i18n readiness, wires hardcoded strings to next-intl or react-i18next, translates locale files and QA-checks translations, running locally from the coding agent.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Babelize",
+    "tags": [
+      "i18n",
+      "localization",
+      "translation",
+      "react",
+      "nextjs"
+    ],
+    "official": true
+  },
+  {
     "name": "ipvolt Proxy Toolkit",
     "url": "https://github.com/ipvolt/proxy-toolkit-mcp",
     "description": "Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure.",
@@ -774,6 +790,25 @@
       "sso"
     ],
     "official": false
+  },
+  {
+    "name": "OMOPHub",
+    "url": "https://github.com/OMOPHub/omophub-mcp",
+    "description": "Search, map and navigate the OHDSI OMOP standardized vocabularies (11M+ concepts, including SNOMED CT, ICD-10, LOINC and RxNorm) from AI agents, with concept hierarchies and cross-vocabulary mappings.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "OMOPHub",
+    "tags": [
+      "healthcare",
+      "omop",
+      "medical-vocabularies",
+      "fhir",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.omophub.com"
+    }
   },
   {
     "name": "Timesheet MCP Server",
@@ -1690,6 +1725,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://companyproof.ai/v2/mcp"
+    }
+  },
+  {
+    "name": "ComputeFirst",
+    "url": "https://computefirst.net/docs",
+    "description": "Hosted catalog of versioned, deterministic tools for exact math, CSV and JSON transforms, date math, text, hashing and identifier checks; search, then execute by id. No key.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "ComputeFirst",
+    "tags": [
+      "math",
+      "data-transforms",
+      "deterministic",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://computefirst.net/mcp"
     }
   },
   {
@@ -3212,6 +3265,22 @@
     }
   },
   {
+    "name": "b2bsearch",
+    "url": "https://github.com/b2bsearch/mcp",
+    "description": "Six B2B prospecting tools over the b2bsearch Actors on Apify: people search (count and market modes free), decision makers by domain, new hires, lookalikes, email format. Bring your own APIFY_TOKEN; pay per result.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "b2bsearch",
+    "tags": [
+      "b2b-data",
+      "lead-generation",
+      "people-search",
+      "sales",
+      "apify"
+    ],
+    "official": true
+  },
+  {
     "name": "IntlPull MCP Server",
     "url": "https://intlpull.com/docs/mcp",
     "description": "Manage translation keys, translate strings, and sync localization files with IntlPull from MCP clients.",
@@ -4622,6 +4691,25 @@
     "official": false
   },
   {
+    "name": "Wiro AI",
+    "url": "https://github.com/wiroai/Wiro-MCP",
+    "description": "Official MCP server for Wiro AI: search 3,500+ AI models for images, video, audio, speech, music and text, check each model's parameters and price, run it and get the results back in your assistant.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Wiro AI",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "text-to-speech",
+      "generative-ai",
+      "ai-models"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.wiro.ai/v1"
+    }
+  },
+  {
     "name": "Edusign MCP",
     "url": "https://developers.edusign.com/docs/mcp",
     "description": "Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server.",
@@ -4730,6 +4818,21 @@
     }
   },
   {
+    "name": "AI Resources",
+    "url": "https://github.com/Drix10/ai-resources/tree/main/mcp",
+    "description": "Search and read dated AI news briefings on model releases, dev tools, funding rounds and research, each linking to the original post; no API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Drix10",
+    "tags": [
+      "ai-news",
+      "search",
+      "research",
+      "citations"
+    ],
+    "official": true
+  },
+  {
     "name": "BlazePhoenix",
     "url": "https://github.com/blazephoenixxyz-crypto/blazephoenix-mcp",
     "description": "Official remote MCP server for the BlazePhoenix DEX aggregator on Base, Optimism, Arbitrum and Robinhood Chain: prepare a quote to run on your own RPC, decode it, and get verified calldata. No API key.",
@@ -4776,6 +4879,20 @@
       "agent-payments",
       "local-stdio",
       "macos"
+    ],
+    "official": true
+  },
+  {
+    "name": "Kilobat CLI",
+    "url": "https://github.com/seifip/kilobat-cli",
+    "description": "Mac network monitoring and diagnostics through a local stdio MCP server.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Swift",
+    "provider": "Philip Seifi",
+    "tags": [
+      "macos",
+      "network",
+      "diagnostics"
     ],
     "official": true
   },
@@ -4908,6 +5025,25 @@
     }
   },
   {
+    "name": "BatchData",
+    "url": "https://github.com/batchdataco/batchdata-mcp-server",
+    "description": "Hosted MCP server for U.S. property data: property search, comps, owner skip tracing, and phone and address verification. OAuth 2.1 or API token.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "BatchData",
+    "tags": [
+      "real-estate",
+      "property-data",
+      "skip-tracing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.batchdata.com"
+    }
+  },
+  {
     "name": "HEY Research Lab",
     "url": "https://github.com/hey-research-lab/hey-research-open",
     "description": "Read-only research on Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its public source.",
@@ -4923,6 +5059,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://heyresearch.xyz/mcp"
+    }
+  },
+  {
+    "name": "GetYouTubeTranscript",
+    "url": "https://github.com/tubeagentkit/youtube-mcp",
+    "description": "YouTube transcripts and data over MCP: fetch a video's captions (language choice, optional timestamps), search YouTube, and browse channels, playlists and related videos.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "GetYouTubeTranscript",
+    "tags": [
+      "youtube",
+      "transcripts",
+      "video",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://getyoutubetranscript.com/api/mcp"
     }
   },
   {
@@ -5108,6 +5263,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://extensiondash.com/mcp"
+    }
+  },
+  {
+    "name": "Fictura",
+    "url": "https://docs.fictura.co/connections/outgoing/mcp-server",
+    "description": "Hosted MCP server for Fictura: paywalls, onboarding, subscription analytics, A/B experiments, attribution and errors for Expo and React Native apps, with draft-only editing.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Fictura",
+    "tags": [
+      "mobile-apps",
+      "subscriptions",
+      "paywalls",
+      "analytics",
+      "attribution"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.fictura.co/mcp"
     }
   },
   {
@@ -9542,5 +9716,21 @@
     "endpoints": {
       "streamableHttp": "https://app.hutchdb.com/api/mcp"
     }
+  },
+  {
+    "name": "open-data-mcp",
+    "url": "https://github.com/markatdataandbeyond/open-data-mcp",
+    "description": "Free local stdio MCP with ten tools on official open data: EU VAT/LEI, TED tenders, PubMed, ClinicalTrials.gov, company registries, VIN recalls and weather.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "open-data",
+      "vies",
+      "pubmed",
+      "company-registry",
+      "stdio"
+    ],
+    "official": false
   }
 ]

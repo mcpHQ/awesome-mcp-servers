@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 568 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 579 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -451,6 +451,17 @@ Local-first MCP server for querying coding-agent sessions, tool calls, skills, a
 - Tags: observability, coding-agents, costs
 - Category: Developer Tools and Code Intelligence
 
+### Babelize MCP
+
+Analyzes a codebase for i18n readiness, wires hardcoded strings to next-intl or react-i18next, translates locale files and QA-checks translations, running locally from the coding agent.
+
+- URL: https://docs.babelize.co/integrations/mcp-server
+- Language: TypeScript
+- Provider: Babelize
+- Official: yes
+- Tags: i18n, localization, translation, react, nextjs
+- Category: Developer Tools and Code Intelligence
+
 ### Bestax
 
 Build Bulma v1 React apps with Bestax using an offline index of its component props, examples, CSS variables and Agent Skills.
@@ -664,6 +675,17 @@ Local code-quality rules, findings, preview-first safe fixes, refactor verificat
 - Provider: Iris Code
 - Official: yes
 - Tags: code-quality, static-analysis, refactoring, security, local
+- Category: Developer Tools and Code Intelligence
+
+### Kilobat CLI
+
+Mac network monitoring and diagnostics through a local stdio MCP server.
+
+- URL: https://github.com/seifip/kilobat-cli
+- Language: Swift
+- Provider: Philip Seifi
+- Official: yes
+- Tags: macos, network, diagnostics
 - Category: Developer Tools and Code Intelligence
 
 ### Kleap
@@ -1105,6 +1127,17 @@ Pay-per-call residential proxy traffic and raw fetch for agents, with country ta
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://agproxy.shveik.dev/mcp
 
+### AI Resources
+
+Search and read dated AI news briefings on model releases, dev tools, funding rounds and research, each linking to the original post; no API key.
+
+- URL: https://github.com/Drix10/ai-resources/tree/main/mcp
+- Language: JavaScript
+- Provider: Drix10
+- Official: yes
+- Tags: ai-news, search, research, citations
+- Category: Browsers, Search, and Web Automation
+
 ### AI观潮 News MCP
 
 Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Needs a personal token (free daily quota).
@@ -1365,6 +1398,18 @@ Scrape, crawl, and extract structured web data with Firecrawl.
 - Official: yes
 - Tags: scraping, crawl, web
 - Category: Browsers, Search, and Web Automation
+
+### GetYouTubeTranscript
+
+YouTube transcripts and data over MCP: fetch a video's captions (language choice, optional timestamps), search YouTube, and browse channels, playlists and related videos.
+
+- URL: https://github.com/tubeagentkit/youtube-mcp
+- Language: JavaScript
+- Provider: GetYouTubeTranscript
+- Official: yes
+- Tags: youtube, transcripts, video, search, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://getyoutubetranscript.com/api/mcp
 
 ### Hyperresearch
 
@@ -3811,6 +3856,18 @@ AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP ser
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://waspes.com/api/mcp
 
+### Wiro AI
+
+Official MCP server for Wiro AI: search 3,500+ AI models for images, video, audio, speech, music and text, check each model's parameters and price, run it and get the results back in your assistant.
+
+- URL: https://github.com/wiroai/Wiro-MCP
+- Language: TypeScript
+- Provider: Wiro AI
+- Official: yes
+- Tags: image-generation, video-generation, text-to-speech, generative-ai, ai-models
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://mcp.wiro.ai/v1
+
 ### Zep MCP Server
 
 Community MCP wrapper for long-term memory and context retrieval with Zep.
@@ -3894,6 +3951,18 @@ Governed BI MCP. Ask questions of live company data and list workspace sources v
 - Tags: bi, dashboards, sql
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://charts.basedash.com/api/public/mcp
+
+### BatchData
+
+Hosted MCP server for U.S. property data: property search, comps, owner skip tracing, and phone and address verification. OAuth 2.1 or API token.
+
+- URL: https://github.com/batchdataco/batchdata-mcp-server
+- Language: Other
+- Provider: BatchData
+- Official: yes
+- Tags: real-estate, property-data, skip-tracing, remote, oauth
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.batchdata.com
 
 ### Blawgy
 
@@ -4046,6 +4115,18 @@ Query Chrome and Firefox extension users, ratings, and search-rank data through 
 - Tags: browser-extensions, analytics, chrome, firefox, remote
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://extensiondash.com/mcp
+
+### Fictura
+
+Hosted MCP server for Fictura: paywalls, onboarding, subscription analytics, A/B experiments, attribution and errors for Expo and React Native apps, with draft-only editing.
+
+- URL: https://docs.fictura.co/connections/outgoing/mcp-server
+- Language: TypeScript
+- Provider: Fictura
+- Official: yes
+- Tags: mobile-apps, subscriptions, paywalls, analytics, attribution
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.fictura.co/mcp
 
 ### FlightQueue
 
@@ -4280,6 +4361,18 @@ Real-time infrastructure monitoring and health metrics via MCP.
 - Tags: monitoring, infra, metrics
 - Category: Data, Analytics, and BI
 
+### OMOPHub
+
+Search, map and navigate the OHDSI OMOP standardized vocabularies (11M+ concepts, including SNOMED CT, ICD-10, LOINC and RxNorm) from AI agents, with concept hierarchies and cross-vocabulary mappings.
+
+- URL: https://github.com/OMOPHub/omophub-mcp
+- Language: TypeScript
+- Provider: OMOPHub
+- Official: yes
+- Tags: healthcare, omop, medical-vocabularies, fhir, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.omophub.com
+
 ### Open Health Sync
 
 Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources.
@@ -4289,6 +4382,17 @@ Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of 
 - Provider: Open Health Sync
 - Official: yes
 - Tags: health, wearables, fitness, fhir, self-hosted
+- Category: Data, Analytics, and BI
+
+### open-data-mcp
+
+Free local stdio MCP with ten tools on official open data: EU VAT/LEI, TED tenders, PubMed, ClinicalTrials.gov, company registries, VIN recalls and weather.
+
+- URL: https://github.com/markatdataandbeyond/open-data-mcp
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: open-data, vies, pubmed, company-registry, stdio
 - Category: Data, Analytics, and BI
 
 ### PeekPanda
@@ -5146,6 +5250,17 @@ Hosted OAuth MCP server to find, judge and shortlist engineers for a role from t
 - Tags: recruiting, hiring, github, oauth, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://ayhire.com/mcp
+
+### b2bsearch
+
+Six B2B prospecting tools over the b2bsearch Actors on Apify: people search (count and market modes free), decision makers by domain, new hires, lookalikes, email format. Bring your own APIFY_TOKEN; pay per result.
+
+- URL: https://github.com/b2bsearch/mcp
+- Language: TypeScript
+- Provider: b2bsearch
+- Official: yes
+- Tags: b2b-data, lead-generation, people-search, sales, apify
+- Category: Finance, Commerce, and Business Apps
 
 ### BankBridge
 
@@ -6417,6 +6532,18 @@ Track symptoms, mood, medications, and wellness patterns through a remote OAuth 
 - Tags: health, tracking, oauth, wellness
 - Category: Utilities and Examples
 - Streamable HTTP endpoint: https://mcp.careclinic.io/mcp
+
+### ComputeFirst
+
+Hosted catalog of versioned, deterministic tools for exact math, CSV and JSON transforms, date math, text, hashing and identifier checks; search, then execute by id. No key.
+
+- URL: https://computefirst.net/docs
+- Language: JavaScript
+- Provider: ComputeFirst
+- Official: yes
+- Tags: math, data-transforms, deterministic, remote
+- Category: Utilities and Examples
+- Streamable HTTP endpoint: https://computefirst.net/mcp
 
 ### Everything2MCP
 
