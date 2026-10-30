@@ -362,6 +362,22 @@
     "official": false
   },
   {
+    "name": "Babelize MCP",
+    "url": "https://docs.babelize.co/integrations/mcp-server",
+    "description": "Analyzes a codebase for i18n readiness, wires hardcoded strings to next-intl or react-i18next, translates locale files and QA-checks translations, running locally from the coding agent.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Babelize",
+    "tags": [
+      "i18n",
+      "localization",
+      "translation",
+      "react",
+      "nextjs"
+    ],
+    "official": true
+  },
+  {
     "name": "ipvolt Proxy Toolkit",
     "url": "https://github.com/ipvolt/proxy-toolkit-mcp",
     "description": "Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure.",

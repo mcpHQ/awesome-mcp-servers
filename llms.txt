@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 567 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 568 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -60,6 +60,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Apple Docs 2.0 MCP](https://github.com/mishafyi/Apple-Docs-2.0-MCP): Searches and reads Apple's developer documentation, Human Interface Guidelines and 1,700 WWDC sessions with code, with an offline index of 336,629 pages. (TypeScript)
 - [AsItIs](https://github.com/Katta041/asitis-agent-tools): Read-only server that lints CLAUDE.md, AGENTS.md and SKILL.md against vendor rules, estimates the tokens they load per session, and flags hidden instructions such as comments addressed to the AI and invisible Unicode. (TypeScript, official)
 - [ax](https://github.com/Necmttn/ax): Local-first MCP server for querying coding-agent sessions, tool calls, skills, and costs. (TypeScript)
+- [Babelize MCP](https://docs.babelize.co/integrations/mcp-server): Analyzes a codebase for i18n readiness, wires hardcoded strings to next-intl or react-i18next, translates locale files and QA-checks translations, running locally from the coding agent. (TypeScript, official)
 - [Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp): Build Bulma v1 React apps with Bestax using an offline index of its component props, examples, CSS variables and Agent Skills. (TypeScript, official)
 - [Chain.Love MCP](https://github.com/Chain-Love/chain.love-mcp): Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network. (Other, official)
 - [Communicate](https://developer.communicate.so/docs/mcp): List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials. (TypeScript, official)
