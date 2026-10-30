@@ -3212,6 +3212,22 @@
     }
   },
   {
+    "name": "b2bsearch",
+    "url": "https://github.com/b2bsearch/mcp",
+    "description": "Six B2B prospecting tools over the b2bsearch Actors on Apify: people search (count and market modes free), decision makers by domain, new hires, lookalikes, email format. Bring your own APIFY_TOKEN; pay per result.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "b2bsearch",
+    "tags": [
+      "b2b-data",
+      "lead-generation",
+      "people-search",
+      "sales",
+      "apify"
+    ],
+    "official": true
+  },
+  {
     "name": "IntlPull MCP Server",
     "url": "https://intlpull.com/docs/mcp",
     "description": "Manage translation keys, translate strings, and sync localization files with IntlPull from MCP clients.",

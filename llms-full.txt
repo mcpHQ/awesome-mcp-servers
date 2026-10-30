@@ -5147,6 +5147,17 @@ Hosted OAuth MCP server to find, judge and shortlist engineers for a role from t
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://ayhire.com/mcp
 
+### b2bsearch
+
+Six B2B prospecting tools over the b2bsearch Actors on Apify: people search (count and market modes free), decision makers by domain, new hires, lookalikes, email format. Bring your own APIFY_TOKEN; pay per result.
+
+- URL: https://github.com/b2bsearch/mcp
+- Language: TypeScript
+- Provider: b2bsearch
+- Official: yes
+- Tags: b2b-data, lead-generation, people-search, sales, apify
+- Category: Finance, Commerce, and Business Apps
+
 ### BankBridge
 
 Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.
