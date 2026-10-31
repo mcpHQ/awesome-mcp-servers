@@ -4940,6 +4940,21 @@
     }
   },
   {
+    "name": "ContextManager",
+    "url": "https://github.com/nushey/ContextManager",
+    "description": "Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "C#",
+    "provider": "Community",
+    "tags": [
+      "csharp",
+      "dotnet",
+      "roslyn",
+      "code-analysis"
+    ],
+    "official": false
+  },
+  {
     "name": "Allscreenshots",
     "url": "https://github.com/allscreenshots/allscreenshots-plugin",
     "description": "Captures website screenshots, runs bulk captures, and manages screenshot schedules and history via the Allscreenshots API; available as a local Python server or a remote endpoint.",
