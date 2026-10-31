@@ -532,6 +532,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `phone-calls` `voice` `telephony` `remote`
 - **[Campfire SMS](https://github.com/campfiresms/campfire-mcp)** `Official` `Python` — Two-way SMS bridge for coding agents: the agent texts you when it finishes or is blocked and reads your SMS replies.  
   `sms` `notifications` `human-in-the-loop` `coding-agents`
+- **[Carbon](https://github.com/CarbonDataSolutions/carbon-mcp)** `Official` `Other` — Hire skills-assessed data professionals from any MCP host. Post your role free. Hosted Streamable HTTP at `https://mcp.carbondatasolutions.com/mcp`; OAuth. Homepage https://www.carbondatasolutions.com/mcp.
+  `hiring` `talent` `data` `ai` `remote` `oauth`
 - **[CiteWing](https://citewing.com/docs)** `Official` `TypeScript` — Find AI-cited publisher prospects, review outreach and publisher replies, and draft emails requesting brand mentions.  
   `marketing` `seo` `outreach` `email` `oauth`
 - **[Cooper Email](https://cooperemail.com/docs/mcp)** `Official` `TypeScript` — Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier.  
