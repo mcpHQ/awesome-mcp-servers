@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 588 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 589 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4954,6 +4954,17 @@ Free, advisory pre-action check: check_action returns permit, deny or escalate f
 - Tags: mandates, authorization, agent-safety, receipts, remote
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://check.hanria.ai/v1/mcp
+
+### ichi-mcp
+
+Read the free public ICHI Internet Cyber Health Index: current threat band and score, recent critical-advisory alerts, and source feed health.
+
+- URL: https://github.com/bernik-bot/ichi-mcp
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: threat-intelligence, cybersecurity, osint, monitoring
+- Category: Security and Identity
 
 ### INAM Protocol
 
