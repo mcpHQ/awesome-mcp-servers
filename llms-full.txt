@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 585 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 590 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -552,6 +552,17 @@ Up-to-date library and framework documentation injected into prompts.
 - Provider: Upstash
 - Official: yes
 - Tags: docs, libraries, coding
+- Category: Developer Tools and Code Intelligence
+
+### ContextManager
+
+Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents.
+
+- URL: https://github.com/nushey/ContextManager
+- Language: C#
+- Provider: Community
+- Official: no
+- Tags: csharp, dotnet, roslyn, code-analysis
 - Category: Developer Tools and Code Intelligence
 
 ### Docker MCP Server
@@ -1655,6 +1666,17 @@ Local server that returns YouTube transcripts and playlists, web pages as Markdo
 - Provider: Community
 - Official: no
 - Tags: youtube, transcripts, markdown, app-store
+- Category: Browsers, Search, and Web Automation
+
+### Toolradar
+
+Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.
+
+- URL: https://github.com/Nadeus/toolradar-mcp
+- Language: TypeScript
+- Provider: Toolradar
+- Official: yes
+- Tags: software-discovery, pricing, comparison, saas
 - Category: Browsers, Search, and Web Automation
 
 ### TubeText TikTok Transcripts & Video Breakdown
@@ -4083,6 +4105,18 @@ Hosted company search, registry profiles and verification of six company identit
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://companyproof.ai/v2/mcp
 
+### CoworkingView
+
+Hosted, no-key, read-only MCP server for coworking spaces, private offices and city price medians in European and UAE cities.
+
+- URL: https://coworkingview.com/en/mcp
+- Language: Other
+- Provider: CoworkingView
+- Official: yes
+- Tags: real-estate, coworking, europe, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.coworkingview.com/mcp
+
 ### CrakSEO Search Console MCP
 
 Free remote MCP access to owned-site Google Search Console and Bing Webmaster data; CrakSEO authentication and authorization for the user's own properties required.
@@ -4932,6 +4966,17 @@ Free, advisory pre-action check: check_action returns permit, deny or escalate f
 - Tags: mandates, authorization, agent-safety, receipts, remote
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://check.hanria.ai/v1/mcp
+
+### ichi-mcp
+
+Read the free public ICHI Internet Cyber Health Index: current threat band and score, recent critical-advisory alerts, and source feed health.
+
+- URL: https://github.com/bernik-bot/ichi-mcp
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: threat-intelligence, cybersecurity, osint, monitoring
+- Category: Security and Identity
 
 ### INAM Protocol
 
@@ -6390,6 +6435,18 @@ Hosted MCP server that lets AI clients read live charts, backtest rule-based str
 - Tags: trading, forex, crypto, backtesting, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.traderwai.com
+
+### Truo
+
+Remote MCP that lets Australian households ask Claude or ChatGPT about their own bank accounts under the Consumer Data Right, read-only at the bank.
+
+- URL: https://truo.com.au/docs
+- Language: TypeScript
+- Provider: NTWRK Pty Ltd
+- Official: yes
+- Tags: australia, banking, cdr, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://connect.truo.com.au/mcp
 
 ### TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo
 
