@@ -5041,6 +5041,22 @@
     "official": false
   },
   {
+    "name": "Signbee MCP Server",
+    "url": "https://github.com/signbee/mcp",
+    "description": "Send Markdown or PDF documents for two-party electronic signing with SHA-256 cryptographic audit certificates and OTP verification.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "Signb.ee",
+    "tags": [
+      "documents",
+      "esignature",
+      "contracts",
+      "legal",
+      "pdf"
+    ],
+    "official": true
+  },
+  {
     "name": "Desearch",
     "url": "https://github.com/Desearch-ai/mcp-desearch",
     "description": "AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.",
