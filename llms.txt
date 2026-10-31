@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 589 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 590 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -110,6 +110,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [SkillDB](https://github.com/devchad-cmd/skilldb-sdk): Search reusable AI agent skills through an installable TypeScript MCP server; full skill content requires a Pro or Studio account. (TypeScript, official)
 - [Sourcegraph Cody MCP](https://sourcegraph.com/docs/api/mcp): Code intelligence and search across large codebases with Cody. (TypeScript, official)
 - [Spinnaker MCP Server](https://github.com/GeiserX/spinnaker-mcp): Read and operate a Spinnaker instance through its Gate API: 37 tools for applications, pipelines, executions, deployment strategies, and infrastructure, plus a read-only toolset. (Go)
+- [SrcLog](https://github.com/srclogcom/srclog-mcp): Search open-source GitHub repositories, find alternatives to any project, browse curated topics, and rank top developers and organizations by language and country. (PHP, official)
 - [Tavero](https://github.com/baccaraaa/tavero): Scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors, and spacing, and returns fixes with file and line references to the coding agent. (TypeScript)
 - [UI Verify MCP Server](https://uiverify.ai/docs/triage-with-your-agent): Review a pull request's visual diffs, read the AI judge's verdict on each change, and accept new baselines in UI Verify from a coding agent. (TypeScript, official)
 - [Vibe Monitor](https://github.com/tubban1/vibe-monitor): Local architecture checkpoints for AI coding agents; read-only source analysis and practical advice (Node 22+; default-on pseudonymous telemetry, required for Free analysis). (JavaScript)

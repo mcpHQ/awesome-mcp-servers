@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 589 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 590 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1017,6 +1017,18 @@ Read and operate a Spinnaker instance through its Gate API: 37 tools for applica
 - Official: no
 - Tags: spinnaker, continuous-delivery, devops
 - Category: Developer Tools and Code Intelligence
+
+### SrcLog
+
+Search open-source GitHub repositories, find alternatives to any project, browse curated topics, and rank top developers and organizations by language and country.
+
+- URL: https://github.com/srclogcom/srclog-mcp
+- Language: PHP
+- Provider: SrcLog
+- Official: yes
+- Tags: github, open-source, search, developer-rankings, alternatives
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://srclog.com/mcp
 
 ### Tavero
 
