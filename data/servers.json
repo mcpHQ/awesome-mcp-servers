@@ -5267,6 +5267,21 @@
     }
   },
   {
+    "name": "Rystic",
+    "url": "https://www.rystic.ai/docs/mcp-server",
+    "description": "Start, seed, clock, inspect and diff local stateful simulators of real APIs such as GitHub and Stripe, so agents can be tested without touching live accounts.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "Rystic",
+    "tags": [
+      "testing",
+      "simulators",
+      "api-mocking",
+      "agents"
+    ],
+    "official": true
+  },
+  {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
     "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
