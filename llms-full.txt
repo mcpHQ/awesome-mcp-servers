@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 590 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 591 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2610,6 +2610,17 @@ Create AI faceless videos from a script, run automated series, and publish to Yo
 - Tags: video, social-media, publishing, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://faceless.so/api/v1/mcp
+
+### Fax for Agents
+
+Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence.
+
+- URL: https://github.com/faxforagents/mcp
+- Language: TypeScript
+- Provider: Fax for Agents
+- Official: yes
+- Tags: fax, communication, agents, remote
+- Category: Communication and Productivity
 
 ### Gmail MCP Server
 
