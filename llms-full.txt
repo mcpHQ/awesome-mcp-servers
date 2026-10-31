@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 584 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 586 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1643,6 +1643,17 @@ Local server that returns YouTube transcripts and playlists, web pages as Markdo
 - Provider: Community
 - Official: no
 - Tags: youtube, transcripts, markdown, app-store
+- Category: Browsers, Search, and Web Automation
+
+### Toolradar
+
+Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.
+
+- URL: https://github.com/Nadeus/toolradar-mcp
+- Language: TypeScript
+- Provider: Toolradar
+- Official: yes
+- Tags: software-discovery, pricing, comparison, saas
 - Category: Browsers, Search, and Web Automation
 
 ### TubeText TikTok Transcripts & Video Breakdown
@@ -4070,6 +4081,18 @@ Hosted company search, registry profiles and verification of six company identit
 - Tags: company-data, verification, registry, evidence, remote
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://companyproof.ai/v2/mcp
+
+### CoworkingView
+
+Hosted, no-key, read-only MCP server for coworking spaces, private offices and city price medians in European and UAE cities.
+
+- URL: https://coworkingview.com/en/mcp
+- Language: Other
+- Provider: CoworkingView
+- Official: yes
+- Tags: real-estate, coworking, europe, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.coworkingview.com/mcp
 
 ### CrakSEO Search Console MCP
 
