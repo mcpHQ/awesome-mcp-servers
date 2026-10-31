@@ -4902,6 +4902,24 @@
     "official": true
   },
   {
+    "name": "CoworkingView",
+    "url": "https://coworkingview.com/en/mcp",
+    "description": "Hosted, no-key, read-only MCP server for coworking spaces, private offices and city price medians in European and UAE cities.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "CoworkingView",
+    "tags": [
+      "real-estate",
+      "coworking",
+      "europe",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.coworkingview.com/mcp"
+    }
+  },
+  {
     "name": "Agent Payment Node",
     "url": "https://github.com/nuanu-ai/agent-payment-node",
     "description": "Local CLI and stdio MCP payment tools for AI agents on macOS Apple Silicon, with foreground human approval for signing.",
