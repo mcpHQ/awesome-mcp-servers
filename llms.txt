@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 598 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 599 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -543,6 +543,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Elori](https://github.com/elori-debug/elori-mcp): Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required. (TypeScript, official)
 - [Equibles](https://equibles.com/mcp): Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access. (C#, official)
 - [Equivista](https://equivista.be/api/docs): Read-only Belgian company search, KBO profiles, annual financials, employees and company relationships. (Ruby, official)
+- [Fair Value Calculator](https://www.fairvalue-calculator.com/integrations): Remote MCP that gives Claude or ChatGPT fair value estimates from 26 valuation models, quality scores and screeners for 40,000+ listed stocks, plus the user's own watchlist and alerts. (PHP, official)
 - [Feminiq Rides](https://www.feminiqrides.nl/llms.txt): Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request. (JavaScript, official)
 - [Fin Codes API](https://fincodesapi.com/mcp-server): Validate IBANs and bank codes, verify payee names, and screen names against sanctions lists through an authenticated hosted MCP server. (PHP, official)
 - [Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs): Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in. (Other, official)
