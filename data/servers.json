@@ -5009,6 +5009,24 @@
     }
   },
   {
+    "name": "LAYIQ Jobs",
+    "url": "https://www.layiq.co/connectors/claude",
+    "description": "Search public job listings and read job details from LAYIQ, a candidate-first job search workspace without sponsored listings. Read-only; no account or API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Roleworthy Labs Inc.",
+    "tags": [
+      "jobs",
+      "job-search",
+      "read-only",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://www.layiq.co/mcp"
+    }
+  },
+  {
     "name": "DocuQueue MCP",
     "url": "https://github.com/docuqueue/docuqueue-mcp",
     "description": "Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.",

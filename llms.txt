@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 584 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 585 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -553,6 +553,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp): People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors. (TypeScript, official)
 - [Landed MCP](https://github.com/landedjobs/landed-mcp): Search AI and tech jobs ranked against a role brief, read a job's application form fields, and fetch free interview prep through a hosted MCP endpoint. (TypeScript, official)
 - [Lasso](https://getlasso.co/mcp): Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one site. (Python, official)
+- [LAYIQ Jobs](https://www.layiq.co/connectors/claude): Search public job listings and read job details from LAYIQ, a candidate-first job search workspace without sponsored listings. Read-only; no account or API key. (Other)
 - [Leal](https://www.getleal.com/mcp): Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters. (Ruby, official)
 - [Live Tennis API MCP](https://www.npmjs.com/package/livetennisapi-mcp): Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors. (TypeScript)
 - [MAQAMI Travel](https://github.com/negm17111995/mcp-server): Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key. (JavaScript, official)
