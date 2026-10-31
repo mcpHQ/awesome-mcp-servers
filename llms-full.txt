@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 595 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 596 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1810,6 +1810,18 @@ Read and write Airtable bases, tables, and records via MCP.
 - Official: no
 - Tags: airtable, spreadsheets, data
 - Category: Filesystems and Documents
+
+### BrewPage
+
+Publish HTML pages, Markdown, static sites, files, JSON and key-value data to free temporary HTTPS links with no signup or API key; content expires after a set TTL.
+
+- URL: https://github.com/kochetkov-ma/brewpage-openapi
+- Language: TypeScript
+- Provider: BrewPage
+- Official: yes
+- Tags: hosting, html, markdown, file-sharing, remote
+- Category: Filesystems and Documents
+- Streamable HTTP endpoint: https://brewpage.app/mcp
 
 ### Comment.io MCP Server
 
