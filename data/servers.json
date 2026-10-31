@@ -1,5 +1,20 @@
 [
   {
+    "name": "Toolradar",
+    "url": "https://github.com/Nadeus/toolradar-mcp",
+    "description": "Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Toolradar",
+    "tags": [
+      "software-discovery",
+      "pricing",
+      "comparison",
+      "saas"
+    ],
+    "official": true
+  },
+  {
     "name": "1Password MCP Server",
     "url": "https://github.com/CakeRepository/1Password-MCP",
     "description": "Community-maintained integration for accessing 1Password vault items in agent workflows.",
@@ -4902,6 +4917,24 @@
     "official": true
   },
   {
+    "name": "CoworkingView",
+    "url": "https://coworkingview.com/en/mcp",
+    "description": "Hosted, no-key, read-only MCP server for coworking spaces, private offices and city price medians in European and UAE cities.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "CoworkingView",
+    "tags": [
+      "real-estate",
+      "coworking",
+      "europe",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.coworkingview.com/mcp"
+    }
+  },
+  {
     "name": "Agent Payment Node",
     "url": "https://github.com/nuanu-ai/agent-payment-node",
     "description": "Local CLI and stdio MCP payment tools for AI agents on macOS Apple Silicon, with foreground human approval for signing.",
@@ -4915,6 +4948,25 @@
       "macos"
     ],
     "official": true
+  },
+  {
+    "name": "Truo",
+    "url": "https://truo.com.au/docs",
+    "description": "Remote MCP that lets Australian households ask Claude or ChatGPT about their own bank accounts under the Consumer Data Right, read-only at the bank.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "NTWRK Pty Ltd",
+    "tags": [
+      "australia",
+      "banking",
+      "cdr",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://connect.truo.com.au/mcp"
+    }
   },
   {
     "name": "Pagelive MCP Server",
@@ -4953,6 +5005,21 @@
     "endpoints": {
       "streamableHttp": "https://mcp.bormeapi.com/mcp"
     }
+  },
+  {
+    "name": "ContextManager",
+    "url": "https://github.com/nushey/ContextManager",
+    "description": "Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "C#",
+    "provider": "Community",
+    "tags": [
+      "csharp",
+      "dotnet",
+      "roslyn",
+      "code-analysis"
+    ],
+    "official": false
   },
   {
     "name": "Allscreenshots",

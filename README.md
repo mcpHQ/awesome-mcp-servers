@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-584-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-588-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,16 +43,16 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (18)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (64)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (57)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (65)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (58)
 - [Filesystems and Documents](#filesystems-and-documents) (22)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
 - [Communication and Productivity](#communication-and-productivity) (73)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (65)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (62)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (63)
 - [Legal and Court Data](#legal-and-court-data) (9)
 - [Security and Identity](#security-and-identity) (28)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (121)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (122)
 - [Utilities and Examples](#utilities-and-examples) (24)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -172,6 +172,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `email-validation` `phone-validation` `data-validation` `crm` `remote`
 - **[Context7 MCP](https://github.com/upstash/context7)** `Official` `TypeScript` — Up-to-date library and framework documentation injected into prompts.  
   `docs` `libraries` `coding`
+- **[ContextManager](https://github.com/nushey/ContextManager)** `C#` — Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents.  
+  `csharp` `dotnet` `roslyn` `code-analysis`
 - **[Docker MCP Server](https://github.com/docker/mcp-gateway)** `Official` `Go` — Manage containers, images, and Docker environments through MCP.  
   `containers` `devops` `docker`
 - **[Docsy](https://github.com/getremcp/docsy-plugin)** `Official` `TypeScript` — Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools.  
@@ -369,6 +371,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `search` `research` `agents`
 - **[toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp)** `JavaScript` — Local server that returns YouTube transcripts and playlists, web pages as Markdown and App Store reviews, with no API key or account.  
   `youtube` `transcripts` `markdown` `app-store`
+- **[Toolradar](https://github.com/Nadeus/toolradar-mcp)** `Official` `TypeScript` — Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.  
+  `software-discovery` `pricing` `comparison` `saas`
 - **[TubeText TikTok Transcripts & Video Breakdown](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/tiktok-transcripts)** `Official` `Other` — TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown. Hosted on Apify (OAuth), pay per result.  
   `transcripts` `tiktok` `video-analysis` `remote`
 - **[TubeText YouTube Transcripts & Channel Analytics](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/youtube-transcripts)** `Official` `Other` — YouTube transcripts from videos, Shorts, playlists or channels, plus channel and Social Blade stats. Hosted on Apify (OAuth), pay per result.  
@@ -820,6 +824,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `healthcare` `jobs` `job-search` `remote`
 - **[CompanyProof](https://companyproof.ai/docs/mcp)** `Official` `Other` — Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.  
   `company-data` `verification` `registry` `evidence` `remote`
+- **[CoworkingView](https://coworkingview.com/en/mcp)** `Official` `Other` — Hosted, no-key, read-only MCP server for coworking spaces, private offices and city price medians in European and UAE cities.  
+  `real-estate` `coworking` `europe` `remote`
 - **[CrakSEO Search Console MCP](https://docs.crakseo.com/mcp-servers/search-console)** `Official` `Other` — Free remote MCP access to owned-site Google Search Console and Bing Webmaster data; CrakSEO authentication and authorization for the user's own properties required.  
   `analytics` `seo` `search-console` `bing` `remote`
 - **[Datadog MCP Server](https://github.com/datadog-labs/mcp-server)** `Official` `Python` — Query metrics, logs, and monitors from Datadog via the official Datadog Labs MCP server.  
@@ -1233,6 +1239,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `trading` `market-data` `oauth` `read-only`
 - **[TraderWAI](https://github.com/leonardo-mazzitelli/traderwai-mcp)** `Official` `JavaScript` — Hosted MCP server that lets AI clients read live charts, backtest rule-based strategies and place risk-sized orders on the user's own MetaTrader, cTrader, TradeLocker, Match-Trader, Binance or Bybit account; free plan.  
   `trading` `forex` `crypto` `backtesting` `remote`
+- **[Truo](https://truo.com.au/docs)** `Official` `TypeScript` — Remote MCP that lets Australian households ask Claude or ChatGPT about their own bank accounts under the Consumer Data Right, read-only at the bank.  
+  `australia` `banking` `cdr` `remote` `oauth`
 - **[TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ecommerce-prices)** `Official` `Other` — Products, prices and sellers from Amazon, Taobao/Tmall, AliExpress, TikTok Shop and Idealo (EU). Hosted on Apify (OAuth), pay per result.  
   `ecommerce` `prices` `amazon` `remote`
 - **[TvojeLajky MCP](https://tvojelajky.cz/developers)** `Official` `TypeScript` — Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.  
