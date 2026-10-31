@@ -4940,6 +4940,22 @@
     }
   },
   {
+    "name": "Signbee MCP Server",
+    "url": "https://github.com/signbee/mcp",
+    "description": "Send Markdown or PDF documents for two-party electronic signing with SHA-256 cryptographic audit certificates and OTP verification.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "Signb.ee",
+    "tags": [
+      "documents",
+      "esignature",
+      "contracts",
+      "legal",
+      "pdf"
+    ],
+    "official": true
+  },
+  {
     "name": "Allscreenshots",
     "url": "https://github.com/allscreenshots/allscreenshots-plugin",
     "description": "Captures website screenshots, runs bulk captures, and manages screenshot schedules and history via the Allscreenshots API; available as a local Python server or a remote endpoint.",
