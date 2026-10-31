@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 596 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 597 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -159,6 +159,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [looot](https://github.com/loootai/looot-mcp): Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance. (TypeScript, official)
 - [MEDIAPRONET](https://mediapronet.com/mcp): Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account. (TypeScript, official)
 - [Monito](https://www.monito.dev/docs/mcp): Checks a deployed URL against a plain-English expectation in a cloud browser and returns passed, failed or cannot verify with screenshots, network and console logs. (TypeScript, official)
+- [Neeed Directory](https://neeed.directory/docs/api): Search curated software and digital products, create private listing drafts, and manage your own listings with OAuth. (TypeScript, official)
 - [Perceptlayer](https://docs.perceptlayer.com/ai-agents): Searches and calls 1,659 data endpoints across 248 websites (maps, real estate, jobs, travel, search) over a hosted MCP endpoint and returns structured JSON; free tier included. (JavaScript, official)
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp): Official Microsoft Playwright server for browser automation via accessibility snapshots. (TypeScript, official)
 - [Puppeteer MCP Server](https://github.com/merajmehrabi/puppeteer-mcp-server): Headless Chrome automation using Puppeteer for scraping and testing. (TypeScript)

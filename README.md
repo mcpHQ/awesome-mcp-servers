@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-596-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-597-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (18)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (66)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (60)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (61)
 - [Filesystems and Documents](#filesystems-and-documents) (23)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
 - [Communication and Productivity](#communication-and-productivity) (74)
@@ -353,6 +353,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `search` `directory` `startups` `remote`
 - **[Monito](https://www.monito.dev/docs/mcp)** `Official` `TypeScript` — Checks a deployed URL against a plain-English expectation in a cloud browser and returns passed, failed or cannot verify with screenshots, network and console logs.  
   `testing` `browser` `qa` `remote` `oauth`
+- **[Neeed Directory](https://neeed.directory/docs/api)** `Official` `TypeScript` — Search curated software and digital products, create private listing drafts, and manage your own listings with OAuth.  
+  `software-discovery` `directory` `search` `remote` `oauth`
 - **[Perceptlayer](https://docs.perceptlayer.com/ai-agents)** `Official` `JavaScript` — Searches and calls 1,659 data endpoints across 248 websites (maps, real estate, jobs, travel, search) over a hosted MCP endpoint and returns structured JSON; free tier included.  
   `web-data` `web-scraping` `structured-data` `search` `remote`
 - **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `Official` `TypeScript` — Official Microsoft Playwright server for browser automation via accessibility snapshots.  
