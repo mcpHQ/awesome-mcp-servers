@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 592 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 593 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -625,6 +625,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Anyquery](https://github.com/julien040/anyquery): Query 40+ apps and databases with SQL from a single local binary. (Go)
 - [CareClinic Health Tracker](https://github.com/tandemloop/careclinic_mcp): Track symptoms, mood, medications, and wellness patterns through a remote OAuth MCP server. (Other)
 - [ComputeFirst](https://computefirst.net/docs): Hosted catalog of versioned, deterministic tools for exact math, CSV and JSON transforms, date math, text, hashing and identifier checks; search, then execute by id. No key. (JavaScript, official)
+- [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender): Free stdio server for Blender 5.2 LTS: check the runtime, query a bpy knowledge base, validate part specs and run headless passes to build parametric parts with glTF/STL export. Source-available (PolyForm Shield). (Python)
 - [Everything2MCP](https://github.com/shcdwz1234/Everything2MCP): Turn local capabilities, private-net services, OpenAPI/gRPC/MQTT/queues, and Feishu/DingTalk/WeCom into one MCP surface with hot-reload and Safe defaults. (TypeScript)
 - [FastMCP](https://github.com/jlowin/fastmcp): Python framework for building MCP servers quickly with decorators. (Python)
 - [FaviconDL](https://github.com/sweesama/favicondl.com): Extract and download website favicons via MCP; wraps the free no-key FaviconDL API. (JavaScript)

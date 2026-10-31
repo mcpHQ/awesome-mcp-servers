@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-592-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-593-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (9)
 - [Security and Identity](#security-and-identity) (29)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (123)
-- [Utilities and Examples](#utilities-and-examples) (24)
+- [Utilities and Examples](#utilities-and-examples) (25)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1294,6 +1294,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `health` `tracking` `oauth` `wellness`
 - **[ComputeFirst](https://computefirst.net/docs)** `Official` `JavaScript` — Hosted catalog of versioned, deterministic tools for exact math, CSV and JSON transforms, date math, text, hashing and identifier checks; search, then execute by id. No key.  
   `math` `data-transforms` `deterministic` `remote`
+- **[DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender)** `Python` — Free stdio server for Blender 5.2 LTS: check the runtime, query a bpy knowledge base, validate part specs and run headless passes to build parametric parts with glTF/STL export. Source-available (PolyForm Shield).  
+  `blender` `3d-modeling` `cad` `gltf` `local`
 - **[Everything2MCP](https://github.com/shcdwz1234/Everything2MCP)** `TypeScript` — Turn local capabilities, private-net services, OpenAPI/gRPC/MQTT/queues, and Feishu/DingTalk/WeCom into one MCP surface with hot-reload and Safe defaults.  
   `openapi` `grpc` `mqtt` `hot-reload` `integrations`
 - **[FastMCP](https://github.com/jlowin/fastmcp)** `Python` — Python framework for building MCP servers quickly with decorators.  
