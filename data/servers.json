@@ -4940,6 +4940,24 @@
     }
   },
   {
+    "name": "Desearch",
+    "url": "https://github.com/Desearch-ai/mcp-desearch",
+    "description": "AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Desearch",
+    "tags": [
+      "search",
+      "web-search",
+      "x",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.desearch.ai/mcp"
+    }
+  },
+  {
     "name": "Allscreenshots",
     "url": "https://github.com/allscreenshots/allscreenshots-plugin",
     "description": "Captures website screenshots, runs bulk captures, and manages screenshot schedules and history via the Allscreenshots API; available as a local Python server or a remote endpoint.",
