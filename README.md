@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-584-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-585-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
 - [Communication and Productivity](#communication-and-productivity) (73)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (65)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (62)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (63)
 - [Legal and Court Data](#legal-and-court-data) (9)
 - [Security and Identity](#security-and-identity) (28)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (121)
@@ -820,6 +820,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `healthcare` `jobs` `job-search` `remote`
 - **[CompanyProof](https://companyproof.ai/docs/mcp)** `Official` `Other` — Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.  
   `company-data` `verification` `registry` `evidence` `remote`
+- **[CoworkingView](https://coworkingview.com/en/mcp)** `Official` `Other` — Hosted, no-key, read-only MCP server for coworking spaces, private offices and city price medians in European and UAE cities.  
+  `real-estate` `coworking` `europe` `remote`
 - **[CrakSEO Search Console MCP](https://docs.crakseo.com/mcp-servers/search-console)** `Official` `Other` — Free remote MCP access to owned-site Google Search Console and Bing Webmaster data; CrakSEO authentication and authorization for the user's own properties required.  
   `analytics` `seo` `search-console` `bing` `remote`
 - **[Datadog MCP Server](https://github.com/datadog-labs/mcp-server)** `Official` `Python` — Query metrics, logs, and monitors from Datadog via the official Datadog Labs MCP server.  
