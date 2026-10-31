@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 593 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 594 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -133,6 +133,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Baizhi Cloud Agent Toolkit](https://github.com/chaitin/baizhi-agent-toolkit): Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits. (Other, official)
 - [Baizhi Cloud Browser (CapyBrowser)](https://github.com/chaitin/baizhi-cloud-browser): Manage cloud browser sessions, saved profiles, human handoff and downloads via hosted MCP; page actions require a CDP client, and a Baizhi API key and paid browser runtime apply. (Other)
 - [BGPT MCP](https://bgpt.pro/mcp/): Search full-text scientific papers and return structured evidence for research agents. (Python)
+- [Bowmark](https://github.com/bowmark-ai/mcp): Remote MCP server that gives agents typed, tested functions for live websites such as LinkedIn, YouTube, Amazon and flight search. (Python, official)
 - [Brave Search MCP Server](https://github.com/brave/brave-search-mcp-server): Privacy-focused web and local search through the Brave Search API. (TypeScript, official)
 - [Browser MCP](https://github.com/browsermcp/mcp): Automate a local Chrome browser from MCP-compatible AI clients. (TypeScript, official)
 - [Browser Use MCP Server](https://docs.browser-use.com/cloud/guides/mcp-server): Hosted MCP server that runs browser agent tasks in Browser Use stealth cloud browsers and returns results, sessions, and saved browser profiles. (Python, official)
