@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 585 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 596 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -554,6 +554,17 @@ Up-to-date library and framework documentation injected into prompts.
 - Tags: docs, libraries, coding
 - Category: Developer Tools and Code Intelligence
 
+### ContextManager
+
+Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents.
+
+- URL: https://github.com/nushey/ContextManager
+- Language: C#
+- Provider: Community
+- Official: no
+- Tags: csharp, dotnet, roslyn, code-analysis
+- Category: Developer Tools and Code Intelligence
+
 ### Docker MCP Server
 
 Manage containers, images, and Docker environments through MCP.
@@ -1007,6 +1018,18 @@ Read and operate a Spinnaker instance through its Gate API: 37 tools for applica
 - Tags: spinnaker, continuous-delivery, devops
 - Category: Developer Tools and Code Intelligence
 
+### SrcLog
+
+Search open-source GitHub repositories, find alternatives to any project, browse curated topics, and rank top developers and organizations by language and country.
+
+- URL: https://github.com/srclogcom/srclog-mcp
+- Language: PHP
+- Provider: SrcLog
+- Official: yes
+- Tags: github, open-source, search, developer-rankings, alternatives
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://srclog.com/mcp
+
 ### Tavero
 
 Scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors, and spacing, and returns fixes with file and line references to the coding agent.
@@ -1231,6 +1254,17 @@ Search full-text scientific papers and return structured evidence for research a
 - Category: Browsers, Search, and Web Automation
 - SSE endpoint: https://bgpt.pro/mcp/sse
 
+### Bowmark
+
+Remote MCP server that gives agents typed, tested functions for live websites such as LinkedIn, YouTube, Amazon and flight search.
+
+- URL: https://github.com/bowmark-ai/mcp
+- Language: Python
+- Provider: Bowmark AI
+- Official: yes
+- Tags: web-data, websites, remote, agents
+- Category: Browsers, Search, and Web Automation
+
 ### Brave Search MCP Server
 
 Privacy-focused web and local search through the Brave Search API.
@@ -1388,6 +1422,18 @@ Hosted screenshot API over remote MCP: renders any public URL as PNG, JPEG, WebP
 - Tags: screenshot, pdf, web-capture, remote
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://curlshot.com/api/mcp
+
+### Desearch
+
+AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.
+
+- URL: https://github.com/Desearch-ai/mcp-desearch
+- Language: JavaScript
+- Provider: Desearch
+- Official: yes
+- Tags: search, web-search, x, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://mcp.desearch.ai/mcp
 
 ### Exa MCP Server
 
@@ -1643,6 +1689,17 @@ Local server that returns YouTube transcripts and playlists, web pages as Markdo
 - Provider: Community
 - Official: no
 - Tags: youtube, transcripts, markdown, app-store
+- Category: Browsers, Search, and Web Automation
+
+### Toolradar
+
+Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.
+
+- URL: https://github.com/Nadeus/toolradar-mcp
+- Language: TypeScript
+- Provider: Toolradar
+- Official: yes
+- Tags: software-discovery, pricing, comparison, saas
 - Category: Browsers, Search, and Web Automation
 
 ### TubeText TikTok Transcripts & Video Breakdown
@@ -2588,6 +2645,17 @@ Create AI faceless videos from a script, run automated series, and publish to Yo
 - Tags: video, social-media, publishing, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://faceless.so/api/v1/mcp
+
+### Fax for Agents
+
+Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence.
+
+- URL: https://github.com/faxforagents/mcp
+- Language: TypeScript
+- Provider: Fax for Agents
+- Official: yes
+- Tags: fax, communication, agents, remote
+- Category: Communication and Productivity
 
 ### Gmail MCP Server
 
@@ -4083,6 +4151,18 @@ Hosted company search, registry profiles and verification of six company identit
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://companyproof.ai/v2/mcp
 
+### CoworkingView
+
+Hosted, no-key, read-only MCP server for coworking spaces, private offices and city price medians in European and UAE cities.
+
+- URL: https://coworkingview.com/en/mcp
+- Language: Other
+- Provider: CoworkingView
+- Official: yes
+- Tags: real-estate, coworking, europe, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.coworkingview.com/mcp
+
 ### CrakSEO Search Console MCP
 
 Free remote MCP access to owned-site Google Search Console and Bing Webmaster data; CrakSEO authentication and authorization for the user's own properties required.
@@ -4932,6 +5012,17 @@ Free, advisory pre-action check: check_action returns permit, deny or escalate f
 - Tags: mandates, authorization, agent-safety, receipts, remote
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://check.hanria.ai/v1/mcp
+
+### ichi-mcp
+
+Read the free public ICHI Internet Cyber Health Index: current threat band and score, recent critical-advisory alerts, and source feed health.
+
+- URL: https://github.com/bernik-bot/ichi-mcp
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: threat-intelligence, cybersecurity, osint, monitoring
+- Category: Security and Identity
 
 ### INAM Protocol
 
@@ -5902,6 +5993,18 @@ Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one si
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://lasso.link/mcp
 
+### LAYIQ Jobs
+
+Search public job listings and read job details from LAYIQ, a candidate-first job search workspace without sponsored listings. Read-only; no account or API key.
+
+- URL: https://www.layiq.co/connectors/claude
+- Language: Other
+- Provider: Roleworthy Labs Inc.
+- Official: no
+- Tags: jobs, job-search, read-only, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://www.layiq.co/mcp
+
 ### Leal
 
 Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters.
@@ -6391,6 +6494,18 @@ Hosted MCP server that lets AI clients read live charts, backtest rule-based str
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.traderwai.com
 
+### Truo
+
+Remote MCP that lets Australian households ask Claude or ChatGPT about their own bank accounts under the Consumer Data Right, read-only at the bank.
+
+- URL: https://truo.com.au/docs
+- Language: TypeScript
+- Provider: NTWRK Pty Ltd
+- Official: yes
+- Tags: australia, banking, cdr, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://connect.truo.com.au/mcp
+
 ### TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo
 
 Products, prices and sellers from Amazon, Taobao/Tmall, AliExpress, TikTok Shop and Idealo (EU). Hosted on Apify (OAuth), pay per result.
@@ -6616,6 +6731,17 @@ Hosted catalog of versioned, deterministic tools for exact math, CSV and JSON tr
 - Tags: math, data-transforms, deterministic, remote
 - Category: Utilities and Examples
 - Streamable HTTP endpoint: https://computefirst.net/mcp
+
+### DESIGN:OS 3D Blender
+
+Free stdio server for Blender 5.2 LTS: check the runtime, query a bpy knowledge base, validate part specs and run headless passes to build parametric parts with glTF/STL export. Source-available (PolyForm Shield).
+
+- URL: https://github.com/jangtrinh/design-os-3d-blender
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: blender, 3d-modeling, cad, gltf, local
+- Category: Utilities and Examples
 
 ### Everything2MCP
 
