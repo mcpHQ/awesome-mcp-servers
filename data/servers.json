@@ -4621,6 +4621,24 @@
     "official": false
   },
   {
+    "name": "AgentX",
+    "url": "https://www.agentxhq.com/docs/mcp",
+    "description": "Check on, message and hand work to a fleet of AI coding agents running on your own machines through AgentX, with OAuth sign-in.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "AgentX",
+    "tags": [
+      "agents",
+      "coding-agents",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.agentxhq.com/mcp"
+    }
+  },
+  {
     "name": "Trends MCP",
     "url": "https://github.com/trendsmcp-ai/Trends-MCP",
     "description": "Gives AI assistants trend data (search interest over time, growth percentages and live top-trends boards) from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, npm, Steam and app stores through one remote MCP server.",
