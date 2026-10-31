@@ -5396,6 +5396,25 @@
     }
   },
   {
+    "name": "BrewPage",
+    "url": "https://github.com/kochetkov-ma/brewpage-openapi",
+    "description": "Publish HTML pages, Markdown, static sites, files, JSON and key-value data to free temporary HTTPS links with no signup or API key; content expires after a set TTL.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "BrewPage",
+    "tags": [
+      "hosting",
+      "html",
+      "markdown",
+      "file-sharing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://brewpage.app/mcp"
+    }
+  },
+  {
     "name": "Crispy",
     "url": "https://crispy.sh",
     "description": "Hosted LinkedIn MCP server. Sign in with OAuth, or use a Bearer API key. Search people and companies, read profile and company data, and send and read messages.",

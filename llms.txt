@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 584 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 585 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -179,6 +179,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [3Q Tools](https://getwold.com): Buy-once Windows PDF and Excel tools with no subscription: 36 offline PDF commands and 8 auto-calculating spreadsheet templates, each with a direct checkout link. (JavaScript, official)
 - [Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server): Read and write Airtable bases, tables, and records via MCP. (TypeScript)
+- [BrewPage](https://github.com/kochetkov-ma/brewpage-openapi): Publish HTML pages, Markdown, static sites, files, JSON and key-value data to free temporary HTTPS links with no signup or API key; content expires after a set TTL. (TypeScript, official)
 - [Comment.io MCP Server](https://comment.io/llms/mcp.md): Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server. (Rust, official)
 - [DocuQueue MCP](https://github.com/docuqueue/docuqueue-mcp): Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier. (TypeScript, official)
 - [FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp): OCR local PDF files through the FastOCR API and check API balance from MCP clients. (Python, official)
