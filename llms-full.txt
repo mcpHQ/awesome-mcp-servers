@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 586 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 587 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6401,6 +6401,18 @@ Hosted MCP server that lets AI clients read live charts, backtest rule-based str
 - Tags: trading, forex, crypto, backtesting, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.traderwai.com
+
+### Truo
+
+Remote MCP that lets Australian households ask Claude or ChatGPT about their own bank accounts under the Consumer Data Right, read-only at the bank.
+
+- URL: https://truo.com.au/docs
+- Language: TypeScript
+- Provider: NTWRK Pty Ltd
+- Official: yes
+- Tags: australia, banking, cdr, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://connect.truo.com.au/mcp
 
 ### TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo
 
