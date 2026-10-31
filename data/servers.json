@@ -4902,6 +4902,44 @@
     "official": true
   },
   {
+    "name": "Truo",
+    "url": "https://truo.com.au/docs",
+    "description": "Remote MCP that lets Australian households ask Claude or ChatGPT about their own bank accounts under the Consumer Data Right, read-only at the bank.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "NTWRK Pty Ltd",
+    "tags": [
+      "australia",
+      "banking",
+      "cdr",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://connect.truo.com.au/mcp"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
     "name": "Pagelive MCP Server",
     "url": "https://pagelive.io/mcp",
     "description": "Publish HTML that Claude builds as a private, view-tracked link, then update it, read views and answer comments.",
