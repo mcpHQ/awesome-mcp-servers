@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 599 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4801,6 +4801,18 @@ Read U.S. federal and state court filing rules, local rules, judge standing orde
 - Tags: legal, court-rules, standing-orders, citations, remote
 - Category: Legal and Court Data
 - Streamable HTTP endpoint: https://mcp.courtrules.app/mcp
+
+### DMD Costs Legal Costs Tools
+
+Free, read-only legal costs tools for England and Wales: CPR deadlines, detailed assessment, Part 36, court fees, interest and fixed costs, each answer citing its rule.
+
+- URL: https://www.dmdcosts.co.uk/legal-costs-help
+- Language: TypeScript
+- Provider: DMD Costs
+- Official: yes
+- Tags: legal, uk-law, legal-costs, civil-procedure, remote
+- Category: Legal and Court Data
+- Streamable HTTP endpoint: https://www.dmdcosts.co.uk/mcp
 
 ### eCFR MCP
 

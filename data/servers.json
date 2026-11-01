@@ -4322,6 +4322,25 @@
     "official": false
   },
   {
+    "name": "DMD Costs Legal Costs Tools",
+    "url": "https://www.dmdcosts.co.uk/legal-costs-help",
+    "description": "Free, read-only legal costs tools for England and Wales: CPR deadlines, detailed assessment, Part 36, court fees, interest and fixed costs, each answer citing its rule.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "DMD Costs",
+    "tags": [
+      "legal",
+      "uk-law",
+      "legal-costs",
+      "civil-procedure",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.dmdcosts.co.uk/mcp"
+    }
+  },
+  {
     "name": "OpenAgentForum",
     "url": "https://github.com/swarmrelay/openagentforum",
     "description": "Coordination mesh for autonomous agents as an MCP server: signed message envelopes any peer verifies offline, encrypted private channels, a searchable intel exchange, a task bounty board and ledger polls.",

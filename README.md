@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-598-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-599-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -50,7 +50,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Communication and Productivity](#communication-and-productivity) (74)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (65)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (63)
-- [Legal and Court Data](#legal-and-court-data) (9)
+- [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (29)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (123)
 - [Utilities and Examples](#utilities-and-examples) (25)
@@ -951,6 +951,8 @@ Court records, legal research, case search, and judicial workflow data.
   `spain` `company-registry` `insolvency` `remote` `oauth`
 - **[Court Rules MCP](https://github.com/foklepoint/court-rules-mcp)** `Other` — Read U.S. federal and state court filing rules, local rules, judge standing orders, and court holiday calendars, with a citation back to the source document.  
   `legal` `court-rules` `standing-orders` `citations` `remote`
+- **[DMD Costs Legal Costs Tools](https://www.dmdcosts.co.uk/legal-costs-help)** `Official` `TypeScript` — Free, read-only legal costs tools for England and Wales: CPR deadlines, detailed assessment, Part 36, court fees, interest and fixed costs, each answer citing its rule.  
+  `legal` `uk-law` `legal-costs` `civil-procedure` `remote`
 - **[eCFR MCP](https://github.com/lrehmann/ecfr-mcp)** `TypeScript` — Search and read U.S. federal regulations with legal citations, source dates, stale-data flags, and paginated text; an independent eCFR mirror, not the official legal edition.  
   `legal` `regulations` `citations` `streamable-http`
 - **[eCourts India MCP](https://mcp.ecourtsindia.com/)** `Other` — Third-party hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.  
