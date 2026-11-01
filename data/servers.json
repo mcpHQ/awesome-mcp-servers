@@ -3346,6 +3346,21 @@
     "official": true
   },
   {
+    "name": "RoboPartPicker",
+    "url": "https://github.com/brainbook0/robopartpicker-mcp",
+    "description": "Source-linked catalogue of open-source robotics projects, components and bills of materials, with a per-line evidence state (verified, probable, unresolved).",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "RoboPartPicker",
+    "tags": [
+      "robotics",
+      "bill-of-materials",
+      "components",
+      "hardware"
+    ],
+    "official": true
+  },
+  {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
     "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
