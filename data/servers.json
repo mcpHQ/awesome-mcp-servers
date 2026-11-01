@@ -5057,6 +5057,25 @@
     "official": true
   },
   {
+    "name": "World Monitor",
+    "url": "https://github.com/koala73/worldmonitor",
+    "description": "Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "World Monitor",
+    "tags": [
+      "geopolitics",
+      "news",
+      "markets",
+      "osint",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://worldmonitor.app/mcp"
+    }
+  },
+  {
     "name": "Desearch",
     "url": "https://github.com/Desearch-ai/mcp-desearch",
     "description": "AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.",
