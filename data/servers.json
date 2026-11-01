@@ -5026,6 +5026,22 @@
     }
   },
   {
+    "name": "genesis-blackbox",
+    "url": "https://github.com/johannschiffer/genesis-blackbox",
+    "description": "Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "debugging",
+      "devtools",
+      "python",
+      "typescript",
+      "testing"
+    ],
+    "official": false
+  },
+  {
     "name": "ContextManager",
     "url": "https://github.com/nushey/ContextManager",
     "description": "Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents.",
