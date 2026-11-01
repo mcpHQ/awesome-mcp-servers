@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 622 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -495,6 +495,18 @@ Hosted MCP gateway for searching and comparing Web3 infrastructure services, suc
 - Official: yes
 - Tags: web3, infrastructure, discovery, remote
 - Category: Developer Tools and Code Intelligence
+
+### Code Interpreter Agent by Nova (CIVAI)
+
+I do everything related to coding and execution tasks
+
+- URL: https://github.com/civai-technologies/code-interpreter-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: code-execution, sandbox, nova-by-civai
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/code-interpreter-agent
 
 ### Communicate
 
@@ -1041,6 +1053,18 @@ Scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, c
 - Tags: react, ui-consistency, design-system, frontend
 - Category: Developer Tools and Code Intelligence
 
+### Terminal Command Agent by Nova (CIVAI)
+
+I run shell commands on your private cloud environment (bash, sh, zsh)
+
+- URL: https://github.com/civai-technologies/terminal-command-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: shell, terminal, nova-by-civai
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/terminal-command-agent
+
 ### UI Verify MCP Server
 
 Review a pull request's visual diffs, read the AI judge's verdict on each change, and accept new baselines in UI Verify from a coding agent.
@@ -1275,6 +1299,18 @@ Privacy-focused web and local search through the Brave Search API.
 - Official: yes
 - Tags: search, privacy, web
 - Category: Browsers, Search, and Web Automation
+
+### Browser Automation Agent by Nova (CIVAI)
+
+I do everything related to Browser Automation & Management
+
+- URL: https://github.com/civai-technologies/browsergpt-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: browser, automation, nova-by-civai
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/browsergpt-agent
 
 ### Browser MCP
 
@@ -1622,6 +1658,18 @@ Record public web pages or HTML5 creatives (banners, ads, animations) to MP4, We
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://mcp.recordhtml.com
 
+### Research Agent by Nova (CIVAI)
+
+I do everything related to research and reports
+
+- URL: https://github.com/civai-technologies/research-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: research, search, reports, nova-by-civai
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/research-agent
+
 ### Rolês em SP
 
 Curated São Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth.
@@ -1869,6 +1917,18 @@ OCR local PDF files through the FastOCR API and check API balance from MCP clien
 - Tags: ocr, pdf, documents
 - Category: Filesystems and Documents
 
+### Google Docs Agent by Nova (CIVAI)
+
+I do everything related to Google Docs
+
+- URL: https://github.com/civai-technologies/google-docs-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: documents, google-workspace, nova-by-civai
+- Category: Filesystems and Documents
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/google-docs-agent
+
 ### Google Drive MCP Server
 
 Access and search files in Google Drive from MCP clients.
@@ -1983,6 +2043,18 @@ Publish HTML that Claude builds as a private, view-tracked link, then update it,
 - Category: Filesystems and Documents
 - Streamable HTTP endpoint: https://app.pagelive.io/api/mcp
 
+### PDF Agent by Nova (CIVAI)
+
+I create PDF documents from markdown, preview, then generate a downloadable file
+
+- URL: https://github.com/civai-technologies/pdf-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: pdf, documents, nova-by-civai
+- Category: Filesystems and Documents
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/pdf-agent
+
 ### PDF MCP Server
 
 Extract text and metadata from PDF documents for analysis.
@@ -2060,6 +2132,18 @@ Send Markdown or PDF documents for two-party electronic signing with SHA-256 cry
 - Official: yes
 - Tags: documents, esignature, contracts, legal, pdf
 - Category: Filesystems and Documents
+
+### Slidegen Agent by Nova (CIVAI)
+
+I do everything related to image and slide asset generation
+
+- URL: https://github.com/civai-technologies/slidegen-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: slides, image-generation, nova-by-civai
+- Category: Filesystems and Documents
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/slidegen-agent
 
 ### Yap MCP
 
@@ -2529,6 +2613,18 @@ Hosted link-building outreach agent: find posts where your product fits, approve
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://app.backlinkgenie.com/mcp
 
+### Blogger Agent by Nova (CIVAI)
+
+I do everything related to Google Blogger content
+
+- URL: https://github.com/civai-technologies/blogger-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: blogging, content, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/blogger-agent
+
 ### BulkPublish MCP Server
 
 MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.
@@ -2539,6 +2635,18 @@ MCP server for AI agents to plan, review, schedule, publish, and analyze social 
 - Official: no
 - Tags: mcp, social-media, publishing, bulkpublish
 - Category: Communication and Productivity
+
+### Calendar Agent by Nova (CIVAI)
+
+I do everything related to calendar scheduling
+
+- URL: https://github.com/civai-technologies/calendar-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: calendar, scheduling, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/calendar-agent
 
 ### CallForMe
 
@@ -2575,6 +2683,30 @@ Find AI-cited publisher prospects, review outreach and publisher replies, and dr
 - Tags: marketing, seo, outreach, email, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://citewing.com/mcp
+
+### Content Calendar Agent by Nova (CIVAI)
+
+I create markdown content calendars and export them as PDFs via PDF Generator MCP
+
+- URL: https://github.com/civai-technologies/content-calendar-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: content, planning, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/content-calendar-agent
+
+### Content Pipeline Agent by Nova (CIVAI)
+
+I run the Content Pipeline for your Nova products, scan trends, expand seeds, generate drafts, publish, and submit for indexing.
+
+- URL: https://github.com/civai-technologies/content-pipeline-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: content, publishing, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/content-pipeline-agent
 
 ### Cooper Email
 
@@ -2680,6 +2812,18 @@ Send and receive faxes from AI agents through the Fax for Agents API, hosted or 
 - Tags: fax, communication, agents, remote
 - Category: Communication and Productivity
 
+### Gmail Agent by Nova (CIVAI)
+
+I do everything related to Gmail and productivity
+
+- URL: https://github.com/civai-technologies/gmail-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: email, gmail, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/gmail-agent
+
 ### Gmail MCP Server
 
 Search, read, and compose Gmail messages from MCP clients.
@@ -2737,6 +2881,30 @@ AI receptionist and AI chatbot: triage calls and chats that need you, draft repl
 - Tags: customer-support, receptionist, crm, remote, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.insertchat.com/v2/mcp
+
+### Instagram Agent by Nova (CIVAI)
+
+I use your Instagram Web browser session (Integrations → Instagram Web) via instagrapi, not Meta /…
+
+- URL: https://github.com/civai-technologies/instagram-web-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: social-media, instagram, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/instagram-web-agent
+
+### Interviewer Agent by Nova (CIVAI)
+
+I do everything related to interviews and structured Q&A
+
+- URL: https://github.com/civai-technologies/interviewer-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: interviews, surveys, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/interviewer-agent
 
 ### KanbanMCP
 
@@ -2879,6 +3047,18 @@ Manage email campaigns, flows, contacts, audiences, and transactional email or S
 - Tags: email-marketing, campaigns, automation, transactional-email, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.nitrosend.com/mcp
+
+### Nova Inbox Agent by Nova (CIVAI)
+
+Read and send mail from your Nova Inbox (@nova.civai.co) for OTPs, directory signups, and inbound m…
+
+- URL: https://github.com/civai-technologies/email-inbox-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: email, inbox, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/nova-inbox-agent
 
 ### OrkasVideoStudio
 
@@ -3078,6 +3258,18 @@ Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Thr
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://app.socialpostflow.com/mcp
 
+### Support Agent Admin by Nova (CIVAI)
+
+I manage your Support Agent CRM, pipeline analytics, follow-ups, Leads Discovery, and workspace out…
+
+- URL: https://github.com/civai-technologies/support-agent-admin-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: support, helpdesk, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/support-agent-admin
+
 ### SwarmMemo
 
 Public message board for AI agents: read and post with no account, use an agent toolkit (web fetch, memory, wake-ups, webhook receivers) and paid APIs on a free daily allowance, and sign in with OAuth for MCP clients.
@@ -3112,6 +3304,18 @@ Project management for teams and their AI agents. Agents join as named members.
 - Tags: project-management, tasks, agents, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://taskfolk.ai/api/mcp/v1
+
+### Telegram Agent by Nova (CIVAI)
+
+I use your linked Telegram MTProto session (Integrations → Telegram) to list groups, members, and s…
+
+- URL: https://github.com/civai-technologies/telegram-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: telegram, messaging, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/telegram-agent
 
 ### Telegram Archive MCP Server
 
@@ -3182,6 +3386,18 @@ Manage Todoist tasks, projects, and due dates from AI assistants.
 - Tags: tasks, productivity, todoist
 - Category: Communication and Productivity
 
+### Twitter Agent by Nova (CIVAI)
+
+I do everything related to Twitter posting and campaigns
+
+- URL: https://github.com/civai-technologies/twitter-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: social-media, twitter, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/twitter-agent
+
 ### Unblockd
 
 Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask.
@@ -3217,6 +3433,18 @@ Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads,
 - Tags: email, cold-email, deliverability, outreach, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://app.warmerly.com/api/mcp
+
+### WhatsApp Web Agent by Nova (CIVAI)
+
+I send and manage WhatsApp Web messages through your linked session
+
+- URL: https://github.com/civai-technologies/whatsapp-web-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: whatsapp, messaging, nova-by-civai
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/whatsapp-web-agent
 
 ### Whisper Memos
 
@@ -3777,6 +4005,18 @@ Bridge OpenAI GPT models into MCP-compatible agent workflows.
 - Tags: openai, gpt, inference
 - Category: AI, Agents, and Memory
 
+### OpenClaw Agent by Nova (CIVAI)
+
+I execute requests through OpenClaw as a personal AI agent with persistent context, browser and she…
+
+- URL: https://github.com/civai-technologies/openclaw-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: agent, automation, nova-by-civai
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/openclaw-agent
+
 ### ORANO
 
 Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.
@@ -4313,6 +4553,18 @@ Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources.
 - Official: yes
 - Tags: bigquery, gcp, data
 - Category: Data, Analytics, and BI
+
+### Google Sheets Agent by Nova (CIVAI)
+
+I do everything related to Google Sheets
+
+- URL: https://github.com/civai-technologies/google-sheets-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: spreadsheets, google-workspace, nova-by-civai
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/google-sheets-agent
 
 ### Grafana MCP Server
 
@@ -6028,6 +6280,18 @@ Search public job listings and read job details from LAYIQ, a candidate-first jo
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://www.layiq.co/mcp
 
+### Leads Discovery Agent by Nova (CIVAI)
+
+I discover new leads from WhatsApp/Telegram groups, Instagram post commenters, and X thread replier…
+
+- URL: https://github.com/civai-technologies/leads-discovery-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: leads, sales, prospecting, nova-by-civai
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/leads-discovery-agent
+
 ### Leal
 
 Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters.
@@ -6213,6 +6477,18 @@ Search, quote, and browse luxury, exotic, and EV rentals from independent hosts.
 - Tags: travel, car-rental, marketplace
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://pocketdrives.ai/mcp
+
+### Product Admin by Nova (CIVAI)
+
+I manage your Nova products, create/update/delete, payment & logistics config, icons, webhook secre…
+
+- URL: https://github.com/civai-technologies/product-admin-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: admin, product-management, nova-by-civai
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/product-admin
 
 ### QuickBooks MCP Server
 
@@ -6887,6 +7163,18 @@ Middleware MCP server that aggregates and manages multiple connections.
 - Official: no
 - Tags: aggregator, gateway, middleware
 - Category: Utilities and Examples
+
+### Music Agent by Nova (CIVAI)
+
+I do everything related to music and lyrics
+
+- URL: https://github.com/civai-technologies/music-agent-mcp-by-nova-civai
+- Language: Python
+- Provider: CIVAI Technologies
+- Official: yes
+- Tags: music, lyrics, nova-by-civai
+- Category: Utilities and Examples
+- Streamable HTTP endpoint: https://nova.civai.co/mcp/agents/music-agent
 
 ### Nestbolt
 

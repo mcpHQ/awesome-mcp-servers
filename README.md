@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-598-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-622-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,17 +43,17 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (18)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (66)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (61)
-- [Filesystems and Documents](#filesystems-and-documents) (24)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (68)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (63)
+- [Filesystems and Documents](#filesystems-and-documents) (27)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
-- [Communication and Productivity](#communication-and-productivity) (74)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (65)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (63)
+- [Communication and Productivity](#communication-and-productivity) (86)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (66)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (64)
 - [Legal and Court Data](#legal-and-court-data) (9)
 - [Security and Identity](#security-and-identity) (29)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (123)
-- [Utilities and Examples](#utilities-and-examples) (25)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (125)
+- [Utilities and Examples](#utilities-and-examples) (26)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -162,6 +162,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `bulma` `react` `typescript` `components` `local`
 - **[Chain.Love MCP](https://github.com/Chain-Love/chain.love-mcp)** `Official` `Other` — Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.  
   `web3` `infrastructure` `discovery` `remote`
+- **[Code Interpreter Agent by Nova (CIVAI)](https://github.com/civai-technologies/code-interpreter-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to coding and execution tasks  
+  `code-execution` `sandbox` `nova-by-civai`
 - **[Communicate](https://developer.communicate.so/docs/mcp)** `Official` `TypeScript` — List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials.  
   `agents` `customer-support` `remote` `oauth`
 - **[Concord MCP](https://github.com/Get-Concord-AI/concord-mcp)** `TypeScript` — Local-first shared work-state for coding agents with presence, claims, messaging, handoffs, and review packets.  
@@ -258,6 +260,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `github` `open-source` `search` `developer-rankings` `alternatives`
 - **[Tavero](https://github.com/baccaraaa/tavero)** `TypeScript` — Scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors, and spacing, and returns fixes with file and line references to the coding agent.  
   `react` `ui-consistency` `design-system` `frontend`
+- **[Terminal Command Agent by Nova (CIVAI)](https://github.com/civai-technologies/terminal-command-agent-mcp-by-nova-civai)** `Official` `Python` — I run shell commands on your private cloud environment (bash, sh, zsh)  
+  `shell` `terminal` `nova-by-civai`
 - **[UI Verify MCP Server](https://uiverify.ai/docs/triage-with-your-agent)** `Official` `TypeScript` — Review a pull request's visual diffs, read the AI judge's verdict on each change, and accept new baselines in UI Verify from a coding agent.  
   `visual-testing` `testing` `code-review` `api-key` `remote`
 - **[Vibe Monitor](https://github.com/tubban1/vibe-monitor)** `JavaScript` — Local architecture checkpoints for AI coding agents; read-only source analysis and practical advice (Node 22+; default-on pseudonymous telemetry, required for Free analysis).  
@@ -305,6 +309,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `web-data` `websites` `remote` `agents`
 - **[Brave Search MCP Server](https://github.com/brave/brave-search-mcp-server)** `Official` `TypeScript` — Privacy-focused web and local search through the Brave Search API.  
   `search` `privacy` `web`
+- **[Browser Automation Agent by Nova (CIVAI)](https://github.com/civai-technologies/browsergpt-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to Browser Automation & Management  
+  `browser` `automation` `nova-by-civai`
 - **[Browser MCP](https://github.com/browsermcp/mcp)** `Official` `TypeScript` — Automate a local Chrome browser from MCP-compatible AI clients.  
   `chrome` `local` `automation`
 - **[Browser Use MCP Server](https://docs.browser-use.com/cloud/guides/mcp-server)** `Official` `Python` — Hosted MCP server that runs browser agent tasks in Browser Use stealth cloud browsers and returns results, sessions, and saved browser profiles.  
@@ -365,6 +371,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `browser-automation` `agent-completion` `playwright` `cdp` `verification`
 - **[RecordHTML](https://recordhtml.com/mcp)** `Official` `TypeScript` — Record public web pages or HTML5 creatives (banners, ads, animations) to MP4, WebM or GIF in a real browser and get a signed video link; remote Streamable HTTP with OAuth 2.1 or an API key.  
   `video` `screen-recording` `html5-ads` `remote` `oauth`
+- **[Research Agent by Nova (CIVAI)](https://github.com/civai-technologies/research-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to research and reports  
+  `research` `search` `reports` `nova-by-civai`
 - **[Rolês em SP](https://rolesemsp.com.br/connect.md)** `Official` `JavaScript` — Curated São Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth.  
   `travel` `events` `sao-paulo` `remote` `streamable-http`
 - **[Shortform Kit](https://shortformkit.com/mcp-server/)** `Official` `Python` — Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key.  
@@ -414,6 +422,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `pdf` `document-generation` `form-filling` `invoice`
 - **[FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp)** `Official` `Python` — OCR local PDF files through the FastOCR API and check API balance from MCP clients.  
   `ocr` `pdf` `documents`
+- **[Google Docs Agent by Nova (CIVAI)](https://github.com/civai-technologies/google-docs-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to Google Docs  
+  `documents` `google-workspace` `nova-by-civai`
 - **[Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** `Python` — Access and search files in Google Drive from MCP clients.  
   `google-drive` `files` `cloud`
 - **[Grandpa's AI](https://github.com/wescorp/grandpasai-mcp)** `Official` `JavaScript` — Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.  
@@ -434,6 +444,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `documents` `search` `docx` `pdf` `sqlite`
 - **[Pagelive MCP Server](https://pagelive.io/mcp)** `Official` `TypeScript` — Publish HTML that Claude builds as a private, view-tracked link, then update it, read views and answer comments.  
   `publishing` `html` `documents` `oauth` `remote`
+- **[PDF Agent by Nova (CIVAI)](https://github.com/civai-technologies/pdf-agent-mcp-by-nova-civai)** `Official` `Python` — I create PDF documents from markdown, preview, then generate a downloadable file  
+  `pdf` `documents` `nova-by-civai`
 - **[PDF MCP Server](https://github.com/jztan/pdf-mcp)** `Python` — Extract text and metadata from PDF documents for analysis.  
   `pdf` `documents` `extraction`
 - **[PDFtoMarkdown.ai](https://github.com/happywpco/pdftomarkdown-mcp)** `Official` `JavaScript` — Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured Markdown with headings, tables and optional OCR via the PDFtoMarkdown.ai API; free pages, then pay-per-page credits.  
@@ -448,6 +460,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `file-transfer` `encryption` `agents` `handoff`
 - **[Signbee MCP Server](https://github.com/signbee/mcp)** `Official` `TypeScript` — Send Markdown or PDF documents for two-party electronic signing with SHA-256 cryptographic audit certificates and OTP verification.  
   `documents` `esignature` `contracts` `legal` `pdf`
+- **[Slidegen Agent by Nova (CIVAI)](https://github.com/civai-technologies/slidegen-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to image and slide asset generation  
+  `slides` `image-generation` `nova-by-civai`
 - **[Yap MCP](https://github.com/founden-bot/yap-mcp)** `Official` `JavaScript` — Transcribes local audio and video files on your computer with Parakeet TDT v3 (25 European languages, no API key, no upload) and searches your Yap dictation history.  
   `speech-to-text` `transcription` `audio` `local`
 
@@ -542,14 +556,22 @@ Integrate chat, email, calendars, and team collaboration tools.
   `jira` `confluence` `atlassian`
 - **[BacklinkGenie](https://backlinkgenie.com/mcp/)** `Official` `TypeScript` — Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key.  
   `seo` `link-building` `outreach` `marketing`
+- **[Blogger Agent by Nova (CIVAI)](https://github.com/civai-technologies/blogger-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to Google Blogger content  
+  `blogging` `content` `nova-by-civai`
 - **[BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api)** `TypeScript` — MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.  
   `mcp` `social-media` `publishing` `bulkpublish`
+- **[Calendar Agent by Nova (CIVAI)](https://github.com/civai-technologies/calendar-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to calendar scheduling  
+  `calendar` `scheduling` `nova-by-civai`
 - **[CallForMe](https://github.com/callforme-tel/callforme)** `Official` `TypeScript` — Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers.  
   `phone-calls` `voice` `telephony` `remote`
 - **[Campfire SMS](https://github.com/campfiresms/campfire-mcp)** `Official` `Python` — Two-way SMS bridge for coding agents: the agent texts you when it finishes or is blocked and reads your SMS replies.  
   `sms` `notifications` `human-in-the-loop` `coding-agents`
 - **[CiteWing](https://citewing.com/docs)** `Official` `TypeScript` — Find AI-cited publisher prospects, review outreach and publisher replies, and draft emails requesting brand mentions.  
   `marketing` `seo` `outreach` `email` `oauth`
+- **[Content Calendar Agent by Nova (CIVAI)](https://github.com/civai-technologies/content-calendar-agent-mcp-by-nova-civai)** `Official` `Python` — I create markdown content calendars and export them as PDFs via PDF Generator MCP  
+  `content` `planning` `nova-by-civai`
+- **[Content Pipeline Agent by Nova (CIVAI)](https://github.com/civai-technologies/content-pipeline-agent-mcp-by-nova-civai)** `Official` `Python` — I run the Content Pipeline for your Nova products, scan trends, expand seeds, generate drafts, publish, and submit for indexing.  
+  `content` `publishing` `nova-by-civai`
 - **[Cooper Email](https://cooperemail.com/docs/mcp)** `Official` `TypeScript` — Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier.  
   `email` `inbox` `agents` `otp` `remote`
 - **[Crispy](https://crispy.sh)** `TypeScript` — Hosted LinkedIn MCP server. Sign in with OAuth, or use a Bearer API key. Search people and companies, read profile and company data, and send and read messages.  
@@ -568,6 +590,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `video` `social-media` `publishing` `remote`
 - **[Fax for Agents](https://github.com/faxforagents/mcp)** `Official` `TypeScript` — Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence.  
   `fax` `communication` `agents` `remote`
+- **[Gmail Agent by Nova (CIVAI)](https://github.com/civai-technologies/gmail-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to Gmail and productivity  
+  `email` `gmail` `nova-by-civai`
 - **[Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server)** `TypeScript` — Search, read, and compose Gmail messages from MCP clients.  
   `gmail` `email` `google`
 - **[Google Calendar MCP Server](https://github.com/nspady/google-calendar-mcp)** `TypeScript` — View and manage Google Calendar events and schedules.  
@@ -578,6 +602,10 @@ Integrate chat, email, calendars, and team collaboration tools.
   `linkedin` `sales` `remote` `oauth`
 - **[InsertChat](https://insertchat.com)** `Official` `TypeScript` — AI receptionist and AI chatbot: triage calls and chats that need you, draft replies, look up leads, review reports, and train your assistant on web pages.  
   `customer-support` `receptionist` `crm` `remote` `oauth`
+- **[Instagram Agent by Nova (CIVAI)](https://github.com/civai-technologies/instagram-web-agent-mcp-by-nova-civai)** `Official` `Python` — I use your Instagram Web browser session (Integrations → Instagram Web) via instagrapi, not Meta /…  
+  `social-media` `instagram` `nova-by-civai`
+- **[Interviewer Agent by Nova (CIVAI)](https://github.com/civai-technologies/interviewer-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to interviews and structured Q&A  
+  `interviews` `surveys` `nova-by-civai`
 - **[KanbanMCP](https://kanbanmcp.com/docs/connect)** `Official` `Other` — Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes.  
   `kanban` `project-management` `multi-agent` `remote`
 - **[LinkedNav](https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing)** `JavaScript` — Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.  
@@ -602,6 +630,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `jobs` `career` `resume` `oauth` `remote`
 - **[Nitrosend](https://docs.nitrosend.com/mcp)** `Official` `Ruby` — Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.  
   `email-marketing` `campaigns` `automation` `transactional-email` `oauth`
+- **[Nova Inbox Agent by Nova (CIVAI)](https://github.com/civai-technologies/email-inbox-agent-mcp-by-nova-civai)** `Official` `Python` — Read and send mail from your Nova Inbox (@nova.civai.co) for OTPs, directory signups, and inbound m…  
+  `email` `inbox` `nova-by-civai`
 - **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
   `video` `editing` `automation` `mcp`
 - **[Outbound OS](https://github.com/RecepioHQ/outbound-os)** `JavaScript` — Local MCP tools for evidence-gated email outreach with default-disabled live sending  
@@ -636,12 +666,16 @@ Integrate chat, email, calendars, and team collaboration tools.
   `slack` `chat` `team`
 - **[Social Post Flow](https://www.socialpostflow.com/documentation/mcp/)** `Official` `PHP` — Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Threads, Pinterest, TikTok, Bluesky, Mastodon and more.  
   `social-media` `scheduling` `marketing` `remote`
+- **[Support Agent Admin by Nova (CIVAI)](https://github.com/civai-technologies/support-agent-admin-mcp-by-nova-civai)** `Official` `Python` — I manage your Support Agent CRM, pipeline analytics, follow-ups, Leads Discovery, and workspace out…  
+  `support` `helpdesk` `nova-by-civai`
 - **[SwarmMemo](https://github.com/Hugo0/swarmmemo)** `Official` `Go` — Public message board for AI agents: read and post with no account, use an agent toolkit (web fetch, memory, wake-ups, webhook receivers) and paid APIs on a free daily allowance, and sign in with OAuth for MCP clients.  
   `agents` `message-board` `communication` `remote`
 - **[Tale](https://docs.tale.dev/develop/mcp-endpoint)** `Official` `TypeScript` — Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale.  
   `knowledge` `automations` `productivity`
 - **[Taskfolk](https://github.com/taskfolk/mcp)** `Other` — Project management for teams and their AI agents. Agents join as named members.  
   `project-management` `tasks` `agents` `remote`
+- **[Telegram Agent by Nova (CIVAI)](https://github.com/civai-technologies/telegram-agent-mcp-by-nova-civai)** `Official` `Python` — I use your linked Telegram MTProto session (Integrations → Telegram) to list groups, members, and s…  
+  `telegram` `messaging` `nova-by-civai`
 - **[Telegram Archive MCP Server](https://github.com/GeiserX/telegram-archive-mcp)** `Official` `Go` — Search messages, browse chats and read archived Telegram history from a self-hosted Telegram-Archive instance.  
   `telegram` `chat` `archives` `self-hosted`
 - **[TextKit](https://jointextkit.com/docs/mcp)** `Official` `TypeScript` — Hosted MCP server to send and receive SMS, verify phone numbers, buy US and Canada numbers, and manage contacts, segments, broadcasts and automations.  
@@ -654,12 +688,16 @@ Integrate chat, email, calendars, and team collaboration tools.
   `video-editing` `screen-recording` `captions` `macos` `local`
 - **[Todoist MCP Server](https://github.com/abhiz123/todoist-mcp-server)** `TypeScript` — Manage Todoist tasks, projects, and due dates from AI assistants.  
   `tasks` `productivity` `todoist`
+- **[Twitter Agent by Nova (CIVAI)](https://github.com/civai-technologies/twitter-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to Twitter posting and campaigns  
+  `social-media` `twitter` `nova-by-civai`
 - **[Unblockd](https://unblockd.ai/setup.md)** `Official` `TypeScript` — Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask.  
   `project-management` `productivity` `oauth` `remote`
 - **[Unsora](https://github.com/Shipped-Studio/unsora)** `Official` `TypeScript` — AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more.  
   `video` `image-generation` `social-media` `scheduling` `remote`
 - **[Warmerly](https://github.com/warmerly)** `Official` `TypeScript` — Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.  
   `email` `cold-email` `deliverability` `outreach` `oauth`
+- **[WhatsApp Web Agent by Nova (CIVAI)](https://github.com/civai-technologies/whatsapp-web-agent-mcp-by-nova-civai)** `Official` `Python` — I send and manage WhatsApp Web messages through your linked session  
+  `whatsapp` `messaging` `nova-by-civai`
 - **[Whisper Memos](https://whispermemos.com/mcp)** `Official` `TypeScript` — List and read transcripts, summaries and labels of voice memos from the Whisper Memos iPhone and Apple Watch app, view account details, and delete memos.  
   `voice-memos` `transcription` `notes` `oauth`
 - **[WriteStack MCP Server](https://www.writestack.io/mcp)** `Official` `TypeScript` — Official hosted server for drafting and scheduling Substack Notes, managing articles, and reading writing statistics in a WriteStack account.  
@@ -763,6 +801,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `agents` `collaboration` `tasks` `encrypted`
 - **[OpenAI MCP Bridge](https://github.com/jaspertvdm/mcp-server-openai-bridge)** `Python` — Bridge OpenAI GPT models into MCP-compatible agent workflows.  
   `openai` `gpt` `inference`
+- **[OpenClaw Agent by Nova (CIVAI)](https://github.com/civai-technologies/openclaw-agent-mcp-by-nova-civai)** `Official` `Python` — I execute requests through OpenClaw as a personal AI agent with persistent context, browser and she…  
+  `agent` `automation` `nova-by-civai`
 - **[ORANO](https://oranoai.com/mcp)** `Official` `Python` — Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.  
   `memory` `knowledge` `video` `remote`
 - **[Phasoric](https://developers.phasoric.com/mcp-client-setup)** `Official` `JavaScript` — Search, read, and safely update Markdown notes in explicitly connected Phasoric knowledge vaults.  
@@ -862,6 +902,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `company-data` `business-intelligence` `kyb` `oauth`
 - **[Google GenAI Toolbox](https://github.com/googleapis/genai-toolbox)** `Official` `Go` — Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources.  
   `bigquery` `gcp` `data`
+- **[Google Sheets Agent by Nova (CIVAI)](https://github.com/civai-technologies/google-sheets-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to Google Sheets  
+  `spreadsheets` `google-workspace` `nova-by-civai`
 - **[Grafana MCP Server](https://github.com/grafana/mcp-grafana)** `Official` `Go` — Explore Grafana dashboards, alerts, and observability data.  
   `monitoring` `dashboards` `observability`
 - **[Growo child growth](https://usegrowo.com/mcp)** `Official` `TypeScript` — Child growth reference tools for AI assistants: WHO and CDC percentiles, BMI-for-age, birth size for gestational age, corrected age and mid-parental height. Read-only and no auth; results carry no interpretation.  
@@ -1173,6 +1215,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `affiliate` `ecommerce` `marketing` `remote`
 - **[LAYIQ Jobs](https://www.layiq.co/connectors/claude)** `Other` — Search public job listings and read job details from LAYIQ, a candidate-first job search workspace without sponsored listings. Read-only; no account or API key.  
   `jobs` `job-search` `read-only` `remote`
+- **[Leads Discovery Agent by Nova (CIVAI)](https://github.com/civai-technologies/leads-discovery-agent-mcp-by-nova-civai)** `Official` `Python` — I discover new leads from WhatsApp/Telegram groups, Instagram post commenters, and X thread replier…  
+  `leads` `sales` `prospecting` `nova-by-civai`
 - **[Leal](https://www.getleal.com/mcp)** `Official` `Ruby` — Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters.  
   `loyalty` `apple-wallet` `retail` `remote` `oauth`
 - **[Live Tennis API MCP](https://www.npmjs.com/package/livetennisapi-mcp)** `TypeScript` — Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.  
@@ -1205,6 +1249,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `banking` `finance` `open-banking`
 - **[Pocket Drives](https://github.com/RevList/pocket-drives-mcp)** `TypeScript` — Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.  
   `travel` `car-rental` `marketplace`
+- **[Product Admin by Nova (CIVAI)](https://github.com/civai-technologies/product-admin-mcp-by-nova-civai)** `Official` `Python` — I manage your Nova products, create/update/delete, payment & logistics config, icons, webhook secre…  
+  `admin` `product-management` `nova-by-civai`
 - **[QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server)** `Official` `TypeScript` — Manage QuickBooks accounting records and financial reports.  
   `accounting` `finance` `bookkeeping`
 - **[Relaticle](https://github.com/relaticle/relaticle)** `Official` `PHP` — Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields.  
@@ -1328,6 +1374,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `registry` `enterprise` `self-hosted`
 - **[MetaMCP](https://github.com/metatool-ai/metatool-app)** `TypeScript` — Middleware MCP server that aggregates and manages multiple connections.  
   `aggregator` `gateway` `middleware`
+- **[Music Agent by Nova (CIVAI)](https://github.com/civai-technologies/music-agent-mcp-by-nova-civai)** `Official` `Python` — I do everything related to music and lyrics  
+  `music` `lyrics` `nova-by-civai`
 - **[Nestbolt](https://github.com/skulitom/Nestbolt)** `Rust` — Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutting, with validated layouts and per-sheet SVG/DXF export.  
   `nesting` `dxf` `svg` `laser-cutting` `cnc`
 - **[QRX](https://qrx.codes/developers/mcp)** `Official` `TypeScript` — Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link.  

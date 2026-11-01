@@ -29,6 +29,23 @@
     "official": false
   },
   {
+    "name": "Product Admin by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/product-admin-mcp-by-nova-civai",
+    "description": "I manage your Nova products, create/update/delete, payment & logistics config, icons, webhook secre\u2026",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "admin",
+      "product-management",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/product-admin"
+    }
+  },
+  {
     "name": "2Captcha MCP",
     "url": "https://github.com/2captcha/2captcha-mcp",
     "description": "Scrape pages past anti-bot protection, parse marketplaces into JSON, automate a browser, and solve CAPTCHAs.",
@@ -92,6 +109,23 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.abuzzhive.com/mcp"
+    }
+  },
+  {
+    "name": "WhatsApp Web Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/whatsapp-web-agent-mcp-by-nova-civai",
+    "description": "I send and manage WhatsApp Web messages through your linked session",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "whatsapp",
+      "messaging",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/whatsapp-web-agent"
     }
   },
   {
@@ -360,7 +394,7 @@
   {
     "name": "AgentServices",
     "url": "https://github.com/vbkotecha/agentservices-api",
-    "description": "Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
+    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "AgentServices",
@@ -446,6 +480,23 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agosint.shveik.dev/mcp"
+    }
+  },
+  {
+    "name": "Slidegen Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/slidegen-agent-mcp-by-nova-civai",
+    "description": "I do everything related to image and slide asset generation",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "slides",
+      "image-generation",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/slidegen-agent"
     }
   },
   {
@@ -775,6 +826,23 @@
     "official": true
   },
   {
+    "name": "Content Calendar Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/content-calendar-agent-mcp-by-nova-civai",
+    "description": "I create markdown content calendars and export them as PDFs via PDF Generator MCP",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "content",
+      "planning",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/content-calendar-agent"
+    }
+  },
+  {
     "name": "Astral Twin",
     "url": "https://astraldaily.com",
     "description": "Create and mint NFT asset packs on the Base blockchain from AI clients.",
@@ -872,6 +940,23 @@
       "apify"
     ],
     "official": true
+  },
+  {
+    "name": "Content Pipeline Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/content-pipeline-agent-mcp-by-nova-civai",
+    "description": "I run the Content Pipeline for your Nova products, scan trends, expand seeds, generate drafts, publish, and submit for indexing.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "content",
+      "publishing",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/content-pipeline-agent"
+    }
   },
   {
     "name": "ats-jobs-mcp",
@@ -1054,6 +1139,23 @@
     "official": true
   },
   {
+    "name": "Code Interpreter Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/code-interpreter-agent-mcp-by-nova-civai",
+    "description": "I do everything related to coding and execution tasks",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "code-execution",
+      "sandbox",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/code-interpreter-agent"
+    }
+  },
+  {
     "name": "RoboParts",
     "url": "https://github.com/lm203688/roboparts",
     "description": "Vendor-neutral robot hardware compatibility checker across 868 entities with three-state verdicts and ISO 9409-1 flange anchor.",
@@ -1159,7 +1261,7 @@
   {
     "name": "BirkinBagStock",
     "url": "https://birkinbagstock.com/llms.txt",
-    "description": "Independent Hermès resale listings, price comparisons, and price alerts.",
+    "description": "Independent Herm\u00e8s resale listings, price comparisons, and price alerts.",
     "category": "finance-commerce-and-business-apps",
     "language": "Other",
     "provider": "BirkinBagStock",
@@ -1265,7 +1367,7 @@
     }
   },
   {
-    "name": "BOIM (보임)",
+    "name": "BOIM (\ubcf4\uc784)",
     "url": "https://github.com/kikiyop1101/boim-mcp",
     "description": "Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.",
     "category": "data-analytics-and-bi",
@@ -1547,6 +1649,23 @@
     }
   },
   {
+    "name": "OpenClaw Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/openclaw-agent-mcp-by-nova-civai",
+    "description": "I execute requests through OpenClaw as a personal AI agent with persistent context, browser and she\u2026",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "agent",
+      "automation",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/openclaw-agent"
+    }
+  },
+  {
     "name": "Chain.Love MCP",
     "url": "https://github.com/Chain-Love/chain.love-mcp",
     "description": "Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.",
@@ -1593,6 +1712,23 @@
       "rag"
     ],
     "official": true
+  },
+  {
+    "name": "Blogger Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/blogger-agent-mcp-by-nova-civai",
+    "description": "I do everything related to Google Blogger content",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "blogging",
+      "content",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/blogger-agent"
+    }
   },
   {
     "name": "Chrome DevTools MCP",
@@ -1670,6 +1806,23 @@
       "workers"
     ],
     "official": true
+  },
+  {
+    "name": "Terminal Command Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/terminal-command-agent-mcp-by-nova-civai",
+    "description": "I run shell commands on your private cloud environment (bash, sh, zsh)",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "shell",
+      "terminal",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/terminal-command-agent"
+    }
   },
   {
     "name": "Cluefinch MCP",
@@ -1993,6 +2146,23 @@
     }
   },
   {
+    "name": "Browser Automation Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/browsergpt-agent-mcp-by-nova-civai",
+    "description": "I do everything related to Browser Automation & Management",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "browser",
+      "automation",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/browsergpt-agent"
+    }
+  },
+  {
     "name": "Darkmoon MCP Server",
     "url": "https://github.com/ASCIT31/darkmoon-mcp-server",
     "description": "Start autonomous AI pentest runs, poll status, list campaigns and read findings on a self-hosted Darkmoon Pro instance over stdio.",
@@ -2094,6 +2264,23 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://go.day3.app/api/mcp"
+    }
+  },
+  {
+    "name": "Instagram Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/instagram-web-agent-mcp-by-nova-civai",
+    "description": "I use your Instagram Web browser session (Integrations \u2192 Instagram Web) via instagrapi, not Meta /\u2026",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "social-media",
+      "instagram",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/instagram-web-agent"
     }
   },
   {
@@ -2242,9 +2429,26 @@
     }
   },
   {
+    "name": "PDF Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/pdf-agent-mcp-by-nova-civai",
+    "description": "I create PDF documents from markdown, preview, then generate a downloadable file",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "pdf",
+      "documents",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/pdf-agent"
+    }
+  },
+  {
     "name": "DropTheHassle",
     "url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
-    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
+    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (\u20ac19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
     "category": "cloud-and-infrastructure",
     "language": "JavaScript",
     "provider": "DropTheHassle",
@@ -2356,6 +2560,23 @@
     "official": true
   },
   {
+    "name": "Interviewer Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/interviewer-agent-mcp-by-nova-civai",
+    "description": "I do everything related to interviews and structured Q&A",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "interviews",
+      "surveys",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/interviewer-agent"
+    }
+  },
+  {
     "name": "Elori",
     "url": "https://github.com/elori-debug/elori-mcp",
     "description": "Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.",
@@ -2412,7 +2633,7 @@
   {
     "name": "Eigenheim Berlin Market Data",
     "url": "https://github.com/magicSEO/eigenheim-mcp",
-    "description": "Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.",
+    "description": "Hosted, no-key, read-only MCP for Berlin real estate data: prices per m\u00b2, rental yield, official land values, forecasts and listings.",
     "category": "data-analytics-and-bi",
     "language": "TypeScript",
     "provider": "Eigenheim & Invest",
@@ -3348,7 +3569,7 @@
   {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
-    "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
+    "description": "Turn AI-host work into invoices you review before send \u2014 Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Invompt",
@@ -3550,7 +3771,7 @@
   {
     "name": "Leal",
     "url": "https://www.getleal.com/mcp",
-    "description": "Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters.",
+    "description": "Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and caf\u00e9s: brand kit from a website, live pass previews, rewards, QR signup posters.",
     "category": "finance-commerce-and-business-apps",
     "language": "Ruby",
     "provider": "Leal",
@@ -3657,7 +3878,7 @@
   {
     "name": "Live Tennis API MCP",
     "url": "https://www.npmjs.com/package/livetennisapi-mcp",
-    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "description": "Real-time tennis match state \u2014 score, current server, three-valued break-point flag, and retirement/walkover/completed status \u2014 plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Live Tennis API",
@@ -3685,6 +3906,23 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.llamaindex.ai/mcp"
+    }
+  },
+  {
+    "name": "Gmail Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/gmail-agent-mcp-by-nova-civai",
+    "description": "I do everything related to Gmail and productivity",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "email",
+      "gmail",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/gmail-agent"
     }
   },
   {
@@ -4516,7 +4754,7 @@
   {
     "name": "HireFerry",
     "url": "https://github.com/TokenNotIncluded/hireferry",
-    "description": "Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows.",
+    "description": "Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in r\u00e9sum\u00e9s, plus authenticated tools for hiring workflows.",
     "category": "finance-commerce-and-business-apps",
     "language": "Rust",
     "provider": "TokenNotIncluded",
@@ -4653,6 +4891,23 @@
       "audit"
     ],
     "official": false
+  },
+  {
+    "name": "Google Docs Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/google-docs-agent-mcp-by-nova-civai",
+    "description": "I do everything related to Google Docs",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "documents",
+      "google-workspace",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/google-docs-agent"
+    }
   },
   {
     "name": "Trends MCP",
@@ -5269,7 +5524,7 @@
   {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
-    "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
+    "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read r\u00e9sum\u00e9s and move candidates through hiring.",
     "category": "finance-commerce-and-business-apps",
     "language": "Other",
     "provider": "Best Electrician Jobs",
@@ -5634,6 +5889,23 @@
     }
   },
   {
+    "name": "Google Sheets Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/google-sheets-agent-mcp-by-nova-civai",
+    "description": "I do everything related to Google Sheets",
+    "category": "data-analytics-and-bi",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "spreadsheets",
+      "google-workspace",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/google-sheets-agent"
+    }
+  },
+  {
     "name": "FlightQueue",
     "url": "https://flightqueue.com/mcp",
     "description": "Airport security wait times, forecasts, FAA delays, EES border queues and baggage stats for 8,000+ airports over a hosted MCP server.",
@@ -5948,6 +6220,24 @@
     "official": true
   },
   {
+    "name": "Research Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/research-agent-mcp-by-nova-civai",
+    "description": "I do everything related to research and reports",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "research",
+      "search",
+      "reports",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/research-agent"
+    }
+  },
+  {
     "name": "AgentFEM MCP",
     "url": "https://github.com/haoming-luo/agentfem-mcp",
     "description": "Create, validate and run finite-element projects and inspect numerical results through local stdio tools, with a separately installed compatible AgentFEM scientific runtime.",
@@ -6119,7 +6409,7 @@
   {
     "name": "mcp-pool",
     "url": "https://github.com/yuzu-octopus/mcp-pool",
-    "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
+    "description": "MCP Key Pool Proxy \u2014 pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "yuzu-octopus",
@@ -6479,6 +6769,23 @@
     "official": true
   },
   {
+    "name": "Telegram Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/telegram-agent-mcp-by-nova-civai",
+    "description": "I use your linked Telegram MTProto session (Integrations \u2192 Telegram) to list groups, members, and s\u2026",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "telegram",
+      "messaging",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/telegram-agent"
+    }
+  },
+  {
     "name": "Muslim Prayer Reminder MCP",
     "url": "https://github.com/tareq7/muslim-prayer-mcp",
     "description": "Calculates Muslim prayer times by location and regional method, including next-prayer countdowns.",
@@ -6785,6 +7092,23 @@
       "local"
     ],
     "official": false
+  },
+  {
+    "name": "Calendar Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/calendar-agent-mcp-by-nova-civai",
+    "description": "I do everything related to calendar scheduling",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "calendar",
+      "scheduling",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/calendar-agent"
+    }
   },
   {
     "name": "officegrep",
@@ -7405,7 +7729,7 @@
   {
     "name": "Pyrimid",
     "url": "https://github.com/pyrimid-ai/pyrimid",
-    "description": "Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
+    "description": "Onchain payment protocol for AI agents \u2014 sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
     "provider": "Pyrimid Protocol",
@@ -7508,6 +7832,24 @@
       "verification"
     ],
     "official": true
+  },
+  {
+    "name": "Leads Discovery Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/leads-discovery-agent-mcp-by-nova-civai",
+    "description": "I discover new leads from WhatsApp/Telegram groups, Instagram post commenters, and X thread replier\u2026",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "leads",
+      "sales",
+      "prospecting",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/leads-discovery-agent"
+    }
   },
   {
     "name": "ReadGZH",
@@ -8176,6 +8518,23 @@
     "official": false
   },
   {
+    "name": "Support Agent Admin by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/support-agent-admin-mcp-by-nova-civai",
+    "description": "I manage your Support Agent CRM, pipeline analytics, follow-ups, Leads Discovery, and workspace out\u2026",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "support",
+      "helpdesk",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/support-agent-admin"
+    }
+  },
+  {
     "name": "Silicon Floor",
     "url": "https://github.com/Baptoshi/silicon-floor",
     "description": "Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source.",
@@ -8192,6 +8551,23 @@
     "official": true
   },
   {
+    "name": "Twitter Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/twitter-agent-mcp-by-nova-civai",
+    "description": "I do everything related to Twitter posting and campaigns",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "social-media",
+      "twitter",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/twitter-agent"
+    }
+  },
+  {
     "name": "SkillDB",
     "url": "https://github.com/devchad-cmd/skilldb-sdk",
     "description": "Search reusable AI agent skills through an installable TypeScript MCP server; full skill content requires a Pro or Studio account.",
@@ -8206,6 +8582,23 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://skilldb.dev/api/mcp"
+    }
+  },
+  {
+    "name": "Nova Inbox Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/email-inbox-agent-mcp-by-nova-civai",
+    "description": "Read and send mail from your Nova Inbox (@nova.civai.co) for OTPs, directory signups, and inbound m\u2026",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "email",
+      "inbox",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/nova-inbox-agent"
     }
   },
   {
@@ -9085,7 +9478,7 @@
     "description": "Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
-    "provider": "TvojeLajky / Tomáš Přibyl",
+    "provider": "TvojeLajky / Tom\u00e1\u0161 P\u0159ibyl",
     "tags": [
       "commerce",
       "social-media",
@@ -9438,6 +9831,23 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://hirelayer.co/mcp"
+    }
+  },
+  {
+    "name": "Music Agent by Nova (CIVAI)",
+    "url": "https://github.com/civai-technologies/music-agent-mcp-by-nova-civai",
+    "description": "I do everything related to music and lyrics",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "CIVAI Technologies",
+    "tags": [
+      "music",
+      "lyrics",
+      "nova-by-civai"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nova.civai.co/mcp/agents/music-agent"
     }
   },
   {
@@ -9903,12 +10313,12 @@
     "official": false
   },
   {
-    "name": "Rolês em SP",
+    "name": "Rol\u00eas em SP",
     "url": "https://rolesemsp.com.br/connect.md",
-    "description": "Curated São Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth.",
+    "description": "Curated S\u00e3o Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth.",
     "category": "browsers-search-and-web-automation",
     "language": "JavaScript",
-    "provider": "Rolês em SP",
+    "provider": "Rol\u00eas em SP",
     "tags": [
       "travel",
       "events",
@@ -9994,12 +10404,12 @@
     "official": true
   },
   {
-    "name": "AI观潮 News MCP",
+    "name": "AI\u89c2\u6f6e News MCP",
     "url": "https://aiguanchao.com/en/agent",
     "description": "Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Needs a personal token (free daily quota).",
     "category": "browsers-search-and-web-automation",
     "language": "Go",
-    "provider": "AI观潮",
+    "provider": "AI\u89c2\u6f6e",
     "tags": [
       "news",
       "ai-news",
