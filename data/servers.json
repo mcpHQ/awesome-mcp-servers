@@ -5906,6 +5906,25 @@
     "official": true
   },
   {
+    "name": "Ahel",
+    "url": "https://github.com/ahel-technologies/ahel",
+    "description": "Hosted MCP server with one catalog of data tasks: company and people enrichment, work email finding, SEO and SERP data, social media data and EU business registers, priced per call.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Ahel",
+    "tags": [
+      "enrichment",
+      "seo",
+      "social-media",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.ahel.ai"
+    }
+  },
+  {
     "name": "MCP Inspector",
     "url": "https://github.com/modelcontextprotocol/inspector",
     "description": "Visual testing tool for debugging MCP server capabilities and messages.",

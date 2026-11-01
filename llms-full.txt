@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 599 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5353,6 +5353,18 @@ Payments held between two agents: the buyer pays by x402 or MPP, the seller prov
 - Tags: payments, x402, stablecoins, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://agpay.shveik.dev/mcp
+
+### Ahel
+
+Hosted MCP server with one catalog of data tasks: company and people enrichment, work email finding, SEO and SERP data, social media data and EU business registers, priced per call.
+
+- URL: https://github.com/ahel-technologies/ahel
+- Language: TypeScript
+- Provider: Ahel
+- Official: yes
+- Tags: enrichment, seo, social-media, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.ahel.ai
 
 ### APISign
 
