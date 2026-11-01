@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 599 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5969,6 +5969,18 @@ Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes,
 - Tags: travel, taxi, booking, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://www.jetcabams.nl/mcp
+
+### JobsPipe
+
+Search live job postings from 30+ ATS feeds and job boards in one normalized schema, filter by location, salary, seniority, skills and visa stance, and save searches as alerts.
+
+- URL: https://github.com/jobspipe/mcp
+- Language: Other
+- Provider: JobsPipe
+- Official: yes
+- Tags: jobs, hiring, job-postings, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.jobspipe.dev/mcp
 
 ### Kandle
 

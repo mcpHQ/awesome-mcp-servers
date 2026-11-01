@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 598 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 599 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -560,6 +560,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server): Access HubSpot contacts, deals, and marketing automation data. (TypeScript, official)
 - [Invompt](https://mcp.invompt.com/mcp): Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com (TypeScript, official)
 - [Jet Cab AMS](https://www.jetcabams.nl/llms.txt): Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request. (JavaScript, official)
+- [JobsPipe](https://github.com/jobspipe/mcp): Search live job postings from 30+ ATS feeds and job boards in one normalized schema, filter by location, salary, seniority, skills and visa stance, and save searches as alerts. (Other, official)
 - [Kandle](https://github.com/Kernel-Hunter/kandle): Lets an agent drive candlestick charts for crypto, stocks and forex in an open browser tab: read candles and indicator values, draw levels, set alerts, run scripts and strategy backtests, and take screenshots. (TypeScript, official)
 - [Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp): People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors. (TypeScript, official)
 - [Landed MCP](https://github.com/landedjobs/landed-mcp): Search AI and tech jobs ranked against a role brief, read a job's application form fields, and fetch free interview prep through a hosted MCP endpoint. (TypeScript, official)
