@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 598 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 600 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -282,6 +282,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Muslim Prayer Reminder MCP](https://github.com/tareq7/muslim-prayer-mcp): Calculates Muslim prayer times by location and regional method, including next-prayer countdowns. (TypeScript)
 - [NeverApply](https://github.com/kasovy/neverapply-mcp): AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval. (Other, official)
 - [Nitrosend](https://docs.nitrosend.com/mcp): Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server. (Ruby, official)
+- [Odile Direct](https://odilelabs.com/a2a): Reach a business that has no API by its phone number: free lookup, then leave a message, check open times or book a time. 50 free tasks a month per agent, then credits or x402 per task. (JavaScript, official)
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server. (TypeScript)
 - [Outbound OS](https://github.com/RecepioHQ/outbound-os): Local MCP tools for evidence-gated email outreach with default-disabled live sending (JavaScript)
 - [Pallyy](https://pallyy.com/docs/api/mcp): Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks. (TypeScript, official)
@@ -485,6 +486,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Lodestar Stamp](https://lodestarstamp.com): Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking. (TypeScript)
 - [mcp-gatehouse](https://github.com/nickgeorgeseo/mcp-gatehouse): Python library that adds permission tiers, fail-closed human approval gates and a secret-redacting JSONL audit log to MCP servers built on the official SDK. (Python)
 - [NPMScan](https://npmscan.com/docs/mcp): Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs. (TypeScript, official)
+- [Odile Gate](https://odilelabs.com/gate): API gateway for AI agents: a key per app, an allow-list of calls, a rate limit, a loop breaker, held approvals on risky writes and an audit log. Free for 3 apps and 10,000 calls a month; Pro $29 a month. (JavaScript, official)
 - [OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check): Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows. (Go, official)
 - [Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server): Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server. (TypeScript, official)
 - [Snyk MCP Server](https://github.com/snyk/studio-mcp): Scan dependencies and code for vulnerabilities with Snyk. (TypeScript, official)

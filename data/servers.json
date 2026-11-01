@@ -3453,6 +3453,25 @@
     }
   },
   {
+    "name": "Odile Direct",
+    "url": "https://odilelabs.com/a2a",
+    "description": "Reach a business that has no API by its phone number: free lookup, then leave a message, check open times or book a time. 50 free tasks a month per agent, then credits or x402 per task.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "Odile Labs",
+    "tags": [
+      "phone",
+      "booking",
+      "messaging",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://odilelabs.com/mcp/direct"
+    }
+  },
+  {
     "name": "Kleap",
     "url": "https://github.com/kleaphq/cli",
     "description": "Create, edit, and publish websites from AI clients through a hosted MCP server.",
@@ -6358,6 +6377,25 @@
       "product"
     ],
     "official": true
+  },
+  {
+    "name": "Odile Gate",
+    "url": "https://odilelabs.com/gate",
+    "description": "API gateway for AI agents: a key per app, an allow-list of calls, a rate limit, a loop breaker, held approvals on risky writes and an audit log. Free for 3 apps and 10,000 calls a month; Pro $29 a month.",
+    "category": "security-and-identity",
+    "language": "JavaScript",
+    "provider": "Odile Labs",
+    "tags": [
+      "api-gateway",
+      "permissions",
+      "audit",
+      "approvals",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://gate.odilelabs.com/mcp"
+    }
   },
   {
     "name": "Tera Ads",

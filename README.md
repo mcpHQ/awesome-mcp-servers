@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-598-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-600-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,11 +47,11 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (61)
 - [Filesystems and Documents](#filesystems-and-documents) (24)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
-- [Communication and Productivity](#communication-and-productivity) (74)
+- [Communication and Productivity](#communication-and-productivity) (75)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (65)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (63)
 - [Legal and Court Data](#legal-and-court-data) (9)
-- [Security and Identity](#security-and-identity) (29)
+- [Security and Identity](#security-and-identity) (30)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (123)
 - [Utilities and Examples](#utilities-and-examples) (25)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
@@ -602,6 +602,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `jobs` `career` `resume` `oauth` `remote`
 - **[Nitrosend](https://docs.nitrosend.com/mcp)** `Official` `Ruby` — Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.  
   `email-marketing` `campaigns` `automation` `transactional-email` `oauth`
+- **[Odile Direct](https://odilelabs.com/a2a)** `Official` `JavaScript` — Reach a business that has no API by its phone number: free lookup, then leave a message, check open times or book a time. 50 free tasks a month per agent, then credits or x402 per task.  
+  `phone` `booking` `messaging` `x402` `remote`
 - **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
   `video` `editing` `automation` `mcp`
 - **[Outbound OS](https://github.com/RecepioHQ/outbound-os)** `JavaScript` — Local MCP tools for evidence-gated email outreach with default-disabled live sending  
@@ -1012,6 +1014,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `security` `audit-log` `permissions` `human-in-the-loop` `python`
 - **[NPMScan](https://npmscan.com/docs/mcp)** `Official` `TypeScript` — Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs.  
   `npm` `supply-chain` `vulnerabilities` `malware` `remote`
+- **[Odile Gate](https://odilelabs.com/gate)** `Official` `JavaScript` — API gateway for AI agents: a key per app, an allow-list of calls, a rate limit, a loop breaker, held approvals on risky writes and an audit log. Free for 3 apps and 10,000 calls a month; Pro $29 a month.  
+  `api-gateway` `permissions` `audit` `approvals` `remote`
 - **[OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check)** `Official` `Go` — Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows.  
   `security` `domains` `typosquatting` `remote`
 - **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.  
