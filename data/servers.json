@@ -5057,6 +5057,20 @@
     "official": true
   },
   {
+    "name": "obd2-mcp",
+    "url": "https://github.com/shoka-jp/obd2-mcp",
+    "description": "Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "automotive",
+      "obd2",
+      "diagnostics"
+    ],
+    "official": false
+  },
+  {
     "name": "Desearch",
     "url": "https://github.com/Desearch-ai/mcp-desearch",
     "description": "AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.",

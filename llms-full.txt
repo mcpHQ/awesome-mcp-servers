@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 599 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6897,6 +6897,17 @@ Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutti
 - Provider: Community
 - Official: no
 - Tags: nesting, dxf, svg, laser-cutting, cnc
+- Category: Utilities and Examples
+
+### obd2-mcp
+
+Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.
+
+- URL: https://github.com/shoka-jp/obd2-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: automotive, obd2, diagnostics
 - Category: Utilities and Examples
 
 ### QRX
