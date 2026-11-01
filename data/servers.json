@@ -5267,6 +5267,22 @@
     }
   },
   {
+    "name": "Ironheights",
+    "url": "https://github.com/Frank-Masciopinto/ironheights",
+    "description": "Read-only local server that scans an AI agent skill (any SKILL.md folder or ClawHub reference) before install with static rules, returning a fail-closed allow/blocked decision, A-F grade, file/line findings and drift since approval.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Ironheights",
+    "tags": [
+      "security",
+      "agent-skills",
+      "supply-chain",
+      "static-analysis",
+      "local"
+    ],
+    "official": true
+  },
+  {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
     "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
