@@ -5177,6 +5177,22 @@
     }
   },
   {
+    "name": "SuperClonica",
+    "url": "https://github.com/superclonica/superclonica-mcp",
+    "description": "Text to speech with about 190 voices in 31 languages: a local stdio server that speaks offline with no usage limits (uvx superclonica-mcp), plus a hosted Streamable HTTP endpoint at https://superclonica.com/mcp with an API key.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "SuperClonica",
+    "tags": [
+      "text-to-speech",
+      "tts",
+      "audio",
+      "local",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "DocuQueue MCP",
     "url": "https://github.com/docuqueue/docuqueue-mcp",
     "description": "Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.",

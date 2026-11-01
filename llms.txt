@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 598 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 599 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -378,6 +378,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory): Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file. (Python)
 - [Sqwakie](https://github.com/alexcarney460-hue/walkie): Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards. (TypeScript, official)
 - [Stivio](https://stivio.ai/mcp): AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts. (Other, official)
+- [SuperClonica](https://github.com/superclonica/superclonica-mcp): Text to speech with about 190 voices in 31 languages: a local stdio server that speaks offline with no usage limits (uvx superclonica-mcp), plus a hosted Streamable HTTP endpoint at https://superclonica.com/mcp with an API key. (Python, official)
 - [Takibi Base](https://takibibase.com/docs/connector): Ask your Takibi Base collections anything; get answers with cited passages and a support score. (Other, official)
 - [VideoGen MCP](https://videogen.io/videogen-mcp): Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects. (TypeScript, official)
 - [Waspes](https://waspes.com/api): AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server. (Other, official)

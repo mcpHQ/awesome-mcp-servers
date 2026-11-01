@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-598-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-599-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (24)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
 - [Communication and Productivity](#communication-and-productivity) (74)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (65)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (66)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (63)
 - [Legal and Court Data](#legal-and-court-data) (9)
 - [Security and Identity](#security-and-identity) (29)
@@ -795,6 +795,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `multi-agent` `claude-code` `codex` `kanban` `agent-messaging`
 - **[Stivio](https://stivio.ai/mcp)** `Official` `Other` — AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts.  
   `image-to-video` `video-generation` `ai-video` `remote`
+- **[SuperClonica](https://github.com/superclonica/superclonica-mcp)** `Official` `Python` — Text to speech with about 190 voices in 31 languages: a local stdio server that speaks offline with no usage limits (uvx superclonica-mcp), plus a hosted Streamable HTTP endpoint at https://superclonica.com/mcp with an API key.  
+  `text-to-speech` `tts` `audio` `local` `remote`
 - **[Takibi Base](https://takibibase.com/docs/connector)** `Official` `Other` — Ask your Takibi Base collections anything; get answers with cited passages and a support score.  
   `knowledge-base` `citations` `remote` `oauth`
 - **[VideoGen MCP](https://videogen.io/videogen-mcp)** `Official` `TypeScript` — Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects.  
