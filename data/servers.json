@@ -5598,6 +5598,25 @@
     "official": false
   },
   {
+    "name": "LurkAPI",
+    "url": "https://lurkapi.com/docs",
+    "description": "Hosted remote MCP server with live public data from 16 social platforms and the web: posts, profiles, comments, video transcripts and Meta, Google, TikTok and LinkedIn ad library results.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "LurkAPI",
+    "tags": [
+      "social-media",
+      "ad-library",
+      "transcripts",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.lurkapi.com/mcp"
+    }
+  },
+  {
     "name": "ForeclosureListings",
     "url": "https://foreclosurelistings.fyi",
     "description": "Look up US foreclosure resources by city and state: county sale schedules, notice postings, HUD-approved counselors and legal aid, each fact citing its public source.",
