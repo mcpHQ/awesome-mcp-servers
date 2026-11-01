@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 600 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2880,6 +2880,18 @@ Manage email campaigns, flows, contacts, audiences, and transactional email or S
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.nitrosend.com/mcp
 
+### Odile Direct
+
+Reach a business that has no API by its phone number: free lookup, then leave a message, check open times or book a time. 50 free tasks a month per agent, then credits or x402 per task.
+
+- URL: https://odilelabs.com/a2a
+- Language: JavaScript
+- Provider: Odile Labs
+- Official: yes
+- Tags: phone, booking, messaging, x402, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://odilelabs.com/mcp/direct
+
 ### OrkasVideoStudio
 
 Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.
@@ -5116,6 +5128,18 @@ Checks npm packages for malware, known vulnerabilities, typosquats, maintainer t
 - Tags: npm, supply-chain, vulnerabilities, malware, remote
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://npmscan.com/api/mcp
+
+### Odile Gate
+
+API gateway for AI agents: a key per app, an allow-list of calls, a rate limit, a loop breaker, held approvals on risky writes and an audit log. Free for 3 apps and 10,000 calls a month; Pro $29 a month.
+
+- URL: https://odilelabs.com/gate
+- Language: JavaScript
+- Provider: Odile Labs
+- Official: yes
+- Tags: api-gateway, permissions, audit, approvals, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://gate.odilelabs.com/mcp
 
 ### OpenBait Lookalike Domains
 
