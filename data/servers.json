@@ -5722,6 +5722,24 @@
     "official": false
   },
   {
+    "name": "PapaHR",
+    "url": "https://papahr.com/",
+    "description": "Hosted MCP server for the PapaHR HR system: ask about employees, time off, probation, hiring, surveys and eNPS, goals and HR costs.",
+    "category": "communication-and-productivity",
+    "language": "PHP",
+    "provider": "PapaHR",
+    "tags": [
+      "hr",
+      "employees",
+      "hiring",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://papahr.com/mcp"
+    }
+  },
+  {
     "name": "Cooper Email",
     "url": "https://cooperemail.com/docs/mcp",
     "description": "Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier.",

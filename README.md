@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-598-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-599-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (61)
 - [Filesystems and Documents](#filesystems-and-documents) (24)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
-- [Communication and Productivity](#communication-and-productivity) (74)
+- [Communication and Productivity](#communication-and-productivity) (75)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (65)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (63)
 - [Legal and Court Data](#legal-and-court-data) (9)
@@ -608,6 +608,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `email` `ai-agents` `outreach` `approval`
 - **[Pallyy](https://pallyy.com/docs/api/mcp)** `Official` `TypeScript` — Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks.  
   `social-media` `scheduling` `marketing` `remote`
+- **[PapaHR](https://papahr.com/)** `Official` `PHP` — Hosted MCP server for the PapaHR HR system: ask about employees, time off, probation, hiring, surveys and eNPS, goals and HR costs.  
+  `hr` `employees` `hiring` `remote`
 - **[Paper Plane Post](https://paperplanepost.com/for/agents)** `Official` `TypeScript` — Create and send an AI-illustrated postcard anywhere in the world  
   `postcards` `photos` `mail`
 - **[Pinto Notes](https://github.com/pinto-notes/pinto-notes)** `Official` `TypeScript` — Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.  
