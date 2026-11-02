@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 599 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6765,6 +6765,18 @@ Free stdio server for Blender 5.2 LTS: check the runtime, query a bpy knowledge 
 - Official: no
 - Tags: blender, 3d-modeling, cad, gltf, local
 - Category: Utilities and Examples
+
+### Everyday MCP
+
+Keyless hosted MCP tools for exact calculations, unit conversions, date and time operations, subtitles, and supplied text or tabular data.
+
+- URL: https://alfie.family/agent-guide.html
+- Language: TypeScript
+- Provider: Everyday MCP
+- Official: yes
+- Tags: calculations, text, time, remote
+- Category: Utilities and Examples
+- Streamable HTTP endpoint: https://everyday.alfie.family/mcp
 
 ### Everything2MCP
 
