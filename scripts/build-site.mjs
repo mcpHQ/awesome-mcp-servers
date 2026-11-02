@@ -17,6 +17,8 @@ import {
   CLIENTS,
   configFor,
   cursorInstallLink,
+  installCommand,
+  localConfig,
   serverKey,
   transportOf,
   vscodeInstallLink,
@@ -32,6 +34,7 @@ const siteUrl = (process.env.SITE_URL ?? "https://mcphq.org").replace(/\/$/, "")
 const base = (process.env.SITE_BASE_PATH ?? "").replace(/\/$/, "");
 const repoUrl = "https://github.com/mcpHQ/awesome-mcp-servers";
 const submitUrl = `${repoUrl}/issues/new?template=add-server.yml`;
+const PAGE_SIZE = 24;
 const siteName = "mcpHQ";
 const buildDate = new Date().toISOString().slice(0, 10);
 
@@ -60,6 +63,24 @@ const LANGUAGE_COLORS = {
   Swift: "#f05138",
   TypeScript: "#3178c6",
   Zig: "#ec915c",
+};
+
+const TRANSPORT_LABELS = {
+  stdio: "stdio",
+  "streamable-http": "Streamable HTTP",
+  sse: "SSE",
+};
+
+const AUTH_LABELS = {
+  none: "No auth",
+  "api-key": "API key",
+  oauth: "OAuth",
+};
+
+const PRICING_LABELS = {
+  free: "Free",
+  freemium: "Freemium",
+  paid: "Paid",
 };
 
 const ICONS = {
@@ -141,7 +162,7 @@ const items = servers.map((server) => {
     slug,
     categoryName: category.name,
     logo: realLogo(logoMap[server.name]),
-    transport: transportOf(server.endpoints),
+    remote: transportOf(server.endpoints),
   };
 });
 
@@ -167,7 +188,7 @@ const tagCounts = countBy(items.flatMap((item) => item.tags), (tag) => tag);
 const stats = {
   servers: items.length,
   official: items.filter((item) => item.official).length,
-  remote: items.filter((item) => item.transport).length,
+  remote: items.filter((item) => item.remote).length,
   categories: activeCategories.length,
   languages: languages.length,
 };
@@ -184,7 +205,7 @@ function compareFeatured(left, right) {
 // Simple Icons only covers recognizable brands; GitHub-avatar and favicon logos are fallbacks.
 function featuredWeight(item) {
   const brandLogo = Boolean(item.logo) && !/^(github|domain)-/.test(item.logo);
-  return (item.official ? 4 : 0) + (brandLogo ? 2 : 0) + (item.transport ? 1 : 0);
+  return (item.official ? 4 : 0) + (brandLogo ? 2 : 0) + (item.remote ? 1 : 0);
 }
 
 function countBy(list, keyOf) {
@@ -289,8 +310,11 @@ function badges(item) {
   if (item.official) {
     parts.push(`<span class="badge badge-official" title="Backed by the vendor or the MCP project">${icon("shield")}Official</span>`);
   }
-  if (item.transport) {
+  if (item.remote) {
     parts.push(`<span class="badge badge-remote" title="Hosted endpoint, nothing to install">${icon("remote")}Remote</span>`);
+  }
+  if (item.pricing) {
+    parts.push(`<span class="badge badge-${item.pricing}">${PRICING_LABELS[item.pricing]}</span>`);
   }
   return parts.join("");
 }
@@ -306,8 +330,24 @@ function stackButton(item, variant = "icon") {
   </button>`;
 }
 
+function cardsHtml(entries) {
+  return entries
+    .map((item, index) => {
+      const html = card(item);
+      return index < PAGE_SIZE ? html : html.replace("<article ", "<article hidden ");
+    })
+    .join("\n");
+}
+
+function pagerHtml(label) {
+  return `<nav class="pager" data-pager data-page-size="${PAGE_SIZE}" hidden aria-label="${esc(label)}">
+  <p class="pager-range" data-pager-range></p>
+  <div class="pager-controls" data-pager-controls></div>
+</nav>`;
+}
+
 function card(item) {
-  return `<article class="card" data-slug="${item.slug}" data-name="${esc(item.name.toLowerCase())}" data-provider="${esc(item.provider.toLowerCase())}" data-tags="${esc(item.tags.join(" "))}" data-cat="${item.category}" data-lang="${esc(item.language)}" data-official="${item.official ? 1 : 0}" data-remote="${item.transport ? 1 : 0}">
+  return `<article class="card" data-slug="${item.slug}" data-name="${esc(item.name.toLowerCase())}" data-provider="${esc(item.provider.toLowerCase())}" data-tags="${esc(item.tags.join(" "))}" data-cat="${item.category}" data-lang="${esc(item.language)}" data-official="${item.official ? 1 : 0}" data-remote="${item.remote ? 1 : 0}" data-pricing="${esc(item.pricing ?? "")}" data-auth="${esc((item.auth ?? []).join(" "))}">
   <div class="card-head">
     ${logo(item)}
     <div class="card-title">
@@ -382,6 +422,7 @@ function layout({ title, description, path, body, structured = [], active = "" }
 <link rel="describedby" href="${siteUrl}/llms.txt">
 <link rel="alternate" type="text/markdown" href="${siteUrl}/llms-full.txt" title="MCP server catalog">
 <link rel="stylesheet" href="${href(`/styles.css?v=${assetVersion.css}`)}">
+<noscript><style>[data-grid] .card[hidden], [data-pageable] .card[hidden] { display: flex !important; }</style></noscript>
 <script type="module" src="${href(`/app.js?v=${assetVersion.js}`)}"></script>
 ${structured.map(jsonLd).join("\n")}
 </head>
@@ -469,12 +510,12 @@ function homePage() {
 
   const previewNames = ["mem0 MCP Server", "LlamaParse MCP Server", "Magic Hour MCP Server"];
   const previewItems = [
-    ...previewNames.map((name) => items.find((item) => item.name === name)).filter((item) => item?.transport),
-    ...items.filter((item) => item.transport && item.official),
+    ...previewNames.map((name) => items.find((item) => item.name === name)).filter((item) => item?.remote),
+    ...items.filter((item) => item.remote && item.official),
   ]
     .filter((item, index, list) => list.indexOf(item) === index)
     .slice(0, 3);
-  const previewEntries = previewItems.map((item) => ({ key: serverKey(item.slug), transport: item.transport }));
+  const previewEntries = previewItems.map((item) => ({ key: serverKey(item.slug), transport: item.remote }));
   const previewClients = CLIENTS.filter((client) => ["cursor", "vscode", "claude-code"].includes(client.id));
   const preview = previewEntries.length
     ? `<div class="hero-preview" data-tabs aria-label="Example stack config">
@@ -529,6 +570,8 @@ function homePage() {
     <div class="rail-head"><h2>Filters</h2><button type="button" class="link-btn" data-clear-filters>Reset</button></div>
     ${segmented("type", "Backing", [["", "Any"], ["official", "Official"], ["community", "Community"]])}
     ${segmented("transport", "Transport", [["", "Any"], ["remote", "Remote"], ["local", "Local"]])}
+    ${items.some((item) => item.auth?.length) ? segmented("auth", "Auth", [["", "Any"], ["none", "None"], ["api-key", "API key"], ["oauth", "OAuth"]]) : ""}
+    ${items.some((item) => item.pricing) ? segmented("pricing", "Pricing", [["", "Any"], ["free", "Free"], ["freemium", "Freemium"], ["paid", "Paid"]]) : ""}
     <div class="facet">
       <h2>Category</h2>
       <ul class="facet-list">
@@ -563,8 +606,9 @@ function homePage() {
       </div>
     </div>
     <div class="grid" data-grid>
-${items.map(card).join("\n")}
+${cardsHtml(items)}
     </div>
+    ${pagerHtml("Server pages")}
     <div class="empty" data-empty hidden>
       <h3>Nothing matches those filters</h3>
       <p>Try a broader search, or tell us which server is missing.</p>
@@ -612,6 +656,59 @@ ${items.map(card).join("\n")}
   });
 }
 
+function sameLink(left, right) {
+  try {
+    const a = new URL(left);
+    const b = new URL(right);
+    a.hash = "";
+    b.hash = "";
+    return a.hostname.replace(/^www\./, "") === b.hostname.replace(/^www\./, "") && a.pathname.replace(/\/$/, "") === b.pathname.replace(/\/$/, "");
+  } catch {
+    return left === right;
+  }
+}
+
+function transportLabel(item) {
+  if (item.transport?.length) {
+    return esc(item.transport.map((mode) => TRANSPORT_LABELS[mode] ?? mode).join(", "));
+  }
+  if (item.remote) {
+    return item.remote.type === "http" ? "Streamable HTTP" : "SSE";
+  }
+  return "Not listed";
+}
+
+function authNote(item) {
+  if (!item.auth?.length) {
+    return "Some hosted servers ask you to sign in or pass an API key the first time you connect. Check the project docs if the client reports an auth error.";
+  }
+  return `Auth: ${item.auth.map((method) => AUTH_LABELS[method] ?? method).join(", ")}. Check the project docs if the client reports an auth error.`;
+}
+
+function localPanel(item, key, alongsideRemote) {
+  const docsLabel = hostOf(item.url) === "github.com" ? "Open README" : "Open setup docs";
+  if (!item.install) {
+    const knownLocal = item.transport?.includes("stdio");
+    return `<section class="panel">
+      <div class="panel-head"><h2>Set up</h2><span class="badge">${icon("terminal")}${knownLocal ? "Runs locally" : "Setup"}</span></div>
+      <p class="muted">${knownLocal ? "This server runs on your machine. " : ""}The project docs have the install command. This catalog does not yet list a package name. Most clients expect an entry shaped like this:</p>
+      ${codeBlock(
+        JSON.stringify({ mcpServers: { [key]: { command: "<command from the docs>", args: ["<args>"] } } }, null, 2),
+        "mcp.json",
+        "cfg-local"
+      )}
+      <a class="btn btn-primary" href="${esc(item.url)}" rel="noopener">${docsLabel}${icon("external")}</a>
+    </section>`;
+  }
+
+  return `<section class="panel">
+    <div class="panel-head"><h2>${alongsideRemote ? "Or run it locally" : "Set up"}</h2><span class="badge">${icon("terminal")}${esc(item.install.command)}</span></div>
+    <p class="muted">${alongsideRemote ? "This server also runs on your machine." : "Add this to your client config."} Confirm the command in the project docs before you rely on it.</p>
+    ${codeBlock(localConfig(key, item.install), "mcp.json", alongsideRemote ? "cfg-local-also" : "cfg-local")}
+    <a class="btn btn-primary" href="${esc(item.url)}" rel="noopener">${docsLabel}${icon("external")}</a>
+  </section>`;
+}
+
 function serverPage(item) {
   const related = grouped
     .get(item.category)
@@ -621,8 +718,8 @@ function serverPage(item) {
   const isGitHub = hostOf(item.url) === "github.com";
 
   let connect;
-  if (item.transport) {
-    const entries = [{ key, transport: item.transport }];
+  if (item.remote) {
+    const entries = [{ key, transport: item.remote }];
     const tabs = CLIENTS.map(
       (client, index) =>
         `<button type="button" role="tab" data-tab="${client.id}" aria-selected="${index === 0}">${client.label}</button>`
@@ -634,33 +731,24 @@ function serverPage(item) {
     ).join("");
 
     connect = `<section class="panel">
-      <div class="panel-head"><h2>Connect</h2><span class="badge badge-remote">${icon("remote")}${item.transport.type === "http" ? "Streamable HTTP" : "SSE"}</span></div>
+      <div class="panel-head"><h2>Connect</h2><span class="badge badge-remote">${icon("remote")}${item.remote.type === "http" ? "Streamable HTTP" : "SSE"}</span></div>
       <p class="muted">This server is hosted, so there is nothing to install. Add it to your client in one click, or paste the config below.</p>
       <div class="endpoint">
-        <code>${esc(item.transport.url)}</code>
-        <button class="copy-btn" type="button" data-copy-text="${esc(item.transport.url)}">${icon("copy", "when-off")}${icon("check", "when-on")}<span class="sr-only">Copy endpoint</span></button>
+        <code>${esc(item.remote.url)}</code>
+        <button class="copy-btn" type="button" data-copy-text="${esc(item.remote.url)}">${icon("copy", "when-off")}${icon("check", "when-on")}<span class="sr-only">Copy endpoint</span></button>
       </div>
       <div class="install-links">
-        <a class="btn btn-primary" href="${esc(cursorInstallLink(key, item.transport))}">Add to Cursor</a>
-        <a class="btn btn-ghost" href="${esc(vscodeInstallLink(key, item.transport))}">Add to VS Code</a>
+        <a class="btn btn-primary" href="${esc(cursorInstallLink(key, item.remote))}">Add to Cursor</a>
+        <a class="btn btn-ghost" href="${esc(vscodeInstallLink(key, item.remote))}">Add to VS Code</a>
       </div>
       <div class="tabs" data-tabs>
         <div class="tab-list" role="tablist" aria-label="Client">${tabs}</div>
         ${panels}
       </div>
-      <p class="muted small">Some hosted servers ask you to sign in or pass an API key the first time you connect. Check the project docs if the client reports an auth error.</p>
-    </section>`;
+      <p class="muted small">${authNote(item)}</p>
+    </section>${item.install ? localPanel(item, key, true) : ""}`;
   } else {
-    connect = `<section class="panel">
-      <div class="panel-head"><h2>Set up</h2><span class="badge">${icon("terminal")}Runs locally</span></div>
-      <p class="muted">This server runs on your machine, so the install command depends on its package. The project ${isGitHub ? "README" : "docs"} has the exact steps. Most clients expect an entry shaped like this:</p>
-      ${codeBlock(
-        JSON.stringify({ mcpServers: { [key]: { command: "<command from the docs>", args: ["<args>"], env: {} } } }, null, 2),
-        "mcp.json",
-        "cfg-local"
-      )}
-      <a class="btn btn-primary" href="${esc(item.url)}" rel="noopener">${isGitHub ? "Open README" : "Open setup docs"}${icon("external")}</a>
-    </section>`;
+    connect = localPanel(item, key, false);
   }
 
   const facts = [
@@ -668,9 +756,17 @@ function serverPage(item) {
     ["Provider", esc(item.provider)],
     ["Language", langPill(item.language)],
     ["Backing", item.official ? "Official" : "Community"],
-    ["Transport", item.transport ? (item.transport.type === "http" ? "Remote · Streamable HTTP" : "Remote · SSE") : "Local (stdio)"],
+    ["Transport", transportLabel(item)],
+    item.auth?.length ? ["Auth", esc(item.auth.map((method) => AUTH_LABELS[method] ?? method).join(", "))] : null,
+    item.license ? ["License", esc(item.license)] : null,
+    item.pricing ? ["Pricing", esc(PRICING_LABELS[item.pricing] ?? item.pricing)] : null,
+    item.install ? ["Install", `<code>${esc(installCommand(item.install))}</code>`] : null,
+    item.verified ? ["Checked", esc(item.verified)] : null,
+    item.repository && !sameLink(item.repository, item.url)
+      ? ["Repository", `<a href="${esc(item.repository)}" rel="noopener">${esc(hostOf(item.repository))}${icon("external")}</a>`]
+      : null,
     ["Source", `<a href="${esc(item.url)}" rel="noopener">${esc(hostOf(item.url))}${icon("external")}</a>`],
-  ]
+  ].filter(Boolean)
     .map(([label, value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`)
     .join("");
 
@@ -727,7 +823,7 @@ function serverPage(item) {
 
   return layout({
     title: /\bMCP\b/i.test(item.name) ? item.name : `${item.name} MCP server`,
-    description: `${item.description} ${item.official ? "Official" : "Community"} ${item.language} MCP server by ${item.provider}${item.transport ? ", available as a hosted endpoint" : ""}.`,
+    description: `${item.description} ${item.official ? "Official" : "Community"} ${item.language} MCP server by ${item.provider}${item.remote ? ", available as a hosted endpoint" : ""}.`,
     path: serverPath(item),
     active: "explore",
     body,
@@ -742,6 +838,7 @@ function serverPage(item) {
         url: item.url,
         keywords: item.tags.join(", "),
         author: { "@type": "Organization", name: item.provider },
+        ...(item.repository ? { codeRepository: item.repository } : {}),
       },
       {
         "@context": "https://schema.org",
@@ -761,7 +858,7 @@ function categoriesPage() {
     .map((category) => {
       const entries = grouped.get(category.id);
       const official = entries.filter((entry) => entry.official).length;
-      const remote = entries.filter((entry) => entry.transport).length;
+      const remote = entries.filter((entry) => entry.remote).length;
       return `<a class="cat-tile" href="${href(categoryPath(category.id))}">
         <span class="cat-icon">${icon(category.id)}</span>
         <h2>${esc(category.name)}</h2>
@@ -789,7 +886,7 @@ function categoriesPage() {
 function categoryPage(category) {
   const entries = grouped.get(category.id);
   const official = entries.filter((entry) => entry.official).length;
-  const remote = entries.filter((entry) => entry.transport).length;
+  const remote = entries.filter((entry) => entry.remote).length;
   const others = activeCategories
     .filter((other) => other.id !== category.id)
     .map((other) => `<a class="chip" href="${href(categoryPath(other.id))}">${esc(other.name)}</a>`)
@@ -810,7 +907,8 @@ function categoryPage(category) {
       <p class="muted">${entries.length} servers · ${official} official · ${remote} remote-ready · <a href="${href(`/?cat=${category.id}#explore`)}">Filter in explorer${icon("arrow")}</a></p>
     </div>
   </header>
-  <div class="grid">${entries.map(card).join("\n")}</div>
+  <div class="grid" data-pageable>${cardsHtml(entries)}</div>
+  ${pagerHtml(`${category.name} pages`)}
   <section class="other-cats"><h2>Other categories</h2><div class="chips">${others}</div></section>
 </div>`,
     structured: [
@@ -876,7 +974,7 @@ function stackPage() {
 function developersPage() {
   const endpoints = [
     ["Servers", "/api/servers.json", "Every entry, exactly as stored in the repo."],
-    ["Catalog", "/api/catalog.json", "Servers plus page slug, category name, logo, and transport."],
+    ["Catalog", "/api/catalog.json", "Servers plus page slug, category name, logo, and a remote connect object."],
     ["Categories", "/api/categories.json", "Category ids, names, and descriptions."],
     ["LLM index", "/llms.txt", "Short Markdown index for agents."],
     ["LLM full catalog", "/llms-full.txt", "Every server in Markdown."],
@@ -973,10 +1071,11 @@ for (const file of ["servers.json", "categories.json"]) {
 writeFileSync(
   join(apiDir, "catalog.json"),
   JSON.stringify(
-    items.map(({ name, slug, url, description, category, categoryName, language, provider, tags, official, logo, transport }) => ({
+    items.map(({ name, slug, url, repository, description, category, categoryName, language, provider, tags, official, license, pricing, transport, install, auth, verified, logo, remote }) => ({
       name,
       slug,
       url,
+      repository: repository ?? null,
       description,
       category,
       categoryName,
@@ -984,8 +1083,14 @@ writeFileSync(
       provider,
       tags,
       official,
+      license: license ?? null,
+      pricing: pricing ?? null,
+      transport: transport ?? null,
+      install: install ?? null,
+      auth: auth ?? null,
+      verified: verified ?? null,
       logo,
-      transport,
+      remote,
     }))
   )
 );

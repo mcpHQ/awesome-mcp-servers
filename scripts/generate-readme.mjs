@@ -26,6 +26,18 @@ for (const entries of grouped.values()) {
   entries.sort(compareServers);
 }
 
+function normalizeUrl(value) {
+  try {
+    const parsed = new URL(value);
+    parsed.hash = "";
+    parsed.hostname = parsed.hostname.toLowerCase();
+    parsed.pathname = parsed.pathname.replace(/\/$/, "");
+    return parsed.toString();
+  } catch {
+    return value;
+  }
+}
+
 function compareServers(left, right) {
   const leftOrder = left.order ?? Number.POSITIVE_INFINITY;
   const rightOrder = right.order ?? Number.POSITIVE_INFINITY;
@@ -65,7 +77,11 @@ const sections = categories
           .join(" ");
 
         const tags = server.tags.map((tag) => `\`${tag}\``).join(" ");
-        return `- **[${server.name}](${server.url})** ${badges} — ${server.description}  \n  ${tags}`;
+        const source =
+          server.repository && normalizeUrl(server.repository) !== normalizeUrl(server.url)
+            ? ` ([source](${server.repository}))`
+            : "";
+        return `- **[${server.name}](${server.url})** ${badges} — ${server.description}${source}  \n  ${tags}`;
       })
       .join("\n");
 
@@ -103,7 +119,7 @@ MCP is an open protocol that lets AI applications connect to external tools and 
 
 - **Curated, not scraped.** Every entry is reviewed against the [quality criteria](#quality-criteria). Spam, impersonators, and abandoned forks are rejected.
 - **No dead links.** Every link is checked on each pull request and again every week. Broken entries get fixed or removed.
-- **Structured data.** Every server has a category, language, provider, tags, and an official/community flag in [\`data/servers.json\`](data/servers.json). The README, [\`llms.txt\`](llms.txt), [\`llms-full.txt\`](llms-full.txt), and the website are generated from that file.
+- **Structured data.** Every server has a category, language, provider, tags, and an official/community flag in [\`data/servers.json\`](data/servers.json). Repository, license, pricing, transport, auth, install command, and a verified date are recorded when known. The README, [\`llms.txt\`](llms.txt), [\`llms-full.txt\`](llms-full.txt), and the website are generated from that file.
 - **Ready to plug in.** Every server has its own page on the website. Hosted servers come with one-click install links and configs for Cursor, VS Code, Claude Code, Claude Desktop, and Codex, and you can merge several into one config with the stack builder.
 - **Built to be reused.** You can pull the whole catalog as JSON into your own tools, agents, or dashboards.
 

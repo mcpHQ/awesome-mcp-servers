@@ -299,7 +299,7 @@ function renderPalette() {
       sub: `${item.provider} · ${item.categoryName}`,
       path: `/servers/${item.slug}/`,
       logo: logoHtml(item, "sm"),
-      hint: item.transport ? "Remote" : item.official ? "Official" : "",
+      hint: item.remote ? "Remote" : item.official ? "Official" : "",
     }));
 
   const categoryMap = new Map(catalog.map((item) => [item.category, item.categoryName]));
@@ -417,6 +417,8 @@ function initExplorer() {
     lang: element.dataset.lang,
     official: element.dataset.official === "1",
     remote: element.dataset.remote === "1",
+    pricing: element.dataset.pricing,
+    auth: element.dataset.auth ? element.dataset.auth.split(" ") : [],
     search: `${element.textContent} ${element.dataset.tags}`.replace(/\s+/g, " ").toLowerCase(),
   }));
 
@@ -427,7 +429,10 @@ function initExplorer() {
     lang: params.get("lang") ?? "",
     type: params.get("type") ?? "",
     transport: params.get("transport") ?? "",
+    auth: params.get("auth") ?? "",
+    pricing: params.get("pricing") ?? "",
     sort: params.get("sort") ?? "featured",
+    page: pageFromUrl(),
     view: store(VIEW_KEY) || "grid",
   };
 
@@ -436,6 +441,8 @@ function initExplorer() {
     lang: (value) => value,
     type: (value) => (value === "official" ? "Official" : "Community"),
     transport: (value) => (value === "remote" ? "Remote" : "Local"),
+    auth: (value) => ({ none: "No auth", "api-key": "API key", oauth: "OAuth" })[value] ?? value,
+    pricing: (value) => ({ free: "Free", freemium: "Freemium", paid: "Paid" })[value] ?? value,
   };
 
   function passes(record, filters) {
@@ -445,10 +452,16 @@ function initExplorer() {
     if (filters.type === "community" && record.official) return false;
     if (filters.transport === "remote" && !record.remote) return false;
     if (filters.transport === "local" && record.remote) return false;
+    if (filters.auth && !record.auth.includes(filters.auth)) return false;
+    if (filters.pricing && record.pricing !== filters.pricing) return false;
     return true;
   }
 
-  function apply({ syncUrl = true } = {}) {
+  const pager = $("[data-pager]", explorer);
+  const pageSize = readPageSize(pager);
+
+  function apply({ syncUrl = true, keepPage = false, scroll = false } = {}) {
+    if (!keepPage) state.page = 1;
     const tokens = tokenize(state.q);
     for (const record of records) {
       record.score = tokens.length ? scoreRecord(record, tokens) : 0;
@@ -464,9 +477,17 @@ function initExplorer() {
       return a.index - b.index;
     });
 
-    const visibleSet = new Set(sorted);
-    for (const record of records) record.element.hidden = !visibleSet.has(record);
-    grid.append(...sorted.map((record) => record.element));
+    const pages = Math.max(1, Math.ceil(sorted.length / pageSize));
+    state.page = Math.min(Math.max(1, state.page), pages);
+    const start = (state.page - 1) * pageSize;
+    const pageItems = sorted.slice(start, start + pageSize);
+    const pageSet = new Set(pageItems);
+    for (const record of records) record.element.hidden = !pageSet.has(record);
+    const hidden = records.filter((record) => !pageSet.has(record));
+    if (pageItems.length || hidden.length) {
+      grid.append(...hidden.map((record) => record.element), ...pageItems.map((record) => record.element));
+    }
+    renderPager(pager, { page: state.page, pages, total: sorted.length, start: start + 1, end: start + pageItems.length });
 
     // Facet counts reflect every other active filter, so no option leads to zero results by surprise.
     $$("[data-count-for]", explorer).forEach((element) => {
@@ -480,13 +501,15 @@ function initExplorer() {
       button.setAttribute("aria-pressed", String(state[button.dataset.facet] === button.dataset.value))
     );
 
-    $("[data-result-count]", explorer).textContent = `${sorted.length} ${sorted.length === 1 ? "server" : "servers"}`;
+    const noun = sorted.length === 1 ? "server" : "servers";
+    $("[data-result-count]", explorer).textContent =
+      sorted.length > pageSize ? `${start + 1}–${start + pageItems.length} of ${sorted.length} ${noun}` : `${sorted.length} ${noun}`;
     $("[data-empty]", explorer).hidden = sorted.length > 0;
     $("[data-sort]", explorer).value = state.sort;
 
     const chips = [];
     if (state.q) chips.push(["q", `“${state.q}”`]);
-    for (const facet of ["type", "transport", "cat", "lang"]) {
+    for (const facet of ["type", "transport", "auth", "pricing", "cat", "lang"]) {
       if (state[facet]) chips.push([facet, facetNames[facet](state[facet])]);
     }
     $("[data-active-filters]", explorer).innerHTML = chips
@@ -498,13 +521,15 @@ function initExplorer() {
 
     if (syncUrl) {
       const next = new URLSearchParams();
-      for (const key of ["q", "cat", "lang", "type", "transport"]) {
+      for (const key of ["q", "cat", "lang", "type", "transport", "auth", "pricing"]) {
         if (state[key]) next.set(key, state[key]);
       }
       if (state.sort !== "featured") next.set("sort", state.sort);
+      if (state.page > 1) next.set("page", String(state.page));
       const query = next.toString();
       history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}${location.hash}`);
     }
+    if (scroll) scrollToResults({ force: true });
   }
 
   function setView(view) {
@@ -517,14 +542,14 @@ function initExplorer() {
   }
 
   function reset() {
-    Object.assign(state, { q: "", cat: "", lang: "", type: "", transport: "" });
+    Object.assign(state, { q: "", cat: "", lang: "", type: "", transport: "", auth: "", pricing: "" });
     if (heroSearch) heroSearch.value = "";
     apply();
   }
 
-  function scrollToResults() {
-    const top = explorer.getBoundingClientRect().top + scrollY - 72;
-    if (scrollY < top - 40) scrollTo({ top, behavior: "smooth" });
+  function scrollToResults({ force = false } = {}) {
+    const top = Math.max(0, explorer.getBoundingClientRect().top + scrollY - 72);
+    if (force || scrollY < top - 40) scrollTo({ top, behavior: "smooth" });
   }
 
   if (heroSearch) {
@@ -549,6 +574,13 @@ function initExplorer() {
   );
 
   explorer.addEventListener("click", (event) => {
+    const pageButton = event.target.closest("[data-page]");
+    if (pageButton && !pageButton.disabled) {
+      const value = pageButton.dataset.page;
+      state.page = value === "prev" ? state.page - 1 : value === "next" ? state.page + 1 : Number(value);
+      apply({ keepPage: true, scroll: true });
+      return;
+    }
     const facetButton = event.target.closest("[data-facet]");
     if (facetButton) {
       const { facet, value } = facetButton.dataset;
@@ -584,8 +616,93 @@ function initExplorer() {
   });
 
   setView(state.view);
-  apply({ syncUrl: false });
+  apply({ syncUrl: false, keepPage: true });
 }
+
+function pageFromUrl() {
+  const value = Number(new URLSearchParams(location.search).get("page"));
+  return Number.isInteger(value) && value > 1 ? value : 1;
+}
+
+function readPageSize(pager) {
+  const size = Number(pager?.dataset.pageSize);
+  return Number.isInteger(size) && size > 0 ? size : 24;
+}
+
+function pageWindow(current, total) {
+  const wanted = new Set([1, total]);
+  for (let page = current - 2; page <= current + 2; page++) wanted.add(page);
+  const pages = [...wanted].filter((page) => page >= 1 && page <= total).sort((a, b) => a - b);
+  const items = [];
+  let previous = 0;
+  for (const page of pages) {
+    if (page - previous > 1) items.push("gap");
+    items.push(page);
+    previous = page;
+  }
+  return items;
+}
+
+function renderPager(pager, { page, pages, total, start, end }) {
+  if (!pager) return;
+  pager.hidden = pages <= 1;
+  if (pages <= 1) return;
+  const range = $("[data-pager-range]", pager);
+  const controls = $("[data-pager-controls]", pager);
+  if (range) range.textContent = `${start}–${end} of ${total}`;
+  if (!controls) return;
+  controls.innerHTML = [
+    `<button type="button" data-page="prev"${page <= 1 ? " disabled" : ""}>Previous</button>`,
+    ...pageWindow(page, pages).map((item) =>
+      item === "gap"
+        ? `<span class="pager-gap" aria-hidden="true">…</span>`
+        : `<button type="button" data-page="${item}"${item === page ? ' aria-current="page"' : ""}>${item}</button>`
+    ),
+    `<button type="button" data-page="next"${page >= pages ? " disabled" : ""}>Next</button>`,
+  ].join("");
+}
+
+$$("[data-pageable]").forEach((grid) => {
+  const pager = grid.nextElementSibling;
+  if (!pager?.matches("[data-pager]")) return;
+  const cards = $$(".card", grid);
+  const pageSize = readPageSize(pager);
+  let page = pageFromUrl();
+
+  function show(next, { scroll = false, syncUrl = true } = {}) {
+    const pages = Math.max(1, Math.ceil(cards.length / pageSize));
+    page = Math.min(Math.max(1, next), pages);
+    const start = (page - 1) * pageSize;
+    cards.forEach((card, index) => {
+      card.hidden = index < start || index >= start + pageSize;
+    });
+    renderPager(pager, {
+      page,
+      pages,
+      total: cards.length,
+      start: cards.length ? start + 1 : 0,
+      end: Math.min(start + pageSize, cards.length),
+    });
+    if (syncUrl) {
+      const nextUrl = new URL(location.href);
+      if (page > 1) nextUrl.searchParams.set("page", String(page));
+      else nextUrl.searchParams.delete("page");
+      history.replaceState(null, "", `${nextUrl.pathname}${nextUrl.search}${nextUrl.hash}`);
+    }
+    if (scroll) {
+      const top = grid.getBoundingClientRect().top + scrollY - 72;
+      scrollTo({ top, behavior: "smooth" });
+    }
+  }
+
+  pager.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-page]");
+    if (!button || button.disabled) return;
+    const value = button.dataset.page;
+    show(value === "prev" ? page - 1 : value === "next" ? page + 1 : Number(value), { scroll: true });
+  });
+  show(page, { syncUrl: false });
+});
 
 // ---------------------------------------------------------------------------
 // Stack builder page
@@ -638,15 +755,15 @@ async function initStackPage() {
     $("[data-stack-filled]", stackApp).hidden = selected.length === 0;
     if (selected.length === 0) return;
 
-    const remote = selected.filter((item) => item.transport);
-    const local = selected.filter((item) => !item.transport);
+    const remote = selected.filter((item) => item.remote);
+    const local = selected.filter((item) => !item.remote);
     $("[data-stack-total]", stackApp).textContent = `(${selected.length})`;
 
     $("[data-stack-list]", stackApp).innerHTML = selected
       .map(
         (item) => `<li>
           ${logoHtml(item)}
-          <span class="stack-item-text"><a href="${base}/servers/${item.slug}/">${esc(item.name)}</a><small>${esc(item.provider)} · ${item.transport ? "Remote" : "Local"}</small></span>
+          <span class="stack-item-text"><a href="${base}/servers/${item.slug}/">${esc(item.name)}</a><small>${esc(item.provider)} · ${item.remote ? "Remote" : "Local"}</small></span>
           <button type="button" class="icon-btn" data-stack-remove="${item.slug}" aria-label="Remove ${esc(item.name)}"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
         </li>`
       )
@@ -661,7 +778,7 @@ async function initStackPage() {
     if (remote.length) {
       const text = configFor(
         client,
-        uniqueKeys(remote).map((key, index) => ({ key, transport: remote[index].transport }))
+        uniqueKeys(remote).map((key, index) => ({ key, transport: remote[index].remote }))
       );
       configElement.innerHTML = `<div class="code">
         <div class="code-bar"><span>${esc(meta.file)} · ${remote.length} hosted ${remote.length === 1 ? "server" : "servers"}</span><button class="copy-btn" type="button" data-copy-target="stack-cfg"><span class="when-off">Copy</span><span class="when-on">Copied</span></button></div>
@@ -677,7 +794,7 @@ async function initStackPage() {
       ? `<h3 class="stack-local-title">Set up locally (${local.length})</h3>
          <p class="muted small">These run on your machine. Install each one from its docs, then add the entry to the same file.</p>
          <ul class="stack-local">${local
-           .map((item) => `<li><a href="${esc(item.url)}" rel="noopener">${esc(item.name)}</a><span class="muted small">${esc(item.language)}</span></li>`)
+           .map((item) => `<li><a href="${esc(item.url)}" rel="noopener">${esc(item.name)}</a><span class="muted small">${esc(item.install ? `${item.install.command} ${item.install.package}` : item.language)}</span></li>`)
            .join("")}</ul>`
       : "";
   }
