@@ -69,6 +69,10 @@ Use the category that best matches the server's primary use case. If a server sp
 
 Available categories are defined in [`data/categories.json`](data/categories.json).
 
+## Review schedule
+
+PRs are reviewed and merged on **Sunday, Wednesday, and Friday**. A PR opened on another day is picked up at the next scheduled review. Please keep your branch up to date with `main` and make sure the checks pass, so it can be merged in one pass.
+
 ## PR checklist
 
 - [ ] Entry added to `data/servers.json`
