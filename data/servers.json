@@ -4570,6 +4570,24 @@
     }
   },
   {
+    "name": "Etsy Search & Shop Sales MCP",
+    "url": "https://github.com/GeminiGeorge22/etsy-sales-mcp",
+    "description": "Live Etsy search results by keyword, category or market page (price, rating, reviews, badges, ad flag, search rank) plus sales counters for named Etsy shops, each with the date it was read.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "etsy",
+      "ecommerce",
+      "marketplace",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=publicrecords/etsy-shop-velocity,publicrecords/etsy-search-scraper"
+    }
+  },
+  {
     "name": "Add to CRM",
     "url": "https://github.com/crm-inputs/mcp",
     "description": "Find work contact details and add people and companies to your own CRM from Claude, ChatGPT and other assistants. Checks for duplicates first and uses your field mapping and tags. Works with 29+ CRMs.",
