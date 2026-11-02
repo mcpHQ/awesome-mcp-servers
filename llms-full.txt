@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 608 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 609 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -925,6 +925,17 @@ Securely access computers explicitly paired to your account through a hosted OAu
 - Tags: computer-use, desktop-automation, terminal, browser, oauth
 - Category: Developer Tools and Code Intelligence
 - Streamable HTTP endpoint: https://remcp.site/mcp
+
+### RoboPartPicker
+
+Source-linked catalogue of open-source robotics projects, components and bills of materials, with a per-line evidence state (verified, probable, unresolved).
+
+- URL: https://github.com/brainbook0/robopartpicker-mcp
+- Language: TypeScript
+- Provider: RoboPartPicker
+- Official: yes
+- Tags: robotics, bill-of-materials, components, hardware
+- Category: Developer Tools and Code Intelligence
 
 ### RoboParts
 
