@@ -5177,6 +5177,25 @@
     }
   },
   {
+    "name": "Unitpost",
+    "url": "https://www.unitpost.com/ai/mcp",
+    "description": "Hosted MCP server for Unitpost: send transactional email, campaigns and SMS, and manage contacts, templates, sending domains, webhooks and inbound email.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Unitpost",
+    "tags": [
+      "email",
+      "sms",
+      "transactional-email",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.unitpost.com/mcp"
+    }
+  },
+  {
     "name": "DocuQueue MCP",
     "url": "https://github.com/docuqueue/docuqueue-mcp",
     "description": "Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.",
