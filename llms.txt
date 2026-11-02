@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 625 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 626 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -619,6 +619,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [SpellBook Finance](https://spellbook-finance.com/agent/mcp.md): Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools. (TypeScript, official)
 - [Square MCP Server](https://github.com/square/square-mcp-server): Process Square payments and manage point-of-sale operations. (TypeScript, official)
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp): Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances. (TypeScript, official)
+- [StrictScore](https://strictscore.com/developers): Hosted MCP server and REST API for STRICT scores, AI-rated 0-100 crypto fundamentals for 970 assets on six pillars; needs an Enterprise plan API key (Bearer). (TypeScript, official)
 - [Stripe MCP Server](https://github.com/stripe/agent-toolkit): Manage Stripe payments, customers, and subscriptions via MCP tools. (TypeScript, official)
 - [SwapWallet](https://github.com/SwapWallet/swapwallet-mcp): Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram. (Kotlin, official)
 - [Synci](https://github.com/synciio/synci-mcp): Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health. (Other, official)

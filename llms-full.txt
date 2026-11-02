@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 625 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 626 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6652,6 +6652,18 @@ Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives
 - Official: yes
 - Tags: company-data, business, finance, remote
 - Category: Finance, Commerce, and Business Apps
+
+### StrictScore
+
+Hosted MCP server and REST API for STRICT scores, AI-rated 0-100 crypto fundamentals for 970 assets on six pillars; needs an Enterprise plan API key (Bearer).
+
+- URL: https://strictscore.com/developers
+- Language: TypeScript
+- Provider: StrictScore
+- Official: yes
+- Tags: crypto, fundamentals, scoring, api-key, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://strictscore.com/api/mcp
 
 ### Stripe MCP Server
 
