@@ -2624,6 +2624,22 @@
     "official": true
   },
   {
+    "name": "Reflex Computer Use",
+    "url": "https://github.com/8itlab/reflex-computer-use",
+    "description": "Control macOS and Windows desktops, including remote Windows over SSH, using accessibility trees and Jev for element selection and action verification.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "computer-use",
+      "desktop-automation",
+      "jev",
+      "macos",
+      "windows"
+    ],
+    "official": false
+  },
+  {
     "name": "FirstSales MCP",
     "url": "https://developer.firstsales.io/agents/mcp-server",
     "description": "Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan.",
