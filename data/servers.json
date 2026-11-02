@@ -1121,6 +1121,25 @@
     "official": true
   },
   {
+    "name": "Buddy MCP Server",
+    "url": "https://buddy.works/docs/ai-agents/mcp",
+    "description": "Official remote MCP server for Buddy: run and monitor pipelines, manage sandboxes, environments, artifacts, domains, and Git repositories from AI agents.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Buddy",
+    "tags": [
+      "sandbox",
+      "pipelines",
+      "deployments",
+      "git",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.buddy.works/mcp"
+    }
+  },
+  {
     "name": "BGPT MCP",
     "url": "https://bgpt.pro/mcp/",
     "description": "Search full-text scientific papers and return structured evidence for research agents.",
@@ -3362,6 +3381,21 @@
     "official": true
   },
   {
+    "name": "RoboPartPicker",
+    "url": "https://github.com/brainbook0/robopartpicker-mcp",
+    "description": "Source-linked catalogue of open-source robotics projects, components and bills of materials, with a per-line evidence state (verified, probable, unresolved).",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "RoboPartPicker",
+    "tags": [
+      "robotics",
+      "bill-of-materials",
+      "components",
+      "hardware"
+    ],
+    "official": true
+  },
+  {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
     "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
@@ -3719,6 +3753,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.kineticist.com/api/mcp"
+    }
+  },
+  {
+    "name": "SlickTrip",
+    "url": "https://github.com/sliktrip/slicktrip-mcp",
+    "description": "Live flight, hotel and seat prices, cheapest-day calendars, and price-drop and seat alerts by email or text; hosted, with OAuth sign-in.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "SlickTrip",
+    "tags": [
+      "travel",
+      "flights",
+      "hotels",
+      "price-alerts",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.slicktrip.com/mcp"
     }
   },
   {
@@ -4336,6 +4389,25 @@
       "remote"
     ],
     "official": false
+  },
+  {
+    "name": "DMD Costs Legal Costs Tools",
+    "url": "https://www.dmdcosts.co.uk/legal-costs-help",
+    "description": "Free, read-only legal costs tools for England and Wales: CPR deadlines, detailed assessment, Part 36, court fees, interest and fixed costs, each answer citing its rule.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "DMD Costs",
+    "tags": [
+      "legal",
+      "uk-law",
+      "legal-costs",
+      "civil-procedure",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.dmdcosts.co.uk/mcp"
+    }
   },
   {
     "name": "OpenAgentForum",
@@ -5042,6 +5114,22 @@
     }
   },
   {
+    "name": "genesis-blackbox",
+    "url": "https://github.com/johannschiffer/genesis-blackbox",
+    "description": "Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "debugging",
+      "devtools",
+      "python",
+      "typescript",
+      "testing"
+    ],
+    "official": false
+  },
+  {
     "name": "ContextManager",
     "url": "https://github.com/nushey/ContextManager",
     "description": "Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents.",
@@ -5071,6 +5159,99 @@
       "pdf"
     ],
     "official": true
+  },
+  {
+    "name": "Pic2SVG MCP",
+    "url": "https://pic2svg.com/mcp/",
+    "description": "Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Pic2SVG",
+    "tags": [
+      "svg",
+      "raster-tracing",
+      "images"
+    ],
+    "official": true
+  },
+  {
+    "name": "Ironheights",
+    "url": "https://github.com/Frank-Masciopinto/ironheights",
+    "description": "Read-only local server that scans an AI agent skill (any SKILL.md folder or ClawHub reference) before install with static rules, returning a fail-closed allow/blocked decision, A-F grade, file/line findings and drift since approval.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Ironheights",
+    "tags": [
+      "security",
+      "agent-skills",
+      "supply-chain",
+      "static-analysis",
+      "local"
+    ],
+    "official": true
+  },
+  {
+    "name": "Reddit MCP Publisher",
+    "url": "https://github.com/Bl0ck154/reddit-mcp-publisher",
+    "description": "Self-hosted Reddit MCP server that reads account context and prepares browser-previewed, owner-approved posts, comments and direct messages.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "reddit",
+      "publishing",
+      "browser-automation",
+      "approval"
+    ],
+    "official": false
+  },
+  {
+    "name": "Tectova Runway Records",
+    "url": "https://tectova.com/tools/mcp",
+    "description": "Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Tectova",
+    "tags": [
+      "fashion",
+      "runway",
+      "fashion-week",
+      "models"
+    ],
+    "official": true
+  },
+  {
+    "name": "obd2-mcp",
+    "url": "https://github.com/shoka-jp/obd2-mcp",
+    "description": "Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "automotive",
+      "obd2",
+      "diagnostics"
+    ],
+    "official": false
+  },
+  {
+    "name": "World Monitor",
+    "url": "https://github.com/koala73/worldmonitor",
+    "description": "Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "World Monitor",
+    "tags": [
+      "geopolitics",
+      "news",
+      "markets",
+      "osint",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://worldmonitor.app/mcp"
+    }
   },
   {
     "name": "Desearch",
@@ -5283,6 +5464,25 @@
     }
   },
   {
+    "name": "JobsPipe",
+    "url": "https://github.com/jobspipe/mcp",
+    "description": "Search live job postings from 30+ ATS feeds and job boards in one normalized schema, filter by location, salary, seniority, skills and visa stance, and save searches as alerts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "JobsPipe",
+    "tags": [
+      "jobs",
+      "hiring",
+      "job-postings",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.jobspipe.dev/mcp"
+    }
+  },
+  {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
     "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
@@ -5374,6 +5574,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://myspainvisa.com/api/mcp"
+    }
+  },
+  {
+    "name": "Joxo",
+    "url": "https://joxo.ai",
+    "description": "Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Joxo",
+    "tags": [
+      "agents",
+      "collaboration",
+      "tasks",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://joxo.ai/api/mcp"
     }
   },
   {
@@ -5505,6 +5724,25 @@
     }
   },
   {
+    "name": "Nyria",
+    "url": "https://github.com/Nyria-LLC/nyria-mcp",
+    "description": "Hosted server that sends trade alerts from an MCP client to Nyria Paper or a connected broker, with alert preview, order status and positions.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Nyria",
+    "tags": [
+      "trading",
+      "alerts",
+      "paper-trading",
+      "tradingview",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.nyria.io/mcp"
+    }
+  },
+  {
     "name": "MakeViral",
     "url": "https://www.makeviral.ai",
     "description": "Finds the newest viral AI video and photo trend templates and makes them from the user's own photos, or makes any AI image or video from a prompt.",
@@ -5612,6 +5850,25 @@
       "oauth"
     ],
     "official": false
+  },
+  {
+    "name": "LurkAPI",
+    "url": "https://lurkapi.com/docs",
+    "description": "Hosted remote MCP server with live public data from 16 social platforms and the web: posts, profiles, comments, video transcripts and Meta, Google, TikTok and LinkedIn ad library results.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "LurkAPI",
+    "tags": [
+      "social-media",
+      "ad-library",
+      "transcripts",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.lurkapi.com/mcp"
+    }
   },
   {
     "name": "ForeclosureListings",
@@ -5736,6 +5993,23 @@
       "claude-code"
     ],
     "official": false
+  },
+  {
+    "name": "Domain Search King",
+    "url": "https://github.com/johnsmalls22-rgb/domain-search-king-mcp",
+    "description": "Suggests .com domain names and returns only those currently available to register, checked against the Verisign RDAP registry; hosted, no API key.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Domain Search King",
+    "tags": [
+      "domains",
+      "rdap",
+      "naming"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://domainsearchking.com/api/mcp"
+    }
   },
   {
     "name": "Cooper Email",
@@ -8316,6 +8590,25 @@
       "dependencies"
     ],
     "official": true
+  },
+  {
+    "name": "SoChain",
+    "url": "https://sochain.com/docs",
+    "description": "Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "SoChain",
+    "tags": [
+      "bitcoin",
+      "litecoin",
+      "dogecoin",
+      "zcash",
+      "blockchain"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://sochain.com/mcp"
+    }
   },
   {
     "name": "SolidPing",
