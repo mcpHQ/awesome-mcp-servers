@@ -5361,6 +5361,25 @@
     }
   },
   {
+    "name": "Joxo",
+    "url": "https://joxo.ai",
+    "description": "Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Joxo",
+    "tags": [
+      "agents",
+      "collaboration",
+      "tasks",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://joxo.ai/api/mcp"
+    }
+  },
+  {
     "name": "Speechyou MCP",
     "url": "https://speechyou.com/mcp",
     "description": "Search and read voice notes and meeting transcripts from Claude, with full transcripts, AI summaries, tags, recent notes and audio links through read-only OAuth access.",
