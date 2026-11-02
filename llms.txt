@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 598 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 599 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -259,6 +259,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Cooper Email](https://cooperemail.com/docs/mcp): Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier. (TypeScript, official)
 - [Crispy](https://crispy.sh): Hosted LinkedIn MCP server. Sign in with OAuth, or use a Bearer API key. Search people and companies, read profile and company data, and send and read messages. (TypeScript)
 - [day3](https://docs.day3.app/mcp): Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope. (TypeScript, official)
+- [Deacon](https://heydeacon.com/features/mcp-server): Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix. (PHP, official)
 - [Discord MCP Server](https://github.com/SaseQ/discord-mcp): Read and send messages in Discord servers and channels. (Python)
 - [Edusign MCP](https://developers.edusign.com/docs/mcp): Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server. (TypeScript, official)
 - [Enhanciar](https://github.com/enhanciar/enhanciar-mcp): A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted; needs an Enhanciar API key (paid plans). (Other, official)

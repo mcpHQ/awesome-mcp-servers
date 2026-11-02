@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 599 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2610,6 +2610,18 @@ Official remote server for the day3 email platform: read account context, draft,
 - Tags: email-marketing, newsletters, campaigns, api-key
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://go.day3.app/api/mcp
+
+### Deacon
+
+Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix.
+
+- URL: https://heydeacon.com/features/mcp-server
+- Language: PHP
+- Provider: Deacon
+- Official: yes
+- Tags: customer-support, bug-reports, coding-agents, remote, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://heydeacon.com/mcp
 
 ### Discord MCP Server
 
