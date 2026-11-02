@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 599 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 601 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6390,6 +6390,18 @@ Search 5,000+ live empty leg flights, get charter price estimates and booking li
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.skyaccess.com/mcp
 
+### SoChain
+
+Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits.
+
+- URL: https://sochain.com/docs
+- Language: Other
+- Provider: SoChain
+- Official: yes
+- Tags: bitcoin, litecoin, dogecoin, zcash, blockchain
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://sochain.com/mcp
+
 ### SpellBook Finance
 
 Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.
@@ -6909,6 +6921,17 @@ Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutti
 - Provider: Community
 - Official: no
 - Tags: nesting, dxf, svg, laser-cutting, cnc
+- Category: Utilities and Examples
+
+### Pic2SVG MCP
+
+Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths.
+
+- URL: https://pic2svg.com/mcp/
+- Language: JavaScript
+- Provider: Pic2SVG
+- Official: yes
+- Tags: svg, raster-tracing, images
 - Category: Utilities and Examples
 
 ### QRX
