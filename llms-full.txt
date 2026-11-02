@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 616 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 617 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3261,6 +3261,18 @@ Project plans for teams that answer to a sponsor: read goals and deliverables, u
 - Tags: project-management, productivity, oauth, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://unblockd.ai/mcp
+
+### Unitpost
+
+Hosted MCP server for Unitpost: send transactional email, campaigns and SMS, and manage contacts, templates, sending domains, webhooks and inbound email.
+
+- URL: https://www.unitpost.com/ai/mcp
+- Language: TypeScript
+- Provider: Unitpost
+- Official: yes
+- Tags: email, sms, transactional-email, remote, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.unitpost.com/mcp
 
 ### Unsora
 
