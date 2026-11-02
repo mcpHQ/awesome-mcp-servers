@@ -3346,6 +3346,21 @@
     "official": true
   },
   {
+    "name": "Reddit MCP Publisher",
+    "url": "https://github.com/Bl0ck154/reddit-mcp-publisher",
+    "description": "Self-hosted Reddit MCP server that reads account context and prepares browser-previewed, owner-approved posts, comments and direct messages.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "reddit",
+      "publishing",
+      "browser-automation",
+      "approval"
+    ],
+    "official": false
+  },
+  {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
     "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",

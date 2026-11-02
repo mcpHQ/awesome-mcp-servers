@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 598 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 599 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -293,6 +293,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Process Street MCP Server](https://github.com/process-street/process-street-mcp): Connect AI clients to Process Street workflows, workflow runs, tasks, users, data sets, and operational records. (Other, official)
 - [PushNotif](https://github.com/AarsyDesign/pushnotif-mcp): Hosted remote and stdio MCP server with 24 tools for Web Push (VAPID), Android (FCM), iOS (APNs), In-App Popups, Social Proof Toasts, and Transactional Email OTP. (JavaScript, official)
 - [Quibbly LinkedIn MCP](https://github.com/Scriptify-Inc/linkedin-mcp): Reads your LinkedIn inbox as synced by the Quibbly Chrome extension, shows who watched your videos, sets follow-ups and notes, and drafts replies you send yourself. (TypeScript, official)
+- [Reddit MCP Publisher](https://github.com/Bl0ck154/reddit-mcp-publisher): Self-hosted Reddit MCP server that reads account context and prepares browser-previewed, owner-approved posts, comments and direct messages. (TypeScript)
 - [Revid](https://www.revid.ai/mcp): Official Revid server to research viral TikTok, YouTube, Instagram and X videos, make finished short-form videos with voice, captions and music, and publish or schedule them. (TypeScript, official)
 - [SemanticHub](https://semantichub.app/docs): Official remote server that monitors news sources, clusters articles by topic and generates texts from them; OAuth 2 or Bearer token, free plan. (Python, official)
 - [Shipmail](https://github.com/shipmail-to/shipmail-mcp): Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks. (TypeScript, official)
