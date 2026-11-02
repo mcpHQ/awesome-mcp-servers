@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 634 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1782,17 +1782,6 @@ Solves reCAPTCHA v2 image grids, text captchas, GeeTest sliders and FunCAPTCHA f
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://api.solvecha.com/mcp
 
-### Surface
-
-URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key.
-
-- URL: https://github.com/Surface-ops/surface
-- Language: JavaScript
-- Provider: Surface
-- Official: yes
-- Tags: url, redirects, link-safety, preflight, remote
-- Category: Browsers, Search, and Web Automation
-
 ### Tavily MCP Server
 
 AI-native search and content extraction for research agents.
@@ -2463,6 +2452,17 @@ Local stdio MCP server that executes shell commands on remote computers through 
 - Tags: remote-shell, relay, command-execution, stdio
 - Category: Cloud and Infrastructure
 
+### Sakupa
+
+Create, deploy and manage static company websites through a local stdio MCP server, with a 30-day free preview and optional paid hosting.
+
+- URL: https://www.npmjs.com/package/@sakupa/mcp
+- Language: TypeScript
+- Provider: Sakupa
+- Official: yes
+- Tags: website-hosting, deployment, static-sites, small-business
+- Category: Cloud and Infrastructure
+
 ### Shipvela
 
 Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.
@@ -2582,18 +2582,6 @@ Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research ho
 - Tags: inbox, webhook, honeypot, research, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://mcp.rocketship.sh/mcp
-
-### agmail
-
-Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account.
-
-- URL: https://agmail.shveik.dev
-- Language: Go
-- Provider: agmail
-- Official: yes
-- Tags: email, inbox, otp, x402, remote
-- Category: Communication and Productivity
-- Streamable HTTP endpoint: https://agmail.shveik.dev/mcp
 
 ### ArtiGram
 
@@ -3154,6 +3142,17 @@ Self-hosted Reddit MCP server that reads account context and prepares browser-pr
 - Tags: reddit, publishing, browser-automation, approval
 - Category: Communication and Productivity
 
+### Repostit for Claude
+
+Official hosted MCP connector for managing connected social accounts, creating post and carousel drafts, scheduling publishing, cross-account workflows, and checking delivery status.
+
+- URL: https://app.repostit.io/claude-connector.html
+- Language: Other
+- Provider: Repostit
+- Official: yes
+- Tags: social-media, scheduling, publishing, drafts, cross-posting
+- Category: Communication and Productivity
+
 ### Revid
 
 Official Revid server to research viral TikTok, YouTube, Instagram and X videos, make finished short-form videos with voice, captions and music, and publish or schedule them.
@@ -3694,6 +3693,18 @@ Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by
 - Official: no
 - Tags: fitness, alexa, voice
 - Category: AI, Agents, and Memory
+
+### GenFlick
+
+Remote MCP for the GenFlick AI studio for films, series, music videos and ads, with OAuth sign-in and no API key.
+
+- URL: https://genflick.com/developers/mcp
+- Language: Other
+- Provider: GenFlick
+- Official: yes
+- Tags: ai-video, film, music-video, storyboard, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://genflick.com/mcp/studios
 
 ### Graphiti MCP Server
 
@@ -4237,6 +4248,18 @@ AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via Zerouter, an OpenA
 
 Analytics platforms, monitoring, and business intelligence tooling.
 
+### AgenticWebScore
+
+Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.
+
+- URL: https://github.com/marifeting/agenticwebscore-mcp
+- Language: TypeScript
+- Provider: Marifeting
+- Official: yes
+- Tags: seo, agent-readiness, llms-txt, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://agenticwebscore.com/mcp
+
 ### AltoRank
 
 Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.
@@ -4507,6 +4530,18 @@ Hosted MCP server for company profiles, financials, ownership, officers, busines
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://mcp.globaldatabase.com/mcp
 
+### Globatics
+
+Read-only remote MCP server to query your own Globatics web analytics reports; a paid hosted tool, available on the Pro and Business plans.
+
+- URL: https://globatics.live/docs/mcp
+- Language: Other
+- Provider: Globatics
+- Official: yes
+- Tags: web-analytics, privacy, remote, api-key
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://globatics.live/api/mcp
+
 ### Google GenAI Toolbox
 
 Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources.
@@ -4761,6 +4796,18 @@ Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps payin
 - Tags: ios, app-store, aso, ads, remote
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://mcp.peekpanda.com/mcp
+
+### PreReason
+
+Financial market context for AI agents, reasoned in advance, from the economy and markets to listed companies' reported results; remote Streamable HTTP or npm stdio bridge.
+
+- URL: https://github.com/PreReason/mcp
+- Language: JavaScript
+- Provider: PreReason
+- Official: yes
+- Tags: finance, markets, economics, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://api.prereason.com/api/mcp
 
 ### Proofsource
 
@@ -5687,17 +5734,6 @@ Hosted OAuth MCP server to find, judge and shortlist engineers for a role from t
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://ayhire.com/mcp
 
-### b2bsearch
-
-Six B2B prospecting tools over the b2bsearch Actors on Apify: people search (count and market modes free), decision makers by domain, new hires, lookalikes, email format. Bring your own APIFY_TOKEN; pay per result.
-
-- URL: https://github.com/b2bsearch/mcp
-- Language: TypeScript
-- Provider: b2bsearch
-- Official: yes
-- Tags: b2b-data, lead-generation, people-search, sales, apify
-- Category: Finance, Commerce, and Business Apps
-
 ### BankBridge
 
 Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.
@@ -6396,6 +6432,18 @@ Checks a medical bill against the insurer's Explanation of Benefits and reports 
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://app.medbillanalyzer.com/mcp/apps?via=mcphq
 
+### Melso
+
+OAuth-protected remote MCP for Spanish fiscal records, invoices, expenses and tax calendars in Melso.
+
+- URL: https://docs.melso.ai/mcp/overview
+- Language: Other
+- Provider: Melso
+- Official: yes
+- Tags: finance, accounting, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.melso.ai/mcp
+
 ### MoltNode by Chord
 
 Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.
@@ -6980,18 +7028,6 @@ Remote job search MCP for exploring 4 million roles with visa, salary, and dista
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.worklittle.com/
 
-### Zaptu
-
-Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.
-
-- URL: https://github.com/TommyTap11/zaptu
-- Language: Python
-- Provider: Zaptu
-- Official: yes
-- Tags: home-services, local-services, leads, remote
-- Category: Finance, Commerce, and Business Apps
-- Streamable HTTP endpoint: https://api.zaptu.ai/mcp
-
 ### Zovo Invoice Generator
 
 Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint.
@@ -7155,6 +7191,18 @@ Extract and download website favicons via MCP; wraps the free no-key FaviconDL A
 - Official: no
 - Tags: favicon, icons, devtools, utilities
 - Category: Utilities and Examples
+
+### fotosize
+
+Read-only lookup of passport, visa and ID photo specs (photo size, head height, background color) checked against official sources.
+
+- URL: https://fotosize.com/docs/mcp
+- Language: TypeScript
+- Provider: fotosize
+- Official: yes
+- Tags: photo-specs, passport, visa, remote
+- Category: Utilities and Examples
+- Streamable HTTP endpoint: https://fotosize.com/mcp
 
 ### genealogy-mcp
 

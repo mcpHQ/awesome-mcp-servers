@@ -411,25 +411,6 @@
     }
   },
   {
-    "name": "agmail",
-    "url": "https://agmail.shveik.dev",
-    "description": "Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account.",
-    "category": "communication-and-productivity",
-    "language": "Go",
-    "provider": "agmail",
-    "tags": [
-      "email",
-      "inbox",
-      "otp",
-      "x402",
-      "remote"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://agmail.shveik.dev/mcp"
-    }
-  },
-  {
     "name": "agosint",
     "url": "https://agosint.shveik.dev",
     "description": "Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account.",
@@ -3315,22 +3296,6 @@
     }
   },
   {
-    "name": "b2bsearch",
-    "url": "https://github.com/b2bsearch/mcp",
-    "description": "Six B2B prospecting tools over the b2bsearch Actors on Apify: people search (count and market modes free), decision makers by domain, new hires, lookalikes, email format. Bring your own APIFY_TOKEN; pay per result.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "TypeScript",
-    "provider": "b2bsearch",
-    "tags": [
-      "b2b-data",
-      "lead-generation",
-      "people-search",
-      "sales",
-      "apify"
-    ],
-    "official": true
-  },
-  {
     "name": "IntlPull MCP Server",
     "url": "https://intlpull.com/docs/mcp",
     "description": "Manage translation keys, translate strings, and sync localization files with IntlPull from MCP clients.",
@@ -4271,24 +4236,6 @@
       "youtube"
     ],
     "official": false
-  },
-  {
-    "name": "Zaptu",
-    "url": "https://github.com/TommyTap11/zaptu",
-    "description": "Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Python",
-    "provider": "Zaptu",
-    "tags": [
-      "home-services",
-      "local-services",
-      "leads",
-      "remote"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://api.zaptu.ai/mcp"
-    }
   },
   {
     "name": "ContactLint",
@@ -5373,6 +5320,146 @@
       "local"
     ],
     "official": false
+  },
+  {
+    "name": "Globatics",
+    "url": "https://globatics.live/docs/mcp",
+    "description": "Read-only remote MCP server to query your own Globatics web analytics reports; a paid hosted tool, available on the Pro and Business plans.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Globatics",
+    "tags": [
+      "web-analytics",
+      "privacy",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://globatics.live/api/mcp"
+    }
+  },
+  {
+    "name": "fotosize",
+    "url": "https://fotosize.com/docs/mcp",
+    "description": "Read-only lookup of passport, visa and ID photo specs (photo size, head height, background color) checked against official sources.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "fotosize",
+    "tags": [
+      "photo-specs",
+      "passport",
+      "visa",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://fotosize.com/mcp"
+    }
+  },
+  {
+    "name": "PreReason",
+    "url": "https://github.com/PreReason/mcp",
+    "description": "Financial market context for AI agents, reasoned in advance, from the economy and markets to listed companies' reported results; remote Streamable HTTP or npm stdio bridge.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "PreReason",
+    "tags": [
+      "finance",
+      "markets",
+      "economics",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.prereason.com/api/mcp"
+    }
+  },
+  {
+    "name": "Sakupa",
+    "url": "https://www.npmjs.com/package/@sakupa/mcp",
+    "description": "Create, deploy and manage static company websites through a local stdio MCP server, with a 30-day free preview and optional paid hosting.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Sakupa",
+    "tags": [
+      "website-hosting",
+      "deployment",
+      "static-sites",
+      "small-business"
+    ],
+    "official": true
+  },
+  {
+    "name": "AgenticWebScore",
+    "url": "https://github.com/marifeting/agenticwebscore-mcp",
+    "description": "Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Marifeting",
+    "tags": [
+      "seo",
+      "agent-readiness",
+      "llms-txt",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agenticwebscore.com/mcp"
+    }
+  },
+  {
+    "name": "Melso",
+    "url": "https://docs.melso.ai/mcp/overview",
+    "description": "OAuth-protected remote MCP for Spanish fiscal records, invoices, expenses and tax calendars in Melso.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Melso",
+    "tags": [
+      "finance",
+      "accounting",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.melso.ai/mcp"
+    }
+  },
+  {
+    "name": "GenFlick",
+    "url": "https://genflick.com/developers/mcp",
+    "description": "Remote MCP for the GenFlick AI studio for films, series, music videos and ads, with OAuth sign-in and no API key.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "GenFlick",
+    "tags": [
+      "ai-video",
+      "film",
+      "music-video",
+      "storyboard",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://genflick.com/mcp/studios"
+    }
+  },
+  {
+    "name": "Repostit for Claude",
+    "url": "https://app.repostit.io/claude-connector.html",
+    "description": "Official hosted MCP connector for managing connected social accounts, creating post and carousel drafts, scheduling publishing, cross-account workflows, and checking delivery status.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Repostit",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "publishing",
+      "drafts",
+      "cross-posting"
+    ],
+    "official": true
   },
   {
     "name": "AgentSearch",
@@ -9165,22 +9252,6 @@
       "sql"
     ],
     "official": false
-  },
-  {
-    "name": "Surface",
-    "url": "https://github.com/Surface-ops/surface",
-    "description": "URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key.",
-    "category": "browsers-search-and-web-automation",
-    "language": "JavaScript",
-    "provider": "Surface",
-    "tags": [
-      "url",
-      "redirects",
-      "link-safety",
-      "preflight",
-      "remote"
-    ],
-    "official": true
   },
   {
     "name": "CiteWing",
