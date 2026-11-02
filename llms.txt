@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 637 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 638 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -649,6 +649,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Warden MCP](https://github.com/warden-protocol/warden-mcp): Remote MCP server for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within user-set limits. (Other, official)
 - [Whimbrel MedTech Analyst](https://github.com/WhimbrelResearch/whimbrel-mcp): Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source. (JavaScript, official)
 - [Wine Labs](https://github.com/imiraoui/winelabs-mcp): Fine-wine matching, market prices, auctions, merchant offers, and portfolio intelligence through a hosted MCP server; browser OAuth and account plans or credits apply. (Other, official)
+- [WISEPIM Commerce Reference](https://github.com/lldiegon/wisepim-commerce-mcp): Look up HS headings, read marketplace listing requirements, and screen environmental claims in product copy offline. (TypeScript, official)
 - [Worklittle Jobs](https://github.com/worklittle/jobs-mcp): Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth. (Other, official)
 - [Zovo Invoice Generator](https://github.com/theluckystrike/mcp-invoice-generator): Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint. (TypeScript)
 - [Zovo Invoice MCP](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice): Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint. (TypeScript)
