@@ -5351,6 +5351,20 @@
     "official": true
   },
   {
+    "name": "Sequenzy",
+    "url": "https://github.com/Sequenzy/mcp",
+    "description": "Manage email contacts, campaigns, automation sequences, transactional email and analytics.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Sequenzy",
+    "tags": [
+      "email",
+      "marketing",
+      "automation"
+    ],
+    "official": true
+  },
+  {
     "name": "Mothership",
     "url": "https://github.com/mothership/agent-plugins",
     "description": "Mothership LTL, FTL & Local Freight: get quotes and track shipments.",
