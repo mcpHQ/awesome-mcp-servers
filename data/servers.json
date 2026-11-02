@@ -9269,6 +9269,25 @@
     }
   },
   {
+    "name": "Deacon",
+    "url": "https://heydeacon.com/features/mcp-server",
+    "description": "Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix.",
+    "category": "communication-and-productivity",
+    "language": "PHP",
+    "provider": "Deacon",
+    "tags": [
+      "customer-support",
+      "bug-reports",
+      "coding-agents",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://heydeacon.com/mcp"
+    }
+  },
+  {
     "name": "Iris Code",
     "url": "https://www.iriscode.co/mcp",
     "description": "Local code-quality rules, findings, preview-first safe fixes, refactor verification and gate results for coding agents.",
