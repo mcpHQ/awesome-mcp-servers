@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-607-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-608-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (18)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (66)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (67)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (62)
 - [Filesystems and Documents](#filesystems-and-documents) (24)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
@@ -184,6 +184,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `android` `mobile` `testing` `automation`
 - **[Flare](https://flareapp.io/docs/flare/general/our-mcp-server)** `Official` `PHP` — Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP.  
   `error-tracking` `observability` `laravel` `php` `oauth`
+- **[genesis-blackbox](https://github.com/johannschiffer/genesis-blackbox)** `Python` — Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.  
+  `debugging` `devtools` `python` `typescript` `testing`
 - **[GitHub MCP Server](https://github.com/github/github-mcp-server)** `Official` `Go` — Official GitHub integration for repos, issues, pull requests, and code search.  
   `github` `git` `ci-cd`
 - **[GitLab MCP Server](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/)** `Official` `Ruby` — GitLab Duo MCP server for merge requests, issues, and project management.  
