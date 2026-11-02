@@ -746,6 +746,35 @@
     "repository": "https://github.com/apify/apify-mcp-server"
   },
   {
+    "name": "AIAgentCycle MCP Server",
+    "url": "https://aiagentcycle.com",
+    "description": "Read-only, source-linked access to AIAgentCycle services, prices, integrations, cases, FAQs and company knowledge in Dutch and English.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "AIAgentCycle",
+    "tags": [
+      "company-knowledge",
+      "automation",
+      "integrations",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/aiagentcycle/aiagentcycle-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-02",
+    "endpoints": {
+      "streamableHttp": "https://mcp.aiagentcycle.com/mcp"
+    }
+  },
+  {
     "name": "App Store & Google Play Review Intelligence",
     "url": "https://github.com/gunnargray-dev/app-store-review-intelligence-mcp",
     "description": "Searches the Apple App Store and Google Play, pulls recent reviews, and returns top complaints with quotes, rating by app version, what got worse in the latest update, and iOS-vs-Android or competitor comparisons.",
