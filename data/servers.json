@@ -5329,6 +5329,21 @@
     }
   },
   {
+    "name": "AgentSearch",
+    "url": "https://github.com/agentsearchhq-coder/agentsearch-mcp",
+    "description": "Real-time web search, any URL to clean Markdown, and JavaScript page rendering for agents over Pocket Network; free keyless tier (25 calls a day), paid calls $0.005 each, install with `npx -y @agentsearchhq/agentsearch-mcp`.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "AgentSearch",
+    "tags": [
+      "web-search",
+      "web-extraction",
+      "markdown",
+      "rendering"
+    ],
+    "official": true
+  },
+  {
     "name": "Mach GTM MCP",
     "url": "https://github.com/verma6uc/mach-gtm-mcp",
     "description": "Open-source MCP server for B2B outbound sales: build ICPs, research prospects, score leads (0-100 fit), draft cold email and LinkedIn messages, and build multi-touch sequences.",
