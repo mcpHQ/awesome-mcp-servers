@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 612 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 613 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -452,6 +452,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Sourcey](https://sourcey.com/mcp): Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record. (TypeScript, official)
 - [Sports Odds API (BetRivers, Unibet & 22 more books)](https://apify.com/publicrecords/sports-odds-api): Live odds from 24 Kambi-powered sportsbooks in one call, including BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel and ATG, with every book's price and the best price per outcome; pay per call. (JavaScript)
 - [StatOrigin](https://statorigin.org/docs/mcp): Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence. (Other, official)
+- [Tectova Runway Records](https://tectova.com/tools/mcp): Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country. (TypeScript, official)
 - [Trends MCP](https://github.com/trendsmcp-ai/Trends-MCP): Gives AI assistants trend data (search interest over time, growth percentages and live top-trends boards) from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, npm, Steam and app stores through one remote MCP server. (Python, official)
 - [TubeText Meta Ad Library & Video Ad Analyzer](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence): Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result. (Other, official)
 - [World Monitor](https://github.com/koala73/worldmonitor): Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server. (TypeScript, official)

@@ -5171,6 +5171,21 @@
     "official": false
   },
   {
+    "name": "Tectova Runway Records",
+    "url": "https://tectova.com/tools/mcp",
+    "description": "Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Tectova",
+    "tags": [
+      "fashion",
+      "runway",
+      "fashion-week",
+      "models"
+    ],
+    "official": true
+  },
+  {
     "name": "obd2-mcp",
     "url": "https://github.com/shoka-jp/obd2-mcp",
     "description": "Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.",
