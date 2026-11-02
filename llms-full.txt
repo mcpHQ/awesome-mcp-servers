@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 600 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6911,6 +6911,17 @@ Creates artistic, print-ready QR codes from a prompt and a link, checks that eac
 - Category: Utilities and Examples
 - Streamable HTTP endpoint: https://qrx.codes/mcp
 
+### Stadiq
+
+Road works, De Lijn transit disruptions, air quality and briefings for any point in Flanders and Brussels.
+
+- URL: https://github.com/snenenenenenene/stadiq-mcp-server
+- Language: JavaScript
+- Provider: Okapi Works
+- Official: no
+- Tags: traffic, air-quality, belgium, transit
+- Category: Utilities and Examples
+
 ### TableJourney
 
 Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth.
@@ -6934,6 +6945,18 @@ Find a song's key and tempo or move it up or down by up to 6 semitones, with the
 - Tags: music, audio, singing, remote
 - Category: Utilities and Examples
 - Streamable HTTP endpoint: https://terastudio.co/mcp
+
+### Transita
+
+Matches a profile against 100+ immigration visa pathways in 16 countries and returns eligibility, costs, timelines and live intake status.
+
+- URL: https://github.com/snenenenenenene/transita-mcp-server
+- Language: JavaScript
+- Provider: Okapi Works
+- Official: no
+- Tags: immigration, visas, travel, remote
+- Category: Utilities and Examples
+- Streamable HTTP endpoint: https://transita.app/api/mcp
 
 ### Weather MCP Server
 

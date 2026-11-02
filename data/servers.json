@@ -5057,6 +5057,24 @@
     "official": true
   },
   {
+    "name": "Transita",
+    "url": "https://github.com/snenenenenenene/transita-mcp-server",
+    "description": "Matches a profile against 100+ immigration visa pathways in 16 countries and returns eligibility, costs, timelines and live intake status.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Okapi Works",
+    "tags": [
+      "immigration",
+      "visas",
+      "travel",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://transita.app/api/mcp"
+    }
+  },
+  {
     "name": "Desearch",
     "url": "https://github.com/Desearch-ai/mcp-desearch",
     "description": "AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.",
@@ -7521,6 +7539,21 @@
       "markdown",
       "documents",
       "reader"
+    ],
+    "official": false
+  },
+  {
+    "name": "Stadiq",
+    "url": "https://github.com/snenenenenenene/stadiq-mcp-server",
+    "description": "Road works, De Lijn transit disruptions, air quality and briefings for any point in Flanders and Brussels.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Okapi Works",
+    "tags": [
+      "traffic",
+      "air-quality",
+      "belgium",
+      "transit"
     ],
     "official": false
   },
