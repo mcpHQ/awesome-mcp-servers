@@ -938,6 +938,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `trends` `search-interest` `market-research` `remote`
 - **[TubeText Meta Ad Library & Video Ad Analyzer](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence)** `Official` `Other` — Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result.  
   `ad-library` `meta-ads` `video-analysis` `remote`
+- **[Vaneform](https://github.com/vaneform/vaneform-mcp)** `Official` `TypeScript` — Hosted MCP for website traffic estimates, domain compare, registry facts and keyword briefs (`https://vaneform.com/mcp`, API key).
+  `traffic` `analytics` `seo` `remote` `api-key`
 - **[Zip-Codes.com ZIP & Postal Code MCP](https://www.zip-codes.com/api/mcp)** `Official` `C#` — Validates and standardizes US street addresses to ZIP+4 and looks up US ZIP Codes and Canadian postal codes, with optional census tract demographics, county and district overlaps, radius search and distance.  
   `zip-codes` `address-validation` `postal-codes` `geocoding`
 
