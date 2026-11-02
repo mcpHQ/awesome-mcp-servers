@@ -7959,6 +7959,9 @@
       "oauth"
     ],
     "official": true,
+    "transport": [
+      "streamable-http"
+    ],
     "endpoints": {
       "streamableHttp": "https://mcp.ahel.ai"
     }

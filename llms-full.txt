@@ -6121,6 +6121,7 @@ Hosted MCP server with one catalog of data tasks: company and people enrichment,
 - Official: yes
 - Tags: enrichment, seo, social-media, remote, oauth
 - Category: Finance, Commerce, and Business Apps
+- Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.ahel.ai
 
 ### APISign
