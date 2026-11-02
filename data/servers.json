@@ -5057,6 +5057,20 @@
     "official": true
   },
   {
+    "name": "Pic2SVG MCP",
+    "url": "https://pic2svg.com/mcp/",
+    "description": "Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Pic2SVG",
+    "tags": [
+      "svg",
+      "raster-tracing",
+      "images"
+    ],
+    "official": true
+  },
+  {
     "name": "Desearch",
     "url": "https://github.com/Desearch-ai/mcp-desearch",
     "description": "AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.",
