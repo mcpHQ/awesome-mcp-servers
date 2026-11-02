@@ -5156,6 +5156,21 @@
     "official": true
   },
   {
+    "name": "Reddit MCP Publisher",
+    "url": "https://github.com/Bl0ck154/reddit-mcp-publisher",
+    "description": "Self-hosted Reddit MCP server that reads account context and prepares browser-previewed, owner-approved posts, comments and direct messages.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "reddit",
+      "publishing",
+      "browser-automation",
+      "approval"
+    ],
+    "official": false
+  },
+  {
     "name": "obd2-mcp",
     "url": "https://github.com/shoka-jp/obd2-mcp",
     "description": "Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.",
