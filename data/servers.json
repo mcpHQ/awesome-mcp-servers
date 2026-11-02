@@ -5057,6 +5057,50 @@
     "official": true
   },
   {
+    "name": "Pic2SVG MCP",
+    "url": "https://pic2svg.com/mcp/",
+    "description": "Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Pic2SVG",
+    "tags": [
+      "svg",
+      "raster-tracing",
+      "images"
+    ],
+    "official": true
+  },
+  {
+    "name": "Ironheights",
+    "url": "https://github.com/Frank-Masciopinto/ironheights",
+    "description": "Read-only local server that scans an AI agent skill (any SKILL.md folder or ClawHub reference) before install with static rules, returning a fail-closed allow/blocked decision, A-F grade, file/line findings and drift since approval.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Ironheights",
+    "tags": [
+      "security",
+      "agent-skills",
+      "supply-chain",
+      "static-analysis",
+      "local"
+    ],
+    "official": true
+  },
+  {
+    "name": "obd2-mcp",
+    "url": "https://github.com/shoka-jp/obd2-mcp",
+    "description": "Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "automotive",
+      "obd2",
+      "diagnostics"
+    ],
+    "official": false
+  },
+  {
     "name": "Desearch",
     "url": "https://github.com/Desearch-ai/mcp-desearch",
     "description": "AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.",
@@ -5264,6 +5308,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.webextract.dev/mcp"
+    }
+  },
+  {
+    "name": "JobsPipe",
+    "url": "https://github.com/jobspipe/mcp",
+    "description": "Search live job postings from 30+ ATS feeds and job boards in one normalized schema, filter by location, salary, seniority, skills and visa stance, and save searches as alerts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "JobsPipe",
+    "tags": [
+      "jobs",
+      "hiring",
+      "job-postings",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.jobspipe.dev/mcp"
     }
   },
   {
@@ -8319,6 +8382,25 @@
       "dependencies"
     ],
     "official": true
+  },
+  {
+    "name": "SoChain",
+    "url": "https://sochain.com/docs",
+    "description": "Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "SoChain",
+    "tags": [
+      "bitcoin",
+      "litecoin",
+      "dogecoin",
+      "zcash",
+      "blockchain"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://sochain.com/mcp"
+    }
   },
   {
     "name": "SolidPing",
