@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-637-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-638-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (69)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (30)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (129)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (130)
 - [Utilities and Examples](#utilities-and-examples) (32)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1341,6 +1341,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `medtech` `fda` `company-research` `oauth` `remote`
 - **[Wine Labs](https://github.com/imiraoui/winelabs-mcp)** `Official` `Other` — Fine-wine matching, market prices, auctions, merchant offers, and portfolio intelligence through a hosted MCP server; browser OAuth and account plans or credits apply.  
   `wine` `pricing` `auctions` `remote`
+- **[WISEPIM Commerce Reference](https://github.com/lldiegon/wisepim-commerce-mcp)** `Official` `TypeScript` — Look up HS headings, read marketplace listing requirements, and screen environmental claims in product copy offline.  
+  `ecommerce` `customs` `marketplaces` `compliance`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Official` `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
   `jobs` `recruiting` `remote` `oauth`
 - **[Zovo Invoice Generator](https://github.com/theluckystrike/mcp-invoice-generator)** `TypeScript` — Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint.  
