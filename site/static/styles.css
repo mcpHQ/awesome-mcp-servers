@@ -171,6 +171,20 @@ kbd {
   max-width: 62ch;
 }
 
+.agents-note {
+  color: var(--text-2);
+  font-size: 14px;
+  margin: 12px 0 0;
+}
+
+.agents-note b {
+  color: var(--text);
+}
+
+.agents-note a {
+  color: var(--accent);
+}
+
 .grad {
   background: linear-gradient(92deg, var(--accent) 0%, var(--cyan) 55%, var(--teal) 100%);
   -webkit-background-clip: text;
@@ -1054,6 +1068,22 @@ kbd {
   color: var(--remote);
 }
 
+.badge-free {
+  border-color: color-mix(in srgb, var(--official) 35%, transparent);
+  background: var(--official-soft);
+  color: var(--official);
+}
+
+.badge-freemium {
+  border-color: color-mix(in srgb, var(--remote) 35%, transparent);
+  background: var(--remote-soft);
+  color: var(--remote);
+}
+
+.badge-paid {
+  color: var(--text-2);
+}
+
 .stack-btn {
   position: relative;
   z-index: 2;
@@ -1133,6 +1163,63 @@ kbd {
 
 .grid.is-list .card-head {
   min-width: 0;
+}
+
+.pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.pager-range {
+  color: var(--muted);
+  font: 13px var(--font);
+  font-variant-numeric: tabular-nums;
+}
+
+.pager-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+}
+
+.pager-controls button {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--surface);
+  color: var(--text-2);
+  font: 600 13px var(--font);
+  cursor: pointer;
+}
+
+.pager-controls button:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.pager-controls button[aria-current="page"] {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
+.pager-controls button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.pager-gap {
+  min-width: 16px;
+  color: var(--muted);
+  text-align: center;
 }
 
 /* Logos */

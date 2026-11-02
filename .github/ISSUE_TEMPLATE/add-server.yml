@@ -59,6 +59,77 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: repository
+    attributes:
+      label: Source repository
+      description: GitHub or other source repo, if the project URL is a docs or marketing page. Use https://github.com/owner/name, not a /tree/ or /blob/ path.
+      placeholder: https://github.com/example/example-mcp-server
+
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      description: Leave Unknown unless the project states it.
+      options:
+        - Unknown
+        - MIT
+        - Apache-2.0
+        - BSD-2-Clause
+        - BSD-3-Clause
+        - ISC
+        - MPL-2.0
+        - GPL-3.0
+        - AGPL-3.0
+        - Unlicense
+        - source-available
+        - proprietary
+
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing
+      description: What it costs to use the server, not the repo license. Leave Unknown unless the project states it.
+      options:
+        - Unknown
+        - free
+        - freemium
+        - paid
+
+  - type: checkboxes
+    id: transport
+    attributes:
+      label: Transport
+      description: Select every way a client can run it.
+      options:
+        - label: stdio (local)
+        - label: streamable-http (remote)
+        - label: sse (remote)
+
+  - type: input
+    id: install
+    attributes:
+      label: Local install
+      description: Command and package, if known. Example, npx @example/mcp-server or uvx example-mcp.
+      placeholder: npx @example/mcp-server
+
+  - type: checkboxes
+    id: auth
+    attributes:
+      label: Auth
+      description: Select every way a client can authenticate. none means a usable path needs no credential.
+      options:
+        - label: none
+        - label: api-key
+        - label: oauth
+
+  - type: input
+    id: verified
+    attributes:
+      label: Last checked
+      description: UTC date you confirmed the server is still maintained, as YYYY-MM-DD. Leave blank if you have not checked.
+      placeholder: "2026-11-02"
+
   - type: textarea
     id: evidence
     attributes:

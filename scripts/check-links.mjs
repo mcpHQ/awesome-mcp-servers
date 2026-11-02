@@ -49,6 +49,9 @@ function collectFromServersJson() {
   );
   for (const server of servers) {
     addLink(server.url, `servers.json (${server.name})`);
+    if (server.repository) {
+      addLink(server.repository, `servers.json (${server.name} repository)`);
+    }
   }
 }
 

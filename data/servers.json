@@ -12,7 +12,8 @@
       "comparison",
       "saas"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Nadeus/toolradar-mcp"
   },
   {
     "name": "1Password MCP Server",
@@ -26,7 +27,8 @@
       "passwords",
       "vault"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/CakeRepository/1Password-MCP"
   },
   {
     "name": "2Captcha MCP",
@@ -41,7 +43,8 @@
       "browser-automation",
       "captcha"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/2captcha/2captcha-mcp"
   },
   {
     "name": "3Descu 3D Printing Quotes (EU)",
@@ -59,7 +62,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://zzamnvhadwibvafqcfpd.supabase.co/functions/v1/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "A2ASearch MCP",
@@ -73,7 +79,8 @@
       "search",
       "registry"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/tadas-github/a2asearch-mcp"
   },
   {
     "name": "AbuzzHive",
@@ -92,7 +99,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.abuzzhive.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "AccInt",
@@ -106,7 +119,8 @@
       "coding-agents",
       "local-first"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/maxbaluev/accreted-intelligence"
   },
   {
     "name": "Account Executive Jobs",
@@ -125,7 +139,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.accountexecutivejobs.com/mcp"
-    }
+    },
+    "repository": "https://github.com/854Labs/account-executive-jobs",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "AcqPath",
@@ -144,7 +165,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.getacqpath.com/mcp"
-    }
+    },
+    "repository": "https://github.com/reflectme-source/acqpath-distribution",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "ADEXTO",
@@ -163,26 +188,12 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://adexto.xyz/api/mcp"
-    }
-  },
-  {
-    "name": "AdsTurbo",
-    "url": "https://adsturbo.ai",
-    "description": "Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Other",
-    "provider": "AdsTurbo",
-    "tags": [
-      "video",
-      "advertising",
-      "ecommerce",
-      "remote",
-      "oauth"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://adsturbo.ai/klian/novartapi/mcp"
-    }
+    },
+    "repository": "https://github.com/0xcuy/adexto",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Aeon",
@@ -201,7 +212,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.aeon.fun/connect/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "agdata",
@@ -219,7 +236,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agdata.shveik.dev/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Agent Commons",
@@ -238,7 +262,12 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://agents.dooza.ai/mcp"
-    }
+    },
+    "repository": "https://github.com/sibi-narendran/common-agent-network",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Agent Media",
@@ -256,7 +285,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.agent-media.ai/mcp"
-    }
+    },
+    "repository": "https://github.com/agent-media-ai/agent-media",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Agent QA",
@@ -272,7 +305,8 @@
       "mobile",
       "mcp"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/vostride/agent-qa"
   },
   {
     "name": "agent-chain-doctor",
@@ -288,7 +322,8 @@
       "cron",
       "claude-code"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/elfovo/agent-chain-doctor"
   },
   {
     "name": "Agentage Memory",
@@ -302,7 +337,10 @@
       "remote",
       "oauth"
     ],
-    "official": true
+    "official": true,
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "agentcomms",
@@ -318,26 +356,8 @@
       "self-hosted",
       "mcp"
     ],
-    "official": true
-  },
-  {
-    "name": "agentic sinkhole research",
-    "url": "https://docs.rocketship.sh/llms.txt",
-    "description": "Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research honeypot, no login, traffic logged, do not send secrets.",
-    "category": "communication-and-productivity",
-    "language": "JavaScript",
-    "provider": "Community",
-    "tags": [
-      "inbox",
-      "webhook",
-      "honeypot",
-      "research",
-      "remote"
-    ],
-    "official": false,
-    "endpoints": {
-      "streamableHttp": "https://mcp.rocketship.sh/mcp"
-    }
+    "official": true,
+    "repository": "https://github.com/web3wes/agentcomms"
   },
   {
     "name": "AgentRender",
@@ -355,7 +375,18 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.agentrenderapi.com/mcp"
-    }
+    },
+    "repository": "https://github.com/corbinvachal48/agentrender-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "agentrender-mcp"
+    },
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "AgentServices",
@@ -374,7 +405,12 @@
     "endpoints": {
       "sse": "https://agentservices.to/mcp"
     },
-    "official": false
+    "official": false,
+    "repository": "https://github.com/vbkotecha/agentservices-api",
+    "pricing": "paid",
+    "transport": [
+      "sse"
+    ]
   },
   {
     "name": "Babelize MCP",
@@ -408,26 +444,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.ipvolt.com/mcp"
-    }
-  },
-  {
-    "name": "agmail",
-    "url": "https://agmail.shveik.dev",
-    "description": "Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account.",
-    "category": "communication-and-productivity",
-    "language": "Go",
-    "provider": "agmail",
-    "tags": [
-      "email",
-      "inbox",
-      "otp",
-      "x402",
-      "remote"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://agmail.shveik.dev/mcp"
-    }
+    },
+    "repository": "https://github.com/ipvolt/proxy-toolkit-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "agosint",
@@ -446,7 +467,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agosint.shveik.dev/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "agpay",
@@ -464,7 +489,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agpay.shveik.dev/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "agproxy",
@@ -482,7 +510,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agproxy.shveik.dev/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "agvps",
@@ -500,7 +535,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agvps.shveik.dev/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Aident Loadout",
@@ -518,7 +560,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://loadout.aident.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Airtable MCP Server",
@@ -532,7 +580,8 @@
       "spreadsheets",
       "data"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/domdomegg/airtable-mcp-server"
   },
   {
     "name": "AltoRank",
@@ -551,7 +600,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.altorank.co/api/mcp"
-    }
+    },
+    "repository": "https://github.com/AltoRank/altorank",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Amplitude MCP Server",
@@ -583,7 +639,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://accounts-os.com/api/mcp/plugin"
-    }
+    },
+    "repository": "https://github.com/thriveventurelabs/accountsos-mcp-server",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Anansi Haven",
@@ -602,7 +662,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://anansi-haven.anansidata.workers.dev/mcp"
-    }
+    },
+    "repository": "https://github.com/kburrus64-max/anansi-haven",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Anyquery",
@@ -616,7 +680,8 @@
       "integration",
       "local"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/julien040/anyquery"
   },
   {
     "name": "API Status Check MCP",
@@ -634,7 +699,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://apistatuscheck.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "API.market MCP Gateway",
@@ -652,7 +720,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.market/api/mcp/gateway"
-    }
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Apify MCP Server",
@@ -666,7 +742,8 @@
       "actors",
       "data"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/apify/apify-mcp-server"
   },
   {
     "name": "App Store & Google Play Review Intelligence",
@@ -685,7 +762,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://parallelstudio--app-store-review-intelligence-mcp.apify.actor/mcp"
-    }
+    },
+    "repository": "https://github.com/gunnargray-dev/app-store-review-intelligence-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Apple Docs 2.0 MCP",
@@ -701,7 +782,8 @@
       "documentation",
       "wwdc"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/mishafyi/Apple-Docs-2.0-MCP"
   },
   {
     "name": "Arcmira: YouTube Transcript Search",
@@ -720,7 +802,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.arcmira.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Ariadne for Therapists",
@@ -738,7 +823,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://therapists.ariadnemarketing.com/mcp"
-    }
+    },
+    "repository": "https://github.com/bgrieco22/ariadne-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "ArtiGram",
@@ -756,7 +845,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://artigram.cafeboon.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "AsItIs",
@@ -772,7 +864,8 @@
       "prompt-injection",
       "markdown"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Katta041/asitis-agent-tools"
   },
   {
     "name": "Astral Twin",
@@ -790,7 +883,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://astraldaily.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Atlassian Browser MCP Server",
@@ -804,7 +900,8 @@
       "confluence",
       "sso"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/GeiserX/atlassian-browser-mcp"
   },
   {
     "name": "OMOPHub",
@@ -823,7 +920,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.omophub.com"
-    }
+    },
+    "repository": "https://github.com/OMOPHub/omophub-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Timesheet MCP Server",
@@ -841,7 +942,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.timesheet.io"
-    }
+    },
+    "repository": "https://github.com/timesheetIO/timesheet-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Atlassian MCP Server",
@@ -855,7 +960,8 @@
       "confluence",
       "atlassian"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/atlassian/atlassian-mcp-server"
   },
   {
     "name": "ATS Zero-Browser Gateway",
@@ -871,7 +977,8 @@
       "delta-tracking",
       "apify"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/ginugokz/ats-zero-browser-gateway"
   },
   {
     "name": "ats-jobs-mcp",
@@ -887,7 +994,11 @@
       "lever",
       "ashby"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/benkrasin/ats-jobs-mcp",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Ausca",
@@ -906,7 +1017,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://ausca.com/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Auth0 MCP Server",
@@ -920,7 +1035,11 @@
       "identity",
       "oauth"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/auth0/auth0-mcp-server",
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "AWS MCP Server",
@@ -934,7 +1053,8 @@
       "cloud",
       "cli"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/alexei-led/aws-mcp-server"
   },
   {
     "name": "ax",
@@ -948,7 +1068,8 @@
       "coding-agents",
       "costs"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/Necmttn/ax"
   },
   {
     "name": "Azure MCP Server",
@@ -962,7 +1083,8 @@
       "cloud",
       "infra"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/microsoft/mcp"
   },
   {
     "name": "imageat",
@@ -981,7 +1103,19 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.imageat.com/mcp"
-    }
+    },
+    "repository": "https://github.com/incendies/imageat-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@imageat/mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "MaxiBestOf",
@@ -1000,7 +1134,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://maxibestof.one/mcp-server"
-    }
+    },
+    "repository": "https://github.com/luminous8/maxibestof-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "BacklinkGenie",
@@ -1018,7 +1159,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.backlinkgenie.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "Checkout Page",
@@ -1037,7 +1185,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.checkoutpage.com"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Baizhi Cloud Agent Toolkit",
@@ -1051,7 +1205,12 @@
       "web",
       "hosted"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/chaitin/baizhi-agent-toolkit",
+    "license": "MIT",
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "RoboParts",
@@ -1067,7 +1226,8 @@
       "industrial",
       "iso-9409-1"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/lm203688/roboparts"
   },
   {
     "name": "BankBridge",
@@ -1085,7 +1245,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://bankbridge.money/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Basedash MCP Server",
@@ -1102,7 +1265,14 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://charts.basedash.com/api/public/mcp"
-    }
+    },
+    "repository": "https://github.com/Basedash/mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Bestax",
@@ -1118,7 +1288,30 @@
       "components",
       "local"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/allxsmith/bestax"
+  },
+  {
+    "name": "Buddy MCP Server",
+    "url": "https://buddy.works/docs/ai-agents/mcp",
+    "description": "Official remote MCP server for Buddy: run and monitor pipelines, manage sandboxes, environments, artifacts, domains, and Git repositories from AI agents.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Buddy",
+    "tags": [
+      "sandbox",
+      "pipelines",
+      "deployments",
+      "git",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.buddy.works/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "BGPT MCP",
@@ -1136,7 +1329,10 @@
     "official": false,
     "endpoints": {
       "sse": "https://bgpt.pro/mcp/sse"
-    }
+    },
+    "transport": [
+      "sse"
+    ]
   },
   {
     "name": "Bilbop x402",
@@ -1154,7 +1350,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp"
-    }
+    },
+    "repository": "https://github.com/bilbop1/bilbop-x402-mcp",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "BirkinBagStock",
@@ -1172,7 +1376,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://birkinbagstock.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "BKK Staff",
@@ -1191,7 +1398,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.bkkstaff.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Blawgy",
@@ -1210,7 +1423,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.blawgy.com/mcp"
-    }
+    },
+    "repository": "https://github.com/adamgusky/blawgy-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "BlockVectra",
@@ -1228,7 +1449,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://docs.blockvectra.com/mcp"
-    }
+    },
+    "repository": "https://github.com/blockvectra/mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Budna MCP",
@@ -1243,7 +1471,11 @@
       "shopping",
       "sweden"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/budna-marketplace/mcp",
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "Ignav Flights",
@@ -1262,7 +1494,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://ignav.com/mcp"
-    }
+    },
+    "repository": "https://github.com/gusgordon/ignav-skill",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "BOIM (보임)",
@@ -1281,7 +1520,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://boim.io/api/mcp"
-    }
+    },
+    "repository": "https://github.com/kikiyop1101/boim-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "BotGathering",
@@ -1298,7 +1544,10 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://botgathering.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Brave Search MCP Server",
@@ -1312,7 +1561,8 @@
       "privacy",
       "web"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/brave/brave-search-mcp-server"
   },
   {
     "name": "Agent Notifications",
@@ -1326,7 +1576,8 @@
       "desktop",
       "coding-agents"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/777genius/agent-notifications"
   },
   {
     "name": "Bridge Watch",
@@ -1345,7 +1596,12 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agentsapi.top/mcp"
-    }
+    },
+    "repository": "https://github.com/LakeSky/bridge-watch-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Browser MCP",
@@ -1359,7 +1615,8 @@
       "local",
       "automation"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/browsermcp/mcp"
   },
   {
     "name": "Browser Use MCP Server",
@@ -1377,7 +1634,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.browser-use.com/v3/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "browser-buddy",
@@ -1391,7 +1651,8 @@
       "browser-automation",
       "local"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/hahahahahahahahah6/browser-buddy"
   },
   {
     "name": "Browserbase MCP Server",
@@ -1405,7 +1666,8 @@
       "cloud",
       "automation"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/browserbase/mcp-server-browserbase"
   },
   {
     "name": "Bruin Cloud MCP",
@@ -1423,7 +1685,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://cloud.getbruin.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Bruin MCP",
@@ -1453,7 +1721,8 @@
       "publishing",
       "bulkpublish"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/azeemkafridi/bulkpublish-api"
   },
   {
     "name": "BuyWhere MCP",
@@ -1471,7 +1740,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.buywhere.ai/mcp"
-    }
+    },
+    "repository": "https://github.com/BuyWhere/buywhere-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "CallForMe",
@@ -1489,7 +1762,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://callforme.tel/mcp"
-    }
+    },
+    "repository": "https://github.com/callforme-tel/callforme",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "canli-validation-mcp",
@@ -1508,7 +1785,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://canlicapital.com/mcp"
-    }
+    },
+    "repository": "https://github.com/arhancanli/canli-validation-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "CareClinic Health Tracker",
@@ -1526,7 +1807,14 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.careclinic.io/mcp"
-    }
+    },
+    "repository": "https://github.com/tandemloop/careclinic_mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "CareJobs.Now Healthcare Jobs",
@@ -1544,7 +1832,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://carejobs.now/api/mcp"
-    }
+    },
+    "repository": "https://github.com/yumaheymans/carejobs-mcp",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Chain.Love MCP",
@@ -1559,7 +1855,8 @@
       "discovery",
       "remote"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Chain-Love/chain.love-mcp"
   },
   {
     "name": "Chord",
@@ -1578,7 +1875,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.getchord.xyz/v1/mcp"
-    }
+    },
+    "repository": "https://github.com/getchordlabs/chord",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Chroma MCP Server",
@@ -1592,7 +1896,8 @@
       "embeddings",
       "rag"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/chroma-core/chroma-mcp"
   },
   {
     "name": "Chrome DevTools MCP",
@@ -1606,7 +1911,8 @@
       "devtools",
       "debugging"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
   },
   {
     "name": "Clera",
@@ -1625,7 +1931,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.getclera.com"
-    }
+    },
+    "repository": "https://github.com/getclera/mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "CloudGPU MCP Server",
@@ -1639,7 +1952,8 @@
       "cloud",
       "ai-infrastructure"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/mrhy7176/cloudgpu-mcp"
   },
   {
     "name": "CloudBurn",
@@ -1655,7 +1969,11 @@
       "cloudformation",
       "read-only"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/towardsthecloud/cloudburn",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Cloudflare MCP Server",
@@ -1669,7 +1987,8 @@
       "edge",
       "workers"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/cloudflare/mcp-server-cloudflare"
   },
   {
     "name": "Cluefinch MCP",
@@ -1685,7 +2004,8 @@
       "ai-agents",
       "local-first"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/cluefinch/mcp-server"
   },
   {
     "name": "Comment.io MCP Server",
@@ -1703,7 +2023,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://comment.io/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Communicate",
@@ -1721,7 +2047,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.communicate.so/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "CompanyProof",
@@ -1740,7 +2072,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://companyproof.ai/v2/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "ComputeFirst",
@@ -1758,7 +2097,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://computefirst.net/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Concord MCP",
@@ -1772,7 +2114,8 @@
       "coordination",
       "local-first"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/Get-Concord-AI/concord-mcp"
   },
   {
     "name": "Constitution Lint MCP Server",
@@ -1791,7 +2134,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://agentopskit.dev/mcp"
-    }
+    },
+    "repository": "https://github.com/joeyycli/constitution-lint-action",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Context7 MCP",
@@ -1805,7 +2152,8 @@
       "libraries",
       "coding"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/upstash/context7"
   },
   {
     "name": "ContextStream",
@@ -1820,7 +2168,8 @@
       "agents",
       "coding"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/contextstream/mcp-server"
   },
   {
     "name": "ContHunt",
@@ -1838,7 +2187,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.conthunt.app/"
-    }
+    },
+    "repository": "https://github.com/Synthenova/conthunt-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Continuity",
@@ -1857,7 +2210,14 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://continuitywriter.com/mcp"
-    }
+    },
+    "repository": "https://github.com/LAHutchins91/continuity-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Council of AI GSPC",
@@ -1872,7 +2232,8 @@
       "evidence",
       "x402"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/CSOAI-ORG/councilof-ai"
   },
   {
     "name": "Court Rules MCP",
@@ -1891,7 +2252,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.courtrules.app/mcp"
-    }
+    },
+    "repository": "https://github.com/foklepoint/court-rules-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "CrewAI Enterprise MCP Server",
@@ -1905,7 +2270,8 @@
       "multi-agent",
       "orchestration"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/crewAIInc/enterprise-mcp-server"
   },
   {
     "name": "Phasoric",
@@ -1924,7 +2290,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://phasoric.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "CrowdStrike MCP Server",
@@ -1938,7 +2310,8 @@
       "security",
       "soc"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/CrowdStrike/falcon-mcp"
   },
   {
     "name": "CurlShot",
@@ -1956,7 +2329,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://curlshot.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "Dare MCP Server",
@@ -1971,7 +2350,8 @@
       "video-generation",
       "claude"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/avi-aggarwal14/dare-mcp-server"
   },
   {
     "name": "SecureLend Underwriting",
@@ -1990,7 +2370,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.securelend.ai/v1/lender/mcp"
-    }
+    },
+    "repository": "https://github.com/SecureLend/mcp-underwriting",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Darkmoon MCP Server",
@@ -2005,7 +2389,11 @@
       "security",
       "stdio"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/ASCIT31/darkmoon-mcp-server",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Datacircle",
@@ -2024,7 +2412,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.datacircle.dev/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Datadog MCP Server",
@@ -2038,7 +2429,8 @@
       "metrics",
       "logs"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/datadog-labs/mcp-server"
   },
   {
     "name": "InsertChat",
@@ -2057,7 +2449,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.insertchat.com/v2/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "datawebot",
@@ -2076,7 +2474,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.datawebot.com/mcp"
-    }
+    },
+    "repository": "https://github.com/datawebot/datawebot-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "day3",
@@ -2094,7 +2500,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://go.day3.app/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "DBHub",
@@ -2108,7 +2520,8 @@
       "postgres",
       "mysql"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/bytebase/dbhub"
   },
   {
     "name": "dbt MCP Server",
@@ -2122,7 +2535,8 @@
       "analytics",
       "transform"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/dbt-labs/dbt-mcp"
   },
   {
     "name": "DC Hub",
@@ -2141,7 +2555,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://dchub.cloud/mcp"
-    }
+    },
+    "repository": "https://github.com/azmartone67/dchub-mcp-server",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Decide Runtime",
@@ -2160,7 +2578,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp-live.decide.fyi/developer-prepaid/v1/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Discord MCP Server",
@@ -2174,7 +2598,8 @@
       "chat",
       "community"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/SaseQ/discord-mcp"
   },
   {
     "name": "Docker MCP Server",
@@ -2188,7 +2613,8 @@
       "devops",
       "docker"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/docker/mcp-gateway"
   },
   {
     "name": "Easy-Peasy.AI",
@@ -2207,7 +2633,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://easy-peasy.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "Airport Lounge List MCP Server",
@@ -2221,7 +2654,8 @@
       "airports",
       "lounges"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Airport-Lounge-List/mcp-server"
   },
   {
     "name": "Domain Mail Check",
@@ -2239,7 +2673,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mailcheck.openkrill.app/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "DropTheHassle",
@@ -2258,7 +2695,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://dropthehassle.com/mcp"
-    }
+    },
+    "repository": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Duplicacy MCP Server",
@@ -2272,7 +2713,8 @@
       "backup",
       "prometheus"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/GeiserX/duplicacy-mcp"
   },
   {
     "name": "Paper Plane Post",
@@ -2289,7 +2731,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.paperplanepost.com/v1/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "E2B MCP Server",
@@ -2321,7 +2766,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://ecfr.io/mcp"
-    }
+    },
+    "repository": "https://github.com/lrehmann/ecfr-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "eCourts India MCP",
@@ -2339,7 +2788,13 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.ecourtsindia.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Elasticsearch MCP Server",
@@ -2353,7 +2808,8 @@
       "analytics",
       "elastic"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/elastic/mcp-server-elasticsearch"
   },
   {
     "name": "Elori",
@@ -2371,7 +2827,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://elori.app/mcp"
-    }
+    },
+    "repository": "https://github.com/elori-debug/elori-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Enhanciar",
@@ -2389,7 +2852,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://enhanciar.in/enhanciar/mcp/"
-    }
+    },
+    "repository": "https://github.com/enhanciar/enhanciar-mcp",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "Lasso",
@@ -2407,7 +2878,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://lasso.link/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Eigenheim Berlin Market Data",
@@ -2422,7 +2896,8 @@
       "market-data",
       "remote"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/magicSEO/eigenheim-mcp"
   },
   {
     "name": "Equibles",
@@ -2441,7 +2916,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.equibles.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "ERIUS PHONE MCP",
@@ -2456,7 +2937,8 @@
       "testing",
       "automation"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Protremix/erius-phone-mcp"
   },
   {
     "name": "Everything2MCP",
@@ -2472,7 +2954,8 @@
       "hot-reload",
       "integrations"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/shcdwz1234/Everything2MCP"
   },
   {
     "name": "Exa MCP Server",
@@ -2486,7 +2969,8 @@
       "research",
       "web"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/exa-labs/exa-mcp-server"
   },
   {
     "name": "Faceless",
@@ -2504,7 +2988,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://faceless.so/api/v1/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "FastMCP",
@@ -2518,7 +3005,8 @@
       "python",
       "starter"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/jlowin/fastmcp"
   },
   {
     "name": "Buy-Box",
@@ -2536,7 +3024,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://buybox.agentconsult.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "FaviconDL",
@@ -2551,7 +3045,8 @@
       "devtools",
       "utilities"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/sweesama/favicondl.com"
   },
   {
     "name": "Fincept MCP",
@@ -2570,7 +3065,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://enterprise.fincept.in/mcp"
-    }
+    },
+    "repository": "https://github.com/Fincept-Corporation/fincept-mcp-docs",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Finder Jobs",
@@ -2588,7 +3090,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.finder.work/mcp"
-    }
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Firecrawl MCP Server",
@@ -2602,7 +3111,25 @@
       "crawl",
       "web"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/mendableai/firecrawl-mcp-server"
+  },
+  {
+    "name": "Reflex Computer Use",
+    "url": "https://github.com/8itlab/reflex-computer-use",
+    "description": "Control macOS and Windows desktops, including remote Windows over SSH, using accessibility trees and Jev for element selection and action verification.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "computer-use",
+      "desktop-automation",
+      "jev",
+      "macos",
+      "windows"
+    ],
+    "official": false,
+    "repository": "https://github.com/8itlab/reflex-computer-use"
   },
   {
     "name": "FirstSales MCP",
@@ -2621,7 +3148,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.app.firstsales.io/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "fitlog-mcp",
@@ -2635,7 +3168,8 @@
       "alexa",
       "voice"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/hahahahahahahahah6/fitlog-mcp"
   },
   {
     "name": "Flare",
@@ -2654,7 +3188,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://flareapp.io/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Fly.io MCP Server",
@@ -2668,7 +3208,8 @@
       "deploy",
       "edge"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/superfly/flymcp"
   },
   {
     "name": "FractalAI Agent Passport",
@@ -2684,7 +3225,12 @@
       "identity",
       "receipts"
     ],
-    "official": true
+    "official": true,
+    "pricing": "paid",
+    "install": {
+      "command": "npx",
+      "package": "@fractalai/agent-passport-mcp"
+    }
   },
   {
     "name": "Frantic",
@@ -2702,7 +3248,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.gofrantic.com/mcp"
-    }
+    },
+    "repository": "https://github.com/gofrantic/frantic-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "genealogy-mcp",
@@ -2718,7 +3268,8 @@
       "gedcom",
       "evidence"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/igormel81/genealogy-mcp"
   },
   {
     "name": "GitHub MCP Server",
@@ -2732,7 +3283,8 @@
       "git",
       "ci-cd"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/github/github-mcp-server"
   },
   {
     "name": "GitLab MCP Server",
@@ -2764,7 +3316,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.globaldatabase.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Glongus MCP",
@@ -2779,7 +3337,8 @@
       "escrow",
       "shopping"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/glongusmain/glongus-mcp"
   },
   {
     "name": "Gmail MCP Server",
@@ -2793,7 +3352,8 @@
       "email",
       "google"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/GongRzhe/Gmail-MCP-Server"
   },
   {
     "name": "GodotMCP",
@@ -2809,7 +3369,11 @@
       "claude",
       "cursor"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/vberai/godot-mcp",
+    "transport": [
+      "sse"
+    ]
   },
   {
     "name": "Google Calendar MCP Server",
@@ -2823,7 +3387,8 @@
       "scheduling",
       "google"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/nspady/google-calendar-mcp"
   },
   {
     "name": "Google Drive MCP Server",
@@ -2837,7 +3402,8 @@
       "files",
       "cloud"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/modelcontextprotocol/servers-archived"
   },
   {
     "name": "Google GenAI Toolbox",
@@ -2851,7 +3417,8 @@
       "gcp",
       "data"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/googleapis/genai-toolbox"
   },
   {
     "name": "Google Hotels",
@@ -2866,7 +3433,9 @@
       "pricing",
       "apify"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/huynhtanan/google-hotels-mcp",
+    "pricing": "paid"
   },
   {
     "name": "Google Maps MCP Server",
@@ -2880,7 +3449,8 @@
       "location",
       "geo"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/modelcontextprotocol/servers-archived"
   },
   {
     "name": "Grafana MCP Server",
@@ -2894,7 +3464,8 @@
       "dashboards",
       "observability"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/grafana/mcp-grafana"
   },
   {
     "name": "Grandpa's AI",
@@ -2912,7 +3483,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://grandpasai.com/mcp"
-    }
+    },
+    "repository": "https://github.com/wescorp/grandpasai-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Sitekick CMS",
@@ -2931,7 +3506,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.sitekick.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Graphiti MCP Server",
@@ -2945,7 +3526,8 @@
       "memory",
       "temporal"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/getzep/graphiti"
   },
   {
     "name": "Growo child growth",
@@ -2964,7 +3546,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.usegrowo.com/"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Tera Studio",
@@ -2982,7 +3570,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://terastudio.co/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "GSCmate",
@@ -3001,7 +3592,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://gscmate.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "OverlayQA",
@@ -3020,7 +3617,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.overlayqa.com/mcp"
-    }
+    },
+    "repository": "https://github.com/OverlayQA/mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "HANRIA Mandate Check",
@@ -3039,7 +3640,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://check.hanria.ai/v1/mcp"
-    }
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Harness MCP Server",
@@ -3054,7 +3659,8 @@
       "devops"
     ],
     "official": true,
-    "order": 0
+    "order": 0,
+    "repository": "https://github.com/harness/mcp-server"
   },
   {
     "name": "HeyReagent",
@@ -3072,7 +3678,14 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://api.heyreagent.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "HirePulse Agent Gateway",
@@ -3090,7 +3703,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Hoot Lens",
@@ -3108,7 +3724,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.hootlens.com/mcp"
-    }
+    },
+    "repository": "https://github.com/Parallel-Platforms/hootlens-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Polish MCP Servers",
@@ -3124,7 +3744,11 @@
       "public-registers",
       "apify"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/kamilkaczmareksolutions/polish-mcp-servers",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "CodeTrendy",
@@ -3142,7 +3766,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://codetrendy.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "HubSpot MCP Server",
@@ -3170,7 +3800,8 @@
       "models",
       "ml"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/huggingface/hf-mcp-server"
   },
   {
     "name": "PennyOCR",
@@ -3188,7 +3819,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.pennyocr.com"
-    }
+    },
+    "repository": "https://github.com/imiraoui/pennyocr-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "HumanEndpoint",
@@ -3207,7 +3845,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://humanendpoint.au/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Hyperconsciousness",
@@ -3222,7 +3863,8 @@
       "encryption",
       "local"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/louis030195/hyperconsciousness"
   },
   {
     "name": "Hyperresearch",
@@ -3240,7 +3882,13 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.hyperresearch.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Dexra",
@@ -3258,7 +3906,16 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.dexra.dev/mcp"
-    }
+    },
+    "repository": "https://github.com/dexra-dev/mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
   },
   {
     "name": "INAM Protocol",
@@ -3277,23 +3934,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.inamprotocol.org/mcp"
-    }
-  },
-  {
-    "name": "b2bsearch",
-    "url": "https://github.com/b2bsearch/mcp",
-    "description": "Six B2B prospecting tools over the b2bsearch Actors on Apify: people search (count and market modes free), decision makers by domain, new hires, lookalikes, email format. Bring your own APIFY_TOKEN; pay per result.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "TypeScript",
-    "provider": "b2bsearch",
-    "tags": [
-      "b2b-data",
-      "lead-generation",
-      "people-search",
-      "sales",
-      "apify"
-    ],
-    "official": true
+    },
+    "repository": "https://github.com/inamprotocol/inam-protocol",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "IntlPull MCP Server",
@@ -3327,7 +3972,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://invokely.ai/mcp/trial"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Synmerco",
@@ -3343,7 +3991,27 @@
       "payments",
       "usdc"
     ],
-    "official": true
+    "official": true,
+    "install": {
+      "command": "npx",
+      "package": "@synmerco/mcp-server"
+    }
+  },
+  {
+    "name": "RoboPartPicker",
+    "url": "https://github.com/brainbook0/robopartpicker-mcp",
+    "description": "Source-linked catalogue of open-source robotics projects, components and bills of materials, with a per-line evidence state (verified, probable, unresolved).",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "RoboPartPicker",
+    "tags": [
+      "robotics",
+      "bill-of-materials",
+      "components",
+      "hardware"
+    ],
+    "official": true,
+    "repository": "https://github.com/brainbook0/robopartpicker-mcp"
   },
   {
     "name": "Invompt",
@@ -3361,7 +4029,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.invompt.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Billstride",
@@ -3380,7 +4054,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://billstride.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "KanbanMCP",
@@ -3398,7 +4078,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://kanbanmcp.com/"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Flight Seatmap",
@@ -3416,7 +4099,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.flightseatmap.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Kandle",
@@ -3432,7 +4118,8 @@
       "crypto",
       "backtesting"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Kernel-Hunter/kandle"
   },
   {
     "name": "Karma.Domains Expired Domains",
@@ -3450,7 +4137,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.karma.domains/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "Kleap",
@@ -3468,7 +4163,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://kleap.co/api/mcp"
-    }
+    },
+    "repository": "https://github.com/kleaphq/cli",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Kooperativa.io",
@@ -3483,7 +4182,8 @@
       "people-search",
       "hiring-signals"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/kooperativa-team/kooperativa-mcp"
   },
   {
     "name": "Kubernetes MCP Server",
@@ -3497,7 +4197,8 @@
       "devops",
       "cloud"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/Flux159/mcp-server-kubernetes"
   },
   {
     "name": "LangGraph MCP Server",
@@ -3545,7 +4246,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://liminality.physea.ai/mcp"
-    }
+    },
+    "repository": "https://github.com/jaybro2042-alt/liminality-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Leal",
@@ -3564,7 +4272,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.getleal.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Linear MCP Server",
@@ -3597,7 +4311,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.monito.dev/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "NebenkostenPro",
@@ -3616,7 +4336,12 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://nebenkostenpro.de/mcp"
-    }
+    },
+    "repository": "https://github.com/julianfaalk/nebenkostenpro-mcp",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "LinkedNav",
@@ -3634,7 +4359,14 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.linkednav.com/"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "LinkMCP",
@@ -3652,7 +4384,15 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://app.linkmcp.io/api/mcp?ref=mcphq"
-    }
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "Live Tennis API MCP",
@@ -3668,7 +4408,11 @@
       "fixtures",
       "event-markets"
     ],
-    "official": false
+    "official": false,
+    "install": {
+      "command": "npx",
+      "package": "livetennisapi-mcp"
+    }
   },
   {
     "name": "LlamaParse MCP Server",
@@ -3685,7 +4429,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.llamaindex.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Kineticist",
@@ -3703,7 +4450,37 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.kineticist.com/api/mcp"
-    }
+    },
+    "repository": "https://github.com/colinize/kineticist-mcp",
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "SlickTrip",
+    "url": "https://github.com/sliktrip/slicktrip-mcp",
+    "description": "Live flight, hotel and seat prices, cheapest-day calendars, and price-drop and seat alerts by email or text; hosted, with OAuth sign-in.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "SlickTrip",
+    "tags": [
+      "travel",
+      "flights",
+      "hotels",
+      "price-alerts",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.slicktrip.com/mcp"
+    },
+    "repository": "https://github.com/sliktrip/slicktrip-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "LLM Pulse MCP Server",
@@ -3717,7 +4494,8 @@
       "analytics",
       "marketing"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/LLM-Pulse/llmpulse-mcp"
   },
   {
     "name": "LLMSlim",
@@ -3732,7 +4510,11 @@
       "sqlite",
       "local"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/Thanatos9404/llmslim",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Recall Kitchen",
@@ -3750,7 +4532,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.recallkitchen.com/mcp"
-    }
+    },
+    "repository": "https://github.com/Recall-Kitchen/rk-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "CloakBrowser MCP",
@@ -3765,7 +4555,11 @@
       "chromium",
       "stdio"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/swimmwatch/cloakbrowser-mcp",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Lodestar Stamp",
@@ -3799,7 +4593,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://lognorm.com/api/mcp"
-    }
+    },
+    "repository": "https://github.com/lognorm/lognorm-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "looot",
@@ -3817,7 +4618,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.looot.ai/mcp"
-    }
+    },
+    "repository": "https://github.com/loootai/looot-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "RentReboot",
@@ -3835,7 +4640,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://rentreboot.com/api/mcp"
-    }
+    },
+    "repository": "https://github.com/imiraoui/rentreboot-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "LynxPrompt MCP Server",
@@ -3849,7 +4661,8 @@
       "prompts",
       "ai-rules"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/GeiserX/lynxprompt-mcp"
   },
   {
     "name": "Mac MCP",
@@ -3865,7 +4678,8 @@
       "agents",
       "local"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/bulutarkan/mac-mcp"
   },
   {
     "name": "MadeOnSol MCP Server",
@@ -3880,7 +4694,13 @@
       "analytics",
       "x402"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/MadeOnSol/mcp-server-madeonsol",
+    "pricing": "paid",
+    "auth": [
+      "none",
+      "api-key"
+    ]
   },
   {
     "name": "Magic Hour MCP Server",
@@ -3899,7 +4719,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.magichour.ai/"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "DeltaX Preflight",
@@ -3915,7 +4738,11 @@
       "stdio",
       "receipts"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/DeltaX-Public/deltax-preflight",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Mailcoach",
@@ -3933,7 +4760,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.mailcoach.app"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "mountable.io",
@@ -3947,7 +4780,11 @@
       "storage",
       "stdio"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/writeitai/mountable",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "APISign",
@@ -3966,7 +4803,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://apisign.io/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "MakeAIVideo",
@@ -3984,7 +4824,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.makeaivideo.ai"
-    }
+    },
+    "repository": "https://github.com/makeaivideo-ai/mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Jet Cab AMS",
@@ -4002,7 +4846,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.jetcabams.nl/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Shipmail",
@@ -4021,7 +4868,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://shipmail.to/api/mcp"
-    }
+    },
+    "repository": "https://github.com/shipmail-to/shipmail-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Manifold MCP",
@@ -4040,7 +4891,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.manifoldmcp.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "MAQAMI Travel",
@@ -4059,7 +4913,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.maqami.co/"
-    }
+    },
+    "repository": "https://github.com/negm17111995/mcp-server",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "MarkItDown MCP",
@@ -4073,7 +4934,8 @@
       "conversion",
       "markdown"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/microsoft/markitdown"
   },
   {
     "name": "Markovo",
@@ -4092,7 +4954,15 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://markovo.net/mcp"
-    }
+    },
+    "repository": "https://github.com/fisher-byte/markovo",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "deed.page",
@@ -4111,7 +4981,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://deed.page/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "OpenBait Lookalike Domains",
@@ -4129,7 +5002,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://openbait.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "MCP Ads",
@@ -4148,7 +5024,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp-ads.com/mcp-slim"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Warden MCP",
@@ -4167,7 +5049,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://tokens.wardenprotocol.org/mcp"
-    }
+    },
+    "repository": "https://github.com/warden-protocol/warden-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Scento Perfume API",
@@ -4185,7 +5071,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.scento.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "BusyBee",
@@ -4201,25 +5090,8 @@
       "instagram",
       "youtube"
     ],
-    "official": false
-  },
-  {
-    "name": "Zaptu",
-    "url": "https://github.com/TommyTap11/zaptu",
-    "description": "Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Python",
-    "provider": "Zaptu",
-    "tags": [
-      "home-services",
-      "local-services",
-      "leads",
-      "remote"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://api.zaptu.ai/mcp"
-    }
+    "official": false,
+    "repository": "https://github.com/danfeistar/busybee-mcp"
   },
   {
     "name": "ContactLint",
@@ -4238,7 +5110,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://contactlint.com/mcp"
-    }
+    },
+    "repository": "https://github.com/zksyncer/contactlint",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Edgrapi",
@@ -4257,7 +5133,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.edgrapi.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Outbound OS",
@@ -4272,7 +5154,8 @@
       "outreach",
       "approval"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/RecepioHQ/outbound-os"
   },
   {
     "name": "Toads",
@@ -4288,7 +5171,8 @@
       "macos",
       "local"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/854Labs/toads"
   },
   {
     "name": "Tavero",
@@ -4303,7 +5187,8 @@
       "design-system",
       "frontend"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/baccaraaa/tavero"
   },
   {
     "name": "Automaton Onchain Tools",
@@ -4319,7 +5204,32 @@
       "base",
       "remote"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/povrouyre-wq/automaton-onchain-tools",
+    "pricing": "paid"
+  },
+  {
+    "name": "DMD Costs Legal Costs Tools",
+    "url": "https://www.dmdcosts.co.uk/legal-costs-help",
+    "description": "Free, read-only legal costs tools for England and Wales: CPR deadlines, detailed assessment, Part 36, court fees, interest and fixed costs, each answer citing its rule.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "DMD Costs",
+    "tags": [
+      "legal",
+      "uk-law",
+      "legal-costs",
+      "civil-procedure",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.dmdcosts.co.uk/mcp"
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "OpenAgentForum",
@@ -4334,7 +5244,8 @@
       "tasks",
       "encrypted"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/swarmrelay/openagentforum"
   },
   {
     "name": "CreditUnions",
@@ -4352,7 +5263,10 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://creditunions.fyi/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Posty: Social Media Scheduler",
@@ -4371,7 +5285,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.posty.hu/mcp-oauth"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "PushNotif",
@@ -4387,7 +5304,11 @@
       "web-push",
       "remote"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/AarsyDesign/pushnotif-mcp",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "NetActuate MCP Server",
@@ -4405,7 +5326,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://netactuate.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Solana Pulse",
@@ -4423,7 +5347,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://solana-pulse-gateway-1021990235790.us-central1.run.app/mcp"
-    }
+    },
+    "repository": "https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Baizhi Cloud Browser (CapyBrowser)",
@@ -4437,7 +5365,11 @@
       "remote",
       "session-management"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/chaitin/baizhi-cloud-browser",
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "TextKit",
@@ -4455,7 +5387,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.jointextkit.com"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Neeed Directory",
@@ -4474,7 +5409,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://neeed.directory/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "SaaSCity",
@@ -4493,7 +5434,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://saascity.io/api/mcp"
-    }
+    },
+    "repository": "https://github.com/nyyhao/saascity-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "SlashYear",
@@ -4511,7 +5456,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://slashyear.com/mcp"
-    }
+    },
+    "repository": "https://github.com/ctrl-maud/slashyear",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "HireFerry",
@@ -4529,7 +5478,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://hireferry.lmm.best/mcp/public"
-    }
+    },
+    "repository": "https://github.com/TokenNotIncluded/hireferry",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "AyHire",
@@ -4548,7 +5501,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://ayhire.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "WriteStack MCP Server",
@@ -4567,7 +5526,32 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.writestack.io/api/mcp/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "Etsy Search & Shop Sales MCP",
+    "url": "https://github.com/GeminiGeorge22/etsy-sales-mcp",
+    "description": "Live Etsy search results by keyword, category or market page (price, rating, reviews, badges, ad flag, search rank) plus sales counters for named Etsy shops, each with the date it was read.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "etsy",
+      "ecommerce",
+      "marketplace",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=publicrecords/etsy-shop-velocity,publicrecords/etsy-search-scraper"
+    },
+    "repository": "https://github.com/GeminiGeorge22/etsy-sales-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Add to CRM",
@@ -4586,7 +5570,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.addtocrm.com/mcp"
-    }
+    },
+    "repository": "https://github.com/crm-inputs/mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "BotsRated",
@@ -4605,7 +5596,12 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://botsrated.com/mcp"
-    }
+    },
+    "repository": "https://github.com/botsrated/botsrated",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "app-console-mcp",
@@ -4621,7 +5617,11 @@
       "mobile",
       "local-stdio"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/Alekla0126/app-console-mcp",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "crawlerpeek",
@@ -4636,7 +5636,8 @@
       "seo",
       "web"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/crawlerpeek/crawlerpeek"
   },
   {
     "name": "pgwarden",
@@ -4652,7 +5653,8 @@
       "approvals",
       "audit"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/B0yko/pgwarden"
   },
   {
     "name": "Trends MCP",
@@ -4670,7 +5672,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.trendsmcp.ai/mcp"
-    }
+    },
+    "repository": "https://github.com/trendsmcp-ai/Trends-MCP",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Serpier",
@@ -4689,7 +5695,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.serpier.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "402cron",
@@ -4707,7 +5719,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://402cron.com/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "AISkills402",
@@ -4725,7 +5744,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.aiskills402.com/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "mcp-gatehouse",
@@ -4741,7 +5764,8 @@
       "human-in-the-loop",
       "python"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/nickgeorgeseo/mcp-gatehouse"
   },
   {
     "name": "ichi-mcp",
@@ -4756,7 +5780,8 @@
       "osint",
       "monitoring"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/bernik-bot/ichi-mcp"
   },
   {
     "name": "Wiro AI",
@@ -4775,7 +5800,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.wiro.ai/v1"
-    }
+    },
+    "repository": "https://github.com/wiroai/Wiro-MCP",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Edusign MCP",
@@ -4793,7 +5822,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.edusign.com"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Stivio",
@@ -4811,7 +5846,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://stivio.ai/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Zip-Codes.com ZIP & Postal Code MCP",
@@ -4829,7 +5867,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.zip-codes.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "402registry",
@@ -4847,7 +5888,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://402registry.com/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "LLM Gateway",
@@ -4865,7 +5910,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.llmgateway.io/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "402post",
@@ -4883,7 +5931,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://402post.com/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "AI Resources",
@@ -4898,7 +5950,11 @@
       "research",
       "citations"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Drix10/ai-resources",
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "BlazePhoenix",
@@ -4917,7 +5973,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://blazephoenix.xyz/mcp"
-    }
+    },
+    "repository": "https://github.com/blazephoenixxyz-crypto/blazephoenix-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Mnemosyne OS",
@@ -4933,7 +5996,12 @@
       "vaults",
       "desktop"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "CoworkingView",
@@ -4951,7 +6019,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.coworkingview.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Agent Payment Node",
@@ -4966,7 +6037,11 @@
       "local-stdio",
       "macos"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/nuanu-ai/agent-payment-node",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Truo",
@@ -4985,7 +6060,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://connect.truo.com.au/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Pagelive MCP Server",
@@ -5004,7 +6085,29 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.pagelive.io/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "Interview Questions MCP",
+    "url": "https://github.com/Johnnnmai/interview-questions-mcp",
+    "description": "AI Engineer interview questions with scoring rubrics: browse topics, get questions by difficulty level, and link to a free answer self-checker.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "interview",
+      "education",
+      "ai-engineering",
+      "practice"
+    ],
+    "official": false,
+    "repository": "https://github.com/Johnnnmai/interview-questions-mcp"
   },
   {
     "name": "BORME API",
@@ -5023,7 +6126,32 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.bormeapi.com/mcp"
-    }
+    },
+    "repository": "https://github.com/bormeapi/borme-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
+    "name": "genesis-blackbox",
+    "url": "https://github.com/johannschiffer/genesis-blackbox",
+    "description": "Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "debugging",
+      "devtools",
+      "python",
+      "typescript",
+      "testing"
+    ],
+    "official": false,
+    "repository": "https://github.com/johannschiffer/genesis-blackbox"
   },
   {
     "name": "ContextManager",
@@ -5038,7 +6166,8 @@
       "roslyn",
       "code-analysis"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/nushey/ContextManager"
   },
   {
     "name": "Signbee MCP Server",
@@ -5054,7 +6183,542 @@
       "legal",
       "pdf"
     ],
+    "official": true,
+    "repository": "https://github.com/signbee/mcp"
+  },
+  {
+    "name": "Pic2SVG MCP",
+    "url": "https://pic2svg.com/mcp/",
+    "description": "Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Pic2SVG",
+    "tags": [
+      "svg",
+      "raster-tracing",
+      "images"
+    ],
+    "official": true,
+    "transport": [
+      "stdio"
+    ]
+  },
+  {
+    "name": "Ironheights",
+    "url": "https://github.com/Frank-Masciopinto/ironheights",
+    "description": "Read-only local server that scans an AI agent skill (any SKILL.md folder or ClawHub reference) before install with static rules, returning a fail-closed allow/blocked decision, A-F grade, file/line findings and drift since approval.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Ironheights",
+    "tags": [
+      "security",
+      "agent-skills",
+      "supply-chain",
+      "static-analysis",
+      "local"
+    ],
+    "official": true,
+    "repository": "https://github.com/Frank-Masciopinto/ironheights"
+  },
+  {
+    "name": "Reddit MCP Publisher",
+    "url": "https://github.com/Bl0ck154/reddit-mcp-publisher",
+    "description": "Self-hosted Reddit MCP server that reads account context and prepares browser-previewed, owner-approved posts, comments and direct messages.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "reddit",
+      "publishing",
+      "browser-automation",
+      "approval"
+    ],
+    "official": false,
+    "repository": "https://github.com/Bl0ck154/reddit-mcp-publisher"
+  },
+  {
+    "name": "Tectova Runway Records",
+    "url": "https://tectova.com/tools/mcp",
+    "description": "Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Tectova",
+    "tags": [
+      "fashion",
+      "runway",
+      "fashion-week",
+      "models"
+    ],
     "official": true
+  },
+  {
+    "name": "Transita",
+    "url": "https://github.com/snenenenenenene/transita-mcp-server",
+    "description": "Matches a profile against 100+ immigration visa pathways in 16 countries and returns eligibility, costs, timelines and live intake status.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Okapi Works",
+    "tags": [
+      "immigration",
+      "visas",
+      "travel",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://transita.app/api/mcp"
+    },
+    "repository": "https://github.com/snenenenenenene/transita-mcp-server",
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "StrictScore",
+    "url": "https://strictscore.com/developers",
+    "description": "Hosted MCP server and REST API for STRICT scores, AI-rated 0-100 crypto fundamentals for 970 assets on six pillars; needs an Enterprise plan API key (Bearer).",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "StrictScore",
+    "tags": [
+      "crypto",
+      "fundamentals",
+      "scoring",
+      "api-key",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://strictscore.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "Carbon",
+    "url": "https://github.com/CarbonDataSolutions/carbon-mcp",
+    "description": "Hire skills-assessed data professionals from any MCP host. Post your role free. Hosted Streamable HTTP server with OAuth.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Carbon Data Solutions",
+    "tags": [
+      "hiring",
+      "talent",
+      "data",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.carbondatasolutions.com/mcp"
+    },
+    "repository": "https://github.com/CarbonDataSolutions/carbon-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "Vaneform",
+    "url": "https://github.com/vaneform/vaneform-mcp",
+    "description": "Hosted MCP for website traffic estimates, domain compare, registry facts and keyword briefs; API key required.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Vaneform",
+    "tags": [
+      "traffic",
+      "analytics",
+      "seo",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://vaneform.com/mcp"
+    },
+    "repository": "https://github.com/vaneform/vaneform-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "Spillmark",
+    "url": "https://github.com/burmanharry/spillmark-mcp",
+    "description": "Remote MCP for free Amazon and Meta ads calculators; optional read-only brand lift and test plans.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Cantein, LLC",
+    "tags": [
+      "amazon",
+      "meta-ads",
+      "roas",
+      "holdout",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/burmanharry/spillmark-mcp"
+  },
+  {
+    "name": "mcp-probe-kit",
+    "url": "https://github.com/mybolide/mcp-probe-kit",
+    "description": "Spec-driven dev workflow MCP server: start_feature/start_bugfix orchestration, resumable plans, a converge gate requiring requirements, spec, test and review evidence, and cross-session history. Install with npx -y mcp-probe-kit@latest.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "ByteZoneX",
+    "tags": [
+      "spec-driven-development",
+      "workflow",
+      "coding-agents",
+      "npm"
+    ],
+    "official": false,
+    "repository": "https://github.com/mybolide/mcp-probe-kit",
+    "install": {
+      "command": "npx",
+      "package": "mcp-probe-kit"
+    }
+  },
+  {
+    "name": "Coding Tools MCP",
+    "url": "https://github.com/mybolide/coding-tools-mcp",
+    "description": "Rust + Tauri 2 desktop app that turns a local project into an MCP workspace for AI agents: file read/edit, command and test execution, Git status, and project-local history sessions that restore context in a new conversation.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Rust",
+    "provider": "ByteZoneX",
+    "tags": [
+      "desktop",
+      "tauri",
+      "workspace",
+      "local"
+    ],
+    "official": false,
+    "repository": "https://github.com/mybolide/coding-tools-mcp"
+  },
+  {
+    "name": "Globatics",
+    "url": "https://globatics.live/docs/mcp",
+    "description": "Read-only remote MCP server to query your own Globatics web analytics reports; a paid hosted tool, available on the Pro and Business plans.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Globatics",
+    "tags": [
+      "web-analytics",
+      "privacy",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://globatics.live/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "fotosize",
+    "url": "https://fotosize.com/docs/mcp",
+    "description": "Read-only lookup of passport, visa and ID photo specs (photo size, head height, background color) checked against official sources.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "fotosize",
+    "tags": [
+      "photo-specs",
+      "passport",
+      "visa",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://fotosize.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "PreReason",
+    "url": "https://github.com/PreReason/mcp",
+    "description": "Financial market context for AI agents, reasoned in advance, from the economy and markets to listed companies' reported results; remote Streamable HTTP or npm stdio bridge.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "PreReason",
+    "tags": [
+      "finance",
+      "markets",
+      "economics",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.prereason.com/api/mcp"
+    },
+    "repository": "https://github.com/PreReason/mcp",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "Sakupa",
+    "url": "https://www.npmjs.com/package/@sakupa/mcp",
+    "description": "Create, deploy and manage static company websites through a local stdio MCP server, with a 30-day free preview and optional paid hosting.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Sakupa",
+    "tags": [
+      "website-hosting",
+      "deployment",
+      "static-sites",
+      "small-business"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@sakupa/mcp"
+    }
+  },
+  {
+    "name": "AgenticWebScore",
+    "url": "https://github.com/marifeting/agenticwebscore-mcp",
+    "description": "Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Marifeting",
+    "tags": [
+      "seo",
+      "agent-readiness",
+      "llms-txt",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agenticwebscore.com/mcp"
+    },
+    "repository": "https://github.com/marifeting/agenticwebscore-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "Melso",
+    "url": "https://docs.melso.ai/mcp/overview",
+    "description": "OAuth-protected remote MCP for Spanish fiscal records, invoices, expenses and tax calendars in Melso.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Melso",
+    "tags": [
+      "finance",
+      "accounting",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.melso.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "GenFlick",
+    "url": "https://genflick.com/developers/mcp",
+    "description": "Remote MCP for the GenFlick AI studio for films, series, music videos and ads, with OAuth sign-in and no API key.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "GenFlick",
+    "tags": [
+      "ai-video",
+      "film",
+      "music-video",
+      "storyboard",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://genflick.com/mcp/studios"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "Repostit for Claude",
+    "url": "https://app.repostit.io/claude-connector.html",
+    "description": "Official hosted MCP connector for managing connected social accounts, creating post and carousel drafts, scheduling publishing, cross-account workflows, and checking delivery status.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Repostit",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "publishing",
+      "drafts",
+      "cross-posting"
+    ],
+    "official": true
+  },
+  {
+    "name": "AgentSearch",
+    "url": "https://github.com/agentsearchhq-coder/agentsearch-mcp",
+    "description": "Real-time web search, any URL to clean Markdown, and JavaScript page rendering for agents over Pocket Network; free keyless tier (25 calls a day), paid calls $0.005 each, install with `npx -y @agentsearchhq/agentsearch-mcp`.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "AgentSearch",
+    "tags": [
+      "web-search",
+      "web-extraction",
+      "markdown",
+      "rendering"
+    ],
+    "official": true,
+    "repository": "https://github.com/agentsearchhq-coder/agentsearch-mcp",
+    "pricing": "freemium",
+    "install": {
+      "command": "npx",
+      "package": "@agentsearchhq/agentsearch-mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Mach GTM MCP",
+    "url": "https://github.com/verma6uc/mach-gtm-mcp",
+    "description": "Open-source MCP server for B2B outbound sales: build ICPs, research prospects, score leads (0-100 fit), draft cold email and LinkedIn messages, and build multi-touch sequences.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Mach GTM",
+    "tags": [
+      "b2b",
+      "sales",
+      "outbound",
+      "lead-scoring",
+      "cold-email"
+    ],
+    "official": false,
+    "repository": "https://github.com/verma6uc/mach-gtm-mcp"
+  },
+  {
+    "name": "Lava / 熔岩",
+    "url": "https://github.com/dustinliang666-blip/lava-mcp",
+    "description": "Read-only A-share stock and concept-board news-flow heat monitoring via structured remote MCP/REST for quant tools and AI agent market research; API key required.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Lava",
+    "tags": [
+      "a-share",
+      "stocks",
+      "market-research",
+      "quant",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://lava.ai-dolphin.com/subscribe/v1/mcp"
+    },
+    "repository": "https://github.com/dustinliang666-blip/lava-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "Rystic",
+    "url": "https://www.rystic.ai/docs/mcp-server",
+    "description": "Start, seed, clock, inspect and diff local stateful simulators of real APIs such as GitHub and Stripe, so agents can be tested without touching live accounts.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "Rystic",
+    "tags": [
+      "testing",
+      "simulators",
+      "api-mocking",
+      "agents"
+    ],
+    "official": true
+  },
+  {
+    "name": "Stadiq",
+    "url": "https://github.com/snenenenenenene/stadiq-mcp-server",
+    "description": "Road works, De Lijn transit disruptions, air quality and briefings for any point in Flanders and Brussels.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Okapi Works",
+    "tags": [
+      "traffic",
+      "air-quality",
+      "belgium",
+      "transit"
+    ],
+    "official": false,
+    "repository": "https://github.com/snenenenenenene/stadiq-mcp-server"
+  },
+  {
+    "name": "obd2-mcp",
+    "url": "https://github.com/shoka-jp/obd2-mcp",
+    "description": "Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "automotive",
+      "obd2",
+      "diagnostics"
+    ],
+    "official": false,
+    "repository": "https://github.com/shoka-jp/obd2-mcp"
+  },
+  {
+    "name": "World Monitor",
+    "url": "https://github.com/koala73/worldmonitor",
+    "description": "Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "World Monitor",
+    "tags": [
+      "geopolitics",
+      "news",
+      "markets",
+      "osint",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://worldmonitor.app/mcp"
+    },
+    "repository": "https://github.com/koala73/worldmonitor",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Desearch",
@@ -5072,7 +6736,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.desearch.ai/mcp"
-    }
+    },
+    "repository": "https://github.com/Desearch-ai/mcp-desearch",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Allscreenshots",
@@ -5089,7 +6757,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.allscreenshots.com/mcp/v1"
-    }
+    },
+    "repository": "https://github.com/allscreenshots/allscreenshots-plugin",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Kilobat CLI",
@@ -5103,7 +6775,11 @@
       "network",
       "diagnostics"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/seifip/kilobat-cli",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Bowmark",
@@ -5118,7 +6794,23 @@
       "remote",
       "agents"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/bowmark-ai/mcp"
+  },
+  {
+    "name": "Sequenzy",
+    "url": "https://github.com/Sequenzy/mcp",
+    "description": "Manage email contacts, campaigns, automation sequences, transactional email and analytics.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Sequenzy",
+    "tags": [
+      "email",
+      "marketing",
+      "automation"
+    ],
+    "official": true,
+    "repository": "https://github.com/Sequenzy/mcp"
   },
   {
     "name": "Mothership",
@@ -5137,7 +6829,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.mothership.com"
-    }
+    },
+    "repository": "https://github.com/mothership/agent-plugins",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "AppScreen",
@@ -5156,7 +6855,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://appscreen.pro/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "LAYIQ Jobs",
@@ -5174,7 +6880,38 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://www.layiq.co/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "Unitpost",
+    "url": "https://www.unitpost.com/ai/mcp",
+    "description": "Hosted MCP server for Unitpost: send transactional email, campaigns and SMS, and manage contacts, templates, sending domains, webhooks and inbound email.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Unitpost",
+    "tags": [
+      "email",
+      "sms",
+      "transactional-email",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.unitpost.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "DocuQueue MCP",
@@ -5189,7 +6926,8 @@
       "form-filling",
       "invoice"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/docuqueue/docuqueue-mcp"
   },
   {
     "name": "Equivista",
@@ -5207,7 +6945,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://equivista.be/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Lintelly HR Deutschland",
@@ -5226,7 +6967,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://hr.lintelly.com/mcp"
-    }
+    },
+    "repository": "https://github.com/NicksAdvisory/lintelly-hr-deutschland",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "BestPrice Shopping",
@@ -5245,7 +6990,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.bestprice.gr/mcp"
-    }
+    },
+    "repository": "https://github.com/TheBestCo/bestprice-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "WebExtract",
@@ -5264,7 +7016,38 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.webextract.dev/mcp"
-    }
+    },
+    "repository": "https://github.com/nyx464664816-stack/webextract",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "JobsPipe",
+    "url": "https://github.com/jobspipe/mcp",
+    "description": "Search live job postings from 30+ ATS feeds and job boards in one normalized schema, filter by location, salary, seniority, skills and visa stance, and save searches as alerts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "JobsPipe",
+    "tags": [
+      "jobs",
+      "hiring",
+      "job-postings",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.jobspipe.dev/mcp"
+    },
+    "repository": "https://github.com/jobspipe/mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Best Electrician Jobs",
@@ -5283,7 +7066,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.bestelectricianjobs.com/mcp"
-    }
+    },
+    "repository": "https://github.com/854Labs/best-electrician-jobs",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "BatchData",
@@ -5302,7 +7092,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.batchdata.com"
-    }
+    },
+    "repository": "https://github.com/batchdataco/batchdata-mcp-server",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "HEY Research Lab",
@@ -5320,7 +7118,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://heyresearch.xyz/mcp"
-    }
+    },
+    "repository": "https://github.com/hey-research-lab/hey-research-open",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "GetYouTubeTranscript",
@@ -5339,7 +7141,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://getyoutubetranscript.com/api/mcp"
-    }
+    },
+    "repository": "https://github.com/tubeagentkit/youtube-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "My Spain Visa",
@@ -5358,7 +7164,35 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://myspainvisa.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "Joxo",
+    "url": "https://joxo.ai",
+    "description": "Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Joxo",
+    "tags": [
+      "agents",
+      "collaboration",
+      "tasks",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://joxo.ai/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Speechyou MCP",
@@ -5377,7 +7211,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.speechyou.com/api/mcp/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Hail",
@@ -5395,7 +7235,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.hail.so"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "model.tools",
@@ -5414,7 +7257,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.model.tools/mcp"
-    }
+    },
+    "repository": "https://github.com/maceip/model-tools-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Agent Coach",
@@ -5433,7 +7280,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://upskill.coach/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Sports Odds API (BetRivers, Unibet & 22 more books)",
@@ -5451,7 +7301,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.apify.com?tools=publicrecords/sports-odds-api"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Vulnerability Exposure",
@@ -5467,7 +7321,8 @@
       "osint",
       "nvd"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/MRFrazer25/Vulnerability-Exposure-MCP"
   },
   {
     "name": "SEOclar",
@@ -5486,7 +7341,33 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://seoclar.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "Nyria",
+    "url": "https://github.com/Nyria-LLC/nyria-mcp",
+    "description": "Hosted server that sends trade alerts from an MCP client to Nyria Paper or a connected broker, with alert preview, order status and positions.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Nyria",
+    "tags": [
+      "trading",
+      "alerts",
+      "paper-trading",
+      "tradingview",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.nyria.io/mcp"
+    },
+    "repository": "https://github.com/Nyria-LLC/nyria-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "MakeViral",
@@ -5505,7 +7386,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.makeviral.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "ExtensionDash",
@@ -5524,7 +7411,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://extensiondash.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Fictura",
@@ -5543,7 +7436,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.fictura.co/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "AlertForge",
@@ -5561,7 +7457,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://alertforge.ai/api/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "BrewPage",
@@ -5580,7 +7483,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://brewpage.app/mcp"
-    }
+    },
+    "repository": "https://github.com/kochetkov-ma/brewpage-openapi",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "Crispy",
@@ -5595,7 +7505,36 @@
       "remote",
       "oauth"
     ],
-    "official": false
+    "official": false,
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
+    "name": "LurkAPI",
+    "url": "https://lurkapi.com/docs",
+    "description": "Hosted remote MCP server with live public data from 16 social platforms and the web: posts, profiles, comments, video transcripts and Meta, Google, TikTok and LinkedIn ad library results.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "LurkAPI",
+    "tags": [
+      "social-media",
+      "ad-library",
+      "transcripts",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.lurkapi.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "ForeclosureListings",
@@ -5613,7 +7552,10 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://foreclosurelistings.fyi/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Clara by nOps",
@@ -5631,7 +7573,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.nops.io"
-    }
+    },
+    "repository": "https://github.com/nops-io/clara-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "FlightQueue",
@@ -5649,7 +7598,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.flightqueue.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Fin Codes API",
@@ -5668,7 +7620,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.fincodesapi.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Social Post Flow",
@@ -5686,7 +7641,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.socialpostflow.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "AgentSandboxes",
@@ -5704,7 +7662,10 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://agentsandboxes.fyi/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "installed-api",
@@ -5719,7 +7680,32 @@
       "api-docs",
       "claude-code"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/ajwann/installed-api"
+  },
+  {
+    "name": "Domain Search King",
+    "url": "https://github.com/johnsmalls22-rgb/domain-search-king-mcp",
+    "description": "Suggests .com domain names and returns only those currently available to register, checked against the Verisign RDAP registry; hosted, no API key.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Domain Search King",
+    "tags": [
+      "domains",
+      "rdap",
+      "naming"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://domainsearchking.com/api/mcp"
+    },
+    "repository": "https://github.com/johnsmalls22-rgb/domain-search-king-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Cooper Email",
@@ -5738,7 +7724,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://cooperemail.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "toolkb-mcp",
@@ -5753,7 +7746,12 @@
       "markdown",
       "app-store"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/jack-reson8/toolkb-mcp",
+    "auth": [
+      "none",
+      "api-key"
+    ]
   },
   {
     "name": "RecordHTML",
@@ -5772,7 +7770,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.recordhtml.com"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "Panda Greetings",
@@ -5791,7 +7796,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.pandagreetings.com/mcp/designs"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "SrcLog",
@@ -5810,7 +7818,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://srclog.com/mcp"
-    }
+    },
+    "repository": "https://github.com/srclogcom/srclog-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "isGenAI",
@@ -5829,7 +7841,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://isgenai.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "MCP Everything",
@@ -5843,7 +7858,8 @@
       "testing",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
     "name": "LifeVerse Product Discovery",
@@ -5861,7 +7877,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://lifeverse.gufreelancer.com/api/mcp"
-    }
+    },
+    "repository": "https://github.com/lifeversegu/lifeverse-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "MCP Fetch",
@@ -5875,7 +7895,8 @@
       "web",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
     "name": "MCP Filesystem",
@@ -5889,7 +7910,8 @@
       "filesystem",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
     "name": "MCP Git",
@@ -5902,6 +7924,23 @@
       "reference",
       "git",
       "official"
+    ],
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "name": "Dynobase MCP Server",
+    "url": "https://dynobase.dev/dynamodb-mcp-server/",
+    "description": "Local MCP server in the Dynobase DynamoDB desktop app that lets AI clients list tables, read schemas and run queries through existing AWS profiles, read-only by default.",
+    "category": "databases-and-storage",
+    "language": "TypeScript",
+    "provider": "Dynobase",
+    "tags": [
+      "dynamodb",
+      "aws",
+      "nosql",
+      "partiql",
+      "read-only"
     ],
     "official": true
   },
@@ -5936,7 +7975,8 @@
       "testing",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/inspector"
   },
   {
     "name": "MCP Memory",
@@ -5950,7 +7990,8 @@
       "memory",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
     "name": "MCP Python SDK",
@@ -5964,7 +8005,8 @@
       "python",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/python-sdk"
   },
   {
     "name": "AgentFEM MCP",
@@ -5979,7 +8021,11 @@
       "scientific-computing",
       "local"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/haoming-luo/agentfem-mcp",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "MCP Registry",
@@ -5993,7 +8039,8 @@
       "discovery",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/registry"
   },
   {
     "name": "MCP Sequential Thinking",
@@ -6007,7 +8054,8 @@
       "reasoning",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
     "name": "MCP Server Starter",
@@ -6021,7 +8069,8 @@
       "typescript",
       "starter"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/create-typescript-server"
   },
   {
     "name": "helloasso-mcp",
@@ -6037,7 +8086,8 @@
       "france",
       "ticketing"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/edouard-claude/helloasso-mcp"
   },
   {
     "name": "Docsy",
@@ -6056,7 +8106,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://docsy.remcp.site/mcp/registry"
-    }
+    },
+    "repository": "https://github.com/getremcp/docsy-plugin",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "MCP Server Templates",
@@ -6070,7 +8127,8 @@
       "multi-tool",
       "starter"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/Data-Everything/mcp-server-templates"
   },
   {
     "name": "MCP Time",
@@ -6084,7 +8142,8 @@
       "time",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
     "name": "MCP TypeScript SDK",
@@ -6098,7 +8157,8 @@
       "typescript",
       "official"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
   },
   {
     "name": "xmcp",
@@ -6115,7 +8175,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://xmcp.dev/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Relaticle",
@@ -6133,7 +8196,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.relaticle.com"
-    }
+    },
+    "repository": "https://github.com/relaticle/relaticle",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "mcp-pool",
@@ -6149,7 +8219,8 @@
       "api-keys",
       "rate-limiting"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/yuzu-octopus/mcp-pool"
   },
   {
     "name": "mcp-trellis",
@@ -6164,7 +8235,11 @@
       "typescript",
       "zero-deps"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/amir1824/mcp-trellis",
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "MCPJungle",
@@ -6178,7 +8253,8 @@
       "enterprise",
       "self-hosted"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/duaraghav8/MCPJungle"
   },
   {
     "name": "MedBillAnalyzer",
@@ -6197,7 +8273,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.medbillanalyzer.com/mcp/apps?via=mcphq"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Fax for Agents",
@@ -6212,7 +8291,8 @@
       "agents",
       "remote"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/faxforagents/mcp"
   },
   {
     "name": "NPMScan",
@@ -6231,7 +8311,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://npmscan.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "MEDIAPRONET",
@@ -6249,7 +8332,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mediapronet.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "MELRA",
@@ -6265,7 +8354,8 @@
       "approvals",
       "recovery"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/XAGI-Lab/melra"
   },
   {
     "name": "3Q Tools",
@@ -6284,7 +8374,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://getwold.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Darioa Web Developer",
@@ -6303,7 +8396,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.darioa.nl/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "mem0 MCP Server",
@@ -6320,7 +8416,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.mem0.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Metabase MCP Server",
@@ -6348,7 +8447,8 @@
       "gateway",
       "middleware"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/metatool-ai/metatool-app"
   },
   {
     "name": "Microsoft Teams MCP Server",
@@ -6362,7 +8462,8 @@
       "chat",
       "microsoft"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/InditexTech/mcp-teams-server"
   },
   {
     "name": "Mixpanel MCP Server",
@@ -6395,7 +8496,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://teraads.co/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "MoltNode by Chord",
@@ -6414,7 +8518,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://moltnode.ag/mcp"
-    }
+    },
+    "repository": "https://github.com/tuantqse90/moltnode-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "MongoDB MCP Server",
@@ -6428,7 +8539,8 @@
       "nosql",
       "documents"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/mongodb-js/mongodb-mcp-server"
   },
   {
     "name": "MotherDuck MCP Server",
@@ -6442,7 +8554,8 @@
       "sql",
       "olap"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/motherduckdb/mcp-server-motherduck"
   },
   {
     "name": "MuAPI MCP Server",
@@ -6461,7 +8574,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.muapi.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Multi Upload Tool",
@@ -6480,7 +8596,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.multi-upload-tool.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "MusedIn",
@@ -6510,7 +8632,8 @@
       "location",
       "reminders"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/tareq7/muslim-prayer-mcp"
   },
   {
     "name": "Mysocial",
@@ -6528,7 +8651,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.mysocial.io/mcp"
-    }
+    },
+    "repository": "https://github.com/mysocialio/mysocial-intelligence",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "NAIF Gravity",
@@ -6560,7 +8690,8 @@
       "voice",
       "self-hosted"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/gileshall/nanotea"
   },
   {
     "name": "CorpusIQ",
@@ -6579,7 +8710,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp2.corpusiq.io/mcp"
-    }
+    },
+    "repository": "https://github.com/CorpusIQ/corpusiq-docs",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "needhave",
@@ -6597,7 +8735,14 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://needhave.io/mcp"
-    }
+    },
+    "repository": "https://github.com/PrivateAISystems/needhave",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "Crevio",
@@ -6616,7 +8761,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.crevio.co/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "NeverApply",
@@ -6635,7 +8783,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://neverapply.co/mcp"
-    }
+    },
+    "repository": "https://github.com/kasovy/neverapply-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Neither MCP",
@@ -6650,7 +8805,11 @@
       "cursor",
       "knowledge"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/stonianua/neither-mcp",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Neon MCP Server",
@@ -6664,7 +8823,8 @@
       "serverless",
       "sql"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/neondatabase/mcp-server-neon"
   },
   {
     "name": "Nestbolt",
@@ -6680,7 +8840,8 @@
       "laser-cutting",
       "cnc"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/skulitom/Nestbolt"
   },
   {
     "name": "DESIGN:OS 3D Blender",
@@ -6696,7 +8857,13 @@
       "gltf",
       "local"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/jangtrinh/design-os-3d-blender",
+    "license": "source-available",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Netdata MCP Server",
@@ -6710,7 +8877,8 @@
       "infra",
       "metrics"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/netdata/netdata"
   },
   {
     "name": "crawlbrulee mcp server",
@@ -6725,7 +8893,8 @@
       "screenshots",
       "eu"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/crawlbrulee/crawlbrulee-mcp"
   },
   {
     "name": "Network Sketcher",
@@ -6741,7 +8910,8 @@
       "cursor",
       "cisco"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/cisco-open/network-sketcher"
   },
   {
     "name": "Nitrosend",
@@ -6760,7 +8930,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.nitrosend.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "NotFair",
@@ -6775,7 +8951,8 @@
       "meta-ads",
       "marketing"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/nowork-studio/NotFair"
   },
   {
     "name": "Notion MCP Server",
@@ -6789,7 +8966,8 @@
       "knowledge-base",
       "docs"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/makenotion/notion-mcp-server"
   },
   {
     "name": "Obsidian MCP Server",
@@ -6803,7 +8981,8 @@
       "notes",
       "local"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/MarkusPfundstein/mcp-obsidian"
   },
   {
     "name": "officegrep",
@@ -6819,7 +8998,8 @@
       "pdf",
       "sqlite"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/Asgoresmilelong/officegrep"
   },
   {
     "name": "Scoopkit",
@@ -6837,7 +9017,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.scoopkit.dev/mcp"
-    }
+    },
+    "repository": "https://github.com/nateslabach/scoopkit-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Oh My Android",
@@ -6852,7 +9036,8 @@
       "mobile",
       "testing"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/ateymoori/oh-my-android"
   },
   {
     "name": "Ollama MCP Bridge",
@@ -6866,7 +9051,8 @@
       "local-llm",
       "inference"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/jaspertvdm/mcp-server-ollama-bridge"
   },
   {
     "name": "Open Health Sync",
@@ -6882,7 +9068,11 @@
       "fhir",
       "self-hosted"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/soma-intelligence/open-health-sync",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "OpenAI MCP Bridge",
@@ -6896,7 +9086,8 @@
       "gpt",
       "inference"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/jaspertvdm/mcp-server-openai-bridge"
   },
   {
     "name": "Openhook",
@@ -6914,7 +9105,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://openhook.dev/mcp"
-    }
+    },
+    "repository": "https://github.com/openhook-dev/openhook-inbox",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "ORANO",
@@ -6932,7 +9127,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://orano-ai-backend-1037939693300.us-central1.run.app/mcp/"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "OrkasVideoStudio",
@@ -6947,7 +9145,8 @@
       "automation",
       "mcp"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/Orkas-AI/Orkas-VideoStudio"
   },
   {
     "name": "House AI",
@@ -6966,7 +9165,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.houseaiapp.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "OutreachGenie",
@@ -6985,7 +9190,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.outreachgenie.ai/mcp"
-    }
+    },
+    "repository": "https://github.com/Outreachgenie/outreachgenie-linkedin-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "Perceptlayer",
@@ -7004,7 +9217,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.perceptlayer.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "PandaStock",
@@ -7019,7 +9235,8 @@
       "real-time-quotes",
       "market-data"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/D-Asce/pandastocksdk"
   },
   {
     "name": "PayPal MCP Server",
@@ -7033,7 +9250,8 @@
       "commerce",
       "fintech"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/paypal/agent-toolkit"
   },
   {
     "name": "PDF MCP Server",
@@ -7047,7 +9265,8 @@
       "documents",
       "extraction"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/jztan/pdf-mcp"
   },
   {
     "name": "PDFtoMarkdown.ai",
@@ -7063,7 +9282,9 @@
       "conversion",
       "ocr"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/happywpco/pdftomarkdown-mcp",
+    "pricing": "freemium"
   },
   {
     "name": "PeekPanda",
@@ -7082,7 +9303,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.peekpanda.com/mcp"
-    }
+    },
+    "repository": "https://github.com/fdarkaou/peekpanda-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Pinecone MCP Server",
@@ -7096,7 +9321,8 @@
       "search",
       "rag"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/pinecone-io/pinecone-mcp"
   },
   {
     "name": "Pink Agentic AI Payments",
@@ -7112,7 +9338,10 @@
       "remote",
       "oauth"
     ],
-    "official": true
+    "official": true,
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Cockatoo",
@@ -7130,7 +9359,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.cockatoo.com.au/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Feminiq Rides",
@@ -7148,7 +9383,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.feminiqrides.nl/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Pinto Notes",
@@ -7166,7 +9404,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.pintonotes.com"
-    }
+    },
+    "repository": "https://github.com/pinto-notes/pinto-notes",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Plaid MCP Server",
@@ -7212,7 +9457,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.landed.jobs/mcp"
-    }
+    },
+    "repository": "https://github.com/landedjobs/landed-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Playwright MCP",
@@ -7226,7 +9475,8 @@
       "playwright",
       "automation"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/microsoft/playwright-mcp"
   },
   {
     "name": "Plazmi",
@@ -7244,7 +9494,10 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://plazmi.gg/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Pocket Drives",
@@ -7261,7 +9514,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://pocketdrives.ai/mcp"
-    }
+    },
+    "repository": "https://github.com/RevList/pocket-drives-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Port MCP Server",
@@ -7275,7 +9532,8 @@
       "catalog",
       "devops"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/port-labs/port-mcp-server"
   },
   {
     "name": "Postbag MCP Server",
@@ -7290,7 +9548,8 @@
       "webhooks",
       "self-hosted"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/faahim/postbag"
   },
   {
     "name": "Postman MCP Server",
@@ -7304,7 +9563,8 @@
       "testing",
       "http"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/postmanlabs/postman-mcp-server"
   },
   {
     "name": "ent1-mcp",
@@ -7320,7 +9580,8 @@
       "messaging",
       "parents"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/edouard-claude/ent1-mcp"
   },
   {
     "name": "Prisma MCP Server",
@@ -7338,7 +9599,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.prisma.io/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Process Street MCP Server",
@@ -7353,7 +9617,8 @@
       "process-management",
       "operations"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/process-street/process-street-mcp"
   },
   {
     "name": "Proofsource",
@@ -7372,7 +9637,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.proofsource.co/v1/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "foto foto",
@@ -7391,7 +9662,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://fotofoto.app/mcp"
-    }
+    },
+    "repository": "https://github.com/nternet-company/fotofoto-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Pulumi MCP Server",
@@ -7419,7 +9694,8 @@
       "browser",
       "scraping"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/merajmehrabi/puppeteer-mcp-server"
   },
   {
     "name": "Pyrimid",
@@ -7435,7 +9711,9 @@
       "base",
       "usdc"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/pyrimid-ai/pyrimid",
+    "pricing": "paid"
   },
   {
     "name": "Qdrant MCP Server",
@@ -7449,7 +9727,8 @@
       "search",
       "rag"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/qdrant/mcp-server-qdrant"
   },
   {
     "name": "QRX",
@@ -7468,7 +9747,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://qrx.codes/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "QuickBooks MCP Server",
@@ -7482,7 +9764,8 @@
       "finance",
       "bookkeeping"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/intuit/quickbooks-online-mcp-server"
   },
   {
     "name": "Railway MCP Server",
@@ -7510,7 +9793,8 @@
       "binary-analysis",
       "devtools"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/morluto/rea"
   },
   {
     "name": "rea-captcha",
@@ -7526,7 +9810,8 @@
       "cdp",
       "verification"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/masakaai/rea-captcha"
   },
   {
     "name": "ReadGZH",
@@ -7541,7 +9826,8 @@
       "documents",
       "reader"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/sweesama/readgzh"
   },
   {
     "name": "Readwise MCP Server",
@@ -7555,7 +9841,8 @@
       "reading",
       "knowledge"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/readwiseio/readwise-mcp"
   },
   {
     "name": "Redis MCP Server",
@@ -7569,7 +9856,8 @@
       "cache",
       "kv"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/redis/mcp-redis"
   },
   {
     "name": "remotify-mcp",
@@ -7584,7 +9872,11 @@
       "command-execution",
       "stdio"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/onlsol/relay.remotify.run",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "RestoSignals",
@@ -7603,7 +9895,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.restosignals.com/mcp"
-    }
+    },
+    "repository": "https://github.com/paperandbeyond23-gif/restosignals-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Nicelydone",
@@ -7622,7 +9918,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.nicelydone.club/mcp"
-    }
+    },
+    "repository": "https://github.com/nicelydoneapp/mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Robot Speed",
@@ -7640,7 +9943,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.robot-speed.com/api/mcp"
-    }
+    },
+    "repository": "https://github.com/robot-speed/mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "RowSafe",
@@ -7657,7 +9964,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.rowsafe.sh/mcp"
-    }
+    },
+    "repository": "https://github.com/rowsafe/rowsafe",
+    "license": "Apache-2.0",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ]
   },
   {
     "name": "Dropify",
@@ -7672,7 +9985,8 @@
       "shopping",
       "music"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/xozxro/dropify-mcp"
   },
   {
     "name": "RunAPI MCP Server",
@@ -7686,7 +10000,8 @@
       "media-generation",
       "inference"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/runapi-ai/mcp"
   },
   {
     "name": "Runx",
@@ -7705,7 +10020,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.runx.ai/mcp"
-    }
+    },
+    "license": "Apache-2.0",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Pallyy",
@@ -7723,7 +10042,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.pallyy.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Salesforce MCP Server",
@@ -7737,7 +10059,8 @@
       "sales",
       "enterprise"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/salesforcecli/mcp"
   },
   {
     "name": "SanctionsKit Developer MCP",
@@ -7755,7 +10078,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.sanctionskit.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "SitePatent",
@@ -7773,7 +10099,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://sitepatent.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "FindAIforWork",
@@ -7791,7 +10123,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://findaiforwork.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "SandBase CLI",
@@ -7805,7 +10143,8 @@
       "api-gateway",
       "local"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/sandbaseai/cli"
   },
   {
     "name": "SandBase Harness",
@@ -7821,7 +10160,8 @@
       "replay",
       "self-hosted"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/sandbaseai/sandbase-harness"
   },
   {
     "name": "Scalekit MCP Server",
@@ -7836,7 +10176,11 @@
       "oauth",
       "mcp"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/scalekit-inc/scalekit-mcp-server",
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "ScentVerdict",
@@ -7855,7 +10199,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://scentverdict.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Screenpipe",
@@ -7870,7 +10217,8 @@
       "audio",
       "local-first"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/screenpipe/screenpipe"
   },
   {
     "name": "Screpy SEO MCP",
@@ -7889,7 +10237,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.screpy.com"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "SEAL MCP",
@@ -7923,7 +10277,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.awardtravelfinder.com/mcp"
-    }
+    },
+    "repository": "https://github.com/AwardTravelFinder/mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Selvedge",
@@ -7938,7 +10296,8 @@
       "sqlite",
       "local-first"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/masondelan/selvedge"
   },
   {
     "name": "ShortSmash",
@@ -7953,7 +10312,8 @@
       "agents",
       "publishing"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/hydope/shortsmash"
   },
   {
     "name": "Orizn Visa",
@@ -7971,7 +10331,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://visa.orizn.app/mcp"
-    }
+    },
+    "repository": "https://github.com/MattJeff/orizn-mcp-server",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "SemanticHub",
@@ -7989,7 +10356,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.semantichub.app/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Semgrep MCP Server",
@@ -8003,7 +10376,8 @@
       "sast",
       "code-quality"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/semgrep/semgrep"
   },
   {
     "name": "Sentry MCP Server",
@@ -8035,7 +10409,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.seonix.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Sequential",
@@ -8053,7 +10430,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.usesequential.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Serpel",
@@ -8071,7 +10454,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://serpel.app/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "SFXMint",
@@ -8089,7 +10475,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://sfxmint.com/mcp"
-    }
+    },
+    "repository": "https://github.com/flreey/sfxmint-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "SheetsData",
@@ -8108,7 +10498,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.sheetsdata.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   },
   {
     "name": "Shipvela",
@@ -8126,7 +10523,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://shipvela.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Shop Nobi",
@@ -8143,7 +10546,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.nobi.ai/v1/shop/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Shopify MCP Server",
@@ -8157,7 +10563,8 @@
       "shopify",
       "retail"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/GeLi2001/shopify-mcp"
   },
   {
     "name": "Shortform Kit",
@@ -8176,7 +10583,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://shortformkit.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "SigRank MCP",
@@ -8192,7 +10602,8 @@
       "telemetry",
       "yield-cascade"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/SunrisesIllNeverSee/sigrank-mcp"
   },
   {
     "name": "Silicon Floor",
@@ -8208,7 +10619,8 @@
       "semiconductors",
       "remote"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Baptoshi/silicon-floor"
   },
   {
     "name": "SkillDB",
@@ -8225,7 +10637,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://skilldb.dev/api/mcp"
-    }
+    },
+    "repository": "https://github.com/devchad-cmd/skilldb-sdk",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "SkyAccess",
@@ -8244,7 +10660,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.skyaccess.com/mcp"
-    }
+    },
+    "repository": "https://github.com/sky-access/skyaccess-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "FastOCR MCP",
@@ -8258,7 +10681,8 @@
       "pdf",
       "documents"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/fastocr-org/fastocr-mcp"
   },
   {
     "name": "Slack MCP Server",
@@ -8272,7 +10696,8 @@
       "chat",
       "team"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/modelcontextprotocol/servers-archived"
   },
   {
     "name": "Snowflake MCP Server",
@@ -8286,7 +10711,8 @@
       "sql",
       "analytics"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/Snowflake-Labs/mcp"
   },
   {
     "name": "Wine Labs",
@@ -8304,7 +10730,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://chat.wine-labs.com/mcp"
-    }
+    },
+    "repository": "https://github.com/imiraoui/winelabs-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Snyk MCP Server",
@@ -8318,7 +10751,30 @@
       "vulnerabilities",
       "dependencies"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/snyk/studio-mcp"
+  },
+  {
+    "name": "SoChain",
+    "url": "https://sochain.com/docs",
+    "description": "Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "SoChain",
+    "tags": [
+      "bitcoin",
+      "litecoin",
+      "dogecoin",
+      "zcash",
+      "blockchain"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://sochain.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "SolidPing",
@@ -8336,7 +10792,12 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://solidping.io/api/v1/mcp"
-    }
+    },
+    "repository": "https://github.com/fclairamb/solidping",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ]
   },
   {
     "name": "Sourcegraph Cody MCP",
@@ -8368,7 +10829,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.sourcey.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Waspes",
@@ -8387,7 +10851,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://waspes.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "SpellBook Finance",
@@ -8417,7 +10884,8 @@
       "continuous-delivery",
       "devops"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/GeiserX/spinnaker-mcp"
   },
   {
     "name": "SQLite MCP Server",
@@ -8431,7 +10899,8 @@
       "local",
       "sql"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/ktanaka101/mcp-server-duckdb"
   },
   {
     "name": "EventSend",
@@ -8450,7 +10919,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://eventsend.io/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "sqlite-graph-memory",
@@ -8466,7 +10941,11 @@
       "sqlite",
       "knowledge-graph"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/tonydzi/sqlite-graph-memory",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Square MCP Server",
@@ -8480,7 +10959,8 @@
       "pos",
       "commerce"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/square/square-mcp-server"
   },
   {
     "name": "Sqwakie",
@@ -8496,7 +10976,8 @@
       "kanban",
       "agent-messaging"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/alexcarney460-hue/walkie"
   },
   {
     "name": "StatOrigin",
@@ -8514,7 +10995,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://statorigin.org/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Statsnet",
@@ -8529,7 +11013,8 @@
       "finance",
       "remote"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/usenetstate/statsnet-mcp"
   },
   {
     "name": "Stripe MCP Server",
@@ -8543,7 +11028,8 @@
       "billing",
       "fintech"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/stripe/agent-toolkit"
   },
   {
     "name": "Sunglasses",
@@ -8558,7 +11044,8 @@
       "scanner",
       "python"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/sunglasses-dev/sunglasses"
   },
   {
     "name": "ReMCP",
@@ -8577,7 +11064,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://remcp.site/mcp"
-    }
+    },
+    "repository": "https://github.com/getremcp/remcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Supabase MCP Server",
@@ -8591,23 +11085,8 @@
       "backend",
       "sql"
     ],
-    "official": false
-  },
-  {
-    "name": "Surface",
-    "url": "https://github.com/Surface-ops/surface",
-    "description": "URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key.",
-    "category": "browsers-search-and-web-automation",
-    "language": "JavaScript",
-    "provider": "Surface",
-    "tags": [
-      "url",
-      "redirects",
-      "link-safety",
-      "preflight",
-      "remote"
-    ],
-    "official": true
+    "official": false,
+    "repository": "https://github.com/supabase-community/supabase-mcp"
   },
   {
     "name": "CiteWing",
@@ -8626,7 +11105,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://citewing.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "SwapWallet",
@@ -8645,7 +11130,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://swapwallet.app/mcp"
-    }
+    },
+    "repository": "https://github.com/SwapWallet/swapwallet-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "SwarmMemo",
@@ -8663,7 +11155,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://swarmmemo.com/mcp"
-    }
+    },
+    "repository": "https://github.com/Hugo0/swarmmemo",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Symbioza",
@@ -8681,7 +11180,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://symbioza.dev/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Requstory",
@@ -8699,7 +11204,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://requstory.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Synci",
@@ -8718,7 +11226,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.synci.io/mcp"
-    }
+    },
+    "repository": "https://github.com/synciio/synci-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Iris",
@@ -8737,7 +11252,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://iriscan.app/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "TableJourney",
@@ -8756,7 +11277,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://tablejourney.com/mcp"
-    }
+    },
+    "repository": "https://github.com/lewismvaughan/tablejourney-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Takibi Base",
@@ -8774,7 +11302,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.takibibase.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Tale",
@@ -8807,7 +11341,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://tanod.dev/mcp"
-    }
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Tapetide",
@@ -8826,7 +11364,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.tapetide.com/mcp"
-    }
+    },
+    "repository": "https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Taskfolk",
@@ -8844,7 +11389,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://taskfolk.ai/api/mcp/v1"
-    }
+    },
+    "repository": "https://github.com/taskfolk/mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Tavily MCP Server",
@@ -8858,7 +11407,8 @@
       "research",
       "agents"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/tavily-ai/tavily-mcp"
   },
   {
     "name": "Telegram Archive MCP Server",
@@ -8873,7 +11423,8 @@
       "archives",
       "self-hosted"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/GeiserX/telegram-archive-mcp"
   },
   {
     "name": "Tenmomo",
@@ -8891,7 +11442,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://tenmomo.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Terraform MCP Server",
@@ -8905,7 +11459,8 @@
       "iac",
       "infra"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/hashicorp/terraform-mcp-server"
   },
   {
     "name": "There There",
@@ -8923,7 +11478,38 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://there-there.app/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "Deacon",
+    "url": "https://heydeacon.com/features/mcp-server",
+    "description": "Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix.",
+    "category": "communication-and-productivity",
+    "language": "PHP",
+    "provider": "Deacon",
+    "tags": [
+      "customer-support",
+      "bug-reports",
+      "coding-agents",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://heydeacon.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Iris Code",
@@ -8953,7 +11539,8 @@
       "graphql",
       "backend"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/nhost/nhost"
   },
   {
     "name": "Todoist MCP Server",
@@ -8967,7 +11554,8 @@
       "productivity",
       "todoist"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/abhiz123/todoist-mcp-server"
   },
   {
     "name": "TraderSpy",
@@ -8986,7 +11574,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.traderspy.app/mcp"
-    }
+    },
+    "repository": "https://github.com/target1m/traderspy-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "TraderWAI",
@@ -9005,7 +11600,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.traderwai.com"
-    }
+    },
+    "repository": "https://github.com/leonardo-mazzitelli/traderwai-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo",
@@ -9023,7 +11622,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/amazon-product-search-scraper,tubetext/taobao-tmall-scraper,tubetext/aliexpress-search-scraper,tubetext/tiktok-shop-product-scraper,tubetext/idealo-price-scraper"
-    }
+    },
+    "repository": "https://github.com/LMSlay/tubetext-mcp",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "TubeText Meta Ad Library & Video Ad Analyzer",
@@ -9041,7 +11648,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/meta-ad-library-videos,tubetext/video-ad-analyzer"
-    }
+    },
+    "repository": "https://github.com/LMSlay/tubetext-mcp",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "TubeText TikTok Transcripts & Video Breakdown",
@@ -9059,7 +11674,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/video-breakdown-ai"
-    }
+    },
+    "repository": "https://github.com/LMSlay/tubetext-mcp",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "TubeText YouTube Transcripts & Channel Analytics",
@@ -9077,7 +11700,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/youtube-transcript-fast,tubetext/youtube-channel-analytics,tubetext/socialblade-scraper"
-    }
+    },
+    "repository": "https://github.com/LMSlay/tubetext-mcp",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "PlaceCall",
@@ -9096,7 +11727,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.voygr.tech/mcp"
-    }
+    },
+    "repository": "https://github.com/voygr-tech/placecall",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "TvojeLajky MCP",
@@ -9111,7 +11746,10 @@
       "oauth",
       "remote"
     ],
-    "official": true
+    "official": true,
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "UI Verify MCP Server",
@@ -9130,7 +11768,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://uiverify.ai/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Noonlaunch",
@@ -9149,7 +11790,15 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://noonlaunch.com/mcp"
-    }
+    },
+    "repository": "https://github.com/mukund1158/noonlaunch-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
   },
   {
     "name": "Unblockd",
@@ -9167,7 +11816,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://unblockd.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Universal Crypto MCP",
@@ -9182,7 +11837,8 @@
       "x402",
       "blockchain"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/nirholas/universal-crypto-mcp"
   },
   {
     "name": "Unsora",
@@ -9201,7 +11857,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.tryunsora.com/mcp"
-    }
+    },
+    "repository": "https://github.com/Shipped-Studio/unsora",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "US Code MCP",
@@ -9216,7 +11876,8 @@
       "us-code",
       "citations"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/lrehmann/uscode-mcp"
   },
   {
     "name": "ISMS Copilot",
@@ -9235,7 +11896,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://account.ismscopilot.com/v1/account/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "AI Agents Listing",
@@ -9254,7 +11921,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://aiagentslisting.com/api/mcp"
-    }
+    },
+    "repository": "https://github.com/nyyhao/aiagentslisting-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Vault MCP Server",
@@ -9268,7 +11939,8 @@
       "vault",
       "security"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/hashicorp/vault-mcp-server"
   },
   {
     "name": "Vedar Kamchatka",
@@ -9287,7 +11959,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://vedarai.ru/api/mcp"
-    }
+    },
+    "repository": "https://github.com/tourhabk-ui/pos",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Vercel MCP Server",
@@ -9317,7 +11996,8 @@
       "qa",
       "mcp"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/AishwaryShrivastav/vibe-testing"
   },
   {
     "name": "VideoGen MCP",
@@ -9335,7 +12015,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.videogen.io/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Voidpay Marketplace MCP",
@@ -9354,7 +12037,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.voidly.ai/mcp/voidpay"
-    }
+    },
+    "repository": "https://github.com/voidly-ai/pay-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Warmerly",
@@ -9373,7 +12060,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.warmerly.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Weather MCP Server",
@@ -9387,7 +12080,8 @@
       "api",
       "utility"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/isdaniel/mcp_weather_server"
   },
   {
     "name": "Whimbrel MedTech Analyst",
@@ -9406,7 +12100,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://data.whimbrelresearch.com"
-    }
+    },
+    "repository": "https://github.com/WhimbrelResearch/whimbrel-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Whisper Memos",
@@ -9424,7 +12125,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://whispermemos.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Wiz MCP Server",
@@ -9457,7 +12164,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://hirelayer.co/mcp"
-    }
+    },
+    "repository": "https://github.com/HireLayer/hirelayer-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Worklittle Jobs",
@@ -9475,7 +12189,14 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.worklittle.com/"
-    }
+    },
+    "repository": "https://github.com/worklittle/jobs-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "XActions",
@@ -9490,7 +12211,8 @@
       "social-data",
       "automation"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/nirholas/xactions"
   },
   {
     "name": "Xquik MCP Server",
@@ -9504,7 +12226,8 @@
       "social-data",
       "search"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/Xquik-dev/x-twitter-scraper"
   },
   {
     "name": "agbrowser",
@@ -9521,7 +12244,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agbrowser.shveik.dev/mcp"
-    }
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "YouTube Transcripts MCP",
@@ -9540,7 +12267,14 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://parallelstudio--youtube-transcripts-mcp.apify.actor/mcp"
-    }
+    },
+    "repository": "https://github.com/gunnargray-dev/youtube-transcripts-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "Zep MCP Server",
@@ -9554,7 +12288,8 @@
       "context",
       "rag"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/jaysack/zep-mcp"
   },
   {
     "name": "Zerouter MCP",
@@ -9570,7 +12305,8 @@
       "openai",
       "pricing"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/ZerouterAI/zerouter-mcp"
   },
   {
     "name": "Zoom MCP Server",
@@ -9602,7 +12338,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://internetvitals.com/mcp"
-    }
+    },
+    "repository": "https://github.com/internetvitals/mcp-server",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Zovo Invoice Generator",
@@ -9619,7 +12359,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/invoice"
-    }
+    },
+    "repository": "https://github.com/theluckystrike/mcp-invoice-generator",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Zovo Invoice MCP",
@@ -9638,7 +12382,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/invoice"
-    }
+    },
+    "repository": "https://github.com/theluckystrike/mcp-servers",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Zovo Office Suite",
@@ -9657,7 +12405,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/expense-tracker"
-    }
+    },
+    "repository": "https://github.com/theluckystrike/mcp-servers",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Zovo Time Tracker",
@@ -9675,7 +12427,11 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/time-tracker"
-    }
+    },
+    "repository": "https://github.com/theluckystrike/mcp-servers",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "ActSeal",
@@ -9691,7 +12447,8 @@
       "agents",
       "audit"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/arults/actseal-mcp"
   },
   {
     "name": "POSH",
@@ -9707,7 +12464,12 @@
       "local",
       "stdio"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/skatkov/posh-mcp",
+    "license": "proprietary",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "send21",
@@ -9726,7 +12488,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://send21.io/mcp"
-    }
+    },
+    "repository": "https://github.com/send21io/mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "CrakSEO Search Console MCP",
@@ -9745,7 +12511,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://crakseo.com/mcp/search-console"
-    }
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Campfire SMS",
@@ -9763,7 +12533,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.campfiresms.com/mcp"
-    }
+    },
+    "repository": "https://github.com/campfiresms/campfire-mcp",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Vibe Monitor",
@@ -9778,7 +12552,8 @@
       "ai-coding",
       "local"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/tubban1/vibe-monitor"
   },
   {
     "name": "Solvecha",
@@ -9796,7 +12571,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.solvecha.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Revid",
@@ -9814,7 +12592,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.revid.ai/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "apimodels.app MCP Server",
@@ -9833,7 +12614,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.apimodels.app/mcp"
-    }
+    },
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Grey Ridge x402 Market & DeFi Data",
@@ -9852,7 +12640,15 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://x402-data-api.sigrunner.workers.dev/mcp"
-    }
+    },
+    "repository": "https://github.com/rezearcher/x402-data-api",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Koru MCP Server",
@@ -9867,7 +12663,8 @@
       "local-first",
       "local"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/koruworks/mono"
   },
   {
     "name": "Wheremind",
@@ -9886,7 +12683,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://wheremind.ai/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   },
   {
     "name": "gpu.nz GPU Cloud",
@@ -9903,7 +12706,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://gpu.nz/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "MCP Production Kit",
@@ -9919,7 +12725,11 @@
       "security",
       "developer-tools"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/A7mdMe/mcp-production-kit",
+    "transport": [
+      "stdio"
+    ]
   },
   {
     "name": "Rolês em SP",
@@ -9938,7 +12748,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://rolesemsp.com.br/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Quibbly LinkedIn MCP",
@@ -9957,7 +12773,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://server.quibbly.co/mcp"
-    }
+    },
+    "repository": "https://github.com/Scriptify-Inc/linkedin-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "/call-me",
@@ -9976,7 +12799,12 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://callmemcp.com/mcp"
-    }
+    },
+    "repository": "https://github.com/radres/call-me",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "Weir",
@@ -9995,7 +12823,14 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.weirapp.io/mcp"
-    }
+    },
+    "repository": "https://github.com/tarun-khatri/weir-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Yap MCP",
@@ -10010,7 +12845,11 @@
       "audio",
       "local"
     ],
-    "official": true
+    "official": true,
+    "repository": "https://github.com/founden-bot/yap-mcp",
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "AI观潮 News MCP",
@@ -10028,7 +12867,10 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://aiguanchao.com/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "AgentTask Atlas",
@@ -10046,7 +12888,13 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agenttaskatlas.com/api/mcp"
-    }
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "HutchDB MCP Server",
@@ -10064,7 +12912,11 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://app.hutchdb.com/api/mcp"
-    }
+    },
+    "repository": "https://github.com/ExpeditedProjects/hutchdb",
+    "transport": [
+      "streamable-http"
+    ]
   },
   {
     "name": "open-data-mcp",
@@ -10080,6 +12932,11 @@
       "company-registry",
       "stdio"
     ],
-    "official": false
+    "official": false,
+    "repository": "https://github.com/markatdataandbeyond/open-data-mcp",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ]
   }
 ]
