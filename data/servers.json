@@ -8316,6 +8316,25 @@
     "official": true
   },
   {
+    "name": "SoChain",
+    "url": "https://sochain.com/docs",
+    "description": "Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "SoChain",
+    "tags": [
+      "bitcoin",
+      "litecoin",
+      "dogecoin",
+      "zcash",
+      "blockchain"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://sochain.com/mcp"
+    }
+  },
+  {
     "name": "SolidPing",
     "url": "https://github.com/fclairamb/solidping",
     "description": "Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio.",
