@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 622 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 623 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3707,6 +3707,17 @@ AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imag
 - Tags: image-generation, video-generation, image-editing, remote, oauth
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.imageat.com/mcp
+
+### Interview Questions MCP
+
+AI Engineer interview questions with scoring rubrics: browse topics, get questions by difficulty level, and link to a free answer self-checker.
+
+- URL: https://github.com/Johnnnmai/interview-questions-mcp
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: interview, education, ai-engineering, practice
+- Category: AI, Agents, and Memory
 
 ### Joxo
 
