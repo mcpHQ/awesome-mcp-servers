@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-617-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-618-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (65)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (30)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (126)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (127)
 - [Utilities and Examples](#utilities-and-examples) (29)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1153,6 +1153,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `finance` `sec-filings` `stocks` `earnings-calls` `oauth`
 - **[Equivista](https://equivista.be/api/docs)** `Official` `Ruby` — Read-only Belgian company search, KBO profiles, annual financials, employees and company relationships.  
   `belgium` `company-data` `financials` `kbo`
+- **[Etsy Search & Shop Sales MCP](https://github.com/GeminiGeorge22/etsy-sales-mcp)** `JavaScript` — Live Etsy search results by keyword, category or market page (price, rating, reviews, badges, ad flag, search rank) plus sales counters for named Etsy shops, each with the date it was read.  
+  `etsy` `ecommerce` `marketplace` `remote`
 - **[Feminiq Rides](https://www.feminiqrides.nl/llms.txt)** `Official` `JavaScript` — Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request.  
   `travel` `taxi` `booking` `remote`
 - **[Fin Codes API](https://fincodesapi.com/mcp-server)** `Official` `PHP` — Validate IBANs and bank codes, verify payee names, and screen names against sanctions lists through an authenticated hosted MCP server.  

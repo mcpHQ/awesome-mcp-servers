@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 617 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 618 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5907,6 +5907,18 @@ Read-only Belgian company search, KBO profiles, annual financials, employees and
 - Tags: belgium, company-data, financials, kbo
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://equivista.be/mcp
+
+### Etsy Search & Shop Sales MCP
+
+Live Etsy search results by keyword, category or market page (price, rating, reviews, badges, ad flag, search rank) plus sales counters for named Etsy shops, each with the date it was read.
+
+- URL: https://github.com/GeminiGeorge22/etsy-sales-mcp
+- Language: JavaScript
+- Provider: publicrecords
+- Official: no
+- Tags: etsy, ecommerce, marketplace, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.apify.com/?tools=publicrecords/etsy-shop-velocity,publicrecords/etsy-search-scraper
 
 ### Feminiq Rides
 
