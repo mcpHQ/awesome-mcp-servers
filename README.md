@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-599-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-622-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -42,18 +42,18 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 ## Catalog
 
 - [Official and Reference Servers](#official-and-reference) (11)
-- [Databases and Storage](#databases-and-storage) (18)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (66)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (61)
+- [Databases and Storage](#databases-and-storage) (19)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (71)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (62)
 - [Filesystems and Documents](#filesystems-and-documents) (24)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
-- [Communication and Productivity](#communication-and-productivity) (75)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (65)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (63)
-- [Legal and Court Data](#legal-and-court-data) (9)
-- [Security and Identity](#security-and-identity) (29)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (123)
-- [Utilities and Examples](#utilities-and-examples) (25)
+- [Communication and Productivity](#communication-and-productivity) (78)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (66)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (65)
+- [Legal and Court Data](#legal-and-court-data) (10)
+- [Security and Identity](#security-and-identity) (30)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (127)
+- [Utilities and Examples](#utilities-and-examples) (29)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -95,6 +95,8 @@ Query, manage, and explore databases, vector stores, and data warehouses.
   `vector` `embeddings` `rag`
 - **[DBHub](https://github.com/bytebase/dbhub)** `Official` `Go` — Universal database gateway supporting PostgreSQL, MySQL, SQL Server, SQLite, and MariaDB.  
   `sql` `postgres` `mysql`
+- **[Dynobase MCP Server](https://dynobase.dev/dynamodb-mcp-server/)** `Official` `TypeScript` — Local MCP server in the Dynobase DynamoDB desktop app that lets AI clients list tables, read schemas and run queries through existing AWS profiles, read-only by default.  
+  `dynamodb` `aws` `nosql` `partiql` `read-only`
 - **[Elasticsearch MCP Server](https://github.com/elastic/mcp-server-elasticsearch)** `Official` `TypeScript` — Search and analyze data in Elasticsearch clusters via MCP.  
   `search` `analytics` `elastic`
 - **[HutchDB MCP Server](https://github.com/ExpeditedProjects/hutchdb)** `Official` `TypeScript` — Shared database for teams and AI agents: store, query, and update structured records over MCP.  
@@ -160,6 +162,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `i18n` `localization` `translation` `react` `nextjs`
 - **[Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp)** `Official` `TypeScript` — Build Bulma v1 React apps with Bestax using an offline index of its component props, examples, CSS variables and Agent Skills.  
   `bulma` `react` `typescript` `components` `local`
+- **[Buddy MCP Server](https://buddy.works/docs/ai-agents/mcp)** `Official` `Other` — Official remote MCP server for Buddy: run and monitor pipelines, manage sandboxes, environments, artifacts, domains, and Git repositories from AI agents.  
+  `sandbox` `pipelines` `deployments` `git` `remote`
 - **[Chain.Love MCP](https://github.com/Chain-Love/chain.love-mcp)** `Official` `Other` — Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.  
   `web3` `infrastructure` `discovery` `remote`
 - **[Communicate](https://developer.communicate.so/docs/mcp)** `Official` `TypeScript` — List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials.  
@@ -184,6 +188,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `android` `mobile` `testing` `automation`
 - **[Flare](https://flareapp.io/docs/flare/general/our-mcp-server)** `Official` `PHP` — Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP.  
   `error-tracking` `observability` `laravel` `php` `oauth`
+- **[genesis-blackbox](https://github.com/johannschiffer/genesis-blackbox)** `Python` — Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.  
+  `debugging` `devtools` `python` `typescript` `testing`
 - **[GitHub MCP Server](https://github.com/github/github-mcp-server)** `Official` `Go` — Official GitHub integration for repos, issues, pull requests, and code search.  
   `github` `git` `ci-cd`
 - **[GitLab MCP Server](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/)** `Official` `Ruby` — GitLab Duo MCP server for merge requests, issues, and project management.  
@@ -234,10 +240,16 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `api` `testing` `http`
 - **[REA](https://github.com/morluto/rea)** `TypeScript` — Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies.  
   `reverse-engineering` `binary-analysis` `devtools`
+- **[Reflex Computer Use](https://github.com/8itlab/reflex-computer-use)** `Python` — Control macOS and Windows desktops, including remote Windows over SSH, using accessibility trees and Jev for element selection and action verification.  
+  `computer-use` `desktop-automation` `jev` `macos` `windows`
 - **[ReMCP](https://github.com/getremcp/remcp)** `Official` `TypeScript` — Securely access computers explicitly paired to your account through a hosted OAuth MCP connection, including state-changing file, terminal, browser, and desktop tools.  
   `computer-use` `desktop-automation` `terminal` `browser` `oauth`
+- **[RoboPartPicker](https://github.com/brainbook0/robopartpicker-mcp)** `Official` `TypeScript` — Source-linked catalogue of open-source robotics projects, components and bills of materials, with a per-line evidence state (verified, probable, unresolved).  
+  `robotics` `bill-of-materials` `components` `hardware`
 - **[RoboParts](https://github.com/lm203688/roboparts)** `Official` `JavaScript` — Vendor-neutral robot hardware compatibility checker across 868 entities with three-state verdicts and ISO 9409-1 flange anchor.  
   `robotics` `hardware` `compatibility` `industrial` `iso-9409-1`
+- **[Rystic](https://www.rystic.ai/docs/mcp-server)** `Official` `Go` — Start, seed, clock, inspect and diff local stateful simulators of real APIs such as GitHub and Stripe, so agents can be tested without touching live accounts.  
+  `testing` `simulators` `api-mocking` `agents`
 - **[SanctionsKit Developer MCP](https://www.sanctionskit.com/resources/mcp)** `Official` `Other` — Public SanctionsKit documentation, API schemas, and request validation, with authenticated synthetic sandbox tools for building sanctions screening integrations.  
   `api` `documentation` `sanctions` `sandbox`
 - **[Semgrep MCP Server](https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp)** `Official` `Python` — Run static analysis and security scans on codebases via Semgrep.  
@@ -349,6 +361,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `product-discovery` `recommendations` `read-only` `remote`
 - **[looot](https://github.com/loootai/looot-mcp)** `Official` `TypeScript` — Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance.  
   `data` `enrichment` `search` `api-gateway`
+- **[LurkAPI](https://lurkapi.com/docs)** `Official` `TypeScript` — Hosted remote MCP server with live public data from 16 social platforms and the web: posts, profiles, comments, video transcripts and Meta, Google, TikTok and LinkedIn ad library results.  
+  `social-media` `ad-library` `transcripts` `remote` `oauth`
 - **[MEDIAPRONET](https://mediapronet.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
   `search` `directory` `startups` `remote`
 - **[Monito](https://www.monito.dev/docs/mcp)** `Official` `TypeScript` — Checks a deployed URL against a plain-English expectation in a cloud browser and returns passed, failed or cannot verify with screenshots, network and console logs.  
@@ -556,6 +570,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `linkedin` `sales` `remote` `oauth`
 - **[day3](https://docs.day3.app/mcp)** `Official` `TypeScript` — Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope.  
   `email-marketing` `newsletters` `campaigns` `api-key`
+- **[Deacon](https://heydeacon.com/features/mcp-server)** `Official` `PHP` — Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix.  
+  `customer-support` `bug-reports` `coding-agents` `remote` `oauth`
 - **[Discord MCP Server](https://github.com/SaseQ/discord-mcp)** `Python` — Read and send messages in Discord servers and channels.  
   `discord` `chat` `community`
 - **[Edusign MCP](https://developers.edusign.com/docs/mcp)** `Official` `TypeScript` — Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server.  
@@ -624,6 +640,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `notifications` `push-notifications` `email` `web-push` `remote`
 - **[Quibbly LinkedIn MCP](https://github.com/Scriptify-Inc/linkedin-mcp)** `Official` `TypeScript` — Reads your LinkedIn inbox as synced by the Quibbly Chrome extension, shows who watched your videos, sets follow-ups and notes, and drafts replies you send yourself.  
   `linkedin` `sales` `crm` `oauth` `remote`
+- **[Reddit MCP Publisher](https://github.com/Bl0ck154/reddit-mcp-publisher)** `TypeScript` — Self-hosted Reddit MCP server that reads account context and prepares browser-previewed, owner-approved posts, comments and direct messages.  
+  `reddit` `publishing` `browser-automation` `approval`
 - **[Revid](https://www.revid.ai/mcp)** `Official` `TypeScript` — Official Revid server to research viral TikTok, YouTube, Instagram and X videos, make finished short-form videos with voice, captions and music, and publish or schedule them.  
   `video` `video-generation` `social-media` `remote`
 - **[SemanticHub](https://semantichub.app/docs)** `Official` `Python` — Official remote server that monitors news sources, clusters articles by topic and generates texts from them; OAuth 2 or Bearer token, free plan.  
@@ -658,6 +676,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `tasks` `productivity` `todoist`
 - **[Unblockd](https://unblockd.ai/setup.md)** `Official` `TypeScript` — Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask.  
   `project-management` `productivity` `oauth` `remote`
+- **[Unitpost](https://www.unitpost.com/ai/mcp)** `Official` `TypeScript` — Hosted MCP server for Unitpost: send transactional email, campaigns and SMS, and manage contacts, templates, sending domains, webhooks and inbound email.  
+  `email` `sms` `transactional-email` `remote` `oauth`
 - **[Unsora](https://github.com/Shipped-Studio/unsora)** `Official` `TypeScript` — AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more.  
   `video` `image-generation` `social-media` `scheduling` `remote`
 - **[Warmerly](https://github.com/warmerly)** `Official` `TypeScript` — Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.  
@@ -731,6 +751,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `knowledge` `encryption` `local`
 - **[imageat](https://github.com/incendies/imageat-mcp)** `Official` `Other` — AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imageat/mcp` with an API key, or use the hosted Streamable HTTP server with OAuth. Credits per generation.  
   `image-generation` `video-generation` `image-editing` `remote` `oauth`
+- **[Joxo](https://joxo.ai)** `Official` `TypeScript` — Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents.  
+  `agents` `collaboration` `tasks` `remote` `oauth`
 - **[LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp)** `Official` `Other` — Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint.  
   `agents` `orchestration` `langgraph`
 - **[Liminal](https://github.com/jaybro2042-alt/liminality-mcp)** `Official` `Python` — Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps.  
@@ -936,10 +958,14 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `sports` `betting` `odds` `remote`
 - **[StatOrigin](https://statorigin.org/docs/mcp)** `Official` `Other` — Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence.  
   `statistics` `open-data` `citations` `remote`
+- **[Tectova Runway Records](https://tectova.com/tools/mcp)** `Official` `TypeScript` — Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country.  
+  `fashion` `runway` `fashion-week` `models`
 - **[Trends MCP](https://github.com/trendsmcp-ai/Trends-MCP)** `Official` `Python` — Gives AI assistants trend data (search interest over time, growth percentages and live top-trends boards) from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, npm, Steam and app stores through one remote MCP server.  
   `trends` `search-interest` `market-research` `remote`
 - **[TubeText Meta Ad Library & Video Ad Analyzer](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence)** `Official` `Other` — Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result.  
   `ad-library` `meta-ads` `video-analysis` `remote`
+- **[World Monitor](https://github.com/koala73/worldmonitor)** `Official` `TypeScript` — Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server.  
+  `geopolitics` `news` `markets` `osint` `remote`
 - **[Zip-Codes.com ZIP & Postal Code MCP](https://www.zip-codes.com/api/mcp)** `Official` `C#` — Validates and standardizes US street addresses to ZIP+4 and looks up US ZIP Codes and Canadian postal codes, with optional census tract demographics, county and district overlaps, radius search and distance.  
   `zip-codes` `address-validation` `postal-codes` `geocoding`
 
@@ -953,6 +979,8 @@ Court records, legal research, case search, and judicial workflow data.
   `spain` `company-registry` `insolvency` `remote` `oauth`
 - **[Court Rules MCP](https://github.com/foklepoint/court-rules-mcp)** `Other` — Read U.S. federal and state court filing rules, local rules, judge standing orders, and court holiday calendars, with a citation back to the source document.  
   `legal` `court-rules` `standing-orders` `citations` `remote`
+- **[DMD Costs Legal Costs Tools](https://www.dmdcosts.co.uk/legal-costs-help)** `Official` `TypeScript` — Free, read-only legal costs tools for England and Wales: CPR deadlines, detailed assessment, Part 36, court fees, interest and fixed costs, each answer citing its rule.  
+  `legal` `uk-law` `legal-costs` `civil-procedure` `remote`
 - **[eCFR MCP](https://github.com/lrehmann/ecfr-mcp)** `TypeScript` — Search and read U.S. federal regulations with legal citations, source dates, stale-data flags, and paginated text; an independent eCFR mirror, not the official legal edition.  
   `legal` `regulations` `citations` `streamable-http`
 - **[eCourts India MCP](https://mcp.ecourtsindia.com/)** `Other` — Third-party hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.  
@@ -1006,6 +1034,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `reputation` `x402` `receipts` `identity` `remote`
 - **[Iris](https://iriscan.app/mcp)** `Official` `Rust` — Hosted on-chain investigations: wallet analysis, fund tracing through mixers, exchanges and instant swaps, and Solana token insiders, on Solana, EVM chains, Bitcoin and Tron. API key (10 free calls a day) or x402 per call.  
   `blockchain` `crypto-forensics` `solana` `x402` `remote`
+- **[Ironheights](https://github.com/Frank-Masciopinto/ironheights)** `Official` `TypeScript` — Read-only local server that scans an AI agent skill (any SKILL.md folder or ClawHub reference) before install with static rules, returning a fail-closed allow/blocked decision, A-F grade, file/line findings and drift since approval.  
+  `security` `agent-skills` `supply-chain` `static-analysis` `local`
 - **[ISMS Copilot](https://www.ismscopilot.com/mcp?ref=mcphq)** `Official` `TypeScript` — The compliance specialist your AI calls: ISO 27001, SOC 2, GDPR, NIS 2, DORA and more, as a hosted MCP server with OAuth sign-in (free plan available).  
   `compliance` `grc` `iso-27001` `soc-2` `remote`
 - **[Lodestar Stamp](https://lodestarstamp.com)** `TypeScript` — Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.  
@@ -1131,6 +1161,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `finance` `sec-filings` `stocks` `earnings-calls` `oauth`
 - **[Equivista](https://equivista.be/api/docs)** `Official` `Ruby` — Read-only Belgian company search, KBO profiles, annual financials, employees and company relationships.  
   `belgium` `company-data` `financials` `kbo`
+- **[Etsy Search & Shop Sales MCP](https://github.com/GeminiGeorge22/etsy-sales-mcp)** `JavaScript` — Live Etsy search results by keyword, category or market page (price, rating, reviews, badges, ad flag, search rank) plus sales counters for named Etsy shops, each with the date it was read.  
+  `etsy` `ecommerce` `marketplace` `remote`
 - **[Feminiq Rides](https://www.feminiqrides.nl/llms.txt)** `Official` `JavaScript` — Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request.  
   `travel` `taxi` `booking` `remote`
 - **[Fin Codes API](https://fincodesapi.com/mcp-server)** `Official` `PHP` — Validate IBANs and bank codes, verify payee names, and screen names against sanctions lists through an authenticated hosted MCP server.  
@@ -1165,6 +1197,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `invoicing` `finance` `oauth` `remote`
 - **[Jet Cab AMS](https://www.jetcabams.nl/llms.txt)** `Official` `JavaScript` — Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.  
   `travel` `taxi` `booking` `remote`
+- **[JobsPipe](https://github.com/jobspipe/mcp)** `Official` `Other` — Search live job postings from 30+ ATS feeds and job boards in one normalized schema, filter by location, salary, seniority, skills and visa stance, and save searches as alerts.  
+  `jobs` `hiring` `job-postings` `remote` `oauth`
 - **[Kandle](https://github.com/Kernel-Hunter/kandle)** `Official` `TypeScript` — Lets an agent drive candlestick charts for crypto, stocks and forex in an open browser tab: read candles and indicator values, draw levels, set alerts, run scripts and strategy backtests, and take screenshots.  
   `finance` `trading` `charts` `crypto` `backtesting`
 - **[Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp)** `Official` `TypeScript` — People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.  
@@ -1191,6 +1225,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `product-launch` `startups` `directory` `marketing` `remote`
 - **[NotFair](https://github.com/nowork-studio/NotFair)** `TypeScript` — Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.  
   `seo` `google-ads` `meta-ads` `marketing`
+- **[Nyria](https://github.com/Nyria-LLC/nyria-mcp)** `Official` `Other` — Hosted server that sends trade alerts from an MCP client to Nyria Paper or a connected broker, with alert preview, order status and positions.  
+  `trading` `alerts` `paper-trading` `tradingview` `remote`
 - **[Orizn Visa](https://github.com/MattJeff/orizn-mcp-server)** `Official` `TypeScript` — Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs.  
   `visa` `travel` `immigration` `remote`
 - **[OutreachGenie](https://github.com/Outreachgenie/outreachgenie-linkedin-mcp)** `Official` `TypeScript` — Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.  
@@ -1235,6 +1271,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `stocks` `sec-filings` `ownership` `semiconductors` `remote`
 - **[SkyAccess](https://github.com/sky-access/skyaccess-mcp)** `Official` `JavaScript` — Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.  
   `travel` `private-jet` `charter` `marketplace` `remote`
+- **[SoChain](https://sochain.com/docs)** `Official` `Other` — Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits.  
+  `bitcoin` `litecoin` `dogecoin` `zcash` `blockchain`
 - **[SpellBook Finance](https://spellbook-finance.com/agent/mcp.md)** `Official` `TypeScript` — Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.  
   `trading-cards` `market-data` `inventory` `ecommerce` `remote`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
@@ -1308,6 +1346,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `math` `data-transforms` `deterministic` `remote`
 - **[DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender)** `Python` — Free stdio server for Blender 5.2 LTS: check the runtime, query a bpy knowledge base, validate part specs and run headless passes to build parametric parts with glTF/STL export. Source-available (PolyForm Shield).  
   `blender` `3d-modeling` `cad` `gltf` `local`
+- **[Domain Search King](https://github.com/johnsmalls22-rgb/domain-search-king-mcp)** `Official` `JavaScript` — Suggests .com domain names and returns only those currently available to register, checked against the Verisign RDAP registry; hosted, no API key.  
+  `domains` `rdap` `naming`
 - **[Everything2MCP](https://github.com/shcdwz1234/Everything2MCP)** `TypeScript` — Turn local capabilities, private-net services, OpenAPI/gRPC/MQTT/queues, and Feishu/DingTalk/WeCom into one MCP surface with hot-reload and Safe defaults.  
   `openapi` `grpc` `mqtt` `hot-reload` `integrations`
 - **[FastMCP](https://github.com/jlowin/fastmcp)** `Python` — Python framework for building MCP servers quickly with decorators.  
@@ -1332,8 +1372,14 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `aggregator` `gateway` `middleware`
 - **[Nestbolt](https://github.com/skulitom/Nestbolt)** `Rust` — Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutting, with validated layouts and per-sheet SVG/DXF export.  
   `nesting` `dxf` `svg` `laser-cutting` `cnc`
+- **[obd2-mcp](https://github.com/shoka-jp/obd2-mcp)** `TypeScript` — Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.  
+  `automotive` `obd2` `diagnostics`
+- **[Pic2SVG MCP](https://pic2svg.com/mcp/)** `Official` `JavaScript` — Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths.  
+  `svg` `raster-tracing` `images`
 - **[QRX](https://qrx.codes/developers/mcp)** `Official` `TypeScript` — Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link.  
   `qr-code` `image-generation` `design` `api-key` `remote`
+- **[SlickTrip](https://github.com/sliktrip/slicktrip-mcp)** `Official` `Python` — Live flight, hotel and seat prices, cheapest-day calendars, and price-drop and seat alerts by email or text; hosted, with OAuth sign-in.  
+  `travel` `flights` `hotels` `price-alerts` `oauth`
 - **[TableJourney](https://github.com/lewismvaughan/tablejourney-mcp)** `Official` `Python` — Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth.  
   `travel` `food` `restaurants` `festivals` `remote`
 - **[Tera Studio](https://terastudio.co/ai-assistants/)** `Official` `Python` — Find a song's key and tempo or move it up or down by up to 6 semitones, with the file processed in the user's browser and never uploaded, and get the steps to hear a song in the user's own voice.  
