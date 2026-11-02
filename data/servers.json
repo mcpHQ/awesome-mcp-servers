@@ -1121,6 +1121,25 @@
     "official": true
   },
   {
+    "name": "Buddy MCP Server",
+    "url": "https://buddy.works/docs/ai-agents/mcp",
+    "description": "Official remote MCP server for Buddy: run and monitor pipelines, manage sandboxes, environments, artifacts, domains, and Git repositories from AI agents.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Buddy",
+    "tags": [
+      "sandbox",
+      "pipelines",
+      "deployments",
+      "git",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.buddy.works/mcp"
+    }
+  },
+  {
     "name": "BGPT MCP",
     "url": "https://bgpt.pro/mcp/",
     "description": "Search full-text scientific papers and return structured evidence for research agents.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 599 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -484,6 +484,18 @@ Build Bulma v1 React apps with Bestax using an offline index of its component pr
 - Official: yes
 - Tags: bulma, react, typescript, components, local
 - Category: Developer Tools and Code Intelligence
+
+### Buddy MCP Server
+
+Official remote MCP server for Buddy: run and monitor pipelines, manage sandboxes, environments, artifacts, domains, and Git repositories from AI agents.
+
+- URL: https://buddy.works/docs/ai-agents/mcp
+- Language: Other
+- Provider: Buddy
+- Official: yes
+- Tags: sandbox, pipelines, deployments, git, remote
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://mcp.buddy.works/mcp
 
 ### Chain.Love MCP
 
