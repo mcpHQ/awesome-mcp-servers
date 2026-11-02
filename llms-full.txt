@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 627 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 628 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2642,6 +2642,18 @@ Two-way SMS bridge for coding agents: the agent texts you when it finishes or is
 - Tags: sms, notifications, human-in-the-loop, coding-agents
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.campfiresms.com/mcp
+
+### Carbon
+
+Hire skills-assessed data professionals from any MCP host. Post your role free. Hosted Streamable HTTP server with OAuth.
+
+- URL: https://github.com/CarbonDataSolutions/carbon-mcp
+- Language: Other
+- Provider: Carbon Data Solutions
+- Official: yes
+- Tags: hiring, talent, data, remote, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.carbondatasolutions.com/mcp
 
 ### CiteWing
 

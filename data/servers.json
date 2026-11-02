@@ -5291,6 +5291,25 @@
     }
   },
   {
+    "name": "Carbon",
+    "url": "https://github.com/CarbonDataSolutions/carbon-mcp",
+    "description": "Hire skills-assessed data professionals from any MCP host. Post your role free. Hosted Streamable HTTP server with OAuth.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Carbon Data Solutions",
+    "tags": [
+      "hiring",
+      "talent",
+      "data",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.carbondatasolutions.com/mcp"
+    }
+  },
+  {
     "name": "Lava / 熔岩",
     "url": "https://github.com/dustinliang666-blip/lava-mcp",
     "description": "Read-only A-share stock and concept-board news-flow heat monitoring via structured remote MCP/REST for quant tools and AI agent market research; API key required.",

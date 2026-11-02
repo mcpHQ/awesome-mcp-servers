@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-627-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-628-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (62)
 - [Filesystems and Documents](#filesystems-and-documents) (24)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (29)
-- [Communication and Productivity](#communication-and-productivity) (78)
+- [Communication and Productivity](#communication-and-productivity) (79)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (67)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (65)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -562,8 +562,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `phone-calls` `voice` `telephony` `remote`
 - **[Campfire SMS](https://github.com/campfiresms/campfire-mcp)** `Official` `Python` — Two-way SMS bridge for coding agents: the agent texts you when it finishes or is blocked and reads your SMS replies.  
   `sms` `notifications` `human-in-the-loop` `coding-agents`
-- **[Carbon](https://github.com/CarbonDataSolutions/carbon-mcp)** `Official` `Other` — Hire skills-assessed data professionals from any MCP host. Post your role free. Hosted Streamable HTTP at `https://mcp.carbondatasolutions.com/mcp`; OAuth. Homepage https://www.carbondatasolutions.com/mcp.
-  `hiring` `talent` `data` `ai` `remote` `oauth`
+- **[Carbon](https://github.com/CarbonDataSolutions/carbon-mcp)** `Official` `Other` — Hire skills-assessed data professionals from any MCP host. Post your role free. Hosted Streamable HTTP server with OAuth.  
+  `hiring` `talent` `data` `remote` `oauth`
 - **[CiteWing](https://citewing.com/docs)** `Official` `TypeScript` — Find AI-cited publisher prospects, review outreach and publisher replies, and draft emails requesting brand mentions.  
   `marketing` `seo` `outreach` `email` `oauth`
 - **[Cooper Email](https://cooperemail.com/docs/mcp)** `Official` `TypeScript` — Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier.  
