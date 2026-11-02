@@ -1281,7 +1281,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `pos` `commerce`
 - **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.  
   `company-data` `business` `finance` `remote`
-- **[StrictScore](https://strictscore.com/developers?utm_source=mcphq&utm_medium=referral&utm_campaign=listing)** `Official` `TypeScript` — Hosted MCP server and REST API for STRICT scores, AI-rated 0-100 crypto fundamentals for 970 assets on six pillars; needs an Enterprise plan API key (Bearer).  
+- **[StrictScore](https://strictscore.com/developers)** `Official` `TypeScript` — Hosted MCP server and REST API for STRICT scores, AI-rated 0-100 crypto fundamentals for 970 assets on six pillars; needs an Enterprise plan API key (Bearer).  
   `crypto` `fundamentals` `scoring` `api-key` `remote`
 - **[Stripe MCP Server](https://github.com/stripe/agent-toolkit)** `Official` `TypeScript` — Manage Stripe payments, customers, and subscriptions via MCP tools.  
   `payments` `billing` `fintech`

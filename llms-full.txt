@@ -6657,7 +6657,7 @@ Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives
 
 Hosted MCP server and REST API for STRICT scores, AI-rated 0-100 crypto fundamentals for 970 assets on six pillars; needs an Enterprise plan API key (Bearer).
 
-- URL: https://strictscore.com/developers?utm_source=mcphq&utm_medium=referral&utm_campaign=listing
+- URL: https://strictscore.com/developers
 - Language: TypeScript
 - Provider: StrictScore
 - Official: yes

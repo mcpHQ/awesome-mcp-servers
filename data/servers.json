@@ -5273,7 +5273,7 @@
   },
   {
     "name": "StrictScore",
-    "url": "https://strictscore.com/developers?utm_source=mcphq&utm_medium=referral&utm_campaign=listing",
+    "url": "https://strictscore.com/developers",
     "description": "Hosted MCP server and REST API for STRICT scores, AI-rated 0-100 crypto fundamentals for 970 assets on six pillars; needs an Enterprise plan API key (Bearer).",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
