@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 632 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 634 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -519,6 +519,17 @@ Hosted MCP gateway for searching and comparing Web3 infrastructure services, suc
 - Tags: web3, infrastructure, discovery, remote
 - Category: Developer Tools and Code Intelligence
 
+### Coding Tools MCP
+
+Rust + Tauri 2 desktop app that turns a local project into an MCP workspace for AI agents: file read/edit, command and test execution, Git status, and project-local history sessions that restore context in a new conversation.
+
+- URL: https://github.com/mybolide/coding-tools-mcp
+- Language: Rust
+- Provider: ByteZoneX
+- Official: no
+- Tags: desktop, tauri, workspace, local
+- Category: Developer Tools and Code Intelligence
+
 ### Communicate
 
 List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials.
@@ -844,6 +855,17 @@ MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to dis
 - Provider: yuzu-octopus
 - Official: no
 - Tags: mcp, proxy, pool, api-keys, rate-limiting
+- Category: Developer Tools and Code Intelligence
+
+### mcp-probe-kit
+
+Spec-driven dev workflow MCP server: start_feature/start_bugfix orchestration, resumable plans, a converge gate requiring requirements, spec, test and review evidence, and cross-session history. Install with npx -y mcp-probe-kit@latest.
+
+- URL: https://github.com/mybolide/mcp-probe-kit
+- Language: TypeScript
+- Provider: ByteZoneX
+- Official: no
+- Tags: spec-driven-development, workflow, coding-agents, npm
 - Category: Developer Tools and Code Intelligence
 
 ### NAIF Gravity

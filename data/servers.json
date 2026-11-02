@@ -5345,6 +5345,36 @@
     "official": true
   },
   {
+    "name": "mcp-probe-kit",
+    "url": "https://github.com/mybolide/mcp-probe-kit",
+    "description": "Spec-driven dev workflow MCP server: start_feature/start_bugfix orchestration, resumable plans, a converge gate requiring requirements, spec, test and review evidence, and cross-session history. Install with npx -y mcp-probe-kit@latest.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "ByteZoneX",
+    "tags": [
+      "spec-driven-development",
+      "workflow",
+      "coding-agents",
+      "npm"
+    ],
+    "official": false
+  },
+  {
+    "name": "Coding Tools MCP",
+    "url": "https://github.com/mybolide/coding-tools-mcp",
+    "description": "Rust + Tauri 2 desktop app that turns a local project into an MCP workspace for AI agents: file read/edit, command and test execution, Git status, and project-local history sessions that restore context in a new conversation.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Rust",
+    "provider": "ByteZoneX",
+    "tags": [
+      "desktop",
+      "tauri",
+      "workspace",
+      "local"
+    ],
+    "official": false
+  },
+  {
     "name": "AgentSearch",
     "url": "https://github.com/agentsearchhq-coder/agentsearch-mcp",
     "description": "Real-time web search, any URL to clean Markdown, and JavaScript page rendering for agents over Pocket Network; free keyless tier (25 calls a day), paid calls $0.005 each, install with `npx -y @agentsearchhq/agentsearch-mcp`.",
