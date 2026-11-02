@@ -5239,6 +5239,21 @@
     "official": true
   },
   {
+    "name": "Rystic",
+    "url": "https://www.rystic.ai/docs/mcp-server",
+    "description": "Start, seed, clock, inspect and diff local stateful simulators of real APIs such as GitHub and Stripe, so agents can be tested without touching live accounts.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "Rystic",
+    "tags": [
+      "testing",
+      "simulators",
+      "api-mocking",
+      "agents"
+    ],
+    "official": true
+  },
+  {
     "name": "obd2-mcp",
     "url": "https://github.com/shoka-jp/obd2-mcp",
     "description": "Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.",
