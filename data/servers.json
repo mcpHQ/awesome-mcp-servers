@@ -6233,6 +6233,22 @@
     "official": true
   },
   {
+    "name": "Dynobase MCP Server",
+    "url": "https://dynobase.dev/dynamodb-mcp-server/",
+    "description": "Local MCP server in the Dynobase DynamoDB desktop app that lets AI clients list tables, read schemas and run queries through existing AWS profiles, read-only by default.",
+    "category": "databases-and-storage",
+    "language": "TypeScript",
+    "provider": "Dynobase",
+    "tags": [
+      "dynamodb",
+      "aws",
+      "nosql",
+      "partiql",
+      "read-only"
+    ],
+    "official": true
+  },
+  {
     "name": "MCP Inspector",
     "url": "https://github.com/modelcontextprotocol/inspector",
     "description": "Visual testing tool for debugging MCP server capabilities and messages.",
