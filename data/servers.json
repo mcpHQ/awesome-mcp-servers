@@ -6137,6 +6137,35 @@
     ]
   },
   {
+    "name": "knowsme",
+    "url": "https://knowsme.dev",
+    "description": "One memory of who you are and how you work (notes, rules and projects) that any AI model or agent can read and update over MCP, across apps and machines.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "knowsme",
+    "tags": [
+      "memory",
+      "agents",
+      "personalization",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.knowsme.dev/mcp",
+      "sse": "https://mcp.knowsme.dev/sse"
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "sse"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "genesis-blackbox",
     "url": "https://github.com/johannschiffer/genesis-blackbox",
     "description": "Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.",

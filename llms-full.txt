@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 637 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4083,6 +4083,22 @@ Shared team project for coding agents: read and claim board tasks, post handoffs
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://joxo.ai/api/mcp
+
+### knowsme
+
+One memory of who you are and how you work (notes, rules and projects) that any AI model or agent can read and update over MCP, across apps and machines.
+
+- URL: https://knowsme.dev
+- Language: JavaScript
+- Provider: knowsme
+- Official: yes
+- Tags: memory, agents, personalization, remote, oauth
+- Category: AI, Agents, and Memory
+- Pricing: free
+- Transport: streamable-http, sse
+- Auth: oauth, api-key
+- SSE endpoint: https://mcp.knowsme.dev/sse
+- Streamable HTTP endpoint: https://mcp.knowsme.dev/mcp
 
 ### LangGraph MCP Server
 
