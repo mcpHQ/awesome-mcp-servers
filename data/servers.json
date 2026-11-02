@@ -305,7 +305,7 @@
       "mobile",
       "mcp"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/vostride/agent-qa"
   },
   {
@@ -1262,7 +1262,7 @@
       "dashboards",
       "sql"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://charts.basedash.com/api/public/mcp"
     },
@@ -1541,7 +1541,7 @@
       "agents",
       "remote"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://botgathering.com/mcp"
     },
@@ -2114,7 +2114,7 @@
       "coordination",
       "local-first"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/Get-Concord-AI/concord-mcp"
   },
   {
@@ -2232,7 +2232,7 @@
       "evidence",
       "x402"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/CSOAI-ORG/councilof-ai"
   },
   {
@@ -3369,7 +3369,7 @@
       "claude",
       "cursor"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/vberai/godot-mcp",
     "transport": [
       "sse"
@@ -3675,7 +3675,7 @@
       "remote",
       "oauth"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://api.heyreagent.com/mcp"
     },
@@ -3879,7 +3879,7 @@
       "remote",
       "oauth"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.hyperresearch.ai/mcp"
     },
@@ -4356,7 +4356,7 @@
       "remote",
       "oauth"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.linkednav.com/"
     },
@@ -4381,7 +4381,7 @@
       "remote",
       "oauth"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://app.linkmcp.io/api/mcp?ref=mcphq"
     },
@@ -4494,7 +4494,7 @@
       "analytics",
       "marketing"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/LLM-Pulse/llmpulse-mcp"
   },
   {
@@ -4574,7 +4574,7 @@
       "agents",
       "security"
     ],
-    "official": false
+    "official": true
   },
   {
     "name": "LogNorm",
@@ -5154,7 +5154,7 @@
       "outreach",
       "approval"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/RecepioHQ/outbound-os"
   },
   {
@@ -5365,7 +5365,7 @@
       "remote",
       "session-management"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/chaitin/baizhi-cloud-browser",
     "auth": [
       "api-key"
@@ -6877,7 +6877,7 @@
       "read-only",
       "remote"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://www.layiq.co/mcp"
     },
@@ -8428,7 +8428,7 @@
       "gateway",
       "middleware"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/metatool-ai/metatool-app"
   },
   {
@@ -8891,7 +8891,7 @@
       "cursor",
       "cisco"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/cisco-open/network-sketcher"
   },
   {
@@ -9126,7 +9126,7 @@
       "automation",
       "mcp"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/Orkas-AI/Orkas-VideoStudio"
   },
   {
@@ -9472,7 +9472,7 @@
       "persistent-world",
       "no-auth"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://plazmi.gg/mcp"
     },
@@ -9692,7 +9692,7 @@
       "base",
       "usdc"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/pyrimid-ai/pyrimid",
     "pricing": "paid"
   },
@@ -9981,7 +9981,7 @@
       "media-generation",
       "inference"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/runapi-ai/mcp"
   },
   {
@@ -11367,7 +11367,7 @@
       "agents",
       "remote"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://taskfolk.ai/api/mcp/v1"
     },
@@ -12167,7 +12167,7 @@
       "remote",
       "oauth"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.worklittle.com/"
     },
@@ -12207,7 +12207,7 @@
       "social-data",
       "search"
     ],
-    "official": false,
+    "official": true,
     "repository": "https://github.com/Xquik-dev/x-twitter-scraper"
   },
   {

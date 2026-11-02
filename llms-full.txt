@@ -379,7 +379,7 @@ Run natural-language web and mobile regression tests with persistent test memory
 - URL: https://github.com/vostride/agent-qa
 - Language: TypeScript
 - Provider: Vostride
-- Official: no
+- Official: yes
 - Tags: testing, regression, browser, mobile, mcp
 - Category: Developer Tools and Code Intelligence
 
@@ -576,7 +576,7 @@ Local-first shared work-state for coding agents with presence, claims, messaging
 - URL: https://github.com/Get-Concord-AI/concord-mcp
 - Language: TypeScript
 - Provider: Get Concord AI
-- Official: no
+- Official: yes
 - Tags: coding-agents, coordination, local-first
 - Category: Developer Tools and Code Intelligence
 
@@ -729,7 +729,7 @@ A secure, 100% native GDScript Server-Sent Events (SSE) server bridging Claude, 
 - URL: https://github.com/vberai/godot-mcp
 - Language: GDScript
 - Provider: VberAI
-- Official: no
+- Official: yes
 - Tags: godot, developer-tools, code-intelligence, claude, cursor
 - Category: Developer Tools and Code Intelligence
 - Transport: sse
@@ -1419,7 +1419,7 @@ Manage cloud browser sessions, saved profiles, human handoff and downloads via h
 - URL: https://github.com/chaitin/baizhi-cloud-browser
 - Language: Other
 - Provider: Baizhi Cloud
-- Official: no
+- Official: yes
 - Tags: browser, remote, session-management
 - Category: Browsers, Search, and Web Automation
 - Auth: api-key
@@ -1682,7 +1682,7 @@ Hyperresearch is an AI deep research API. One question in, an adversarially revi
 - URL: https://hyperresearch.ai/docs/mcp
 - Language: Other
 - Provider: Thalient Labs Inc.
-- Official: no
+- Official: yes
 - Tags: research, citations, remote, oauth
 - Category: Browsers, Search, and Web Automation
 - Transport: streamable-http
@@ -2012,7 +2012,7 @@ Search, monitor, and extract X/Twitter data from Xquik through MCP.
 - URL: https://github.com/Xquik-dev/x-twitter-scraper
 - Language: TypeScript
 - Provider: Xquik
-- Official: no
+- Official: yes
 - Tags: twitter, social-data, search
 - Category: Browsers, Search, and Web Automation
 
@@ -2574,7 +2574,7 @@ Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams,
 - URL: https://github.com/cisco-open/network-sketcher
 - Language: Python
 - Provider: Cisco Open Source
-- Official: no
+- Official: yes
 - Tags: networking, diagrams, automation, cursor, cisco
 - Category: Cloud and Infrastructure
 
@@ -3038,7 +3038,7 @@ Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send m
 - URL: https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing
 - Language: JavaScript
 - Provider: HeyReagent
-- Official: no
+- Official: yes
 - Tags: linkedin, sales, remote, oauth
 - Category: Communication and Productivity
 - Transport: streamable-http
@@ -3079,7 +3079,7 @@ Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buyin
 - URL: https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing
 - Language: JavaScript
 - Provider: LinkedNav
-- Official: no
+- Official: yes
 - Tags: linkedin, sales, remote, oauth
 - Category: Communication and Productivity
 - Transport: streamable-http
@@ -3093,7 +3093,7 @@ Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, peop
 - URL: https://app.linkmcp.io
 - Language: TypeScript
 - Provider: LinkMCP
-- Official: no
+- Official: yes
 - Tags: linkedin, sales, remote, oauth
 - Category: Communication and Productivity
 - Pricing: freemium
@@ -3226,7 +3226,7 @@ Compose and assemble videos from editable JSON timelines through a source-instal
 - URL: https://github.com/Orkas-AI/Orkas-VideoStudio
 - Language: TypeScript
 - Provider: Orkas AI
-- Official: no
+- Official: yes
 - Tags: video, editing, automation, mcp
 - Category: Communication and Productivity
 
@@ -3237,7 +3237,7 @@ Local MCP tools for evidence-gated email outreach with default-disabled live sen
 - URL: https://github.com/RecepioHQ/outbound-os
 - Language: JavaScript
 - Provider: RecepioHQ
-- Official: no
+- Official: yes
 - Tags: email, ai-agents, outreach, approval
 - Category: Communication and Productivity
 
@@ -3510,7 +3510,7 @@ Project management for teams and their AI agents. Agents join as named members.
 - URL: https://github.com/taskfolk/mcp
 - Language: Other
 - Provider: Taskfolk
-- Official: no
+- Official: yes
 - Tags: project-management, tasks, agents, remote
 - Category: Communication and Productivity
 - Transport: streamable-http
@@ -3866,7 +3866,7 @@ Remote MCP server where AI agents search tested step-by-step playbooks, follow t
 - URL: https://botgathering.com
 - Language: Other
 - Provider: BotGathering
-- Official: no
+- Official: yes
 - Tags: playbooks, agents, remote
 - Category: AI, Agents, and Memory
 - Transport: streamable-http
@@ -4326,7 +4326,7 @@ A homemaking world for AI agents: move into a little house on a floating island,
 - URL: https://plazmi.gg/SKILL.md
 - Language: Other
 - Provider: Plazmi
-- Official: no
+- Official: yes
 - Tags: agents, game, persistent-world, no-auth
 - Category: AI, Agents, and Memory
 - Transport: streamable-http
@@ -4339,7 +4339,7 @@ Onchain payment protocol for AI agents — sell any data product with x402, USDC
 - URL: https://github.com/pyrimid-ai/pyrimid
 - Language: TypeScript
 - Provider: Pyrimid Protocol
-- Official: no
+- Official: yes
 - Tags: x402, ai-agent, payments, base, usdc
 - Category: AI, Agents, and Memory
 - Pricing: paid
@@ -4351,7 +4351,7 @@ Discover model inputs and create AI image, video, music, speech, and other model
 - URL: https://github.com/runapi-ai/mcp
 - Language: TypeScript
 - Provider: RunAPI
-- Official: no
+- Official: yes
 - Tags: models, media-generation, inference
 - Category: AI, Agents, and Memory
 
@@ -4636,7 +4636,7 @@ Governed BI MCP. Ask questions of live company data and list workspace sources v
 - URL: https://github.com/Basedash/mcp
 - Language: Other
 - Provider: Basedash
-- Official: no
+- Official: yes
 - Tags: bi, dashboards, sql
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
@@ -5015,7 +5015,7 @@ Analyze AI search visibility, citations, sentiment, share of voice, and AI traff
 - URL: https://github.com/LLM-Pulse/llmpulse-mcp
 - Language: JavaScript
 - Provider: LLM Pulse
-- Official: no
+- Official: yes
 - Tags: ai-visibility, analytics, marketing
 - Category: Data, Analytics, and BI
 
@@ -5699,7 +5699,7 @@ AI-governance measurement MCP server with free verification readers and x402-met
 - URL: https://github.com/CSOAI-ORG/councilof-ai
 - Language: TypeScript
 - Provider: Council of AI
-- Official: no
+- Official: yes
 - Tags: governance, compliance, evidence, x402
 - Category: Security and Identity
 
@@ -5837,7 +5837,7 @@ Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP disco
 - URL: https://lodestarstamp.com
 - Language: TypeScript
 - Provider: Lodestar Stamp
-- Official: no
+- Official: yes
 - Tags: trust, receipts, agents, security
 - Category: Security and Identity
 
@@ -6886,7 +6886,7 @@ Search public job listings and read job details from LAYIQ, a candidate-first jo
 - URL: https://www.layiq.co/connectors/claude
 - Language: Other
 - Provider: Roleworthy Labs Inc.
-- Official: no
+- Official: yes
 - Tags: jobs, job-search, read-only, remote
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
@@ -7619,7 +7619,7 @@ Remote job search MCP for exploring 4 million roles with visa, salary, and dista
 - URL: https://github.com/worklittle/jobs-mcp
 - Language: Other
 - Provider: Worklittle
-- Official: no
+- Official: yes
 - Tags: jobs, recruiting, remote, oauth
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
@@ -7907,7 +7907,7 @@ Middleware MCP server that aggregates and manages multiple connections.
 - URL: https://github.com/metatool-ai/metatool-app
 - Language: TypeScript
 - Provider: MetaTool
-- Official: no
+- Official: yes
 - Tags: aggregator, gateway, middleware
 - Category: Utilities and Examples
 
