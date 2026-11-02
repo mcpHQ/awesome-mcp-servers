@@ -5329,6 +5329,22 @@
     }
   },
   {
+    "name": "Spillmark",
+    "url": "https://github.com/burmanharry/spillmark-mcp",
+    "description": "Remote MCP for free Amazon and Meta ads calculators; optional read-only brand lift and test plans.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Cantein, LLC",
+    "tags": [
+      "amazon",
+      "meta-ads",
+      "roas",
+      "holdout",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "AgentSearch",
     "url": "https://github.com/agentsearchhq-coder/agentsearch-mcp",
     "description": "Real-time web search, any URL to clean Markdown, and JavaScript page rendering for agents over Pocket Network; free keyless tier (25 calls a day), paid calls $0.005 each, install with `npx -y @agentsearchhq/agentsearch-mcp`.",
