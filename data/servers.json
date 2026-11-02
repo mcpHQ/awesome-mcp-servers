@@ -5291,6 +5291,25 @@
     }
   },
   {
+    "name": "Lava / 熔岩",
+    "url": "https://github.com/dustinliang666-blip/lava-mcp",
+    "description": "Read-only A-share stock and concept-board news-flow heat monitoring via structured remote MCP/REST for quant tools and AI agent market research; API key required.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Lava",
+    "tags": [
+      "a-share",
+      "stocks",
+      "market-research",
+      "quant",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://lava.ai-dolphin.com/subscribe/v1/mcp"
+    }
+  },
+  {
     "name": "Rystic",
     "url": "https://www.rystic.ai/docs/mcp-server",
     "description": "Start, seed, clock, inspect and diff local stateful simulators of real APIs such as GitHub and Stripe, so agents can be tested without touching live accounts.",
