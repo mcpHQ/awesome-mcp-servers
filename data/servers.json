@@ -5119,7 +5119,12 @@
     "category": "ai-agents-and-memory",
     "language": "Python",
     "provider": "Community",
-    "tags": ["interview", "education", "ai-engineering", "practice"],
+    "tags": [
+      "interview",
+      "education",
+      "ai-engineering",
+      "practice"
+    ],
     "official": false
   },
   {
@@ -5249,6 +5254,24 @@
     "official": true
   },
   {
+    "name": "Transita",
+    "url": "https://github.com/snenenenenenene/transita-mcp-server",
+    "description": "Matches a profile against 100+ immigration visa pathways in 16 countries and returns eligibility, costs, timelines and live intake status.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Okapi Works",
+    "tags": [
+      "immigration",
+      "visas",
+      "travel",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://transita.app/api/mcp"
+    }
+  },
+  {
     "name": "Rystic",
     "url": "https://www.rystic.ai/docs/mcp-server",
     "description": "Start, seed, clock, inspect and diff local stateful simulators of real APIs such as GitHub and Stripe, so agents can be tested without touching live accounts.",
@@ -5262,6 +5285,21 @@
       "agents"
     ],
     "official": true
+  },
+  {
+    "name": "Stadiq",
+    "url": "https://github.com/snenenenenenene/stadiq-mcp-server",
+    "description": "Road works, De Lijn transit disruptions, air quality and briefings for any point in Flanders and Brussels.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Okapi Works",
+    "tags": [
+      "traffic",
+      "air-quality",
+      "belgium",
+      "transit"
+    ],
+    "official": false
   },
   {
     "name": "obd2-mcp",
