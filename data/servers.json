@@ -5722,6 +5722,23 @@
     "official": false
   },
   {
+    "name": "Domain Search King",
+    "url": "https://github.com/johnsmalls22-rgb/domain-search-king-mcp",
+    "description": "Suggests .com domain names and returns only those currently available to register, checked against the Verisign RDAP registry; hosted, no API key.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Domain Search King",
+    "tags": [
+      "domains",
+      "rdap",
+      "naming"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://domainsearchking.com/api/mcp"
+    }
+  },
+  {
     "name": "Cooper Email",
     "url": "https://cooperemail.com/docs/mcp",
     "description": "Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier.",
