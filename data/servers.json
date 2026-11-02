@@ -4658,6 +4658,24 @@
     }
   },
   {
+    "name": "Etsy Search & Shop Sales MCP",
+    "url": "https://github.com/GeminiGeorge22/etsy-sales-mcp",
+    "description": "Live Etsy search results by keyword, category or market page (price, rating, reviews, badges, ad flag, search rank) plus sales counters for named Etsy shops, each with the date it was read.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "etsy",
+      "ecommerce",
+      "marketplace",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=publicrecords/etsy-shop-velocity,publicrecords/etsy-search-scraper"
+    }
+  },
+  {
     "name": "Add to CRM",
     "url": "https://github.com/crm-inputs/mcp",
     "description": "Find work contact details and add people and companies to your own CRM from Claude, ChatGPT and other assistants. Checks for duplicates first and uses your field mapping and tags. Works with 29+ CRMs.",
@@ -5095,6 +5113,21 @@
     }
   },
   {
+    "name": "Interview Questions MCP",
+    "url": "https://github.com/Johnnnmai/interview-questions-mcp",
+    "description": "AI Engineer interview questions with scoring rubrics: browse topics, get questions by difficulty level, and link to a free answer self-checker.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "interview",
+      "education",
+      "ai-engineering",
+      "practice"
+    ],
+    "official": false
+  },
+  {
     "name": "BORME API",
     "url": "https://github.com/bormeapi/borme-mcp",
     "description": "Spain's company registry gazette (BORME) as typed events: more than 9.6 million events since 2009, with company, officer and insolvency lookups, over a hosted Streamable HTTP server with an API key or OAuth.",
@@ -5206,6 +5239,21 @@
     "official": false
   },
   {
+    "name": "Tectova Runway Records",
+    "url": "https://tectova.com/tools/mcp",
+    "description": "Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Tectova",
+    "tags": [
+      "fashion",
+      "runway",
+      "fashion-week",
+      "models"
+    ],
+    "official": true
+  },
+  {
     "name": "Transita",
     "url": "https://github.com/snenenenenenene/transita-mcp-server",
     "description": "Matches a profile against 100+ immigration visa pathways in 16 countries and returns eligibility, costs, timelines and live intake status.",
@@ -5224,17 +5272,17 @@
     }
   },
   {
-    "name": "Tectova Runway Records",
-    "url": "https://tectova.com/tools/mcp",
-    "description": "Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country.",
-    "category": "data-analytics-and-bi",
-    "language": "TypeScript",
-    "provider": "Tectova",
+    "name": "Rystic",
+    "url": "https://www.rystic.ai/docs/mcp-server",
+    "description": "Start, seed, clock, inspect and diff local stateful simulators of real APIs such as GitHub and Stripe, so agents can be tested without touching live accounts.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "Rystic",
     "tags": [
-      "fashion",
-      "runway",
-      "fashion-week",
-      "models"
+      "testing",
+      "simulators",
+      "api-mocking",
+      "agents"
     ],
     "official": true
   },
@@ -5347,6 +5395,20 @@
       "websites",
       "remote",
       "agents"
+    ],
+    "official": true
+  },
+  {
+    "name": "Sequenzy",
+    "url": "https://github.com/Sequenzy/mcp",
+    "description": "Manage email contacts, campaigns, automation sequences, transactional email and analytics.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Sequenzy",
+    "tags": [
+      "email",
+      "marketing",
+      "automation"
     ],
     "official": true
   },
@@ -6244,6 +6306,22 @@
       "reference",
       "git",
       "official"
+    ],
+    "official": true
+  },
+  {
+    "name": "Dynobase MCP Server",
+    "url": "https://dynobase.dev/dynamodb-mcp-server/",
+    "description": "Local MCP server in the Dynobase DynamoDB desktop app that lets AI clients list tables, read schemas and run queries through existing AWS profiles, read-only by default.",
+    "category": "databases-and-storage",
+    "language": "TypeScript",
+    "provider": "Dynobase",
+    "tags": [
+      "dynamodb",
+      "aws",
+      "nosql",
+      "partiql",
+      "read-only"
     ],
     "official": true
   },
@@ -9265,6 +9343,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://there-there.app/mcp"
+    }
+  },
+  {
+    "name": "Deacon",
+    "url": "https://heydeacon.com/features/mcp-server",
+    "description": "Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix.",
+    "category": "communication-and-productivity",
+    "language": "PHP",
+    "provider": "Deacon",
+    "tags": [
+      "customer-support",
+      "bug-reports",
+      "coding-agents",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://heydeacon.com/mcp"
     }
   },
   {

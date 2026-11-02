@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 619 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 625 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -31,6 +31,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [Chroma MCP Server](https://github.com/chroma-core/chroma-mcp): Vector search and embedding storage with Chroma collections. (Python, official)
 - [DBHub](https://github.com/bytebase/dbhub): Universal database gateway supporting PostgreSQL, MySQL, SQL Server, SQLite, and MariaDB. (Go, official)
+- [Dynobase MCP Server](https://dynobase.dev/dynamodb-mcp-server/): Local MCP server in the Dynobase DynamoDB desktop app that lets AI clients list tables, read schemas and run queries through existing AWS profiles, read-only by default. (TypeScript, official)
 - [Elasticsearch MCP Server](https://github.com/elastic/mcp-server-elasticsearch): Search and analyze data in Elasticsearch clusters via MCP. (TypeScript, official)
 - [HutchDB MCP Server](https://github.com/ExpeditedProjects/hutchdb): Shared database for teams and AI agents: store, query, and update structured records over MCP. (TypeScript, official)
 - [MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server): Query and manage MongoDB databases and collections from AI clients. (TypeScript, official)
@@ -106,6 +107,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ReMCP](https://github.com/getremcp/remcp): Securely access computers explicitly paired to your account through a hosted OAuth MCP connection, including state-changing file, terminal, browser, and desktop tools. (TypeScript, official)
 - [RoboPartPicker](https://github.com/brainbook0/robopartpicker-mcp): Source-linked catalogue of open-source robotics projects, components and bills of materials, with a per-line evidence state (verified, probable, unresolved). (TypeScript, official)
 - [RoboParts](https://github.com/lm203688/roboparts): Vendor-neutral robot hardware compatibility checker across 868 entities with three-state verdicts and ISO 9409-1 flange anchor. (JavaScript, official)
+- [Rystic](https://www.rystic.ai/docs/mcp-server): Start, seed, clock, inspect and diff local stateful simulators of real APIs such as GitHub and Stripe, so agents can be tested without touching live accounts. (Go, official)
 - [SanctionsKit Developer MCP](https://www.sanctionskit.com/resources/mcp): Public SanctionsKit documentation, API schemas, and request validation, with authenticated synthetic sandbox tools for building sanctions screening integrations. (Other, official)
 - [Semgrep MCP Server](https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp): Run static analysis and security scans on codebases via Semgrep. (Python, official)
 - [Sentry MCP Server](https://docs.sentry.io/product/sentry-mcp/): Investigate errors, releases, and performance issues in Sentry. (TypeScript, official)
@@ -264,6 +266,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Cooper Email](https://cooperemail.com/docs/mcp): Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier. (TypeScript, official)
 - [Crispy](https://crispy.sh): Hosted LinkedIn MCP server. Sign in with OAuth, or use a Bearer API key. Search people and companies, read profile and company data, and send and read messages. (TypeScript)
 - [day3](https://docs.day3.app/mcp): Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope. (TypeScript, official)
+- [Deacon](https://heydeacon.com/features/mcp-server): Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix. (PHP, official)
 - [Discord MCP Server](https://github.com/SaseQ/discord-mcp): Read and send messages in Discord servers and channels. (Python)
 - [Edusign MCP](https://developers.edusign.com/docs/mcp): Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server. (TypeScript, official)
 - [Enhanciar](https://github.com/enhanciar/enhanciar-mcp): A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted; needs an Enhanciar API key (paid plans). (Other, official)
@@ -301,6 +304,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Reddit MCP Publisher](https://github.com/Bl0ck154/reddit-mcp-publisher): Self-hosted Reddit MCP server that reads account context and prepares browser-previewed, owner-approved posts, comments and direct messages. (TypeScript)
 - [Revid](https://www.revid.ai/mcp): Official Revid server to research viral TikTok, YouTube, Instagram and X videos, make finished short-form videos with voice, captions and music, and publish or schedule them. (TypeScript, official)
 - [SemanticHub](https://semantichub.app/docs): Official remote server that monitors news sources, clusters articles by topic and generates texts from them; OAuth 2 or Bearer token, free plan. (Python, official)
+- [Sequenzy](https://github.com/Sequenzy/mcp): Manage email contacts, campaigns, automation sequences, transactional email and analytics. (TypeScript, official)
 - [Shipmail](https://github.com/shipmail-to/shipmail-mcp): Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks. (TypeScript, official)
 - [Sitekick CMS](https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing): Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client. (TypeScript, official)
 - [Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack): Send messages and interact with Slack channels and workspaces. (Python)
@@ -352,6 +356,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [HumanEndpoint](https://humanendpoint.au): Quote-first human execution for AI agents: business and supplier calls, stock and availability checks, physical verification, manual research, and human QA. (TypeScript, official)
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness): Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants. (Rust)
 - [imageat](https://github.com/incendies/imageat-mcp): AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imageat/mcp` with an API key, or use the hosted Streamable HTTP server with OAuth. Credits per generation. (Other, official)
+- [Interview Questions MCP](https://github.com/Johnnnmai/interview-questions-mcp): AI Engineer interview questions with scoring rubrics: browse topics, get questions by difficulty level, and link to a free answer self-checker. (Python)
 - [Joxo](https://joxo.ai): Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents. (TypeScript, official)
 - [LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp): Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint. (Other, official)
 - [Liminal](https://github.com/jaybro2042-alt/liminality-mcp): Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps. (Python, official)
@@ -555,6 +560,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Elori](https://github.com/elori-debug/elori-mcp): Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required. (TypeScript, official)
 - [Equibles](https://equibles.com/mcp): Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access. (C#, official)
 - [Equivista](https://equivista.be/api/docs): Read-only Belgian company search, KBO profiles, annual financials, employees and company relationships. (Ruby, official)
+- [Etsy Search & Shop Sales MCP](https://github.com/GeminiGeorge22/etsy-sales-mcp): Live Etsy search results by keyword, category or market page (price, rating, reviews, badges, ad flag, search rank) plus sales counters for named Etsy shops, each with the date it was read. (JavaScript)
 - [Feminiq Rides](https://www.feminiqrides.nl/llms.txt): Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request. (JavaScript, official)
 - [Fin Codes API](https://fincodesapi.com/mcp-server): Validate IBANs and bank codes, verify payee names, and screen names against sanctions lists through an authenticated hosted MCP server. (PHP, official)
 - [Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs): Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in. (Other, official)
