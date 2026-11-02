@@ -5057,6 +5057,21 @@
     "official": true
   },
   {
+    "name": "Tectova Runway Records",
+    "url": "https://tectova.com/tools/mcp",
+    "description": "Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Tectova",
+    "tags": [
+      "fashion",
+      "runway",
+      "fashion-week",
+      "models"
+    ],
+    "official": true
+  },
+  {
     "name": "Desearch",
     "url": "https://github.com/Desearch-ai/mcp-desearch",
     "description": "AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.",
