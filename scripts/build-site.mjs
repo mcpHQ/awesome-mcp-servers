@@ -505,6 +505,7 @@ function homePage() {
     <p class="eyebrow"><span class="pulse"></span>${stats.servers} servers · every link checked weekly</p>
     <h1>Find an MCP server.<br><span class="grad">Plug it in within a minute.</span></h1>
     <p class="lede">A hand-reviewed directory of Model Context Protocol servers. Filter by what your agent needs, copy a working config for Cursor, VS Code, Claude, or Codex, and bundle several servers into one stack.</p>
+    <p class="agents-note"><b>Find the right MCP server for what you're building.</b><br>Agents: read <a href="${href("/llms.txt")}">/llms.txt</a> · <a href="${href("/llms-full.txt")}">/llms-full.txt</a></p>
     <form class="hero-search" role="search" data-hero-search>
       ${icon("search")}
       <input id="q" name="q" type="search" placeholder="Search servers, providers, tags" autocomplete="off" spellcheck="false" aria-label="Search servers">

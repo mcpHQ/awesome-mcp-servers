@@ -171,6 +171,20 @@ kbd {
   max-width: 62ch;
 }
 
+.agents-note {
+  color: var(--text-2);
+  font-size: 14px;
+  margin: 12px 0 0;
+}
+
+.agents-note b {
+  color: var(--text);
+}
+
+.agents-note a {
+  color: var(--accent);
+}
+
 .grad {
   background: linear-gradient(92deg, var(--accent) 0%, var(--cyan) 55%, var(--teal) 100%);
   -webkit-background-clip: text;
