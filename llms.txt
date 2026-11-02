@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 598 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 599 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -31,6 +31,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [Chroma MCP Server](https://github.com/chroma-core/chroma-mcp): Vector search and embedding storage with Chroma collections. (Python, official)
 - [DBHub](https://github.com/bytebase/dbhub): Universal database gateway supporting PostgreSQL, MySQL, SQL Server, SQLite, and MariaDB. (Go, official)
+- [Dynobase MCP Server](https://dynobase.dev/dynamodb-mcp-server/): Local MCP server in the Dynobase DynamoDB desktop app that lets AI clients list tables, read schemas and run queries through existing AWS profiles, read-only by default. (TypeScript, official)
 - [Elasticsearch MCP Server](https://github.com/elastic/mcp-server-elasticsearch): Search and analyze data in Elasticsearch clusters via MCP. (TypeScript, official)
 - [HutchDB MCP Server](https://github.com/ExpeditedProjects/hutchdb): Shared database for teams and AI agents: store, query, and update structured records over MCP. (TypeScript, official)
 - [MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server): Query and manage MongoDB databases and collections from AI clients. (TypeScript, official)

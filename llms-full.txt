@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 598 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 599 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -153,6 +153,17 @@ Universal database gateway supporting PostgreSQL, MySQL, SQL Server, SQLite, and
 - Provider: Bytebase
 - Official: yes
 - Tags: sql, postgres, mysql
+- Category: Databases and Storage
+
+### Dynobase MCP Server
+
+Local MCP server in the Dynobase DynamoDB desktop app that lets AI clients list tables, read schemas and run queries through existing AWS profiles, read-only by default.
+
+- URL: https://dynobase.dev/dynamodb-mcp-server/
+- Language: TypeScript
+- Provider: Dynobase
+- Official: yes
+- Tags: dynamodb, aws, nosql, partiql, read-only
 - Category: Databases and Storage
 
 ### Elasticsearch MCP Server
