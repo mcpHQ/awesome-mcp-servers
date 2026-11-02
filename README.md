@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-605-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-606-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (64)
 - [Legal and Court Data](#legal-and-court-data) (9)
 - [Security and Identity](#security-and-identity) (30)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (125)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (126)
 - [Utilities and Examples](#utilities-and-examples) (27)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1197,6 +1197,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `product-launch` `startups` `directory` `marketing` `remote`
 - **[NotFair](https://github.com/nowork-studio/NotFair)** `TypeScript` — Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.  
   `seo` `google-ads` `meta-ads` `marketing`
+- **[Nyria](https://github.com/Nyria-LLC/nyria-mcp)** `Official` `Other` — Hosted server that sends trade alerts from an MCP client to Nyria Paper or a connected broker, with alert preview, order status and positions.  
+  `trading` `alerts` `paper-trading` `tradingview` `remote`
 - **[Orizn Visa](https://github.com/MattJeff/orizn-mcp-server)** `Official` `TypeScript` — Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs.  
   `visa` `travel` `immigration` `remote`
 - **[OutreachGenie](https://github.com/Outreachgenie/outreachgenie-linkedin-mcp)** `Official` `TypeScript` — Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.  

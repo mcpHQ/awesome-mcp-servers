@@ -5571,6 +5571,25 @@
     }
   },
   {
+    "name": "Nyria",
+    "url": "https://github.com/Nyria-LLC/nyria-mcp",
+    "description": "Hosted server that sends trade alerts from an MCP client to Nyria Paper or a connected broker, with alert preview, order status and positions.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Nyria",
+    "tags": [
+      "trading",
+      "alerts",
+      "paper-trading",
+      "tradingview",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.nyria.io/mcp"
+    }
+  },
+  {
     "name": "MakeViral",
     "url": "https://www.makeviral.ai",
     "description": "Finds the newest viral AI video and photo trend templates and makes them from the user's own photos, or makes any AI image or video from a prompt.",
