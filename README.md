@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-599-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-602-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,8 +52,8 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (63)
 - [Legal and Court Data](#legal-and-court-data) (9)
 - [Security and Identity](#security-and-identity) (30)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (123)
-- [Utilities and Examples](#utilities-and-examples) (25)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (125)
+- [Utilities and Examples](#utilities-and-examples) (26)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1165,6 +1165,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `invoicing` `finance` `oauth` `remote`
 - **[Jet Cab AMS](https://www.jetcabams.nl/llms.txt)** `Official` `JavaScript` — Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.  
   `travel` `taxi` `booking` `remote`
+- **[JobsPipe](https://github.com/jobspipe/mcp)** `Official` `Other` — Search live job postings from 30+ ATS feeds and job boards in one normalized schema, filter by location, salary, seniority, skills and visa stance, and save searches as alerts.  
+  `jobs` `hiring` `job-postings` `remote` `oauth`
 - **[Kandle](https://github.com/Kernel-Hunter/kandle)** `Official` `TypeScript` — Lets an agent drive candlestick charts for crypto, stocks and forex in an open browser tab: read candles and indicator values, draw levels, set alerts, run scripts and strategy backtests, and take screenshots.  
   `finance` `trading` `charts` `crypto` `backtesting`
 - **[Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp)** `Official` `TypeScript` — People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.  
@@ -1235,6 +1237,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `stocks` `sec-filings` `ownership` `semiconductors` `remote`
 - **[SkyAccess](https://github.com/sky-access/skyaccess-mcp)** `Official` `JavaScript` — Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.  
   `travel` `private-jet` `charter` `marketplace` `remote`
+- **[SoChain](https://sochain.com/docs)** `Official` `Other` — Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits.  
+  `bitcoin` `litecoin` `dogecoin` `zcash` `blockchain`
 - **[SpellBook Finance](https://spellbook-finance.com/agent/mcp.md)** `Official` `TypeScript` — Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.  
   `trading-cards` `market-data` `inventory` `ecommerce` `remote`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
@@ -1332,6 +1336,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `aggregator` `gateway` `middleware`
 - **[Nestbolt](https://github.com/skulitom/Nestbolt)** `Rust` — Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutting, with validated layouts and per-sheet SVG/DXF export.  
   `nesting` `dxf` `svg` `laser-cutting` `cnc`
+- **[Pic2SVG MCP](https://pic2svg.com/mcp/)** `Official` `JavaScript` — Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths.  
+  `svg` `raster-tracing` `images`
 - **[QRX](https://qrx.codes/developers/mcp)** `Official` `TypeScript` — Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link.  
   `qr-code` `image-generation` `design` `api-key` `remote`
 - **[TableJourney](https://github.com/lewismvaughan/tablejourney-mcp)** `Official` `Python` — Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth.  
