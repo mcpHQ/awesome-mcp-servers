@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 611 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 612 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3627,6 +3627,18 @@ AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imag
 - Tags: image-generation, video-generation, image-editing, remote, oauth
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.imageat.com/mcp
+
+### Joxo
+
+Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents.
+
+- URL: https://joxo.ai
+- Language: TypeScript
+- Provider: Joxo
+- Official: yes
+- Tags: agents, collaboration, tasks, remote, oauth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://joxo.ai/api/mcp
 
 ### LangGraph MCP Server
 

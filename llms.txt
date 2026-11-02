@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 611 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 612 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -349,6 +349,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [HumanEndpoint](https://humanendpoint.au): Quote-first human execution for AI agents: business and supplier calls, stock and availability checks, physical verification, manual research, and human QA. (TypeScript, official)
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness): Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants. (Rust)
 - [imageat](https://github.com/incendies/imageat-mcp): AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imageat/mcp` with an API key, or use the hosted Streamable HTTP server with OAuth. Credits per generation. (Other, official)
+- [Joxo](https://joxo.ai): Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents. (TypeScript, official)
 - [LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp): Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint. (Other, official)
 - [Liminal](https://github.com/jaybro2042-alt/liminality-mcp): Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps. (Python, official)
 - [LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/): Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs. (Other, official)
