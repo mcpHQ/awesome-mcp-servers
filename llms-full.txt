@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 601 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 602 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5070,6 +5070,17 @@ Hosted on-chain investigations: wallet analysis, fund tracing through mixers, ex
 - Tags: blockchain, crypto-forensics, solana, x402, remote
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://iriscan.app/mcp
+
+### Ironheights
+
+Read-only local server that scans an AI agent skill (any SKILL.md folder or ClawHub reference) before install with static rules, returning a fail-closed allow/blocked decision, A-F grade, file/line findings and drift since approval.
+
+- URL: https://github.com/Frank-Masciopinto/ironheights
+- Language: TypeScript
+- Provider: Ironheights
+- Official: yes
+- Tags: security, agent-skills, supply-chain, static-analysis, local
+- Category: Security and Identity
 
 ### ISMS Copilot
 

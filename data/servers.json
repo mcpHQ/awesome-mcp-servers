@@ -5071,6 +5071,22 @@
     "official": true
   },
   {
+    "name": "Ironheights",
+    "url": "https://github.com/Frank-Masciopinto/ironheights",
+    "description": "Read-only local server that scans an AI agent skill (any SKILL.md folder or ClawHub reference) before install with static rules, returning a fail-closed allow/blocked decision, A-F grade, file/line findings and drift since approval.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Ironheights",
+    "tags": [
+      "security",
+      "agent-skills",
+      "supply-chain",
+      "static-analysis",
+      "local"
+    ],
+    "official": true
+  },
+  {
     "name": "Desearch",
     "url": "https://github.com/Desearch-ai/mcp-desearch",
     "description": "AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia, plus web search, page extraction and X data tools for agents.",

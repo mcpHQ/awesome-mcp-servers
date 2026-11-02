@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-601-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-602-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (65)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (63)
 - [Legal and Court Data](#legal-and-court-data) (9)
-- [Security and Identity](#security-and-identity) (29)
+- [Security and Identity](#security-and-identity) (30)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (125)
 - [Utilities and Examples](#utilities-and-examples) (26)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
@@ -1004,6 +1004,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `reputation` `x402` `receipts` `identity` `remote`
 - **[Iris](https://iriscan.app/mcp)** `Official` `Rust` — Hosted on-chain investigations: wallet analysis, fund tracing through mixers, exchanges and instant swaps, and Solana token insiders, on Solana, EVM chains, Bitcoin and Tron. API key (10 free calls a day) or x402 per call.  
   `blockchain` `crypto-forensics` `solana` `x402` `remote`
+- **[Ironheights](https://github.com/Frank-Masciopinto/ironheights)** `Official` `TypeScript` — Read-only local server that scans an AI agent skill (any SKILL.md folder or ClawHub reference) before install with static rules, returning a fail-closed allow/blocked decision, A-F grade, file/line findings and drift since approval.  
+  `security` `agent-skills` `supply-chain` `static-analysis` `local`
 - **[ISMS Copilot](https://www.ismscopilot.com/mcp?ref=mcphq)** `Official` `TypeScript` — The compliance specialist your AI calls: ISO 27001, SOC 2, GDPR, NIS 2, DORA and more, as a hosted MCP server with OAuth sign-in (free plan available).  
   `compliance` `grc` `iso-27001` `soc-2` `remote`
 - **[Lodestar Stamp](https://lodestarstamp.com)** `TypeScript` — Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.  
