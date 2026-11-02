@@ -5310,6 +5310,25 @@
     }
   },
   {
+    "name": "Vaneform",
+    "url": "https://github.com/vaneform/vaneform-mcp",
+    "description": "Hosted MCP for website traffic estimates, domain compare, registry facts and keyword briefs; API key required.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Vaneform",
+    "tags": [
+      "traffic",
+      "analytics",
+      "seo",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://vaneform.com/mcp"
+    }
+  },
+  {
     "name": "Mach GTM MCP",
     "url": "https://github.com/verma6uc/mach-gtm-mcp",
     "description": "Open-source MCP server for B2B outbound sales: build ICPs, research prospects, score leads (0-100 fit), draft cold email and LinkedIn messages, and build multi-touch sequences.",
