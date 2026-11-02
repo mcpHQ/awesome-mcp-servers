@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 606 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 607 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7003,6 +7003,18 @@ Creates artistic, print-ready QR codes from a prompt and a link, checks that eac
 - Tags: qr-code, image-generation, design, api-key, remote
 - Category: Utilities and Examples
 - Streamable HTTP endpoint: https://qrx.codes/mcp
+
+### SlickTrip
+
+Live flight, hotel and seat prices, cheapest-day calendars, and price-drop and seat alerts by email or text; hosted, with OAuth sign-in.
+
+- URL: https://github.com/sliktrip/slicktrip-mcp
+- Language: Python
+- Provider: SlickTrip
+- Official: yes
+- Tags: travel, flights, hotels, price-alerts, oauth
+- Category: Utilities and Examples
+- Streamable HTTP endpoint: https://mcp.slicktrip.com/mcp
 
 ### TableJourney
 

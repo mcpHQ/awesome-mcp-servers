@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 606 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 607 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -652,6 +652,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [obd2-mcp](https://github.com/shoka-jp/obd2-mcp): Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing. (TypeScript)
 - [Pic2SVG MCP](https://pic2svg.com/mcp/): Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths. (JavaScript, official)
 - [QRX](https://qrx.codes/developers/mcp): Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link. (TypeScript, official)
+- [SlickTrip](https://github.com/sliktrip/slicktrip-mcp): Live flight, hotel and seat prices, cheapest-day calendars, and price-drop and seat alerts by email or text; hosted, with OAuth sign-in. (Python, official)
 - [TableJourney](https://github.com/lewismvaughan/tablejourney-mcp): Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth. (Python, official)
 - [Tera Studio](https://terastudio.co/ai-assistants/): Find a song's key and tempo or move it up or down by up to 6 semitones, with the file processed in the user's browser and never uploaded, and get the steps to hear a song in the user's own voice. (Python, official)
 - [Weather MCP Server](https://github.com/isdaniel/mcp_weather_server): Fetch current weather and forecasts from public weather APIs. (Python)
