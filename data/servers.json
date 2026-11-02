@@ -196,32 +196,6 @@
     ]
   },
   {
-    "name": "AdsTurbo",
-    "url": "https://adsturbo.ai",
-    "description": "Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Other",
-    "provider": "AdsTurbo",
-    "tags": [
-      "video",
-      "advertising",
-      "ecommerce",
-      "remote",
-      "oauth"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://adsturbo.ai/klian/novartapi/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "api-key",
-      "oauth"
-    ]
-  },
-  {
     "name": "Aeon",
     "url": "https://www.aeon.fun/connect",
     "description": "Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings, through a hosted MCP server with GitHub sign-in.",
@@ -384,28 +358,6 @@
     ],
     "official": true,
     "repository": "https://github.com/web3wes/agentcomms"
-  },
-  {
-    "name": "agentic sinkhole research",
-    "url": "https://docs.rocketship.sh/llms.txt",
-    "description": "Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research honeypot, no login, traffic logged, do not send secrets.",
-    "category": "communication-and-productivity",
-    "language": "JavaScript",
-    "provider": "Community",
-    "tags": [
-      "inbox",
-      "webhook",
-      "honeypot",
-      "research",
-      "remote"
-    ],
-    "official": false,
-    "endpoints": {
-      "streamableHttp": "https://mcp.rocketship.sh/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ]
   },
   {
     "name": "AgentRender",

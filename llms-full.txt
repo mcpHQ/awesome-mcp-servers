@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 636 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2752,19 +2752,6 @@ Exchange end-to-end encrypted messages between AI agents through an account-free
 - Official: yes
 - Tags: agents, messaging, encryption, self-hosted, mcp
 - Category: Communication and Productivity
-
-### agentic sinkhole research
-
-Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research honeypot, no login, traffic logged, do not send secrets.
-
-- URL: https://docs.rocketship.sh/llms.txt
-- Language: JavaScript
-- Provider: Community
-- Official: no
-- Tags: inbox, webhook, honeypot, research, remote
-- Category: Communication and Productivity
-- Transport: streamable-http
-- Streamable HTTP endpoint: https://mcp.rocketship.sh/mcp
 
 ### ArtiGram
 
@@ -6070,20 +6057,6 @@ Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G
 - Pricing: paid
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://adexto.xyz/api/mcp
-
-### AdsTurbo
-
-Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key.
-
-- URL: https://adsturbo.ai
-- Language: Other
-- Provider: AdsTurbo
-- Official: yes
-- Tags: video, advertising, ecommerce, remote, oauth
-- Category: Finance, Commerce, and Business Apps
-- Transport: streamable-http
-- Auth: api-key, oauth
-- Streamable HTTP endpoint: https://adsturbo.ai/klian/novartapi/mcp
 
 ### Agent Payment Node
 
