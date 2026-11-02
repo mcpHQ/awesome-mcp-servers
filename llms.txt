@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 603 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 604 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -157,6 +157,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Karma.Domains Expired Domains](https://karma.domains/en/expired-domains-mcp/): Hosted server to search expired, auction and backorder domains with SEO metrics, Wayback history and live WHOIS/DNS checks; OAuth or API key, Pro plan required. (Other, official)
 - [LifeVerse Product Discovery](https://github.com/lifeversegu/lifeverse-mcp): Discover, search, inspect, and recommend eleven public LifeVerse AI products and interactive experiences through four read-only tools. (TypeScript, official)
 - [looot](https://github.com/loootai/looot-mcp): Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance. (TypeScript, official)
+- [LurkAPI](https://lurkapi.com/docs): Hosted remote MCP server with live public data from 16 social platforms and the web: posts, profiles, comments, video transcripts and Meta, Google, TikTok and LinkedIn ad library results. (TypeScript, official)
 - [MEDIAPRONET](https://mediapronet.com/mcp): Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account. (TypeScript, official)
 - [Monito](https://www.monito.dev/docs/mcp): Checks a deployed URL against a plain-English expectation in a cloud browser and returns passed, failed or cannot verify with screenshots, network and console logs. (TypeScript, official)
 - [Neeed Directory](https://neeed.directory/docs/api): Search curated software and digital products, create private listing drafts, and manage your own listings with OAuth. (TypeScript, official)
