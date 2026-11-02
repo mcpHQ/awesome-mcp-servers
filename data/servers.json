@@ -5310,6 +5310,22 @@
     }
   },
   {
+    "name": "Mach GTM MCP",
+    "url": "https://github.com/verma6uc/mach-gtm-mcp",
+    "description": "Open-source MCP server for B2B outbound sales: build ICPs, research prospects, score leads (0-100 fit), draft cold email and LinkedIn messages, and build multi-touch sequences.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Mach GTM",
+    "tags": [
+      "b2b",
+      "sales",
+      "outbound",
+      "lead-scoring",
+      "cold-email"
+    ],
+    "official": false
+  },
+  {
     "name": "Lava / 熔岩",
     "url": "https://github.com/dustinliang666-blip/lava-mcp",
     "description": "Read-only A-share stock and concept-board news-flow heat monitoring via structured remote MCP/REST for quant tools and AI agent market research; API key required.",
