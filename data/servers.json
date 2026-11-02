@@ -6025,6 +6025,34 @@
     ]
   },
   {
+    "name": "CoreSpeed",
+    "url": "https://corespeed.io/docs/mcp",
+    "description": "Hosted OAuth MCP gateway for any agent: your connected apps (Notion, Slack, GitHub, Gmail and more), shared team memory, web search, social data and media tools, with spend caps and an activity log.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "CoreSpeed",
+    "tags": [
+      "gateway",
+      "oauth",
+      "hosted",
+      "memory",
+      "connectors"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.corespeed.io/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Agent Payment Node",
     "url": "https://github.com/nuanu-ai/agent-payment-node",
     "description": "Local CLI and stdio MCP payment tools for AI agents on macOS Apple Silicon, with foreground human approval for signing.",

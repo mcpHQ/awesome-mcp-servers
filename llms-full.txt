@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3896,6 +3896,22 @@ Remote MCP story bible for fiction writers: locked characters, relationships, wo
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://continuitywriter.com/mcp
+
+### CoreSpeed
+
+Hosted OAuth MCP gateway for any agent: your connected apps (Notion, Slack, GitHub, Gmail and more), shared team memory, web search, social data and media tools, with spend caps and an activity log.
+
+- URL: https://corespeed.io/docs/mcp
+- Language: TypeScript
+- Provider: CoreSpeed
+- Official: yes
+- Tags: gateway, oauth, hosted, memory, connectors
+- Category: AI, Agents, and Memory
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://api.corespeed.io/mcp
 
 ### CrewAI Enterprise MCP Server
 
