@@ -9780,6 +9780,34 @@
     ]
   },
   {
+    "name": "QR Cloud",
+    "url": "https://qr-cloud.com/mcp-server/",
+    "description": "Creates dynamic QR codes and short links, sets up QR Reviews that route guests to Google or Tripadvisor, and reads click, scan and review statistics from a QR Cloud account.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "QR Cloud",
+    "tags": [
+      "qr-code",
+      "url-shortener",
+      "reviews",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://qr-cloud.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "QuickBooks MCP Server",
     "url": "https://github.com/intuit/quickbooks-online-mcp-server",
     "description": "Manage QuickBooks accounting records and financial reports.",
