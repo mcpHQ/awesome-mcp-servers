@@ -1,5 +1,28 @@
 [
   {
+    "name": "IPO Radar MCP",
+    "url": "https://github.com/songiangvan40006-boop/ipo-radar-mcp",
+    "description": "Free hosted MCP with live India IPO GMP, subscription, upcoming IPOs, and GMP accuracy for Claude/ChatGPT/Cursor.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "IPO Radar",
+    "tags": [
+      "ipo",
+      "gmp",
+      "india",
+      "finance",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/songiangvan40006-boop/ipo-radar-mcp",
+    "endpoints": {
+      "streamableHttp": "https://ipogmpradar.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
     "name": "Toolradar",
     "url": "https://github.com/Nadeus/toolradar-mcp",
     "description": "Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.",
