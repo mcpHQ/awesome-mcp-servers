@@ -6782,6 +6782,32 @@
     ]
   },
   {
+    "name": "Sendable",
+    "url": "https://docs.getsendable.io/integrations/mcp",
+    "description": "Finds LinkedIn prospects showing buying intent, qualifies them against an ideal customer profile, and manages Sendable outreach campaigns, leads and LinkedIn inbox.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Sendable",
+    "tags": [
+      "linkedin",
+      "sales",
+      "prospecting",
+      "outreach",
+      "crm"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://app.getsendable.io/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Bowmark",
     "url": "https://github.com/bowmark-ai/mcp",
     "description": "Remote MCP server that gives agents typed, tested functions for live websites such as LinkedIn, YouTube, Amazon and flight search.",
