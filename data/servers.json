@@ -4256,7 +4256,7 @@
     ]
   },
   {
-    "name": "ATS Jobs MCP",
+    "name": "New Job Postings MCP (Ashby, Greenhouse, Lever, SmartRecruiters)",
     "url": "https://github.com/GeminiGeorge22/ats-jobs-mcp",
     "description": "New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards.",
     "category": "data-analytics-and-bi",

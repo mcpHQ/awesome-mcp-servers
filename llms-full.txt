@@ -4617,20 +4617,6 @@ Searches the Apple App Store and Google Play, pulls recent reviews, and returns 
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://parallelstudio--app-store-review-intelligence-mcp.apify.actor/mcp
 
-### ATS Jobs MCP
-
-New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards.
-
-- URL: https://github.com/GeminiGeorge22/ats-jobs-mcp
-- Language: JavaScript
-- Provider: GeminiGeorge22
-- Official: no
-- Tags: jobs, recruiting, ats, greenhouse
-- Category: Data, Analytics, and BI
-- License: MIT
-- Transport: stdio
-- Install: npx github:GeminiGeorge22/ats-jobs-mcp
-
 ### ats-jobs-mcp
 
 Zero-dependency stdio server and CLI that lists and filters a company's open jobs from its public Greenhouse, Lever or Ashby job board in one normalized shape, with no API keys.
@@ -5133,6 +5119,20 @@ Real-time infrastructure monitoring and health metrics via MCP.
 - Official: yes
 - Tags: monitoring, infra, metrics
 - Category: Data, Analytics, and BI
+
+### New Job Postings MCP (Ashby, Greenhouse, Lever, SmartRecruiters)
+
+New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards.
+
+- URL: https://github.com/GeminiGeorge22/ats-jobs-mcp
+- Language: JavaScript
+- Provider: GeminiGeorge22
+- Official: no
+- Tags: jobs, recruiting, ats, greenhouse
+- Category: Data, Analytics, and BI
+- License: MIT
+- Transport: stdio
+- Install: npx github:GeminiGeorge22/ats-jobs-mcp
 
 ### OMOPHub
 

@@ -858,8 +858,6 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `product-analytics` `events` `bi`
 - **[App Store & Google Play Review Intelligence](https://github.com/gunnargray-dev/app-store-review-intelligence-mcp)** `TypeScript` — Searches the Apple App Store and Google Play, pulls recent reviews, and returns top complaints with quotes, rating by app version, what got worse in the latest update, and iOS-vs-Android or competitor comparisons.  
   `app-store` `google-play` `app-reviews` `product-research` `remote`
-- **[ATS Jobs MCP](https://github.com/GeminiGeorge22/ats-jobs-mcp)** `JavaScript` — New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards.  
-  `jobs` `recruiting` `ats` `greenhouse`
 - **[ats-jobs-mcp](https://github.com/benkrasin/ats-jobs-mcp)** `JavaScript` — Zero-dependency stdio server and CLI that lists and filters a company's open jobs from its public Greenhouse, Lever or Ashby job board in one normalized shape, with no API keys.  
   `jobs` `recruiting` `greenhouse` `lever` `ashby`
 - **[Basedash MCP Server](https://github.com/Basedash/mcp)** `Official` `Other` — Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth.  
@@ -938,6 +936,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `germany` `real-estate` `utility-costs` `property-tax` `remote`
 - **[Netdata MCP Server](https://github.com/netdata/netdata)** `Official` `C` — Real-time infrastructure monitoring and health metrics via MCP.  
   `monitoring` `infra` `metrics`
+- **[New Job Postings MCP (Ashby, Greenhouse, Lever, SmartRecruiters)](https://github.com/GeminiGeorge22/ats-jobs-mcp)** `JavaScript` — New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards.  
+  `jobs` `recruiting` `ats` `greenhouse`
 - **[OMOPHub](https://github.com/OMOPHub/omophub-mcp)** `Official` `TypeScript` — Search, map and navigate the OHDSI OMOP standardized vocabularies (11M+ concepts, including SNOMED CT, ICD-10, LOINC and RxNorm) from AI agents, with concept hierarchies and cross-vocabulary mappings.  
   `healthcare` `omop` `medical-vocabularies` `fhir` `remote`
 - **[Open Health Sync](https://github.com/soma-intelligence/open-health-sync)** `Official` `Go` — Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources.  
