@@ -6492,6 +6492,32 @@
     }
   },
   {
+    "name": "AgentDrives",
+    "url": "https://agentdrives.com/data#mcp",
+    "description": "Looks up whether an AI agent can really use a software product (sign-up, API key, the core tasks, paying, leaving), with levels 0 to 5 from real agent test drives.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "AgentDrives",
+    "tags": [
+      "agents",
+      "directory",
+      "saas",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://agentdrives.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "AgenticWebScore",
     "url": "https://github.com/marifeting/agenticwebscore-mcp",
     "description": "Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.",
