@@ -6798,6 +6798,35 @@
     "repository": "https://github.com/bowmark-ai/mcp"
   },
   {
+    "name": "FactLot",
+    "url": "https://factlot.com",
+    "description": "Commercial real estate calculators that return every step and a versioned formula ID, plus parcel and entity IDs and fact validation. Free hosted endpoint, no API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "FactLot",
+    "tags": [
+      "commercial-real-estate",
+      "calculators",
+      "finance",
+      "remote",
+      "audit-trail"
+    ],
+    "official": true,
+    "repository": "https://github.com/9mp96ygnbk-alt/factlot",
+    "license": "Apache-2.0",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.factlot.com/mcp"
+    }
+  },
+  {
     "name": "Sequenzy",
     "url": "https://github.com/Sequenzy/mcp",
     "description": "Manage email contacts, campaigns, automation sequences, transactional email and analytics.",
