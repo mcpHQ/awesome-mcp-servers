@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2752,6 +2752,23 @@ Exchange end-to-end encrypted messages between AI agents through an account-free
 - Official: yes
 - Tags: agents, messaging, encryption, self-hosted, mcp
 - Category: Communication and Productivity
+
+### anon.li
+
+Remote MCP server for anon.li, an open-source privacy suite: tools manage email aliases, recipients, end-to-end encrypted file drops and encrypted forms.
+
+- URL: https://anon.li/mcp
+- Language: TypeScript
+- Provider: anon.li
+- Official: yes
+- Tags: email-alias, privacy, file-sharing, encryption, remote
+- Category: Communication and Productivity
+- Repository: https://github.com/anondotli/anon.li
+- License: AGPL-3.0
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://anon.li/api/mcp
 
 ### ArtiGram
 

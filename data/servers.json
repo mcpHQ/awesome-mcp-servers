@@ -413,6 +413,34 @@
     ]
   },
   {
+    "name": "anon.li",
+    "url": "https://anon.li/mcp",
+    "description": "Remote MCP server for anon.li, an open-source privacy suite: tools manage email aliases, recipients, end-to-end encrypted file drops and encrypted forms.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "anon.li",
+    "tags": [
+      "email-alias",
+      "privacy",
+      "file-sharing",
+      "encryption",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/anondotli/anon.li",
+    "license": "AGPL-3.0",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://anon.li/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Babelize MCP",
     "url": "https://docs.babelize.co/integrations/mcp-server",
     "description": "Analyzes a codebase for i18n readiness, wires hardcoded strings to next-intl or react-i18next, translates locale files and QA-checks translations, running locally from the coding agent.",
