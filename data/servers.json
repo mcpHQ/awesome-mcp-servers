@@ -6680,6 +6680,33 @@
     "repository": "https://github.com/snenenenenenene/stadiq-mcp-server"
   },
   {
+    "name": "SpecStream",
+    "url": "https://specstream.ai/docs/mcp",
+    "description": "Hosted MCP server that returns structured records from the live web for requests in plain words, with the price shown before each run and billing per delivered row.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "SpecStream",
+    "tags": [
+      "web-data",
+      "structured-data",
+      "enrichment",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/specstream/specstream-tools",
+    "endpoints": {
+      "streamableHttp": "https://api.specstream.ai/mcp"
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "obd2-mcp",
     "url": "https://github.com/shoka-jp/obd2-mcp",
     "description": "Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.",
