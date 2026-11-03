@@ -4256,6 +4256,30 @@
     ]
   },
   {
+    "name": "ATS Jobs MCP",
+    "url": "https://github.com/GeminiGeorge22/ats-jobs-mcp",
+    "description": "New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "GeminiGeorge22",
+    "tags": [
+      "jobs",
+      "recruiting",
+      "ats",
+      "greenhouse"
+    ],
+    "official": false,
+    "repository": "https://github.com/GeminiGeorge22/ats-jobs-mcp",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:GeminiGeorge22/ats-jobs-mcp"
+    }
+  },
+  {
     "name": "Leal",
     "url": "https://www.getleal.com/mcp",
     "description": "Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4616,6 +4616,20 @@ Searches the Apple App Store and Google Play, pulls recent reviews, and returns 
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://parallelstudio--app-store-review-intelligence-mcp.apify.actor/mcp
+
+### ATS Jobs MCP
+
+New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards.
+
+- URL: https://github.com/GeminiGeorge22/ats-jobs-mcp
+- Language: JavaScript
+- Provider: GeminiGeorge22
+- Official: no
+- Tags: jobs, recruiting, ats, greenhouse
+- Category: Data, Analytics, and BI
+- License: MIT
+- Transport: stdio
+- Install: npx github:GeminiGeorge22/ats-jobs-mcp
 
 ### ats-jobs-mcp
 
