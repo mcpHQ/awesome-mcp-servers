@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5345,6 +5345,22 @@ Look up history by year, date and country, plus world leaders, historical prices
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://slashyear.com/mcp
+
+### Sociality MCP
+
+Hosted OAuth MCP server from Sociality.io for social media analytics, post insights, and competitor benchmarking across Facebook, X, Instagram, YouTube, LinkedIn, and TikTok.
+
+- URL: https://github.com/socialityio/sociality-mcp
+- Language: Other
+- Provider: Sociality.io
+- Official: yes
+- Tags: social-media, analytics, competitor-analysis, marketing, oauth
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://api.sociality.io/mcp
 
 ### Sourcey
 

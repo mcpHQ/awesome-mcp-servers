@@ -4769,6 +4769,34 @@
     ]
   },
   {
+    "name": "Sociality MCP",
+    "url": "https://github.com/socialityio/sociality-mcp",
+    "description": "Hosted OAuth MCP server from Sociality.io for social media analytics, post insights, and competitor benchmarking across Facebook, X, Instagram, YouTube, LinkedIn, and TikTok.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Sociality.io",
+    "tags": [
+      "social-media",
+      "analytics",
+      "competitor-analysis",
+      "marketing",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.sociality.io/mcp"
+    },
+    "repository": "https://github.com/socialityio/sociality-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "mountable.io",
     "url": "https://github.com/writeitai/mountable",
     "description": "Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid mountable.io service.",

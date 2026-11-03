@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 638 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 639 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -465,6 +465,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Serpel](https://serpel.app/developers/mcp): Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring. (TypeScript, official)
 - [Serpier](https://serpier.com/mcp): Hosted SEO server: track rankings, search traffic and AI visibility, monitor published links, browse vetted publishers and place link-building orders; OAuth sign-in. (TypeScript, official)
 - [SlashYear](https://github.com/ctrl-maud/slashyear): Look up history by year, date and country, plus world leaders, historical prices and No. 1 songs, each line cited to a Wikipedia revision. (JavaScript, official)
+- [Sociality MCP](https://github.com/socialityio/sociality-mcp): Hosted OAuth MCP server from Sociality.io for social media analytics, post insights, and competitor benchmarking across Facebook, X, Instagram, YouTube, LinkedIn, and TikTok. (Other, official)
 - [Sourcey](https://sourcey.com/mcp): Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record. (TypeScript, official)
 - [Sports Odds API (BetRivers, Unibet & 22 more books)](https://apify.com/publicrecords/sports-odds-api): Live odds from 24 Kambi-powered sportsbooks in one call, including BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel and ATG, with every book's price and the best price per outcome; pay per call. (JavaScript)
 - [StatOrigin](https://statorigin.org/docs/mcp): Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence. (Other, official)
