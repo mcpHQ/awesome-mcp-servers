@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4903,6 +4903,20 @@ Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources.
 - Official: yes
 - Tags: bigquery, gcp, data
 - Category: Data, Analytics, and BI
+
+### Gov Tenders MCP
+
+Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link.
+
+- URL: https://github.com/GeminiGeorge22/gov-tenders-mcp
+- Language: JavaScript
+- Provider: GeminiGeorge22
+- Official: no
+- Tags: government, tenders, procurement, grants
+- Category: Data, Analytics, and BI
+- License: MIT
+- Transport: stdio
+- Install: npx github:GeminiGeorge22/gov-tenders-mcp
 
 ### Grafana MCP Server
 
