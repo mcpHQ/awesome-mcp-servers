@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-638-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-639-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (69)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (30)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (130)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (131)
 - [Utilities and Examples](#utilities-and-examples) (32)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1149,6 +1149,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `shopping` `search` `remote`
 - **[canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp)** `Official` `JavaScript` — Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos.  
   `finance` `backtesting` `statistics` `quant` `remote`
+- **[CartViral](https://cartviral.com/mcp)** `Official` `TypeScript` — Hosted server that imports products from a store or product link and makes AI product videos for TikTok, Reels and Shorts, product photos, carousels, static ads and listing copy, returning download links. ([source](https://github.com/artemecom/cartviral-mcp))  
+  `ecommerce` `video` `marketing` `remote` `oauth`
 - **[Checkout Page](https://checkoutpage.com/mcp?utm_source=mcphq&utm_medium=listing)** `Official` `TypeScript` — Create and manage checkout pages, events, forms, products, coupons, customers, payments and subscriptions on Checkout Page, a checkout platform on Stripe Connect, over remote Streamable HTTP with OAuth.  
   `payments` `ecommerce` `events` `stripe` `remote`
 - **[Chord](https://github.com/getchordlabs/chord)** `Official` `TypeScript` — Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial.  
