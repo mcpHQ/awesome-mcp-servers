@@ -2354,6 +2354,29 @@
     "repository": "https://github.com/avi-aggarwal14/dare-mcp-server"
   },
   {
+    "name": "Google Ads Transparency MCP",
+    "url": "https://github.com/GeminiGeorge22/google-ads-transparency-mcp",
+    "description": "Competitor Google ads from the Google Ads Transparency Center by domain, advertiser ID or advertiser name: which ads are new, running or stopped, with first and last shown dates, format and ad links.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "google-ads",
+      "ad-intelligence",
+      "competitor-research",
+      "marketing"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/google-ads-transparency-scraper"
+    },
+    "repository": "https://github.com/GeminiGeorge22/google-ads-transparency-mcp",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ]
+  },
+  {
     "name": "SecureLend Underwriting",
     "url": "https://github.com/SecureLend/mcp-underwriting",
     "description": "Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6712,6 +6712,19 @@ Lets an agent buy and sell physical goods on the Glongus UK marketplace, with ha
 - Official: yes
 - Tags: marketplace, ecommerce, escrow, shopping
 - Category: Finance, Commerce, and Business Apps
+
+### Google Ads Transparency MCP
+
+Competitor Google ads from the Google Ads Transparency Center by domain, advertiser ID or advertiser name: which ads are new, running or stopped, with first and last shown dates, format and ad links.
+
+- URL: https://github.com/GeminiGeorge22/google-ads-transparency-mcp
+- Language: JavaScript
+- Provider: publicrecords
+- Official: no
+- Tags: google-ads, ad-intelligence, competitor-research, marketing
+- Category: Finance, Commerce, and Business Apps
+- Transport: stdio, streamable-http
+- Streamable HTTP endpoint: https://mcp.apify.com?tools=publicrecords/google-ads-transparency-scraper
 
 ### Google Hotels
 

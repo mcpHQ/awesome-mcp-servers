@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 638 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 639 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -578,6 +578,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [foto foto](https://github.com/nternet-company/fotofoto-mcp): Turn your photos or a public iCloud Shared Album into a printed hardcover photo book, and compare photo book prices across services. (Other, official)
 - [Frantic](https://github.com/gofrantic/frantic-mcp): Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results. (TypeScript, official)
 - [Glongus MCP](https://github.com/glongusmain/glongus-mcp): Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation. (JavaScript, official)
+- [Google Ads Transparency MCP](https://github.com/GeminiGeorge22/google-ads-transparency-mcp): Competitor Google ads from the Google Ads Transparency Center by domain, advertiser ID or advertiser name: which ads are new, running or stopped, with first and last shown dates, format and ad links. (JavaScript)
 - [Google Hotels](https://github.com/huynhtanan/google-hotels-mcp): Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and more) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN). (Python)
 - [Grey Ridge x402 Market & DeFi Data](https://github.com/rezearcher/x402-data-api): Keyless Base market data for agents: live DeFi yields, perp funding rates, crypto spot prices, Polymarket odds and a pre-trade token-safety gate. Free preview tools; paid calls settle per request in USDC via x402, no key or account. (TypeScript)
 - [helloasso-mcp](https://github.com/edouard-claude/helloasso-mcp): HelloAsso for French associations: members, event tickets, donations, payments, refunds and checkout links, covering all 36 routes of the v5 API. (Rust)
