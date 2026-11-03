@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6593,6 +6593,23 @@ Live Etsy search results by keyword, category or market page (price, rating, rev
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.apify.com/?tools=publicrecords/etsy-shop-velocity,publicrecords/etsy-search-scraper
+
+### FactLot
+
+Commercial real estate calculators that return every step and a versioned formula ID, plus parcel and entity IDs and fact validation. Free hosted endpoint, no API key.
+
+- URL: https://factlot.com
+- Language: TypeScript
+- Provider: FactLot
+- Official: yes
+- Tags: commercial-real-estate, calculators, finance, remote, audit-trail
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/9mp96ygnbk-alt/factlot
+- License: Apache-2.0
+- Pricing: freemium
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://api.factlot.com/mcp
 
 ### Feminiq Rides
 
