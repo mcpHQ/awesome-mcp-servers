@@ -4281,6 +4281,33 @@
     ]
   },
   {
+    "name": "Flaghand",
+    "url": "https://flaghand.com/?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026",
+    "description": "Hosted OAuth MCP server where agents draft X, LinkedIn, Bluesky and TikTok posts; only the owner's passkey approval of the exact post publishes it.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "Trellisbyte LLC",
+    "tags": [
+      "social-media",
+      "publishing",
+      "approvals",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.flaghand.com/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Linear MCP Server",
     "url": "https://linear.app/docs/mcp",
     "description": "Create and manage Linear issues, projects, and team workflows.",
@@ -8702,6 +8729,33 @@
       "remote"
     ],
     "official": true
+  },
+  {
+    "name": "SystemSculpt",
+    "url": "https://systemsculpt.com/obsidian-ai-plugin-docs/agents?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026",
+    "description": "Hosted OAuth MCP server for a SystemSculpt account (Obsidian AI plugin): plan, credits, usage, billing links and server-side captures; no local vault access.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Trellisbyte LLC",
+    "tags": [
+      "obsidian",
+      "account",
+      "credits",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://systemsculpt.com/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Nanotea",

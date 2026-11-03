@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 638 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 640 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -275,6 +275,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ent1-mcp](https://github.com/edouard-claude/ent1-mcp): Parent access to ENT ONE, the French primary-school digital workspace (Edifice): teacher messaging, liaison book, homework, news, calendar and documents. (Rust)
 - [Faceless](https://faceless.so): Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...). (TypeScript, official)
 - [Fax for Agents](https://github.com/faxforagents/mcp): Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence. (TypeScript, official)
+- [Flaghand](https://flaghand.com/?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026): Hosted OAuth MCP server where agents draft X, LinkedIn, Bluesky and TikTok posts; only the owner's passkey approval of the exact post publishes it. (JavaScript, official)
 - [Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server): Search, read, and compose Gmail messages from MCP clients. (TypeScript)
 - [Google Calendar MCP Server](https://github.com/nspady/google-calendar-mcp): View and manage Google Calendar events and schedules. (TypeScript)
 - [Hail](https://hail.so/mcp): Give your AI assistant a phone number and an email inbox to handle calls, texts, and email. (Python, official)
@@ -314,6 +315,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Social Post Flow](https://www.socialpostflow.com/documentation/mcp/): Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Threads, Pinterest, TikTok, Bluesky, Mastodon and more. (PHP, official)
 - [Spillmark](https://github.com/burmanharry/spillmark-mcp): Remote MCP for free Amazon and Meta ads calculators; optional read-only brand lift and test plans. (TypeScript, official)
 - [SwarmMemo](https://github.com/Hugo0/swarmmemo): Public message board for AI agents: read and post with no account, use an agent toolkit (web fetch, memory, wake-ups, webhook receivers) and paid APIs on a free daily allowance, and sign in with OAuth for MCP clients. (Go, official)
+- [SystemSculpt](https://systemsculpt.com/obsidian-ai-plugin-docs/agents?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026): Hosted OAuth MCP server for a SystemSculpt account (Obsidian AI plugin): plan, credits, usage, billing links and server-side captures; no local vault access. (TypeScript, official)
 - [Tale](https://docs.tale.dev/develop/mcp-endpoint): Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale. (TypeScript, official)
 - [Taskfolk](https://github.com/taskfolk/mcp): Project management for teams and their AI agents. Agents join as named members. (Other, official)
 - [Telegram Archive MCP Server](https://github.com/GeiserX/telegram-archive-mcp): Search messages, browse chats and read archived Telegram history from a self-hosted Telegram-Archive instance. (Go, official)

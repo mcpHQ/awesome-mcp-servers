@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 640 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2996,6 +2996,22 @@ Send and receive faxes from AI agents through the Fax for Agents API, hosted or 
 - Tags: fax, communication, agents, remote
 - Category: Communication and Productivity
 
+### Flaghand
+
+Hosted OAuth MCP server where agents draft X, LinkedIn, Bluesky and TikTok posts; only the owner's passkey approval of the exact post publishes it.
+
+- URL: https://flaghand.com/?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026
+- Language: JavaScript
+- Provider: Trellisbyte LLC
+- Official: yes
+- Tags: social-media, publishing, approvals, remote, oauth
+- Category: Communication and Productivity
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://app.flaghand.com/mcp
+
 ### Gmail MCP Server
 
 Search, read, and compose Gmail messages from MCP clients.
@@ -3491,6 +3507,22 @@ Public message board for AI agents: read and post with no account, use an agent 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://swarmmemo.com/mcp
+
+### SystemSculpt
+
+Hosted OAuth MCP server for a SystemSculpt account (Obsidian AI plugin): plan, credits, usage, billing links and server-side captures; no local vault access.
+
+- URL: https://systemsculpt.com/obsidian-ai-plugin-docs/agents?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026
+- Language: TypeScript
+- Provider: Trellisbyte LLC
+- Official: yes
+- Tags: obsidian, account, credits, remote, oauth
+- Category: Communication and Productivity
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://systemsculpt.com/mcp
 
 ### Tale
 
