@@ -4831,6 +4831,32 @@
     ]
   },
   {
+    "name": "Makernice",
+    "url": "https://makernice.com/mcp/",
+    "description": "Hosted remote MCP server (Streamable HTTP, OAuth 2.1) for generating AI videos and images with 17 models; every job is priced in USD before it runs.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Makernice",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.makernice.com/mcp"
+    },
+    "repository": "https://github.com/makernice/makernice-plugin",
+    "license": "MIT",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Jet Cab AMS",
     "url": "https://www.jetcabams.nl/llms.txt",
     "description": "Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.",

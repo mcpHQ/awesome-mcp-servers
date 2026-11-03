@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4159,6 +4159,22 @@ Official hosted MCP server with 44 tools for AI video, image, and audio generati
 - Category: AI, Agents, and Memory
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.magichour.ai/
+
+### Makernice
+
+Hosted remote MCP server (Streamable HTTP, OAuth 2.1) for generating AI videos and images with 17 models; every job is priced in USD before it runs.
+
+- URL: https://makernice.com/mcp/
+- Language: Other
+- Provider: Makernice
+- Official: yes
+- Tags: image-generation, video-generation, remote, oauth
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/makernice/makernice-plugin
+- License: MIT
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.makernice.com/mcp
 
 ### MELRA
 
