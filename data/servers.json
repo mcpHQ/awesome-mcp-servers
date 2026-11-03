@@ -6492,6 +6492,38 @@
     }
   },
   {
+    "name": "Keenable MCP Server",
+    "url": "https://github.com/keenableai/keenable-mcp",
+    "description": "Web search over Keenable's own index and page fetch as clean Markdown, with site and date filters; hosted remote server.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Keenable",
+    "tags": [
+      "search",
+      "web",
+      "fetch"
+    ],
+    "official": true,
+    "repository": "https://github.com/keenableai/keenable-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@keenable/mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.keenable.ai/mcp"
+    }
+  },
+  {
     "name": "AgenticWebScore",
     "url": "https://github.com/marifeting/agenticwebscore-mcp",
     "description": "Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1703,6 +1703,23 @@ Hosted server to search expired, auction and backorder domains with SEO metrics,
 - Transport: streamable-http
 - Auth: api-key, oauth
 - Streamable HTTP endpoint: https://mcp.karma.domains/mcp
+
+### Keenable MCP Server
+
+Web search over Keenable's own index and page fetch as clean Markdown, with site and date filters; hosted remote server.
+
+- URL: https://github.com/keenableai/keenable-mcp
+- Language: JavaScript
+- Provider: Keenable
+- Official: yes
+- Tags: search, web, fetch
+- Category: Browsers, Search, and Web Automation
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http, stdio
+- Auth: none, api-key
+- Install: npx @keenable/mcp
+- Streamable HTTP endpoint: https://api.keenable.ai/mcp
 
 ### LifeVerse Product Discovery
 
