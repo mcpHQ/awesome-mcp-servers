@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-638-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-639-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (79)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (68)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (69)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (70)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (30)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (130)
@@ -900,6 +900,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `company-data` `business-intelligence` `kyb` `oauth`
 - **[Globatics](https://globatics.live/docs/mcp)** `Official` `Other` — Read-only remote MCP server to query your own Globatics web analytics reports; a paid hosted tool, available on the Pro and Business plans.  
   `web-analytics` `privacy` `remote` `api-key`
+- **[GoAnyAPI MCP](https://goanyapi.com)** `Official` `Other` — Public SEO, website and ads data for agents: traffic, domain rating and history, backlinks, keywords, Google and Bing SERP, autocomplete, Google Trends, AdSense and Google Ads Transparency. ([source](https://github.com/GoAnyAPI/goanyapi-mcp))  
+  `seo` `serp` `backlinks` `remote` `oauth`
 - **[Google GenAI Toolbox](https://github.com/googleapis/genai-toolbox)** `Official` `Go` — Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources.  
   `bigquery` `gcp` `data`
 - **[Grafana MCP Server](https://github.com/grafana/mcp-grafana)** `Official` `Go` — Explore Grafana dashboards, alerts, and observability data.  

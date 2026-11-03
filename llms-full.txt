@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4892,6 +4892,22 @@ Read-only remote MCP server to query your own Globatics web analytics reports; a
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://globatics.live/api/mcp
+
+### GoAnyAPI MCP
+
+Public SEO, website and ads data for agents: traffic, domain rating and history, backlinks, keywords, Google and Bing SERP, autocomplete, Google Trends, AdSense and Google Ads Transparency.
+
+- URL: https://goanyapi.com
+- Language: Other
+- Provider: GoAnyAPI
+- Official: yes
+- Tags: seo, serp, backlinks, remote, oauth
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/GoAnyAPI/goanyapi-mcp
+- Transport: streamable-http
+- Auth: oauth
+- Verified: 2026-11-03
+- Streamable HTTP endpoint: https://mcp.goanyapi.com/mcp
 
 ### Google GenAI Toolbox
 

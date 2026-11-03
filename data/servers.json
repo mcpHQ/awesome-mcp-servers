@@ -8368,6 +8368,33 @@
     ]
   },
   {
+    "name": "GoAnyAPI MCP",
+    "url": "https://goanyapi.com",
+    "description": "Public SEO, website and ads data for agents: traffic, domain rating and history, backlinks, keywords, Google and Bing SERP, autocomplete, Google Trends, AdSense and Google Ads Transparency.",
+    "category": "data-analytics-and-bi",
+    "provider": "GoAnyAPI",
+    "tags": [
+      "seo",
+      "serp",
+      "backlinks",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/GoAnyAPI/goanyapi-mcp",
+    "endpoints": {
+      "streamableHttp": "https://mcp.goanyapi.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "verified": "2026-11-03",
+    "language": "Other"
+  },
+  {
     "name": "MELRA",
     "url": "https://github.com/XAGI-Lab/melra",
     "description": "Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation.",
