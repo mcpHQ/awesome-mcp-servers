@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 638 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 640 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -200,6 +200,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp): OCR local PDF files through the FastOCR API and check API balance from MCP clients. (Python, official)
 - [Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive): Access and search files in Google Drive from MCP clients. (Python)
 - [Grandpa's AI](https://github.com/wescorp/grandpasai-mcp): Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization. (JavaScript, official)
+- [Holos33](https://mcp.holos33.com): Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact. (Python, official)
 - [isGenAI](https://isgenai.com/developers/mcp): Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels. (TypeScript, official)
 - [Koru MCP Server](https://github.com/koruworks/mono): Search and read documents and files, and create and edit documents, in the local database of the Koru notes, docs and files app. (Rust, official)
 - [MarkItDown MCP](https://github.com/microsoft/markitdown): Convert PDFs, Office docs, and media into markdown for LLM ingestion. (Python, official)
@@ -578,6 +579,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [foto foto](https://github.com/nternet-company/fotofoto-mcp): Turn your photos or a public iCloud Shared Album into a printed hardcover photo book, and compare photo book prices across services. (Other, official)
 - [Frantic](https://github.com/gofrantic/frantic-mcp): Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results. (TypeScript, official)
 - [Glongus MCP](https://github.com/glongusmain/glongus-mcp): Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation. (JavaScript, official)
+- [Good Nature Vibe Catalog](https://catalog-mcp.goodnaturevibe.com): Provides read-only product catalog search and published shop knowledge without login, cart, checkout or ordering. (JavaScript, official)
 - [Google Hotels](https://github.com/huynhtanan/google-hotels-mcp): Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and more) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN). (Python)
 - [Grey Ridge x402 Market & DeFi Data](https://github.com/rezearcher/x402-data-api): Keyless Base market data for agents: live DeFi yields, perp funding rates, crypto spot prices, Polymarket odds and a pre-trade token-safety gate. Free preview tools; paid calls settle per request in USDC via x402, no key or account. (TypeScript)
 - [helloasso-mcp](https://github.com/edouard-claude/helloasso-mcp): HelloAsso for French associations: members, event tickets, donations, payments, refunds and checkout links, covering all 36 routes of the v5 API. (Rust)

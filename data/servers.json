@@ -6541,6 +6541,60 @@
     ]
   },
   {
+    "name": "Holos33",
+    "url": "https://mcp.holos33.com",
+    "description": "Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "AIAgentCycle",
+    "tags": [
+      "knowledge-base",
+      "privacy",
+      "read-only",
+      "wellbeing"
+    ],
+    "official": true,
+    "repository": "https://github.com/aiagentcycle/holos33-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.holos33.com/mcp"
+    }
+  },
+  {
+    "name": "Good Nature Vibe Catalog",
+    "url": "https://catalog-mcp.goodnaturevibe.com",
+    "description": "Provides read-only product catalog search and published shop knowledge without login, cart, checkout or ordering.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "AIAgentCycle",
+    "tags": [
+      "e-commerce",
+      "knowledge-base",
+      "product-catalog",
+      "read-only"
+    ],
+    "official": true,
+    "repository": "https://github.com/aiagentcycle/gnv-catalog-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://catalog-mcp.goodnaturevibe.com/mcp"
+    }
+  },
+  {
     "name": "GenFlick",
     "url": "https://genflick.com/developers/mcp",
     "description": "Remote MCP for the GenFlick AI studio for films, series, music videos and ads, with OAuth sign-in and no API key.",
