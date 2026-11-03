@@ -4435,6 +4435,38 @@
     ]
   },
   {
+    "name": "CueHQ",
+    "url": "https://www.cuehq.social/agents",
+    "description": "Finds the Reddit, X, YouTube and TikTok threads where people ask for a product like yours, ranked, with reply drafts in your voice.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "CueHQ",
+    "tags": [
+      "social-listening",
+      "reddit",
+      "lead-generation",
+      "marketing"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.cuehq.social/mcp"
+    },
+    "repository": "https://github.com/CueHQSocial/cuehq-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "cuehq-mcp"
+    },
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Kineticist",
     "url": "https://github.com/colinize/kineticist-mcp",
     "description": "Pinball news, games and editions, designers, places to play and the Hype Index from Kineticist, with a free hosted endpoint and a local npm package.",
