@@ -4745,6 +4745,32 @@
     ]
   },
   {
+    "name": "ScrapingBee MCP Server",
+    "url": "https://mcp.scrapingbee.com/",
+    "description": "Fetch any page as text, markdown, HTML or a screenshot with JavaScript rendering and anti-bot handling, extract structured data, and get Google, Amazon, Walmart and YouTube results as JSON.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "ScrapingBee",
+    "tags": [
+      "scraping",
+      "web",
+      "search",
+      "extraction",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/ScrapingBee/mcp-server",
+    "endpoints": {
+      "streamableHttp": "https://mcp.scrapingbee.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Mailcoach",
     "url": "https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/",
     "description": "Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list.",
