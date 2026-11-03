@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-638-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-639-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (73)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (74)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (62)
 - [Filesystems and Documents](#filesystems-and-documents) (24)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
@@ -146,6 +146,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `sandboxes` `agents` `developer-tools` `directory`
 - **[AgentTask Atlas](https://agenttaskatlas.com/mcp)** `Official` `TypeScript` — Read-only, no-auth search over a curated catalog of MCP servers and Agent Skills organized by dev task, each with a one-line verdict, install command and source link.  
   `directory` `discovery` `devtools` `remote`
+- **[anylocale](https://anylocale.com/mcp)** `Official` `TypeScript` — Hosted OAuth MCP server for iOS and Android app localization: per-locale coverage, missing strings, glossary-aware AI drafts, placeholder and length checks, and .xcstrings, .strings and strings.xml push and pull.  
+  `localization` `translation` `ios` `android` `remote`
 - **[API.market MCP Gateway](https://api.market/mcp)** `Official` `TypeScript` — Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API.  
   `api` `gateway` `oauth` `hosted`
 - **[app-console-mcp](https://github.com/Alekla0126/app-console-mcp)** `Python` — Manage Google Play Console, App Store Connect and AdMob through their official APIs: listings, reviews, releases, rollouts, vitals and ad reports, with every change a dry run by default.  

@@ -12965,5 +12965,32 @@
     "transport": [
       "stdio"
     ]
+  },
+  {
+    "name": "anylocale",
+    "url": "https://anylocale.com/mcp",
+    "description": "Hosted OAuth MCP server for iOS and Android app localization: per-locale coverage, missing strings, glossary-aware AI drafts, placeholder and length checks, and .xcstrings, .strings and strings.xml push and pull.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "anylocale",
+    "tags": [
+      "localization",
+      "translation",
+      "ios",
+      "android",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://anylocale.com/api/loc/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]

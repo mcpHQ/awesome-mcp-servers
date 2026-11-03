@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -420,6 +420,22 @@ Read-only, no-auth search over a curated catalog of MCP servers and Agent Skills
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://agenttaskatlas.com/api/mcp
+
+### anylocale
+
+Hosted OAuth MCP server for iOS and Android app localization: per-locale coverage, missing strings, glossary-aware AI drafts, placeholder and length checks, and .xcstrings, .strings and strings.xml push and pull.
+
+- URL: https://anylocale.com/mcp
+- Language: TypeScript
+- Provider: anylocale
+- Official: yes
+- Tags: localization, translation, ios, android, remote
+- Category: Developer Tools and Code Intelligence
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://anylocale.com/api/loc/mcp
 
 ### API.market MCP Gateway
 
