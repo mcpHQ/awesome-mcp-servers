@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-598-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-599-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (63)
 - [Legal and Court Data](#legal-and-court-data) (9)
 - [Security and Identity](#security-and-identity) (29)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (123)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (124)
 - [Utilities and Examples](#utilities-and-examples) (25)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1159,6 +1159,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `recruiting` `resume-parsing` `hiring` `remote` `oauth`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
+- **[inReels](https://github.com/inreels-ai/inreels-mcp)** `Official` `JavaScript` — Generate video ads, UGC ads, static image ads, voiceover and faceless videos from an agent, with exact credit quotes before spending.  
+  `video-generation` `ads` `ugc` `marketing` `remote`
 - **[Invompt](https://mcp.invompt.com/mcp)** `Official` `TypeScript` — Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com  
   `invoicing` `finance` `oauth` `remote`
 - **[Jet Cab AMS](https://www.jetcabams.nl/llms.txt)** `Official` `JavaScript` — Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.  

@@ -5210,6 +5210,25 @@
     }
   },
   {
+    "name": "inReels",
+    "url": "https://github.com/inreels-ai/inreels-mcp",
+    "description": "Generate video ads, UGC ads, static image ads, voiceover and faceless videos from an agent, with exact credit quotes before spending.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "inReels",
+    "tags": [
+      "video-generation",
+      "ads",
+      "ugc",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.inreels.ai/api/mcp"
+    }
+  },
+  {
     "name": "Lintelly HR Deutschland",
     "url": "https://github.com/NicksAdvisory/lintelly-hr-deutschland",
     "description": "German employment law for small companies: 38 read-only tools for notice periods, employer costs, sick pay, maternity protection and contract clauses, each answer with calculation and official source; remote server without sign-in.",
