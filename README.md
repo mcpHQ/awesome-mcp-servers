@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-673-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-674-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (83)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (74)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (73)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (74)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (140)
@@ -892,6 +892,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
 
 - **[AgenticWebScore](https://github.com/marifeting/agenticwebscore-mcp)** `Official` `TypeScript` — Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.  
   `seo` `agent-readiness` `llms-txt` `remote`
+- **[AgentSEO](https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server)** `Official` `TypeScript` — AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits. ([source](https://github.com/AgentSEO-dev/agentseo-clients))  
+  `seo` `keywords` `serp` `backlinks` `remote`
 - **[AltoRank](https://github.com/AltoRank/altorank)** `Official` `TypeScript` — Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.  
   `seo` `content` `marketing` `remote` `oauth`
 - **[Amplitude MCP Server](https://amplitude.com/docs/amplitude-ai/amplitude-mcp)** `Official` `TypeScript` — Analyze product analytics events and user behavior in Amplitude.  
