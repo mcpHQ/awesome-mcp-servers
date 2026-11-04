@@ -12965,5 +12965,796 @@
     "transport": [
       "stdio"
     ]
+  },
+  {
+    "name": "Persqo",
+    "url": "https://github.com/YaakovTzedek/persqo-mcp",
+    "description": "AI personas test a web app in a real browser and return findings and fix prompts; start runs, read findings, and pull fix prompts from MCP clients.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Persqo",
+    "tags": [
+      "testing",
+      "qa",
+      "usability",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://persqo.com/api/mcp"
+    },
+    "repository": "https://github.com/YaakovTzedek/persqo-mcp",
+    "license": "MIT",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:YaakovTzedek/persqo-mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
+    "name": "qURL",
+    "url": "https://github.com/layervai/qurl-mcp",
+    "description": "Mint, resolve, audit, and rotate scope-limited expiring access links (qURLs) for AI agents.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "LayerV AI",
+    "tags": [
+      "access-links",
+      "expiring-links",
+      "localhost-sharing",
+      "security"
+    ],
+    "official": true,
+    "repository": "https://github.com/layervai/qurl-mcp",
+    "license": "MIT",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.connector.layerv.ai/mcp"
+    },
+    "install": {
+      "command": "npx",
+      "package": "@layervai/qurl-mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "verified": "2026-11-03"
+  },
+  {
+    "name": "PostOnce",
+    "url": "https://docs.postonce.to/mcp/docs",
+    "description": "Official remote MCP server to post and schedule one video or image to many social networks, including Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Threads, Pinterest and Bluesky.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "PostOnce",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "crossposting",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/postoncehq/postonce-skills",
+    "endpoints": {
+      "streamableHttp": "https://postonce.to/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "QR Cloud",
+    "url": "https://qr-cloud.com/mcp-server/",
+    "description": "Creates dynamic QR codes and short links, sets up QR Reviews that route guests to Google or Tripadvisor, and reads click, scan and review statistics from a QR Cloud account.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "QR Cloud",
+    "tags": [
+      "qr-code",
+      "url-shortener",
+      "reviews",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://qr-cloud.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Google Ads Transparency MCP",
+    "url": "https://github.com/GeminiGeorge22/google-ads-transparency-mcp",
+    "description": "Competitor Google ads from the Google Ads Transparency Center by domain, advertiser ID or advertiser name: which ads are new, running or stopped, with first and last shown dates, format and ad links.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "google-ads",
+      "ad-intelligence",
+      "competitor-research",
+      "marketing"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/google-ads-transparency-scraper"
+    },
+    "repository": "https://github.com/GeminiGeorge22/google-ads-transparency-mcp",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "Holos33",
+    "url": "https://mcp.holos33.com",
+    "description": "Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "AIAgentCycle",
+    "tags": [
+      "knowledge-base",
+      "privacy",
+      "read-only",
+      "wellbeing"
+    ],
+    "official": true,
+    "repository": "https://github.com/aiagentcycle/holos33-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.holos33.com/mcp"
+    }
+  },
+  {
+    "name": "Good Nature Vibe Catalog",
+    "url": "https://catalog-mcp.goodnaturevibe.com",
+    "description": "Provides read-only product catalog search and published shop knowledge without login, cart, checkout or ordering.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "AIAgentCycle",
+    "tags": [
+      "e-commerce",
+      "knowledge-base",
+      "product-catalog",
+      "read-only"
+    ],
+    "official": true,
+    "repository": "https://github.com/aiagentcycle/gnv-catalog-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://catalog-mcp.goodnaturevibe.com/mcp"
+    }
+  },
+  {
+    "name": "anon.li",
+    "url": "https://anon.li/mcp",
+    "description": "Remote MCP server for anon.li, an open-source privacy suite: tools manage email aliases, recipients, end-to-end encrypted file drops and encrypted forms.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "anon.li",
+    "tags": [
+      "email-alias",
+      "privacy",
+      "file-sharing",
+      "encryption",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/anondotli/anon.li",
+    "license": "AGPL-3.0",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://anon.li/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "CueHQ",
+    "url": "https://www.cuehq.social/agents",
+    "description": "Finds the Reddit, X, YouTube and TikTok threads where people ask for a product like yours, ranked, with reply drafts in your voice.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "CueHQ",
+    "tags": [
+      "social-listening",
+      "reddit",
+      "lead-generation",
+      "marketing"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.cuehq.social/mcp"
+    },
+    "repository": "https://github.com/CueHQSocial/cuehq-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "cuehq-mcp"
+    },
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "inReels",
+    "url": "https://github.com/inreels-ai/inreels-mcp",
+    "description": "Generate video ads, UGC ads, static image ads, voiceover and faceless videos from an agent, with exact credit quotes before spending.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "inReels",
+    "tags": [
+      "video-generation",
+      "ads",
+      "ugc",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.inreels.ai/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "Sociality MCP",
+    "url": "https://github.com/socialityio/sociality-mcp",
+    "description": "Hosted OAuth MCP server from Sociality.io for social media analytics, post insights, and competitor benchmarking across Facebook, X, Instagram, YouTube, LinkedIn, and TikTok.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Sociality.io",
+    "tags": [
+      "social-media",
+      "analytics",
+      "competitor-analysis",
+      "marketing",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.sociality.io/mcp"
+    },
+    "repository": "https://github.com/socialityio/sociality-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "FactLot",
+    "url": "https://factlot.com",
+    "description": "Commercial real estate calculators that return every step and a versioned formula ID, plus parcel and entity IDs and fact validation. Free hosted endpoint, no API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "FactLot",
+    "tags": [
+      "commercial-real-estate",
+      "calculators",
+      "finance",
+      "remote",
+      "audit-trail"
+    ],
+    "official": true,
+    "repository": "https://github.com/9mp96ygnbk-alt/factlot",
+    "license": "Apache-2.0",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.factlot.com/mcp"
+    }
+  },
+  {
+    "name": "Flaghand",
+    "url": "https://flaghand.com/?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026",
+    "description": "Hosted OAuth MCP server where agents draft X, LinkedIn, Bluesky and TikTok posts; only the owner's passkey approval of the exact post publishes it.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "Trellisbyte LLC",
+    "tags": [
+      "social-media",
+      "publishing",
+      "approvals",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.flaghand.com/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "SystemSculpt",
+    "url": "https://systemsculpt.com/obsidian-ai-plugin-docs/agents?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026",
+    "description": "Hosted OAuth MCP server for a SystemSculpt account (Obsidian AI plugin): plan, credits, usage, billing links and server-side captures; no local vault access.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Trellisbyte LLC",
+    "tags": [
+      "obsidian",
+      "account",
+      "credits",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://systemsculpt.com/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "IPO Radar MCP",
+    "url": "https://github.com/songiangvan40006-boop/ipo-radar-mcp",
+    "description": "Free hosted MCP with live India IPO GMP, subscription, upcoming IPOs, and GMP accuracy for Claude/ChatGPT/Cursor.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "IPO Radar",
+    "tags": [
+      "ipo",
+      "gmp",
+      "india",
+      "finance",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/songiangvan40006-boop/ipo-radar-mcp",
+    "endpoints": {
+      "streamableHttp": "https://ipogmpradar.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "AgentDrives",
+    "url": "https://agentdrives.com/data#mcp",
+    "description": "Looks up whether an AI agent can really use a software product (sign-up, API key, the core tasks, paying, leaving), with levels 0 to 5 from real agent test drives.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "AgentDrives",
+    "tags": [
+      "agents",
+      "directory",
+      "saas",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://agentdrives.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Sendable",
+    "url": "https://docs.getsendable.io/integrations/mcp",
+    "description": "Finds LinkedIn prospects showing buying intent, qualifies them against an ideal customer profile, and manages Sendable outreach campaigns, leads and LinkedIn inbox.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Sendable",
+    "tags": [
+      "linkedin",
+      "sales",
+      "prospecting",
+      "outreach",
+      "crm"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://app.getsendable.io/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "Keenable MCP Server",
+    "url": "https://github.com/keenableai/keenable-mcp",
+    "description": "Web search over Keenable's own index and page fetch as clean Markdown, with site and date filters; hosted remote server.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Keenable",
+    "tags": [
+      "search",
+      "web",
+      "fetch"
+    ],
+    "official": true,
+    "repository": "https://github.com/keenableai/keenable-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@keenable/mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.keenable.ai/mcp"
+    }
+  },
+  {
+    "name": "AIAgentCycle MCP Server",
+    "url": "https://aiagentcycle.com",
+    "description": "Read-only, source-linked access to AIAgentCycle services, prices, integrations, cases, FAQs and company knowledge in Dutch and English.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "AIAgentCycle",
+    "tags": [
+      "company-knowledge",
+      "automation",
+      "integrations",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/aiagentcycle/aiagentcycle-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-02",
+    "endpoints": {
+      "streamableHttp": "https://mcp.aiagentcycle.com/mcp"
+    }
+  },
+  {
+    "name": "Makernice",
+    "url": "https://makernice.com/mcp/",
+    "description": "Hosted remote MCP server (Streamable HTTP, OAuth 2.1) for generating AI videos and images with 17 models; every job is priced in USD before it runs.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Makernice",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.makernice.com/mcp"
+    },
+    "repository": "https://github.com/makernice/makernice-plugin",
+    "license": "MIT",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "ScrapingBee MCP Server",
+    "url": "https://mcp.scrapingbee.com/",
+    "description": "Fetch any page as text, markdown, HTML or a screenshot with JavaScript rendering and anti-bot handling, extract structured data, and get Google, Amazon, Walmart and YouTube results as JSON.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "ScrapingBee",
+    "tags": [
+      "scraping",
+      "web",
+      "search",
+      "extraction",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/ScrapingBee/mcp-server",
+    "endpoints": {
+      "streamableHttp": "https://mcp.scrapingbee.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "GoAnyAPI MCP",
+    "url": "https://goanyapi.com",
+    "description": "Public SEO, website and ads data for agents: traffic, domain rating and history, backlinks, keywords, Google and Bing SERP, autocomplete, Google Trends, AdSense and Google Ads Transparency.",
+    "category": "data-analytics-and-bi",
+    "provider": "GoAnyAPI",
+    "tags": [
+      "seo",
+      "serp",
+      "backlinks",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/GoAnyAPI/goanyapi-mcp",
+    "endpoints": {
+      "streamableHttp": "https://mcp.goanyapi.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "verified": "2026-11-03",
+    "language": "Other"
+  },
+  {
+    "name": "SpecStream",
+    "url": "https://specstream.ai/docs/mcp",
+    "description": "Hosted MCP server that returns structured records from the live web for requests in plain words, with the price shown before each run and billing per delivered row.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "SpecStream",
+    "tags": [
+      "web-data",
+      "structured-data",
+      "enrichment",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/specstream/specstream-tools",
+    "endpoints": {
+      "streamableHttp": "https://api.specstream.ai/mcp"
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "anylocale",
+    "url": "https://anylocale.com/mcp",
+    "description": "Hosted OAuth MCP server for iOS and Android app localization: per-locale coverage, missing strings, glossary-aware AI drafts, placeholder and length checks, and .xcstrings, .strings and strings.xml push and pull.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "anylocale",
+    "tags": [
+      "localization",
+      "translation",
+      "ios",
+      "android",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://anylocale.com/api/loc/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "CartViral",
+    "url": "https://cartviral.com/mcp",
+    "description": "Hosted server that imports products from a store or product link and makes AI product videos for TikTok, Reels and Shorts, product photos, carousels, static ads and listing copy, returning download links.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "CartViral",
+    "tags": [
+      "ecommerce",
+      "video",
+      "marketing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.cartviral.com/mcp"
+    },
+    "repository": "https://github.com/artemecom/cartviral-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Gov Tenders MCP",
+    "url": "https://github.com/GeminiGeorge22/gov-tenders-mcp",
+    "description": "Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "GeminiGeorge22",
+    "tags": [
+      "government",
+      "tenders",
+      "procurement",
+      "grants"
+    ],
+    "official": false,
+    "repository": "https://github.com/GeminiGeorge22/gov-tenders-mcp",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:GeminiGeorge22/gov-tenders-mcp"
+    }
+  },
+  {
+    "name": "New Job Postings MCP (Ashby, Greenhouse, Lever, SmartRecruiters)",
+    "url": "https://github.com/GeminiGeorge22/ats-jobs-mcp",
+    "description": "New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "GeminiGeorge22",
+    "tags": [
+      "jobs",
+      "recruiting",
+      "ats",
+      "greenhouse"
+    ],
+    "official": false,
+    "repository": "https://github.com/GeminiGeorge22/ats-jobs-mcp",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:GeminiGeorge22/ats-jobs-mcp"
+    }
+  },
+  {
+    "name": "CoreSpeed",
+    "url": "https://corespeed.io/docs/mcp",
+    "description": "Hosted OAuth MCP gateway for any agent: your connected apps (Notion, Slack, GitHub, Gmail and more), shared team memory, web search, social data and media tools, with spend caps and an activity log.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "CoreSpeed",
+    "tags": [
+      "gateway",
+      "oauth",
+      "hosted",
+      "memory",
+      "connectors"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.corespeed.io/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "knowsme",
+    "url": "https://knowsme.dev",
+    "description": "One memory of who you are and how you work (notes, rules and projects) that any AI model or agent can read and update over MCP, across apps and machines.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "knowsme",
+    "tags": [
+      "memory",
+      "agents",
+      "personalization",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.knowsme.dev/mcp",
+      "sse": "https://mcp.knowsme.dev/sse"
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "sse"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
