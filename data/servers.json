@@ -13518,6 +13518,38 @@
     ]
   },
   {
+    "name": "Atlas Cloud MCP Server",
+    "url": "https://github.com/AtlasCloudAI/mcp-server",
+    "description": "Generate images, videos, 3D models, speech and music, transcribe audio, chat with LLMs, and check balance and usage through Atlas Cloud's model API.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Atlas Cloud",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "llm",
+      "text-to-speech"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.atlascloud.ai/mcp"
+    },
+    "repository": "https://github.com/AtlasCloudAI/mcp-server",
+    "license": "MIT",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "atlascloud-mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
     "name": "ScrapingBee MCP Server",
     "url": "https://mcp.scrapingbee.com/",
     "description": "Fetch any page as text, markdown, HTML or a screenshot with JavaScript rendering and anti-bot handling, extract structured data, and get Google, Amazon, Walmart and YouTube results as JSON.",
