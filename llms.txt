@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 667 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 673 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -92,6 +92,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes): Operate Kubernetes clusters with kubectl-style MCP tools. (TypeScript)
 - [Latchkey](https://latchkey.dev/documentation/connect-your-ai-agent): Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: failure bundles with root cause and logs, run status, workflow dispatch, and one-off commands on fresh ephemeral runners. (Other, official)
 - [Linear MCP Server](https://linear.app/docs/mcp): Create and manage Linear issues, projects, and team workflows. (TypeScript, official)
+- [link-check-lite](https://github.com/tidybytetools/link-check-lite): Checks a list of web links and reports each status code, final URL and redirect chain. (Python)
 - [LynxPrompt MCP Server](https://github.com/GeiserX/lynxprompt-mcp): Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance. (Go, official)
 - [Mac MCP](https://github.com/bulutarkan/mac-mcp): Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal. (Python)
 - [MaxiBestOf](https://github.com/luminous8/maxibestof-mcp): Search website designs, UI sections, fonts, palettes, and design profiles. Requires MaxiBestOf Pro. (Other, official)
@@ -202,6 +203,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server): Read and write Airtable bases, tables, and records via MCP. (TypeScript)
 - [BrewPage](https://github.com/kochetkov-ma/brewpage-openapi): Publish HTML pages, Markdown, static sites, files, JSON and key-value data to free temporary HTTPS links with no signup or API key; content expires after a set TTL. (TypeScript, official)
 - [Comment.io MCP Server](https://comment.io/llms/mcp.md): Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server. (Rust, official)
+- [doc2md-lite](https://github.com/tidybytetools/doc2md-lite): Turns local text PDFs and saved HTML pages into Markdown and keeps tables as Markdown tables. (Python)
 - [DocuQueue MCP](https://github.com/docuqueue/docuqueue-mcp): Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier. (TypeScript, official)
 - [FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp): OCR local PDF files through the FastOCR API and check API balance from MCP clients. (Python, official)
 - [Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive): Access and search files in Google Drive from MCP clients. (Python)
@@ -216,6 +218,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [officegrep](https://github.com/Asgoresmilelong/officegrep): Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index. (Python)
 - [Pagelive MCP Server](https://pagelive.io/mcp): Publish HTML that Claude builds as a private, view-tracked link, then update it, read views and answer comments. (TypeScript, official)
 - [PDF MCP Server](https://github.com/jztan/pdf-mcp): Extract text and metadata from PDF documents for analysis. (Python)
+- [pdf-table-pull-lite](https://github.com/tidybytetools/pdf-table-pull-lite): Pulls tables out of local text PDFs as CSV text or CSV files, with no OCR and no API key. (Python)
 - [PDFtoMarkdown.ai](https://github.com/happywpco/pdftomarkdown-mcp): Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured Markdown with headings, tables and optional OCR via the PDFtoMarkdown.ai API; free pages, then pay-per-page credits. (JavaScript, official)
 - [PennyOCR](https://github.com/imiraoui/pennyocr-mcp): Convert PDFs and images to Markdown or text, estimate document-processing costs, and check credit balances with an API key and hard spend caps. (TypeScript, official)
 - [ReadGZH](https://github.com/sweesama/readgzh): Read public WeChat Official Account articles as Markdown for AI agents over remote MCP and REST. (TypeScript)
@@ -357,6 +360,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [AISkills402](https://aiskills402.com): Remote MCP server (streamable HTTP, no key) to search tested Agent Skill files (SKILL.md), read a skill card with its x402 price and re-download a bought file; the files are paid per file over x402 (USDC on Base). (TypeScript, official)
 - [Anansi Haven](https://github.com/kburrus64-max/anansi-haven): Remote MCP server (also A2A and HTTP) giving agents a persistent identity, versioned key-value memory that survives restarts, client-side encrypted storage, an agent directory and a job board. (JavaScript)
 - [apimodels.app MCP Server](https://apimodels.app/docs/mcp): Official MCP server for apimodels.app: generate and edit images, create videos, synthesize speech and chat through one account with 150+ models; hosted Streamable HTTP with OAuth, or local stdio via npx. (TypeScript, official)
+- [Atlas Cloud MCP Server](https://github.com/AtlasCloudAI/mcp-server): Generate images, videos, 3D models, speech and music, transcribe audio, chat with LLMs, and check balance and usage through Atlas Cloud's model API. (TypeScript, official)
 - [BotGathering](https://botgathering.com): Remote MCP server where AI agents search tested step-by-step playbooks, follow them and report outcomes. (Other, official)
 - [ContextStream](https://github.com/contextstream/mcp-server): Shared project memory that both developers and AI agents read and write across Cursor, Claude Code, Codex, Grok, Windsurf and the rest. (TypeScript, official)
 - [Continuity](https://github.com/LAHutchins91/continuity-mcp): Remote MCP story bible for fiction writers: locked characters, relationships, world rules, timelines, and approved scenes with OAuth for ChatGPT, Claude, Gemini, Grok, and Cursor. (TypeScript)
@@ -412,6 +416,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Sqwakie](https://github.com/alexcarney460-hue/walkie): Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards. (TypeScript, official)
 - [Stivio](https://stivio.ai/mcp): AI image-to-video generator MCP server. Turn any image into a 5-second video with plain-language motion prompts. (Other, official)
 - [Takibi Base](https://takibibase.com/docs/connector): Ask your Takibi Base collections anything; get answers with cited passages and a support score. (Other, official)
+- [UberLLM](https://uberllm.dev/docs/mcp): Generate and edit images, start and follow video and music jobs, list models with their current price, quote a request before running it, and check balance through one prepaid UberLLM API key. (Go, official)
 - [VideoGen MCP](https://videogen.io/videogen-mcp): Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects. (TypeScript, official)
 - [Waspes](https://waspes.com/api): AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server. (Other, official)
 - [Wiro AI](https://github.com/wiroai/Wiro-MCP): Official MCP server for Wiro AI: search 3,500+ AI models for images, video, audio, speech, music and text, check each model's parameters and price, run it and get the results back in your assistant. (TypeScript, official)
@@ -586,6 +591,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [datawebot](https://github.com/datawebot/datawebot-mcp): Hosted product search and seller prices across online shops worldwide, plus extraction jobs for Amazon and Shopify pages, over remote Streamable HTTP with OAuth or an API key. (Other, official)
 - [Dexra](https://github.com/dexra-dev/mcp): Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC. (JavaScript, official)
 - [Dropify](https://github.com/xozxro/dropify-mcp): Looks up the official merch stores Dropify tracks for an artist or brand and returns the page where restock and drop alerts are set. (TypeScript, official)
+- [Ecommerce Leads](https://getecommerceleads.com/docs/): Look up any ecommerce store by domain for estimated revenue, ad spend, traffic and buying signals; sign in to search 600k+ stores and reveal contacts. (PHP, official)
 - [Edgrapi](https://edgrapi.com): US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants, House STOCK Act trades and SEC EDGAR filings, 19 read-only tools. (Python, official)
 - [Elori](https://github.com/elori-debug/elori-mcp): Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required. (TypeScript, official)
 - [Equibles](https://equibles.com/mcp): Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access. (C#, official)

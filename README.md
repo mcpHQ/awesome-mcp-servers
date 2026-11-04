@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-667-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-673-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,16 +43,16 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (75)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (76)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (65)
-- [Filesystems and Documents](#filesystems-and-documents) (26)
+- [Filesystems and Documents](#filesystems-and-documents) (28)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (83)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (72)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (74)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (73)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (139)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (140)
 - [Utilities and Examples](#utilities-and-examples) (32)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -218,6 +218,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `ci-cd` `github-actions` `devops` `hosted` `remote`
 - **[Linear MCP Server](https://linear.app/docs/mcp)** `Official` `TypeScript` — Create and manage Linear issues, projects, and team workflows.  
   `issues` `project-management` `product`
+- **[link-check-lite](https://github.com/tidybytetools/link-check-lite)** `Python` — Checks a list of web links and reports each status code, final URL and redirect chain.  
+  `links` `http` `seo`
 - **[LynxPrompt MCP Server](https://github.com/GeiserX/lynxprompt-mcp)** `Official` `Go` — Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance.  
   `agents-md` `prompts` `ai-rules`
 - **[Mac MCP](https://github.com/bulutarkan/mac-mcp)** `Python` — Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal.  
@@ -440,6 +442,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `hosting` `html` `markdown` `file-sharing` `remote`
 - **[Comment.io MCP Server](https://comment.io/llms/mcp.md)** `Official` `Rust` — Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.  
   `documents` `collaboration` `remote` `oauth`
+- **[doc2md-lite](https://github.com/tidybytetools/doc2md-lite)** `Python` — Turns local text PDFs and saved HTML pages into Markdown and keeps tables as Markdown tables.  
+  `pdf` `html` `markdown`
 - **[DocuQueue MCP](https://github.com/docuqueue/docuqueue-mcp)** `Official` `TypeScript` — Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.  
   `pdf` `document-generation` `form-filling` `invoice`
 - **[FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp)** `Official` `Python` — OCR local PDF files through the FastOCR API and check API balance from MCP clients.  
@@ -468,6 +472,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `publishing` `html` `documents` `oauth` `remote`
 - **[PDF MCP Server](https://github.com/jztan/pdf-mcp)** `Python` — Extract text and metadata from PDF documents for analysis.  
   `pdf` `documents` `extraction`
+- **[pdf-table-pull-lite](https://github.com/tidybytetools/pdf-table-pull-lite)** `Python` — Pulls tables out of local text PDFs as CSV text or CSV files, with no OCR and no API key.  
+  `pdf` `csv` `tables`
 - **[PDFtoMarkdown.ai](https://github.com/happywpco/pdftomarkdown-mcp)** `Official` `JavaScript` — Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured Markdown with headings, tables and optional OCR via the PDFtoMarkdown.ai API; free pages, then pay-per-page credits.  
   `pdf` `documents` `markdown` `conversion` `ocr`
 - **[PennyOCR](https://github.com/imiraoui/pennyocr-mcp)** `Official` `TypeScript` — Convert PDFs and images to Markdown or text, estimate document-processing costs, and check credit balances with an API key and hard spend caps.  
@@ -753,6 +759,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `agents` `storage` `directory` `remote`
 - **[apimodels.app MCP Server](https://apimodels.app/docs/mcp)** `Official` `TypeScript` — Official MCP server for apimodels.app: generate and edit images, create videos, synthesize speech and chat through one account with 150+ models; hosted Streamable HTTP with OAuth, or local stdio via npx.  
   `image-generation` `ai-video` `text-to-speech` `remote` `oauth`
+- **[Atlas Cloud MCP Server](https://github.com/AtlasCloudAI/mcp-server)** `Official` `TypeScript` — Generate images, videos, 3D models, speech and music, transcribe audio, chat with LLMs, and check balance and usage through Atlas Cloud's model API.  
+  `image-generation` `video-generation` `llm` `text-to-speech`
 - **[BotGathering](https://botgathering.com)** `Official` `Other` — Remote MCP server where AI agents search tested step-by-step playbooks, follow them and report outcomes.  
   `playbooks` `agents` `remote`
 - **[ContextStream](https://github.com/contextstream/mcp-server)** `Official` `TypeScript` — Shared project memory that both developers and AI agents read and write across Cursor, Claude Code, Codex, Grok, Windsurf and the rest.  
@@ -863,6 +871,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `image-to-video` `video-generation` `ai-video` `remote`
 - **[Takibi Base](https://takibibase.com/docs/connector)** `Official` `Other` — Ask your Takibi Base collections anything; get answers with cited passages and a support score.  
   `knowledge-base` `citations` `remote` `oauth`
+- **[UberLLM](https://uberllm.dev/docs/mcp)** `Official` `Go` — Generate and edit images, start and follow video and music jobs, list models with their current price, quote a request before running it, and check balance through one prepaid UberLLM API key. ([source](https://github.com/PSA-Team-source/uberllm))  
+  `image-generation` `video-generation` `llm` `remote`
 - **[VideoGen MCP](https://videogen.io/videogen-mcp)** `Official` `TypeScript` — Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects.  
   `video` `images` `audio` `marketing`
 - **[Waspes](https://waspes.com/api)** `Official` `Other` — AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server.  
@@ -1215,6 +1225,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `solana` `crypto` `risk` `x402`
 - **[Dropify](https://github.com/xozxro/dropify-mcp)** `Official` `TypeScript` — Looks up the official merch stores Dropify tracks for an artist or brand and returns the page where restock and drop alerts are set.  
   `merch` `restock-alerts` `shopping` `music`
+- **[Ecommerce Leads](https://getecommerceleads.com/docs/)** `Official` `PHP` — Look up any ecommerce store by domain for estimated revenue, ad spend, traffic and buying signals; sign in to search 600k+ stores and reveal contacts. ([source](https://github.com/matosdfm/ecommerce-leads-mcp))  
+  `ecommerce` `sales` `leads` `marketing` `remote`
 - **[Edgrapi](https://edgrapi.com)** `Official` `Python` — US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants, House STOCK Act trades and SEC EDGAR filings, 19 read-only tools.  
   `government-data` `sec-edgar` `procurement` `remote` `oauth`
 - **[Elori](https://github.com/elori-debug/elori-mcp)** `Official` `TypeScript` — Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.  
