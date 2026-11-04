@@ -7024,6 +7024,39 @@
     ]
   },
   {
+    "name": "qURL",
+    "url": "https://github.com/layervai/qurl-mcp",
+    "description": "Mint, resolve, audit, and rotate scope-limited expiring access links (qURLs) for AI agents.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "LayerV AI",
+    "tags": [
+      "access-links",
+      "expiring-links",
+      "localhost-sharing",
+      "security"
+    ],
+    "official": true,
+    "repository": "https://github.com/layervai/qurl-mcp",
+    "license": "MIT",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.connector.layerv.ai/mcp"
+    },
+    "install": {
+      "command": "npx",
+      "package": "@layervai/qurl-mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "verified": "2026-11-03"
+  },
+  {
     "name": "JobsPipe",
     "url": "https://github.com/jobspipe/mcp",
     "description": "Search live job postings from 30+ ATS feeds and job boards in one normalized schema, filter by location, salary, seniority, skills and visa stance, and save searches as alerts.",
