@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5877,6 +5877,22 @@ Hosted MCP server that lists lookalike domains of a brand's website and shows wh
 - Category: Security and Identity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://openbait.com/api/mcp
+
+### Rugsight
+
+Rug-pull risk scores for Solana SPL tokens from on-chain data (mint and freeze authority, holder concentration, liquidity, age) with explained flags; free score tool, full report via keyless x402 pay-per-call in USDC.
+
+- URL: https://github.com/rugsightapp/rugsight
+- Language: TypeScript
+- Provider: Rugsight
+- Official: yes
+- Tags: solana, crypto, security, x402
+- Category: Security and Identity
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://rugsight.rugsight.workers.dev/mcp
 
 ### Scalekit MCP Server
 
