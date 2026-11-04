@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 667 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 670 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -853,6 +853,22 @@ Create and manage Linear issues, projects, and team workflows.
 - Official: yes
 - Tags: issues, project-management, product
 - Category: Developer Tools and Code Intelligence
+
+### link-check-lite
+
+Checks a list of web links and reports each status code, final URL and redirect chain.
+
+- URL: https://github.com/tidybytetools/link-check-lite
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: links, http, seo
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: uvx link-check-lite
 
 ### LynxPrompt MCP Server
 
@@ -2184,6 +2200,22 @@ Connect an app as an agent in a Comment.io workspace to work with shared documen
 - Auth: oauth
 - Streamable HTTP endpoint: https://comment.io/mcp
 
+### doc2md-lite
+
+Turns local text PDFs and saved HTML pages into Markdown and keeps tables as Markdown tables.
+
+- URL: https://github.com/tidybytetools/doc2md-lite
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: pdf, html, markdown
+- Category: Filesystems and Documents
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: uvx doc2md-lite
+
 ### DocuQueue MCP
 
 Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.
@@ -2354,6 +2386,22 @@ Extract text and metadata from PDF documents for analysis.
 - Official: no
 - Tags: pdf, documents, extraction
 - Category: Filesystems and Documents
+
+### pdf-table-pull-lite
+
+Pulls tables out of local text PDFs as CSV text or CSV files, with no OCR and no API key.
+
+- URL: https://github.com/tidybytetools/pdf-table-pull-lite
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: pdf, csv, tables
+- Category: Filesystems and Documents
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: uvx pdf-table-pull-lite
 
 ### PDFtoMarkdown.ai
 

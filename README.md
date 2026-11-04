@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-667-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-670-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,9 +43,9 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (75)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (76)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (65)
-- [Filesystems and Documents](#filesystems-and-documents) (26)
+- [Filesystems and Documents](#filesystems-and-documents) (28)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (83)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (72)
@@ -218,6 +218,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `ci-cd` `github-actions` `devops` `hosted` `remote`
 - **[Linear MCP Server](https://linear.app/docs/mcp)** `Official` `TypeScript` — Create and manage Linear issues, projects, and team workflows.  
   `issues` `project-management` `product`
+- **[link-check-lite](https://github.com/tidybytetools/link-check-lite)** `Python` — Checks a list of web links and reports each status code, final URL and redirect chain.  
+  `links` `http` `seo`
 - **[LynxPrompt MCP Server](https://github.com/GeiserX/lynxprompt-mcp)** `Official` `Go` — Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance.  
   `agents-md` `prompts` `ai-rules`
 - **[Mac MCP](https://github.com/bulutarkan/mac-mcp)** `Python` — Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal.  
@@ -440,6 +442,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `hosting` `html` `markdown` `file-sharing` `remote`
 - **[Comment.io MCP Server](https://comment.io/llms/mcp.md)** `Official` `Rust` — Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.  
   `documents` `collaboration` `remote` `oauth`
+- **[doc2md-lite](https://github.com/tidybytetools/doc2md-lite)** `Python` — Turns local text PDFs and saved HTML pages into Markdown and keeps tables as Markdown tables.  
+  `pdf` `html` `markdown`
 - **[DocuQueue MCP](https://github.com/docuqueue/docuqueue-mcp)** `Official` `TypeScript` — Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.  
   `pdf` `document-generation` `form-filling` `invoice`
 - **[FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp)** `Official` `Python` — OCR local PDF files through the FastOCR API and check API balance from MCP clients.  
@@ -468,6 +472,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `publishing` `html` `documents` `oauth` `remote`
 - **[PDF MCP Server](https://github.com/jztan/pdf-mcp)** `Python` — Extract text and metadata from PDF documents for analysis.  
   `pdf` `documents` `extraction`
+- **[pdf-table-pull-lite](https://github.com/tidybytetools/pdf-table-pull-lite)** `Python` — Pulls tables out of local text PDFs as CSV text or CSV files, with no OCR and no API key.  
+  `pdf` `csv` `tables`
 - **[PDFtoMarkdown.ai](https://github.com/happywpco/pdftomarkdown-mcp)** `Official` `JavaScript` — Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured Markdown with headings, tables and optional OCR via the PDFtoMarkdown.ai API; free pages, then pay-per-page credits.  
   `pdf` `documents` `markdown` `conversion` `ocr`
 - **[PennyOCR](https://github.com/imiraoui/pennyocr-mcp)** `Official` `TypeScript` — Convert PDFs and images to Markdown or text, estimate document-processing costs, and check credit balances with an API key and hard spend caps.  
