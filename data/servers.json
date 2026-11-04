@@ -10075,6 +10075,32 @@
     ]
   },
   {
+    "name": "PostOnce",
+    "url": "https://docs.postonce.to/mcp/docs",
+    "description": "Official remote MCP server to post and schedule one video or image to many social networks, including Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Threads, Pinterest and Bluesky.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "PostOnce",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "crossposting",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/postoncehq/postonce-skills",
+    "endpoints": {
+      "streamableHttp": "https://postonce.to/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Salesforce MCP Server",
     "url": "https://github.com/salesforcecli/mcp",
     "description": "Query Salesforce CRM records and manage business workflows.",

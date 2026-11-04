@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3304,6 +3304,21 @@ Open-source agent-native form backend that receives contact-form POSTs, stores s
 - Official: no
 - Tags: forms, email, webhooks, self-hosted
 - Category: Communication and Productivity
+
+### PostOnce
+
+Official remote MCP server to post and schedule one video or image to many social networks, including Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Threads, Pinterest and Bluesky.
+
+- URL: https://docs.postonce.to/mcp/docs
+- Language: TypeScript
+- Provider: PostOnce
+- Official: yes
+- Tags: social-media, scheduling, crossposting, remote, oauth
+- Category: Communication and Productivity
+- Repository: https://github.com/postoncehq/postonce-skills
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://postonce.to/mcp
 
 ### Posty: Social Media Scheduler
 
