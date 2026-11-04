@@ -11263,6 +11263,34 @@
     ]
   },
   {
+    "name": "Rugsight",
+    "url": "https://github.com/rugsightapp/rugsight",
+    "description": "Rug-pull risk scores for Solana SPL tokens from on-chain data (mint and freeze authority, holder concentration, liquidity, age) with explained flags; free score tool, full report via keyless x402 pay-per-call in USDC.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Rugsight",
+    "tags": [
+      "solana",
+      "crypto",
+      "security",
+      "x402"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://rugsight.rugsight.workers.dev/mcp"
+    },
+    "repository": "https://github.com/rugsightapp/rugsight",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Iris",
     "url": "https://iriscan.app/mcp",
     "description": "Hosted on-chain investigations: wallet analysis, fund tracing through mixers, exchanges and instant swaps, and Solana token insiders, on Solana, EVM chains, Bitcoin and Tron. API key (10 free calls a day) or x402 per call.",

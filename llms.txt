@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 638 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 639 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -512,6 +512,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [mcp-gatehouse](https://github.com/nickgeorgeseo/mcp-gatehouse): Python library that adds permission tiers, fail-closed human approval gates and a secret-redacting JSONL audit log to MCP servers built on the official SDK. (Python)
 - [NPMScan](https://npmscan.com/docs/mcp): Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs. (TypeScript, official)
 - [OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check): Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows. (Go, official)
+- [Rugsight](https://github.com/rugsightapp/rugsight): Rug-pull risk scores for Solana SPL tokens from on-chain data (mint and freeze authority, holder concentration, liquidity, age) with explained flags; free score tool, full report via keyless x402 pay-per-call in USDC. (TypeScript, official)
 - [Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server): Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server. (TypeScript, official)
 - [Snyk MCP Server](https://github.com/snyk/studio-mcp): Scan dependencies and code for vulnerabilities with Snyk. (TypeScript, official)
 - [Solana Pulse](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway): Read-only pre-sign checks for Solana agents: dry-runs a transaction on mainnet, confirms it matches the requested transfer or swap, and rates token risk; 25 free calls per tool a day, then x402 in USDC. (TypeScript, official)
