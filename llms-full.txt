@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 638 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 639 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6525,6 +6525,22 @@ Looks up the official merch stores Dropify tracks for an artist or brand and ret
 - Official: yes
 - Tags: merch, restock-alerts, shopping, music
 - Category: Finance, Commerce, and Business Apps
+
+### Ecommerce Leads
+
+Look up any ecommerce store by domain for estimated revenue, ad spend, traffic and buying signals; sign in to search 600k+ stores and reveal contacts.
+
+- URL: https://getecommerceleads.com/docs/
+- Language: PHP
+- Provider: Ecommerce Leads
+- Official: yes
+- Tags: ecommerce, sales, leads, marketing, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/matosdfm/ecommerce-leads-mcp
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none, oauth
+- Streamable HTTP endpoint: https://getecommerceleads.com/api/mcp
 
 ### Edgrapi
 

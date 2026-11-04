@@ -6798,6 +6798,34 @@
     "repository": "https://github.com/bowmark-ai/mcp"
   },
   {
+    "name": "Ecommerce Leads",
+    "url": "https://getecommerceleads.com/docs/",
+    "description": "Look up any ecommerce store by domain for estimated revenue, ad spend, traffic and buying signals; sign in to search 600k+ stores and reveal contacts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Ecommerce Leads",
+    "tags": [
+      "ecommerce",
+      "sales",
+      "leads",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/matosdfm/ecommerce-leads-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://getecommerceleads.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "oauth"
+    ]
+  },
+  {
     "name": "Sequenzy",
     "url": "https://github.com/Sequenzy/mcp",
     "description": "Manage email contacts, campaigns, automation sequences, transactional email and analytics.",
