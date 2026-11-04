@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-667-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-668-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (26)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (83)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (72)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (73)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (73)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
@@ -863,6 +863,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `image-to-video` `video-generation` `ai-video` `remote`
 - **[Takibi Base](https://takibibase.com/docs/connector)** `Official` `Other` — Ask your Takibi Base collections anything; get answers with cited passages and a support score.  
   `knowledge-base` `citations` `remote` `oauth`
+- **[UberLLM](https://uberllm.dev/docs/mcp)** `Official` `Go` — Generate and edit images, start and follow video and music jobs, list models with their current price, quote a request before running it, and check balance through one prepaid UberLLM API key. ([source](https://github.com/PSA-Team-source/uberllm))  
+  `image-generation` `video-generation` `llm` `remote`
 - **[VideoGen MCP](https://videogen.io/videogen-mcp)** `Official` `TypeScript` — Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects.  
   `video` `images` `audio` `marketing`
 - **[Waspes](https://waspes.com/api)** `Official` `Other` — AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server.  

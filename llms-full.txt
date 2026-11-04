@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 667 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 668 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4742,6 +4742,23 @@ Ask your Takibi Base collections anything; get answers with cited passages and a
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.takibibase.com/mcp
+
+### UberLLM
+
+Generate and edit images, start and follow video and music jobs, list models with their current price, quote a request before running it, and check balance through one prepaid UberLLM API key.
+
+- URL: https://uberllm.dev/docs/mcp
+- Language: Go
+- Provider: UberLLM
+- Official: yes
+- Tags: image-generation, video-generation, llm, remote
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/PSA-Team-source/uberllm
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://api.uberllm.dev/mcp
 
 ### VideoGen MCP
 

@@ -7692,6 +7692,33 @@
     ]
   },
   {
+    "name": "UberLLM",
+    "url": "https://uberllm.dev/docs/mcp",
+    "description": "Generate and edit images, start and follow video and music jobs, list models with their current price, quote a request before running it, and check balance through one prepaid UberLLM API key.",
+    "category": "ai-agents-and-memory",
+    "language": "Go",
+    "provider": "UberLLM",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "llm",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/PSA-Team-source/uberllm",
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://api.uberllm.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "installed-api",
     "url": "https://github.com/ajwann/installed-api",
     "description": "Answers API questions from the packages installed in the project: Python signatures, docstrings and source from the project's interpreter, TypeScript declarations from node_modules, and installed versions.",
