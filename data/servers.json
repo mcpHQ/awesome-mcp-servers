@@ -6160,7 +6160,8 @@
       "streamable-http"
     ],
     "auth": [
-      "oauth"
+      "oauth",
+      "api-key"
     ]
   },
   {

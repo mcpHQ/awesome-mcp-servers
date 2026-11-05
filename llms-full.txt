@@ -3614,7 +3614,7 @@ Answer, note, assign, triage and close Rinhelp help desk conversations, search k
 - License: proprietary
 - Pricing: freemium
 - Transport: streamable-http
-- Auth: oauth
+- Auth: oauth, api-key
 - Streamable HTTP endpoint: https://mcp.rinhelp.com/mcp
 
 ### SemanticHub
