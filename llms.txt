@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 673 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 674 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -99,6 +99,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [MCP Production Kit](https://github.com/A7mdMe/mcp-production-kit): Enterprise TypeScript starter kit for building production MCP servers with dual stdio/SSE transports, SSRF defense, memory store, and Docker support. (TypeScript)
 - [mcp-pool](https://github.com/yuzu-octopus/mcp-pool): MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown. (TypeScript)
 - [mcp-probe-kit](https://github.com/mybolide/mcp-probe-kit): Spec-driven dev workflow MCP server: start_feature/start_bugfix orchestration, resumable plans, a converge gate requiring requirements, spec, test and review evidence, and cross-session history. Install with npx -y mcp-probe-kit@latest. (TypeScript)
+- [mcpserverlist-mcp](https://github.com/sudomichael/mcpserverlist-mcp): Check if your MCP server is ready for MCP directories, then get it submitted. (TypeScript, official)
 - [NAIF Gravity](https://naifgravity.com): Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs. (Other, official)
 - [Nicelydone](https://github.com/nicelydoneapp/mcp): Search web app screens, UI elements, and user flows for design research. Requires Nicelydone Premium. (Other, official)
 - [Oh My Android](https://github.com/ateymoori/oh-my-android): Native macOS app with a built-in MCP server that lets AI agents see and drive the Android Emulator and adb devices: screenshots, UI tree in dp, taps, logcat, dark mode, font scale, and locale. (Swift)

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-673-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-674-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (76)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (77)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (65)
 - [Filesystems and Documents](#filesystems-and-documents) (28)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
@@ -232,6 +232,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `mcp` `proxy` `pool` `api-keys` `rate-limiting`
 - **[mcp-probe-kit](https://github.com/mybolide/mcp-probe-kit)** `TypeScript` — Spec-driven dev workflow MCP server: start_feature/start_bugfix orchestration, resumable plans, a converge gate requiring requirements, spec, test and review evidence, and cross-session history. Install with npx -y mcp-probe-kit@latest.  
   `spec-driven-development` `workflow` `coding-agents` `npm`
+- **[mcpserverlist-mcp](https://github.com/sudomichael/mcpserverlist-mcp)** `Official` `TypeScript` — Check if your MCP server is ready for MCP directories, then get it submitted.  
+  `developer-tools` `directory-submission` `remote`
 - **[NAIF Gravity](https://naifgravity.com)** `Official` `Other` — Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.  
   `diagnostics` `api` `auth` `webhooks` `remote`
 - **[Nicelydone](https://github.com/nicelydoneapp/mcp)** `Official` `Other` — Search web app screens, UI elements, and user flows for design research. Requires Nicelydone Premium.  
