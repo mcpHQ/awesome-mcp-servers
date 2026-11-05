@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-673-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-674-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (73)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (140)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (141)
 - [Utilities and Examples](#utilities-and-examples) (32)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1297,6 +1297,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `jobs` `job-search` `read-only` `remote`
 - **[Leal](https://www.getleal.com/mcp)** `Official` `Ruby` — Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters.  
   `loyalty` `apple-wallet` `retail` `remote` `oauth`
+- **[LinkedIn People Search (AlphaOSINT)](https://alphaosint.com/sources/linkedin-people-search-api/)** `Python` — Searches LinkedIn people by title, company, location and keywords and returns structured profile rows, served as a remote MCP tool on Apify.  
+  `linkedin` `people-search` `sales` `remote`
 - **[Live Tennis API MCP](https://www.npmjs.com/package/livetennisapi-mcp)** `TypeScript` — Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.  
   `tennis` `sports` `live-scores` `fixtures` `event-markets`
 - **[Mach GTM MCP](https://github.com/verma6uc/mach-gtm-mcp)** `TypeScript` — Open-source MCP server for B2B outbound sales: build ICPs, research prospects, score leads (0-100 fit), draft cold email and LinkedIn messages, and build multi-touch sequences.  

@@ -13924,5 +13924,31 @@
       "none",
       "oauth"
     ]
+  },
+  {
+    "name": "LinkedIn People Search (AlphaOSINT)",
+    "url": "https://alphaosint.com/sources/linkedin-people-search-api/",
+    "description": "Searches LinkedIn people by title, company, location and keywords and returns structured profile rows, served as a remote MCP tool on Apify.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "AlphaOSINT",
+    "tags": [
+      "linkedin",
+      "people-search",
+      "sales",
+      "remote"
+    ],
+    "official": false,
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=johnvc/linkedin-people-search-api"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]

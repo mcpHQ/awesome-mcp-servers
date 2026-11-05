@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 673 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 674 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -627,6 +627,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Lava / 熔岩](https://github.com/dustinliang666-blip/lava-mcp): Read-only A-share stock and concept-board news-flow heat monitoring via structured remote MCP/REST for quant tools and AI agent market research; API key required. (TypeScript, official)
 - [LAYIQ Jobs](https://www.layiq.co/connectors/claude): Search public job listings and read job details from LAYIQ, a candidate-first job search workspace without sponsored listings. Read-only; no account or API key. (Other, official)
 - [Leal](https://www.getleal.com/mcp): Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters. (Ruby, official)
+- [LinkedIn People Search (AlphaOSINT)](https://alphaosint.com/sources/linkedin-people-search-api/): Searches LinkedIn people by title, company, location and keywords and returns structured profile rows, served as a remote MCP tool on Apify. (Python)
 - [Live Tennis API MCP](https://www.npmjs.com/package/livetennisapi-mcp): Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors. (TypeScript)
 - [Mach GTM MCP](https://github.com/verma6uc/mach-gtm-mcp): Open-source MCP server for B2B outbound sales: build ICPs, research prospects, score leads (0-100 fit), draft cold email and LinkedIn messages, and build multi-touch sequences. (TypeScript)
 - [MAQAMI Travel](https://github.com/negm17111995/mcp-server): Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key. (JavaScript, official)
