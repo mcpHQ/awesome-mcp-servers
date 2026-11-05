@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-673-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-674-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (73)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (140)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (141)
 - [Utilities and Examples](#utilities-and-examples) (32)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1405,6 +1405,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `travel` `tours` `kamchatka` `booking` `remote`
 - **[Voidpay Marketplace MCP](https://github.com/voidly-ai/pay-mcp)** `Official` `TypeScript` — Find services and storefronts on Voidly's hosted marketplace for AI-agent services and prepare checkout links that the owner reviews and approves in their own browser; the connector never signs, pays or holds keys.  
   `marketplace` `agent-payments` `checkout` `commerce` `remote`
+- **[W System EU Business Data](https://wsystem.dev/eu-business-data-mcp-server)** `Official` `Python` — Remote MCP server for EU business checks: VAT validation via VIES (national fallback when VIES is down), EORI, company registries, EU/UN/OFAC/UK sanctions, KYB and EN 16931 e-invoices. ([source](https://github.com/wsystemdev/eu-business-data-mcp))  
+  `vat` `vies` `kyb` `sanctions` `e-invoicing`
 - **[Warden MCP](https://github.com/warden-protocol/warden-mcp)** `Official` `Other` — Remote MCP server for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within user-set limits.  
   `crypto` `trading` `defi` `onchain` `ai-agents`
 - **[Whimbrel MedTech Analyst](https://github.com/WhimbrelResearch/whimbrel-mcp)** `Official` `JavaScript` — Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.  

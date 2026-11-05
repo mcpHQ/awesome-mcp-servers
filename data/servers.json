@@ -6764,6 +6764,35 @@
     ]
   },
   {
+    "name": "W System EU Business Data",
+    "url": "https://wsystem.dev/eu-business-data-mcp-server",
+    "description": "Remote MCP server for EU business checks: VAT validation via VIES (national fallback when VIES is down), EORI, company registries, EU/UN/OFAC/UK sanctions, KYB and EN 16931 e-invoices.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "W System",
+    "tags": [
+      "vat",
+      "vies",
+      "kyb",
+      "sanctions",
+      "e-invoicing"
+    ],
+    "official": true,
+    "repository": "https://github.com/wsystemdev/eu-business-data-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.wsystem.dev/mcp/"
+    }
+  },
+  {
     "name": "Kilobat CLI",
     "url": "https://github.com/seifip/kilobat-cli",
     "description": "Mac network monitoring and diagnostics through a local stdio MCP server.",
