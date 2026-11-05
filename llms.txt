@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 673 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 674 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -319,6 +319,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Reddit MCP Publisher](https://github.com/Bl0ck154/reddit-mcp-publisher): Self-hosted Reddit MCP server that reads account context and prepares browser-previewed, owner-approved posts, comments and direct messages. (TypeScript)
 - [Repostit for Claude](https://app.repostit.io/claude-connector.html): Official hosted MCP connector for managing connected social accounts, creating post and carousel drafts, scheduling publishing, cross-account workflows, and checking delivery status. (Other, official)
 - [Revid](https://www.revid.ai/mcp): Official Revid server to research viral TikTok, YouTube, Instagram and X videos, make finished short-form videos with voice, captions and music, and publish or schedule them. (TypeScript, official)
+- [Rinhelp](https://docs.rinhelp.com/articles/98a0def1-a07d-4c34-9f19-4d168626b40c-connect-your-ai-agent): Answer, note, assign, triage and close Rinhelp help desk conversations, search knowledge, publish help center articles, and find Shopify orders and Stripe customers; refunds and cancellations wait for a teammate's approval. (TypeScript, official)
 - [SemanticHub](https://semantichub.app/docs): Official remote server that monitors news sources, clusters articles by topic and generates texts from them; OAuth 2 or Bearer token, free plan. (Python, official)
 - [Sequenzy](https://github.com/Sequenzy/mcp): Manage email contacts, campaigns, automation sequences, transactional email and analytics. (TypeScript, official)
 - [Shipmail](https://github.com/shipmail-to/shipmail-mcp): Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks. (TypeScript, official)

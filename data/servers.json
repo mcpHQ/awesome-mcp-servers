@@ -6137,6 +6137,33 @@
     ]
   },
   {
+    "name": "Rinhelp",
+    "url": "https://docs.rinhelp.com/articles/98a0def1-a07d-4c34-9f19-4d168626b40c-connect-your-ai-agent",
+    "description": "Answer, note, assign, triage and close Rinhelp help desk conversations, search knowledge, publish help center articles, and find Shopify orders and Stripe customers; refunds and cancellations wait for a teammate's approval.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Rinhelp",
+    "tags": [
+      "helpdesk",
+      "customer-support",
+      "shared-inbox",
+      "help-center",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.rinhelp.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "genesis-blackbox",
     "url": "https://github.com/johannschiffer/genesis-blackbox",
     "description": "Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.",

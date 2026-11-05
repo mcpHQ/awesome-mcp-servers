@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 673 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 674 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3600,6 +3600,22 @@ Official Revid server to research viral TikTok, YouTube, Instagram and X videos,
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://www.revid.ai/api/mcp
+
+### Rinhelp
+
+Answer, note, assign, triage and close Rinhelp help desk conversations, search knowledge, publish help center articles, and find Shopify orders and Stripe customers; refunds and cancellations wait for a teammate's approval.
+
+- URL: https://docs.rinhelp.com/articles/98a0def1-a07d-4c34-9f19-4d168626b40c-connect-your-ai-agent
+- Language: TypeScript
+- Provider: Rinhelp
+- Official: yes
+- Tags: helpdesk, customer-support, shared-inbox, help-center, oauth
+- Category: Communication and Productivity
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.rinhelp.com/mcp
 
 ### SemanticHub
 
