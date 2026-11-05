@@ -8195,7 +8195,7 @@
     ],
     "install": {
       "command": "npx",
-      "package": "@agentseo/mcp-server@0.1.4"
+      "package": "@agentseo/mcp-server@0.1.5"
     },
     "auth": [
       "api-key"

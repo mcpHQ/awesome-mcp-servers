@@ -4917,7 +4917,7 @@ AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword resear
 - License: MIT
 - Transport: stdio, streamable-http
 - Auth: api-key
-- Install: npx @agentseo/mcp-server@0.1.4
+- Install: npx @agentseo/mcp-server@0.1.5
 - Streamable HTTP endpoint: https://www.agentseo.dev/mcp
 
 ### AltoRank
