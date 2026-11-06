@@ -7056,6 +7056,33 @@
     ]
   },
   {
+    "name": "OpenMapp",
+    "url": "https://www.openmapp.com",
+    "description": "Free remote MCP for a US Brazilian Jiu-Jitsu gym map: search 1,368 gyms across 664 cities for open mats, drop-in classes, weekly schedules, and visitor drop-in prices.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "OpenMapp",
+    "tags": [
+      "bjj",
+      "gyms",
+      "maps",
+      "travel",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/burmanharry/openmapp",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://www.openmapp.com/mcp"
+    }
+  },
+  {
     "name": "Unitpost",
     "url": "https://www.unitpost.com/ai/mcp",
     "description": "Hosted MCP server for Unitpost: send transactional email, campaigns and SMS, and manage contacts, templates, sending domains, webhooks and inbound email.",

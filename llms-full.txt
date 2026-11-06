@@ -5607,6 +5607,22 @@ Free local stdio MCP with ten tools on official open data: EU VAT/LEI, TED tende
 - Pricing: free
 - Transport: stdio
 
+### OpenMapp
+
+Free remote MCP for a US Brazilian Jiu-Jitsu gym map: search 1,368 gyms across 664 cities for open mats, drop-in classes, weekly schedules, and visitor drop-in prices.
+
+- URL: https://www.openmapp.com
+- Language: Other
+- Provider: OpenMapp
+- Official: yes
+- Tags: bjj, gyms, maps, travel, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/burmanharry/openmapp
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://www.openmapp.com/mcp
+
 ### PeekPanda
 
 Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps paying for, the App Store searches it ranks for and the organic posts that went viral.

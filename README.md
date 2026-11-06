@@ -998,6 +998,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `health` `wearables` `fitness` `fhir` `self-hosted`
 - **[open-data-mcp](https://github.com/markatdataandbeyond/open-data-mcp)** `JavaScript` — Free local stdio MCP with ten tools on official open data: EU VAT/LEI, TED tenders, PubMed, ClinicalTrials.gov, company registries, VIN recalls and weather.  
   `open-data` `vies` `pubmed` `company-registry` `stdio`
+- **[OpenMapp](https://www.openmapp.com)** `Official` `Other` — Free remote MCP for a US Brazilian Jiu-Jitsu gym map: search 1,368 gyms across 664 cities for open mats, drop-in classes, weekly schedules, and visitor drop-in prices. ([source](https://github.com/burmanharry/openmapp))  
+  `bjj` `gyms` `maps` `travel` `remote`
 - **[PeekPanda](https://github.com/fdarkaou/peekpanda-mcp)** `Official` `Other` — Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps paying for, the App Store searches it ranks for and the organic posts that went viral.  
   `ios` `app-store` `aso` `ads` `remote`
 - **[PreReason](https://github.com/PreReason/mcp)** `Official` `JavaScript` — Financial market context for AI agents, reasoned in advance, from the economy and markets to listed companies' reported results; remote Streamable HTTP or npm stdio bridge.  
