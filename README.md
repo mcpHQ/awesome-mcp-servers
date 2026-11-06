@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (65)
 - [Filesystems and Documents](#filesystems-and-documents) (28)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
-- [Communication and Productivity](#communication-and-productivity) (83)
+- [Communication and Productivity](#communication-and-productivity) (84)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (74)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (74)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -676,6 +676,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `social-media` `scheduling` `publishing` `drafts` `cross-posting`
 - **[Revid](https://www.revid.ai/mcp)** `Official` `TypeScript` — Official Revid server to research viral TikTok, YouTube, Instagram and X videos, make finished short-form videos with voice, captions and music, and publish or schedule them.  
   `video` `video-generation` `social-media` `remote`
+- **[Rinhelp](https://docs.rinhelp.com/articles/98a0def1-a07d-4c34-9f19-4d168626b40c-connect-your-ai-agent)** `Official` `TypeScript` — Answer, note, assign, triage and close Rinhelp help desk conversations, search knowledge, publish help center articles, and find Shopify orders and Stripe customers; refunds and cancellations wait for a teammate's approval.  
+  `helpdesk` `customer-support` `shared-inbox` `help-center` `oauth`
 - **[SemanticHub](https://semantichub.app/docs)** `Official` `Python` — Official remote server that monitors news sources, clusters articles by topic and generates texts from them; OAuth 2 or Bearer token, free plan.  
   `news` `monitoring` `content` `oauth`
 - **[Sequenzy](https://github.com/Sequenzy/mcp)** `Official` `TypeScript` — Manage email contacts, campaigns, automation sequences, transactional email and analytics.  
