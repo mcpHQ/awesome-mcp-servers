@@ -10627,7 +10627,7 @@
   {
     "name": "mcpserverlist-mcp",
     "url": "https://github.com/sudomichael/mcpserverlist-mcp",
-    "description": "Check if your MCP server is ready for MCP directories, then get it submitted.",
+    "description": "Check if your MCP server is ready for MCP directories, then get it submitted and keep every listing up to date.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "sudomichael",
