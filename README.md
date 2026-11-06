@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-673-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-674-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (83)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (74)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (73)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (74)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (140)
@@ -988,6 +988,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `health` `wearables` `fitness` `fhir` `self-hosted`
 - **[open-data-mcp](https://github.com/markatdataandbeyond/open-data-mcp)** `JavaScript` — Free local stdio MCP with ten tools on official open data: EU VAT/LEI, TED tenders, PubMed, ClinicalTrials.gov, company registries, VIN recalls and weather.  
   `open-data` `vies` `pubmed` `company-registry` `stdio`
+- **[OpenMapp](https://www.openmapp.com)** `Official` `Other` — Free remote MCP for a US Brazilian Jiu-Jitsu gym map: search 1,368 gyms across 664 cities for open mats, drop-in classes, weekly schedules, and visitor drop-in prices. ([source](https://github.com/burmanharry/openmapp))  
+  `bjj` `gyms` `maps` `travel` `remote`
 - **[PeekPanda](https://github.com/fdarkaou/peekpanda-mcp)** `Official` `Other` — Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps paying for, the App Store searches it ranks for and the organic posts that went viral.  
   `ios` `app-store` `aso` `ads` `remote`
 - **[PreReason](https://github.com/PreReason/mcp)** `Official` `JavaScript` — Financial market context for AI agents, reasoned in advance, from the economy and markets to listed companies' reported results; remote Streamable HTTP or npm stdio bridge.  
