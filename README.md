@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-674-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-684-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,11 +48,11 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (29)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (84)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (74)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (74)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (75)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (76)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (141)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (144)
 - [Utilities and Examples](#utilities-and-examples) (32)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -849,6 +849,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `knowledge` `markdown` `oauth` `remote`
 - **[Plazmi](https://plazmi.gg/SKILL.md)** `Official` `Other` — A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.  
   `agents` `game` `persistent-world` `no-auth`
+- **[PopNow MCP Server](https://popnow.ai/docs/mcp)** `Official` `TypeScript` — Remote MCP server for creating images, videos, music and speech with hosted AI models, quoting a USD price before each paid task and running any catalog model by its API ID. ([source](https://github.com/popnow-ai/popnow-api-mcp))  
+  `image-generation` `video-generation` `audio` `remote`
 - **[Pyrimid](https://github.com/pyrimid-ai/pyrimid)** `Official` `TypeScript` — Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.  
   `x402` `ai-agent` `payments` `base` `usdc`
 - **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)** `Official` `TypeScript` — Discover model inputs and create AI image, video, music, speech, and other model API tasks.  

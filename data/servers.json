@@ -13693,29 +13693,6 @@
     ]
   },
   {
-    "name": "IPO Radar MCP",
-    "url": "https://github.com/songiangvan40006-boop/ipo-radar-mcp",
-    "description": "Free hosted MCP with live India IPO GMP, subscription, upcoming IPOs, and GMP accuracy for Claude/ChatGPT/Cursor.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "TypeScript",
-    "provider": "IPO Radar",
-    "tags": [
-      "ipo",
-      "gmp",
-      "india",
-      "finance",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/songiangvan40006-boop/ipo-radar-mcp",
-    "endpoints": {
-      "streamableHttp": "https://ipogmpradar.com/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ]
-  },
-  {
     "name": "AgentDrives",
     "url": "https://agentdrives.com/data#mcp",
     "description": "Looks up whether an AI agent can really use a software product (sign-up, API key, the core tasks, paying, leaving), with levels 0 to 5 from real agent test drives.",
@@ -13739,32 +13716,6 @@
     ],
     "auth": [
       "none"
-    ]
-  },
-  {
-    "name": "Sendable",
-    "url": "https://docs.getsendable.io/integrations/mcp",
-    "description": "Finds LinkedIn prospects showing buying intent, qualifies them against an ideal customer profile, and manages Sendable outreach campaigns, leads and LinkedIn inbox.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "TypeScript",
-    "provider": "Sendable",
-    "tags": [
-      "linkedin",
-      "sales",
-      "prospecting",
-      "outreach",
-      "crm"
-    ],
-    "official": true,
-    "license": "proprietary",
-    "endpoints": {
-      "streamableHttp": "https://app.getsendable.io/api/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth"
     ]
   },
   {
