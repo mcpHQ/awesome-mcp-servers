@@ -7087,6 +7087,41 @@
     ]
   },
   {
+    "name": "PlugMCP directory MCP",
+    "url": "https://plugmcp.ai/directory-mcp",
+    "description": "Search MCP servers and agent skills, compare them, and get install configs for Cursor, Claude, VS Code, Codex, Grok Bot and more.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "PlugMCP",
+    "tags": [
+      "directory",
+      "registry",
+      "search",
+      "agent-skills",
+      "remote"
+    ],
+    "official": false,
+    "repository": "https://github.com/plugmcp-ai/plugmcp-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "plugmcp-mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://plugmcp.ai/mcp-server"
+    },
+    "verified": "2026-11-06"
+  },
+  {
     "name": "OpenMapp",
     "url": "https://www.openmapp.com",
     "description": "Free remote MCP for a US Brazilian Jiu-Jitsu gym map: search 1,368 gyms across 664 cities for open mats, drop-in classes, weekly schedules, and visitor drop-in prices.",
