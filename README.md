@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (76)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (65)
-- [Filesystems and Documents](#filesystems-and-documents) (28)
+- [Filesystems and Documents](#filesystems-and-documents) (29)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (84)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (74)
@@ -486,6 +486,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `file-transfer` `encryption` `agents` `handoff`
 - **[Signbee MCP Server](https://github.com/signbee/mcp)** `Official` `TypeScript` — Send Markdown or PDF documents for two-party electronic signing with SHA-256 cryptographic audit certificates and OTP verification.  
   `documents` `esignature` `contracts` `legal` `pdf`
+- **[VectoSolve](https://vectosolve.com/integrations/mcp)** `Official` `TypeScript` — Converts a PNG, JPG or WebP image into a clean SVG, DXF or EPS file for design tools, Cricut, laser cutters and CNC routers. ([source](https://github.com/Vectosolve/vectosolve-mcp))  
+  `svg` `vectorize` `dxf` `image-conversion` `remote`
 - **[Yap MCP](https://github.com/founden-bot/yap-mcp)** `Official` `JavaScript` — Transcribes local audio and video files on your computer with Parakeet TDT v3 (25 European languages, no API key, no upload) and searches your Yap dictation history.  
   `speech-to-text` `transcription` `audio` `local`
 

@@ -225,6 +225,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Readwise MCP Server](https://github.com/readwiseio/readwise-mcp): Search highlights and reading notes from Readwise. (TypeScript, official)
 - [SEAL MCP](https://seal.net/docs/mcp): Transfer large files and secrets between people and AI agents through client-side encrypted, expiring handoffs. (TypeScript, official)
 - [Signbee MCP Server](https://github.com/signbee/mcp): Send Markdown or PDF documents for two-party electronic signing with SHA-256 cryptographic audit certificates and OTP verification. (TypeScript, official)
+- [VectoSolve](https://vectosolve.com/integrations/mcp): Converts a PNG, JPG or WebP image into a clean SVG, DXF or EPS file for design tools, Cricut, laser cutters and CNC routers. (TypeScript, official)
 - [Yap MCP](https://github.com/founden-bot/yap-mcp): Transcribes local audio and video files on your computer with Parakeet TDT v3 (25 European languages, no API key, no upload) and searches your Yap dictation history. (JavaScript, official)
 
 ## Cloud and Infrastructure
