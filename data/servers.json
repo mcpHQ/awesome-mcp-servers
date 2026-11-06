@@ -7781,6 +7781,35 @@
     ]
   },
   {
+    "name": "AttriKit",
+    "url": "https://github.com/KamyarTaher/attrikit-mcp",
+    "description": "Web-to-app attribution for iOS and Android apps that buy ads: create campaign links, import ad spend, read each campaign's scale, cut or hold call, manage Meta, TikTok and RevenueCat connections, and export installs and events.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "AttriKit",
+    "tags": [
+      "attribution",
+      "mobile-apps",
+      "advertising",
+      "marketing-analytics",
+      "api-key"
+    ],
+    "official": true,
+    "repository": "https://github.com/KamyarTaher/attrikit-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@attrkit/mcp"
+    },
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Cooper Email",
     "url": "https://cooperemail.com/docs/mcp",
     "description": "Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier.",
