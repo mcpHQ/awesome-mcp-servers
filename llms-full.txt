@@ -7639,6 +7639,21 @@ Hosted server that sends trade alerts from an MCP client to Nyria Paper or a con
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://api.nyria.io/mcp
 
+### OMX for Hyperliquid
+
+Non-custodial Hyperliquid perps execution for AI agents: pre-trade limits, human approval, kill switch, audit log; keyless demo via `uvx omx-hyperliquid`; optional disclosed 1 bp builder fee.
+
+- URL: https://github.com/Lumen-Founder/omx
+- Language: Python
+- Provider: Lumen-Founder
+- Official: yes
+- Tags: hyperliquid, trading, execution, ai-agents, non-custodial
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Transport: stdio
+- Auth: none
+- Install: uvx omx-hyperliquid
+
 ### Orizn Visa
 
 Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs.

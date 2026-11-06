@@ -9261,6 +9261,34 @@
     "repository": "https://github.com/ateymoori/oh-my-android"
   },
   {
+    "name": "OMX for Hyperliquid",
+    "url": "https://github.com/Lumen-Founder/omx",
+    "description": "Non-custodial Hyperliquid perps execution for AI agents: pre-trade limits, human approval, kill switch, audit log; keyless demo via `uvx omx-hyperliquid`; optional disclosed 1 bp builder fee.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Lumen-Founder",
+    "tags": [
+      "hyperliquid",
+      "trading",
+      "execution",
+      "ai-agents",
+      "non-custodial"
+    ],
+    "official": true,
+    "repository": "https://github.com/Lumen-Founder/omx",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "omx-hyperliquid"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Ollama MCP Bridge",
     "url": "https://github.com/jaspertvdm/mcp-server-ollama-bridge",
     "description": "Run local Llama, Mistral, and Qwen models via Ollama through MCP.",
