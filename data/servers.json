@@ -8251,6 +8251,38 @@
     "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
+    "name": "AgentSEO",
+    "url": "https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server",
+    "description": "AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "AgentSEO",
+    "tags": [
+      "seo",
+      "keywords",
+      "serp",
+      "backlinks",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/AgentSEO-dev/agentseo-clients",
+    "license": "MIT",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@agentseo/mcp-server@0.1.5"
+    },
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://www.agentseo.dev/mcp"
+    }
+  },
+  {
     "name": "MCP TypeScript SDK",
     "url": "https://github.com/modelcontextprotocol/typescript-sdk",
     "description": "Official TypeScript SDK for building MCP servers and clients.",

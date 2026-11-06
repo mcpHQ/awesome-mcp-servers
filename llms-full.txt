@@ -4903,6 +4903,23 @@ Scan a public website for AI agent readiness: 60 checks, a score and evidence fo
 - Auth: api-key
 - Streamable HTTP endpoint: https://agenticwebscore.com/mcp
 
+### AgentSEO
+
+AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits.
+
+- URL: https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server
+- Language: TypeScript
+- Provider: AgentSEO
+- Official: yes
+- Tags: seo, keywords, serp, backlinks, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/AgentSEO-dev/agentseo-clients
+- License: MIT
+- Transport: stdio, streamable-http
+- Auth: api-key
+- Install: npx @agentseo/mcp-server@0.1.5
+- Streamable HTTP endpoint: https://www.agentseo.dev/mcp
+
 ### AltoRank
 
 Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.
