@@ -7933,6 +7933,34 @@
     "repository": "https://github.com/ajwann/installed-api"
   },
   {
+    "name": "EL7.AI",
+    "url": "https://el7.ai/en/mcp",
+    "description": "Financial market intelligence for your AI: markets news, economic calendar, 8 central banks, COT positioning, stocks, earnings, gold and oil, with sources and dates; 85 read-only tools, English first with full Arabic support.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "EL7.AI",
+    "tags": [
+      "finance",
+      "markets",
+      "central-banks",
+      "economic-calendar",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/walidelhelw/el7-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.el7.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Domain Search King",
     "url": "https://github.com/johnsmalls22-rgb/domain-search-king-mcp",
     "description": "Suggests .com domain names and returns only those currently available to register, checked against the Verisign RDAP registry; hosted, no API key.",

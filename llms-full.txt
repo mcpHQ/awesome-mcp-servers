@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 684 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 685 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7105,6 +7105,22 @@ US government data as JSON: SAM.gov contract opportunities, USAspending awards, 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://api.edgrapi.com/mcp
+
+### EL7.AI
+
+Financial market intelligence for your AI: markets news, economic calendar, 8 central banks, COT positioning, stocks, earnings, gold and oil, with sources and dates; 85 read-only tools, English first with full Arabic support.
+
+- URL: https://el7.ai/en/mcp
+- Language: TypeScript
+- Provider: EL7.AI
+- Official: yes
+- Tags: finance, markets, central-banks, economic-calendar, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/walidelhelw/el7-mcp
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.el7.ai/mcp
 
 ### Elori
 
