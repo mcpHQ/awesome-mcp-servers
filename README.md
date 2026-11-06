@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (74)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (140)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (141)
 - [Utilities and Examples](#utilities-and-examples) (32)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1313,6 +1313,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `health` `medical-bills` `billing` `insurance` `remote`
 - **[Melso](https://docs.melso.ai/mcp/overview)** `Official` `Other` — OAuth-protected remote MCP for Spanish fiscal records, invoices, expenses and tax calendars in Melso.  
   `finance` `accounting` `oauth` `remote`
+- **[Metaintro Job Search](https://www.metaintro.com/developers/mcp)** `Official` `TypeScript` — Search live jobs pulled straight from employer career sites, read postings, and see how employers hire and pay; free, no sign-in.  
+  `jobs` `job-search` `careers` `hiring` `remote`
 - **[MoltNode by Chord](https://github.com/tuantqse90/moltnode-mcp)** `Official` `Other` — Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.  
   `blockchain` `json-rpc` `defi` `swap` `crypto`
 - **[Noonlaunch](https://github.com/mukund1158/noonlaunch-mcp)** `Official` `PHP` — Launch a product on Noonlaunch, search its product directory and weekly winners, and find 333 startup launch directories; hosted, no API key or account needed to connect.  

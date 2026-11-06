@@ -7555,6 +7555,22 @@ OAuth-protected remote MCP for Spanish fiscal records, invoices, expenses and ta
 - Auth: oauth
 - Streamable HTTP endpoint: https://mcp.melso.ai/mcp
 
+### Metaintro Job Search
+
+Search live jobs pulled straight from employer career sites, read postings, and see how employers hire and pay; free, no sign-in.
+
+- URL: https://www.metaintro.com/developers/mcp
+- Language: TypeScript
+- Provider: Metaintro
+- Official: yes
+- Tags: jobs, job-search, careers, hiring, remote
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://www.metaintro.com/api/mcp/public
+
 ### MoltNode by Chord
 
 Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.

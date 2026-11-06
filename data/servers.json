@@ -6275,6 +6275,33 @@
     "official": true
   },
   {
+    "name": "Metaintro Job Search",
+    "url": "https://www.metaintro.com/developers/mcp",
+    "description": "Search live jobs pulled straight from employer career sites, read postings, and see how employers hire and pay; free, no sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Metaintro",
+    "tags": [
+      "jobs",
+      "job-search",
+      "careers",
+      "hiring",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.metaintro.com/api/mcp/public"
+    },
+    "license": "proprietary",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Transita",
     "url": "https://github.com/snenenenenenene/transita-mcp-server",
     "description": "Matches a profile against 100+ immigration visa pathways in 16 countries and returns eligibility, costs, timelines and live intake status.",
