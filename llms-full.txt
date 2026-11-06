@@ -8204,6 +8204,23 @@ Find services and storefronts on Voidly's hosted marketplace for AI-agent servic
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://api.voidly.ai/mcp/voidpay
 
+### W System EU Business Data
+
+Remote MCP server for EU business checks: VAT validation via VIES (national fallback when VIES is down), EORI, company registries, EU/UN/OFAC/UK sanctions, KYB and EN 16931 e-invoices.
+
+- URL: https://wsystem.dev/eu-business-data-mcp-server
+- Language: Python
+- Provider: W System
+- Official: yes
+- Tags: vat, vies, kyb, sanctions, e-invoicing
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/wsystemdev/eu-business-data-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none, api-key
+- Streamable HTTP endpoint: https://api.wsystem.dev/mcp/
+
 ### Warden MCP
 
 Remote MCP server for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within user-set limits.
