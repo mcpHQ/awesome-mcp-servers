@@ -6368,6 +6368,31 @@
     "official": true
   },
   {
+    "name": "Picardo",
+    "url": "https://picardo.health/docs/claude",
+    "description": "Find Picardo's clinician-designed blood test panels and about 1,000 Labcorp tests with prices, and get a link to order them on picardo.health.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Picardo",
+    "tags": [
+      "health",
+      "blood-tests",
+      "lab-tests",
+      "remote",
+      "read-only"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.picardo.health/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Metaintro Job Search",
     "url": "https://www.metaintro.com/developers/mcp",
     "description": "Search live jobs pulled straight from employer career sites, read postings, and see how employers hire and pay; free, no sign-in.",
