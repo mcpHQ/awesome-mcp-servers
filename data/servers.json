@@ -8427,6 +8427,22 @@
     "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
+    "name": "MailVeri MCP",
+    "url": "https://github.com/mailveri/mailveri-mcp",
+    "description": "Verify single emails or bulk lists (valid, invalid, disposable, catch-all, role) from an AI agent through the MailVeri API.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "MailVeri",
+    "tags": [
+      "email",
+      "verification",
+      "validation",
+      "mcp"
+    ],
+    "official": false,
+    "repository": "https://github.com/mailveri/mailveri-mcp"
+  },
+  {
     "name": "AgentSEO",
     "url": "https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server",
     "description": "AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits.",
