@@ -7493,6 +7493,21 @@ Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops a
 - Auth: oauth
 - Streamable HTTP endpoint: https://mcp.getleal.com/mcp
 
+### LinkedIn People Search (AlphaOSINT)
+
+Searches LinkedIn people by title, company, location and keywords and returns structured profile rows, served as a remote MCP tool on Apify.
+
+- URL: https://alphaosint.com/sources/linkedin-people-search-api/
+- Language: Python
+- Provider: AlphaOSINT
+- Official: no
+- Tags: linkedin, people-search, sales, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com/?tools=johnvc/linkedin-people-search-api
+
 ### Live Tennis API MCP
 
 Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.
