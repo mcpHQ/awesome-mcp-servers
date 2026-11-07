@@ -14526,5 +14526,29 @@
       "command": "npx",
       "package": "@fainir/recall"
     }
+  },
+  {
+    "name": "ThreadShelf",
+    "url": "https://github.com/ChrystianSchutz/ThreadShelf",
+    "description": "Local-first archive with semantic and exact search over exported ChatGPT, Claude, Google AI Studio, OpenRouter, LM Studio and Grok chats, with tools to list collections, search and read full threads.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "memory",
+      "chat-history",
+      "semantic-search",
+      "local-first"
+    ],
+    "official": false,
+    "repository": "https://github.com/ChrystianSchutz/ThreadShelf",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]

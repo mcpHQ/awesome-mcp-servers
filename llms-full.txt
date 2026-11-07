@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 695 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 696 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4946,6 +4946,21 @@ Ask your Takibi Base collections anything; get answers with cited passages and a
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.takibibase.com/mcp
+
+### ThreadShelf
+
+Local-first archive with semantic and exact search over exported ChatGPT, Claude, Google AI Studio, OpenRouter, LM Studio and Grok chats, with tools to list collections, search and read full threads.
+
+- URL: https://github.com/ChrystianSchutz/ThreadShelf
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: memory, chat-history, semantic-search, local-first
+- Category: AI, Agents, and Memory
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
 
 ### UberLLM
 
