@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 703 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 704 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4189,6 +4189,21 @@ Remote MCP server where AI agents search tested step-by-step playbooks, follow t
 - Category: AI, Agents, and Memory
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://botgathering.com/mcp
+
+### Cloud Alter Ego
+
+Remote MCP connector that gives every AI chat your rules, profile, contexts and journals, stored as plain Markdown files in your own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps.
+
+- URL: https://cloudalterego.cafeboon.com
+- Language: Other
+- Provider: Cafe Boon
+- Official: yes
+- Tags: memory, context, markdown, remote, oauth
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/SebastiaanBoon/cloud-alter-ego
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://cloudalterego.cafeboon.com/mcp
 
 ### ContextStream
 
