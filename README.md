@@ -232,7 +232,7 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `mcp` `proxy` `pool` `api-keys` `rate-limiting`
 - **[mcp-probe-kit](https://github.com/mybolide/mcp-probe-kit)** `TypeScript` — Spec-driven dev workflow MCP server: start_feature/start_bugfix orchestration, resumable plans, a converge gate requiring requirements, spec, test and review evidence, and cross-session history. Install with npx -y mcp-probe-kit@latest.  
   `spec-driven-development` `workflow` `coding-agents` `npm`
-- **[mcpserverlist-mcp](https://github.com/sudomichael/mcpserverlist-mcp)** `Official` `TypeScript` — Check if your MCP server is ready for MCP directories, then get it submitted.  
+- **[mcpserverlist-mcp](https://github.com/sudomichael/mcpserverlist-mcp)** `Official` `TypeScript` — Check if your MCP server is ready for MCP directories, then get it submitted and keep every listing up to date.  
   `developer-tools` `directory-submission` `remote`
 - **[NAIF Gravity](https://naifgravity.com)** `Official` `Other` — Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.  
   `diagnostics` `api` `auth` `webhooks` `remote`
