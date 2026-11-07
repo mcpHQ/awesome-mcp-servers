@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-700-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-701-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (148)
-- [Utilities and Examples](#utilities-and-examples) (33)
+- [Utilities and Examples](#utilities-and-examples) (34)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1526,6 +1526,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `nesting` `dxf` `svg` `laser-cutting` `cnc`
 - **[obd2-mcp](https://github.com/shoka-jp/obd2-mcp)** `TypeScript` — Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.  
   `automotive` `obd2` `diagnostics`
+- **[OneSimpleAPI](https://registry.modelcontextprotocol.io/v0.1/servers/com.onesimpleapi%2Fonesimpleapi/versions/1.0.0)** `Official` `PHP` — Generate PDFs, screenshots, images, QR codes and short links, and validate emails through an official hosted MCP endpoint.  
+  `pdf` `images` `screenshots` `qr-codes` `url-shortener`
 - **[Pic2SVG MCP](https://pic2svg.com/mcp/)** `Official` `JavaScript` — Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths.  
   `svg` `raster-tracing` `images`
 - **[QRX](https://qrx.codes/developers/mcp)** `Official` `TypeScript` — Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link.  

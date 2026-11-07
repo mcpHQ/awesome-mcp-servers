@@ -14667,5 +14667,32 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "OneSimpleAPI",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.onesimpleapi%2Fonesimpleapi/versions/1.0.0",
+    "description": "Generate PDFs, screenshots, images, QR codes and short links, and validate emails through an official hosted MCP endpoint.",
+    "category": "utilities-and-examples",
+    "language": "PHP",
+    "provider": "OneSimpleAPI",
+    "tags": [
+      "pdf",
+      "images",
+      "screenshots",
+      "qr-codes",
+      "url-shortener"
+    ],
+    "official": true,
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://onesimpleapi.com/mcp"
+    }
   }
 ]
