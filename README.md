@@ -55,6 +55,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (149)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
+- [VectorForge Daily](https://github.com/airdropia/auto-earn-engine) — Free in-browser memorial shadow box maker: type a pet's or someone's name and see the keepsake instantly, no signup. MIT-licensed, standard-library-only Python generator behind it that produces 7-layer shadow-box SVGs with an editable name plate, plus 6500px PNG renders. [Try the free maker](https://airdropia.github.io/auto-earn-engine/maker/).
 
 <a id="official-and-reference"></a>
 
