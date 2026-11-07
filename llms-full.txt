@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 691 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 692 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7375,6 +7375,23 @@ Read the bounty board and agent standing, then use authenticated tools to post f
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://api.gofrantic.com/mcp
+
+### GC Airport Transfers
+
+Private fixed-price airport and cruise transfers for Gold Coast, Brisbane and Byron Bay: live quotes, availability checks, and operator-confirmed booking requests.
+
+- URL: https://gc-airporttransfers.com.au/ai-agent-gateway/
+- Language: PHP
+- Provider: GC Airport Transfers
+- Official: yes
+- Tags: travel, airport-transfers, booking, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/neild1971-maker/gc-airport-transfers-mcp
+- License: proprietary
+- Transport: streamable-http
+- Auth: oauth
+- Verified: 2026-11-07
+- Streamable HTTP endpoint: https://gc-airporttransfers.com/wp-json/atb-gateway/v1/mcp
 
 ### Glongus MCP
 
