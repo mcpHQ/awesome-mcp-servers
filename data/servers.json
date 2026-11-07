@@ -14787,5 +14787,63 @@
     "transport": [
       "streamable-http"
     ]
+  },
+  {
+    "name": "MCP Time Tracker",
+    "url": "https://github.com/zovo-one/mcp-time-tracker",
+    "description": "Billable time tracking from an AI chat: timers, time entries, reports, CSV export and invoice links.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Zovo",
+    "tags": [
+      "time-tracking",
+      "billing",
+      "freelance",
+      "reports"
+    ],
+    "official": false,
+    "repository": "https://github.com/zovo-one/mcp-time-tracker",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@theluckystrike/mcp-time-tracker"
+    },
+    "auth": [
+      "api-key"
+    ],
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "MCP Price Tracker",
+    "url": "https://github.com/zovo-one/mcp-price-tracker",
+    "description": "Track product prices for any product URL: current price lookup, drop tracking and alerts when a target price is hit.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Zovo",
+    "tags": [
+      "price-tracking",
+      "e-commerce",
+      "shopping",
+      "alerts"
+    ],
+    "official": false,
+    "repository": "https://github.com/zovo-one/mcp-price-tracker",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@theluckystrike/mcp-price-tracker"
+    },
+    "auth": [
+      "api-key"
+    ],
+    "verified": "2026-11-06"
   }
 ]

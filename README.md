@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-705-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-707-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,12 +47,12 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (65)
 - [Filesystems and Documents](#filesystems-and-documents) (29)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
-- [Communication and Productivity](#communication-and-productivity) (85)
+- [Communication and Productivity](#communication-and-productivity) (86)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (84)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (78)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (148)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (149)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -640,6 +640,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `video` `video-generation` `social-media` `remote`
 - **[MakeViral](https://www.makeviral.ai)** `Official` `TypeScript` — Finds the newest viral AI video and photo trend templates and makes them from the user's own photos, or makes any AI image or video from a prompt.  
   `video-generation` `image-generation` `social-media` `remote` `oauth`
+- **[MCP Time Tracker](https://github.com/zovo-one/mcp-time-tracker)** `TypeScript` — Billable time tracking from an AI chat: timers, time entries, reports, CSV export and invoice links.  
+  `time-tracking` `billing` `freelance` `reports`
 - **[Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server)** `TypeScript` — Interact with Microsoft Teams channels, messages, and meetings.  
   `teams` `chat` `microsoft`
 - **[model.tools](https://github.com/maceip/model-tools-mcp)** `Official` `JavaScript` — Zero-auth email OTP extraction, KV state checkpoints, webhook receiver bins, delayed HTTP wakeup callbacks, and URL-to-Markdown reader for AI agents.  
@@ -1351,6 +1353,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `travel` `hotels` `flights` `booking` `remote`
 - **[MCP Ads](https://mcp-ads.com)** `Official` `Python` — Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.  
   `advertising` `google-ads` `meta-ads` `remote` `oauth`
+- **[MCP Price Tracker](https://github.com/zovo-one/mcp-price-tracker)** `TypeScript` — Track product prices for any product URL: current price lookup, drop tracking and alerts when a target price is hit.  
+  `price-tracking` `e-commerce` `shopping` `alerts`
 - **[MedBillAnalyzer](https://medbillanalyzer.com)** `Official` `TypeScript` — Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter.  
   `health` `medical-bills` `billing` `insurance` `remote`
 - **[Melso](https://docs.melso.ai/mcp/overview)** `Official` `Other` — OAuth-protected remote MCP for Spanish fiscal records, invoices, expenses and tax calendars in Melso.  
