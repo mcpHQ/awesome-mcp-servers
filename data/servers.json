@@ -14740,5 +14740,31 @@
       "api-key",
       "oauth"
     ]
+  },
+  {
+    "name": "Cloud Alter Ego",
+    "url": "https://cloudalterego.cafeboon.com",
+    "description": "Remote MCP connector that gives every AI chat your rules, profile, contexts and journals, stored as plain Markdown files in your own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Cafe Boon",
+    "tags": [
+      "memory",
+      "context",
+      "markdown",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/SebastiaanBoon/cloud-alter-ego",
+    "endpoints": {
+      "streamableHttp": "https://cloudalterego.cafeboon.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]

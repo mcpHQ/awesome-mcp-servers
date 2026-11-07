@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-703-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-704-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (29)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (85)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (83)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (84)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (78)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
@@ -771,6 +771,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `image-generation` `video-generation` `llm` `text-to-speech`
 - **[BotGathering](https://botgathering.com)** `Official` `Other` — Remote MCP server where AI agents search tested step-by-step playbooks, follow them and report outcomes.  
   `playbooks` `agents` `remote`
+- **[Cloud Alter Ego](https://cloudalterego.cafeboon.com)** `Official` `Other` — Remote MCP connector that gives every AI chat your rules, profile, contexts and journals, stored as plain Markdown files in your own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps. ([source](https://github.com/SebastiaanBoon/cloud-alter-ego))  
+  `memory` `context` `markdown` `remote` `oauth`
 - **[ContextStream](https://github.com/contextstream/mcp-server)** `Official` `TypeScript` — Shared project memory that both developers and AI agents read and write across Cursor, Claude Code, Codex, Grok, Windsurf and the rest.  
   `memory` `context` `agents` `coding`
 - **[Continuity](https://github.com/LAHutchins91/continuity-mcp)** `TypeScript` — Remote MCP story bible for fiction writers: locked characters, relationships, world rules, timelines, and approved scenes with OAuth for ChatGPT, Claude, Gemini, Grok, and Cursor.  
