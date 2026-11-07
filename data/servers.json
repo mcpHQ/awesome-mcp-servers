@@ -14474,5 +14474,32 @@
     "endpoints": {
       "streamableHttp": "https://api.skael.de/mcp"
     }
+  },
+  {
+    "name": "Imagera",
+    "url": "https://imagera.ai/mcp",
+    "description": "Hosted MCP server that generates and edits images, video clips, voiceovers and music on the user's Imagera account, with cost estimates before each run.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Imagera",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "text-to-speech",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.imagera.ai/mcp"
+    },
+    "repository": "https://github.com/alexadams6ix/imagera-skills",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]

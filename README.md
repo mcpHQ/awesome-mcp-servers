@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-693-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-694-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (29)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (85)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (78)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (79)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (77)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
@@ -805,6 +805,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `knowledge` `encryption` `local`
 - **[imageat](https://github.com/incendies/imageat-mcp)** `Official` `Other` — AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imageat/mcp` with an API key, or use the hosted Streamable HTTP server with OAuth. Credits per generation.  
   `image-generation` `video-generation` `image-editing` `remote` `oauth`
+- **[Imagera](https://imagera.ai/mcp)** `Official` `TypeScript` — Hosted MCP server that generates and edits images, video clips, voiceovers and music on the user's Imagera account, with cost estimates before each run. ([source](https://github.com/alexadams6ix/imagera-skills))  
+  `image-generation` `video-generation` `text-to-speech` `remote` `oauth`
 - **[Interview Questions MCP](https://github.com/Johnnnmai/interview-questions-mcp)** `Python` — AI Engineer interview questions with scoring rubrics: browse topics, get questions by difficulty level, and link to a free answer self-checker.  
   `interview` `education` `ai-engineering` `practice`
 - **[Joxo](https://joxo.ai)** `Official` `TypeScript` — Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents.  
