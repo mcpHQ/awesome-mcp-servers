@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 694 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 695 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4776,6 +4776,20 @@ Onchain payment protocol for AI agents — sell any data product with x402, USDC
 - Tags: x402, ai-agent, payments, base, usdc
 - Category: AI, Agents, and Memory
 - Pricing: paid
+
+### recall (fainir)
+
+Reads and writes Claude Code's auto memory, Markdown files with wiki-links, so Codex, Cursor and other agents share the same memories over MCP or from code.
+
+- URL: https://github.com/fainir/recall
+- Language: JavaScript
+- Provider: fainir
+- Official: no
+- Tags: memory, claude-code, codex, markdown, local
+- Category: AI, Agents, and Memory
+- License: MIT
+- Transport: stdio
+- Install: npx @fainir/recall
 
 ### RunAPI MCP Server
 
