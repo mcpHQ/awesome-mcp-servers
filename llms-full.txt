@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 692 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 693 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8149,6 +8149,22 @@ Ownership, insider trades, short interest and financial statements as filed for 
 - Official: yes
 - Tags: stocks, sec-filings, ownership, semiconductors, remote
 - Category: Finance, Commerce, and Business Apps
+
+### Skael API
+
+Hosted MCP for B2B lead lists with a German focus: commercial register (Handelsregister) companies, officers and new registrations, Google Maps businesses, job boards and imprints, with verified work emails.
+
+- URL: https://api.skael.de/docs/mcp
+- Language: PHP
+- Provider: Skael
+- Official: yes
+- Tags: lead-generation, company-data, handelsregister, email-finder, germany
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://api.skael.de/mcp
 
 ### SkyAccess
 

@@ -14446,5 +14446,33 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "Skael API",
+    "url": "https://api.skael.de/docs/mcp",
+    "description": "Hosted MCP for B2B lead lists with a German focus: commercial register (Handelsregister) companies, officers and new registrations, Google Maps businesses, job boards and imprints, with verified work emails.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Skael",
+    "tags": [
+      "lead-generation",
+      "company-data",
+      "handelsregister",
+      "email-finder",
+      "germany"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.skael.de/mcp"
+    }
   }
 ]
