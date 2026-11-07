@@ -6370,7 +6370,7 @@
   {
     "name": "Picardo",
     "url": "https://picardo.health/docs/claude",
-    "description": "Find Picardo's clinician-designed blood test panels and about 1,000 Labcorp tests with prices, and get a link to order them on picardo.health.",
+    "description": "Plan your blood work with your assistant. Browse Picardo's panels, from a yearly check-up to fertility, price any of about 1,000 Labcorp tests, and get one link to order them all.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Picardo",

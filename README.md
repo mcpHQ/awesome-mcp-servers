@@ -1381,7 +1381,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `a-share` `stock-data` `real-time-quotes` `market-data`
 - **[PayPal MCP Server](https://github.com/paypal/agent-toolkit)** `Official` `TypeScript` — Process PayPal payments and manage merchant operations.  
   `payments` `commerce` `fintech`
-- **[Picardo](https://picardo.health/docs/claude)** `Official` `TypeScript` — Find Picardo's clinician-designed blood test panels and about 1,000 Labcorp tests with prices, and get a link to order them on picardo.health.  
+- **[Picardo](https://picardo.health/docs/claude)** `Official` `TypeScript` — Plan your blood work with your assistant. Browse Picardo's panels, from a yearly check-up to fertility, price any of about 1,000 Labcorp tests, and get one link to order them all.  
   `health` `blood-tests` `lab-tests` `remote` `read-only`
 - **[Pink Agentic AI Payments](https://pinkwallet.com/agentic/developers/)** `Official` `TypeScript` — Approval layer for AI agent payments: per-agent budgets and rules return allow (single-use credential), ask a human, or block before money moves, over remote Streamable HTTP with OAuth 2.1; public sandbox with test money only.  
   `payments` `spending-limits` `approvals` `remote` `oauth`
