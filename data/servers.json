@@ -14550,5 +14550,32 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "ailiste",
+    "url": "https://ailiste.app/mcp/",
+    "description": "New-build homes in Cyprus: buildings with the stage seen on site and the day, developers, and district asking prices per m², read-only.",
+    "category": "data-analytics-and-bi",
+    "language": "Python",
+    "provider": "ailiste",
+    "tags": [
+      "real-estate",
+      "cyprus",
+      "property-prices",
+      "new-builds",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/ahmlvs/ailiste-mcp",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.ailiste.app/"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]
