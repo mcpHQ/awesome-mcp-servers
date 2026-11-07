@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 691 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 692 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -619,6 +619,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Flight Seatmap](https://flightseatmap.com/mcp): Seat maps, seat ratings, traveller reviews and seat alerts for 100+ airlines, as a hosted remote MCP server. (Other, official)
 - [foto foto](https://github.com/nternet-company/fotofoto-mcp): Turn your photos or a public iCloud Shared Album into a printed hardcover photo book, and compare photo book prices across services. (Other, official)
 - [Frantic](https://github.com/gofrantic/frantic-mcp): Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results. (TypeScript, official)
+- [GC Airport Transfers](https://gc-airporttransfers.com.au/ai-agent-gateway/): Private fixed-price airport and cruise transfers for Gold Coast, Brisbane and Byron Bay: live quotes, availability checks, and operator-confirmed booking requests. (PHP, official)
 - [Glongus MCP](https://github.com/glongusmain/glongus-mcp): Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation. (JavaScript, official)
 - [Good Nature Vibe Catalog](https://catalog-mcp.goodnaturevibe.com): Provides read-only product catalog search and published shop knowledge without login, cart, checkout or ordering. (JavaScript, official)
 - [Google Ads Transparency MCP](https://github.com/GeminiGeorge22/google-ads-transparency-mcp): Competitor Google ads from the Google Ads Transparency Center by domain, advertiser ID or advertiser name: which ads are new, running or stopped, with first and last shown dates, format and ad links. (JavaScript)

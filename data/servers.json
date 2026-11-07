@@ -9859,6 +9859,34 @@
     ]
   },
   {
+    "name": "GC Airport Transfers",
+    "url": "https://gc-airporttransfers.com.au/ai-agent-gateway/",
+    "description": "Private fixed-price airport and cruise transfers for Gold Coast, Brisbane and Byron Bay: live quotes, availability checks, and operator-confirmed booking requests.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "GC Airport Transfers",
+    "tags": [
+      "travel",
+      "airport-transfers",
+      "booking",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/neild1971-maker/gc-airport-transfers-mcp",
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://gc-airporttransfers.com/wp-json/atb-gateway/v1/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "verified": "2026-11-07"
+  },
+  {
     "name": "Pinto Notes",
     "url": "https://github.com/pinto-notes/pinto-notes",
     "description": "Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.",
