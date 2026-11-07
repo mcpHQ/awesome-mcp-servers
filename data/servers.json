@@ -2456,6 +2456,34 @@
     "repository": "https://github.com/datadog-labs/mcp-server"
   },
   {
+    "name": "LinkDR",
+    "url": "https://linkdr.com/docs/mcp",
+    "description": "Domain rating and backlink research, SERP and keyword analysis, AI search visibility checks, publisher site approvals, and managed backlink ordering.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "LinkDR",
+    "tags": [
+      "seo",
+      "backlinks",
+      "serp",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://linkdr.com/mcp"
+    },
+    "repository": "https://github.com/Illyism/linkdr-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "InsertChat",
     "url": "https://insertchat.com",
     "description": "AI receptionist and AI chatbot: triage calls and chats that need you, draft replies, look up leads, review reports, and train your assistant on web pages.",
@@ -5739,6 +5767,35 @@
       "command": "npx",
       "package": "@vectosolve/mcp"
     },
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
+    "name": "GenPPT",
+    "url": "https://genppt.com",
+    "description": "Generate AI slide decks and pitch decks from a prompt and export native PowerPoint (.pptx) and PDF files.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "GenPPT",
+    "tags": [
+      "presentations",
+      "powerpoint",
+      "pptx",
+      "slides",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://genppt.com/mcp"
+    },
+    "repository": "https://github.com/Illyism/genppt-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
     "auth": [
       "none",
       "api-key"
@@ -9119,6 +9176,34 @@
     "official": true
   },
   {
+    "name": "AI SEO Tracker",
+    "url": "https://aiseotracker.com/docs/mcp",
+    "description": "Track brand visibility, citations, prompts, competitors, and missing citation sources across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "AI SEO Tracker",
+    "tags": [
+      "seo",
+      "ai-seo",
+      "geo",
+      "citations",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://aiseotracker.com/mcp"
+    },
+    "repository": "https://github.com/Illyism/aiseotracker-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Nanotea",
     "url": "https://github.com/gileshall/nanotea",
     "description": "Self-hosted messaging app where coding agents report and ask over MCP and you answer by typing, tapping or recording, so you can direct a whole fleet without living in their terminals.",
@@ -11851,6 +11936,34 @@
       "streamableHttp": "https://tablejourney.com/mcp"
     },
     "repository": "https://github.com/lewismvaughan/tablejourney-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Awesome Tools",
+    "url": "https://awesome.tools",
+    "description": "Search curated SaaS and AI tools, browse categories and tags, submit a product, and verify backlink badges.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Awesome Tools",
+    "tags": [
+      "search",
+      "directory",
+      "saas",
+      "ai-tools",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://awesome.tools/mcp"
+    },
+    "repository": "https://github.com/Illyism/awesome-tools-mcp",
+    "license": "MIT",
+    "pricing": "free",
     "transport": [
       "streamable-http"
     ],
