@@ -14501,5 +14501,30 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "recall (fainir)",
+    "url": "https://github.com/fainir/recall",
+    "description": "Reads and writes Claude Code's auto memory, Markdown files with wiki-links, so Codex, Cursor and other agents share the same memories over MCP or from code.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "fainir",
+    "tags": [
+      "memory",
+      "claude-code",
+      "codex",
+      "markdown",
+      "local"
+    ],
+    "official": false,
+    "repository": "https://github.com/fainir/recall",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@fainir/recall"
+    }
   }
 ]
