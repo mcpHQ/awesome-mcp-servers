@@ -10355,6 +10355,31 @@
     ]
   },
   {
+    "name": "Skald",
+    "url": "https://github.com/spcaeo/skald",
+    "description": "Self-hosted web analytics from your server access log, with a mostly read-only MCP server so an agent can ask which pages AI assistants fetched, how periods compare, and which days were withheld.",
+    "category": "data-analytics-and-bi",
+    "language": "Python",
+    "provider": "Space-O Technologies",
+    "tags": [
+      "web-analytics",
+      "access-logs",
+      "self-hosted",
+      "ai-crawlers"
+    ],
+    "official": true,
+    "repository": "https://github.com/spcaeo/skald",
+    "license": "source-available",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Dropify",
     "url": "https://github.com/xozxro/dropify-mcp",
     "description": "Looks up the official merch stores Dropify tracks for an artist or brand and returns the page where restock and drop alerts are set.",
