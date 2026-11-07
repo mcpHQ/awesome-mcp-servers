@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 693 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 694 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -383,6 +383,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [HumanEndpoint](https://humanendpoint.au): Quote-first human execution for AI agents: business and supplier calls, stock and availability checks, physical verification, manual research, and human QA. (TypeScript, official)
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness): Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants. (Rust)
 - [imageat](https://github.com/incendies/imageat-mcp): AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imageat/mcp` with an API key, or use the hosted Streamable HTTP server with OAuth. Credits per generation. (Other, official)
+- [Imagera](https://imagera.ai/mcp): Hosted MCP server that generates and edits images, video clips, voiceovers and music on the user's Imagera account, with cost estimates before each run. (TypeScript, official)
 - [Interview Questions MCP](https://github.com/Johnnnmai/interview-questions-mcp): AI Engineer interview questions with scoring rubrics: browse topics, get questions by difficulty level, and link to a free answer self-checker. (Python)
 - [Joxo](https://joxo.ai): Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents. (TypeScript, official)
 - [knowsme](https://knowsme.dev): One memory of who you are and how you work (notes, rules and projects) that any AI model or agent can read and update over MCP, across apps and machines. (JavaScript, official)
