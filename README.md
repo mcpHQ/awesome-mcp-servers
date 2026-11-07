@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-695-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-696-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (29)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (85)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (80)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (81)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (77)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
@@ -889,6 +889,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `image-to-video` `video-generation` `ai-video` `remote`
 - **[Takibi Base](https://takibibase.com/docs/connector)** `Official` `Other` — Ask your Takibi Base collections anything; get answers with cited passages and a support score.  
   `knowledge-base` `citations` `remote` `oauth`
+- **[ThreadShelf](https://github.com/ChrystianSchutz/ThreadShelf)** `TypeScript` — Local-first archive with semantic and exact search over exported ChatGPT, Claude, Google AI Studio, OpenRouter, LM Studio and Grok chats, with tools to list collections, search and read full threads.  
+  `memory` `chat-history` `semantic-search` `local-first`
 - **[UberLLM](https://uberllm.dev/docs/mcp)** `Official` `Go` — Generate and edit images, start and follow video and music jobs, list models with their current price, quote a request before running it, and check balance through one prepaid UberLLM API key. ([source](https://github.com/PSA-Team-source/uberllm))  
   `image-generation` `video-generation` `llm` `remote`
 - **[VideoGen MCP](https://videogen.io/videogen-mcp)** `Official` `TypeScript` — Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects.  
