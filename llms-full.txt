@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 701 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 702 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8983,6 +8983,20 @@ Creates artistic, print-ready QR codes from a prompt and a link, checks that eac
 - Category: Utilities and Examples
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://qrx.codes/mcp
+
+### RoboDebut
+
+RoboDebut, run by Boon who also builds LinkBunny, lets agents submit websites and startups for operator review through an anonymous MCP server; ordinary submissions need a followed homepage badge and private maker email.
+
+- URL: https://registry.modelcontextprotocol.io/v0.1/servers/com.robodebut%2Fsubmissions/versions/1.0.0
+- Language: TypeScript
+- Provider: RoboDebut
+- Official: yes
+- Tags: website-directory, startup-directory, agent-submission
+- Category: Utilities and Examples
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://robodebut.com/api/mcp
 
 ### SlickTrip
 

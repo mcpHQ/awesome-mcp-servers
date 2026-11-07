@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-701-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-702-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (148)
-- [Utilities and Examples](#utilities-and-examples) (34)
+- [Utilities and Examples](#utilities-and-examples) (35)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1532,6 +1532,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `svg` `raster-tracing` `images`
 - **[QRX](https://qrx.codes/developers/mcp)** `Official` `TypeScript` — Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link.  
   `qr-code` `image-generation` `design` `api-key` `remote`
+- **[RoboDebut](https://registry.modelcontextprotocol.io/v0.1/servers/com.robodebut%2Fsubmissions/versions/1.0.0)** `Official` `TypeScript` — RoboDebut, run by Boon who also builds LinkBunny, lets agents submit websites and startups for operator review through an anonymous MCP server; ordinary submissions need a followed homepage badge and private maker email.  
+  `website-directory` `startup-directory` `agent-submission`
 - **[SlickTrip](https://github.com/sliktrip/slicktrip-mcp)** `Official` `Python` — Live flight, hotel and seat prices, cheapest-day calendars, and price-drop and seat alerts by email or text; hosted, with OAuth sign-in.  
   `travel` `flights` `hotels` `price-alerts` `oauth`
 - **[Stadiq](https://github.com/snenenenenenene/stadiq-mcp-server)** `JavaScript` — Road works, De Lijn transit disruptions, air quality and briefings for any point in Flanders and Brussels.  
