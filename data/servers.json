@@ -14634,5 +14634,38 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Vulnify",
+    "url": "https://docs.vulnify.io/mcp/",
+    "description": "MCP server that checks an agent action and returns ALLOW, REVIEW or BLOCK before it runs; hosted with OAuth or local stdio.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Vulnify",
+    "tags": [
+      "authorization",
+      "guardrails",
+      "audit",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/vulnify/vulnify-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.vulnify.io/mcp"
+    },
+    "install": {
+      "command": "npx",
+      "package": "@vulnify/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
