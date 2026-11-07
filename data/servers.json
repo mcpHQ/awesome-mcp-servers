@@ -14603,5 +14603,36 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Model Salt",
+    "url": "https://modelsalt.com",
+    "description": "Outside randomness for creative requests, so the same prompt gives different answers that still do what was asked.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Model Salt",
+    "tags": [
+      "creative",
+      "randomness",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/modelsalt/model-salt",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://modelsalt.com/mcp"
+    },
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@modelsalt/model-salt"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 698 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 699 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8885,6 +8885,24 @@ Middleware MCP server that aggregates and manages multiple connections.
 - Official: yes
 - Tags: aggregator, gateway, middleware
 - Category: Utilities and Examples
+
+### Model Salt
+
+Outside randomness for creative requests, so the same prompt gives different answers that still do what was asked.
+
+- URL: https://modelsalt.com
+- Language: JavaScript
+- Provider: Model Salt
+- Official: yes
+- Tags: creative, randomness, remote
+- Category: Utilities and Examples
+- Repository: https://github.com/modelsalt/model-salt
+- License: MIT
+- Pricing: free
+- Transport: stdio, streamable-http
+- Auth: none
+- Install: npx @modelsalt/model-salt
+- Streamable HTTP endpoint: https://modelsalt.com/mcp
 
 ### Nestbolt
 

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-698-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-699-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (148)
-- [Utilities and Examples](#utilities-and-examples) (32)
+- [Utilities and Examples](#utilities-and-examples) (33)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1518,6 +1518,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `registry` `enterprise` `self-hosted`
 - **[MetaMCP](https://github.com/metatool-ai/metatool-app)** `Official` `TypeScript` — Middleware MCP server that aggregates and manages multiple connections.  
   `aggregator` `gateway` `middleware`
+- **[Model Salt](https://modelsalt.com)** `Official` `JavaScript` — Outside randomness for creative requests, so the same prompt gives different answers that still do what was asked. ([source](https://github.com/modelsalt/model-salt))  
+  `creative` `randomness` `remote`
 - **[Nestbolt](https://github.com/skulitom/Nestbolt)** `Rust` — Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutting, with validated layouts and per-sheet SVG/DXF export.  
   `nesting` `dxf` `svg` `laser-cutting` `cnc`
 - **[obd2-mcp](https://github.com/shoka-jp/obd2-mcp)** `TypeScript` — Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing.  
