@@ -14766,5 +14766,26 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "LogoAPI.sh",
+    "url": "https://logoapi.sh/docs/mcp",
+    "description": "Company logos for agents: get a logo by domain, search brands by name, or fetch a favicon, as SVG or PNG URLs. Free, no API key.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "LogoAPI.sh",
+    "tags": [
+      "logos",
+      "branding",
+      "images",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://logoapi.sh/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
   }
 ]

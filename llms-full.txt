@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 704 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 705 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8876,6 +8876,19 @@ Search live flight prices, compare departure dates, resolve airports, and get bo
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://ignav.com/mcp
+
+### LogoAPI.sh
+
+Company logos for agents: get a logo by domain, search brands by name, or fetch a favicon, as SVG or PNG URLs. Free, no API key.
+
+- URL: https://logoapi.sh/docs/mcp
+- Language: JavaScript
+- Provider: LogoAPI.sh
+- Official: yes
+- Tags: logos, branding, images, remote
+- Category: Utilities and Examples
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://logoapi.sh/mcp
 
 ### MCP Server Starter
 
