@@ -7958,6 +7958,34 @@
     "repository": "https://github.com/ajwann/installed-api"
   },
   {
+    "name": "EL7.AI",
+    "url": "https://el7.ai/en/mcp",
+    "description": "Financial market intelligence for your AI: markets news, economic calendar, 8 central banks, COT positioning, stocks, earnings, gold and oil, with sources and dates; 85 read-only tools, English first with full Arabic support.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "EL7.AI",
+    "tags": [
+      "finance",
+      "markets",
+      "central-banks",
+      "economic-calendar",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/walidelhelw/el7-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.el7.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Domain Search King",
     "url": "https://github.com/johnsmalls22-rgb/domain-search-king-mcp",
     "description": "Suggests .com domain names and returns only those currently available to register, checked against the Verisign RDAP registry; hosted, no API key.",
@@ -13759,29 +13787,6 @@
     ]
   },
   {
-    "name": "IPO Radar MCP",
-    "url": "https://github.com/songiangvan40006-boop/ipo-radar-mcp",
-    "description": "Free hosted MCP with live India IPO GMP, subscription, upcoming IPOs, and GMP accuracy for Claude/ChatGPT/Cursor.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "TypeScript",
-    "provider": "IPO Radar",
-    "tags": [
-      "ipo",
-      "gmp",
-      "india",
-      "finance",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/songiangvan40006-boop/ipo-radar-mcp",
-    "endpoints": {
-      "streamableHttp": "https://ipogmpradar.com/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ]
-  },
-  {
     "name": "AgentDrives",
     "url": "https://agentdrives.com/data#mcp",
     "description": "Looks up whether an AI agent can really use a software product (sign-up, API key, the core tasks, paying, leaving), with levels 0 to 5 from real agent test drives.",
@@ -13805,32 +13810,6 @@
     ],
     "auth": [
       "none"
-    ]
-  },
-  {
-    "name": "Sendable",
-    "url": "https://docs.getsendable.io/integrations/mcp",
-    "description": "Finds LinkedIn prospects showing buying intent, qualifies them against an ideal customer profile, and manages Sendable outreach campaigns, leads and LinkedIn inbox.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "TypeScript",
-    "provider": "Sendable",
-    "tags": [
-      "linkedin",
-      "sales",
-      "prospecting",
-      "outreach",
-      "crm"
-    ],
-    "official": true,
-    "license": "proprietary",
-    "endpoints": {
-      "streamableHttp": "https://app.getsendable.io/api/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth"
     ]
   },
   {
