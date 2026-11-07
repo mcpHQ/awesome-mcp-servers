@@ -5377,6 +5377,35 @@
     ]
   },
   {
+    "name": "NumRadar",
+    "url": "https://numradar.app/mcp-server",
+    "description": "Check WhatsApp registration for individual phone numbers, submit bulk validation jobs, and read validation allowances through a hosted Streamable HTTP server or the local npm package.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "NumRadar",
+    "tags": [
+      "whatsapp",
+      "phone-validation",
+      "bulk-validation"
+    ],
+    "official": true,
+    "pricing": "paid",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@numradar/mcp"
+    },
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://numradar.app/mcp"
+    }
+  },
+  {
     "name": "Baizhi Cloud Browser (CapyBrowser)",
     "url": "https://github.com/chaitin/baizhi-cloud-browser",
     "description": "Manage cloud browser sessions, saved profiles, human handoff and downloads via hosted MCP; page actions require a CDP client, and a Baizhi API key and paid browser runtime apply.",
