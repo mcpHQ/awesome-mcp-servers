@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 697 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 698 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4790,6 +4790,21 @@ Reads and writes Claude Code's auto memory, Markdown files with wiki-links, so C
 - License: MIT
 - Transport: stdio
 - Install: npx @fainir/recall
+
+### RoomLab.app
+
+Hosted MCP server for AI virtual staging, room restyling, decluttering, furniture and material swaps, architectural renders and room videos from your own photos, with OAuth sign-in to a RoomLab.app account and its credits.
+
+- URL: https://roomlab.app/en/mcp
+- Language: JavaScript
+- Provider: RoomLab.app
+- Official: yes
+- Tags: interior-design, real-estate, image-editing, remote, oauth
+- Category: AI, Agents, and Memory
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.roomlab.app/mcp
 
 ### RunAPI MCP Server
 

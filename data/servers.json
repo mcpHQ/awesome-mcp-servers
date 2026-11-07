@@ -14577,5 +14577,31 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "RoomLab.app",
+    "url": "https://roomlab.app/en/mcp",
+    "description": "Hosted MCP server for AI virtual staging, room restyling, decluttering, furniture and material swaps, architectural renders and room videos from your own photos, with OAuth sign-in to a RoomLab.app account and its credits.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "RoomLab.app",
+    "tags": [
+      "interior-design",
+      "real-estate",
+      "image-editing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.roomlab.app/mcp"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]
