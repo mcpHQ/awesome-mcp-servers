@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 705 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 707 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -301,6 +301,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [MailVeri MCP](https://github.com/mailveri/mailveri-mcp): Verify single emails or bulk lists (valid, invalid, disposable, catch-all, role) from an AI agent through the MailVeri API. (Python)
 - [MakeAIVideo](https://github.com/makeaivideo-ai/mcp): Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts. (TypeScript, official)
 - [MakeViral](https://www.makeviral.ai): Finds the newest viral AI video and photo trend templates and makes them from the user's own photos, or makes any AI image or video from a prompt. (TypeScript, official)
+- [MCP Time Tracker](https://github.com/zovo-one/mcp-time-tracker): Billable time tracking from an AI chat: timers, time entries, reports, CSV export and invoice links. (TypeScript)
 - [Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server): Interact with Microsoft Teams channels, messages, and meetings. (TypeScript)
 - [model.tools](https://github.com/maceip/model-tools-mcp): Zero-auth email OTP extraction, KV state checkpoints, webhook receiver bins, delayed HTTP wakeup callbacks, and URL-to-Markdown reader for AI agents. (JavaScript, official)
 - [Multi Upload Tool](https://docs.multi-upload-tool.com/mcp): Schedule and publish videos and photos to TikTok, YouTube Shorts, Instagram, Facebook, LinkedIn, Pinterest, Bluesky, Threads and X; validate, reschedule, cancel and retry posts, and read post status and analytics. (TypeScript, official)
@@ -654,6 +655,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Mach GTM MCP](https://github.com/verma6uc/mach-gtm-mcp): Open-source MCP server for B2B outbound sales: build ICPs, research prospects, score leads (0-100 fit), draft cold email and LinkedIn messages, and build multi-touch sequences. (TypeScript)
 - [MAQAMI Travel](https://github.com/negm17111995/mcp-server): Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key. (JavaScript, official)
 - [MCP Ads](https://mcp-ads.com): Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth. (Python, official)
+- [MCP Price Tracker](https://github.com/zovo-one/mcp-price-tracker): Track product prices for any product URL: current price lookup, drop tracking and alerts when a target price is hit. (TypeScript)
 - [MedBillAnalyzer](https://medbillanalyzer.com): Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter. (TypeScript, official)
 - [Melso](https://docs.melso.ai/mcp/overview): OAuth-protected remote MCP for Spanish fiscal records, invoices, expenses and tax calendars in Melso. (Other, official)
 - [Metaintro Job Search](https://www.metaintro.com/developers/mcp): Search live jobs pulled straight from employer career sites, read postings, and see how employers hire and pay; free, no sign-in. (TypeScript, official)

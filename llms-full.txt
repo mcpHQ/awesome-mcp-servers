@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 705 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 707 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3380,6 +3380,23 @@ Finds the newest viral AI video and photo trend templates and makes them from th
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://www.makeviral.ai/mcp
+
+### MCP Time Tracker
+
+Billable time tracking from an AI chat: timers, time entries, reports, CSV export and invoice links.
+
+- URL: https://github.com/zovo-one/mcp-time-tracker
+- Language: TypeScript
+- Provider: Zovo
+- Official: no
+- Tags: time-tracking, billing, freelance, reports
+- Category: Communication and Productivity
+- License: MIT
+- Pricing: freemium
+- Transport: stdio
+- Auth: api-key
+- Install: npx @theluckystrike/mcp-time-tracker
+- Verified: 2026-11-06
 
 ### Microsoft Teams MCP Server
 
@@ -7855,6 +7872,23 @@ Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://mcp-ads.com/mcp-slim
+
+### MCP Price Tracker
+
+Track product prices for any product URL: current price lookup, drop tracking and alerts when a target price is hit.
+
+- URL: https://github.com/zovo-one/mcp-price-tracker
+- Language: TypeScript
+- Provider: Zovo
+- Official: no
+- Tags: price-tracking, e-commerce, shopping, alerts
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Pricing: freemium
+- Transport: stdio
+- Auth: api-key
+- Install: npx @theluckystrike/mcp-price-tracker
+- Verified: 2026-11-06
 
 ### MedBillAnalyzer
 
