@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-685-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-691-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,12 +47,12 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (65)
 - [Filesystems and Documents](#filesystems-and-documents) (29)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
-- [Communication and Productivity](#communication-and-productivity) (84)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (75)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (76)
+- [Communication and Productivity](#communication-and-productivity) (85)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (78)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (77)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (145)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (146)
 - [Utilities and Examples](#utilities-and-examples) (32)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -634,6 +634,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `linkedin` `sales` `remote` `oauth`
 - **[Mailcoach](https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/)** `Official` `PHP` — Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list.  
   `email-marketing` `newsletters` `campaigns` `oauth`
+- **[MailVeri MCP](https://github.com/mailveri/mailveri-mcp)** `Python` — Verify single emails or bulk lists (valid, invalid, disposable, catch-all, role) from an AI agent through the MailVeri API.  
+  `email` `verification` `validation` `mcp`
 - **[MakeAIVideo](https://github.com/makeaivideo-ai/mcp)** `Official` `TypeScript` — Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts.  
   `video` `video-generation` `social-media` `remote`
 - **[MakeViral](https://www.makeviral.ai)** `Official` `TypeScript` — Finds the newest viral AI video and photo trend templates and makes them from the user's own photos, or makes any AI image or video from a prompt.  
@@ -785,6 +787,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `preflight` `policy` `evidence` `stdio` `receipts`
 - **[Easy-Peasy.AI](https://easy-peasy.ai/mcp)** `Official` `TypeScript` — Hosted Easy-Peasy.AI server: run 200+ writing templates, create and edit images, make AI videos, turn text into speech and transcribe audio or video from any MCP client, with OAuth sign-in or an API key.  
   `image-generation` `video-generation` `text-to-speech` `transcription` `copywriting`
+- **[fal.ai](https://fal.ai/mcp)** `Official` `Other` — Discover models and prices, then generate or edit images, video, audio, and 3D through the hosted fal MCP server.  
+  `generative-media` `images` `video` `remote` `oauth`
 - **[fitlog-mcp](https://github.com/hahahahahahahahah6/fitlog-mcp)** `Python` — Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by voice, track personal records, and get workout plans.  
   `fitness` `alexa` `voice`
 - **[GenFlick](https://genflick.com/developers/mcp)** `Official` `Other` — Remote MCP for the GenFlick AI studio for films, series, music videos and ads, with OAuth sign-in and no API key.  
@@ -849,6 +853,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `knowledge` `markdown` `oauth` `remote`
 - **[Plazmi](https://plazmi.gg/SKILL.md)** `Official` `Other` — A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.  
   `agents` `game` `persistent-world` `no-auth`
+- **[PlugMCP directory MCP](https://plugmcp.ai/directory-mcp)** `TypeScript` — Search MCP servers and agent skills, compare them, and get install configs for Cursor, Claude, VS Code, Codex, Grok Bot and more. ([source](https://github.com/plugmcp-ai/plugmcp-mcp))  
+  `directory` `registry` `search` `agent-skills` `remote`
 - **[PopNow MCP Server](https://popnow.ai/docs/mcp)** `Official` `TypeScript` — Remote MCP server for creating images, videos, music and speech with hosted AI models, quoting a USD price before each paid task and running any catalog model by its API ID. ([source](https://github.com/popnow-ai/popnow-api-mcp))  
   `image-generation` `video-generation` `audio` `remote`
 - **[Pyrimid](https://github.com/pyrimid-ai/pyrimid)** `Official` `TypeScript` — Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.  
@@ -887,6 +893,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `website-builder` `3d-generation` `roblox` `image-to-3d` `remote`
 - **[Wiro AI](https://github.com/wiroai/Wiro-MCP)** `Official` `TypeScript` — Official MCP server for Wiro AI: search 3,500+ AI models for images, video, audio, speech, music and text, check each model's parameters and price, run it and get the results back in your assistant.  
   `image-generation` `video-generation` `text-to-speech` `generative-ai` `ai-models`
+- **[Zambo](https://zambo.dev)** `Other` — The verifiable work layer for AI: 153 tools behind one remote MCP endpoint, continuity across AIs, and a verifiable AER-1 receipt for every job. ([source](https://github.com/zambodotdev/zambo-mcp))  
+  `continuity` `memory` `receipts` `verification`
 - **[Zep MCP Server](https://github.com/jaysack/zep-mcp)** `Python` — Community MCP wrapper for long-term memory and context retrieval with Zep.  
   `memory` `context` `rag`
 - **[Zerouter MCP](https://github.com/ZerouterAI/zerouter-mcp)** `Official` `TypeScript` — AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via Zerouter, an OpenAI-compatible API, to chat, compare models side by side, and look up API pricing.  
@@ -1028,6 +1036,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `analytics` `ai-visibility` `remote`
 - **[Serpier](https://serpier.com/mcp)** `Official` `TypeScript` — Hosted SEO server: track rankings, search traffic and AI visibility, monitor published links, browse vetted publishers and place link-building orders; OAuth sign-in.  
   `seo` `link-building` `ai-visibility` `remote` `oauth`
+- **[Skald](https://github.com/spcaeo/skald)** `Official` `Python` — Self-hosted web analytics from your server access log, with a mostly read-only MCP server so an agent can ask which pages AI assistants fetched, how periods compare, and which days were withheld.  
+  `web-analytics` `access-logs` `self-hosted` `ai-crawlers`
 - **[SlashYear](https://github.com/ctrl-maud/slashyear)** `Official` `JavaScript` — Look up history by year, date and country, plus world leaders, historical prices and No. 1 songs, each line cited to a Wikipedia revision.  
   `history` `wikipedia` `reference-data` `remote`
 - **[Sociality MCP](https://github.com/socialityio/sociality-mcp)** `Official` `Other` — Hosted OAuth MCP server from Sociality.io for social media analytics, post insights, and competitor benchmarking across Facebook, X, Instagram, YouTube, LinkedIn, and TikTok.  
@@ -1349,6 +1359,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `a-share` `stock-data` `real-time-quotes` `market-data`
 - **[PayPal MCP Server](https://github.com/paypal/agent-toolkit)** `Official` `TypeScript` — Process PayPal payments and manage merchant operations.  
   `payments` `commerce` `fintech`
+- **[Picardo](https://picardo.health/docs/claude)** `Official` `TypeScript` — Find Picardo's clinician-designed blood test panels and about 1,000 Labcorp tests with prices, and get a link to order them on picardo.health.  
+  `health` `blood-tests` `lab-tests` `remote` `read-only`
 - **[Pink Agentic AI Payments](https://pinkwallet.com/agentic/developers/)** `Official` `TypeScript` — Approval layer for AI agent payments: per-agent budgets and rules return allow (single-use credential), ask a human, or block before money moves, over remote Streamable HTTP with OAuth 2.1; public sandbox with test money only.  
   `payments` `spending-limits` `approvals` `remote` `oauth`
 - **[Plaid MCP Server](https://plaid.com/docs/resources/mcp/)** `Official` `TypeScript` — Connect bank accounts and retrieve financial transaction data.  

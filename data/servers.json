@@ -10022,6 +10022,32 @@
     "repository": "https://github.com/faahim/postbag"
   },
   {
+    "name": "Zambo",
+    "url": "https://zambo.dev",
+    "description": "The verifiable work layer for AI: 153 tools behind one remote MCP endpoint, continuity across AIs, and a verifiable AER-1 receipt for every job.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Zambo",
+    "tags": [
+      "continuity",
+      "memory",
+      "receipts",
+      "verification"
+    ],
+    "official": false,
+    "repository": "https://github.com/zambodotdev/zambo-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://zambo.dev/mcp"
+    }
+  },
+  {
     "name": "Postman MCP Server",
     "url": "https://github.com/postmanlabs/postman-mcp-server",
     "description": "Explore and run Postman collections and API workflows from AI clients.",
