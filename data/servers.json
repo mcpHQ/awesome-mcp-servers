@@ -8275,6 +8275,31 @@
     "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
+    "name": "fal.ai",
+    "url": "https://fal.ai/mcp",
+    "description": "Discover models and prices, then generate or edit images, video, audio, and 3D through the hosted fal MCP server.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "fal.ai",
+    "tags": [
+      "generative-media",
+      "images",
+      "video",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.fal.ai/mcp-relay"
+    }
+  },
+  {
     "name": "MCP Python SDK",
     "url": "https://github.com/modelcontextprotocol/python-sdk",
     "description": "Official Python SDK for building MCP servers and clients.",
