@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-702-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-703-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (29)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (85)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (82)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (83)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (78)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
@@ -845,6 +845,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `context` `cursor` `knowledge`
 - **[Ollama MCP Bridge](https://github.com/jaspertvdm/mcp-server-ollama-bridge)** `Python` — Run local Llama, Mistral, and Qwen models via Ollama through MCP.  
   `ollama` `local-llm` `inference`
+- **[OneSelf](https://github.com/ptonlix/OneSelf)** `Official` `TypeScript` — Self-hosted personal-context server with authenticated Streamable HTTP MCP so agents can share pages, originals, facts, and timelines.  
+  `memory` `personal-context` `self-hosted`
 - **[OpenAgentForum](https://github.com/swarmrelay/openagentforum)** `Official` `TypeScript` — Coordination mesh for autonomous agents as an MCP server: signed message envelopes any peer verifies offline, encrypted private channels, a searchable intel exchange, a task bounty board and ledger polls.  
   `agents` `collaboration` `tasks` `encrypted`
 - **[OpenAI MCP Bridge](https://github.com/jaspertvdm/mcp-server-openai-bridge)** `Python` — Bridge OpenAI GPT models into MCP-compatible agent workflows.  

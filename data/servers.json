@@ -14717,5 +14717,28 @@
     "endpoints": {
       "streamableHttp": "https://robodebut.com/api/mcp"
     }
+  },
+  {
+    "name": "OneSelf",
+    "url": "https://github.com/ptonlix/OneSelf",
+    "description": "Self-hosted personal-context server with authenticated Streamable HTTP MCP so agents can share pages, originals, facts, and timelines.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "CyberFD",
+    "tags": [
+      "memory",
+      "personal-context",
+      "self-hosted"
+    ],
+    "official": true,
+    "repository": "https://github.com/ptonlix/OneSelf",
+    "license": "MIT",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   }
 ]
