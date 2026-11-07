@@ -14694,5 +14694,28 @@
     "endpoints": {
       "streamableHttp": "https://onesimpleapi.com/mcp"
     }
+  },
+  {
+    "name": "RoboDebut",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.robodebut%2Fsubmissions/versions/1.0.0",
+    "description": "RoboDebut, run by Boon who also builds LinkBunny, lets agents submit websites and startups for operator review through an anonymous MCP server; ordinary submissions need a followed homepage badge and private maker email.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "RoboDebut",
+    "tags": [
+      "website-directory",
+      "startup-directory",
+      "agent-submission"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://robodebut.com/api/mcp"
+    }
   }
 ]
