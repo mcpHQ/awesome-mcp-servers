@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-697-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-698-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (29)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (85)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (81)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (82)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (78)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (31)
@@ -863,6 +863,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `x402` `ai-agent` `payments` `base` `usdc`
 - **[recall (fainir)](https://github.com/fainir/recall)** `JavaScript` — Reads and writes Claude Code's auto memory, Markdown files with wiki-links, so Codex, Cursor and other agents share the same memories over MCP or from code.  
   `memory` `claude-code` `codex` `markdown` `local`
+- **[RoomLab.app](https://roomlab.app/en/mcp)** `Official` `JavaScript` — Hosted MCP server for AI virtual staging, room restyling, decluttering, furniture and material swaps, architectural renders and room videos from your own photos, with OAuth sign-in to a RoomLab.app account and its credits.  
+  `interior-design` `real-estate` `image-editing` `remote` `oauth`
 - **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)** `Official` `TypeScript` — Discover model inputs and create AI image, video, music, speech, and other model API tasks.  
   `models` `media-generation` `inference`
 - **[Runx](https://runx.ai/docs/mcp)** `Official` `TypeScript` — Search and inspect portable agent skills through read-only hosted MCP; execution and signed receipts belong to Runx's Apache-2.0 local runtime.  
