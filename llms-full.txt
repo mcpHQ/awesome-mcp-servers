@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 702 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 703 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4665,6 +4665,20 @@ Run local Llama, Mistral, and Qwen models via Ollama through MCP.
 - Official: no
 - Tags: ollama, local-llm, inference
 - Category: AI, Agents, and Memory
+
+### OneSelf
+
+Self-hosted personal-context server with authenticated Streamable HTTP MCP so agents can share pages, originals, facts, and timelines.
+
+- URL: https://github.com/ptonlix/OneSelf
+- Language: TypeScript
+- Provider: CyberFD
+- Official: yes
+- Tags: memory, personal-context, self-hosted
+- Category: AI, Agents, and Memory
+- License: MIT
+- Transport: streamable-http
+- Auth: api-key, oauth
 
 ### OpenAgentForum
 
