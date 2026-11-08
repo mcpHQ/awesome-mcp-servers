@@ -8213,6 +8213,32 @@
     ]
   },
   {
+    "name": "Agentik",
+    "url": "https://www.agentik.cc",
+    "description": "Hosted MCP gateway that connects Claude, ChatGPT, Codex and Cursor to tools from 165 providers through one connection, with the price shown before each call, billed at the provider's price from one prepaid balance.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Agentik",
+    "tags": [
+      "gateway",
+      "hosted",
+      "remote",
+      "oauth",
+      "pay-per-call"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://ai.agentik.cc/mcp"
+    },
+    "license": "proprietary",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "MCP Everything",
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
     "description": "Reference server exposing prompts, resources, and tools for protocol testing.",
