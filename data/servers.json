@@ -7259,6 +7259,34 @@
     ]
   },
   {
+    "name": "NFC Tap Builder by Tap.Giving",
+    "url": "https://github.com/RyanShook/tap-giving-mcp",
+    "description": "Hosted MCP server for designing and ordering custom NFC tap discs for organizations, with keyless pricing and quotes and organization API key order placement.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Tap.Giving",
+    "tags": [
+      "nfc",
+      "e-commerce",
+      "ordering",
+      "fundraising",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/RyanShook/tap-giving-mcp",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://tap.giving/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "BestPrice Shopping",
     "url": "https://github.com/TheBestCo/bestprice-mcp",
     "description": "Official read-only shopping MCP for Greece from BestPrice.gr: shopping recommendations, product search, store offers with delivered totals, and price history; no API key.",
