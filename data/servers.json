@@ -7261,7 +7261,7 @@
   {
     "name": "NFC Tap Builder by Tap.Giving",
     "url": "https://github.com/RyanShook/tap-giving-mcp",
-    "description": "Hosted MCP server for designing and ordering custom NFC tap discs for organizations, with keyless pricing and quotes and organization API key order placement.",
+    "description": "A tool first: create print-ready NFC artwork proofs with correct vector art for organizations, free to take to any vendor, with no lock-in. Keyless pricing and quotes; ordering custom discs through Tap.Giving is an optional next step.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Tap.Giving",
