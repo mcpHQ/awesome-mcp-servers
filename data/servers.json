@@ -15476,5 +15476,31 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Quantral",
+    "url": "https://quantral.com/mcp",
+    "description": "Investment ideas built on alternative data: 0-100 stock scores from what investors say on X, Reddit, Substack and YouTube, track records for the accounts behind them, plus US Congress trades and insider buys. Read-only tools.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Quantral",
+    "tags": [
+      "stocks",
+      "sentiment",
+      "alternative-data",
+      "congress-trades",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.quantral.com/api/mcp"
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]

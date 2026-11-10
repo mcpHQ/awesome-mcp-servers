@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 731 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 732 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8490,6 +8490,21 @@ Creates dynamic QR codes and short links, sets up QR Reviews that route guests t
 - Transport: streamable-http
 - Auth: oauth, api-key
 - Streamable HTTP endpoint: https://qr-cloud.com/mcp
+
+### Quantral
+
+Investment ideas built on alternative data: 0-100 stock scores from what investors say on X, Reddit, Substack and YouTube, track records for the accounts behind them, plus US Congress trades and insider buys. Read-only tools.
+
+- URL: https://quantral.com/mcp
+- Language: TypeScript
+- Provider: Quantral
+- Official: yes
+- Tags: stocks, sentiment, alternative-data, congress-trades, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://app.quantral.com/api/mcp
 
 ### QuickBooks MCP Server
 
