@@ -15660,5 +15660,33 @@
       "none"
     ],
     "verified": "2026-11-09"
+  },
+  {
+    "name": "AdMakeAI",
+    "url": "https://github.com/mesmerlord/admakeai-mcp",
+    "description": "Hosted MCP server for AdMakeAI: generate Meta and TikTok ad images and UGC-style video ads, pull competitors' live Meta Ad Library ads, and draft and report on Meta campaigns.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "AdMakeAI",
+    "tags": [
+      "advertising",
+      "ad-creative",
+      "meta-ads",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://admakeai.com/api/mcp"
+    },
+    "repository": "https://github.com/mesmerlord/admakeai-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]

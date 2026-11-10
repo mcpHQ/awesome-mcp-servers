@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 738 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 739 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -596,6 +596,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [AccountsOS](https://github.com/thriveventurelabs/accountsos-mcp-server): AI accounting MCP server: query your live AccountsOS books (balances, transactions, VAT, deadlines, invoices, documents) from any MCP client. (TypeScript, official)
 - [Add to CRM](https://github.com/crm-inputs/mcp): Find work contact details and add people and companies to your own CRM from Claude, ChatGPT and other assistants. Checks for duplicates first and uses your field mapping and tags. Works with 29+ CRMs. (Other, official)
 - [ADEXTO](https://github.com/0xcuy/adexto): Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key. (TypeScript, official)
+- [AdMakeAI](https://github.com/mesmerlord/admakeai-mcp): Hosted MCP server for AdMakeAI: generate Meta and TikTok ad images and UGC-style video ads, pull competitors' live Meta Ad Library ads, and draft and report on Meta campaigns. (TypeScript, official)
 - [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node): Local CLI and stdio MCP payment tools for AI agents on macOS Apple Silicon, with foreground human approval for signing. (TypeScript, official)
 - [AgentServices](https://github.com/vbkotecha/agentservices-api): Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments. (Python)
 - [agosint](https://agosint.shveik.dev): Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account. (Go, official)
