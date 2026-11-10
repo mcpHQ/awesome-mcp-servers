@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 717 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 722 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -287,6 +287,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Crispy](https://crispy.sh): Hosted LinkedIn MCP server. Sign in with OAuth, or use a Bearer API key. Search people and companies, read profile and company data, and send and read messages. (TypeScript)
 - [day3](https://docs.day3.app/mcp): Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope. (TypeScript, official)
 - [Deacon](https://heydeacon.com/features/mcp-server): Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix. (PHP, official)
+- [depot.fitness](https://depot.fitness/connect): Hosted MCP server for strength training: search 101 written-out programs and 539 exercises, read training guides, and save programs or read recent workouts for signed-in users. (TypeScript, official)
 - [Discord MCP Server](https://github.com/SaseQ/discord-mcp): Read and send messages in Discord servers and channels. (Python)
 - [Edusign MCP](https://developers.edusign.com/docs/mcp): Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server. (TypeScript, official)
 - [Enhanciar](https://github.com/enhanciar/enhanciar-mcp): A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted; needs an Enhanciar API key (paid plans). (Other, official)
@@ -366,6 +367,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Agent Commons](https://github.com/sibi-narendran/common-agent-network): Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed. (TypeScript)
 - [Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live): Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp. (TypeScript, official)
 - [AgentDrives](https://agentdrives.com/data#mcp): Looks up whether an AI agent can really use a software product (sign-up, API key, the core tasks, paying, leaving), with levels 0 to 5 from real agent test drives. (TypeScript, official)
+- [Agentik](https://www.agentik.cc): Hosted MCP gateway that connects Claude, ChatGPT, Codex and Cursor to tools from 165 providers through one connection, with the price shown before each call, billed at the provider's price from one prepaid balance. (Other, official)
 - [AI Agents Listing](https://github.com/nyyhao/aiagentslisting-mcp): Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending. (JavaScript, official)
 - [Aident Loadout](https://aident.ai): Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ Skills through one OAuth setup, with vaulted credentials and an audit trail. (TypeScript, official)
 - [AISkills402](https://aiskills402.com): Remote MCP server (streamable HTTP, no key) to search tested Agent Skill files (SKILL.md), read a skill card with its x402 price and re-download a bought file; the files are paid per file over x402 (USDC on Base). (TypeScript, official)
@@ -429,6 +431,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp): Search locally captured screen text and audio history via MCP under the Screenpipe Commercial License, with optional cloud features and connected AI clients able to transmit context off-device. (TypeScript, official)
 - [Selvedge](https://github.com/masondelan/selvedge): Local SQLite decision memory for coding agents to save and retrieve rationale, rejected approaches, and entity history. (Python)
 - [ShortSmash](https://github.com/hydope/shortsmash): MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms. (Python)
+- [Shotboard](https://github.com/freeman14/shotboard-mcp): Local server built into the Shotboard Mac app: search Meta and TikTok ads, extract scripts from links, and generate images, video and audio on a canvas with 100 media models. (TypeScript, official)
 - [SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp): AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage. (JavaScript)
 - [Speechyou MCP](https://speechyou.com/mcp): Search and read voice notes and meeting transcripts from Claude, with full transcripts, AI summaries, tags, recent notes and audio links through read-only OAuth access. (TypeScript, official)
 - [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory): Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file. (Python)
@@ -446,6 +449,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 ## Data, Analytics, and BI
 
+- [Adspy](https://www.adspy.sh): Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered. (Other, official)
 - [AgenticWebScore](https://github.com/marifeting/agenticwebscore-mcp): Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key. (TypeScript, official)
 - [AgentSEO](https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server): AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits. (TypeScript, official)
 - [AI SEO Tracker](https://aiseotracker.com/docs/mcp): Track brand visibility, citations, prompts, competitors, and missing citation sources across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews. (TypeScript, official)
@@ -656,6 +660,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp): People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors. (TypeScript, official)
 - [Landed MCP](https://github.com/landedjobs/landed-mcp): Search AI and tech jobs ranked against a role brief, read a job's application form fields, and fetch free interview prep through a hosted MCP endpoint. (TypeScript, official)
 - [Lasso](https://getlasso.co/mcp): Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one site. (Python, official)
+- [Latino Events (events.lat)](https://events.lat/llms.txt): Hosted MCP server that searches concerts, festivals and cultural events across Mexico, Brazil, Argentina, Colombia, Chile and Peru, returning venue, dates and the official ticket link, and saves events for signed-in users. (TypeScript, official)
 - [Lava / 熔岩](https://github.com/dustinliang666-blip/lava-mcp): Read-only A-share stock and concept-board news-flow heat monitoring via structured remote MCP/REST for quant tools and AI agent market research; API key required. (TypeScript, official)
 - [LAYIQ Jobs](https://www.layiq.co/connectors/claude): Search public job listings and read job details from LAYIQ, a candidate-first job search workspace without sponsored listings. Read-only; no account or API key. (Other, official)
 - [Leal](https://www.getleal.com/mcp): Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters. (Ruby, official)
