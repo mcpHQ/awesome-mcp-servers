@@ -1060,6 +1060,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `social-media` `analytics` `competitor-analysis` `marketing` `oauth`
 - **[Sourcey](https://sourcey.com/mcp)** `Official` `TypeScript` — Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record.  
   `startup-credits` `company-data` `agent-readiness` `evidence`
+- **[Smarter.Poker MCP Server](https://github.com/Smarter-Poker/smarter-poker-mcp)** `Official` `JavaScript` — Keyless stdio and streamable-HTTP (`https://smarter.poker/api/mcp`) server with 26 tools for 10,000-trial Monte Carlo poker equity, exact Malmuth-Harville ICM, Nash push/fold charts, bankroll risk-of-ruin, and live venue/tournament discovery across 808+ US cardrooms.  
+  `poker` `game-theory` `analytics` `sports` `remote`
 - **[Sports Odds API (BetRivers, Unibet & 22 more books)](https://apify.com/publicrecords/sports-odds-api)** `JavaScript` — Live odds from 24 Kambi-powered sportsbooks in one call, including BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel and ATG, with every book's price and the best price per outcome; pay per call.  
   `sports` `betting` `odds` `remote`
 - **[StatOrigin](https://statorigin.org/docs/mcp)** `Official` `Other` — Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence.  
