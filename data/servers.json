@@ -15580,5 +15580,33 @@
     "auth": [
       "api-key"
     ]
+  },
+  {
+    "name": "Tools That Don't Upload",
+    "url": "https://toolsthatdontupload.com/docs/mcp/",
+    "description": "Hosted MCP server that runs saved PDF and office file flows, converts Korean HWP/HWPX documents to Markdown, text or DOCX, and calls data and text APIs; files are processed in memory and not stored.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "Tools That Don't Upload",
+    "tags": [
+      "pdf",
+      "hwp",
+      "documents",
+      "korean",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/etacbae6768-a11y/tools-that-dont-upload",
+    "license": "MIT",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://toolsthatdontupload.com/mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ]
   }
 ]
