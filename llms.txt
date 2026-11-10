@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 712 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 714 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -275,6 +275,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Atlassian Browser MCP Server](https://github.com/GeiserX/atlassian-browser-mcp): Wraps mcp-atlassian with Playwright browser-cookie login, so its Jira and Confluence tools work on Atlassian Server/Data Center behind corporate SSO (Okta, SAML) where API tokens are not available. (Python)
 - [Atlassian MCP Server](https://github.com/atlassian/atlassian-mcp-server): Manage Jira issues and Confluence pages across Atlassian Cloud. (TypeScript, official)
 - [BacklinkGenie](https://backlinkgenie.com/mcp/): Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key. (TypeScript, official)
+- [BeingSo MCP](https://github.com/beingso/beingso-mcp): Search animated greeting card designs, personalize messages, review previews, and publish shareable card links or request email delivery. (PHP, official)
 - [BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api): MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish. (TypeScript)
 - [CallForMe](https://github.com/callforme-tel/callforme): Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers. (TypeScript, official)
 - [Campfire SMS](https://github.com/campfiresms/campfire-mcp): Two-way SMS bridge for coding agents: the agent texts you when it finishes or is blocked and reads your SMS replies. (Python, official)
@@ -290,6 +291,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ent1-mcp](https://github.com/edouard-claude/ent1-mcp): Parent access to ENT ONE, the French primary-school digital workspace (Edifice): teacher messaging, liaison book, homework, news, calendar and documents. (Rust)
 - [Faceless](https://faceless.so): Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...). (TypeScript, official)
 - [Fax for Agents](https://github.com/faxforagents/mcp): Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence. (TypeScript, official)
+- [Fezola](https://app.fezola.com/en/docs): Hosted MCP server that puts several mailboxes (Gmail, iCloud, OVH, any IMAP server), Google Chat and Telegram behind one connector: unified recent view, cross-account search and reply drafts. (TypeScript, official)
 - [Flaghand](https://flaghand.com/?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026): Hosted OAuth MCP server where agents draft X, LinkedIn, Bluesky and TikTok posts; only the owner's passkey approval of the exact post publishes it. (JavaScript, official)
 - [Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server): Search, read, and compose Gmail messages from MCP clients. (TypeScript)
 - [Google Calendar MCP Server](https://github.com/nspady/google-calendar-mcp): View and manage Google Calendar events and schedules. (TypeScript)

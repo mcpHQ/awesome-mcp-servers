@@ -15012,5 +15012,30 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "BeingSo MCP",
+    "url": "https://github.com/beingso/beingso-mcp",
+    "description": "Search animated greeting card designs, personalize messages, review previews, and publish shareable card links or request email delivery.",
+    "category": "communication-and-productivity",
+    "language": "PHP",
+    "provider": "BeingSo",
+    "tags": [
+      "greeting-cards",
+      "ecards",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/beingso/beingso-mcp",
+    "endpoints": {
+      "streamableHttp": "https://www.beingso.com/api/mcp/index.php"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]
