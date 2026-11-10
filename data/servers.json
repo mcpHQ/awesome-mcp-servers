@@ -15340,5 +15340,29 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "AI Interview Questions MCP",
+    "url": "https://github.com/Johnnnmai/ai-interview-questions-mcp",
+    "description": "Offline stdio MCP with graded AI engineer and investment banking interview questions, model answers, topic search and mock rounds. Companion static JSON catalog on GitHub Pages.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "interview",
+      "education",
+      "ai-engineering",
+      "stdio"
+    ],
+    "official": false,
+    "repository": "https://github.com/Johnnnmai/ai-interview-questions-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]
