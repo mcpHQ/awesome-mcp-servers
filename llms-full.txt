@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 707 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 711 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1461,6 +1461,23 @@ Search indexed YouTube transcripts for timestamped passages, speaker appearances
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.arcmira.com/mcp
 
+### Awesome Tools
+
+Search curated SaaS and AI tools, browse categories and tags, submit a product, and verify backlink badges.
+
+- URL: https://awesome.tools
+- Language: TypeScript
+- Provider: Awesome Tools
+- Official: yes
+- Tags: search, directory, saas, ai-tools, remote
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/Illyism/awesome-tools-mcp
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://awesome.tools/mcp
+
 ### Baizhi Cloud Agent Toolkit
 
 Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits.
@@ -2251,6 +2268,23 @@ OCR local PDF files through the FastOCR API and check API balance from MCP clien
 - Official: yes
 - Tags: ocr, pdf, documents
 - Category: Filesystems and Documents
+
+### GenPPT
+
+Generate AI slide decks and pitch decks from a prompt and export native PowerPoint (.pptx) and PDF files.
+
+- URL: https://genppt.com
+- Language: TypeScript
+- Provider: GenPPT
+- Official: yes
+- Tags: presentations, powerpoint, pptx, slides, remote
+- Category: Filesystems and Documents
+- Repository: https://github.com/Illyism/genppt-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none, api-key
+- Streamable HTTP endpoint: https://genppt.com/mcp
 
 ### Google Drive MCP Server
 
@@ -5152,6 +5186,23 @@ AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword resear
 - Install: npx @agentseo/mcp-server@0.1.5
 - Streamable HTTP endpoint: https://www.agentseo.dev/mcp
 
+### AI SEO Tracker
+
+Track brand visibility, citations, prompts, competitors, and missing citation sources across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews.
+
+- URL: https://aiseotracker.com/docs/mcp
+- Language: TypeScript
+- Provider: AI SEO Tracker
+- Official: yes
+- Tags: seo, ai-seo, geo, citations, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/Illyism/aiseotracker-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://aiseotracker.com/mcp
+
 ### ailiste
 
 New-build homes in Cyprus: buildings with the stage seen on site and the day, developers, and district asking prices per m², read-only.
@@ -5642,6 +5693,23 @@ Pinball news, games and editions, designers, places to play and the Hype Index f
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://www.kineticist.com/api/mcp
+
+### LinkDR
+
+Domain rating and backlink research, SERP and keyword analysis, AI search visibility checks, publisher site approvals, and managed backlink ordering.
+
+- URL: https://linkdr.com/docs/mcp
+- Language: TypeScript
+- Provider: LinkDR
+- Official: yes
+- Tags: seo, backlinks, serp, remote, oauth
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/Illyism/linkdr-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://linkdr.com/mcp
 
 ### LLM Pulse MCP Server
 

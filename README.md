@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-707-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-711-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,12 +44,12 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (77)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (65)
-- [Filesystems and Documents](#filesystems-and-documents) (29)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (66)
+- [Filesystems and Documents](#filesystems-and-documents) (30)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (86)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (84)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (78)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (80)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (149)
@@ -321,6 +321,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `scraping` `actors` `data`
 - **[Arcmira: YouTube Transcript Search](https://arcmira.com/docs/mcp-server)** `Official` `Other` — Search indexed YouTube transcripts for timestamped passages, speaker appearances, mentions, sponsors and recommendations over a hosted MCP connection.  
   `youtube` `transcripts` `search` `speakers` `research`
+- **[Awesome Tools](https://awesome.tools)** `Official` `TypeScript` — Search curated SaaS and AI tools, browse categories and tags, submit a product, and verify backlink badges. ([source](https://github.com/Illyism/awesome-tools-mcp))  
+  `search` `directory` `saas` `ai-tools` `remote`
 - **[Baizhi Cloud Agent Toolkit](https://github.com/chaitin/baizhi-agent-toolkit)** `Official` `Other` — Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits.  
   `search` `web` `hosted`
 - **[Baizhi Cloud Browser (CapyBrowser)](https://github.com/chaitin/baizhi-cloud-browser)** `Official` `Other` — Manage cloud browser sessions, saved profiles, human handoff and downloads via hosted MCP; page actions require a CDP client, and a Baizhi API key and paid browser runtime apply.  
@@ -450,6 +452,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `pdf` `document-generation` `form-filling` `invoice`
 - **[FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp)** `Official` `Python` — OCR local PDF files through the FastOCR API and check API balance from MCP clients.  
   `ocr` `pdf` `documents`
+- **[GenPPT](https://genppt.com)** `Official` `TypeScript` — Generate AI slide decks and pitch decks from a prompt and export native PowerPoint (.pptx) and PDF files. ([source](https://github.com/Illyism/genppt-mcp))  
+  `presentations` `powerpoint` `pptx` `slides` `remote`
 - **[Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** `Python` — Access and search files in Google Drive from MCP clients. ([source](https://github.com/modelcontextprotocol/servers-archived))  
   `google-drive` `files` `cloud`
 - **[Grandpa's AI](https://github.com/wescorp/grandpasai-mcp)** `Official` `JavaScript` — Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.  
@@ -924,6 +928,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `agent-readiness` `llms-txt` `remote`
 - **[AgentSEO](https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server)** `Official` `TypeScript` — AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits. ([source](https://github.com/AgentSEO-dev/agentseo-clients))  
   `seo` `keywords` `serp` `backlinks` `remote`
+- **[AI SEO Tracker](https://aiseotracker.com/docs/mcp)** `Official` `TypeScript` — Track brand visibility, citations, prompts, competitors, and missing citation sources across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews. ([source](https://github.com/Illyism/aiseotracker-mcp))  
+  `seo` `ai-seo` `geo` `citations` `remote`
 - **[ailiste](https://ailiste.app/mcp/)** `Official` `Python` — New-build homes in Cyprus: buildings with the stage seen on site and the day, developers, and district asking prices per m², read-only. ([source](https://github.com/ahmlvs/ailiste-mcp))  
   `real-estate` `cyprus` `property-prices` `new-builds` `remote`
 - **[AltoRank](https://github.com/AltoRank/altorank)** `Official` `TypeScript` — Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.  
@@ -998,6 +1004,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `official-statistics` `public-data` `time-series` `source-citations` `remote`
 - **[Kineticist](https://github.com/colinize/kineticist-mcp)** `Official` `TypeScript` — Pinball news, games and editions, designers, places to play and the Hype Index from Kineticist, with a free hosted endpoint and a local npm package.  
   `pinball` `games` `news` `remote`
+- **[LinkDR](https://linkdr.com/docs/mcp)** `Official` `TypeScript` — Domain rating and backlink research, SERP and keyword analysis, AI search visibility checks, publisher site approvals, and managed backlink ordering. ([source](https://github.com/Illyism/linkdr-mcp))  
+  `seo` `backlinks` `serp` `remote` `oauth`
 - **[LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp)** `Official` `JavaScript` — Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic.  
   `ai-visibility` `analytics` `marketing`
 - **[LogNorm](https://github.com/lognorm/lognorm-mcp)** `Official` `Other` — Hosted MCP server that hands a site's SEO/GEO growth backlog (audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor via OAuth.  

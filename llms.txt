@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 707 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 711 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -143,6 +143,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Allscreenshots](https://github.com/allscreenshots/allscreenshots-plugin): Captures website screenshots, runs bulk captures, and manages screenshot schedules and history via the Allscreenshots API; available as a local Python server or a remote endpoint. (Python, official)
 - [Apify MCP Server](https://github.com/apify/apify-mcp-server): Run Apify Actors and extract web datasets at scale. (TypeScript, official)
 - [Arcmira: YouTube Transcript Search](https://arcmira.com/docs/mcp-server): Search indexed YouTube transcripts for timestamped passages, speaker appearances, mentions, sponsors and recommendations over a hosted MCP connection. (Other, official)
+- [Awesome Tools](https://awesome.tools): Search curated SaaS and AI tools, browse categories and tags, submit a product, and verify backlink badges. (TypeScript, official)
 - [Baizhi Cloud Agent Toolkit](https://github.com/chaitin/baizhi-agent-toolkit): Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits. (Other, official)
 - [Baizhi Cloud Browser (CapyBrowser)](https://github.com/chaitin/baizhi-cloud-browser): Manage cloud browser sessions, saved profiles, human handoff and downloads via hosted MCP; page actions require a CDP client, and a Baizhi API key and paid browser runtime apply. (Other, official)
 - [BGPT MCP](https://bgpt.pro/mcp/): Search full-text scientific papers and return structured evidence for research agents. (Python)
@@ -207,6 +208,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [doc2md-lite](https://github.com/tidybytetools/doc2md-lite): Turns local text PDFs and saved HTML pages into Markdown and keeps tables as Markdown tables. (Python)
 - [DocuQueue MCP](https://github.com/docuqueue/docuqueue-mcp): Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier. (TypeScript, official)
 - [FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp): OCR local PDF files through the FastOCR API and check API balance from MCP clients. (Python, official)
+- [GenPPT](https://genppt.com): Generate AI slide decks and pitch decks from a prompt and export native PowerPoint (.pptx) and PDF files. (TypeScript, official)
 - [Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive): Access and search files in Google Drive from MCP clients. (Python)
 - [Grandpa's AI](https://github.com/wescorp/grandpasai-mcp): Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization. (JavaScript, official)
 - [Holos33](https://mcp.holos33.com): Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact. (Python, official)
@@ -442,6 +444,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [AgenticWebScore](https://github.com/marifeting/agenticwebscore-mcp): Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key. (TypeScript, official)
 - [AgentSEO](https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server): AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits. (TypeScript, official)
+- [AI SEO Tracker](https://aiseotracker.com/docs/mcp): Track brand visibility, citations, prompts, competitors, and missing citation sources across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews. (TypeScript, official)
 - [ailiste](https://ailiste.app/mcp/): New-build homes in Cyprus: buildings with the stage seen on site and the day, developers, and district asking prices per m², read-only. (Python, official)
 - [AltoRank](https://github.com/AltoRank/altorank): Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool. (TypeScript, official)
 - [Amplitude MCP Server](https://amplitude.com/docs/amplitude-ai/amplitude-mcp): Analyze product analytics events and user behavior in Amplitude. (TypeScript, official)
@@ -479,6 +482,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Hoot Lens](https://github.com/Parallel-Platforms/hootlens-mcp): Read website session replays, click heatmaps and broken clicks, trace one to its JavaScript error and source line, and check whether a shipped change helped. (TypeScript, official)
 - [Invokely](https://invokely.ai/docs): Query source-cited official statistics by indicator, place and period; retrieve values and time series, compare places, and rank regions. No-account MCP trial allows 25 calls per IP per day. (Other, official)
 - [Kineticist](https://github.com/colinize/kineticist-mcp): Pinball news, games and editions, designers, places to play and the Hype Index from Kineticist, with a free hosted endpoint and a local npm package. (TypeScript, official)
+- [LinkDR](https://linkdr.com/docs/mcp): Domain rating and backlink research, SERP and keyword analysis, AI search visibility checks, publisher site approvals, and managed backlink ordering. (TypeScript, official)
 - [LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp): Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic. (JavaScript, official)
 - [LogNorm](https://github.com/lognorm/lognorm-mcp): Hosted MCP server that hands a site's SEO/GEO growth backlog (audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor via OAuth. (Other, official)
 - [MadeOnSol MCP Server](https://github.com/MadeOnSol/mcp-server-madeonsol): Solana KOL trades, wallet analytics, token and deployer intelligence, and DEX data via an API key or keyless x402 pay-per-call in USDC. (TypeScript, official)
