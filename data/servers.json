@@ -15553,5 +15553,32 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "SendNF",
+    "url": "https://sendnf.com/mcp/",
+    "description": "Issues and cancels Brazilian NFS-e and NFC-e invoices, looks up CNPJ and service codes, and pre-checks each invoice with human approval before it is sent. 44 tools.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "SendNF",
+    "tags": [
+      "nfse",
+      "nfce",
+      "invoicing",
+      "brazil",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/sendnf/sendnf-mcp",
+    "endpoints": {
+      "streamableHttp": "https://api.sendnf.com/mcp"
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   }
 ]

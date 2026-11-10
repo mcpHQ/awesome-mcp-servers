@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-734-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-735-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (157)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (158)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1465,6 +1465,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `crypto` `bitcoin` `stablecoins` `lightning`
 - **[Sendable](https://docs.getsendable.io/integrations/mcp)** `Official` `TypeScript` — Finds LinkedIn prospects showing buying intent, qualifies them against an ideal customer profile, and manages Sendable outreach campaigns, leads and LinkedIn inbox.  
   `linkedin` `sales` `prospecting` `outreach` `crm`
+- **[SendNF](https://sendnf.com/mcp/)** `Official` `TypeScript` — Issues and cancels Brazilian NFS-e and NFC-e invoices, looks up CNPJ and service codes, and pre-checks each invoice with human approval before it is sent. 44 tools. ([source](https://github.com/sendnf/sendnf-mcp))  
+  `nfse` `nfce` `invoicing` `brazil` `remote`
 - **[Shop Nobi](https://nobi.ai/shop)** `Official` `Java` — Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.  
   `shopping` `product-search` `remote`
 - **[Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp)** `TypeScript` — Community-maintained integration for Shopify products, orders, and store operations.  
