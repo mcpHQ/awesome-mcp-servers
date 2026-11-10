@@ -5059,6 +5059,34 @@
     ]
   },
   {
+    "name": "Adspy",
+    "url": "https://www.adspy.sh",
+    "description": "Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Adspy",
+    "tags": [
+      "ad-library",
+      "meta-ads",
+      "google-ads",
+      "competitor-research",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.adspy.sh/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "MCP Ads",
     "url": "https://mcp-ads.com",
     "description": "Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.",
