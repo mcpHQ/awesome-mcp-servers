@@ -15635,5 +15635,30 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "Crypto Regime MCP",
+    "url": "https://github.com/Shicodiez/crypto-regime-mcp",
+    "description": "Crypto trend, regime and indicators tools, pay-per-call via x402 on Base.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Shicodiez",
+    "tags": [
+      "crypto",
+      "trading",
+      "x402",
+      "base"
+    ],
+    "official": false,
+    "repository": "https://github.com/Shicodiez/crypto-regime-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-09"
   }
 ]
