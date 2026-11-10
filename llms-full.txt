@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 735 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 736 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2580,6 +2580,22 @@ Send Markdown or PDF documents for two-party electronic signing with SHA-256 cry
 - Official: yes
 - Tags: documents, esignature, contracts, legal, pdf
 - Category: Filesystems and Documents
+
+### Tools That Don't Upload
+
+Hosted MCP server that runs saved PDF and office file flows, converts Korean HWP/HWPX documents to Markdown, text or DOCX, and calls data and text APIs; files are processed in memory and not stored.
+
+- URL: https://toolsthatdontupload.com/docs/mcp/
+- Language: JavaScript
+- Provider: Tools That Don't Upload
+- Official: yes
+- Tags: pdf, hwp, documents, korean, remote
+- Category: Filesystems and Documents
+- Repository: https://github.com/etacbae6768-a11y/tools-that-dont-upload
+- License: MIT
+- Transport: streamable-http
+- Auth: none, api-key
+- Streamable HTTP endpoint: https://toolsthatdontupload.com/mcp
 
 ### VectoSolve
 
