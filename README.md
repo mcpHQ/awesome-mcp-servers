@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-717-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-722-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,12 +47,12 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (67)
 - [Filesystems and Documents](#filesystems-and-documents) (30)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
-- [Communication and Productivity](#communication-and-productivity) (88)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (84)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (81)
+- [Communication and Productivity](#communication-and-productivity) (89)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (86)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (150)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (151)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -612,6 +612,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `email-marketing` `newsletters` `campaigns` `api-key`
 - **[Deacon](https://heydeacon.com/features/mcp-server)** `Official` `PHP` — Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix.  
   `customer-support` `bug-reports` `coding-agents` `remote` `oauth`
+- **[depot.fitness](https://depot.fitness/connect)** `Official` `TypeScript` — Hosted MCP server for strength training: search 101 written-out programs and 539 exercises, read training guides, and save programs or read recent workouts for signed-in users.  
+  `fitness` `strength-training` `workouts` `remote` `oauth`
 - **[Discord MCP Server](https://github.com/SaseQ/discord-mcp)** `Python` — Read and send messages in Discord servers and channels.  
   `discord` `chat` `community`
 - **[Edusign MCP](https://developers.edusign.com/docs/mcp)** `Official` `TypeScript` — Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server.  
@@ -771,6 +773,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `remote` `oauth`
 - **[AgentDrives](https://agentdrives.com/data#mcp)** `Official` `TypeScript` — Looks up whether an AI agent can really use a software product (sign-up, API key, the core tasks, paying, leaving), with levels 0 to 5 from real agent test drives.  
   `agents` `directory` `saas` `remote`
+- **[Agentik](https://www.agentik.cc)** `Official` `Other` — Hosted MCP gateway that connects Claude, ChatGPT, Codex and Cursor to tools from 165 providers through one connection, with the price shown before each call, billed at the provider's price from one prepaid balance.  
+  `gateway` `hosted` `remote` `oauth` `pay-per-call`
 - **[AI Agents Listing](https://github.com/nyyhao/aiagentslisting-mcp)** `Official` `JavaScript` — Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending.  
   `directory` `discovery` `mcp` `agents` `remote`
 - **[Aident Loadout](https://aident.ai)** `Official` `TypeScript` — Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ Skills through one OAuth setup, with vaulted credentials and an audit trail.  
@@ -897,6 +901,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `decision-memory` `coding-agents` `sqlite` `local-first`
 - **[ShortSmash](https://github.com/hydope/shortsmash)** `Python` — MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms.  
   `video` `content-creation` `agents` `publishing`
+- **[Shotboard](https://github.com/freeman14/shotboard-mcp)** `Official` `TypeScript` — Local server built into the Shotboard Mac app: search Meta and TikTok ads, extract scripts from links, and generate images, video and audio on a canvas with 100 media models.  
+  `image-generation` `video-generation` `ads` `macos`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
 - **[Speechyou MCP](https://speechyou.com/mcp)** `Official` `TypeScript` — Search and read voice notes and meeting transcripts from Claude, with full transcripts, AI summaries, tags, recent notes and audio links through read-only OAuth access.  
@@ -932,6 +938,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
 
 Analytics platforms, monitoring, and business intelligence tooling.
 
+- **[Adspy](https://www.adspy.sh)** `Official` `Other` — Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.  
+  `ad-library` `meta-ads` `google-ads` `competitor-research` `remote`
 - **[AgenticWebScore](https://github.com/marifeting/agenticwebscore-mcp)** `Official` `TypeScript` — Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.  
   `seo` `agent-readiness` `llms-txt` `remote`
 - **[AgentSEO](https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server)** `Official` `TypeScript` — AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits. ([source](https://github.com/AgentSEO-dev/agentseo-clients))  
@@ -1355,6 +1363,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `jobs` `job-search` `interview-prep` `remote`
 - **[Lasso](https://getlasso.co/mcp)** `Official` `Python` — Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one site.  
   `affiliate` `ecommerce` `marketing` `remote`
+- **[Latino Events (events.lat)](https://events.lat/llms.txt)** `Official` `TypeScript` — Hosted MCP server that searches concerts, festivals and cultural events across Mexico, Brazil, Argentina, Colombia, Chile and Peru, returning venue, dates and the official ticket link, and saves events for signed-in users.  
+  `events` `concerts` `latin-america` `remote` `oauth`
 - **[Lava / 熔岩](https://github.com/dustinliang666-blip/lava-mcp)** `Official` `TypeScript` — Read-only A-share stock and concept-board news-flow heat monitoring via structured remote MCP/REST for quant tools and AI agent market research; API key required.  
   `a-share` `stocks` `market-research` `quant` `remote`
 - **[LAYIQ Jobs](https://www.layiq.co/connectors/claude)** `Official` `Other` — Search public job listings and read job details from LAYIQ, a candidate-first job search workspace without sponsored listings. Read-only; no account or API key.  

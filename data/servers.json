@@ -15219,5 +15219,29 @@
     "transport": [
       "streamable-http"
     ]
+  },
+  {
+    "name": "Shotboard",
+    "url": "https://github.com/freeman14/shotboard-mcp",
+    "description": "Local server built into the Shotboard Mac app: search Meta and TikTok ads, extract scripts from links, and generate images, video and audio on a canvas with 100 media models.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Shotboard",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "ads",
+      "macos"
+    ],
+    "official": true,
+    "repository": "https://github.com/freeman14/shotboard-mcp",
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]

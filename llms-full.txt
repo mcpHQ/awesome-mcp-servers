@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 717 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 722 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3210,6 +3210,22 @@ Lets your coding agent read what customers told Deacon's support chat, next to y
 - Auth: oauth
 - Streamable HTTP endpoint: https://heydeacon.com/mcp
 
+### depot.fitness
+
+Hosted MCP server for strength training: search 101 written-out programs and 539 exercises, read training guides, and save programs or read recent workouts for signed-in users.
+
+- URL: https://depot.fitness/connect
+- Language: TypeScript
+- Provider: depot.fitness
+- Official: yes
+- Tags: fitness, strength-training, workouts, remote, oauth
+- Category: Communication and Productivity
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://nihheurtdimdezbhrdba.supabase.co/functions/v1/mcp
+
 ### Discord MCP Server
 
 Read and send messages in Discord servers and channels.
@@ -4203,6 +4219,21 @@ Looks up whether an AI agent can really use a software product (sign-up, API key
 - Auth: none
 - Streamable HTTP endpoint: https://agentdrives.com/api/mcp
 
+### Agentik
+
+Hosted MCP gateway that connects Claude, ChatGPT, Codex and Cursor to tools from 165 providers through one connection, with the price shown before each call, billed at the provider's price from one prepaid balance.
+
+- URL: https://www.agentik.cc
+- Language: Other
+- Provider: Agentik
+- Official: yes
+- Tags: gateway, hosted, remote, oauth, pay-per-call
+- Category: AI, Agents, and Memory
+- License: proprietary
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://ai.agentik.cc/mcp
+
 ### AI Agents Listing
 
 Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending.
@@ -5026,6 +5057,21 @@ MCP server + CLI that turns a prompt into a published short video: AI script, 50
 - Tags: video, content-creation, agents, publishing
 - Category: AI, Agents, and Memory
 
+### Shotboard
+
+Local server built into the Shotboard Mac app: search Meta and TikTok ads, extract scripts from links, and generate images, video and audio on a canvas with 100 media models.
+
+- URL: https://github.com/freeman14/shotboard-mcp
+- Language: TypeScript
+- Provider: Shotboard
+- Official: yes
+- Tags: image-generation, video-generation, ads, macos
+- Category: AI, Agents, and Memory
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: none
+
 ### SigRank MCP
 
 AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.
@@ -5213,6 +5259,22 @@ AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via Zerouter, an OpenA
 ## Data, Analytics, and BI
 
 Analytics platforms, monitoring, and business intelligence tooling.
+
+### Adspy
+
+Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.
+
+- URL: https://www.adspy.sh
+- Language: Other
+- Provider: Adspy
+- Official: yes
+- Tags: ad-library, meta-ads, google-ads, competitor-research, remote
+- Category: Data, Analytics, and BI
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://www.adspy.sh/mcp
 
 ### AgenticWebScore
 
@@ -7907,6 +7969,22 @@ Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one si
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://lasso.link/mcp
+
+### Latino Events (events.lat)
+
+Hosted MCP server that searches concerts, festivals and cultural events across Mexico, Brazil, Argentina, Colombia, Chile and Peru, returning venue, dates and the official ticket link, and saves events for signed-in users.
+
+- URL: https://events.lat/llms.txt
+- Language: TypeScript
+- Provider: events.lat
+- Official: yes
+- Tags: events, concerts, latin-america, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Pricing: free
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://ojlsoqhibryhvuyltwpi.supabase.co/functions/v1/mcp
 
 ### Lava / 熔岩
 
