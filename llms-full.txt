@@ -8149,7 +8149,7 @@ Process PayPal payments and manage merchant operations.
 
 ### Picardo
 
-Find Picardo's clinician-designed blood test panels and about 1,000 Labcorp tests with prices, and get a link to order them on picardo.health.
+Plan your blood work with your assistant. Browse Picardo's panels, from a yearly check-up to fertility, price any of about 1,000 Labcorp tests, and get one link to order them all.
 
 - URL: https://picardo.health/docs/claude
 - Language: TypeScript
