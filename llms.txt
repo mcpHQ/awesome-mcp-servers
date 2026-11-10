@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 730 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 731 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -422,6 +422,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [OpenAI MCP Bridge](https://github.com/jaspertvdm/mcp-server-openai-bridge): Bridge OpenAI GPT models into MCP-compatible agent workflows. (Python)
 - [ORANO](https://oranoai.com/mcp): Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts. (Python, official)
 - [Phasoric](https://developers.phasoric.com/mcp-client-setup): Search, read, and safely update Markdown notes in explicitly connected Phasoric knowledge vaults. (JavaScript, official)
+- [Photo2Skin](https://app.photo2skin.com/agents): AI tools for Minecraft, focused on AI skins: make and edit Minecraft skins from a photo or a description just by chatting. Plus AI builds, real places as playable worlds, AI textures and more. (Python, official)
 - [Plazmi](https://plazmi.gg/SKILL.md): A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard. (Other, official)
 - [PlugMCP directory MCP](https://plugmcp.ai/directory-mcp): Search MCP servers and agent skills, compare them, and get install configs for Cursor, Claude, VS Code, Codex, Grok Bot and more. (TypeScript)
 - [PopNow MCP Server](https://popnow.ai/docs/mcp): Remote MCP server for creating images, videos, music and speech with hosted AI models, quoting a USD price before each paid task and running any catalog model by its API ID. (TypeScript, official)
