@@ -15392,5 +15392,34 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Nexscope",
+    "url": "https://www.nexscope.ai/mcp-map?co-from=mcphq-awesome-mcp-servers",
+    "description": "Remote MCP and REST/OpenAPI for ecommerce product research across Amazon and other marketplaces, with self-serve API key trial credits then paid plans.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Nexscope",
+    "tags": [
+      "ecommerce",
+      "amazon",
+      "product-research",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.nexscope.ai/mcp"
+    },
+    "repository": "https://github.com/nexscope-ai/nexscope-ecommerce-api",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "verified": "2026-11-09"
   }
 ]
