@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-722-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-723-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (67)
 - [Filesystems and Documents](#filesystems-and-documents) (30)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
-- [Communication and Productivity](#communication-and-productivity) (89)
+- [Communication and Productivity](#communication-and-productivity) (90)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (86)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -734,6 +734,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `video-editing` `screen-recording` `captions` `macos` `local`
 - **[Todoist MCP Server](https://github.com/abhiz123/todoist-mcp-server)** `TypeScript` — Manage Todoist tasks, projects, and due dates from AI assistants.  
   `tasks` `productivity` `todoist`
+- **[Umless](https://github.com/thoufeekx/umless)** `TypeScript` — Cuts filler words, stutters, retakes and long pauses out of talking-head videos with ffmpeg, using OpenRouter for transcription; returns a cleaned MP4.  
+  `video` `video-editing` `ffmpeg` `transcription` `podcast`
 - **[Unblockd](https://unblockd.ai/setup.md)** `Official` `TypeScript` — Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask.  
   `project-management` `productivity` `oauth` `remote`
 - **[Unitpost](https://www.unitpost.com/ai/mcp)** `Official` `TypeScript` — Hosted MCP server for Unitpost: send transactional email, campaigns and SMS, and manage contacts, templates, sending domains, webhooks and inbound email.  

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 722 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 723 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4000,6 +4000,21 @@ Manage Todoist tasks, projects, and due dates from AI assistants.
 - Official: no
 - Tags: tasks, productivity, todoist
 - Category: Communication and Productivity
+
+### Umless
+
+Cuts filler words, stutters, retakes and long pauses out of talking-head videos with ffmpeg, using OpenRouter for transcription; returns a cleaned MP4.
+
+- URL: https://github.com/thoufeekx/umless
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: video, video-editing, ffmpeg, transcription, podcast
+- Category: Communication and Productivity
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: api-key
 
 ### Unblockd
 

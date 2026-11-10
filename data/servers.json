@@ -15243,5 +15243,30 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Umless",
+    "url": "https://github.com/thoufeekx/umless",
+    "description": "Cuts filler words, stutters, retakes and long pauses out of talking-head videos with ffmpeg, using OpenRouter for transcription; returns a cleaned MP4.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "video",
+      "video-editing",
+      "ffmpeg",
+      "transcription",
+      "podcast"
+    ],
+    "official": false,
+    "repository": "https://github.com/thoufeekx/umless",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "api-key"
+    ]
   }
 ]
