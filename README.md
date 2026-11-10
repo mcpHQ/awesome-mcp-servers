@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-733-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-734-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (156)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (157)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1437,6 +1437,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `banking` `finance` `open-banking`
 - **[Pocket Drives](https://github.com/RevList/pocket-drives-mcp)** `TypeScript` — Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.  
   `travel` `car-rental` `marketplace`
+- **[Puley](https://puley.com)** `Official` `Other` — Gives ChatGPT and Claude live data and real jobs: local business leads from Google Maps, competitors' live Meta and Google ads, TikTok, Instagram and YouTube stats and transcripts, price comparison and change alerts.  
+  `lead-generation` `marketing` `competitor-ads` `remote` `oauth`
 - **[QR Cloud](https://qr-cloud.com/mcp-server/)** `Official` `PHP` — Creates dynamic QR codes and short links, sets up QR Reviews that route guests to Google or Tripadvisor, and reads click, scan and review statistics from a QR Cloud account.  
   `qr-code` `url-shortener` `reviews` `marketing` `remote`
 - **[Quantral](https://quantral.com/mcp)** `Official` `TypeScript` — Investment ideas built on alternative data: 0-100 stock scores from what investors say on X, Reddit, Substack and YouTube, track records for the accounts behind them, plus US Congress trades and insider buys. Read-only tools.  

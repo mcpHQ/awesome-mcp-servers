@@ -15527,5 +15527,31 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "Puley",
+    "url": "https://puley.com",
+    "description": "Gives ChatGPT and Claude live data and real jobs: local business leads from Google Maps, competitors' live Meta and Google ads, TikTok, Instagram and YouTube stats and transcripts, price comparison and change alerts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Puley",
+    "tags": [
+      "lead-generation",
+      "marketing",
+      "competitor-ads",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.puley.com/mcp"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]
