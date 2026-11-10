@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-723-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-726-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (78)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (67)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (68)
 - [Filesystems and Documents](#filesystems-and-documents) (30)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (90)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (151)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (153)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -383,6 +383,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `data` `enrichment` `search` `api-gateway`
 - **[LurkAPI](https://lurkapi.com/docs)** `Official` `TypeScript` — Hosted remote MCP server with live public data from 16 social platforms and the web: posts, profiles, comments, video transcripts and Meta, Google, TikTok and LinkedIn ad library results.  
   `social-media` `ad-library` `transcripts` `remote` `oauth`
+- **[MCPKit — Yandex Wordstat MCP](https://mcpkit.ru/mcp-wordstat?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_wordstat)** `Python` — Research Yandex keyword demand, trends and regional statistics in ChatGPT. Yandex statistical API charges apply.  
+  `yandex` `yandex-wordstat` `remote`
 - **[MEDIAPRONET](https://mediapronet.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
   `search` `directory` `startups` `remote`
 - **[Monito](https://www.monito.dev/docs/mcp)** `Official` `TypeScript` — Checks a deployed URL against a plain-English expectation in a cloud browser and returns passed, failed or cannot verify with screenshots, network and console logs.  
@@ -1385,6 +1387,10 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `advertising` `google-ads` `meta-ads` `remote` `oauth`
 - **[MCP Price Tracker](https://github.com/zovo-one/mcp-price-tracker)** `TypeScript` — Track product prices for any product URL: current price lookup, drop tracking and alerts when a target price is hit.  
   `price-tracking` `e-commerce` `shopping` `alerts`
+- **[MCPKit — Yandex Direct MCP](https://mcpkit.ru/mcp-yandex-direct?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_direct)** `Python` — Retrieve Yandex Direct campaign reports and manage supported advertising settings in ChatGPT.  
+  `yandex` `yandex-direct` `remote`
+- **[MCPKit — Yandex Metrica MCP](https://mcpkit.ru/mcp-yandex-metrika?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_metrica)** `Python` — Analyze Yandex Metrica traffic and conversions with read-only access in ChatGPT.  
+  `yandex` `yandex-metrica` `remote`
 - **[MedBillAnalyzer](https://medbillanalyzer.com)** `Official` `TypeScript` — Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter.  
   `health` `medical-bills` `billing` `insurance` `remote`
 - **[Melso](https://docs.melso.ai/mcp/overview)** `Official` `Other` — OAuth-protected remote MCP for Spanish fiscal records, invoices, expenses and tax calendars in Melso.  
