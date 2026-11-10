@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 731 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 732 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -697,6 +697,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Plaid MCP Server](https://plaid.com/docs/resources/mcp/): Connect bank accounts and retrieve financial transaction data. (TypeScript, official)
 - [Pocket Drives](https://github.com/RevList/pocket-drives-mcp): Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app. (TypeScript)
 - [QR Cloud](https://qr-cloud.com/mcp-server/): Creates dynamic QR codes and short links, sets up QR Reviews that route guests to Google or Tripadvisor, and reads click, scan and review statistics from a QR Cloud account. (PHP, official)
+- [Quantral](https://quantral.com/mcp): Investment ideas built on alternative data: 0-100 stock scores from what investors say on X, Reddit, Substack and YouTube, track records for the accounts behind them, plus US Congress trades and insider buys. Read-only tools. (TypeScript, official)
 - [QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server): Manage QuickBooks accounting records and financial reports. (TypeScript, official)
 - [Relaticle](https://github.com/relaticle/relaticle): Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields. (PHP, official)
 - [RentReboot](https://github.com/imiraoui/rentreboot-mcp): Search NYC apartments and renter guides, explore rent data, and access personal alerts and saved searches with scoped OAuth; website alert plans are separate. (Other, official)
