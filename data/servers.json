@@ -15608,5 +15608,32 @@
       "none",
       "api-key"
     ]
+  },
+  {
+    "name": "Droply",
+    "url": "https://docs.droply.so/#mcp",
+    "description": "Hosted MCP server that publishes HTML pages, documents and files as shareable links on name.droply.page and updates them without changing the link.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Droply",
+    "tags": [
+      "hosting",
+      "publishing",
+      "static-sites",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://droply.so/mcp"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
