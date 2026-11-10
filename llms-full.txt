@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 712 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 714 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3048,6 +3048,20 @@ Hosted link-building outreach agent: find posts where your product fits, approve
 - Auth: api-key, oauth
 - Streamable HTTP endpoint: https://app.backlinkgenie.com/mcp
 
+### BeingSo MCP
+
+Search animated greeting card designs, personalize messages, review previews, and publish shareable card links or request email delivery.
+
+- URL: https://github.com/beingso/beingso-mcp
+- Language: PHP
+- Provider: BeingSo
+- Official: yes
+- Tags: greeting-cards, ecards, remote, oauth
+- Category: Communication and Productivity
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://www.beingso.com/api/mcp/index.php
+
 ### BulkPublish MCP Server
 
 MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.
@@ -3241,6 +3255,22 @@ Send and receive faxes from AI agents through the Fax for Agents API, hosted or 
 - Official: yes
 - Tags: fax, communication, agents, remote
 - Category: Communication and Productivity
+
+### Fezola
+
+Hosted MCP server that puts several mailboxes (Gmail, iCloud, OVH, any IMAP server), Google Chat and Telegram behind one connector: unified recent view, cross-account search and reply drafts.
+
+- URL: https://app.fezola.com/en/docs
+- Language: TypeScript
+- Provider: Fezola
+- Official: yes
+- Tags: email, imap, google-chat, telegram, remote
+- Category: Communication and Productivity
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://api.fezola.com/mcp
 
 ### Flaghand
 

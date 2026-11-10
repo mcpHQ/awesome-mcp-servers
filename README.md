@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-712-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-714-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (66)
 - [Filesystems and Documents](#filesystems-and-documents) (30)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
-- [Communication and Productivity](#communication-and-productivity) (86)
+- [Communication and Productivity](#communication-and-productivity) (88)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (84)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (81)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -588,6 +588,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `jira` `confluence` `atlassian`
 - **[BacklinkGenie](https://backlinkgenie.com/mcp/)** `Official` `TypeScript` — Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key.  
   `seo` `link-building` `outreach` `marketing`
+- **[BeingSo MCP](https://github.com/beingso/beingso-mcp)** `Official` `PHP` — Search animated greeting card designs, personalize messages, review previews, and publish shareable card links or request email delivery.  
+  `greeting-cards` `ecards` `remote` `oauth`
 - **[BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api)** `TypeScript` — MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish.  
   `mcp` `social-media` `publishing` `bulkpublish`
 - **[CallForMe](https://github.com/callforme-tel/callforme)** `Official` `TypeScript` — Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers.  
@@ -618,6 +620,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `video` `social-media` `publishing` `remote`
 - **[Fax for Agents](https://github.com/faxforagents/mcp)** `Official` `TypeScript` — Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence.  
   `fax` `communication` `agents` `remote`
+- **[Fezola](https://app.fezola.com/en/docs)** `Official` `TypeScript` — Hosted MCP server that puts several mailboxes (Gmail, iCloud, OVH, any IMAP server), Google Chat and Telegram behind one connector: unified recent view, cross-account search and reply drafts.  
+  `email` `imap` `google-chat` `telegram` `remote`
 - **[Flaghand](https://flaghand.com/?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026)** `Official` `JavaScript` — Hosted OAuth MCP server where agents draft X, LinkedIn, Bluesky and TikTok posts; only the owner's passkey approval of the exact post publishes it.  
   `social-media` `publishing` `approvals` `remote` `oauth`
 - **[Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server)** `TypeScript` — Search, read, and compose Gmail messages from MCP clients.  
