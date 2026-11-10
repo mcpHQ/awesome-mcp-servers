@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 711 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 712 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5394,6 +5394,22 @@ Hosted company search, registry profiles and verification of six company identit
 - Transport: streamable-http
 - Auth: api-key, oauth
 - Streamable HTTP endpoint: https://companyproof.ai/v2/mcp
+
+### countrymanager
+
+Hosted OAuth MCP server for App Store and Google Play reviews: filter reviews by app, country and rating, read translations, insights and per-country ratings, and draft replies in the reviewer's language that a person sends.
+
+- URL: https://countrymanager.app/mcp
+- Language: TypeScript
+- Provider: countrymanager
+- Official: yes
+- Tags: app-store, google-play, app-reviews, remote
+- Category: Data, Analytics, and BI
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://countrymanager.app/api/loc/mcp
 
 ### CoworkingView
 
