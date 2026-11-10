@@ -14958,5 +14958,32 @@
       "api-key"
     ],
     "verified": "2026-11-06"
+  },
+  {
+    "name": "countrymanager",
+    "url": "https://countrymanager.app/mcp",
+    "description": "Hosted OAuth MCP server for App Store and Google Play reviews: filter reviews by app, country and rating, read translations, insights and per-country ratings, and draft replies in the reviewer's language that a person sends.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "countrymanager",
+    "tags": [
+      "app-store",
+      "google-play",
+      "app-reviews",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://countrymanager.app/api/loc/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
