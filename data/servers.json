@@ -15421,5 +15421,32 @@
       "oauth"
     ],
     "verified": "2026-11-09"
+  },
+  {
+    "name": "Mobile Joe",
+    "url": "https://docs.mobilejoe.dev/mcp/",
+    "description": "Hosted server to manage a mobile app's FAQs, translations, feature plans and in-app alerts; OAuth with per-app permissions, Mobile Joe account required (14-day free trial).",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Ruby",
+    "provider": "Mobile Joe",
+    "tags": [
+      "mobile",
+      "ios",
+      "android",
+      "faq",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://app.mobilejoe.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]

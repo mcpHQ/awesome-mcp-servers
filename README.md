@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-729-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-730-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (78)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (79)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (68)
 - [Filesystems and Documents](#filesystems-and-documents) (30)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
@@ -234,6 +234,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `spec-driven-development` `workflow` `coding-agents` `npm`
 - **[mcpserverlist-mcp](https://github.com/sudomichael/mcpserverlist-mcp)** `Official` `TypeScript` — Check if your MCP server is ready for MCP directories, then get it submitted and keep every listing up to date.  
   `developer-tools` `directory-submission` `remote`
+- **[Mobile Joe](https://docs.mobilejoe.dev/mcp/)** `Official` `Ruby` — Hosted server to manage a mobile app's FAQs, translations, feature plans and in-app alerts; OAuth with per-app permissions, Mobile Joe account required (14-day free trial).  
+  `mobile` `ios` `android` `faq` `remote`
 - **[Moltline Studio](https://github.com/GarphenGate/moltline-mcp)** `Official` `Python` — 22 hosted MCP servers: code review, MCP config audits, SKILL.md linting and OR-Tools solvers; 110 tools need no API key.  
   `code-review` `mcp-governance` `skill-md` `remote`
 - **[NAIF Gravity](https://naifgravity.com)** `Official` `Other` — Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.  

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 729 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 730 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -954,6 +954,22 @@ Check if your MCP server is ready for MCP directories, then get it submitted and
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://mcpserverlist.io/mcp
+
+### Mobile Joe
+
+Hosted server to manage a mobile app's FAQs, translations, feature plans and in-app alerts; OAuth with per-app permissions, Mobile Joe account required (14-day free trial).
+
+- URL: https://docs.mobilejoe.dev/mcp/
+- Language: Ruby
+- Provider: Mobile Joe
+- Official: yes
+- Tags: mobile, ios, android, faq, remote
+- Category: Developer Tools and Code Intelligence
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://app.mobilejoe.dev/mcp
 
 ### Moltline Studio
 
