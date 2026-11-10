@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 714 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 715 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1955,6 +1955,22 @@ Curated São Paulo cultural outing discovery through a hosted MCP endpoint requi
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://rolesemsp.com.br/mcp
+
+### Ruin Everything
+
+Inspects application verification prompts in local Chrome and retrieves saved Ashby submission receipts by job URL.
+
+- URL: https://github.com/yuki4266/ruin-everything
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: chrome, browser-automation, playwright
+- Category: Browsers, Search, and Web Automation
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: uvx ruin-everything
 
 ### ScrapingBee MCP Server
 

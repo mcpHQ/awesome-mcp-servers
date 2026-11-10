@@ -15037,5 +15037,32 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Ruin Everything",
+    "url": "https://github.com/yuki4266/ruin-everything",
+    "description": "Inspects application verification prompts in local Chrome and retrieves saved Ashby submission receipts by job URL.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "chrome",
+      "browser-automation",
+      "playwright"
+    ],
+    "official": false,
+    "repository": "https://github.com/yuki4266/ruin-everything",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "ruin-everything"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]
