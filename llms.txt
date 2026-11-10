@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 715 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 716 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -710,6 +710,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp): Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking. (TypeScript, official)
 - [Tenmomo](https://github.com/tenmomo-sokui): Search US stores for cashback rates and coupon codes, and get a tracked activation link. (PHP, official)
 - [Tera Ads](https://teraads.co/connect): Meta Ads from Claude, ChatGPT, Cursor or Claude Code with approval before changes, undo for pauses and budgets, and Shopify profit after returns. (Python, official)
+- [Toll](https://t0ll.xyz): Safety checks an AI agent calls before it buys, signs or pays on Robinhood Chain: rug, bundle, dev and LP checks, ALLOW/WARN/BLOCK for transactions, EIP-712 and x402 payments, and ERC-8004 agent checks. (TypeScript, official)
 - [TraderSpy](https://github.com/target1m/traderspy-mcp): Read-only crypto futures market data: AI signals, top-trader positions on Hyperliquid, Binance, Bybit and OKX, indicators, funding, open interest, a screener and backtests. No order or withdrawal tools. (Other, official)
 - [TraderWAI](https://github.com/leonardo-mazzitelli/traderwai-mcp): Hosted MCP server that lets AI clients read live charts, backtest rule-based strategies and place risk-sized orders on the user's own MetaTrader, cTrader, TradeLocker, Match-Trader, Binance or Bybit account; free plan. (JavaScript, official)
 - [Truo](https://truo.com.au/docs): Remote MCP that lets Australian households ask Claude or ChatGPT about their own bank accounts under the Consumer Data Right, read-only at the bank. (TypeScript, official)

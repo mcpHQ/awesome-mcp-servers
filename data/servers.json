@@ -15064,5 +15064,31 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Toll",
+    "url": "https://t0ll.xyz",
+    "description": "Safety checks an AI agent calls before it buys, signs or pays on Robinhood Chain: rug, bundle, dev and LP checks, ALLOW/WARN/BLOCK for transactions, EIP-712 and x402 payments, and ERC-8004 agent checks.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Toll",
+    "tags": [
+      "crypto",
+      "security",
+      "x402",
+      "robinhood-chain",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://t0ll.xyz/mcp"
+    }
   }
 ]
