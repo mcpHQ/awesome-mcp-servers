@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 723 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 726 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -174,6 +174,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [LifeVerse Product Discovery](https://github.com/lifeversegu/lifeverse-mcp): Discover, search, inspect, and recommend eleven public LifeVerse AI products and interactive experiences through four read-only tools. (TypeScript, official)
 - [looot](https://github.com/loootai/looot-mcp): Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance. (TypeScript, official)
 - [LurkAPI](https://lurkapi.com/docs): Hosted remote MCP server with live public data from 16 social platforms and the web: posts, profiles, comments, video transcripts and Meta, Google, TikTok and LinkedIn ad library results. (TypeScript, official)
+- [MCPKit — Yandex Wordstat MCP](https://mcpkit.ru/mcp-wordstat?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_wordstat): Research Yandex keyword demand, trends and regional statistics in ChatGPT. Yandex statistical API charges apply. (Python)
 - [MEDIAPRONET](https://mediapronet.com/mcp): Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account. (TypeScript, official)
 - [Monito](https://www.monito.dev/docs/mcp): Checks a deployed URL against a plain-English expectation in a cloud browser and returns passed, failed or cannot verify with screenshots, network and console logs. (TypeScript, official)
 - [Neeed Directory](https://neeed.directory/docs/api): Search curated software and digital products, create private listing drafts, and manage your own listings with OAuth. (TypeScript, official)
@@ -671,6 +672,8 @@ Links under each category point at the upstream project, docs, or registry page.
 - [MAQAMI Travel](https://github.com/negm17111995/mcp-server): Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key. (JavaScript, official)
 - [MCP Ads](https://mcp-ads.com): Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth. (Python, official)
 - [MCP Price Tracker](https://github.com/zovo-one/mcp-price-tracker): Track product prices for any product URL: current price lookup, drop tracking and alerts when a target price is hit. (TypeScript)
+- [MCPKit — Yandex Direct MCP](https://mcpkit.ru/mcp-yandex-direct?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_direct): Retrieve Yandex Direct campaign reports and manage supported advertising settings in ChatGPT. (Python)
+- [MCPKit — Yandex Metrica MCP](https://mcpkit.ru/mcp-yandex-metrika?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_metrica): Analyze Yandex Metrica traffic and conversions with read-only access in ChatGPT. (Python)
 - [MedBillAnalyzer](https://medbillanalyzer.com): Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter. (TypeScript, official)
 - [Melso](https://docs.melso.ai/mcp/overview): OAuth-protected remote MCP for Spanish fiscal records, invoices, expenses and tax calendars in Melso. (Other, official)
 - [Metaintro Job Search](https://www.metaintro.com/developers/mcp): Search live jobs pulled straight from employer career sites, read postings, and see how employers hire and pay; free, no sign-in. (TypeScript, official)

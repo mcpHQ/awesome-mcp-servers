@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 723 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 726 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1852,6 +1852,21 @@ Hosted remote MCP server with live public data from 16 social platforms and the 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://api.lurkapi.com/mcp
+
+### MCPKit — Yandex Wordstat MCP
+
+Research Yandex keyword demand, trends and regional statistics in ChatGPT. Yandex statistical API charges apply.
+
+- URL: https://mcpkit.ru/mcp-wordstat?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_wordstat
+- Language: Python
+- Provider: MCPKit
+- Official: no
+- Tags: yandex, yandex-wordstat, remote
+- Category: Browsers, Search, and Web Automation
+- License: proprietary
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcpkit.ru/mcp-wordstat/mcp
 
 ### MEDIAPRONET
 
@@ -8125,6 +8140,36 @@ Track product prices for any product URL: current price lookup, drop tracking an
 - Auth: api-key
 - Install: npx @theluckystrike/mcp-price-tracker
 - Verified: 2026-11-06
+
+### MCPKit — Yandex Direct MCP
+
+Retrieve Yandex Direct campaign reports and manage supported advertising settings in ChatGPT.
+
+- URL: https://mcpkit.ru/mcp-yandex-direct?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_direct
+- Language: Python
+- Provider: MCPKit
+- Official: no
+- Tags: yandex, yandex-direct, remote
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcpkit.ru/mcp-yandex-direct/mcp
+
+### MCPKit — Yandex Metrica MCP
+
+Analyze Yandex Metrica traffic and conversions with read-only access in ChatGPT.
+
+- URL: https://mcpkit.ru/mcp-yandex-metrika?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_metrica
+- Language: Python
+- Provider: MCPKit
+- Official: no
+- Tags: yandex, yandex-metrica, remote
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcpkit.ru/mcp-yandex-metrika/mcp
 
 ### MedBillAnalyzer
 
