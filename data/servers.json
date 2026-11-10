@@ -7613,6 +7613,33 @@
     ]
   },
   {
+    "name": "depot.fitness",
+    "url": "https://depot.fitness/connect",
+    "description": "Hosted MCP server for strength training: search 101 written-out programs and 539 exercises, read training guides, and save programs or read recent workouts for signed-in users.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "depot.fitness",
+    "tags": [
+      "fitness",
+      "strength-training",
+      "workouts",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://nihheurtdimdezbhrdba.supabase.co/functions/v1/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Hail",
     "url": "https://hail.so/mcp",
     "description": "Give your AI assistant a phone number and an email inbox to handle calls, texts, and email.",
@@ -7676,6 +7703,33 @@
     },
     "transport": [
       "streamable-http"
+    ]
+  },
+  {
+    "name": "Latino Events (events.lat)",
+    "url": "https://events.lat/llms.txt",
+    "description": "Hosted MCP server that searches concerts, festivals and cultural events across Mexico, Brazil, Argentina, Colombia, Chile and Peru, returning venue, dates and the official ticket link, and saves events for signed-in users.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "events.lat",
+    "tags": [
+      "events",
+      "concerts",
+      "latin-america",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://ojlsoqhibryhvuyltwpi.supabase.co/functions/v1/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
     ]
   },
   {
