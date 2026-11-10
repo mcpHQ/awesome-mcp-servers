@@ -6253,6 +6253,31 @@
     ]
   },
   {
+    "name": "EmailFig",
+    "url": "https://github.com/EmailFig/mcp",
+    "description": "Check campaign and automation results, look up and update contacts, and draft email campaigns you review and send in EmailFig.",
+    "category": "communication-and-productivity",
+    "language": "Ruby",
+    "provider": "EmailFig",
+    "tags": [
+      "email",
+      "marketing",
+      "newsletters"
+    ],
+    "official": true,
+    "repository": "https://github.com/EmailFig/mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://emailfig.com/mcp"
+    },
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "genesis-blackbox",
     "url": "https://github.com/johannschiffer/genesis-blackbox",
     "description": "Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.",
