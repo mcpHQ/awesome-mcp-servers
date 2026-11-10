@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-736-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-737-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (79)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (68)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (31)
 - [Communication and Productivity](#communication-and-productivity) (91)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (88)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
@@ -537,6 +537,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `websites` `hosting` `oauth` `remote`
 - **[deed.page](https://deed.page/docs)** `Official` `TypeScript` — Publishes HTML or a static folder to a permanent HTTPS URL with no account; update, version, restore and delete sites through a remote MCP server.  
   `hosting` `static-sites` `deploy` `publish` `remote`
+- **[Droply](https://docs.droply.so/#mcp)** `Official` `TypeScript` — Hosted MCP server that publishes HTML pages, documents and files as shareable links on name.droply.page and updates them without changing the link.  
+  `hosting` `publishing` `static-sites` `remote` `oauth`
 - **[DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp)** `Official` `JavaScript` — Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.  
   `hosting` `deployment` `domains` `https` `remote`
 - **[Duplicacy MCP Server](https://github.com/GeiserX/duplicacy-mcp)** `Go` — Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.  
