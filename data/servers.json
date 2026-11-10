@@ -15502,5 +15502,30 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Postmately",
+    "url": "https://postmately.com/en/mcp-social-media/",
+    "description": "Make carousels and short videos, schedule and publish social posts to TikTok, YouTube, Instagram, Telegram, VK and other networks, and read post metrics.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Postmately",
+    "tags": [
+      "social-media",
+      "marketing",
+      "scheduling",
+      "telegram",
+      "tiktok"
+    ],
+    "official": true,
+    "repository": "https://github.com/YakovlevCoded/postmately-smm-autopilot",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
