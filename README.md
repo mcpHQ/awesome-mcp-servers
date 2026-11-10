@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-730-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-731-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (30)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (30)
 - [Communication and Productivity](#communication-and-productivity) (90)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (87)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (88)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
@@ -883,6 +883,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `knowledge` `video` `remote`
 - **[Phasoric](https://developers.phasoric.com/mcp-client-setup)** `Official` `JavaScript` — Search, read, and safely update Markdown notes in explicitly connected Phasoric knowledge vaults.  
   `memory` `knowledge` `markdown` `oauth` `remote`
+- **[Photo2Skin](https://app.photo2skin.com/agents)** `Official` `Python` — AI tools for Minecraft, focused on AI skins: make and edit Minecraft skins from a photo or a description just by chatting. Plus AI builds, real places as playable worlds, AI textures and more. ([source](https://github.com/photo2skin/photo2skin-mcp))  
+  `minecraft` `skins` `image-generation` `remote` `oauth`
 - **[Plazmi](https://plazmi.gg/SKILL.md)** `Official` `Other` — A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.  
   `agents` `game` `persistent-world` `no-auth`
 - **[PlugMCP directory MCP](https://plugmcp.ai/directory-mcp)** `TypeScript` — Search MCP servers and agent skills, compare them, and get install configs for Cursor, Claude, VS Code, Codex, Grok Bot and more. ([source](https://github.com/plugmcp-ai/plugmcp-mcp))  

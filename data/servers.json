@@ -15448,5 +15448,33 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Photo2Skin",
+    "url": "https://app.photo2skin.com/agents",
+    "description": "AI tools for Minecraft, focused on AI skins: make and edit Minecraft skins from a photo or a description just by chatting. Plus AI builds, real places as playable worlds, AI textures and more.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Photo2Skin",
+    "tags": [
+      "minecraft",
+      "skins",
+      "image-generation",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/photo2skin/photo2skin-mcp",
+    "endpoints": {
+      "streamableHttp": "https://mcp.photo2skin.com/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]

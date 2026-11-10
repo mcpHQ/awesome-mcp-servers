@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 730 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 731 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4945,6 +4945,23 @@ Search, read, and safely update Markdown notes in explicitly connected Phasoric 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://phasoric.com/api/mcp
+
+### Photo2Skin
+
+AI tools for Minecraft, focused on AI skins: make and edit Minecraft skins from a photo or a description just by chatting. Plus AI builds, real places as playable worlds, AI textures and more.
+
+- URL: https://app.photo2skin.com/agents
+- Language: Python
+- Provider: Photo2Skin
+- Official: yes
+- Tags: minecraft, skins, image-generation, remote, oauth
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/photo2skin/photo2skin-mcp
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.photo2skin.com/mcp
 
 ### Plazmi
 
