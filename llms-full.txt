@@ -7309,7 +7309,7 @@ Remote MCP server for multi-chain EVM JSON-RPC, an indexed Data API, documentati
 
 ### Budna MCP
 
-Read-only search and inspection of public listings, sellers, bids and ratings on Budna, a Swedish second-hand marketplace; no account or API key.
+Read-only search and inspection of public listings, sellers, bids and ratings on Budna, a Swedish marketplace for new and pre-owned items; no account or API key.
 
 - URL: https://github.com/budna-marketplace/mcp
 - Language: Rust

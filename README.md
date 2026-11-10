@@ -1265,7 +1265,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `defi` `dex` `evm` `calldata` `remote`
 - **[BlockVectra](https://github.com/blockvectra/mcp)** `Official` `Other` — Remote MCP server for multi-chain EVM JSON-RPC, an indexed Data API, documentation, pricing and status, for developers and AI agents. Documentation, chain and status tools need no API key; Data API tools require one.  
   `blockchain` `json-rpc` `evm` `data-api`
-- **[Budna MCP](https://github.com/budna-marketplace/mcp)** `Official` `Rust` — Read-only search and inspection of public listings, sellers, bids and ratings on Budna, a Swedish second-hand marketplace; no account or API key.  
+- **[Budna MCP](https://github.com/budna-marketplace/mcp)** `Official` `Rust` — Read-only search and inspection of public listings, sellers, bids and ratings on Budna, a Swedish marketplace for new and pre-owned items; no account or API key.  
   `marketplace` `second-hand` `shopping` `sweden`
 - **[Buy-Box](https://buybox.agentconsult.ai)** `Official` `Other` — Saves your buying criteria for homes, cars or any category (budget, must-haves, dealbreakers) so AI agents load them before they search and rank listings against them.  
   `shopping` `preferences` `remote` `oauth`
