@@ -7371,6 +7371,34 @@
     ]
   },
   {
+    "name": "NFC Tap Builder by Tap.Giving",
+    "url": "https://github.com/Tap-Giving/tap-giving-mcp",
+    "description": "A tool first: create print-ready NFC artwork proofs with correct vector art for organizations, free to take to any vendor, with no lock-in. Keyless pricing and quotes; ordering custom discs through Tap.Giving is an optional next step.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Tap.Giving",
+    "tags": [
+      "nfc",
+      "e-commerce",
+      "ordering",
+      "fundraising",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/Tap-Giving/tap-giving-mcp",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://tap.giving/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "BestPrice Shopping",
     "url": "https://github.com/TheBestCo/bestprice-mcp",
     "description": "Official read-only shopping MCP for Greece from BestPrice.gr: shopping recommendations, product search, store offers with delivered totals, and price history; no API key.",
