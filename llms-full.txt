@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 727 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 729 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8242,6 +8242,39 @@ Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, 
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://moltnode.ag/mcp
+
+### Nexscope
+
+Remote MCP and REST/OpenAPI for ecommerce product research across Amazon and other marketplaces, with self-serve API key trial credits then paid plans.
+
+- URL: https://www.nexscope.ai/mcp-map?co-from=mcphq-awesome-mcp-servers
+- Language: TypeScript
+- Provider: Nexscope
+- Official: yes
+- Tags: ecommerce, amazon, product-research, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/nexscope-ai/nexscope-ecommerce-api
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key, oauth
+- Verified: 2026-11-09
+- Streamable HTTP endpoint: https://api.nexscope.ai/mcp
+
+### NFC Tap Builder by Tap.Giving
+
+A tool first: create print-ready NFC artwork proofs with correct vector art for organizations, free to take to any vendor, with no lock-in. Keyless pricing and quotes; ordering custom discs through Tap.Giving is an optional next step.
+
+- URL: https://github.com/Tap-Giving/tap-giving-mcp
+- Language: TypeScript
+- Provider: Tap.Giving
+- Official: yes
+- Tags: nfc, e-commerce, ordering, fundraising, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: free
+- Transport: streamable-http
+- Auth: none, api-key
+- Streamable HTTP endpoint: https://tap.giving/mcp
 
 ### Noonlaunch
 
