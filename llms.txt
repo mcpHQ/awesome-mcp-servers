@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 726 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 727 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -371,6 +371,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [AgentDrives](https://agentdrives.com/data#mcp): Looks up whether an AI agent can really use a software product (sign-up, API key, the core tasks, paying, leaving), with levels 0 to 5 from real agent test drives. (TypeScript, official)
 - [Agentik](https://www.agentik.cc): Hosted MCP gateway that connects Claude, ChatGPT, Codex and Cursor to tools from 165 providers through one connection, with the price shown before each call, billed at the provider's price from one prepaid balance. (Other, official)
 - [AI Agents Listing](https://github.com/nyyhao/aiagentslisting-mcp): Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending. (JavaScript, official)
+- [AI Interview Questions MCP](https://github.com/Johnnnmai/ai-interview-questions-mcp): Offline stdio MCP with graded AI engineer and investment banking interview questions, model answers, topic search and mock rounds. Companion static JSON catalog on GitHub Pages. (TypeScript)
 - [Aident Loadout](https://aident.ai): Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ Skills through one OAuth setup, with vaulted credentials and an audit trail. (TypeScript, official)
 - [AISkills402](https://aiskills402.com): Remote MCP server (streamable HTTP, no key) to search tested Agent Skill files (SKILL.md), read a skill card with its x402 price and re-download a bought file; the files are paid per file over x402 (USDC on Base). (TypeScript, official)
 - [Anansi Haven](https://github.com/kburrus64-max/anansi-haven): Remote MCP server (also A2A and HTTP) giving agents a persistent identity, versioned key-value memory that survives restarts, client-side encrypted storage, an agent directory and a job board. (JavaScript)

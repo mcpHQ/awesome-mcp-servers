@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 726 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 727 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4276,6 +4276,21 @@ Search, browse and compare a directory of AI agents, MCP servers and agent skill
 - Category: AI, Agents, and Memory
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://aiagentslisting.com/api/mcp
+
+### AI Interview Questions MCP
+
+Offline stdio MCP with graded AI engineer and investment banking interview questions, model answers, topic search and mock rounds. Companion static JSON catalog on GitHub Pages.
+
+- URL: https://github.com/Johnnnmai/ai-interview-questions-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: interview, education, ai-engineering, stdio
+- Category: AI, Agents, and Memory
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
 
 ### Aident Loadout
 
