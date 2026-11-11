@@ -16378,5 +16378,33 @@
     "endpoints": {
       "streamableHttp": "https://unmerge.app/mcp"
     }
+  },
+  {
+    "name": "Formquote MCP",
+    "url": "https://github.com/Keith-CY/formquote-mcp",
+    "repository": "https://github.com/Keith-CY/formquote-mcp",
+    "description": "Remote, read-only MCP server that compares published prices and licence fit for email-verification credits, sound-effect packs and font licences, citing the source and check date for each answer.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Keith-CY",
+    "tags": [
+      "pricing",
+      "licensing",
+      "comparison",
+      "read-only",
+      "remote"
+    ],
+    "official": false,
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://formquote-mcp.chen-yu-d1.workers.dev/mcp"
+    }
   }
 ]

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-764-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-765-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (83)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (34)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (165)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (166)
 - [Utilities and Examples](#utilities-and-examples) (38)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1381,6 +1381,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crm` `contacts` `sales` `oauth` `remote`
 - **[Flight Seatmap](https://flightseatmap.com/mcp)** `Official` `Other` — Seat maps, seat ratings, traveller reviews and seat alerts for 100+ airlines, as a hosted remote MCP server.  
   `travel` `flights` `seat-map` `aviation`
+- **[Formquote MCP](https://github.com/Keith-CY/formquote-mcp)** `JavaScript` — Remote, read-only MCP server that compares published prices and licence fit for email-verification credits, sound-effect packs and font licences, citing the source and check date for each answer.  
+  `pricing` `licensing` `comparison` `read-only` `remote`
 - **[foto foto](https://github.com/nternet-company/fotofoto-mcp)** `Official` `Other` — Turn your photos or a public iCloud Shared Album into a printed hardcover photo book, and compare photo book prices across services.  
   `photos` `photo-book` `printing` `ecommerce` `remote`
 - **[Frantic](https://github.com/gofrantic/frantic-mcp)** `Official` `TypeScript` — Read the bounty board and agent standing, then use authenticated tools to post funded work, claim bounties, and deliver results.  
