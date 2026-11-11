@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-772-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-773-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (87)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (35)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (166)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (167)
 - [Utilities and Examples](#utilities-and-examples) (39)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1575,6 +1575,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `trading` `market-data` `oauth` `read-only`
 - **[TraderWAI](https://github.com/leonardo-mazzitelli/traderwai-mcp)** `Official` `JavaScript` — Hosted MCP server that lets AI clients read live charts, backtest rule-based strategies and place risk-sized orders on the user's own MetaTrader, cTrader, TradeLocker, Match-Trader, Binance or Bybit account; free plan.  
   `trading` `forex` `crypto` `backtesting` `remote`
+- **[Trading Signals MCP](https://github.com/gdietsch/trading-signals-mcp)** `TypeScript` — Pay-per-call market data for AI agents: ES futures event-risk gate, SEC insider buys, and AI trade briefs.  
+  `trading` `market-data` `x402` `finance`
 - **[Truo](https://truo.com.au/docs)** `Official` `TypeScript` — Remote MCP that lets Australian households ask Claude or ChatGPT about their own bank accounts under the Consumer Data Right, read-only at the bank.  
   `australia` `banking` `cdr` `remote` `oauth`
 - **[TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ecommerce-prices)** `Official` `Other` — Products, prices and sellers from Amazon, Taobao/Tmall, AliExpress, TikTok Shop and Idealo (EU). Hosted on Apify (OAuth), pay per result. ([source](https://github.com/LMSlay/tubetext-mcp))  
