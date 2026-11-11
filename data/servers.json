@@ -6873,6 +6873,40 @@
     ]
   },
   {
+    "name": "Dagon Inference",
+    "url": "https://github.com/inkwell-finance/dagon-mcp",
+    "description": "List abliterated open-weight LLMs and their prices, create an account key, check credits, buy credits with USDC on Solana, and run chat completions that return a signed receipt id.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Dagon Inference",
+    "tags": [
+      "llm",
+      "inference",
+      "solana",
+      "payments",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://inference.dagon.so/mcp"
+    },
+    "repository": "https://github.com/inkwell-finance/dagon-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "dagon-mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "GenFlick",
     "url": "https://genflick.com/developers/mcp",
     "description": "Remote MCP for the GenFlick AI studio for films, series, music videos and ads, with OAuth sign-in and no API key.",

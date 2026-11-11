@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 772 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 773 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -401,6 +401,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Continuity](https://github.com/LAHutchins91/continuity-mcp): Remote MCP story bible for fiction writers: locked characters, relationships, world rules, timelines, and approved scenes with OAuth for ChatGPT, Claude, Gemini, Grok, and Cursor. (TypeScript)
 - [CoreSpeed](https://corespeed.io/docs/mcp): Hosted OAuth MCP gateway for any agent: your connected apps (Notion, Slack, GitHub, Gmail and more), shared team memory, web search, social data and media tools, with spend caps and an activity log. (TypeScript, official)
 - [CrewAI Enterprise MCP Server](https://github.com/crewAIInc/enterprise-mcp-server): Kick off CrewAI crew deployments and check their status from MCP clients. (Python, official)
+- [Dagon Inference](https://github.com/inkwell-finance/dagon-mcp): List abliterated open-weight LLMs and their prices, create an account key, check credits, buy credits with USDC on Solana, and run chat completions that return a signed receipt id. (TypeScript, official)
 - [Dare MCP Server](https://github.com/avi-aggarwal14/dare-mcp-server): Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs. (TypeScript)
 - [Decide Runtime](https://www.decide.fyi/mcp#connect-runtime): Evaluate supplied facts against approved rules and read/export owned decision records via scoped bearer or registered OAuth/PKCE; USD 10/1,000 records in a controlled business pilot, with no external execution. (JavaScript, official)
 - [deja-vu](https://github.com/vshulcz/deja-vu): Local cross-session memory MCP server that indexes session transcripts across 43 AI coding agents into SQLite for BM25F recall, file history blame, uncommitted file recovery, and cross-agent handoffs. (Go)
