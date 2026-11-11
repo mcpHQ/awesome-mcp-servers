@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-754-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-755-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (81)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (70)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (71)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (92)
@@ -413,6 +413,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `travel` `events` `sao-paulo` `remote` `streamable-http`
 - **[Ruin Everything](https://github.com/yuki4266/ruin-everything)** `Python` — Inspects application verification prompts in local Chrome and retrieves saved Ashby submission receipts by job URL.  
   `chrome` `browser-automation` `playwright`
+- **[Scrape.ly](https://scrape.ly/docs/mcp)** `Official` `Python` — Search 500+ ready-made web scrapers, run them in the cloud and read their structured results, logs and datasets. ([source](https://github.com/scrapely-app/scrapely-mcp))  
+  `web-scraping` `data-extraction` `scrapers` `remote` `oauth`
 - **[ScrapingBee MCP Server](https://mcp.scrapingbee.com/)** `Official` `Python` — Fetch any page as text, markdown, HTML or a screenshot with JavaScript rendering and anti-bot handling, extract structured data, and get Google, Amazon, Walmart and YouTube results as JSON. ([source](https://github.com/ScrapingBee/mcp-server))  
   `scraping` `web` `search` `extraction` `remote`
 - **[Selan MCP Extension](https://selan.ai/browser?utm_source=mcphq&utm_medium=directory&utm_campaign=extension-mcp)** `Official` `Other` — Chrome extension plus hosted MCP server that lets MCP clients open and use tabs in your own signed-in Chrome, only in its own tab group and only on sites you allow; free, no account.  

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 754 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 755 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -189,6 +189,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [RecordHTML](https://recordhtml.com/mcp): Record public web pages or HTML5 creatives (banners, ads, animations) to MP4, WebM or GIF in a real browser and get a signed video link; remote Streamable HTTP with OAuth 2.1 or an API key. (TypeScript, official)
 - [Rolês em SP](https://rolesemsp.com.br/connect.md): Curated São Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth. (JavaScript, official)
 - [Ruin Everything](https://github.com/yuki4266/ruin-everything): Inspects application verification prompts in local Chrome and retrieves saved Ashby submission receipts by job URL. (Python)
+- [Scrape.ly](https://scrape.ly/docs/mcp): Search 500+ ready-made web scrapers, run them in the cloud and read their structured results, logs and datasets. (Python, official)
 - [ScrapingBee MCP Server](https://mcp.scrapingbee.com/): Fetch any page as text, markdown, HTML or a screenshot with JavaScript rendering and anti-bot handling, extract structured data, and get Google, Amazon, Walmart and YouTube results as JSON. (Python, official)
 - [Selan MCP Extension](https://selan.ai/browser?utm_source=mcphq&utm_medium=directory&utm_campaign=extension-mcp): Chrome extension plus hosted MCP server that lets MCP clients open and use tabs in your own signed-in Chrome, only in its own tab group and only on sites you allow; free, no account. (Other, official)
 - [Shortform Kit](https://shortformkit.com/mcp-server/): Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key. (Python, official)
