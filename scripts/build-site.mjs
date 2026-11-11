@@ -32,6 +32,10 @@ const outDir = join(siteDir, "dist");
 
 const siteUrl = (process.env.SITE_URL ?? "https://mcphq.org").replace(/\/$/, "");
 const base = (process.env.SITE_BASE_PATH ?? "").replace(/\/$/, "");
+const cloudflareToken = (process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN ?? "").trim();
+const analyticsScript = /^[0-9a-f]+$/i.test(cloudflareToken)
+  ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "${cloudflareToken}"}'></script>`
+  : "";
 const repoUrl = "https://github.com/mcpHQ/awesome-mcp-servers";
 const submitUrl = `${repoUrl}/issues/new?template=add-server.yml`;
 const PAGE_SIZE = 24;
@@ -425,6 +429,7 @@ function layout({ title, description, path, body, structured = [], active = "" }
 <noscript><style>[data-grid] .card[hidden], [data-pageable] .card[hidden] { display: flex !important; }</style></noscript>
 <script type="module" src="${href(`/app.js?v=${assetVersion.js}`)}"></script>
 ${structured.map(jsonLd).join("\n")}
+${analyticsScript}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
