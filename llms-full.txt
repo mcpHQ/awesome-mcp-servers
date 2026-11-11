@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 744 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 745 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2046,6 +2046,22 @@ Fetch any page as text, markdown, HTML or a screenshot with JavaScript rendering
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://mcp.scrapingbee.com/mcp
+
+### Selan MCP Extension
+
+Chrome extension plus hosted MCP server that lets MCP clients open and use tabs in your own signed-in Chrome, only in its own tab group and only on sites you allow; free, no account.
+
+- URL: https://selan.ai/browser?utm_source=mcphq&utm_medium=directory&utm_campaign=extension-mcp
+- Language: Other
+- Provider: Selan
+- Official: yes
+- Tags: chrome, browser, automation, hosted
+- Category: Browsers, Search, and Web Automation
+- License: proprietary
+- Pricing: free
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.selan.ai/extension/mcp
 
 ### Shortform Kit
 
