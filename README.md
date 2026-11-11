@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-741-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-742-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (32)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (162)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (163)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1327,6 +1327,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `belgium` `company-data` `financials` `kbo`
 - **[Etsy Search & Shop Sales MCP](https://github.com/GeminiGeorge22/etsy-sales-mcp)** `JavaScript` — Live Etsy search results by keyword, category or market page (price, rating, reviews, badges, ad flag, search rank) plus sales counters for named Etsy shops, each with the date it was read.  
   `etsy` `ecommerce` `marketplace` `remote`
+- **[EU Nordic Open Data MCP](https://github.com/itulo/eu-nordic-open-data-mcp)** `JavaScript` — Query official EU and Nordic open data, including TED tenders, EU sanctions, VIES VAT checks, ECB rates, ENISA vulnerabilities, Finnish and Norwegian company registers, Fingrid grid and FMI weather data.  
+  `open-data` `eu` `sanctions` `procurement` `finland`
 - **[FactLot](https://factlot.com)** `Official` `TypeScript` — Commercial real estate calculators that return every step and a versioned formula ID, plus parcel and entity IDs and fact validation. Free hosted endpoint, no API key. ([source](https://github.com/9mp96ygnbk-alt/factlot))  
   `commercial-real-estate` `calculators` `finance` `remote` `audit-trail`
 - **[Fair Value Calculator](https://www.fairvalue-calculator.com/integrations)** `Official` `PHP` — Remote MCP that gives Claude or ChatGPT fair value estimates from 26 valuation models, quality scores and screeners for 40,000+ listed stocks, plus the user's own watchlist and alerts.  
