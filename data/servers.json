@@ -16326,5 +16326,32 @@
       "none",
       "api-key"
     ]
+  },
+  {
+    "name": "Vergabeweiser",
+    "url": "https://vergabeweiser.de/api#mcp",
+    "description": "Hosted read-only MCP server for German public tenders and contract awards, with buyers, winners and award sums from open procurement data.",
+    "category": "data-analytics-and-bi",
+    "language": "PHP",
+    "provider": "Vergabeweiser",
+    "tags": [
+      "public-tenders",
+      "procurement",
+      "germany",
+      "contract-awards",
+      "remote"
+    ],
+    "official": false,
+    "license": "proprietary",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://vergabeweiser.de/mcp"
+    }
   }
 ]
