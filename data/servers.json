@@ -16580,5 +16580,33 @@
     "endpoints": {
       "streamableHttp": "https://smarter.poker/api/mcp"
     }
+  },
+  {
+    "name": "CrakSEO SEO MCP",
+    "url": "https://docs.crakseo.com/seo-mcp/connect",
+    "repository": "https://github.com/CrakSEO/crakseo-mcp-plugins",
+    "description": "Hosted SEO MCP server for keyword research, SERP data, backlinks, rank tracking, site audits and local SEO, with pay-as-you-go API credits and a free balance check.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "CrakSEO",
+    "tags": [
+      "seo",
+      "keyword-research",
+      "backlinks",
+      "rank-tracking",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://crakseo.com/mcp/seo"
+    }
   }
 ]
