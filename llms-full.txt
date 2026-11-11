@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 759 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 760 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9743,6 +9743,22 @@ Company logos for agents: get a logo by domain, search brands by name, or fetch 
 - Category: Utilities and Examples
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://logoapi.sh/mcp
+
+### MakeItSay
+
+Change the words in a screenshot or photo and keep the original font and layout, through a remote MCP server.
+
+- URL: https://makeitsay.com/docs/mcp
+- Language: TypeScript
+- Provider: MakeItSay
+- Official: yes
+- Tags: image-editing, screenshots, ai-images, remote
+- Category: Utilities and Examples
+- Repository: https://github.com/makeitsay/makeitsay-mcp
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://makeitsay.com/mcp
 
 ### MCP Server Starter
 

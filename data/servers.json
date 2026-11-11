@@ -16247,5 +16247,31 @@
       "streamableHttp": "https://gridzen.ai/developers/mcp"
     },
     "verified": "2026-11-11"
+  },
+  {
+    "name": "MakeItSay",
+    "url": "https://makeitsay.com/docs/mcp",
+    "repository": "https://github.com/makeitsay/makeitsay-mcp",
+    "description": "Change the words in a screenshot or photo and keep the original font and layout, through a remote MCP server.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "MakeItSay",
+    "tags": [
+      "image-editing",
+      "screenshots",
+      "ai-images",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://makeitsay.com/mcp"
+    }
   }
 ]
