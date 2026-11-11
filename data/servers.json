@@ -8608,6 +8608,35 @@
     }
   },
   {
+    "name": "Termalin",
+    "url": "https://termal.in/mcp/",
+    "description": "Run commands, read and write files, query databases and read monitoring on your own Linux servers over SSH through a hosted MCP server with OAuth, per-server command policy and an audit log.",
+    "category": "cloud-and-infrastructure",
+    "language": "Rust",
+    "provider": "Termalin",
+    "tags": [
+      "ssh",
+      "sftp",
+      "servers",
+      "devops",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/termalinapp/termalin-plugin",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://termal.in/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "MCP Inspector",
     "url": "https://github.com/modelcontextprotocol/inspector",
     "description": "Visual testing tool for debugging MCP server capabilities and messages.",
