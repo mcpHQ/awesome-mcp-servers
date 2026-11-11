@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 748 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 752 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -271,8 +271,10 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Shipvela](https://shipvela.com/integrations/codex): Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server. (TypeScript, official)
 - [SolidPing](https://github.com/fclairamb/solidping): Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio. (Go, official)
 - [Symbioza](https://symbioza.dev/agent): Symbioza runs your containerized GPU job on a rented cloud machine and hands back the files it writes, under a spending limit you set. (TypeScript, official)
+- [Termalin](https://termal.in/mcp/): Run commands, read and write files, query databases and read monitoring on your own Linux servers over SSH through a hosted MCP server with OAuth, per-server command policy and an audit log. (Rust, official)
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server): Generate and validate Terraform configurations with HashiCorp tooling. (Go, official)
 - [Vercel MCP Server](https://vercel.com/docs/agent-resources/vercel-mcp): Deploy and manage Vercel projects and deployments from AI clients. (Other, official)
+- [Webprompter.ai MCP](https://webprompter.ai): Deploy static sites and connect custom domains from coding agents over hosted MCP. (TypeScript, official)
 
 ## Communication and Productivity
 
@@ -393,6 +395,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [CrewAI Enterprise MCP Server](https://github.com/crewAIInc/enterprise-mcp-server): Kick off CrewAI crew deployments and check their status from MCP clients. (Python, official)
 - [Dare MCP Server](https://github.com/avi-aggarwal14/dare-mcp-server): Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs. (TypeScript)
 - [Decide Runtime](https://www.decide.fyi/mcp#connect-runtime): Evaluate supplied facts against approved rules and read/export owned decision records via scoped bearer or registered OAuth/PKCE; USD 10/1,000 records in a controlled business pilot, with no external execution. (JavaScript, official)
+- [deja-vu](https://github.com/vshulcz/deja-vu): Local cross-session memory MCP server that indexes session transcripts across 43 AI coding agents into SQLite for BM25F recall, file history blame, uncommitted file recovery, and cross-agent handoffs. (Go)
 - [DeltaX Preflight](https://github.com/DeltaX-Public/deltax-preflight): Preview local stdio MCP server checks finite candidate proposals against separate policy and evidence, with admissible candidates and SHA-256 receipts; it does not authenticate facts, select candidates, execute actions or grant authority. (JavaScript, official)
 - [Easy-Peasy.AI](https://easy-peasy.ai/mcp): Hosted Easy-Peasy.AI server: run 200+ writing templates, create and edit images, make AI videos, turn text into speech and transcribe audio or video from any MCP client, with OAuth sign-in or an API key. (TypeScript, official)
 - [fal.ai](https://fal.ai/mcp): Discover models and prices, then generate or edit images, video, audio, and 3D through the hosted fal MCP server. (Other, official)
@@ -721,6 +724,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [SaaSCity](https://github.com/nyyhao/saascity-mcp): Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity. (JavaScript, official)
 - [Salesforce MCP Server](https://github.com/salesforcecli/mcp): Query Salesforce CRM records and manage business workflows. (TypeScript, official)
 - [ScentVerdict](https://scentverdict.com/connect): Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication. (C#, official)
+- [Screwtape.ai](https://screwtape.ai): Spend guardrails for AI agents: check payments, track budgets, catch duplicates, and issue signed receipts. (TypeScript, official)
 - [SecureLend Underwriting](https://github.com/SecureLend/mcp-underwriting): Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides. (TypeScript, official)
 - [send21](https://github.com/send21io/mcp): Create non-custodial crypto pay links and payment drafts in BTC, USDC, USDT, EURC, SOL or ETH; the payer signs in their own wallet. (Other, official)
 - [Sendable](https://docs.getsendable.io/integrations/mcp): Finds LinkedIn prospects showing buying intent, qualifies them against an ideal customer profile, and manages Sendable outreach campaigns, leads and LinkedIn inbox. (TypeScript, official)

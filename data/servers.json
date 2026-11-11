@@ -16017,5 +16017,34 @@
     "endpoints": {
       "streamableHttp": "https://lantern-works-mcp.lantern-works.workers.dev/mcp?ref=fg-mcphq"
     }
+  },
+  {
+    "name": "deja-vu",
+    "url": "https://github.com/vshulcz/deja-vu",
+    "description": "Local cross-session memory MCP server that indexes session transcripts across 43 AI coding agents into SQLite for BM25F recall, file history blame, uncommitted file recovery, and cross-agent handoffs.",
+    "category": "ai-agents-and-memory",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "memory",
+      "agents",
+      "coding",
+      "sqlite",
+      "search"
+    ],
+    "official": false,
+    "repository": "https://github.com/vshulcz/deja-vu",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@vshulcz/deja-vu"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]

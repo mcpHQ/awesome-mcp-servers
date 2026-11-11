@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 748 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 752 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3065,6 +3065,23 @@ Symbioza runs your containerized GPU job on a rented cloud machine and hands bac
 - Auth: oauth
 - Streamable HTTP endpoint: https://symbioza.dev/mcp
 
+### Termalin
+
+Run commands, read and write files, query databases and read monitoring on your own Linux servers over SSH through a hosted MCP server with OAuth, per-server command policy and an audit log.
+
+- URL: https://termal.in/mcp/
+- Language: Rust
+- Provider: Termalin
+- Official: yes
+- Tags: ssh, sftp, servers, devops, remote
+- Category: Cloud and Infrastructure
+- Repository: https://github.com/termalinapp/termalin-plugin
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://termal.in/mcp
+
 ### Terraform MCP Server
 
 Generate and validate Terraform configurations with HashiCorp tooling.
@@ -3086,6 +3103,22 @@ Deploy and manage Vercel projects and deployments from AI clients.
 - Official: yes
 - Tags: vercel, deploy, frontend
 - Category: Cloud and Infrastructure
+
+### Webprompter.ai MCP
+
+Deploy static sites and connect custom domains from coding agents over hosted MCP.
+
+- URL: https://webprompter.ai
+- Language: TypeScript
+- Provider: webprompter.ai
+- Official: yes
+- Tags: hosting, static-sites, deploy, domains, remote
+- Category: Cloud and Infrastructure
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key
+- Verified: 2026-11-09
+- Streamable HTTP endpoint: https://mcp.webprompter.ai/mcp
 
 ## Communication and Productivity
 
@@ -4596,6 +4629,22 @@ Evaluate supplied facts against approved rules and read/export owned decision re
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://mcp-live.decide.fyi/developer-prepaid/v1/mcp
+
+### deja-vu
+
+Local cross-session memory MCP server that indexes session transcripts across 43 AI coding agents into SQLite for BM25F recall, file history blame, uncommitted file recovery, and cross-agent handoffs.
+
+- URL: https://github.com/vshulcz/deja-vu
+- Language: Go
+- Provider: Community
+- Official: no
+- Tags: memory, agents, coding, sqlite, search
+- Category: AI, Agents, and Memory
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx @vshulcz/deja-vu
 
 ### DeltaX Preflight
 
@@ -8840,6 +8889,22 @@ Look up fragrances with verdicts, similarity scores, scent profiles, drydowns an
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://scentverdict.com/mcp
+
+### Screwtape.ai
+
+Spend guardrails for AI agents: check payments, track budgets, catch duplicates, and issue signed receipts.
+
+- URL: https://screwtape.ai
+- Language: TypeScript
+- Provider: Screwtape.ai
+- Official: yes
+- Tags: spend, budget, receipts, agents, guardrails
+- Category: Finance, Commerce, and Business Apps
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none, api-key
+- Verified: 2026-11-10
+- Streamable HTTP endpoint: https://screwtape.ai/mcp
 
 ### SecureLend Underwriting
 

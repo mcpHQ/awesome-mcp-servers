@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-748-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-752-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,13 +46,13 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (80)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (70)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (32)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (91)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (88)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (89)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (33)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (164)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (165)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -579,10 +579,14 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `uptime` `monitoring` `status` `incidents`
 - **[Symbioza](https://symbioza.dev/agent)** `Official` `TypeScript` — Symbioza runs your containerized GPU job on a rented cloud machine and hands back the files it writes, under a spending limit you set.  
   `gpu` `cloud` `oauth` `remote`
+- **[Termalin](https://termal.in/mcp/)** `Official` `Rust` — Run commands, read and write files, query databases and read monitoring on your own Linux servers over SSH through a hosted MCP server with OAuth, per-server command policy and an audit log. ([source](https://github.com/termalinapp/termalin-plugin))  
+  `ssh` `sftp` `servers` `devops` `remote`
 - **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `Official` `Go` — Generate and validate Terraform configurations with HashiCorp tooling.  
   `terraform` `iac` `infra`
 - **[Vercel MCP Server](https://vercel.com/docs/agent-resources/vercel-mcp)** `Official` `Other` — Deploy and manage Vercel projects and deployments from AI clients.  
   `vercel` `deploy` `frontend`
+- **[Webprompter.ai MCP](https://webprompter.ai)** `Official` `TypeScript` — Deploy static sites and connect custom domains from coding agents over hosted MCP.  
+  `hosting` `static-sites` `deploy` `domains` `remote`
 
 <a id="communication-and-productivity"></a>
 
@@ -825,6 +829,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `ai-video` `image-generation` `video-generation` `claude`
 - **[Decide Runtime](https://www.decide.fyi/mcp#connect-runtime)** `Official` `JavaScript` — Evaluate supplied facts against approved rules and read/export owned decision records via scoped bearer or registered OAuth/PKCE; USD 10/1,000 records in a controlled business pilot, with no external execution.  
   `deterministic` `decision-records` `policy` `remote` `bearer`
+- **[deja-vu](https://github.com/vshulcz/deja-vu)** `Go` — Local cross-session memory MCP server that indexes session transcripts across 43 AI coding agents into SQLite for BM25F recall, file history blame, uncommitted file recovery, and cross-agent handoffs.  
+  `memory` `agents` `coding` `sqlite` `search`
 - **[DeltaX Preflight](https://github.com/DeltaX-Public/deltax-preflight)** `Official` `JavaScript` — Preview local stdio MCP server checks finite candidate proposals against separate policy and evidence, with admissible candidates and SHA-256 receipts; it does not authenticate facts, select candidates, execute actions or grant authority.  
   `preflight` `policy` `evidence` `stdio` `receipts`
 - **[Easy-Peasy.AI](https://easy-peasy.ai/mcp)** `Official` `TypeScript` — Hosted Easy-Peasy.AI server: run 200+ writing templates, create and edit images, make AI videos, turn text into speech and transcribe audio or video from any MCP client, with OAuth sign-in or an API key.  
@@ -1485,6 +1491,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crm` `sales` `enterprise`
 - **[ScentVerdict](https://scentverdict.com/connect)** `Official` `C#` — Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.  
   `fragrance` `perfume` `shopping` `read-only` `remote`
+- **[Screwtape.ai](https://screwtape.ai)** `Official` `TypeScript` — Spend guardrails for AI agents: check payments, track budgets, catch duplicates, and issue signed receipts.  
+  `spend` `budget` `receipts` `agents` `guardrails`
 - **[SecureLend Underwriting](https://github.com/SecureLend/mcp-underwriting)** `Official` `TypeScript` — Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides.  
   `underwriting` `lending` `credit` `finance` `remote`
 - **[send21](https://github.com/send21io/mcp)** `Official` `Other` — Create non-custodial crypto pay links and payment drafts in BTC, USDC, USDT, EURC, SOL or ETH; the payer signs in their own wallet.  
