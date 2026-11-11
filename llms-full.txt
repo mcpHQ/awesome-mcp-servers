@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 746 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 747 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1785,6 +1785,22 @@ Scrape, crawl, and extract structured web data with Firecrawl.
 - Official: yes
 - Tags: scraping, crawl, web
 - Category: Browsers, Search, and Web Automation
+
+### FlashData Google Search and YouTube Data
+
+Google vertical search and YouTube search, transcripts, captions, metadata, channels, autocomplete, license labels and async media delivery via MCP; data calls require a FlashData API key and paid Credits.
+
+- URL: https://github.com/rocosen/flashdata-mcp
+- Language: TypeScript
+- Provider: FlashData
+- Official: yes
+- Tags: google-search, youtube, transcripts, research, data-api
+- Category: Browsers, Search, and Web Automation
+- License: MIT
+- Pricing: paid
+- Transport: stdio
+- Auth: api-key
+- Install: npx @flashdata-dev/mcp
 
 ### GetYouTubeTranscript
 
