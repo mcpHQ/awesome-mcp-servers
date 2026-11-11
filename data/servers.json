@@ -15688,5 +15688,27 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "Fair Value Calculator",
+    "url": "https://www.fairvalue-calculator.com/integrations",
+    "description": "Remote MCP that gives Claude or ChatGPT fair value estimates from 26 valuation models, quality scores and screeners for 40,000+ listed stocks, plus the user's own watchlist and alerts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Fair Value Calculator",
+    "tags": [
+      "stocks",
+      "valuation",
+      "investing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.fairvalue-calculator.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
   }
 ]
