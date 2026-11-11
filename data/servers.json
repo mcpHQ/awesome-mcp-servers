@@ -15735,5 +15735,31 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "EU Nordic Open Data MCP",
+    "url": "https://github.com/itulo/eu-nordic-open-data-mcp",
+    "description": "Query official EU and Nordic open data, including TED tenders, EU sanctions, VIES VAT checks, ECB rates, ENISA vulnerabilities, Finnish and Norwegian company registers, Fingrid grid and FMI weather data.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "open-data",
+      "eu",
+      "sanctions",
+      "procurement",
+      "finland"
+    ],
+    "official": false,
+    "repository": "https://github.com/itulo/eu-nordic-open-data-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "eu-nordic-open-data-mcp"
+    }
   }
 ]
