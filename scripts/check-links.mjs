@@ -137,7 +137,7 @@ async function checkLink(url) {
     }
 
     // Authentication and method restrictions still prove the target exists.
-    if ([401, 403, 405].includes(response.status)) {
+    if ([401, 403, 405, 429].includes(response.status)) {
       return { ok: true };
     }
 

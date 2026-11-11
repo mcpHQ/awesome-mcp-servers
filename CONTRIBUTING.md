@@ -26,14 +26,14 @@ Add servers that are:
 ```json
 {
   "name": "Example MCP Server",
-  "url": "https://docs.example.com/mcp",
+  "url": "<your docs URL>",
   "description": "One concise sentence describing what the server does.",
   "category": "developer-tools-and-code-intelligence",
   "language": "TypeScript",
   "provider": "Example Inc",
   "tags": ["github", "devtools"],
   "official": false,
-  "repository": "https://github.com/example/example-mcp-server",
+  "repository": "<your GitHub repository URL>",
   "license": "MIT",
   "pricing": "free",
   "transport": ["stdio"],
@@ -65,7 +65,7 @@ Omit any optional field you cannot verify. Do not guess a license, a price, an i
 | `provider` | Yes | Company, org, or `Community` |
 | `tags` | Yes | 2–5 lowercase keywords |
 | `official` | Yes | Boolean; use `true` only for official MCP or vendor-backed servers |
-| `repository` | No | Source repository. Required in practice when `url` is a docs or marketing page. GitHub values must be `https://github.com/owner/name`, not a `/tree/` or `/blob/` path |
+| `repository` | No | Source repository. Required in practice when `url` is a docs or marketing page. GitHub values must be `github.com/owner/name`, not a `/tree/` or `/blob/` path |
 | `license` | No | SPDX id (`MIT`, `Apache-2.0`, `BSD-2-Clause`, `BSD-3-Clause`, `ISC`, `MPL-2.0`, `GPL-3.0`, `AGPL-3.0`, `Unlicense`) or `source-available` / `proprietary` |
 | `pricing` | No | `free`, `freemium`, or `paid`. How much it costs to use, not the repo license |
 | `transport` | No | One or more of `stdio`, `streamable-http`, `sse`. If you set `endpoints`, include the matching transport |

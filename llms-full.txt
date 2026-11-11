@@ -629,7 +629,7 @@ Lints CLAUDE.md-style AI agent constitution files for missing operational guardr
 
 Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing.
 
-- URL: https://github.com/zksyncer/contactlint
+- URL: https://contactlint.com
 - Language: TypeScript
 - Provider: ContactLint
 - Official: yes
@@ -2502,7 +2502,7 @@ Search and retrieve a curated research corpus on longevity, robotics, AI, and sp
 
 Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact.
 
-- URL: https://mcp.holos33.com
+- URL: https://holos33.com
 - Language: Python
 - Provider: AIAgentCycle
 - Official: yes
@@ -3262,7 +3262,6 @@ Remote MCP server for anon.li, an open-source privacy suite: tools manage email 
 - Official: yes
 - Tags: email-alias, privacy, file-sharing, encryption, remote
 - Category: Communication and Productivity
-- Repository: https://github.com/anondotli/anon.li
 - License: AGPL-3.0
 - Pricing: freemium
 - Transport: streamable-http
@@ -4923,7 +4922,6 @@ Hosted MCP server that generates and edits images, video clips, voiceovers and m
 - Official: yes
 - Tags: image-generation, video-generation, text-to-speech, remote, oauth
 - Category: AI, Agents, and Memory
-- Repository: https://github.com/alexadams6ix/imagera-skills
 - Pricing: paid
 - Transport: streamable-http
 - Auth: oauth

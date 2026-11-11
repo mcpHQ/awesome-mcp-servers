@@ -178,7 +178,7 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `coding-agents` `coordination` `local-first`
 - **[Constitution Lint MCP Server](https://github.com/joeyycli/constitution-lint-action)** `Python` — Lints CLAUDE.md-style AI agent constitution files for missing operational guardrails: spend limits, injection defense, escalation paths, and secrets handling.  
   `agents` `guardrails` `linting` `ci-cd` `safety`
-- **[ContactLint](https://github.com/zksyncer/contactlint)** `Official` `TypeScript` — Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing.  
+- **[ContactLint](https://contactlint.com)** `Official` `TypeScript` — Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing.  
   `email-validation` `phone-validation` `data-validation` `crm` `remote`
 - **[Context7 MCP](https://github.com/upstash/context7)** `Official` `TypeScript` — Up-to-date library and framework documentation injected into prompts.  
   `docs` `libraries` `coding`
@@ -482,7 +482,7 @@ Read and write files, convert documents, and connect to knowledge bases.
   `google-drive` `files` `cloud`
 - **[Grandpa's AI](https://github.com/wescorp/grandpasai-mcp)** `Official` `JavaScript` — Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.  
   `research` `knowledge-base` `longevity` `search`
-- **[Holos33](https://mcp.holos33.com)** `Official` `Python` — Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact. ([source](https://github.com/aiagentcycle/holos33-mcp))  
+- **[Holos33](https://holos33.com)** `Official` `Python` — Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact. ([source](https://github.com/aiagentcycle/holos33-mcp))  
   `knowledge-base` `privacy` `read-only` `wellbeing`
 - **[isGenAI](https://isgenai.com/developers/mcp)** `Official` `TypeScript` — Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels.  
   `c2pa` `provenance` `metadata` `ai-detection` `remote`
@@ -612,7 +612,7 @@ Integrate chat, email, calendars, and team collaboration tools.
   `notifications` `desktop` `coding-agents`
 - **[agentcomms](https://github.com/web3wes/agentcomms)** `Official` `Python` — Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub.  
   `agents` `messaging` `encryption` `self-hosted` `mcp`
-- **[anon.li](https://anon.li/mcp)** `Official` `TypeScript` — Remote MCP server for anon.li, an open-source privacy suite: tools manage email aliases, recipients, end-to-end encrypted file drops and encrypted forms. ([source](https://github.com/anondotli/anon.li))  
+- **[anon.li](https://anon.li/mcp)** `Official` `TypeScript` — Remote MCP server for anon.li, an open-source privacy suite: tools manage email aliases, recipients, end-to-end encrypted file drops and encrypted forms.  
   `email-alias` `privacy` `file-sharing` `encryption` `remote`
 - **[ArtiGram](https://artigram.cafeboon.com/connect)** `Official` `Python` — Publish, version and search AI-made HTML, React, SVG and Markdown artifacts as live pages on the ArtiGram community.  
   `artifacts` `publishing` `community` `remote`
@@ -869,7 +869,7 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `knowledge` `encryption` `local`
 - **[imageat](https://github.com/incendies/imageat-mcp)** `Official` `Other` — AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imageat/mcp` with an API key, or use the hosted Streamable HTTP server with OAuth. Credits per generation.  
   `image-generation` `video-generation` `image-editing` `remote` `oauth`
-- **[Imagera](https://imagera.ai/mcp)** `Official` `TypeScript` — Hosted MCP server that generates and edits images, video clips, voiceovers and music on the user's Imagera account, with cost estimates before each run. ([source](https://github.com/alexadams6ix/imagera-skills))  
+- **[Imagera](https://imagera.ai/mcp)** `Official` `TypeScript` — Hosted MCP server that generates and edits images, video clips, voiceovers and music on the user's Imagera account, with cost estimates before each run.  
   `image-generation` `video-generation` `text-to-speech` `remote` `oauth`
 - **[Interview Questions MCP](https://github.com/Johnnnmai/interview-questions-mcp)** `Python` — AI Engineer interview questions with scoring rubrics: browse topics, get questions by difficulty level, and link to a free answer self-checker.  
   `interview` `education` `ai-engineering` `practice`

@@ -5202,7 +5202,7 @@
   },
   {
     "name": "ContactLint",
-    "url": "https://github.com/zksyncer/contactlint",
+    "url": "https://contactlint.com",
     "description": "Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
@@ -5218,7 +5218,6 @@
     "endpoints": {
       "streamableHttp": "https://contactlint.com/mcp"
     },
-    "repository": "https://github.com/zksyncer/contactlint",
     "transport": [
       "streamable-http"
     ]
@@ -14040,7 +14039,7 @@
   },
   {
     "name": "Holos33",
-    "url": "https://mcp.holos33.com",
+    "url": "https://holos33.com",
     "description": "Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact.",
     "category": "filesystems-and-documents",
     "language": "Python",
@@ -14107,7 +14106,6 @@
       "remote"
     ],
     "official": true,
-    "repository": "https://github.com/anondotli/anon.li",
     "license": "AGPL-3.0",
     "pricing": "freemium",
     "endpoints": {
@@ -14878,7 +14876,6 @@
     "endpoints": {
       "streamableHttp": "https://mcp.imagera.ai/mcp"
     },
-    "repository": "https://github.com/alexadams6ix/imagera-skills",
     "pricing": "paid",
     "transport": [
       "streamable-http"
