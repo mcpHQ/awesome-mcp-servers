@@ -16548,5 +16548,37 @@
     "endpoints": {
       "streamableHttp": "https://numradar.app/mcp"
     }
+  },
+  {
+    "name": "Smarter.Poker MCP Server",
+    "url": "https://github.com/Smarter-Poker/smarter-poker-mcp",
+    "repository": "https://github.com/Smarter-Poker/smarter-poker-mcp",
+    "description": "Keyless stdio and streamable-HTTP server with 26 tools for poker hand and range equity, ICM, Nash push/fold charts, bankroll risk of ruin and US poker venue discovery.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "Smarter.Poker",
+    "tags": [
+      "poker",
+      "game-theory",
+      "analytics",
+      "sports",
+      "remote"
+    ],
+    "official": true,
+    "license": "MIT",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "smarter-poker-mcp"
+    },
+    "endpoints": {
+      "streamableHttp": "https://smarter.poker/api/mcp"
+    }
   }
 ]
