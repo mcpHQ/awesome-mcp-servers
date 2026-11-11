@@ -15761,5 +15761,33 @@
       "command": "npx",
       "package": "eu-nordic-open-data-mcp"
     }
+  },
+  {
+    "name": "iotaudit",
+    "url": "https://github.com/emirmrkaljevic/iotaudit",
+    "description": "Local CLI and MCP server that audits IoT and smart-home devices on your own LAN: destinations, encryption, public DNS, DNS-over-TLS and DNS-over-HTTPS.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "security",
+      "iot",
+      "privacy",
+      "dns"
+    ],
+    "official": false,
+    "repository": "https://github.com/emirmrkaljevic/iotaudit",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "pip",
+      "package": "iotaudit"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]
