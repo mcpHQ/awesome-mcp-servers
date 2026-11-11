@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-757-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-758-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (81)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (72)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (73)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (93)
@@ -313,6 +313,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `browser-automation` `x402` `remote`
 - **[agdata](https://agdata.shveik.dev)** `Official` `Go` — Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key.  
   `web-scraping` `x402` `markdown` `remote`
+- **[Agent Browser Use](https://github.com/cavaldos/agent-browser-use)** `Go` — Let AI coding agents drive a real browser over MCP (Playwright-style element refs) while you watch every step live in a web viewer and take over at any time.  
+  `browser-automation` `mcp` `chrome` `live-viewer`
 - **[AgentRender](https://github.com/corbinvachal48/agentrender-mcp)** `Official` `Python` — Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.  
   `screenshot` `pdf` `web-extraction` `remote`
 - **[AgentSearch](https://github.com/agentsearchhq-coder/agentsearch-mcp)** `Official` `TypeScript` — Web search, URL-to-Markdown, JS render, and search_and_read for agents. Free keyless search (25/day per IP) plus an extract/render trial; paid via direct x402 on Base ($0.008/$0.007/$0.010/$0.015). `npx -y @agentsearchhq/agentsearch-mcp`.  
