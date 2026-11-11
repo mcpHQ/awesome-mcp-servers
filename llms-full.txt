@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 767 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 768 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6118,6 +6118,23 @@ Child growth reference tools for AI assistants: WHO and CDC percentiles, BMI-for
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://mcp.usegrowo.com/
+
+### GSC PAP
+
+Hosted, read-only access to the signed-in user's own Google Search Console, Google Analytics 4 and PageSpeed Insights data, with a Search Console archive kept past Google's 16-month limit.
+
+- URL: https://gscpap.com
+- Language: Python
+- Provider: GSC PAP
+- Official: no
+- Tags: seo, google-search-console, google-analytics, read-only, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/aliarifsoydas/gsc-pap-claude-plugin
+- License: proprietary
+- Pricing: free
+- Transport: streamable-http
+- Auth: api-key, oauth
+- Streamable HTTP endpoint: https://mcp.gscpap.com/mcp
 
 ### GSCmate
 

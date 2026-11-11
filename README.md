@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-767-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-768-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (93)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (90)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (83)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (84)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (35)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (166)
@@ -1056,6 +1056,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `monitoring` `dashboards` `observability`
 - **[Growo child growth](https://usegrowo.com/mcp)** `Official` `TypeScript` — Child growth reference tools for AI assistants: WHO and CDC percentiles, BMI-for-age, birth size for gestational age, corrected age and mid-parental height. Read-only and no auth; results carry no interpretation.  
   `health` `pediatrics` `growth-charts` `remote` `read-only`
+- **[GSC PAP](https://gscpap.com)** `Python` — Hosted, read-only access to the signed-in user's own Google Search Console, Google Analytics 4 and PageSpeed Insights data, with a Search Console archive kept past Google's 16-month limit. ([source](https://github.com/aliarifsoydas/gsc-pap-claude-plugin))  
+  `seo` `google-search-console` `google-analytics` `read-only` `remote`
 - **[GSCmate](https://gscmate.com)** `Official` `JavaScript` — Read-only access to Google Search Console properties, Search Analytics, sitemaps, and URL inspection through user-authorized OAuth 2.1.  
   `google-search-console` `seo` `analytics` `oauth` `remote`
 - **[HEY Research Lab](https://github.com/hey-research-lab/hey-research-open)** `Official` `TypeScript` — Read-only research on Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its public source.  

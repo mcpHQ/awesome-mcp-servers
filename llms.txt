@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 767 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 768 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -508,6 +508,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Gov Tenders MCP](https://github.com/GeminiGeorge22/gov-tenders-mcp): Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link. (JavaScript)
 - [Grafana MCP Server](https://github.com/grafana/mcp-grafana): Explore Grafana dashboards, alerts, and observability data. (Go, official)
 - [Growo child growth](https://usegrowo.com/mcp): Child growth reference tools for AI assistants: WHO and CDC percentiles, BMI-for-age, birth size for gestational age, corrected age and mid-parental height. Read-only and no auth; results carry no interpretation. (TypeScript, official)
+- [GSC PAP](https://gscpap.com): Hosted, read-only access to the signed-in user's own Google Search Console, Google Analytics 4 and PageSpeed Insights data, with a Search Console archive kept past Google's 16-month limit. (Python)
 - [GSCmate](https://gscmate.com): Read-only access to Google Search Console properties, Search Analytics, sitemaps, and URL inspection through user-authorized OAuth 2.1. (JavaScript, official)
 - [HEY Research Lab](https://github.com/hey-research-lab/hey-research-open): Read-only research on Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its public source. (TypeScript, official)
 - [HirePulse Agent Gateway](https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/): Remote MCP tools for website technologies and company job listings; paid HTTP API calls use x402 on Base. (Other, official)

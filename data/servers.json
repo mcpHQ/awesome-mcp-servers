@@ -16462,5 +16462,34 @@
     "endpoints": {
       "streamableHttp": "https://agency-check.app/mcp"
     }
+  },
+  {
+    "name": "GSC PAP",
+    "url": "https://gscpap.com",
+    "repository": "https://github.com/aliarifsoydas/gsc-pap-claude-plugin",
+    "description": "Hosted, read-only access to the signed-in user's own Google Search Console, Google Analytics 4 and PageSpeed Insights data, with a Search Console archive kept past Google's 16-month limit.",
+    "category": "data-analytics-and-bi",
+    "language": "Python",
+    "provider": "GSC PAP",
+    "tags": [
+      "seo",
+      "google-search-console",
+      "google-analytics",
+      "read-only",
+      "remote"
+    ],
+    "official": false,
+    "license": "proprietary",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.gscpap.com/mcp"
+    }
   }
 ]
