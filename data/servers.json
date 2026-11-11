@@ -16435,5 +16435,32 @@
       "command": "npx",
       "package": "meshmend-mcp"
     }
+  },
+  {
+    "name": "Agency Check",
+    "url": "https://agency-check.app",
+    "repository": "https://github.com/CyberStrategy1/agency-check",
+    "description": "Hosted remote MCP that checks what an AI agent is about to buy, send, sign up for, or connect before it acts, and returns proceed, pause, or ask with the reason.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Cyber Strategy Institute",
+    "tags": [
+      "agent-safety",
+      "guardrails",
+      "approvals",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://agency-check.app/mcp"
+    }
   }
 ]

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 766 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 767 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6923,6 +6923,22 @@ Issue and verify Ed25519-signed receipts for agent actions via MCP tools issue_r
 - Official: yes
 - Tags: receipts, ed25519, attestations, agents, audit
 - Category: Security and Identity
+
+### Agency Check
+
+Hosted remote MCP that checks what an AI agent is about to buy, send, sign up for, or connect before it acts, and returns proceed, pause, or ask with the reason.
+
+- URL: https://agency-check.app
+- Language: TypeScript
+- Provider: Cyber Strategy Institute
+- Official: yes
+- Tags: agent-safety, guardrails, approvals, oauth, remote
+- Category: Security and Identity
+- Repository: https://github.com/CyberStrategy1/agency-check
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://agency-check.app/mcp
 
 ### Auth0 MCP Server
 
