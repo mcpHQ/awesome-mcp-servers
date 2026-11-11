@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-758-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-759-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (89)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
-- [Security and Identity](#security-and-identity) (33)
+- [Security and Identity](#security-and-identity) (34)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (165)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
@@ -1202,6 +1202,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `email` `dns` `dmarc` `deliverability`
 - **[FractalAI Agent Passport](https://www.npmjs.com/package/@fractalai/agent-passport-mcp)** `Official` `TypeScript` — Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts.  
   `post-quantum` `ml-dsa` `x402` `identity` `receipts`
+- **[GridZen Verification](https://github.com/immurray/gridzen-developer-kit/blob/main/llms-install.md)** `Official` `Python` — Research and synthetic MCP tools for planning identity-verification coverage and exercising sandbox decision results, not live identity verification. ([source](https://github.com/immurray/gridzen-developer-kit))  
+  `identity-verification` `kyc` `mcp` `sandbox`
 - **[HANRIA Mandate Check](https://hanria.ai)** `Official` `JavaScript` — Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.  
   `mandates` `authorization` `agent-safety` `receipts` `remote`
 - **[ichi-mcp](https://github.com/bernik-bot/ichi-mcp)** `Python` — Read the free public ICHI Internet Cyber Health Index: current threat band and score, recent critical-advisory alerts, and source feed health.  

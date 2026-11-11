@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 758 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 759 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6987,6 +6987,25 @@ Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-
 - Category: Security and Identity
 - Pricing: paid
 - Install: npx @fractalai/agent-passport-mcp
+
+### GridZen Verification
+
+Research and synthetic MCP tools for planning identity-verification coverage and exercising sandbox decision results, not live identity verification.
+
+- URL: https://github.com/immurray/gridzen-developer-kit/blob/main/llms-install.md
+- Language: Python
+- Provider: GridZen
+- Official: yes
+- Tags: identity-verification, kyc, mcp, sandbox
+- Category: Security and Identity
+- Repository: https://github.com/immurray/gridzen-developer-kit
+- License: MIT
+- Pricing: free
+- Transport: stdio, streamable-http
+- Auth: none
+- Install: pip gridzen-developer-kit
+- Verified: 2026-11-11
+- Streamable HTTP endpoint: https://gridzen.ai/developers/mcp
 
 ### HANRIA Mandate Check
 

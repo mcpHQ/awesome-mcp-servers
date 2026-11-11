@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 758 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 759 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -580,6 +580,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Darkmoon MCP Server](https://github.com/ASCIT31/darkmoon-mcp-server): Start autonomous AI pentest runs, poll status, list campaigns and read findings on a self-hosted Darkmoon Pro instance over stdio. (TypeScript, official)
 - [Domain Mail Check](https://tools.openkrill.app/#mailcheck): Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up. (TypeScript, official)
 - [FractalAI Agent Passport](https://www.npmjs.com/package/@fractalai/agent-passport-mcp): Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts. (TypeScript, official)
+- [GridZen Verification](https://github.com/immurray/gridzen-developer-kit/blob/main/llms-install.md): Research and synthetic MCP tools for planning identity-verification coverage and exercising sandbox decision results, not live identity verification. (Python, official)
 - [HANRIA Mandate Check](https://hanria.ai): Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors. (JavaScript, official)
 - [ichi-mcp](https://github.com/bernik-bot/ichi-mcp): Read the free public ICHI Internet Cyber Health Index: current threat band and score, recent critical-advisory alerts, and source feed health. (Python)
 - [INAM Protocol](https://github.com/inamprotocol/inam-protocol/tree/main/mcp): Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts. (TypeScript, official)
