@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-745-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-746-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (33)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (163)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (164)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1455,6 +1455,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `spending-limits` `approvals` `remote` `oauth`
 - **[Plaid MCP Server](https://plaid.com/docs/resources/mcp/)** `Official` `TypeScript` — Connect bank accounts and retrieve financial transaction data.  
   `banking` `finance` `open-banking`
+- **[PlushSource MCP](https://github.com/quickman924/plushsource-mcp)** `TypeScript` — Search, filter and compare custom plush toy manufacturers listed in the PlushSource directory; facts are recorded as stated by the manufacturers, and a listing is not an endorsement.  
+  `plush` `manufacturing` `sourcing` `directory`
 - **[Pocket Drives](https://github.com/RevList/pocket-drives-mcp)** `TypeScript` — Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.  
   `travel` `car-rental` `marketplace`
 - **[Puley](https://puley.com)** `Official` `Other` — Gives ChatGPT and Claude live data and real jobs: local business leads from Google Maps, competitors' live Meta and Google ads, TikTok, Instagram and YouTube stats and transcripts, price comparison and change alerts.  
