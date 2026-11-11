@@ -7604,6 +7604,32 @@
     ]
   },
   {
+    "name": "Toolbox POD",
+    "url": "https://toolboxpod.com/docs/mcp",
+    "description": "Design custom tees and hoodies, see mockups, and order prints made and shipped from Utah: price an order and get a checkout link to pay on toolboxpod.com.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Toolbox Brands LLC",
+    "tags": [
+      "print-on-demand",
+      "apparel",
+      "mockups",
+      "ecommerce",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.toolboxpod.com/mcp"
+    },
+    "repository": "https://github.com/Toolbox-POD/toolbox-pod-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "BatchData",
     "url": "https://github.com/batchdataco/batchdata-mcp-server",
     "description": "Hosted MCP server for U.S. property data: property search, comps, owner skip tracing, and phone and address verification. OAuth 2.1 or API token.",
