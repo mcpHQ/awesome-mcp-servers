@@ -16491,5 +16491,33 @@
     "endpoints": {
       "streamableHttp": "https://mcp.gscpap.com/mcp"
     }
+  },
+  {
+    "name": "Folklore Clinical Variant Interpretation MCP",
+    "url": "https://folklore.helena.bio/integrations/mcp",
+    "repository": "https://github.com/helena-bioinformatics/folklore-mcp",
+    "description": "ACMG/AMP germline variant classification, gene profiles, disease associations and literature.",
+    "category": "data-analytics-and-bi",
+    "language": "Python",
+    "provider": "Helena Bioinformatics",
+    "tags": [
+      "genomics",
+      "variant-classification",
+      "acmg",
+      "bioinformatics",
+      "remote"
+    ],
+    "official": true,
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.helena.bio/folklore/v1/mcp"
+    }
   }
 ]

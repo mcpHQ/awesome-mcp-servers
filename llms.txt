@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 768 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 769 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -501,6 +501,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ExtensionDash](https://extensiondash.com/): Query Chrome and Firefox extension users, ratings, and search-rank data through ExtensionDash's hosted MCP server with OAuth authentication. (Ruby, official)
 - [Fictura](https://docs.fictura.co/connections/outgoing/mcp-server): Hosted MCP server for Fictura: paywalls, onboarding, subscription analytics, A/B experiments, attribution and errors for Expo and React Native apps, with draft-only editing. (TypeScript, official)
 - [FlightQueue](https://flightqueue.com/mcp): Airport security wait times, forecasts, FAA delays, EES border queues and baggage stats for 8,000+ airports over a hosted MCP server. (Other, official)
+- [Folklore Clinical Variant Interpretation MCP](https://folklore.helena.bio/integrations/mcp): ACMG/AMP germline variant classification, gene profiles, disease associations and literature. (Python, official)
 - [Global Database](https://api.globaldatabase.com/docs/v2/#mcp-server): Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication. (Other, official)
 - [Globatics](https://globatics.live/docs/mcp): Read-only remote MCP server to query your own Globatics web analytics reports; a paid hosted tool, available on the Pro and Business plans. (Other, official)
 - [GoAnyAPI MCP](https://goanyapi.com): Public SEO, website and ads data for agents: traffic, domain rating and history, backlinks, keywords, Google and Bing SERP, autocomplete, Google Trends, AdSense and Google Ads Transparency. (Other, official)
