@@ -1525,7 +1525,7 @@ Run Apify Actors and extract web datasets at scale.
 
 ### Arcmira: YouTube Transcript Search
 
-Search indexed YouTube transcripts for timestamped passages, speaker appearances, mentions, sponsors and recommendations over a hosted MCP connection.
+YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers.
 
 - URL: https://arcmira.com/docs/mcp-server
 - Language: Other
