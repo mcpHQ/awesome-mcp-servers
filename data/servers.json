@@ -16605,5 +16605,32 @@
     "endpoints": {
       "streamableHttp": "https://crakseo.com/mcp/seo"
     }
+  },
+  {
+    "name": "Wavegrain",
+    "url": "https://wavegrain.com/mcp",
+    "repository": "https://github.com/wavegrain/wavegrain-mcp",
+    "description": "Hosted MCP server for Wavegrain: curated TikTok slideshows and Instagram carousels for your brand on autopilot. Agents read your brand, make slideshows in its voice with your photos, edit slides, schedule them and export.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Wavegrain",
+    "tags": [
+      "social-media",
+      "tiktok",
+      "instagram",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://wavegrain.com/api/mcp"
+    }
   }
 ]
