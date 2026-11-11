@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 757 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 758 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1413,6 +1413,21 @@ Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube tran
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://agdata.shveik.dev/mcp
+
+### Agent Browser Use
+
+Let AI coding agents drive a real browser over MCP (Playwright-style element refs) while you watch every step live in a web viewer and take over at any time.
+
+- URL: https://github.com/cavaldos/agent-browser-use
+- Language: Go
+- Provider: Community
+- Official: no
+- Tags: browser-automation, mcp, chrome, live-viewer
+- Category: Browsers, Search, and Web Automation
+- License: AGPL-3.0
+- Pricing: free
+- Transport: stdio
+- Auth: none
 
 ### AgentRender
 

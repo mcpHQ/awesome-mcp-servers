@@ -16190,5 +16190,29 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Agent Browser Use",
+    "url": "https://github.com/cavaldos/agent-browser-use",
+    "description": "Let AI coding agents drive a real browser over MCP (Playwright-style element refs) while you watch every step live in a web viewer and take over at any time.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "browser-automation",
+      "mcp",
+      "chrome",
+      "live-viewer"
+    ],
+    "official": false,
+    "repository": "https://github.com/cavaldos/agent-browser-use",
+    "license": "AGPL-3.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]
