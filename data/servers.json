@@ -6873,6 +6873,31 @@
     ]
   },
   {
+    "name": "QuestionPunk",
+    "url": "https://www.questionpunk.com/features/mcp-server",
+    "description": "Create, edit and publish surveys and AI-moderated interviews, then read responses and reports through a hosted MCP server.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "QuestionPunk",
+    "tags": [
+      "surveys",
+      "research",
+      "interviews",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.questionpunk.com/api/v1"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "GenFlick",
     "url": "https://genflick.com/developers/mcp",
     "description": "Remote MCP for the GenFlick AI studio for films, series, music videos and ads, with OAuth sign-in and no API key.",
