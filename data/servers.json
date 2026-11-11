@@ -7475,6 +7475,33 @@
     ]
   },
   {
+    "name": "Webprompter.ai MCP",
+    "url": "https://webprompter.ai",
+    "description": "Deploy static sites and connect custom domains from coding agents over hosted MCP.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "webprompter.ai",
+    "tags": [
+      "hosting",
+      "static-sites",
+      "deploy",
+      "domains",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.webprompter.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "pricing": "freemium",
+    "auth": [
+      "api-key"
+    ],
+    "verified": "2026-11-09"
+  },
+  {
     "name": "WISEPIM Commerce Reference",
     "url": "https://github.com/lldiegon/wisepim-commerce-mcp",
     "description": "Look up HS headings, read marketplace listing requirements, and screen environmental claims in product copy offline.",
