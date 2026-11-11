@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 743 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 744 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -523,6 +523,22 @@ Analyzes a codebase for i18n readiness, wires hardcoded strings to next-intl or 
 - Official: yes
 - Tags: i18n, localization, translation, react, nextjs
 - Category: Developer Tools and Code Intelligence
+
+### behave
+
+Record how a CLI behaves as golden tests and diff a rewrite. Local Go CLI and MCP server.
+
+- URL: https://github.com/emirmrkaljevic/behave
+- Language: Go
+- Provider: Community
+- Official: no
+- Tags: testing, cli, compatibility, golden-tests
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: go github.com/emirmrkaljevic/behave/cmd/behave
 
 ### Bestax
 

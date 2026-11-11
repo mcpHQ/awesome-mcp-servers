@@ -15789,5 +15789,33 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "behave",
+    "url": "https://github.com/emirmrkaljevic/behave",
+    "description": "Record how a CLI behaves as golden tests and diff a rewrite. Local Go CLI and MCP server.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "testing",
+      "cli",
+      "compatibility",
+      "golden-tests"
+    ],
+    "official": false,
+    "repository": "https://github.com/emirmrkaljevic/behave",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "go",
+      "package": "github.com/emirmrkaljevic/behave/cmd/behave"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]
