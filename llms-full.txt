@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 747 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 748 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2909,6 +2909,25 @@ Real-time status, recent incidents and an overall health score for 41 internet b
 - Category: Cloud and Infrastructure
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://internetvitals.com/mcp
+
+### Lantern Works
+
+Read-only GPU rental price comparison across providers, refreshed regularly with each price's age shown, cited rates, job-cost estimates, and a keyless MCP (local uvx or hosted Streamable HTTP).
+
+- URL: https://thelanternworks.com/for-agents/?ref=fg-mcphq
+- Language: Python
+- Provider: Lantern Works
+- Official: yes
+- Tags: gpu, cloud, pricing, read-only
+- Category: Cloud and Infrastructure
+- Repository: https://github.com/connormatthewdouglas/agent-work-stack-deals
+- License: MIT
+- Pricing: free
+- Transport: stdio, streamable-http
+- Auth: none
+- Install: uvx lantern-works-deals-mcp
+- Verified: 2026-11-10
+- Streamable HTTP endpoint: https://lantern-works-mcp.lantern-works.workers.dev/mcp?ref=fg-mcphq
 
 ### mountable.io
 
