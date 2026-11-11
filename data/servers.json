@@ -414,7 +414,7 @@
   {
     "name": "AgentServices",
     "url": "https://github.com/vbkotecha/agentservices-api",
-    "description": "Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
+    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "AgentServices",
@@ -1386,7 +1386,7 @@
   {
     "name": "BirkinBagStock",
     "url": "https://birkinbagstock.com/llms.txt",
-    "description": "Independent Hermès resale listings, price comparisons, and price alerts.",
+    "description": "Independent Herm\u00e8s resale listings, price comparisons, and price alerts.",
     "category": "finance-commerce-and-business-apps",
     "language": "Other",
     "provider": "BirkinBagStock",
@@ -1527,7 +1527,7 @@
     ]
   },
   {
-    "name": "BOIM (보임)",
+    "name": "BOIM (\ubcf4\uc784)",
     "url": "https://github.com/kikiyop1101/boim-mcp",
     "description": "Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.",
     "category": "data-analytics-and-bi",
@@ -2732,7 +2732,7 @@
   {
     "name": "DropTheHassle",
     "url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
-    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
+    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (\u20ac19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
     "category": "cloud-and-infrastructure",
     "language": "JavaScript",
     "provider": "DropTheHassle",
@@ -2937,7 +2937,7 @@
   {
     "name": "Eigenheim Berlin Market Data",
     "url": "https://github.com/magicSEO/eigenheim-mcp",
-    "description": "Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.",
+    "description": "Hosted, no-key, read-only MCP for Berlin real estate data: prices per m\u00b2, rental yield, official land values, forecasts and listings.",
     "category": "data-analytics-and-bi",
     "language": "TypeScript",
     "provider": "Eigenheim & Invest",
@@ -4095,7 +4095,7 @@
   {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
-    "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
+    "description": "Turn AI-host work into invoices you review before send \u2014 Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Invompt",
@@ -4337,7 +4337,7 @@
   {
     "name": "Leal",
     "url": "https://www.getleal.com/mcp",
-    "description": "Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and cafés: brand kit from a website, live pass previews, rewards, QR signup posters.",
+    "description": "Design and launch Apple Wallet and Google Wallet loyalty stamp cards for shops and caf\u00e9s: brand kit from a website, live pass previews, rewards, QR signup posters.",
     "category": "finance-commerce-and-business-apps",
     "language": "Ruby",
     "provider": "Leal",
@@ -4476,7 +4476,7 @@
   {
     "name": "Live Tennis API MCP",
     "url": "https://www.npmjs.com/package/livetennisapi-mcp",
-    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "description": "Real-time tennis match state \u2014 score, current server, three-valued break-point flag, and retirement/walkover/completed status \u2014 plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Live Tennis API",
@@ -5571,7 +5571,7 @@
   {
     "name": "HireFerry",
     "url": "https://github.com/TokenNotIncluded/hireferry",
-    "description": "Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows.",
+    "description": "Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in r\u00e9sum\u00e9s, plus authenticated tools for hiring workflows.",
     "category": "finance-commerce-and-business-apps",
     "language": "Rust",
     "provider": "TokenNotIncluded",
@@ -6955,7 +6955,7 @@
     "repository": "https://github.com/verma6uc/mach-gtm-mcp"
   },
   {
-    "name": "Lava / 熔岩",
+    "name": "Lava / \u7194\u5ca9",
     "url": "https://github.com/dustinliang666-blip/lava-mcp",
     "description": "Read-only A-share stock and concept-board news-flow heat monitoring via structured remote MCP/REST for quant tools and AI agent market research; API key required.",
     "category": "finance-commerce-and-business-apps",
@@ -7580,7 +7580,7 @@
   {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
-    "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
+    "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read r\u00e9sum\u00e9s and move candidates through hiring.",
     "category": "finance-commerce-and-business-apps",
     "language": "Other",
     "provider": "Best Electrician Jobs",
@@ -8838,6 +8838,35 @@
     ]
   },
   {
+    "name": "Trading Signals MCP",
+    "url": "https://github.com/gdietsch/trading-signals-mcp",
+    "description": "Pay-per-call market data for AI agents: ES futures event-risk gate, SEC insider buys, and AI trade briefs.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Trading Signals Toolkit",
+    "tags": [
+      "trading",
+      "market-data",
+      "x402",
+      "finance"
+    ],
+    "official": false,
+    "repository": "https://github.com/gdietsch/trading-signals-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "x402-trading-signals-mcp"
+    },
+    "auth": [
+      "api-key"
+    ],
+    "verified": "2026-11-11"
+  },
+  {
     "name": "MCP Server Templates",
     "url": "https://github.com/Data-Everything/mcp-server-templates",
     "description": "Unified MCP platform connecting many apps behind one interface.",
@@ -8978,7 +9007,7 @@
   {
     "name": "mcp-pool",
     "url": "https://github.com/yuzu-octopus/mcp-pool",
-    "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
+    "description": "MCP Key Pool Proxy \u2014 pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "yuzu-octopus",
@@ -10580,7 +10609,7 @@
   {
     "name": "Pyrimid",
     "url": "https://github.com/pyrimid-ai/pyrimid",
-    "description": "Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
+    "description": "Onchain payment protocol for AI agents \u2014 sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
     "provider": "Pyrimid Protocol",
@@ -12695,7 +12724,7 @@
     "description": "Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
-    "provider": "TvojeLajky / Tomáš Přibyl",
+    "provider": "TvojeLajky / Tom\u00e1\u0161 P\u0159ibyl",
     "tags": [
       "commerce",
       "social-media",
@@ -13688,12 +13717,12 @@
     ]
   },
   {
-    "name": "Rolês em SP",
+    "name": "Rol\u00eas em SP",
     "url": "https://rolesemsp.com.br/connect.md",
-    "description": "Curated São Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth.",
+    "description": "Curated S\u00e3o Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth.",
     "category": "browsers-search-and-web-automation",
     "language": "JavaScript",
-    "provider": "Rolês em SP",
+    "provider": "Rol\u00eas em SP",
     "tags": [
       "travel",
       "events",
@@ -13808,12 +13837,12 @@
     ]
   },
   {
-    "name": "AI观潮 News MCP",
+    "name": "AI\u89c2\u6f6e News MCP",
     "url": "https://aiguanchao.com/en/agent",
     "description": "Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Needs a personal token (free daily quota).",
     "category": "browsers-search-and-web-automation",
     "language": "Go",
-    "provider": "AI观潮",
+    "provider": "AI\u89c2\u6f6e",
     "tags": [
       "news",
       "ai-news",
@@ -14936,7 +14965,7 @@
   {
     "name": "ailiste",
     "url": "https://ailiste.app/mcp/",
-    "description": "New-build homes in Cyprus: buildings with the stage seen on site and the day, developers, and district asking prices per m², read-only.",
+    "description": "New-build homes in Cyprus: buildings with the stage seen on site and the day, developers, and district asking prices per m\u00b2, read-only.",
     "category": "data-analytics-and-bi",
     "language": "Python",
     "provider": "ailiste",
@@ -15404,7 +15433,7 @@
     ]
   },
   {
-    "name": "MCPKit — Yandex Direct MCP",
+    "name": "MCPKit \u2014 Yandex Direct MCP",
     "url": "https://mcpkit.ru/mcp-yandex-direct?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_direct",
     "description": "Retrieve Yandex Direct campaign reports and manage supported advertising settings in ChatGPT.",
     "category": "finance-commerce-and-business-apps",
@@ -15428,7 +15457,7 @@
     ]
   },
   {
-    "name": "MCPKit — Yandex Metrica MCP",
+    "name": "MCPKit \u2014 Yandex Metrica MCP",
     "url": "https://mcpkit.ru/mcp-yandex-metrika?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_metrica",
     "description": "Analyze Yandex Metrica traffic and conversions with read-only access in ChatGPT.",
     "category": "finance-commerce-and-business-apps",
@@ -15452,7 +15481,7 @@
     ]
   },
   {
-    "name": "MCPKit — Yandex Wordstat MCP",
+    "name": "MCPKit \u2014 Yandex Wordstat MCP",
     "url": "https://mcpkit.ru/mcp-wordstat?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_wordstat",
     "description": "Research Yandex keyword demand, trends and regional statistics in ChatGPT. Yandex statistical API charges apply.",
     "category": "browsers-search-and-web-automation",
