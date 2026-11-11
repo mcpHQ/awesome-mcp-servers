@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-752-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-754-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,11 +43,11 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (80)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (81)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (70)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
-- [Communication and Productivity](#communication-and-productivity) (91)
+- [Communication and Productivity](#communication-and-productivity) (92)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (89)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -190,6 +190,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `documentation` `developer-tools` `versions` `oauth` `remote`
 - **[E2B MCP Server](https://docs.e2b.dev/mcp)** `Official` `Other` — Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows.  
   `sandbox` `code-execution` `agents`
+- **[eda-agent](https://github.com/salitronic/eda-agent)** `Official` `Python` — Drives a live Altium Designer session, with KiCad and EasyEDA Pro backends, through about 600 schematic, PCB, library and project tools.  
+  `eda` `pcb` `altium` `kicad` `electronics`
 - **[ERIUS PHONE MCP](https://github.com/Protremix/erius-phone-mcp)** `Official` `Python` — Drive an ERIUS PHONE hosted Android phone or tablet: read the screen, tap, type, swipe, launch apps, install APKs, and pull crash logs.  
   `android` `mobile` `testing` `automation`
 - **[Flare](https://flareapp.io/docs/flare/general/our-mcp-server)** `Official` `PHP` — Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP.  
@@ -638,6 +640,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `discord` `chat` `community`
 - **[Edusign MCP](https://developers.edusign.com/docs/mcp)** `Official` `TypeScript` — Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server.  
   `education` `attendance` `documents` `oauth`
+- **[EmailFig](https://github.com/EmailFig/mcp)** `Official` `Ruby` — Check campaign and automation results, look up and update contacts, and draft email campaigns you review and send in EmailFig.  
+  `email` `marketing` `newsletters`
 - **[Enhanciar](https://github.com/enhanciar/enhanciar-mcp)** `Official` `Other` — A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted; needs an Enhanciar API key (paid plans).  
   `knowledge-base` `enterprise-search` `slack` `hosted`
 - **[ent1-mcp](https://github.com/edouard-claude/ent1-mcp)** `Rust` — Parent access to ENT ONE, the French primary-school digital workspace (Edifice): teacher messaging, liaison book, homework, news, calendar and documents.  

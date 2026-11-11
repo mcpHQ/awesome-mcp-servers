@@ -16071,5 +16071,30 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "eda-agent",
+    "url": "https://github.com/salitronic/eda-agent",
+    "description": "Drives a live Altium Designer session, with KiCad and EasyEDA Pro backends, through about 600 schematic, PCB, library and project tools.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Salitronic",
+    "tags": [
+      "eda",
+      "pcb",
+      "altium",
+      "kicad",
+      "electronics"
+    ],
+    "official": true,
+    "repository": "https://github.com/salitronic/eda-agent",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]

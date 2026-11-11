@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 752 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 754 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -695,6 +695,21 @@ Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tool
 - Official: yes
 - Tags: sandbox, code-execution, agents
 - Category: Developer Tools and Code Intelligence
+
+### eda-agent
+
+Drives a live Altium Designer session, with KiCad and EasyEDA Pro backends, through about 600 schematic, PCB, library and project tools.
+
+- URL: https://github.com/salitronic/eda-agent
+- Language: Python
+- Provider: Salitronic
+- Official: yes
+- Tags: eda, pcb, altium, kicad, electronics
+- Category: Developer Tools and Code Intelligence
+- License: Apache-2.0
+- Pricing: free
+- Transport: stdio
+- Auth: none
 
 ### ERIUS PHONE MCP
 
@@ -3412,6 +3427,21 @@ Access Edusign attendance, courses, learners, documents, and API documentation t
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://mcp.edusign.com
+
+### EmailFig
+
+Check campaign and automation results, look up and update contacts, and draft email campaigns you review and send in EmailFig.
+
+- URL: https://github.com/EmailFig/mcp
+- Language: Ruby
+- Provider: EmailFig
+- Official: yes
+- Tags: email, marketing, newsletters
+- Category: Communication and Productivity
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://emailfig.com/mcp
 
 ### Enhanciar
 
