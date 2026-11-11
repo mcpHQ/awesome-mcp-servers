@@ -14015,6 +14015,25 @@
     ]
   },
   {
+    "name": "TreeHarbor MCP",
+    "url": "https://github.com/ArtAndrew/TreeHarbor/blob/v0.1.19-alpha.1/docs/mcp.md",
+    "description": "Read files at a pinned Git revision and submit changes that survive workspace cleanup through a local TreeHarbor service.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Rust",
+    "provider": "TreeHarbor",
+    "tags": [
+      "git",
+      "source-control",
+      "coding-agents"
+    ],
+    "official": true,
+    "repository": "https://github.com/ArtAndrew/TreeHarbor",
+    "license": "source-available",
+    "transport": [
+      "stdio"
+    ]
+  },
+  {
     "name": "Google Ads Transparency MCP",
     "url": "https://github.com/GeminiGeorge22/google-ads-transparency-mcp",
     "description": "Competitor Google ads from the Google Ads Transparency Center by domain, advertiser ID or advertiser name: which ads are new, running or stopped, with first and last shown dates, format and ad links.",
