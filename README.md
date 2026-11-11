@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-769-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-770-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (74)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
-- [Communication and Productivity](#communication-and-productivity) (93)
+- [Communication and Productivity](#communication-and-productivity) (94)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (90)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (85)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -702,6 +702,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `jobs` `career` `resume` `oauth` `remote`
 - **[Nitrosend](https://docs.nitrosend.com/mcp)** `Official` `Ruby` — Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.  
   `email-marketing` `campaigns` `automation` `transactional-email` `oauth`
+- **[NumRadar](https://numradar.app/mcp-server)** `Official` `TypeScript` — Check WhatsApp registration for individual phone numbers, submit bulk validation jobs, and read validation allowances through a hosted Streamable HTTP server or the local npm package.  
+  `whatsapp` `phone-validation` `bulk-validation`
 - **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `Official` `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
   `video` `editing` `automation` `mcp`
 - **[Outbound OS](https://github.com/RecepioHQ/outbound-os)** `Official` `JavaScript` — Local MCP tools for evidence-gated email outreach with default-disabled live sending  

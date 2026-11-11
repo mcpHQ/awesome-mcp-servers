@@ -16519,5 +16519,34 @@
     "endpoints": {
       "streamableHttp": "https://api.helena.bio/folklore/v1/mcp"
     }
+  },
+  {
+    "name": "NumRadar",
+    "url": "https://numradar.app/mcp-server",
+    "description": "Check WhatsApp registration for individual phone numbers, submit bulk validation jobs, and read validation allowances through a hosted Streamable HTTP server or the local npm package.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "NumRadar",
+    "tags": [
+      "whatsapp",
+      "phone-validation",
+      "bulk-validation"
+    ],
+    "official": true,
+    "pricing": "paid",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@numradar/mcp"
+    },
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://numradar.app/mcp"
+    }
   }
 ]
