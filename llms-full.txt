@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 755 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 756 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3350,6 +3350,23 @@ Find AI-cited publisher prospects, review outreach and publisher replies, and dr
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://citewing.com/mcp
+
+### ClipUGC
+
+Makes vertical UGC videos for mobile apps with an AI influencer who keeps the same face, then merges the app screen recording and a hook into the video.
+
+- URL: https://github.com/clipugc/ClipUGC-CLI
+- Language: TypeScript
+- Provider: ClipUGC
+- Official: yes
+- Tags: video, ai-influencer, ugc, social-media, remote
+- Category: Communication and Productivity
+- License: MIT
+- Pricing: freemium
+- Transport: stdio, streamable-http
+- Auth: api-key, oauth
+- Install: npx clipugc
+- Streamable HTTP endpoint: https://clipugc.com/mcp
 
 ### Cooper Email
 

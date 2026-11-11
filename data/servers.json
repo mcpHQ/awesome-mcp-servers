@@ -16130,5 +16130,39 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "ClipUGC",
+    "url": "https://github.com/clipugc/ClipUGC-CLI",
+    "description": "Makes vertical UGC videos for mobile apps with an AI influencer who keeps the same face, then merges the app screen recording and a hook into the video.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "ClipUGC",
+    "tags": [
+      "video",
+      "ai-influencer",
+      "ugc",
+      "social-media",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/clipugc/ClipUGC-CLI",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://clipugc.com/mcp"
+    },
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "clipugc"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   }
 ]
