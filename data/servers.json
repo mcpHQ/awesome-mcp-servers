@@ -16214,5 +16214,38 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "GridZen Verification",
+    "url": "https://github.com/immurray/gridzen-developer-kit/blob/main/llms-install.md",
+    "description": "Research and synthetic MCP tools for planning identity-verification coverage and exercising sandbox decision results, not live identity verification.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "GridZen",
+    "tags": [
+      "identity-verification",
+      "kyc",
+      "mcp",
+      "sandbox"
+    ],
+    "official": true,
+    "repository": "https://github.com/immurray/gridzen-developer-kit",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "pip",
+      "package": "gridzen-developer-kit"
+    },
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://gridzen.ai/developers/mcp"
+    },
+    "verified": "2026-11-11"
   }
 ]
