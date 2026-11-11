@@ -16300,5 +16300,31 @@
     "endpoints": {
       "streamableHttp": "https://localaipicks.com/mcp"
     }
+  },
+  {
+    "name": "easi.run",
+    "url": "https://docs.easi.run",
+    "repository": "https://github.com/julianosig/easi.run",
+    "description": "Self-hosted Chrome sessions for AI agents via MCP or REST, with live viewing and human takeover for sign-in, 2FA and approvals.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Rust",
+    "provider": "Juliano Gouveia",
+    "tags": [
+      "browser-automation",
+      "chrome",
+      "self-hosted",
+      "human-in-the-loop"
+    ],
+    "official": false,
+    "license": "AGPL-3.0",
+    "pricing": "free",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
   }
 ]

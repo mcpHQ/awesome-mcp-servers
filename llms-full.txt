@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 761 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 762 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1779,6 +1779,22 @@ AI search across the web, X (Twitter), Reddit, Hacker News, arXiv and Wikipedia,
 - Category: Browsers, Search, and Web Automation
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.desearch.ai/mcp
+
+### easi.run
+
+Self-hosted Chrome sessions for AI agents via MCP or REST, with live viewing and human takeover for sign-in, 2FA and approvals.
+
+- URL: https://docs.easi.run
+- Language: Rust
+- Provider: Juliano Gouveia
+- Official: no
+- Tags: browser-automation, chrome, self-hosted, human-in-the-loop
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/julianosig/easi.run
+- License: AGPL-3.0
+- Pricing: free
+- Transport: stdio, streamable-http
+- Auth: none, api-key
 
 ### Exa MCP Server
 
