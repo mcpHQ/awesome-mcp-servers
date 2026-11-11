@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-742-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-743-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (88)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
-- [Security and Identity](#security-and-identity) (32)
+- [Security and Identity](#security-and-identity) (33)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (163)
 - [Utilities and Examples](#utilities-and-examples) (36)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
@@ -1182,6 +1182,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `threat-intelligence` `cybersecurity` `osint` `monitoring`
 - **[INAM Protocol](https://github.com/inamprotocol/inam-protocol/tree/main/mcp)** `Official` `TypeScript` — Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts. ([source](https://github.com/inamprotocol/inam-protocol))  
   `reputation` `x402` `receipts` `identity` `remote`
+- **[iotaudit](https://github.com/emirmrkaljevic/iotaudit)** `Python` — Local CLI and MCP server that audits IoT and smart-home devices on your own LAN: destinations, encryption, public DNS, DNS-over-TLS and DNS-over-HTTPS.  
+  `security` `iot` `privacy` `dns`
 - **[Iris](https://iriscan.app/mcp)** `Official` `Rust` — Hosted on-chain investigations: wallet analysis, fund tracing through mixers, exchanges and instant swaps, and Solana token insiders, on Solana, EVM chains, Bitcoin and Tron. API key (10 free calls a day) or x402 per call.  
   `blockchain` `crypto-forensics` `solana` `x402` `remote`
 - **[Ironheights](https://github.com/Frank-Masciopinto/ironheights)** `Official` `TypeScript` — Read-only local server that scans an AI agent skill (any SKILL.md folder or ClawHub reference) before install with static rules, returning a fail-closed allow/blocked decision, A-F grade, file/line findings and drift since approval.  

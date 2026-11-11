@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 742 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 743 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6815,6 +6815,22 @@ Look up an AI agent's reputation built only from work both parties signed, and c
 - Repository: https://github.com/inamprotocol/inam-protocol
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://api.inamprotocol.org/mcp
+
+### iotaudit
+
+Local CLI and MCP server that audits IoT and smart-home devices on your own LAN: destinations, encryption, public DNS, DNS-over-TLS and DNS-over-HTTPS.
+
+- URL: https://github.com/emirmrkaljevic/iotaudit
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: security, iot, privacy, dns
+- Category: Security and Identity
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: pip iotaudit
 
 ### Iris
 
