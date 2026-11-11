@@ -3306,6 +3306,34 @@
     ]
   },
   {
+    "name": "Screwtape.ai",
+    "url": "https://screwtape.ai",
+    "description": "Spend guardrails for AI agents: check payments, track budgets, catch duplicates, and issue signed receipts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Screwtape.ai",
+    "tags": [
+      "spend",
+      "budget",
+      "receipts",
+      "agents",
+      "guardrails"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://screwtape.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "pricing": "freemium",
+    "verified": "2026-11-10"
+  },
+  {
     "name": "genealogy-mcp",
     "url": "https://github.com/igormel81/genealogy-mcp",
     "description": "Family history research with 79 archives and databases, name variants, historical calendars, evidence checks, GEDCOM audit, and archive-request drafts. Runs locally without API keys or network requests.",
