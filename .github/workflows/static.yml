@@ -37,6 +37,7 @@ jobs:
         run: npm run build-site
         env:
           SITE_URL: https://mcphq.org
+          CLOUDFLARE_WEB_ANALYTICS_TOKEN: ${{ vars.CLOUDFLARE_WEB_ANALYTICS_TOKEN }}
       - name: Upload build folder
         uses: actions/upload-pages-artifact@v5
         with:
