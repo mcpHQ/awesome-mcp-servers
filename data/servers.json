@@ -16273,5 +16273,32 @@
     "endpoints": {
       "streamableHttp": "https://makeitsay.com/mcp"
     }
+  },
+  {
+    "name": "Local AI Picks",
+    "url": "https://localaipicks.com/docs/mcp",
+    "repository": "https://github.com/localaipicks/localaipicks-mcp",
+    "description": "Find open-weight AI models that fit your hardware, with weight file sizes, memory needs and sources, through a read-only remote MCP server.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Local AI Picks",
+    "tags": [
+      "open-weight-models",
+      "local-llm",
+      "hardware",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://localaipicks.com/mcp"
+    }
   }
 ]

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 760 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 761 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -422,6 +422,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/): Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs. (Other, official)
 - [LLM Gateway](https://docs.llmgateway.io/developers/mcp): Hosted MCP server for LLM Gateway that sends chat requests to any supported model, generates images, lists models with pricing, and reports usage and costs. (TypeScript, official)
 - [LLMSlim](https://github.com/Thanatos9404/llmslim): Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call. (Python)
+- [Local AI Picks](https://localaipicks.com/docs/mcp): Find open-weight AI models that fit your hardware, with weight file sizes, memory needs and sources, through a read-only remote MCP server. (TypeScript, official)
 - [Magic Hour MCP Server](https://magichour.ai): Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing. (Python, official)
 - [Makernice](https://makernice.com/mcp/): Hosted remote MCP server (Streamable HTTP, OAuth 2.1) for generating AI videos and images with 17 models; every job is priced in USD before it runs. (Other, official)
 - [MELRA](https://github.com/XAGI-Lab/melra): Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation. (TypeScript, official)

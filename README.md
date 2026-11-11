@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-760-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-761-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (93)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (89)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (90)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (82)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (34)
@@ -883,6 +883,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `llm` `llm-gateway` `image-generation` `usage-analytics`
 - **[LLMSlim](https://github.com/Thanatos9404/llmslim)** `Python` — Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call.  
   `memory` `long-term-memory` `sqlite` `local`
+- **[Local AI Picks](https://localaipicks.com/docs/mcp)** `Official` `TypeScript` — Find open-weight AI models that fit your hardware, with weight file sizes, memory needs and sources, through a read-only remote MCP server. ([source](https://github.com/localaipicks/localaipicks-mcp))  
+  `open-weight-models` `local-llm` `hardware` `read-only` `remote`
 - **[Magic Hour MCP Server](https://magichour.ai)** `Official` `Python` — Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.  
   `ai-video` `image-generation` `audio-generation` `media-editing` `remote`
 - **[Makernice](https://makernice.com/mcp/)** `Official` `Other` — Hosted remote MCP server (Streamable HTTP, OAuth 2.1) for generating AI videos and images with 17 models; every job is priced in USD before it runs. ([source](https://github.com/makernice/makernice-plugin))  
