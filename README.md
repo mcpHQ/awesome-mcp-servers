@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-765-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-766-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (34)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (166)
-- [Utilities and Examples](#utilities-and-examples) (38)
+- [Utilities and Examples](#utilities-and-examples) (39)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1642,6 +1642,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `framework` `oauth` `typescript` `zero-deps`
 - **[MCPJungle](https://github.com/duaraghav8/MCPJungle)** `Go` — Self-hosted MCP server registry for enterprise AI agent deployments.  
   `registry` `enterprise` `self-hosted`
+- **[MeshMend MCP](https://github.com/Keith-CY/meshmend-mcp)** `TypeScript` — Local MCP server that checks and repairs 3D-printing meshes (STL, 3MF): holes, flipped faces, inside-out shells, non-manifold edges; writes a repaired STL next to the original and converts 3MF to STL, with no uploads.  
+  `3d-printing` `mesh-repair` `stl` `3mf` `local`
 - **[MetaMCP](https://github.com/metatool-ai/metatool-app)** `Official` `TypeScript` — Middleware MCP server that aggregates and manages multiple connections.  
   `aggregator` `gateway` `middleware`
 - **[Model Salt](https://modelsalt.com)** `Official` `JavaScript` — Outside randomness for creative requests, so the same prompt gives different answers that still do what was asked. ([source](https://github.com/modelsalt/model-salt))  

@@ -16406,5 +16406,34 @@
     "endpoints": {
       "streamableHttp": "https://formquote-mcp.chen-yu-d1.workers.dev/mcp"
     }
+  },
+  {
+    "name": "MeshMend MCP",
+    "url": "https://github.com/Keith-CY/meshmend-mcp",
+    "repository": "https://github.com/Keith-CY/meshmend-mcp",
+    "description": "Local MCP server that checks and repairs 3D-printing meshes (STL, 3MF): holes, flipped faces, inside-out shells, non-manifold edges; writes a repaired STL next to the original and converts 3MF to STL, with no uploads.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Keith-CY",
+    "tags": [
+      "3d-printing",
+      "mesh-repair",
+      "stl",
+      "3mf",
+      "local"
+    ],
+    "official": false,
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "meshmend-mcp"
+    }
   }
 ]

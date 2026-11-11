@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 765 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 766 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9868,6 +9868,22 @@ Self-hosted MCP server registry for enterprise AI agent deployments.
 - Official: no
 - Tags: registry, enterprise, self-hosted
 - Category: Utilities and Examples
+
+### MeshMend MCP
+
+Local MCP server that checks and repairs 3D-printing meshes (STL, 3MF): holes, flipped faces, inside-out shells, non-manifold edges; writes a repaired STL next to the original and converts 3MF to STL, with no uploads.
+
+- URL: https://github.com/Keith-CY/meshmend-mcp
+- Language: TypeScript
+- Provider: Keith-CY
+- Official: no
+- Tags: 3d-printing, mesh-repair, stl, 3mf, local
+- Category: Utilities and Examples
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx meshmend-mcp
 
 ### MetaMCP
 
