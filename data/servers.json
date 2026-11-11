@@ -15710,5 +15710,30 @@
     "transport": [
       "streamable-http"
     ]
+  },
+  {
+    "name": "OttoQuest",
+    "url": "https://ottoquest.com/mcp",
+    "description": "Search US dealer listings with estimated market values, look up VINs and recalls, browse dealer inventory, and manage deal alerts with an OttoQuest account.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "OttoQuest",
+    "tags": [
+      "automotive",
+      "car-search",
+      "valuations",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://ottoquest.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]
