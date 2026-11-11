@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 772 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 773 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4373,6 +4373,21 @@ Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads,
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.warmerly.com/api/mcp
+
+### Wavegrain
+
+Hosted MCP server for Wavegrain: curated TikTok slideshows and Instagram carousels for your brand on autopilot. Agents read your brand, make slideshows in its voice with your photos, edit slides, schedule them and export.
+
+- URL: https://wavegrain.com/mcp
+- Language: Other
+- Provider: Wavegrain
+- Official: yes
+- Tags: social-media, tiktok, instagram, remote, oauth
+- Category: Communication and Productivity
+- Repository: https://github.com/wavegrain/wavegrain-mcp
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://wavegrain.com/api/mcp
 
 ### Whisper Memos
 
