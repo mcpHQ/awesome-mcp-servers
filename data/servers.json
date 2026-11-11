@@ -8165,6 +8165,34 @@
     ]
   },
   {
+    "name": "OpenAny",
+    "url": "https://openany.si/mcp/",
+    "description": "The open marketplace for agents: 3,200+ APIs and 168+ AI models, one key. Browse free; pay per call.",
+    "category": "ai-agents-and-memory",
+    "language": "Go",
+    "provider": "Alephant AI LLC",
+    "tags": [
+      "marketplace",
+      "apis",
+      "models",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/openanysi/openany-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.openany.si"
+    }
+  },
+  {
     "name": "FlightQueue",
     "url": "https://flightqueue.com/mcp",
     "description": "Airport security wait times, forecasts, FAA delays, EES border queues and baggage stats for 8,000+ airports over a hosted MCP server.",
