@@ -16353,5 +16353,30 @@
     "endpoints": {
       "streamableHttp": "https://vergabeweiser.de/mcp"
     }
+  },
+  {
+    "name": "Unmerge",
+    "url": "https://unmerge.app/docs/mcp",
+    "repository": "https://github.com/unmerge-app/unmerge-mcp",
+    "description": "Split a flat image into separate transparent PNG layers through a remote MCP server; pay with Unmerge credits via API key.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Unmerge",
+    "tags": [
+      "image-editing",
+      "png-layers",
+      "transparency",
+      "remote"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://unmerge.app/mcp"
+    }
   }
 ]
