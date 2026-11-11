@@ -15871,5 +15871,34 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "FlashData Google Search and YouTube Data",
+    "url": "https://github.com/rocosen/flashdata-mcp",
+    "description": "Google vertical search and YouTube search, transcripts, captions, metadata, channels, autocomplete, license labels and async media delivery via MCP; data calls require a FlashData API key and paid Credits.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "FlashData",
+    "tags": [
+      "google-search",
+      "youtube",
+      "transcripts",
+      "research",
+      "data-api"
+    ],
+    "official": true,
+    "repository": "https://github.com/rocosen/flashdata-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@flashdata-dev/mcp"
+    },
+    "auth": [
+      "api-key"
+    ]
   }
 ]
