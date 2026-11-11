@@ -6864,7 +6864,7 @@
   {
     "name": "AgentSearch",
     "url": "https://github.com/agentsearchhq-coder/agentsearch-mcp",
-    "description": "Real-time web search, any URL to clean Markdown, and JavaScript page rendering for agents over Pocket Network; free keyless tier (25 calls a day), paid calls $0.005 each, install with `npx -y @agentsearchhq/agentsearch-mcp`.",
+    "description": "Web search, URL-to-Markdown, JS render, and search_and_read for agents. Free keyless search (25/day per IP) plus an extract/render trial; paid via direct x402 on Base ($0.008/$0.007/$0.010/$0.015). `npx -y @agentsearchhq/agentsearch-mcp`.",
     "category": "browsers-search-and-web-automation",
     "language": "TypeScript",
     "provider": "AgentSearch",
