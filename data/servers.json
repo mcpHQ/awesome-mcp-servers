@@ -16164,5 +16164,31 @@
       "api-key",
       "oauth"
     ]
+  },
+  {
+    "name": "GoVisit Tools",
+    "url": "https://govisit.ai/en/docs/developers/mcp/overview",
+    "description": "Search destinations and places and read published travel information through a hosted, read-only MCP server.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "GoVisit.ai",
+    "tags": [
+      "travel",
+      "destinations",
+      "places",
+      "remote",
+      "read-only"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://govisit.ai/mcp"
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]
