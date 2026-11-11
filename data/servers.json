@@ -8884,6 +8884,34 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "Telofy",
+    "url": "https://telofy.de",
+    "description": "Remote MCP server for Telofy, the AI phone receptionist for small businesses in Germany: lets agents read calls, captured leads and tickets, and booked appointments.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Telofy",
+    "tags": [
+      "phone",
+      "voice-ai",
+      "appointments",
+      "calls",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/RuJerome/telofy-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://api.telofy.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "AgentSEO",
     "url": "https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server",
     "description": "AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits.",
