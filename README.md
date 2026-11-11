@@ -329,7 +329,7 @@ Browse the web, scrape content, search, and automate browser interactions.
   `screenshot` `web-capture` `remote`
 - **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `Official` `TypeScript` — Run Apify Actors and extract web datasets at scale.  
   `scraping` `actors` `data`
-- **[Arcmira: YouTube Transcript Search](https://arcmira.com/docs/mcp-server)** `Official` `Other` — Search indexed YouTube transcripts for timestamped passages, speaker appearances, mentions, sponsors and recommendations over a hosted MCP connection.  
+- **[Arcmira: YouTube Transcript Search](https://arcmira.com/docs/mcp-server)** `Official` `Other` — YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers.  
   `youtube` `transcripts` `search` `speakers` `research`
 - **[Awesome Tools](https://awesome.tools)** `Official` `TypeScript` — Search curated SaaS and AI tools, browse categories and tags, submit a product, and verify backlink badges. ([source](https://github.com/Illyism/awesome-tools-mcp))  
   `search` `directory` `saas` `ai-tools` `remote`
