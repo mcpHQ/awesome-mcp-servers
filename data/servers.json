@@ -15817,5 +15817,31 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Selan MCP Extension",
+    "url": "https://selan.ai/browser?utm_source=mcphq&utm_medium=directory&utm_campaign=extension-mcp",
+    "description": "Chrome extension plus hosted MCP server that lets MCP clients open and use tabs in your own signed-in Chrome, only in its own tab group and only on sites you allow; free, no account.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Selan",
+    "tags": [
+      "chrome",
+      "browser",
+      "automation",
+      "hosted"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.selan.ai/extension/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]
