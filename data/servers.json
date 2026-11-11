@@ -8884,6 +8884,32 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "ReadShore",
+    "url": "https://readshore.app/connect-ai-assistants/",
+    "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "AIthentic LLC",
+    "tags": [
+      "read-later",
+      "knowledge",
+      "reading",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/flsteven87/readshore-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://readshore.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "AgentSEO",
     "url": "https://github.com/AgentSEO-dev/agentseo-clients/tree/main/packages/mcp-server",
     "description": "AgentSEO's official MCP client and hosted endpoint provide SERPs, keyword research, backlinks, rank tracking and site audits; tool calls require an AgentSEO account, API key and usage credits.",
