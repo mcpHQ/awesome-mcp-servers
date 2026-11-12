@@ -1323,7 +1323,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `recruiting` `hiring` `resume-screening` `remote` `oauth`
 - **[BlazePhoenix](https://github.com/blazephoenixxyz-crypto/blazephoenix-mcp)** `Official` `JavaScript` — Official remote MCP server for the BlazePhoenix DEX aggregator on Base, Optimism, Arbitrum and Robinhood Chain: prepare a quote to run on your own RPC, decode it, and get verified calldata. No API key.  
   `defi` `dex` `evm` `calldata` `remote`
-- **[BlockVectra](https://github.com/blockvectra/mcp)** `Official` `Other` — Remote MCP server for multi-chain EVM JSON-RPC, an indexed Data API, documentation, pricing and status, for developers and AI agents. Documentation, chain and status tools need no API key; Data API tools require one.  
+- **[BlockVectra](https://docs.blockvectra.com/en/guides/mcp-server/)** `Official` `Other` — Remote MCP provides RPC and indexed Data API tools through /mcp with per-tool authentication, plus account- and key-free documentation search and reading through /mcp/docs. ([source](https://github.com/blockvectra/mcp))  
   `blockchain` `json-rpc` `evm` `data-api`
 - **[Budna MCP](https://github.com/budna-marketplace/mcp)** `Official` `Rust` — Read-only search and inspection of public listings, sellers, bids and ratings on Budna, a Swedish marketplace for new and pre-owned items; no account or API key.  
   `marketplace` `second-hand` `shopping` `sweden`
