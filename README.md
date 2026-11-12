@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-772-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-773-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (74)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
-- [Communication and Productivity](#communication-and-productivity) (94)
+- [Communication and Productivity](#communication-and-productivity) (95)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (90)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (87)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -716,6 +716,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `notes` `apple-notes` `markdown` `oauth`
 - **[PlaceCall](https://github.com/voygr-tech/placecall)** `Official` `Python` — VOYGR's hosted MCP server whose voice agent places real outbound calls to US businesses for reservations, appointments, inquiries and quotes, gets through phone menus and hold, and reports back the outcome, transcript and recording.  
   `phone-calls` `voice-agent` `telephony` `reservations` `remote`
+- **[Polidict](https://polidict.com)** `Official` `TypeScript` — Official hosted MCP server for the Polidict vocabulary app: save words to your vocabulary, look up meanings and images, and practice them with FSRS spaced repetition. ([source](https://github.com/solomkinmv/polidict-ai-assistants))  
+  `vocabulary` `language-learning` `flashcards` `spaced-repetition` `remote`
 - **[Postbag MCP Server](https://github.com/faahim/postbag)** `TypeScript` — Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks.  
   `forms` `email` `webhooks` `self-hosted`
 - **[Postmately](https://postmately.com/en/mcp-social-media/)** `Official` `TypeScript` — Make carousels and short videos, schedule and publish social posts to TikTok, YouTube, Instagram, Telegram, VK and other networks, and read post metrics. ([source](https://github.com/YakovlevCoded/postmately-smm-autopilot))  
