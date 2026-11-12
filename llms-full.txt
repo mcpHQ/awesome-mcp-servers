@@ -7903,14 +7903,15 @@ Search 210,000+ vetted startup candidates, review Clera's picks for your open ro
 
 ### CorpusIQ
 
-Remote MCP server for live business data: read-only retrieval across 40+ connected systems including Stripe, Shopify, QuickBooks, HubSpot and GA4, with source-cited answers and OAuth 2.0 device login.
+Remote MCP server for live business data: read-only retrieval across 40+ connected systems including Stripe, Shopify, QuickBooks, HubSpot and GA4, with source-cited answers and OAuth 2.1 dynamic client registration.
 
-- URL: https://github.com/CorpusIQ/corpusiq-docs
+- URL: https://docs.corpusiq.io?utm_source=mcphq&utm_medium=listing
 - Language: Other
 - Provider: CorpusIQ
 - Official: yes
 - Tags: business-data, crm, ecommerce, finance, remote
 - Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/CorpusIQ/corpusiq-docs
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://mcp2.corpusiq.io/mcp
