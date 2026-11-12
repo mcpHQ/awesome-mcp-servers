@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 772 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 773 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -563,6 +563,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 ## Legal and Court Data
 
+- [Amendment](https://amendment.app/data): Current, cited U.S. law your agent can call: federal and state bills, the U.S. Code, C.F.R. and Constitution, politicians, and lobbying joined to SEC companies. (Other, official)
 - [BORME API](https://github.com/bormeapi/borme-mcp): Spain's company registry gazette (BORME) as typed events: more than 9.6 million events since 2009, with company, officer and insolvency lookups, over a hosted Streamable HTTP server with an API key or OAuth. (Other, official)
 - [Court Rules MCP](https://github.com/foklepoint/court-rules-mcp): Read U.S. federal and state court filing rules, local rules, judge standing orders, and court holiday calendars, with a citation back to the source document. (Other)
 - [DMD Costs Legal Costs Tools](https://www.dmdcosts.co.uk/legal-costs-help): Free, read-only legal costs tools for England and Wales: CPR deadlines, detailed assessment, Part 36, court fees, interest and fixed costs, each answer citing its rule. (TypeScript, official)
