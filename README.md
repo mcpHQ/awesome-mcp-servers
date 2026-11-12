@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-772-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-773-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (81)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (74)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (75)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (94)
@@ -385,6 +385,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `youtube` `transcripts` `video` `search` `remote`
 - **[GoVisit Tools](https://govisit.ai/en/docs/developers/mcp/overview)** `Official` `Other` — Search destinations and places and read published travel information through a hosted, read-only MCP server.  
   `travel` `destinations` `places` `remote` `read-only`
+- **[HolicAudit website checks](https://audit.huutran.dev/mcp-server)** `Official` `JavaScript` — Hosted MCP server with free SEO, AI-crawler visibility (robots.txt, llms.txt, JSON-LD) and passive security-header checks for any URL.  
+  `seo` `ai-search` `security-headers` `website-audit` `remote`
 - **[Hyperresearch](https://hyperresearch.ai/docs/mcp)** `Official` `Other` — Hyperresearch is an AI deep research API. One question in, an adversarially reviewed report out, cited claims checked against their sources.  
   `research` `citations` `remote` `oauth`
 - **[Karma.Domains Expired Domains](https://karma.domains/en/expired-domains-mcp/)** `Official` `Other` — Hosted server to search expired, auction and backorder domains with SEO metrics, Wayback history and live WHOIS/DNS checks; OAuth or API key, Pro plan required.  
