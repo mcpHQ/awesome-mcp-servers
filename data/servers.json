@@ -8318,7 +8318,7 @@
     ]
   },
   {
-    "name": "AttriKit",
+    "name": "NoLimit MCP", "url": "https://github.com/sharpmagazine/nolimit-mcp", "description": "Self-hosted WordPress plugin exposing 60 MCP tools over Streamable HTTP with OAuth 2.1, letting AI clients manage posts, pages, media, users, comments and SEO.", "category": "communication-and-productivity", "language": "PHP", "provider": "Sharp Magazine", "tags": ["wordpress", "cms", "websites", "oauth", "remote"], "official": false, "pricing": "free", "transport": ["streamable-http"], "auth": ["oauth", "api-key"] }, { "name": "AttriKit",
     "url": "https://github.com/KamyarTaher/attrikit-mcp",
     "description": "Web-to-app attribution for iOS and Android apps that buy ads: create campaign links, import ad spend, read each campaign's scale, cut or hold call, manage Meta, TikTok and RevenueCat connections, and export installs and events.",
     "category": "data-analytics-and-bi",
