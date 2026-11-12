@@ -69,6 +69,7 @@
     "official": true,
     "repository": "https://github.com/2captcha/2captcha-mcp"
   },
+  { "name": "AgentWeb", "url": "https://agentweb.us", "description": "Hosted remote MCP server that lets any agent act on real signed-in sites through typed, verified actions.", "category": "browsers-search-and-web-automation", "language": "Remote", "provider": "AgentWeb", "tags": ["web-automation", "browser-automation", "remote"], "official": true, "repository": "https://github.com/AgentWeb-Labs/agentweb-mcp", "transport": ["streamable-http"], "auth": ["oauth"] },
   {
     "name": "3Descu 3D Printing Quotes (EU)",
     "url": "https://quote.3descu.com/ai-agents/",
