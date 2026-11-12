@@ -8318,6 +8318,34 @@
     ]
   },
   {
+    "name": "HolicAudit website checks",
+    "url": "https://audit.huutran.dev/mcp-server",
+    "description": "Hosted MCP server with free SEO, AI-crawler visibility (robots.txt, llms.txt, JSON-LD) and passive security-header checks for any URL.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "HolicAudit",
+    "tags": [
+      "seo",
+      "ai-search",
+      "security-headers",
+      "website-audit",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://audit.huutran.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "AttriKit",
     "url": "https://github.com/KamyarTaher/attrikit-mcp",
     "description": "Web-to-app attribution for iOS and Android apps that buy ads: create campaign links, import ad spend, read each campaign's scale, cut or hold call, manage Meta, TikTok and RevenueCat connections, and export installs and events.",
