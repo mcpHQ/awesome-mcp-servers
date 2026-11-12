@@ -466,7 +466,7 @@ Read and write files, convert documents, and connect to knowledge bases.
   `company-knowledge` `automation` `integrations` `read-only` `remote`
 - **[Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server)** `TypeScript` — Read and write Airtable bases, tables, and records via MCP.  
   `airtable` `spreadsheets` `data`
-- **[Audo](https://audo.ai/docs/mcp)** `Official` `TypeScript` — Hosted audio and video tools for noise removal, speech restoration, transcription, captions, editing, and loudness normalization. ([source](https://github.com/audo-ai/audo-mcp))  
+- **[Audo](https://audo.ai/docs/mcp)** `Official` `TypeScript` — Audio and video creation and editing tools for AI agents: speech generation, voice cloning and changing, cleanup, transcription, and captions. ([source](https://github.com/audo-ai/audo-mcp))  
   `audio` `video` `transcription` `editing`
 - **[BrewPage](https://github.com/kochetkov-ma/brewpage-openapi)** `Official` `TypeScript` — Publish HTML pages, Markdown, static sites, files, JSON and key-value data to free temporary HTTPS links with no signup or API key; content expires after a set TTL.  
   `hosting` `html` `markdown` `file-sharing` `remote`

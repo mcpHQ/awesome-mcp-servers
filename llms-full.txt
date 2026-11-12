@@ -2392,7 +2392,7 @@ Read and write Airtable bases, tables, and records via MCP.
 
 ### Audo
 
-Hosted audio and video tools for noise removal, speech restoration, transcription, captions, editing, and loudness normalization.
+Audio and video creation and editing tools for AI agents: speech generation, voice cloning and changing, cleanup, transcription, and captions.
 
 - URL: https://audo.ai/docs/mcp
 - Language: TypeScript
