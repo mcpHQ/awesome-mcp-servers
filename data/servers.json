@@ -5741,6 +5741,33 @@
     ]
   },
   {
+    "name": "Audo",
+    "url": "https://audo.ai/docs/mcp",
+    "description": "Hosted audio and video tools for noise removal, speech restoration, transcription, captions, editing, and loudness normalization.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "Audo AI LLC",
+    "tags": [
+      "audio",
+      "video",
+      "transcription",
+      "editing"
+    ],
+    "official": true,
+    "repository": "https://github.com/audo-ai/audo-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://audo.ai/mcp"
+    }
+  },
+  {
     "name": "app-console-mcp",
     "url": "https://github.com/Alekla0126/app-console-mcp",
     "description": "Manage Google Play Console, App Store Connect and AdMob through their official APIs: listings, reviews, releases, rollouts, vitals and ad reports, with every change a dry run by default.",
