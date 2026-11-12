@@ -9493,8 +9493,8 @@
   },
   {
     "name": "CorpusIQ",
-    "url": "https://github.com/CorpusIQ/corpusiq-docs",
-    "description": "Remote MCP server for live business data: read-only retrieval across 40+ connected systems including Stripe, Shopify, QuickBooks, HubSpot and GA4, with source-cited answers and OAuth 2.0 device login.",
+    "url": "https://docs.corpusiq.io?utm_source=mcphq&utm_medium=listing",
+    "description": "Remote MCP server for live business data: read-only retrieval across 40+ connected systems including Stripe, Shopify, QuickBooks, HubSpot and GA4, with source-cited answers and OAuth 2.1 dynamic client registration.",
     "category": "finance-commerce-and-business-apps",
     "language": "Other",
     "provider": "CorpusIQ",
