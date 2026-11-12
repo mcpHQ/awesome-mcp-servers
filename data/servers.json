@@ -6052,6 +6052,34 @@
     ]
   },
   {
+    "name": "Car Listing Check",
+    "url": "https://aicarvideo.com/mcp/",
+    "description": "Checks a vehicle listing you supply and returns a 0-100 completeness score, missing fields and prioritised fixes, plus listing checklists for Germany, the US, the UK or a generic market.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "AI Car Video",
+    "tags": [
+      "automotive",
+      "car-dealer",
+      "listings",
+      "checklist",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/TRW123123/car-listing-check-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.aicarvideo.com/mcp"
+    }
+  },
+  {
     "name": "Zip-Codes.com ZIP & Postal Code MCP",
     "url": "https://www.zip-codes.com/api/mcp",
     "description": "Validates and standardizes US street addresses to ZIP+4 and looks up US ZIP Codes and Canadian postal codes, with optional census tract demographics, county and district overlaps, radius search and distance.",
@@ -10692,6 +10720,34 @@
     ],
     "official": true,
     "repository": "https://github.com/masakaai/rea-captcha"
+  },
+  {
+    "name": "Headshot Photo Check",
+    "url": "https://www.profilfoto-ki.de/mcp/",
+    "description": "Checks the technical quality of a profile or job-application photo (resolution, crop, format; brightness, contrast, sharpness when pixels are analysed) and returns a score and prioritised tips.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "profilfoto-ki.de",
+    "tags": [
+      "image",
+      "headshot",
+      "photo-quality",
+      "linkedin",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/TRW123123/bewerbungsfoto-check-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.profilfoto-ki.de/mcp"
+    }
   },
   {
     "name": "ReadGZH",
