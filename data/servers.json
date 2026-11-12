@@ -8868,6 +8868,33 @@
     "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
+    "name": "Polidict",
+    "url": "https://polidict.com",
+    "repository": "https://github.com/solomkinmv/polidict-ai-assistants",
+    "description": "Official hosted MCP server for the Polidict vocabulary app: save words to your vocabulary, look up meanings and images, and practice them with FSRS spaced repetition.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Polidict",
+    "tags": [
+      "vocabulary",
+      "language-learning",
+      "flashcards",
+      "spaced-repetition",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.polidict.com/mcp"
+    }
+  },
+  {
     "name": "MailVeri MCP",
     "url": "https://github.com/mailveri/mailveri-mcp",
     "description": "Verify single emails or bulk lists (valid, invalid, disposable, catch-all, role) from an AI agent through the MailVeri API.",
