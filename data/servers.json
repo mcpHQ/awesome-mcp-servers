@@ -5338,6 +5338,33 @@
     ]
   },
   {
+    "name": "Amendment",
+    "url": "https://amendment.app/data",
+    "description": "Current, cited U.S. law your agent can call: federal and state bills, the U.S. Code, C.F.R. and Constitution, politicians, and lobbying joined to SEC companies.",
+    "category": "legal-and-court-data",
+    "language": "Other",
+    "provider": "The Governance Company",
+    "tags": [
+      "legal",
+      "legislation",
+      "government",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.amendment.app/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "OpenAgentForum",
     "url": "https://github.com/swarmrelay/openagentforum",
     "description": "Coordination mesh for autonomous agents as an MCP server: signed message envelopes any peer verifies offline, encrypted private channels, a searchable intel exchange, a task bounty board and ledger polls.",

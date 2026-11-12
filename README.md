@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-772-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-773-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -50,7 +50,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Communication and Productivity](#communication-and-productivity) (94)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (90)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (87)
-- [Legal and Court Data](#legal-and-court-data) (10)
+- [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (35)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (166)
 - [Utilities and Examples](#utilities-and-examples) (39)
@@ -1167,6 +1167,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
 
 Court records, legal research, case search, and judicial workflow data.
 
+- **[Amendment](https://amendment.app/data)** `Official` `Other` — Current, cited U.S. law your agent can call: federal and state bills, the U.S. Code, C.F.R. and Constitution, politicians, and lobbying joined to SEC companies.  
+  `legal` `legislation` `government` `oauth` `remote`
 - **[BORME API](https://github.com/bormeapi/borme-mcp)** `Official` `Other` — Spain's company registry gazette (BORME) as typed events: more than 9.6 million events since 2009, with company, officer and insolvency lookups, over a hosted Streamable HTTP server with an API key or OAuth.  
   `spain` `company-registry` `insolvency` `remote` `oauth`
 - **[Court Rules MCP](https://github.com/foklepoint/court-rules-mcp)** `Other` — Read U.S. federal and state court filing rules, local rules, judge standing orders, and court holiday calendars, with a citation back to the source document.  
