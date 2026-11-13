@@ -8140,6 +8140,33 @@
     ]
   },
   {
+    "name": "Scrapewise MCP",
+    "url": "https://scrapewise.ai/mcp",
+    "description": "Hosted MCP server for clean, matched product and price data from any shop or Amazon, with Google search, page fetch and scraper building.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Scrapewise",
+    "tags": [
+      "scraping",
+      "price-monitoring",
+      "product-data",
+      "e-commerce"
+    ],
+    "official": true,
+    "repository": "https://github.com/BEBOTECH-OU/scrapewise-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.scrapewise.ai/mcp"
+    }
+  },
+  {
     "name": "Clara by nOps",
     "url": "https://github.com/nops-io/clara-mcp",
     "description": "Official nOps FinOps assistant: query AWS, GCP and Azure cost and usage, Reserved Instance and Savings Plan performance, budgets, reports and anomalies over OAuth.",
