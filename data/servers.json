@@ -8264,7 +8264,7 @@
       "ai-generated-code"
     ],
     "official": false,
-    "repository": "github.com/avivgerz-hue/vibe-shield",
+    "repository": "https://github.com/avivgerz-hue/vibe-shield",
     "license": "MIT",
     "pricing": "free",
     "transport": [
@@ -8293,7 +8293,7 @@
       "browser-automation"
     ],
     "official": false,
-    "repository": "github.com/avivgerz-hue/ghost-qa",
+    "repository": "https://github.com/avivgerz-hue/ghost-qa",
     "license": "MIT",
     "pricing": "free",
     "transport": [
@@ -8322,7 +8322,7 @@
       "code-quality"
     ],
     "official": false,
-    "repository": "github.com/avivgerz-hue/unslop",
+    "repository": "https://github.com/avivgerz-hue/unslop",
     "license": "MIT",
     "pricing": "free",
     "transport": [
