@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 772 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 773 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -628,6 +628,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Ahel](https://github.com/ahel-technologies/ahel): Hosted MCP server with one catalog of data tasks: company and people enrichment, work email finding, SEO and SERP data, social media data and EU business registers, priced per call. (TypeScript, official)
 - [APISign](https://apisign.io/docs/api/mcp): Hosted MCP server for legally binding e-signature: create contracts from Markdown templates or .docx, email them to signers, track views and signatures, and get signed PDFs with a SHA-256 seal and audit trail. (TypeScript, official)
 - [Ariadne for Therapists](https://github.com/bgrieco22/ariadne-mcp): Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews. (TypeScript, official)
+- [Ask Japan](https://github.com/ihouse-corp/ask-japan-mcp): Japanese company, invoice, postcode and EDINET data, plus people in Japan who make phone calls, reservations and errands for AI agents. (Python, official)
 - [Astral Twin](https://astraldaily.com): Create and mint NFT asset packs on the Base blockchain from AI clients. (Other, official)
 - [ATS Zero-Browser Gateway](https://github.com/ginugokz/ats-zero-browser-gateway): Protocol scraper and MCP server for Workday, Greenhouse, Lever, Ashby, and SmartRecruiters with deterministic ADDED/REMOVED/UPDATED delta tracking, runnable standalone or on Apify. (Python, official)
 - [Award Travel Finder](https://github.com/AwardTravelFinder/mcp): Search award flight availability and points pricing across 27 airlines and 23 loyalty programs from any MCP client. (Other, official)
