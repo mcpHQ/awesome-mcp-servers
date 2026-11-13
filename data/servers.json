@@ -8294,6 +8294,34 @@
     ]
   },
   {
+    "name": "SyncBooster",
+    "url": "https://syncbooster.pl/en/mcp",
+    "description": "Draft, schedule and publish social media posts to Facebook, Instagram, LinkedIn, X, TikTok and Google Business Profile; hosted Streamable HTTP, OAuth or API key, SyncBooster account (100 tokens to start, no card).",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "SyncBooster",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "publishing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.syncbooster.pl/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Domain Search King",
     "url": "https://github.com/johnsmalls22-rgb/domain-search-king-mcp",
     "description": "Suggests .com domain names and returns only those currently available to register, checked against the Verisign RDAP registry; hosted, no API key.",
