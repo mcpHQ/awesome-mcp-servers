@@ -7527,6 +7527,31 @@
     ]
   },
   {
+    "name": "TinyRex MCP",
+    "url": "https://github.com/emirmrkaljevic/tinyrex-mcp",
+    "description": "Stdio MCP server that lists and runs public TinyRex Apify Store actors (remote jobs, store catalogs, company registers, tenders) with your own APIFY_TOKEN.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "scraping",
+      "apify",
+      "actors",
+      "data"
+    ],
+    "official": false,
+    "repository": "https://github.com/emirmrkaljevic/tinyrex-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "verified": "2026-11-13"
+  },
+  {
     "name": "Webprompter.ai MCP",
     "url": "https://webprompter.ai",
     "description": "Deploy static sites and connect custom domains from coding agents over hosted MCP.",

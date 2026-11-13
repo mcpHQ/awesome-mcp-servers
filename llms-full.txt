@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 772 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 773 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2224,6 +2224,22 @@ AI-native search and content extraction for research agents.
 - Official: yes
 - Tags: search, research, agents
 - Category: Browsers, Search, and Web Automation
+
+### TinyRex MCP
+
+Stdio MCP server that lists and runs public TinyRex Apify Store actors (remote jobs, store catalogs, company registers, tenders) with your own APIFY_TOKEN.
+
+- URL: https://github.com/emirmrkaljevic/tinyrex-mcp
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: scraping, apify, actors, data
+- Category: Browsers, Search, and Web Automation
+- License: MIT
+- Pricing: freemium
+- Transport: stdio
+- Auth: api-key
+- Verified: 2026-11-13
 
 ### toolkb-mcp
 
