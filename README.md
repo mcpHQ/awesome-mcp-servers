@@ -889,7 +889,7 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `long-term-memory` `sqlite` `local`
 - **[Local AI Picks](https://localaipicks.com/docs/mcp)** `Official` `TypeScript` — Find open-weight AI models that fit your hardware, with weight file sizes, memory needs and sources, through a read-only remote MCP server. ([source](https://github.com/localaipicks/localaipicks-mcp))  
   `open-weight-models` `local-llm` `hardware` `read-only` `remote`
-- **[Magic Hour MCP Server](https://magichour.ai)** `Official` `Python` — Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.  
+- **[Magic Hour MCP Server](https://docs.magichour.ai/integration/mcp-agent)** `Official` `Python` — Create and edit images and videos, generate music and speech, and retrieve completed media through MCP. ([source](https://github.com/magichourhq/magic-hour-mcp))  
   `ai-video` `image-generation` `audio-generation` `media-editing` `remote`
 - **[Makernice](https://makernice.com/mcp/)** `Official` `Other` — Hosted remote MCP server (Streamable HTTP, OAuth 2.1) for generating AI videos and images with 17 models; every job is priced in USD before it runs. ([source](https://github.com/makernice/makernice-plugin))  
   `image-generation` `video-generation` `remote` `oauth`
