@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-772-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-773-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (81)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (74)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (75)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (94)
@@ -435,6 +435,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `web-data` `structured-data` `enrichment` `remote`
 - **[Tavily MCP Server](https://github.com/tavily-ai/tavily-mcp)** `Official` `Python` — AI-native search and content extraction for research agents.  
   `search` `research` `agents`
+- **[TinyRex MCP](https://github.com/emirmrkaljevic/tinyrex-mcp)** `Python` — Stdio MCP server that lists and runs public TinyRex Apify Store actors (remote jobs, store catalogs, company registers, tenders) with your own APIFY_TOKEN.  
+  `scraping` `apify` `actors` `data`
 - **[toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp)** `JavaScript` — Local server that returns YouTube transcripts and playlists, web pages as Markdown and App Store reviews, with no API key or account.  
   `youtube` `transcripts` `markdown` `app-store`
 - **[Toolradar](https://github.com/Nadeus/toolradar-mcp)** `Official` `TypeScript` — Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.  
