@@ -4783,8 +4783,8 @@
   },
   {
     "name": "Magic Hour MCP Server",
-    "url": "https://magichour.ai",
-    "description": "Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.",
+    "url": "https://docs.magichour.ai/integration/mcp-agent",
+    "description": "Create and edit images and videos, generate music and speech, and retrieve completed media through MCP.",
     "category": "ai-agents-and-memory",
     "language": "Python",
     "provider": "Magic Hour",
@@ -4801,6 +4801,12 @@
     },
     "transport": [
       "streamable-http"
+    ],
+    "repository": "https://github.com/magichourhq/magic-hour-mcp",
+    "license": "Apache-2.0",
+    "auth": [
+      "api-key",
+      "oauth"
     ]
   },
   {

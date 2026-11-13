@@ -425,7 +425,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [LLM Gateway](https://docs.llmgateway.io/developers/mcp): Hosted MCP server for LLM Gateway that sends chat requests to any supported model, generates images, lists models with pricing, and reports usage and costs. (TypeScript, official)
 - [LLMSlim](https://github.com/Thanatos9404/llmslim): Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call. (Python)
 - [Local AI Picks](https://localaipicks.com/docs/mcp): Find open-weight AI models that fit your hardware, with weight file sizes, memory needs and sources, through a read-only remote MCP server. (TypeScript, official)
-- [Magic Hour MCP Server](https://magichour.ai): Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing. (Python, official)
+- [Magic Hour MCP Server](https://docs.magichour.ai/integration/mcp-agent): Create and edit images and videos, generate music and speech, and retrieve completed media through MCP. (Python, official)
 - [Makernice](https://makernice.com/mcp/): Hosted remote MCP server (Streamable HTTP, OAuth 2.1) for generating AI videos and images with 17 models; every job is priced in USD before it runs. (Other, official)
 - [MELRA](https://github.com/XAGI-Lab/melra): Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation. (TypeScript, official)
 - [mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp): Hosted persistent memory layer for personalized agent interactions. (Other, official)

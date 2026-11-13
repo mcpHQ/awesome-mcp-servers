@@ -5049,15 +5049,18 @@ Find open-weight AI models that fit your hardware, with weight file sizes, memor
 
 ### Magic Hour MCP Server
 
-Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.
+Create and edit images and videos, generate music and speech, and retrieve completed media through MCP.
 
-- URL: https://magichour.ai
+- URL: https://docs.magichour.ai/integration/mcp-agent
 - Language: Python
 - Provider: Magic Hour
 - Official: yes
 - Tags: ai-video, image-generation, audio-generation, media-editing, remote
 - Category: AI, Agents, and Memory
+- Repository: https://github.com/magichourhq/magic-hour-mcp
+- License: Apache-2.0
 - Transport: streamable-http
+- Auth: api-key, oauth
 - Streamable HTTP endpoint: https://mcp.magichour.ai/
 
 ### Makernice
