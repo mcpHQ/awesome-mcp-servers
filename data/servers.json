@@ -2055,6 +2055,31 @@
     ]
   },
   {
+    "auth": [
+      "oauth"
+    ],
+    "category": "communication-and-productivity",
+    "description": "Send email from your verified domain, track delivery, list mail and validate addresses.",
+    "endpoints": {
+      "streamableHttp": "https://api.aisend.app/mcp"
+    },
+    "language": "Other",
+    "name": "AISend",
+    "official": true,
+    "provider": "AISend",
+    "tags": [
+      "email",
+      "delivery",
+      "agents",
+      "remote",
+      "oauth"
+    ],
+    "transport": [
+      "streamable-http"
+    ],
+    "url": "https://aisend.app"
+  },
+  {
     "name": "Communicate",
     "url": "https://developer.communicate.so/docs/mcp",
     "description": "List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials.",
@@ -3968,6 +3993,31 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "auth": [
+      "oauth"
+    ],
+    "category": "developer-tools-and-code-intelligence",
+    "description": "List, read and resolve Bugsly error-tracking issues and check monitors.",
+    "endpoints": {
+      "streamableHttp": "https://bugsly.dev/api/mcp"
+    },
+    "language": "Other",
+    "name": "Bugsly",
+    "official": true,
+    "provider": "Bugsly",
+    "tags": [
+      "error-tracking",
+      "monitoring",
+      "debugging",
+      "remote",
+      "oauth"
+    ],
+    "transport": [
+      "streamable-http"
+    ],
+    "url": "https://bugsly.dev"
   },
   {
     "name": "Dexra",
@@ -6029,6 +6079,31 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "auth": [
+      "oauth"
+    ],
+    "category": "communication-and-productivity",
+    "description": "Read your resumes, check ATS compatibility and match keywords to a job posting.",
+    "endpoints": {
+      "streamableHttp": "https://cvposh.com/api/mcp"
+    },
+    "language": "Other",
+    "name": "CVPosh",
+    "official": true,
+    "provider": "CVPosh",
+    "tags": [
+      "resume",
+      "ats",
+      "career",
+      "remote",
+      "oauth"
+    ],
+    "transport": [
+      "streamable-http"
+    ],
+    "url": "https://cvposh.com"
   },
   {
     "name": "Stivio",
@@ -8186,6 +8261,31 @@
     ]
   },
   {
+    "auth": [
+      "oauth"
+    ],
+    "category": "finance-commerce-and-business-apps",
+    "description": "Find B2B customers for a product: score matching companies, draft emails, listen on Reddit.",
+    "endpoints": {
+      "streamableHttp": "https://growfast.sh/api/mcp"
+    },
+    "language": "Other",
+    "name": "GrowFast",
+    "official": true,
+    "provider": "GrowFast",
+    "tags": [
+      "sales",
+      "leads",
+      "outreach",
+      "remote",
+      "oauth"
+    ],
+    "transport": [
+      "streamable-http"
+    ],
+    "url": "https://growfast.sh"
+  },
+  {
     "name": "Fin Codes API",
     "url": "https://fincodesapi.com/mcp-server",
     "description": "Validate IBANs and bank codes, verify payee names, and screen names against sanctions lists through an authenticated hosted MCP server.",
@@ -10080,6 +10180,31 @@
     "repository": "https://github.com/paypal/agent-toolkit"
   },
   {
+    "auth": [
+      "oauth"
+    ],
+    "category": "communication-and-productivity",
+    "description": "Check clip jobs, videos and credits, and create faceless Shorts from a prompt.",
+    "endpoints": {
+      "streamableHttp": "https://remixviral.ai/api/mcp"
+    },
+    "language": "Other",
+    "name": "RemixViral",
+    "official": true,
+    "provider": "RemixViral",
+    "tags": [
+      "video",
+      "shorts",
+      "clips",
+      "remote",
+      "oauth"
+    ],
+    "transport": [
+      "streamable-http"
+    ],
+    "url": "https://remixviral.ai"
+  },
+  {
     "name": "PDF MCP Server",
     "url": "https://github.com/jztan/pdf-mcp",
     "description": "Extract text and metadata from PDF documents for analysis.",
@@ -11927,6 +12052,31 @@
     "transport": [
       "streamable-http"
     ]
+  },
+  {
+    "auth": [
+      "oauth"
+    ],
+    "category": "finance-commerce-and-business-apps",
+    "description": "Crawl a site, audit Google and AI-search readiness, get a fix plan for your coding agent.",
+    "endpoints": {
+      "streamableHttp": "https://seobolt.app/mcp"
+    },
+    "language": "Other",
+    "name": "SEOBolt",
+    "official": true,
+    "provider": "SEOBolt",
+    "tags": [
+      "seo",
+      "audit",
+      "marketing",
+      "remote",
+      "oauth"
+    ],
+    "transport": [
+      "streamable-http"
+    ],
+    "url": "https://seobolt.app"
   },
   {
     "name": "Statsnet",
