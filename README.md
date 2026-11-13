@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-772-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-773-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (35)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (166)
-- [Utilities and Examples](#utilities-and-examples) (39)
+- [Utilities and Examples](#utilities-and-examples) (40)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1684,6 +1684,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `immigration` `visas` `travel` `remote`
 - **[Unmerge](https://unmerge.app/docs/mcp)** `Official` `TypeScript` — Split a flat image into separate transparent PNG layers through a remote MCP server; pay with Unmerge credits via API key. ([source](https://github.com/unmerge-app/unmerge-mcp))  
   `image-editing` `png-layers` `transparency` `remote`
+- **[WaveLocus](https://registry.modelcontextprotocol.io/v0.1/servers/com.wavelocus%2Fassistant/versions/0.3.1)** `Official` `TypeScript` — Measure peak, RMS and excerpt loudness in your browser, preview gain changes, compare original and edited recordings, and share only the measurements you approve.  
+  `audio` `voice` `loudness`
 - **[Weather MCP Server](https://github.com/isdaniel/mcp_weather_server)** `Python` — Fetch current weather and forecasts from public weather APIs.  
   `weather` `api` `utility`
 - **[Wheremind](https://wheremind.ai)** `Official` `Other` — Hosted maps MCP server for AI agents: live place search, place details, nearby search, geocoding, and directions, with no Maps API key to manage.  
