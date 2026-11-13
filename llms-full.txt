@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 772 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 773 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7614,6 +7614,21 @@ Audit a therapy practice's Google Business Profile and website with prioritized 
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://therapists.ariadnemarketing.com/mcp
+
+### Ask Japan
+
+Japanese company, invoice, postcode and EDINET data, plus people in Japan who make phone calls, reservations and errands for AI agents.
+
+- URL: https://github.com/ihouse-corp/ask-japan-mcp
+- Language: Python
+- Provider: iHouse Co., Ltd.
+- Official: yes
+- Tags: japan, business-data, finance, location
+- Category: Finance, Commerce, and Business Apps
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://askjapan.senpinai.com/mcp
 
 ### Astral Twin
 

@@ -436,6 +436,32 @@
     ]
   },
   {
+    "name": "Ask Japan",
+    "url": "https://github.com/ihouse-corp/ask-japan-mcp",
+    "description": "Japanese company, invoice, postcode and EDINET data, plus people in Japan who make phone calls, reservations and errands for AI agents.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "iHouse Co., Ltd.",
+    "tags": [
+      "japan",
+      "business-data",
+      "finance",
+      "location"
+    ],
+    "official": true,
+    "repository": "https://github.com/ihouse-corp/ask-japan-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://askjapan.senpinai.com/mcp"
+    }
+  },
+  {
     "name": "Babelize MCP",
     "url": "https://docs.babelize.co/integrations/mcp-server",
     "description": "Analyzes a codebase for i18n readiness, wires hardcoded strings to next-intl or react-i18next, translates locale files and QA-checks translations, running locally from the coding agent.",
