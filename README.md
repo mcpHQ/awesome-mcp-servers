@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-772-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-774-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (94)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (90)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (92)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (87)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (35)
@@ -875,6 +875,10 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `interview` `education` `ai-engineering` `practice`
 - **[Joxo](https://joxo.ai)** `Official` `TypeScript` — Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents.  
   `agents` `collaboration` `tasks` `remote` `oauth`
+- **[Kling AI MCP (China)](https://github.com/klingai-dev/openclaw-plugin)** `Official` `Other` — Official China-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.  
+  `image-generation` `video-generation` `oauth` `remote-mcp`
+- **[Kling AI MCP (Global)](https://github.com/klingai-tech/claude-plugin)** `Official` `Other` — Official Global-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.  
+  `image-generation` `video-generation` `oauth` `remote-mcp`
 - **[knowsme](https://knowsme.dev)** `Official` `JavaScript` — One memory of who you are and how you work (notes, rules and projects) that any AI model or agent can read and update over MCP, across apps and machines.  
   `memory` `agents` `personalization` `remote` `oauth`
 - **[LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp)** `Official` `Other` — Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint.  
