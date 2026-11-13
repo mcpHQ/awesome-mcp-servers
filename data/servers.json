@@ -4910,6 +4910,32 @@
     ]
   },
   {
+    "name": "Impulse",
+    "url": "https://www.impulse-interactive.com/product/mcp-server",
+    "description": "Hosted MCP for Impulse event pages, emails, guests, and check-in.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Impulse Interactive",
+    "tags": [
+      "events",
+      "registration",
+      "email",
+      "guests",
+      "check-in"
+    ],
+    "official": true,
+    "repository": "https://github.com/impul-co/impulse-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.impul.co/mcp"
+    }
+  },
+  {
     "name": "Jet Cab AMS",
     "url": "https://www.jetcabams.nl/llms.txt",
     "description": "Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.",
