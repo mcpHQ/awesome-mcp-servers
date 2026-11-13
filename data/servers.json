@@ -8140,6 +8140,32 @@
     ]
   },
   {
+    "name": "agentdrive",
+    "url": "https://useagentdrive.com",
+    "description": "Hosted persistent file storage for AI agents: save, list, read and delete files, each with a browser link a person can open.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "agentdrive",
+    "tags": [
+      "files",
+      "storage",
+      "file-sharing",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/plsoulie/agentdrive",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://useagentdrive.com/mcp"
+    },
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Clara by nOps",
     "url": "https://github.com/nops-io/clara-mcp",
     "description": "Official nOps FinOps assistant: query AWS, GCP and Azure cost and usage, Reserved Instance and Savings Plan performance, budgets, reports and anomalies over OAuth.",
