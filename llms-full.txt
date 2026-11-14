@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 794 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 795 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10513,6 +10513,23 @@ Split a flat image into separate transparent PNG layers through a remote MCP ser
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://unmerge.app/mcp
+
+### Video Background Remover (.ai)
+
+Official remote MCP for videobackgroundremover.ai. Remove video backgrounds via Streamable HTTP and OAuth. Paid credits only; the website has a free preview and the first 5 seconds in HD free.
+
+- URL: https://videobackgroundremover.ai/video-background-remover-api
+- Language: Other
+- Provider: Video Background Remover (.ai)
+- Official: yes
+- Tags: video, background-removal, oauth, api
+- Category: Utilities and Examples
+- Repository: https://github.com/biggersun/videobackgroundremover-ai-mcp
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://videobackgroundremover.ai/mcp
 
 ### Weather MCP Server
 

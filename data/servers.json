@@ -17198,5 +17198,32 @@
     "endpoints": {
       "streamableHttp": "https://mcp.profilfoto-ki.de/mcp"
     }
+  },
+  {
+    "name": "Video Background Remover (.ai)",
+    "url": "https://videobackgroundremover.ai/video-background-remover-api",
+    "description": "Official remote MCP for videobackgroundremover.ai. Remove video backgrounds via Streamable HTTP and OAuth. Paid credits only; the website has a free preview and the first 5 seconds in HD free.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "Video Background Remover (.ai)",
+    "tags": [
+      "video",
+      "background-removal",
+      "oauth",
+      "api"
+    ],
+    "official": true,
+    "repository": "https://github.com/biggersun/videobackgroundremover-ai-mcp",
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://videobackgroundremover.ai/mcp"
+    }
   }
 ]
