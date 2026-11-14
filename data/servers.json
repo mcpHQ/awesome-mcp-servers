@@ -18066,5 +18066,29 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "Skillporter",
+    "url": "https://github.com/Shanmukh-l33t/skillporter",
+    "description": "Inspects the agent skills in a workspace: lockfile drift, broken symlinks, duplicates, installed harnesses and static security scans; read-only unless writes are enabled.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Skillporter",
+    "tags": [
+      "agent-skills",
+      "developer-tools",
+      "security",
+      "stdio"
+    ],
+    "official": false,
+    "repository": "https://github.com/Shanmukh-l33t/skillporter",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]
