@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-772-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-773-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (94)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (90)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (87)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (88)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (35)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (166)
@@ -1158,6 +1158,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `public-tenders` `procurement` `germany` `contract-awards` `remote`
 - **[World Monitor](https://github.com/koala73/worldmonitor)** `Official` `TypeScript` — Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server.  
   `geopolitics` `news` `markets` `osint` `remote`
+- **[zaDojo](https://zadojo.com/docs/mcp)** `Official` `TypeScript` — Free Google Search Console, Google Analytics and site audits, plus pay-as-you-go SERP, keyword research, rank tracking and AI visibility tracking for ChatGPT, Gemini, Perplexity and Google AI Overviews. ([source](https://github.com/zaDojo/seo-geo-mcp))  
+  `seo` `geo` `google-search-console` `google-analytics` `remote`
 - **[Zip-Codes.com ZIP & Postal Code MCP](https://www.zip-codes.com/api/mcp)** `Official` `C#` — Validates and standardizes US street addresses to ZIP+4 and looks up US ZIP Codes and Canadian postal codes, with optional census tract demographics, county and district overlaps, radius search and distance.  
   `zip-codes` `address-validation` `postal-codes` `geocoding`
 
