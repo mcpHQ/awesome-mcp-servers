@@ -18151,5 +18151,32 @@
     "endpoints": {
       "streamableHttp": "https://api.lexio.rent/mcp"
     }
+  },
+  {
+    "name": "AlphaGrowth",
+    "url": "https://alphagrowth.io/mcp-server",
+    "repository": "https://github.com/alphagrowth/alphagrowth-mcp",
+    "description": "Free, read-only crypto market data for AI agents: DeFi TVL, chains, fees, funding rounds, DAO treasuries, yield pools, token unlocks and grants.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Elixir",
+    "provider": "AlphaGrowth",
+    "tags": [
+      "crypto",
+      "defi",
+      "market-data",
+      "funding",
+      "read-only"
+    ],
+    "official": true,
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://alphagrowth.io/mcp"
+    }
   }
 ]
