@@ -18205,5 +18205,31 @@
     "endpoints": {
       "streamableHttp": "https://api.vidmoat.com/api/mcp"
     }
+  },
+  {
+    "name": "Apparent",
+    "url": "https://apparent.fyi/app-analytics-mcp",
+    "description": "Read-only remote MCP server that lets an AI agent ask in plain words how your mobile apps are doing: app changes, timelines, topics and ad campaigns.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Apparent",
+    "tags": [
+      "mobile-apps",
+      "app-analytics",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://app.apparent.fyi/mcp"
+    }
   }
 ]

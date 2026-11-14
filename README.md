@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-832-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-833-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (107)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (99)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (92)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (93)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (38)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (178)
@@ -1074,6 +1074,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `product-analytics` `events` `bi`
 - **[App Store & Google Play Review Intelligence](https://github.com/gunnargray-dev/app-store-review-intelligence-mcp)** `TypeScript` — Searches the Apple App Store and Google Play, pulls recent reviews, and returns top complaints with quotes, rating by app version, what got worse in the latest update, and iOS-vs-Android or competitor comparisons.  
   `app-store` `google-play` `app-reviews` `product-research` `remote`
+- **[Apparent](https://apparent.fyi/app-analytics-mcp)** `Official` `TypeScript` — Read-only remote MCP server that lets an AI agent ask in plain words how your mobile apps are doing: app changes, timelines, topics and ad campaigns.  
+  `mobile-apps` `app-analytics` `read-only` `remote`
 - **[ats-jobs-mcp](https://github.com/benkrasin/ats-jobs-mcp)** `JavaScript` — Zero-dependency stdio server and CLI that lists and filters a company's open jobs from its public Greenhouse, Lever or Ashby job board in one normalized shape, with no API keys.  
   `jobs` `recruiting` `greenhouse` `lever` `ashby`
 - **[AttriKit](https://github.com/KamyarTaher/attrikit-mcp)** `Official` `TypeScript` — Web-to-app attribution for iOS and Android apps that buy ads: create campaign links, import ad spend, read each campaign's scale, cut or hold call, manage Meta, TikTok and RevenueCat connections, and export installs and events.  
