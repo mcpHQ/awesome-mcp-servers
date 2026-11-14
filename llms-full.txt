@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 782 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 783 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6609,6 +6609,21 @@ Hosted AI visibility server: which buyer questions name your brand in ChatGPT, P
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.proofsource.co/v1/mcp
+
+### QuestionPunk
+
+Create, edit and publish surveys and AI-moderated interviews, then read responses and reports through a hosted MCP server.
+
+- URL: https://www.questionpunk.com/features/mcp-server
+- Language: TypeScript
+- Provider: QuestionPunk
+- Official: yes
+- Tags: surveys, research, interviews, remote
+- Category: Data, Analytics, and BI
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://app.questionpunk.com/api/v1
 
 ### Recall Kitchen
 
