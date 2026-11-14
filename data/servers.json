@@ -17980,5 +17980,34 @@
     "endpoints": {
       "streamableHttp": "https://fork.zone/api/mcp"
     }
+  },
+  {
+    "name": "zaDojo",
+    "url": "https://zadojo.com/docs/mcp",
+    "description": "Free Google Search Console, Google Analytics and site audits, plus pay-as-you-go SERP, keyword research, rank tracking and AI visibility tracking for ChatGPT, Gemini, Perplexity and Google AI Overviews.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "zaDojo",
+    "tags": [
+      "seo",
+      "geo",
+      "google-search-console",
+      "google-analytics",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/zaDojo/seo-geo-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://app.zadojo.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
