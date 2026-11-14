@@ -8294,6 +8294,34 @@
     ]
   },
   {
+    "name": "LeadSets",
+    "url": "https://www.leadsets.ai/docs/mcp",
+    "description": "Unlimited B2B Contact Data for AI agents: search people and companies, enrich records and verify work emails with a status and check date.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "LeadSets",
+    "tags": [
+      "sales",
+      "lead-generation",
+      "enrichment",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.leadsets.ai"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Domain Search King",
     "url": "https://github.com/johnsmalls22-rgb/domain-search-king-mcp",
     "description": "Suggests .com domain names and returns only those currently available to register, checked against the Verisign RDAP registry; hosted, no API key.",
