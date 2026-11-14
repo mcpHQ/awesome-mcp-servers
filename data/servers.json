@@ -18096,5 +18096,33 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Investboard",
+    "url": "https://investboard.com/product/mcp",
+    "description": "Analyze holdings, fund overlap, performance and portfolio changes against your investment plan, with two public tools and OAuth-protected account tools.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Investboard GmbH",
+    "tags": [
+      "investing",
+      "portfolio",
+      "funds",
+      "performance",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://app.investboard.com/mcp"
+    }
   }
 ]
