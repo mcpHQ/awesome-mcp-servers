@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 772 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 773 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -559,6 +559,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Vaneform](https://github.com/vaneform/vaneform-mcp): Hosted MCP for website traffic estimates, domain compare, registry facts and keyword briefs; API key required. (TypeScript, official)
 - [Vergabeweiser](https://vergabeweiser.de/api#mcp): Hosted read-only MCP server for German public tenders and contract awards, with buyers, winners and award sums from open procurement data. (PHP)
 - [World Monitor](https://github.com/koala73/worldmonitor): Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server. (TypeScript, official)
+- [zaDojo](https://zadojo.com/docs/mcp): Free Google Search Console, Google Analytics and site audits, plus pay-as-you-go SERP, keyword research, rank tracking and AI visibility tracking for ChatGPT, Gemini, Perplexity and Google AI Overviews. (TypeScript, official)
 - [Zip-Codes.com ZIP & Postal Code MCP](https://www.zip-codes.com/api/mcp): Validates and standardizes US street addresses to ZIP+4 and looks up US ZIP Codes and Canadian postal codes, with optional census tract demographics, county and district overlaps, radius search and distance. (C#, official)
 
 ## Legal and Court Data

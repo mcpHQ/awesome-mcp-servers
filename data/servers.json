@@ -3680,6 +3680,35 @@
     ]
   },
   {
+    "name": "zaDojo",
+    "url": "https://zadojo.com/docs/mcp",
+    "description": "Free Google Search Console, Google Analytics and site audits, plus pay-as-you-go SERP, keyword research, rank tracking and AI visibility tracking for ChatGPT, Gemini, Perplexity and Google AI Overviews.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "zaDojo",
+    "tags": [
+      "seo",
+      "geo",
+      "google-search-console",
+      "google-analytics",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/zaDojo/seo-geo-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://app.zadojo.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "OverlayQA",
     "url": "https://github.com/OverlayQA/mcp",
     "description": "Runs WCAG accessibility (axe-core), color-contrast and design-token audits on any public URL and files the findings as QA issues in OverlayQA.",
