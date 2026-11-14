@@ -18178,5 +18178,32 @@
     "endpoints": {
       "streamableHttp": "https://alphagrowth.io/mcp"
     }
+  },
+  {
+    "name": "Vidmoat",
+    "url": "https://developer.vidmoat.com/developer/docs/mcp",
+    "description": "Hosted video editor with a remote MCP server: agents import footage, edit a real timeline, preview frames and render MP4s.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Buzz Innovations Ltd",
+    "tags": [
+      "video-editing",
+      "video-rendering",
+      "media",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.vidmoat.com/api/mcp"
+    }
   }
 ]
