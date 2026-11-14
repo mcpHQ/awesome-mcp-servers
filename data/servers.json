@@ -7184,6 +7184,19 @@
     "official": true,
     "repository": "https://github.com/bowmark-ai/mcp"
   },
+      {
+              "name": "API-Supp WhatsApp MCP",
+              "url": "https://api-supp.com",
+              "description": "Connect a WhatsApp number to Claude or ChatGPT by pasting one MCP link and scanning a QR code.",
+              "category": "communication-and-productivity",
+              "language": "Python",
+              "provider": "API-Supp",
+              "tags": ["whatsapp", "messaging", "mcp"],
+              "official": false,
+              "repository": "https://github.com/yehudashtein/wa-bridge-mcp",
+              "license": "MIT",
+              "transport": ["stdio"]
+      },
   {
     "name": "Sequenzy",
     "url": "https://github.com/Sequenzy/mcp",
