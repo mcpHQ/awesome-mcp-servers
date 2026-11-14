@@ -9768,6 +9768,40 @@
     "repository": "https://github.com/makenotion/notion-mcp-server"
   },
   {
+    "name": "Varosity",
+    "url": "https://varosity.ai/connect",
+    "description": "Video, images, voice and music for AI agents from one account: 78 models at the provider's list price with zero markup, a daily spend cap, and no charge for failed renders.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "Varosity",
+    "tags": [
+      "video-generation",
+      "image-generation",
+      "text-to-speech",
+      "music-generation",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/varosity-ai/mcp-server",
+    "license": "MIT",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://varosity.ai/api/mcp"
+    },
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@varosity/mcp-server"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Obsidian MCP Server",
     "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
     "description": "Search and read notes from local Obsidian vaults.",
