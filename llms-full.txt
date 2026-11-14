@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 783 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 784 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6414,6 +6414,20 @@ Hosted MCP server that hands a site's SEO/GEO growth backlog (audits, fixes, con
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://lognorm.com/api/mcp
+
+### Lomen Analytics
+
+Read-only remote MCP server for Lomen, a cookie-free website analytics service in public beta: list your sites, read 30-day traffic, top pages and sources, and ask why one day differed from usual. OAuth sign-in.
+
+- URL: https://lomenanalytics.com/docs
+- Language: TypeScript
+- Provider: Lomen
+- Official: yes
+- Tags: web-analytics, privacy, remote, oauth
+- Category: Data, Analytics, and BI
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://lomenanalytics.com/mcp
 
 ### MadeOnSol MCP Server
 

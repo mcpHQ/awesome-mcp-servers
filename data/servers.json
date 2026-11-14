@@ -16901,5 +16901,29 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Lomen Analytics",
+    "url": "https://lomenanalytics.com/docs",
+    "description": "Read-only remote MCP server for Lomen, a cookie-free website analytics service in public beta: list your sites, read 30-day traffic, top pages and sources, and ask why one day differed from usual. OAuth sign-in.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Lomen",
+    "tags": [
+      "web-analytics",
+      "privacy",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://lomenanalytics.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]

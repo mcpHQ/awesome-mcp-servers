@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-783-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-784-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (96)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (93)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (89)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (90)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (36)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (168)
@@ -1096,6 +1096,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `ai-visibility` `analytics` `marketing`
 - **[LogNorm](https://github.com/lognorm/lognorm-mcp)** `Official` `Other` — Hosted MCP server that hands a site's SEO/GEO growth backlog (audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor via OAuth.  
   `seo` `geo` `marketing` `remote` `oauth`
+- **[Lomen Analytics](https://lomenanalytics.com/docs)** `Official` `TypeScript` — Read-only remote MCP server for Lomen, a cookie-free website analytics service in public beta: list your sites, read 30-day traffic, top pages and sources, and ask why one day differed from usual. OAuth sign-in.  
+  `web-analytics` `privacy` `remote` `oauth`
 - **[MadeOnSol MCP Server](https://github.com/MadeOnSol/mcp-server-madeonsol)** `Official` `TypeScript` — Solana KOL trades, wallet analytics, token and deployer intelligence, and DEX data via an API key or keyless x402 pay-per-call in USDC.  
   `solana` `crypto` `analytics` `x402`
 - **[Manifold MCP](https://www.manifoldmcp.com)** `Official` `Other` — An MCP for marketers that gives agents tools for SEO, AEO, socials and ads data, from keywords, backlinks and Search Console to AI answer visibility, ad libraries and social platforms, with a generous free tier.  
