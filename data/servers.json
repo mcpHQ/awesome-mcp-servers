@@ -18283,5 +18283,31 @@
     "endpoints": {
       "streamableHttp": "https://penetrationtestservices.com/mcp"
     }
+  },
+  {
+    "name": "PentestCompare MCP",
+    "url": "https://pentestcompare.com/developers/",
+    "repository": "https://github.com/Excession-Labs/mcp-servers",
+    "description": "Search and read PentestCompare, filter penetration testing providers, and read provider profiles.",
+    "category": "security-and-identity",
+    "language": "JavaScript",
+    "provider": "Excession Labs",
+    "tags": [
+      "penetration-testing",
+      "security-providers",
+      "directory",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://pentestcompare.com/mcp"
+    }
   }
 ]
