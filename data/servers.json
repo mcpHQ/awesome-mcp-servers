@@ -17877,5 +17877,32 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "AIHOT",
+    "url": "https://aihot.news/agent?tab=mcp",
+    "description": "Searches Chinese-language AI industry news and retrieves daily, weekly, and monthly briefings.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "AIHOT",
+    "tags": [
+      "news",
+      "search",
+      "chinese",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/KKKKhazix/AIHOT",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://aihot.news/api/mcp"
+    }
   }
 ]
