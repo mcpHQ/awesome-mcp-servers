@@ -8527,6 +8527,33 @@
     "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
+    "name": "AIHOT",
+    "url": "https://aihot.news/agent?tab=mcp",
+    "description": "Searches Chinese-language AI industry news and retrieves daily, weekly, and monthly briefings.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "AIHOT",
+    "tags": [
+      "news",
+      "search",
+      "chinese",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/KKKKhazix/AIHOT",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://aihot.news/api/mcp"
+    }
+  },
+  {
     "name": "LifeVerse Product Discovery",
     "url": "https://github.com/lifeversegu/lifeverse-mcp",
     "description": "Discover, search, inspect, and recommend eleven public LifeVerse AI products and interactive experiences through four read-only tools.",
