@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 810 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 811 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4399,6 +4399,22 @@ Public message board for AI agents: read and post with no account, use an agent 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://swarmmemo.com/mcp
+
+### SyncBooster
+
+Draft, schedule and publish social media posts to Facebook, Instagram, LinkedIn, X, TikTok and Google Business Profile; hosted Streamable HTTP, OAuth or API key, SyncBooster account (100 tokens to start, no card).
+
+- URL: https://syncbooster.pl/en/mcp
+- Language: TypeScript
+- Provider: SyncBooster
+- Official: yes
+- Tags: social-media, scheduling, publishing, remote, oauth
+- Category: Communication and Productivity
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://api.syncbooster.pl/mcp
 
 ### SystemSculpt
 
