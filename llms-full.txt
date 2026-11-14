@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 772 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 773 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4551,6 +4551,20 @@ Hosted MCP gateway that connects Claude, ChatGPT, Codex and Cursor to tools from
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://ai.agentik.cc/mcp
+
+### AgentX
+
+Check on, message and hand work to a fleet of AI coding agents running on your own machines through AgentX, with OAuth sign-in.
+
+- URL: https://www.agentxhq.com/docs/mcp
+- Language: Other
+- Provider: AgentX
+- Official: yes
+- Tags: agents, coding-agents, remote, oauth
+- Category: AI, Agents, and Memory
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://www.agentxhq.com/mcp
 
 ### AI Agents Listing
 
