@@ -18257,5 +18257,31 @@
     "endpoints": {
       "streamableHttp": "https://excessionlabs.ai/mcp"
     }
+  },
+  {
+    "name": "Penetration Test Services MCP",
+    "url": "https://penetrationtestservices.com/developers/",
+    "repository": "https://github.com/Excession-Labs/mcp-servers",
+    "description": "Check HTTP security headers, search penetration testing guides, and request a penetration test.",
+    "category": "security-and-identity",
+    "language": "JavaScript",
+    "provider": "Excession Labs",
+    "tags": [
+      "penetration-testing",
+      "security-headers",
+      "security-audit",
+      "remote"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://penetrationtestservices.com/mcp"
+    }
   }
 ]

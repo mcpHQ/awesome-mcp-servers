@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 834 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 835 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7993,6 +7993,21 @@ Hosted MCP server that lists lookalike domains of a brand's website and shows wh
 - Category: Security and Identity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://openbait.com/api/mcp
+
+### Penetration Test Services MCP
+
+Check HTTP security headers, search penetration testing guides, and request a penetration test.
+
+- URL: https://penetrationtestservices.com/developers/
+- Language: JavaScript
+- Provider: Excession Labs
+- Official: yes
+- Tags: penetration-testing, security-headers, security-audit, remote
+- Category: Security and Identity
+- Repository: https://github.com/Excession-Labs/mcp-servers
+- Transport: streamable-http
+- Auth: none, api-key
+- Streamable HTTP endpoint: https://penetrationtestservices.com/mcp
 
 ### qURL
 
