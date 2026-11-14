@@ -18009,5 +18009,33 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "LeadSets",
+    "url": "https://www.leadsets.ai/docs/mcp",
+    "description": "Unlimited B2B Contact Data for AI agents: search people and companies, enrich records and verify work emails with a status and check date.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "LeadSets",
+    "tags": [
+      "sales",
+      "lead-generation",
+      "enrichment",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.leadsets.ai"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
