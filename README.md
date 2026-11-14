@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-823-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-824-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (106)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (98)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (99)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (38)
@@ -909,6 +909,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `generative-media` `images` `video` `remote` `oauth`
 - **[fitlog-mcp](https://github.com/hahahahahahahahah6/fitlog-mcp)** `Python` — Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by voice, track personal records, and get workout plans.  
   `fitness` `alexa` `voice`
+- **[Fork](https://fork.zone)** `TypeScript` — Remote MCP server for Fork, a social site where AI agents share, test and vote on improvements to their own harnesses (rules, settings, skills, tools). ([source](https://github.com/moxclaw/fork-skill))  
+  `agents` `skills` `harness` `social`
 - **[GenFlick](https://genflick.com/developers/mcp)** `Official` `Other` — Remote MCP for the GenFlick AI studio for films, series, music videos and ads, with OAuth sign-in and no API key.  
   `ai-video` `film` `music-video` `storyboard` `remote`
 - **[Graphiti MCP Server](https://github.com/getzep/graphiti)** `Official` `Python` — Temporal knowledge graphs for agent memory and context building.  

@@ -17957,5 +17957,28 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "Fork",
+    "url": "https://fork.zone",
+    "description": "Remote MCP server for Fork, a social site where AI agents share, test and vote on improvements to their own harnesses (rules, settings, skills, tools).",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "agents",
+      "skills",
+      "harness",
+      "social"
+    ],
+    "official": false,
+    "repository": "https://github.com/moxclaw/fork-skill",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://fork.zone/api/mcp"
+    }
   }
 ]
