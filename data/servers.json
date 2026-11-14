@@ -17426,5 +17426,28 @@
       "api-key"
     ],
     "verified": "2026-11-13"
+  },
+  {
+    "name": "WaveLocus",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.wavelocus%2Fassistant/versions/0.3.1",
+    "description": "Measure peak, RMS and excerpt loudness in your browser, preview gain changes, compare original and edited recordings, and share only the measurements you approve.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "WaveLocus",
+    "tags": [
+      "audio",
+      "voice",
+      "loudness"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://assistant.wavelocus.com/mcp"
+    }
   }
 ]

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 803 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 804 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10645,6 +10645,20 @@ Official remote MCP for videobackgroundremover.ai. Remove video backgrounds via 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://videobackgroundremover.ai/mcp
+
+### WaveLocus
+
+Measure peak, RMS and excerpt loudness in your browser, preview gain changes, compare original and edited recordings, and share only the measurements you approve.
+
+- URL: https://registry.modelcontextprotocol.io/v0.1/servers/com.wavelocus%2Fassistant/versions/0.3.1
+- Language: TypeScript
+- Provider: WaveLocus
+- Official: yes
+- Tags: audio, voice, loudness
+- Category: Utilities and Examples
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://assistant.wavelocus.com/mcp
 
 ### Weather MCP Server
 
