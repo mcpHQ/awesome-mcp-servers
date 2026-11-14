@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 807 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 808 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4566,6 +4566,22 @@ Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads,
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.warmerly.com/api/mcp
+
+### Wassenger
+
+Hosted MCP server for the official WhatsApp Business API: send messages and approved templates, and manage chats, contacts, campaigns and a shared team inbox; needs a Wassenger API key.
+
+- URL: https://github.com/wassengerhq/whatsapp-mcp
+- Language: TypeScript
+- Provider: Wassenger
+- Official: yes
+- Tags: whatsapp, whatsapp-business-api, messaging, customer-support, remote
+- Category: Communication and Productivity
+- License: MIT
+- Transport: streamable-http, stdio
+- Auth: api-key
+- Install: npx mcp-wassenger
+- Streamable HTTP endpoint: https://api.wassenger.com/mcp
 
 ### Wavegrain
 

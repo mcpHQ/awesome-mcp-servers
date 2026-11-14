@@ -17522,5 +17522,37 @@
     "endpoints": {
       "streamableHttp": "https://kling.ai/mcp/plugin"
     }
+  },
+  {
+    "name": "Wassenger",
+    "url": "https://github.com/wassengerhq/whatsapp-mcp",
+    "description": "Hosted MCP server for the official WhatsApp Business API: send messages and approved templates, and manage chats, contacts, campaigns and a shared team inbox; needs a Wassenger API key.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Wassenger",
+    "tags": [
+      "whatsapp",
+      "whatsapp-business-api",
+      "messaging",
+      "customer-support",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/wassengerhq/whatsapp-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://api.wassenger.com/mcp"
+    },
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "mcp-wassenger"
+    },
+    "auth": [
+      "api-key"
+    ]
   }
 ]

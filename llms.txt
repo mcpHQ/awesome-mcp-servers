@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 807 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 808 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -385,6 +385,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Unitpost](https://www.unitpost.com/ai/mcp): Hosted MCP server for Unitpost: send transactional email, campaigns and SMS, and manage contacts, templates, sending domains, webhooks and inbound email. (TypeScript, official)
 - [Unsora](https://github.com/Shipped-Studio/unsora): AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more. (TypeScript, official)
 - [Warmerly](https://github.com/warmerly): Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant. (TypeScript, official)
+- [Wassenger](https://github.com/wassengerhq/whatsapp-mcp): Hosted MCP server for the official WhatsApp Business API: send messages and approved templates, and manage chats, contacts, campaigns and a shared team inbox; needs a Wassenger API key. (TypeScript, official)
 - [Wavegrain](https://wavegrain.com/mcp): Hosted MCP server for Wavegrain: curated TikTok slideshows and Instagram carousels for your brand on autopilot. Agents read your brand, make slideshows in its voice with your photos, edit slides, schedule them and export. (Other, official)
 - [Whisper Memos](https://whispermemos.com/mcp): List and read transcripts, summaries and labels of voice memos from the Whisper Memos iPhone and Apple Watch app, view account details, and delete memos. (TypeScript, official)
 - [WriteStack MCP Server](https://www.writestack.io/mcp): Official hosted server for drafting and scheduling Substack Notes, managing articles, and reading writing statistics in a WriteStack account. (TypeScript, official)

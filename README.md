@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-807-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-808-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (77)
 - [Filesystems and Documents](#filesystems-and-documents) (32)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
-- [Communication and Productivity](#communication-and-productivity) (102)
+- [Communication and Productivity](#communication-and-productivity) (103)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (96)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -808,6 +808,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `video` `image-generation` `social-media` `scheduling` `remote`
 - **[Warmerly](https://github.com/warmerly)** `Official` `TypeScript` — Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.  
   `email` `cold-email` `deliverability` `outreach` `oauth`
+- **[Wassenger](https://github.com/wassengerhq/whatsapp-mcp)** `Official` `TypeScript` — Hosted MCP server for the official WhatsApp Business API: send messages and approved templates, and manage chats, contacts, campaigns and a shared team inbox; needs a Wassenger API key.  
+  `whatsapp` `whatsapp-business-api` `messaging` `customer-support` `remote`
 - **[Wavegrain](https://wavegrain.com/mcp)** `Official` `Other` — Hosted MCP server for Wavegrain: curated TikTok slideshows and Instagram carousels for your brand on autopilot. Agents read your brand, make slideshows in its voice with your photos, edit slides, schedule them and export. ([source](https://github.com/wavegrain/wavegrain-mcp))  
   `social-media` `tiktok` `instagram` `remote` `oauth`
 - **[Whisper Memos](https://whispermemos.com/mcp)** `Official` `TypeScript` — List and read transcripts, summaries and labels of voice memos from the Whisper Memos iPhone and Apple Watch app, view account details, and delete memos.  
