@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-839-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-840-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (94)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (178)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (179)
 - [Utilities and Examples](#utilities-and-examples) (43)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1417,6 +1417,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `recruiting` `hiring` `github` `oauth` `remote`
 - **[BankBridge](https://bankbridge.money)** `Official` `TypeScript` — Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.  
   `banking` `personal-finance` `read-only` `remote`
+- **[BeliefState](https://beliefstate.ai/agent-quickstart.md)** `Official` `TypeScript` — Hosted MCP server for dated, source-linked investor theses, catalysts, risks and revisions, with free company coverage and paid research calls through x402. ([source](https://github.com/Antcolombo/beliefstate-agent-integrations))  
+  `finance` `research` `stocks` `x402`
 - **[Best Electrician Jobs](https://github.com/854Labs/best-electrician-jobs)** `Official` `Other` — Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.  
   `jobs` `recruiting` `electrician` `oauth` `remote`
 - **[BestPrice Shopping](https://github.com/TheBestCo/bestprice-mcp)** `Official` `JavaScript` — Official read-only shopping MCP for Greece from BestPrice.gr: shopping recommendations, product search, store offers with delivered totals, and price history; no API key.  

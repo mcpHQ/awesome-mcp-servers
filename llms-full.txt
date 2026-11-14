@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 839 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 840 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8518,6 +8518,21 @@ Hosted MCP server that gives an agent read-only access to your own bank, credit 
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://bankbridge.money/api/mcp
+
+### BeliefState
+
+Hosted MCP server for dated, source-linked investor theses, catalysts, risks and revisions, with free company coverage and paid research calls through x402.
+
+- URL: https://beliefstate.ai/agent-quickstart.md
+- Language: TypeScript
+- Provider: BeliefState LLC
+- Official: yes
+- Tags: finance, research, stocks, x402
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/Antcolombo/beliefstate-agent-integrations
+- Pricing: freemium
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://beliefstate.ai/v1/research/mcp
 
 ### Best Electrician Jobs
 
