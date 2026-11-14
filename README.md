@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-821-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-823-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,8 +47,8 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (81)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
-- [Communication and Productivity](#communication-and-productivity) (105)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (97)
+- [Communication and Productivity](#communication-and-productivity) (106)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (98)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (38)
@@ -642,6 +642,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `email` `delivery` `agents` `remote` `oauth`
 - **[anon.li](https://anon.li/mcp)** `Official` `TypeScript` — Remote MCP server for anon.li, an open-source privacy suite: tools manage email aliases, recipients, end-to-end encrypted file drops and encrypted forms.  
   `email-alias` `privacy` `file-sharing` `encryption` `remote`
+- **[API-Supp WhatsApp MCP](https://api-supp.com)** `Python` — Connect a WhatsApp number to Claude or ChatGPT by pasting one MCP link and scanning a QR code. ([source](https://github.com/yehudashtein/wa-bridge-mcp))  
+  `whatsapp` `messaging` `mcp`
 - **[ArtiGram](https://artigram.cafeboon.com/connect)** `Official` `Python` — Publish, version and search AI-made HTML, React, SVG and Markdown artifacts as live pages on the ArtiGram community.  
   `artifacts` `publishing` `community` `remote`
 - **[Atlassian Browser MCP Server](https://github.com/GeiserX/atlassian-browser-mcp)** `Python` — Wraps mcp-atlassian with Playwright browser-cookie login, so its Jira and Confluence tools work on Atlassian Server/Data Center behind corporate SSO (Okta, SAML) where API tokens are not available.  
@@ -1029,6 +1031,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `chat-history` `semantic-search` `local-first`
 - **[UberLLM](https://uberllm.dev/docs/mcp)** `Official` `Go` — Generate and edit images, start and follow video and music jobs, list models with their current price, quote a request before running it, and check balance through one prepaid UberLLM API key. ([source](https://github.com/PSA-Team-source/uberllm))  
   `image-generation` `video-generation` `llm` `remote`
+- **[Varosity](https://varosity.ai/connect)** `Official` `JavaScript` — Video, images, voice and music for AI agents from one account: 78 models at the provider's list price with zero markup, a daily spend cap, and no charge for failed renders. ([source](https://github.com/varosity-ai/mcp-server))  
+  `video-generation` `image-generation` `text-to-speech` `music-generation` `remote`
 - **[VideoGen MCP](https://videogen.io/videogen-mcp)** `Official` `TypeScript` — Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects.  
   `video` `images` `audio` `marketing`
 - **[Waspes](https://waspes.com/api)** `Official` `Other` — AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server.  

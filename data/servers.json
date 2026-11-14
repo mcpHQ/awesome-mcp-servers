@@ -7239,19 +7239,25 @@
     "official": true,
     "repository": "https://github.com/bowmark-ai/mcp"
   },
-      {
-              "name": "API-Supp WhatsApp MCP",
-              "url": "https://api-supp.com",
-              "description": "Connect a WhatsApp number to Claude or ChatGPT by pasting one MCP link and scanning a QR code.",
-              "category": "communication-and-productivity",
-              "language": "Python",
-              "provider": "API-Supp",
-              "tags": ["whatsapp", "messaging", "mcp"],
-              "official": false,
-              "repository": "https://github.com/yehudashtein/wa-bridge-mcp",
-              "license": "MIT",
-              "transport": ["stdio"]
-      },
+  {
+    "name": "API-Supp WhatsApp MCP",
+    "url": "https://api-supp.com",
+    "description": "Connect a WhatsApp number to Claude or ChatGPT by pasting one MCP link and scanning a QR code.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "API-Supp",
+    "tags": [
+      "whatsapp",
+      "messaging",
+      "mcp"
+    ],
+    "official": false,
+    "repository": "https://github.com/yehudashtein/wa-bridge-mcp",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ]
+  },
   {
     "name": "Sequenzy",
     "url": "https://github.com/Sequenzy/mcp",
@@ -17917,5 +17923,39 @@
     "endpoints": {
       "streamableHttp": "https://aihot.news/api/mcp"
     }
+  },
+  {
+    "name": "Varosity",
+    "url": "https://varosity.ai/connect",
+    "description": "Video, images, voice and music for AI agents from one account: 78 models at the provider's list price with zero markup, a daily spend cap, and no charge for failed renders.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "Varosity",
+    "tags": [
+      "video-generation",
+      "image-generation",
+      "text-to-speech",
+      "music-generation",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/varosity-ai/mcp-server",
+    "license": "MIT",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://varosity.ai/api/mcp"
+    },
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@varosity/mcp-server"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]

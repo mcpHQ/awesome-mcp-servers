@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 821 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 823 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3487,6 +3487,20 @@ Remote MCP server for anon.li, an open-source privacy suite: tools manage email 
 - Auth: oauth
 - Streamable HTTP endpoint: https://anon.li/api/mcp
 
+### API-Supp WhatsApp MCP
+
+Connect a WhatsApp number to Claude or ChatGPT by pasting one MCP link and scanning a QR code.
+
+- URL: https://api-supp.com
+- Language: Python
+- Provider: API-Supp
+- Official: no
+- Tags: whatsapp, messaging, mcp
+- Category: Communication and Productivity
+- Repository: https://github.com/yehudashtein/wa-bridge-mcp
+- License: MIT
+- Transport: stdio
+
 ### ArtiGram
 
 Publish, version and search AI-made HTML, React, SVG and Markdown artifacts as live pages on the ArtiGram community.
@@ -6038,6 +6052,24 @@ Generate and edit images, start and follow video and music jobs, list models wit
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://api.uberllm.dev/mcp
+
+### Varosity
+
+Video, images, voice and music for AI agents from one account: 78 models at the provider's list price with zero markup, a daily spend cap, and no charge for failed renders.
+
+- URL: https://varosity.ai/connect
+- Language: JavaScript
+- Provider: Varosity
+- Official: yes
+- Tags: video-generation, image-generation, text-to-speech, music-generation, remote
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/varosity-ai/mcp-server
+- License: MIT
+- Pricing: paid
+- Transport: stdio, streamable-http
+- Auth: oauth, api-key
+- Install: npx @varosity/mcp-server
+- Streamable HTTP endpoint: https://varosity.ai/api/mcp
 
 ### VideoGen MCP
 
