@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-788-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-789-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (98)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (93)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (94)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (36)
@@ -967,6 +967,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `video` `content-creation` `agents` `publishing`
 - **[Shotboard](https://github.com/freeman14/shotboard-mcp)** `Official` `TypeScript` — Local server built into the Shotboard Mac app: search Meta and TikTok ads, extract scripts from links, and generate images, video and audio on a canvas with 100 media models.  
   `image-generation` `video-generation` `ads` `macos`
+- **[SightRadar Face Recognition API MCP](https://github.com/sightradar-hq/sightradar-mcp)** `Official` `TypeScript` — Official MCP server for the SightRadar face recognition API: index photos, find every photo of a person from one selfie, compare and detect faces, and run batches.  
+  `face-recognition` `face-search` `computer-vision` `remote` `oauth`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
 - **[Speechyou MCP](https://speechyou.com/mcp)** `Official` `TypeScript` — Search and read voice notes and meeting transcripts from Claude, with full transcripts, AI summaries, tags, recent notes and audio links through read-only OAuth access.  

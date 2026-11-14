@@ -17032,5 +17032,39 @@
     "endpoints": {
       "streamableHttp": "https://pinnfeed.io/mcp"
     }
+  },
+  {
+    "name": "SightRadar Face Recognition API MCP",
+    "url": "https://github.com/sightradar-hq/sightradar-mcp",
+    "description": "Official MCP server for the SightRadar face recognition API: index photos, find every photo of a person from one selfie, compare and detect faces, and run batches.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "SightRadar",
+    "tags": [
+      "face-recognition",
+      "face-search",
+      "computer-vision",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/sightradar-hq/sightradar-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://mcp.sightradar.com/mcp"
+    },
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "sightradar-mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]

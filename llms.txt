@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 788 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 789 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -464,6 +464,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Selvedge](https://github.com/masondelan/selvedge): Local SQLite decision memory for coding agents to save and retrieve rationale, rejected approaches, and entity history. (Python)
 - [ShortSmash](https://github.com/hydope/shortsmash): MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms. (Python)
 - [Shotboard](https://github.com/freeman14/shotboard-mcp): Local server built into the Shotboard Mac app: search Meta and TikTok ads, extract scripts from links, and generate images, video and audio on a canvas with 100 media models. (TypeScript, official)
+- [SightRadar Face Recognition API MCP](https://github.com/sightradar-hq/sightradar-mcp): Official MCP server for the SightRadar face recognition API: index photos, find every photo of a person from one selfie, compare and detect faces, and run batches. (TypeScript, official)
 - [SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp): AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage. (JavaScript)
 - [Speechyou MCP](https://speechyou.com/mcp): Search and read voice notes and meeting transcripts from Claude, with full transcripts, AI summaries, tags, recent notes and audio links through read-only OAuth access. (TypeScript, official)
 - [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory): Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file. (Python)

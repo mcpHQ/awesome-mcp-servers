@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 788 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 789 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5577,6 +5577,23 @@ Local server built into the Shotboard Mac app: search Meta and TikTok ads, extra
 - Pricing: paid
 - Transport: streamable-http
 - Auth: none
+
+### SightRadar Face Recognition API MCP
+
+Official MCP server for the SightRadar face recognition API: index photos, find every photo of a person from one selfie, compare and detect faces, and run batches.
+
+- URL: https://github.com/sightradar-hq/sightradar-mcp
+- Language: TypeScript
+- Provider: SightRadar
+- Official: yes
+- Tags: face-recognition, face-search, computer-vision, remote, oauth
+- Category: AI, Agents, and Memory
+- License: MIT
+- Pricing: paid
+- Transport: stdio, streamable-http
+- Auth: oauth, api-key
+- Install: npx sightradar-mcp
+- Streamable HTTP endpoint: https://mcp.sightradar.com/mcp
 
 ### SigRank MCP
 
