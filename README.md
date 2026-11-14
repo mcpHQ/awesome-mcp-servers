@@ -1034,8 +1034,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `datadog` `metrics` `logs`
 - **[dbt MCP Server](https://github.com/dbt-labs/dbt-mcp)** `Official` `Python` — Run dbt models, tests, and documentation workflows via MCP.  
   `dbt` `analytics` `transform`
-- **[DC Hub](https://github.com/azmartone67/dchub-mcp-server)** `Official` `JavaScript` — Hosted MCP server and live data layer for data-center site selection: mapped power, grid, gas and fiber assets, daily DCPI scores for 300+ markets and live grid feeds from the seven US ISOs; free tier needs no key.  
-  `data-centers` `energy` `power-grid` `site-selection` `remote`
+- **[DC Hub](https://github.com/azmartone67/dchub-mcp-server)** `Official` `JavaScript` — Orchestration layer for data center and energy intelligence: start with execute_plan for electricity prices and power grid questions. Publishes the Data Center Power Index (DCPI) for 300+ markets; live grid feeds from the seven US ISOs. 96 tools at https://dchub.cloud/mcp. DCHUB_API_KEY is optional.  
+  `data-centers` `energy` `electricity` `electricity-prices` `power-grid` `site-selection` `remote`
 - **[Eigenheim Berlin Market Data](https://github.com/magicSEO/eigenheim-mcp)** `Official` `TypeScript` — Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.  
   `real-estate` `berlin` `market-data` `remote`
 - **[EventSend](https://eventsend.io/docs/mcp)** `Official` `Other` — Ask your AI about your product's events, delivery health and usage: search events, follow a customer's timeline, and see why a Slack, Discord or webhook notification failed. Read-only, over OAuth.  
