@@ -8140,6 +8140,30 @@
     ]
   },
   {
+    "name": "Bridgerator",
+    "url": "https://bridgerator.com",
+    "description": "Lets ChatGPT, Claude and other AI apps read and edit files, search folders and run PowerShell on your own Windows PC through an outbound-only relay, limited to folders you allow.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "windows",
+      "filesystem",
+      "powershell",
+      "chatgpt"
+    ],
+    "official": false,
+    "repository": "https://github.com/s-lexer/Bridgerator",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Clara by nOps",
     "url": "https://github.com/nops-io/clara-mcp",
     "description": "Official nOps FinOps assistant: query AWS, GCP and Azure cost and usage, Reserved Instance and Savings Plan performance, budgets, reports and anomalies over OAuth.",
