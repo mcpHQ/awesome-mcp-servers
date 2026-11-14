@@ -17582,5 +17582,31 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "OsmO Phone Calls",
+    "url": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+    "description": "OsmO's hosted MCP server places real phone calls to businesses and helplines after the user confirms, and returns the outcome, summary and transcript.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "OsmO AI",
+    "tags": [
+      "phone-calls",
+      "voice-agent",
+      "telephony",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.getosmo.app/mcp"
+    },
+    "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]

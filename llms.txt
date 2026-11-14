@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 809 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 810 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -345,6 +345,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [NoLimit MCP](https://github.com/sharpmagazine/nolimit-mcp): Self-hosted WordPress plugin exposing 60 MCP tools over Streamable HTTP with OAuth 2.1, letting AI clients manage posts, pages, media, users, comments and SEO. (PHP)
 - [NumRadar](https://numradar.app/mcp-server): Check WhatsApp registration for individual phone numbers, submit bulk validation jobs, and read validation allowances through a hosted Streamable HTTP server or the local npm package. (TypeScript, official)
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server. (TypeScript, official)
+- [OsmO Phone Calls](https://github.com/Mountainheads-Private-limited/osmo-ai-plugins): OsmO's hosted MCP server places real phone calls to businesses and helplines after the user confirms, and returns the outcome, summary and transcript. (Other, official)
 - [Outbound OS](https://github.com/RecepioHQ/outbound-os): Local MCP tools for evidence-gated email outreach with default-disabled live sending (JavaScript, official)
 - [Pallyy](https://pallyy.com/docs/api/mcp): Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks. (TypeScript, official)
 - [Paper Plane Post](https://paperplanepost.com/for/agents): Create and send an AI-illustrated postcard anywhere in the world (TypeScript, official)
