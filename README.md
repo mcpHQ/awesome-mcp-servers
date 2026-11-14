@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-814-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-817-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,15 +43,15 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (83)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (79)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (84)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (80)
 - [Filesystems and Documents](#filesystems-and-documents) (33)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (105)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (96)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
-- [Security and Identity](#security-and-identity) (37)
+- [Security and Identity](#security-and-identity) (38)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (173)
 - [Utilities and Examples](#utilities-and-examples) (42)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
@@ -296,6 +296,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `git` `source-control` `coding-agents`
 - **[UI Verify MCP Server](https://uiverify.ai/docs/triage-with-your-agent)** `Official` `TypeScript` — Review a pull request's visual diffs, read the AI judge's verdict on each change, and accept new baselines in UI Verify from a coding agent.  
   `visual-testing` `testing` `code-review` `api-key` `remote`
+- **[unslop](https://github.com/avivgerz-hue/unslop)** `TypeScript` — Design-craft linter with 72 rules for CSS, Tailwind and React that audits contrast, typography and spacing, exposed to MCP clients through 4 tools.  
+  `linter` `design` `css` `accessibility` `code-quality`
 - **[Vibe Monitor](https://github.com/tubban1/vibe-monitor)** `JavaScript` — Local architecture checkpoints for AI coding agents; read-only source analysis and practical advice (Node 22+; default-on pseudonymous telemetry, required for Free analysis).  
   `architecture` `code-quality` `ai-coding` `local`
 - **[vibe-testing](https://github.com/AishwaryShrivastav/vibe-testing)** `TypeScript` — Scan web app routes and forms, run Playwright browser checks, and produce HTML QA reports through a local MCP server.  
@@ -391,6 +393,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `google-search` `youtube` `transcripts` `research` `data-api`
 - **[GetYouTubeTranscript](https://github.com/tubeagentkit/youtube-mcp)** `Official` `JavaScript` — YouTube transcripts and data over MCP: fetch a video's captions (language choice, optional timestamps), search YouTube, and browse channels, playlists and related videos.  
   `youtube` `transcripts` `video` `search` `remote`
+- **[ghost-qa](https://github.com/avivgerz-hue/ghost-qa)** `TypeScript` — Headless Playwright QA for web apps that checks console errors, network failures, layout, accessibility and Core Web Vitals across desktop, tablet and mobile in light and dark themes, with a QA health score and regression diffing.  
+  `qa` `testing` `playwright` `accessibility` `browser-automation`
 - **[GoVisit Tools](https://govisit.ai/en/docs/developers/mcp/overview)** `Official` `Other` — Search destinations and places and read published travel information through a hosted, read-only MCP server.  
   `travel` `destinations` `places` `remote` `read-only`
 - **[HolicAudit website checks](https://audit.huutran.dev/mcp-server)** `Official` `JavaScript` — Hosted MCP server with free SEO, AI-crawler visibility (robots.txt, llms.txt, JSON-LD) and passive security-header checks for any URL.  
@@ -1322,6 +1326,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `security` `smart-contracts` `x402` `web3` `remote`
 - **[Vault MCP Server](https://github.com/hashicorp/vault-mcp-server)** `Official` `Go` — Read secrets and manage HashiCorp Vault policies via MCP.  
   `secrets` `vault` `security`
+- **[vibe-shield](https://github.com/avivgerz-hue/vibe-shield)** `TypeScript` — Static security scanner with 92 rules for AI-generated codebases, covering secrets, authentication, injection, Supabase and database misconfiguration, and agent skill or MCP config poisoning, exposed through an MCP subcommand.  
+  `security` `static-analysis` `secrets` `supabase` `ai-generated-code`
 - **[Vulnerability Exposure](https://github.com/MRFrazer25/Vulnerability-Exposure-MCP)** `Python` — Checks public IPs, domains, CVE IDs and software versions for confirmed vulnerabilities using NVD version ranges, CISA KEV, EPSS, distro backports and Shodan, with all API keys optional.  
   `vulnerabilities` `cve` `threat-intelligence` `osint` `nvd`
 - **[Vulnify](https://docs.vulnify.io/mcp/)** `Official` `TypeScript` — MCP server that checks an agent action and returns ALLOW, REVIEW or BLOCK before it runs; hosted with OAuth or local stdio. ([source](https://github.com/vulnify/vulnify-mcp))  

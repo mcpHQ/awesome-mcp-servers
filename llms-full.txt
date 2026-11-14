@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 814 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 817 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1349,6 +1349,22 @@ Review a pull request's visual diffs, read the AI judge's verdict on each change
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://uiverify.ai/api/mcp
 
+### unslop
+
+Design-craft linter with 72 rules for CSS, Tailwind and React that audits contrast, typography and spacing, exposed to MCP clients through 4 tools.
+
+- URL: https://github.com/avivgerz-hue/unslop
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: linter, design, css, accessibility, code-quality
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx unslop-mcp
+
 ### Vibe Monitor
 
 Local architecture checkpoints for AI coding agents; read-only source analysis and practical advice (Node 22+; default-on pseudonymous telemetry, required for Free analysis).
@@ -1919,6 +1935,22 @@ YouTube transcripts and data over MCP: fetch a video's captions (language choice
 - Category: Browsers, Search, and Web Automation
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://getyoutubetranscript.com/api/mcp
+
+### ghost-qa
+
+Headless Playwright QA for web apps that checks console errors, network failures, layout, accessibility and Core Web Vitals across desktop, tablet and mobile in light and dark themes, with a QA health score and regression diffing.
+
+- URL: https://github.com/avivgerz-hue/ghost-qa
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: qa, testing, playwright, accessibility, browser-automation
+- Category: Browsers, Search, and Web Automation
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx ghost-qa
 
 ### GoVisit Tools
 
@@ -7874,6 +7906,22 @@ Read secrets and manage HashiCorp Vault policies via MCP.
 - Official: yes
 - Tags: secrets, vault, security
 - Category: Security and Identity
+
+### vibe-shield
+
+Static security scanner with 92 rules for AI-generated codebases, covering secrets, authentication, injection, Supabase and database misconfiguration, and agent skill or MCP config poisoning, exposed through an MCP subcommand.
+
+- URL: https://github.com/avivgerz-hue/vibe-shield
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: security, static-analysis, secrets, supabase, ai-generated-code
+- Category: Security and Identity
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx @vibefoundry/vibe-shield
 
 ### Vulnerability Exposure
 

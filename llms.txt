@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 814 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 817 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -131,6 +131,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Tavero](https://github.com/baccaraaa/tavero): Scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors, and spacing, and returns fixes with file and line references to the coding agent. (TypeScript)
 - [TreeHarbor MCP](https://github.com/ArtAndrew/TreeHarbor/blob/v0.1.19-alpha.1/docs/mcp.md): Read files at a pinned Git revision and submit changes that survive workspace cleanup through a local TreeHarbor service. (Rust, official)
 - [UI Verify MCP Server](https://uiverify.ai/docs/triage-with-your-agent): Review a pull request's visual diffs, read the AI judge's verdict on each change, and accept new baselines in UI Verify from a coding agent. (TypeScript, official)
+- [unslop](https://github.com/avivgerz-hue/unslop): Design-craft linter with 72 rules for CSS, Tailwind and React that audits contrast, typography and spacing, exposed to MCP clients through 4 tools. (TypeScript)
 - [Vibe Monitor](https://github.com/tubban1/vibe-monitor): Local architecture checkpoints for AI coding agents; read-only source analysis and practical advice (Node 22+; default-on pseudonymous telemetry, required for Free analysis). (JavaScript)
 - [vibe-testing](https://github.com/AishwaryShrivastav/vibe-testing): Scan web app routes and forms, run Playwright browser checks, and produce HTML QA reports through a local MCP server. (TypeScript)
 - [xmcp](https://xmcp.dev): Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server. (TypeScript, official)
@@ -178,6 +179,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server): Scrape, crawl, and extract structured web data with Firecrawl. (TypeScript, official)
 - [FlashData Google Search and YouTube Data](https://github.com/rocosen/flashdata-mcp): Google vertical search and YouTube search, transcripts, captions, metadata, channels, autocomplete, license labels and async media delivery via MCP; data calls require a FlashData API key and paid Credits. (TypeScript, official)
 - [GetYouTubeTranscript](https://github.com/tubeagentkit/youtube-mcp): YouTube transcripts and data over MCP: fetch a video's captions (language choice, optional timestamps), search YouTube, and browse channels, playlists and related videos. (JavaScript, official)
+- [ghost-qa](https://github.com/avivgerz-hue/ghost-qa): Headless Playwright QA for web apps that checks console errors, network failures, layout, accessibility and Core Web Vitals across desktop, tablet and mobile in light and dark themes, with a QA health score and regression diffing. (TypeScript)
 - [GoVisit Tools](https://govisit.ai/en/docs/developers/mcp/overview): Search destinations and places and read published travel information through a hosted, read-only MCP server. (Other, official)
 - [HolicAudit website checks](https://audit.huutran.dev/mcp-server): Hosted MCP server with free SEO, AI-crawler visibility (robots.txt, llms.txt, JSON-LD) and passive security-header checks for any URL. (JavaScript, official)
 - [Hyperresearch](https://hyperresearch.ai/docs/mcp): Hyperresearch is an AI deep research API. One question in, an adversarially reviewed report out, cited claims checked against their sources. (Other, official)
@@ -640,6 +642,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Sunglasses](https://github.com/sunglasses-dev/sunglasses): Scans text and files locally for prompt injection, credential leaks and data exfiltration; runs as a CLI, a Python API or an MCP server (python -m sunglasses.mcp). (Python)
 - [Tanod](https://tanod.dev): Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base). (Python, official)
 - [Vault MCP Server](https://github.com/hashicorp/vault-mcp-server): Read secrets and manage HashiCorp Vault policies via MCP. (Go, official)
+- [vibe-shield](https://github.com/avivgerz-hue/vibe-shield): Static security scanner with 92 rules for AI-generated codebases, covering secrets, authentication, injection, Supabase and database misconfiguration, and agent skill or MCP config poisoning, exposed through an MCP subcommand. (TypeScript)
 - [Vulnerability Exposure](https://github.com/MRFrazer25/Vulnerability-Exposure-MCP): Checks public IPs, domains, CVE IDs and software versions for confirmed vulnerabilities using NVD version ranges, CISA KEV, EPSS, distro backports and Shodan, with all API keys optional. (Python)
 - [Vulnify](https://docs.vulnify.io/mcp/): MCP server that checks an agent action and returns ALLOW, REVIEW or BLOCK before it runs; hosted with OAuth or local stdio. (TypeScript, official)
 - [Wiz MCP Server](https://www.wiz.io/blog/introducing-mcp-server-for-wiz): Cloud security posture management and risk insights from Wiz. (TypeScript, official)

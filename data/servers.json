@@ -17716,5 +17716,92 @@
     "endpoints": {
       "streamableHttp": "https://www.aylistcle.com/api/mcp/mcp"
     }
+  },
+  {
+    "name": "vibe-shield",
+    "url": "https://github.com/avivgerz-hue/vibe-shield",
+    "description": "Static security scanner with 92 rules for AI-generated codebases, covering secrets, authentication, injection, Supabase and database misconfiguration, and agent skill or MCP config poisoning, exposed through an MCP subcommand.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "security",
+      "static-analysis",
+      "secrets",
+      "supabase",
+      "ai-generated-code"
+    ],
+    "official": false,
+    "repository": "https://github.com/avivgerz-hue/vibe-shield",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@vibefoundry/vibe-shield"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "ghost-qa",
+    "url": "https://github.com/avivgerz-hue/ghost-qa",
+    "description": "Headless Playwright QA for web apps that checks console errors, network failures, layout, accessibility and Core Web Vitals across desktop, tablet and mobile in light and dark themes, with a QA health score and regression diffing.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "qa",
+      "testing",
+      "playwright",
+      "accessibility",
+      "browser-automation"
+    ],
+    "official": false,
+    "repository": "https://github.com/avivgerz-hue/ghost-qa",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "ghost-qa"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "unslop",
+    "url": "https://github.com/avivgerz-hue/unslop",
+    "description": "Design-craft linter with 72 rules for CSS, Tailwind and React that audits contrast, typography and spacing, exposed to MCP clients through 4 tools.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "linter",
+      "design",
+      "css",
+      "accessibility",
+      "code-quality"
+    ],
+    "official": false,
+    "repository": "https://github.com/avivgerz-hue/unslop",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "unslop-mcp"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]
