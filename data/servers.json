@@ -4448,6 +4448,35 @@
     ]
   },
   {
+    "name": "Linkedcamp",
+    "url": "https://docs.linkedcamp.com/mcp/overview",
+    "description": "Hosted MCP server for Linkedcamp LinkedIn and email outreach: campaigns, unified inbox, leads and analytics in 133 tools across 15 groups; OAuth 2.1 or API key, paid plans from $79/mo with a 14-day free trial.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Linkedcamp",
+    "tags": [
+      "linkedin",
+      "outreach",
+      "lead-generation",
+      "email",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/LinkedCamp/linkedcamp-mcp",
+    "endpoints": {
+      "streamableHttp": "https://mcp.linkedcamp.com/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "LinkMCP",
     "url": "https://app.linkmcp.io",
     "description": "Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial.",
