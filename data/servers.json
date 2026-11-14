@@ -17094,5 +17094,32 @@
       "none",
       "api-key"
     ]
+  },
+  {
+    "name": "Audo",
+    "url": "https://audo.ai/docs/mcp",
+    "description": "Audio and video creation and editing tools for AI agents: speech generation, voice cloning and changing, cleanup, transcription, and captions.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "Audo AI LLC",
+    "tags": [
+      "audio",
+      "video",
+      "transcription",
+      "editing"
+    ],
+    "official": true,
+    "repository": "https://github.com/audo-ai/audo-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://audo.ai/mcp"
+    }
   }
 ]
