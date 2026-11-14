@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-833-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-834-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (99)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (93)
 - [Legal and Court Data](#legal-and-court-data) (10)
-- [Security and Identity](#security-and-identity) (38)
+- [Security and Identity](#security-and-identity) (39)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (178)
 - [Utilities and Examples](#utilities-and-examples) (43)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
@@ -1302,6 +1302,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `pentest` `vulnerabilities` `security` `stdio`
 - **[Domain Mail Check](https://tools.openkrill.app/#mailcheck)** `Official` `TypeScript` — Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.  
   `email` `dns` `dmarc` `deliverability`
+- **[Excession Labs CVE Intelligence](https://excessionlabs.ai/cve-intelligence/)** `Official` `TypeScript` — Read-only CVE intelligence tools with CISA KEV and FIRST EPSS data and source version evidence; a keyless CVE-only endpoint is available and a separate action needs an agent key.  
+  `cve` `vulnerabilities` `threat-intelligence` `security-research` `remote`
 - **[FractalAI Agent Passport](https://www.npmjs.com/package/@fractalai/agent-passport-mcp)** `Official` `TypeScript` — Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts.  
   `post-quantum` `ml-dsa` `x402` `identity` `receipts`
 - **[GridZen Verification](https://github.com/immurray/gridzen-developer-kit/blob/main/llms-install.md)** `Official` `Python` — Research and synthetic MCP tools for planning identity-verification coverage and exercising sandbox decision results, not live identity verification. ([source](https://github.com/immurray/gridzen-developer-kit))  

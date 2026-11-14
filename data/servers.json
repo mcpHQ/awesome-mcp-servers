@@ -18231,5 +18231,31 @@
     "endpoints": {
       "streamableHttp": "https://app.apparent.fyi/mcp"
     }
+  },
+  {
+    "name": "Excession Labs CVE Intelligence",
+    "url": "https://excessionlabs.ai/cve-intelligence/",
+    "description": "Read-only CVE intelligence tools with CISA KEV and FIRST EPSS data and source version evidence; a keyless CVE-only endpoint is available and a separate action needs an agent key.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Excession Labs",
+    "tags": [
+      "cve",
+      "vulnerabilities",
+      "threat-intelligence",
+      "security-research",
+      "remote"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://excessionlabs.ai/mcp"
+    }
   }
 ]

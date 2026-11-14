@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 833 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 834 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7774,6 +7774,20 @@ Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will ac
 - Category: Security and Identity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mailcheck.openkrill.app/mcp
+
+### Excession Labs CVE Intelligence
+
+Read-only CVE intelligence tools with CISA KEV and FIRST EPSS data and source version evidence; a keyless CVE-only endpoint is available and a separate action needs an agent key.
+
+- URL: https://excessionlabs.ai/cve-intelligence/
+- Language: TypeScript
+- Provider: Excession Labs
+- Official: yes
+- Tags: cve, vulnerabilities, threat-intelligence, security-research, remote
+- Category: Security and Identity
+- Transport: streamable-http
+- Auth: none, api-key
+- Streamable HTTP endpoint: https://excessionlabs.ai/mcp
 
 ### FractalAI Agent Passport
 
