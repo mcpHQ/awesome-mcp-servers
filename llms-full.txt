@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 772 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 773 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7266,6 +7266,22 @@ Python library that adds permission tiers, fail-closed human approval gates and 
 - Official: no
 - Tags: security, audit-log, permissions, human-in-the-loop, python
 - Category: Security and Identity
+
+### mcp-slim
+
+Token optimizer and real-time secret firewall for Model Context Protocol traffic with pre-flight schema validation, Unicode smuggling shield, and SARIF audit export.
+
+- URL: https://github.com/SalyyS1/mcp-slim
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: security, proxy, firewall, optimization
+- Category: Security and Identity
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: uvx mcp-slim
 
 ### NPMScan
 

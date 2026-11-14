@@ -8140,6 +8140,34 @@
     ]
   },
   {
+    "name": "mcp-slim",
+    "url": "https://github.com/SalyyS1/mcp-slim",
+    "description": "Token optimizer and real-time secret firewall for Model Context Protocol traffic with pre-flight schema validation, Unicode smuggling shield, and SARIF audit export.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "security",
+      "proxy",
+      "firewall",
+      "optimization"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/mcp-slim",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "mcp-slim"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Clara by nOps",
     "url": "https://github.com/nops-io/clara-mcp",
     "description": "Official nOps FinOps assistant: query AWS, GCP and Azure cost and usage, Reserved Instance and Savings Plan performance, budgets, reports and anomalies over OAuth.",
