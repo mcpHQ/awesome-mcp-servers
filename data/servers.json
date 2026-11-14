@@ -17006,5 +17006,31 @@
     "endpoints": {
       "streamableHttp": "https://api.polidict.com/mcp"
     }
+  },
+  {
+    "name": "PinnFeed",
+    "url": "https://pinnfeed.io/docs/mcp",
+    "description": "Hosted Streamable HTTP MCP for live and prematch Pinnacle odds, no-vig fair prices, drops and closing lines, with a free plan.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "PinnFeed",
+    "tags": [
+      "sports",
+      "odds",
+      "mcp",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/pinnfeed/pinnfeed-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://pinnfeed.io/mcp"
+    }
   }
 ]

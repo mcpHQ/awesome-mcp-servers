@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 787 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 788 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6627,6 +6627,22 @@ Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps payin
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.peekpanda.com/mcp
+
+### PinnFeed
+
+Hosted Streamable HTTP MCP for live and prematch Pinnacle odds, no-vig fair prices, drops and closing lines, with a free plan.
+
+- URL: https://pinnfeed.io/docs/mcp
+- Language: Other
+- Provider: PinnFeed
+- Official: yes
+- Tags: sports, odds, mcp, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/pinnfeed/pinnfeed-mcp
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://pinnfeed.io/mcp
 
 ### PreReason
 

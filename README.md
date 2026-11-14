@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-787-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-788-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (98)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (93)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (90)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (36)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (169)
@@ -1128,6 +1128,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `bjj` `gyms` `maps` `travel` `remote`
 - **[PeekPanda](https://github.com/fdarkaou/peekpanda-mcp)** `Official` `Other` — Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps paying for, the App Store searches it ranks for and the organic posts that went viral.  
   `ios` `app-store` `aso` `ads` `remote`
+- **[PinnFeed](https://pinnfeed.io/docs/mcp)** `Official` `Other` — Hosted Streamable HTTP MCP for live and prematch Pinnacle odds, no-vig fair prices, drops and closing lines, with a free plan. ([source](https://github.com/pinnfeed/pinnfeed-mcp))  
+  `sports` `odds` `mcp` `remote`
 - **[PreReason](https://github.com/PreReason/mcp)** `Official` `JavaScript` — Financial market context for AI agents, reasoned in advance, from the economy and markets to listed companies' reported results; remote Streamable HTTP or npm stdio bridge.  
   `finance` `markets` `economics` `remote`
 - **[Proofsource](https://proofsource.co/docs/chatgpt-and-claude)** `Official` `Go` — Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth.  
