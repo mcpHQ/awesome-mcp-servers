@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-801-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-802-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (76)
 - [Filesystems and Documents](#filesystems-and-documents) (32)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
-- [Communication and Productivity](#communication-and-productivity) (101)
+- [Communication and Productivity](#communication-and-productivity) (102)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (94)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -686,6 +686,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `voice` `sms` `email` `remote`
 - **[HeyReagent](https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing)** `Official` `JavaScript` — Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send messages and connection invitations, search people, and read profiles and posts; OAuth or API key, free plan available. Not affiliated with LinkedIn.  
   `linkedin` `sales` `remote` `oauth`
+- **[Impulse](https://www.impulse-interactive.com/product/mcp-server)** `Official` `Other` — Hosted MCP for Impulse event pages, emails, guests, and check-in. ([source](https://github.com/impul-co/impulse-mcp))  
+  `events` `registration` `email` `guests` `check-in`
 - **[InsertChat](https://insertchat.com)** `Official` `TypeScript` — AI receptionist and AI chatbot: triage calls and chats that need you, draft replies, look up leads, review reports, and train your assistant on web pages.  
   `customer-support` `receptionist` `crm` `remote` `oauth`
 - **[KanbanMCP](https://kanbanmcp.com/docs/connect)** `Official` `Other` — Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes.  

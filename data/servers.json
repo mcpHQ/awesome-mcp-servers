@@ -17375,5 +17375,31 @@
       "streamable-http"
     ],
     "url": "https://seobolt.app"
+  },
+  {
+    "name": "Impulse",
+    "url": "https://www.impulse-interactive.com/product/mcp-server",
+    "description": "Hosted MCP for Impulse event pages, emails, guests, and check-in.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Impulse Interactive",
+    "tags": [
+      "events",
+      "registration",
+      "email",
+      "guests",
+      "check-in"
+    ],
+    "official": true,
+    "repository": "https://github.com/impul-co/impulse-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.impul.co/mcp"
+    }
   }
 ]
