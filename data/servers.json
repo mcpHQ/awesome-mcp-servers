@@ -16952,5 +16952,32 @@
     "endpoints": {
       "streamableHttp": "https://wavegrain.com/api/mcp"
     }
+  },
+  {
+    "name": "OpenCart Greece",
+    "url": "https://eshop.opencartgreece.gr/mcp",
+    "description": "Searches the OpenCart Greece catalog of OpenCart extensions, themes and services and returns prices, options, categories and store details. Read-only, no sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "OpenCart Greece",
+    "tags": [
+      "opencart",
+      "ecommerce",
+      "extensions",
+      "catalog",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://eshop.opencartgreece.gr/mcp"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]

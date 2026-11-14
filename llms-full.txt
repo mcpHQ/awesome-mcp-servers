@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 785 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 786 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9043,6 +9043,22 @@ Non-custodial Hyperliquid perps execution for AI agents: pre-trade limits, human
 - Transport: stdio
 - Auth: none
 - Install: uvx omx-hyperliquid
+
+### OpenCart Greece
+
+Searches the OpenCart Greece catalog of OpenCart extensions, themes and services and returns prices, options, categories and store details. Read-only, no sign-in.
+
+- URL: https://eshop.opencartgreece.gr/mcp
+- Language: PHP
+- Provider: OpenCart Greece
+- Official: yes
+- Tags: opencart, ecommerce, extensions, catalog, remote
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://eshop.opencartgreece.gr/mcp
 
 ### Orizn Visa
 
