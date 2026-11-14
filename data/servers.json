@@ -17554,5 +17554,33 @@
     "auth": [
       "api-key"
     ]
+  },
+  {
+    "name": "Compare the Cloud",
+    "url": "https://mcp.comparethecloud.net",
+    "description": "Read-only UK B2B technology provider directory (20,000+ cloud, MSP, cybersecurity and AI vendors) with Compare the Cloud articles, news and expert opinion, through 10 search and lookup tools.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Compare the Cloud",
+    "tags": [
+      "directory",
+      "b2b",
+      "uk",
+      "cloud",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/danielctc/comparethecloud-mcp",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.comparethecloud.net/mcp"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]

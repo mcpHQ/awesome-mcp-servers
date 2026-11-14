@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 808 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 809 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1759,6 +1759,23 @@ Read-only MCP server for the CodeTrendy startup discovery directory: search 682 
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://codetrendy.com/api/mcp
+
+### Compare the Cloud
+
+Read-only UK B2B technology provider directory (20,000+ cloud, MSP, cybersecurity and AI vendors) with Compare the Cloud articles, news and expert opinion, through 10 search and lookup tools.
+
+- URL: https://mcp.comparethecloud.net
+- Language: TypeScript
+- Provider: Compare the Cloud
+- Official: yes
+- Tags: directory, b2b, uk, cloud, remote
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/danielctc/comparethecloud-mcp
+- License: Apache-2.0
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://mcp.comparethecloud.net/mcp
 
 ### ContHunt
 

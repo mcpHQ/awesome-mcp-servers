@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 808 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 809 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -166,6 +166,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [CloakBrowser MCP](https://github.com/swimmwatch/cloakbrowser-mcp): Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics. (TypeScript)
 - [Cluefinch MCP](https://github.com/cluefinch/mcp-server): Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection. (Python, official)
 - [CodeTrendy](https://codetrendy.com/mcp): Read-only MCP server for the CodeTrendy startup discovery directory: search 682 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account. (TypeScript, official)
+- [Compare the Cloud](https://mcp.comparethecloud.net): Read-only UK B2B technology provider directory (20,000+ cloud, MSP, cybersecurity and AI vendors) with Compare the Cloud articles, news and expert opinion, through 10 search and lookup tools. (TypeScript, official)
 - [ContHunt](https://github.com/Synthenova/conthunt-mcp): Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts. (Other, official)
 - [crawlbrulee mcp server](https://github.com/crawlbrulee/crawlbrulee-mcp): Scrape any page into clean markdown, screenshots, metadata and links, or map a site's urls, with an EU-hosted web scraping api. (TypeScript, official)
 - [crawlerpeek](https://github.com/crawlerpeek/crawlerpeek): Check whether AI crawlers such as GPTBot, ClaudeBot and PerplexityBot can access a URL: robots.txt rules per bot (RFC 9309) plus the live HTTP status fetched with each bot's user agent. (TypeScript)

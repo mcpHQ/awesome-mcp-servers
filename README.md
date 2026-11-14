@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-808-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-809-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (83)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (77)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (78)
 - [Filesystems and Documents](#filesystems-and-documents) (32)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (103)
@@ -367,6 +367,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `deep-research` `web-search` `research` `ai-agents` `local-first`
 - **[CodeTrendy](https://codetrendy.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the CodeTrendy startup discovery directory: search 682 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
   `search` `directory` `startups` `remote`
+- **[Compare the Cloud](https://mcp.comparethecloud.net)** `Official` `TypeScript` — Read-only UK B2B technology provider directory (20,000+ cloud, MSP, cybersecurity and AI vendors) with Compare the Cloud articles, news and expert opinion, through 10 search and lookup tools. ([source](https://github.com/danielctc/comparethecloud-mcp))  
+  `directory` `b2b` `uk` `cloud` `remote`
 - **[ContHunt](https://github.com/Synthenova/conthunt-mcp)** `Official` `Other` — Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.  
   `social` `content` `research` `tiktok`
 - **[crawlbrulee mcp server](https://github.com/crawlbrulee/crawlbrulee-mcp)** `Official` `TypeScript` — Scrape any page into clean markdown, screenshots, metadata and links, or map a site's urls, with an EU-hosted web scraping api.  
