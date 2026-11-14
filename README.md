@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-773-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-780-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,12 +47,12 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (74)
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
-- [Communication and Productivity](#communication-and-productivity) (94)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (91)
+- [Communication and Productivity](#communication-and-productivity) (95)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (93)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (87)
 - [Legal and Court Data](#legal-and-court-data) (10)
-- [Security and Identity](#security-and-identity) (35)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (167)
+- [Security and Identity](#security-and-identity) (36)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (168)
 - [Utilities and Examples](#utilities-and-examples) (39)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -704,6 +704,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `jobs` `career` `resume` `oauth` `remote`
 - **[Nitrosend](https://docs.nitrosend.com/mcp)** `Official` `Ruby` — Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.  
   `email-marketing` `campaigns` `automation` `transactional-email` `oauth`
+- **[NoLimit MCP](https://github.com/sharpmagazine/nolimit-mcp)** `PHP` — Self-hosted WordPress plugin exposing 60 MCP tools over Streamable HTTP with OAuth 2.1, letting AI clients manage posts, pages, media, users, comments and SEO.  
+  `wordpress` `cms` `websites` `oauth` `remote`
 - **[NumRadar](https://numradar.app/mcp-server)** `Official` `TypeScript` — Check WhatsApp registration for individual phone numbers, submit bulk validation jobs, and read validation allowances through a hosted Streamable HTTP server or the local npm package.  
   `whatsapp` `phone-validation` `bulk-validation`
 - **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `Official` `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
@@ -921,6 +923,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `agents` `collaboration` `tasks` `encrypted`
 - **[OpenAI MCP Bridge](https://github.com/jaspertvdm/mcp-server-openai-bridge)** `Python` — Bridge OpenAI GPT models into MCP-compatible agent workflows.  
   `openai` `gpt` `inference`
+- **[OpenAny](https://openany.si/mcp/)** `Official` `Go` — The B2A (business to agent) marketplace. One MCP endpoint for 3,200+ APIs and 168+ AI models. Browse free; pay per call. ([source](https://github.com/openanysi/openany-mcp))  
+  `marketplace` `apis` `models` `remote`
 - **[ORANO](https://oranoai.com/mcp)** `Official` `Python` — Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.  
   `memory` `knowledge` `video` `remote`
 - **[Phasoric](https://developers.phasoric.com/mcp-client-setup)** `Official` `JavaScript` — Search, read, and safely update Markdown notes in explicitly connected Phasoric knowledge vaults.  
@@ -1246,6 +1250,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `trust` `receipts` `agents` `security`
 - **[mcp-gatehouse](https://github.com/nickgeorgeseo/mcp-gatehouse)** `Python` — Python library that adds permission tiers, fail-closed human approval gates and a secret-redacting JSONL audit log to MCP servers built on the official SDK.  
   `security` `audit-log` `permissions` `human-in-the-loop` `python`
+- **[mcp-slim](https://github.com/SalyyS1/mcp-slim)** `Python` — Token optimizer and real-time secret firewall for Model Context Protocol traffic with pre-flight schema validation, Unicode smuggling shield, and SARIF audit export.  
+  `security` `proxy` `firewall` `optimization`
 - **[NPMScan](https://npmscan.com/docs/mcp)** `Official` `TypeScript` — Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs.  
   `npm` `supply-chain` `vulnerabilities` `malware` `remote`
 - **[OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check)** `Official` `Go` — Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows.  
