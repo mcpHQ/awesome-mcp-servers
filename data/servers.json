@@ -17663,5 +17663,31 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "agentdrive",
+    "url": "https://useagentdrive.com",
+    "description": "Hosted persistent file storage for AI agents: save, list, read and delete files, each with a browser link a person can open.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "agentdrive",
+    "tags": [
+      "files",
+      "storage",
+      "file-sharing",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/plsoulie/agentdrive",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://useagentdrive.com/mcp"
+    },
+    "auth": [
+      "oauth"
+    ]
   }
 ]

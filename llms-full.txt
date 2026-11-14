@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 811 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 813 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2202,6 +2202,23 @@ Search 500+ ready-made web scrapers, run them in the cloud and read their struct
 - Install: uvx scrapely-mcp
 - Streamable HTTP endpoint: https://mcp.scrape.ly
 
+### Scrapewise MCP
+
+Hosted MCP server for clean, matched product and price data from any shop or Amazon, with Google search, page fetch and scraper building.
+
+- URL: https://scrapewise.ai/mcp
+- Language: Other
+- Provider: Scrapewise
+- Official: yes
+- Tags: scraping, price-monitoring, product-data, e-commerce
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/BEBOTECH-OU/scrapewise-mcp
+- License: MIT
+- Pricing: paid
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://mcp.scrapewise.ai/mcp
+
 ### ScrapingBee MCP Server
 
 Fetch any page as text, markdown, HTML or a screenshot with JavaScript rendering and anti-bot handling, extract structured data, and get Google, Amazon, Walmart and YouTube results as JSON.
@@ -2451,6 +2468,22 @@ Buy-once Windows PDF and Excel tools with no subscription: 36 offline PDF comman
 - Category: Filesystems and Documents
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://getwold.com/mcp
+
+### agentdrive
+
+Hosted persistent file storage for AI agents: save, list, read and delete files, each with a browser link a person can open.
+
+- URL: https://useagentdrive.com
+- Language: TypeScript
+- Provider: agentdrive
+- Official: yes
+- Tags: files, storage, file-sharing, remote
+- Category: Filesystems and Documents
+- Repository: https://github.com/plsoulie/agentdrive
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://useagentdrive.com/mcp
 
 ### AIAgentCycle MCP Server
 

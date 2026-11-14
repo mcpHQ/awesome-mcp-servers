@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 811 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 813 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -198,6 +198,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Rolês em SP](https://rolesemsp.com.br/connect.md): Curated São Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth. (JavaScript, official)
 - [Ruin Everything](https://github.com/yuki4266/ruin-everything): Inspects application verification prompts in local Chrome and retrieves saved Ashby submission receipts by job URL. (Python)
 - [Scrape.ly](https://scrape.ly/docs/mcp): Search 500+ ready-made web scrapers, run them in the cloud and read their structured results, logs and datasets. (Python, official)
+- [Scrapewise MCP](https://scrapewise.ai/mcp): Hosted MCP server for clean, matched product and price data from any shop or Amazon, with Google search, page fetch and scraper building. (Other, official)
 - [ScrapingBee MCP Server](https://mcp.scrapingbee.com/): Fetch any page as text, markdown, HTML or a screenshot with JavaScript rendering and anti-bot handling, extract structured data, and get Google, Amazon, Walmart and YouTube results as JSON. (Python, official)
 - [Selan MCP Extension](https://selan.ai/browser?utm_source=mcphq&utm_medium=directory&utm_campaign=extension-mcp): Chrome extension plus hosted MCP server that lets MCP clients open and use tabs in your own signed-in Chrome, only in its own tab group and only on sites you allow; free, no account. (Other, official)
 - [Shortform Kit](https://shortformkit.com/mcp-server/): Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key. (Python, official)
@@ -219,6 +220,7 @@ Links under each category point at the upstream project, docs, or registry page.
 ## Filesystems and Documents
 
 - [3Q Tools](https://getwold.com): Buy-once Windows PDF and Excel tools with no subscription: 36 offline PDF commands and 8 auto-calculating spreadsheet templates, each with a direct checkout link. (JavaScript, official)
+- [agentdrive](https://useagentdrive.com): Hosted persistent file storage for AI agents: save, list, read and delete files, each with a browser link a person can open. (TypeScript, official)
 - [AIAgentCycle MCP Server](https://aiagentcycle.com): Read-only, source-linked access to AIAgentCycle services, prices, integrations, cases, FAQs and company knowledge in Dutch and English. (Python, official)
 - [Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server): Read and write Airtable bases, tables, and records via MCP. (TypeScript)
 - [Audo](https://audo.ai/docs/mcp): Audio and video creation and editing tools for AI agents: speech generation, voice cloning and changing, cleanup, transcription, and captions. (TypeScript, official)

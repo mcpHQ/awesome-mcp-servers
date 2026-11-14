@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-811-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-813-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,8 +44,8 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (83)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (78)
-- [Filesystems and Documents](#filesystems-and-documents) (32)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (79)
+- [Filesystems and Documents](#filesystems-and-documents) (33)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (105)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (96)
@@ -431,6 +431,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `chrome` `browser-automation` `playwright`
 - **[Scrape.ly](https://scrape.ly/docs/mcp)** `Official` `Python` — Search 500+ ready-made web scrapers, run them in the cloud and read their structured results, logs and datasets. ([source](https://github.com/scrapely-app/scrapely-mcp))  
   `web-scraping` `data-extraction` `scrapers` `remote` `oauth`
+- **[Scrapewise MCP](https://scrapewise.ai/mcp)** `Official` `Other` — Hosted MCP server for clean, matched product and price data from any shop or Amazon, with Google search, page fetch and scraper building. ([source](https://github.com/BEBOTECH-OU/scrapewise-mcp))  
+  `scraping` `price-monitoring` `product-data` `e-commerce`
 - **[ScrapingBee MCP Server](https://mcp.scrapingbee.com/)** `Official` `Python` — Fetch any page as text, markdown, HTML or a screenshot with JavaScript rendering and anti-bot handling, extract structured data, and get Google, Amazon, Walmart and YouTube results as JSON. ([source](https://github.com/ScrapingBee/mcp-server))  
   `scraping` `web` `search` `extraction` `remote`
 - **[Selan MCP Extension](https://selan.ai/browser?utm_source=mcphq&utm_medium=directory&utm_campaign=extension-mcp)** `Official` `Other` — Chrome extension plus hosted MCP server that lets MCP clients open and use tabs in your own signed-in Chrome, only in its own tab group and only on sites you allow; free, no account.  
@@ -474,6 +476,8 @@ Read and write files, convert documents, and connect to knowledge bases.
 
 - **[3Q Tools](https://getwold.com)** `Official` `JavaScript` — Buy-once Windows PDF and Excel tools with no subscription: 36 offline PDF commands and 8 auto-calculating spreadsheet templates, each with a direct checkout link.  
   `pdf` `excel` `documents` `offline` `remote`
+- **[agentdrive](https://useagentdrive.com)** `Official` `TypeScript` — Hosted persistent file storage for AI agents: save, list, read and delete files, each with a browser link a person can open. ([source](https://github.com/plsoulie/agentdrive))  
+  `files` `storage` `file-sharing` `remote`
 - **[AIAgentCycle MCP Server](https://aiagentcycle.com)** `Official` `Python` — Read-only, source-linked access to AIAgentCycle services, prices, integrations, cases, FAQs and company knowledge in Dutch and English. ([source](https://github.com/aiagentcycle/aiagentcycle-mcp))  
   `company-knowledge` `automation` `integrations` `read-only` `remote`
 - **[Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server)** `TypeScript` — Read and write Airtable bases, tables, and records via MCP.  
