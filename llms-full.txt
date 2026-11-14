@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 772 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 773 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3680,6 +3680,23 @@ Hosted kanban board with a remote MCP server where AI agents claim cards, check 
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://kanbanmcp.com/
+
+### Linkedcamp
+
+Hosted MCP server for Linkedcamp LinkedIn and email outreach: campaigns, unified inbox, leads and analytics in 133 tools across 15 groups; OAuth 2.1 or API key, paid plans from $79/mo with a 14-day free trial.
+
+- URL: https://docs.linkedcamp.com/mcp/overview
+- Language: Other
+- Provider: Linkedcamp
+- Official: yes
+- Tags: linkedin, outreach, lead-generation, email, remote
+- Category: Communication and Productivity
+- Repository: https://github.com/LinkedCamp/linkedcamp-mcp
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.linkedcamp.com/mcp
 
 ### LinkedNav
 
