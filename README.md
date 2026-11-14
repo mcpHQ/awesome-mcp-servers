@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-791-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-793-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,8 +52,8 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (36)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (169)
-- [Utilities and Examples](#utilities-and-examples) (39)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (170)
+- [Utilities and Examples](#utilities-and-examples) (40)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1365,6 +1365,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `shopping` `search` `remote`
 - **[canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp)** `Official` `JavaScript` — Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos.  
   `finance` `backtesting` `statistics` `quant` `remote`
+- **[Car Listing Check](https://aicarvideo.com/mcp/)** `Official` `TypeScript` — Checks a vehicle listing you supply and returns a 0-100 completeness score, missing fields and prioritised fixes, plus listing checklists for Germany, the US, the UK or a generic market. ([source](https://github.com/TRW123123/car-listing-check-mcp))  
+  `automotive` `car-dealer` `listings` `checklist` `remote`
 - **[CartViral](https://cartviral.com/mcp)** `Official` `TypeScript` — Hosted server that imports products from a store or product link and makes AI product videos for TikTok, Reels and Shorts, product photos, carousels, static ads and listing copy, returning download links. ([source](https://github.com/artemecom/cartviral-mcp))  
   `ecommerce` `video` `marketing` `remote` `oauth`
 - **[Checkout Page](https://checkoutpage.com/mcp?utm_source=mcphq&utm_medium=listing)** `Official` `TypeScript` — Create and manage checkout pages, events, forms, products, coupons, customers, payments and subscriptions on Checkout Page, a checkout platform on Stripe Connect, over remote Streamable HTTP with OAuth.  
@@ -1678,6 +1680,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `genealogy` `family-history` `archives` `gedcom` `evidence`
 - **[Google Maps MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** `Python` — Geocoding, directions, and place search via Google Maps. ([source](https://github.com/modelcontextprotocol/servers-archived))  
   `maps` `location` `geo`
+- **[Headshot Photo Check](https://www.profilfoto-ki.de/mcp/)** `Official` `TypeScript` — Checks the technical quality of a profile or job-application photo (resolution, crop, format; brightness, contrast, sharpness when pixels are analysed) and returns a score and prioritised tips. ([source](https://github.com/TRW123123/bewerbungsfoto-check-mcp))  
+  `image` `headshot` `photo-quality` `linkedin` `remote`
 - **[Ignav Flights](https://github.com/gusgordon/ignav-skill)** `Official` `Python` — Search live flight prices, compare departure dates, resolve airports, and get booking links.  
   `travel` `flights` `booking-links` `remote` `oauth`
 - **[LogoAPI.sh](https://logoapi.sh/docs/mcp)** `Official` `JavaScript` — Company logos for agents: get a logo by domain, search brands by name, or fetch a favicon, as SVG or PNG URLs. Free, no API key.  
