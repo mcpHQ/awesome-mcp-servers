@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-772-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-773-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (31)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (94)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (90)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (91)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (87)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (35)
@@ -815,6 +815,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `agents` `directory` `saas` `remote`
 - **[Agentik](https://www.agentik.cc)** `Official` `Other` — Hosted MCP gateway that connects Claude, ChatGPT, Codex and Cursor to tools from 165 providers through one connection, with the price shown before each call, billed at the provider's price from one prepaid balance.  
   `gateway` `hosted` `remote` `oauth` `pay-per-call`
+- **[AgentX](https://www.agentxhq.com/docs/mcp)** `Official` `Other` — Check on, message and hand work to a fleet of AI coding agents running on your own machines through AgentX, with OAuth sign-in.  
+  `agents` `coding-agents` `remote` `oauth`
 - **[AI Agents Listing](https://github.com/nyyhao/aiagentslisting-mcp)** `Official` `JavaScript` — Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending.  
   `directory` `discovery` `mcp` `agents` `remote`
 - **[AI Interview Questions MCP](https://github.com/Johnnnmai/ai-interview-questions-mcp)** `TypeScript` — Offline stdio MCP with graded AI engineer and investment banking interview questions, model answers, topic search and mock rounds. Companion static JSON catalog on GitHub Pages.  
