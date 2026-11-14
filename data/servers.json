@@ -8749,6 +8749,34 @@
     "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
+    "name": "minecraftkit",
+    "url": "https://github.com/SalyyS1/minecraftkit",
+    "description": "Offline Minecraft Paper, Folia, Gradle build, pack overlay, and RPG plugin API catalog MCP server with Folia migration and server log diagnostics.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "minecraft",
+      "paper",
+      "folia",
+      "gradle",
+      "code-intelligence"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/minecraftkit",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "minecraftkit"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MCP Filesystem",
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
     "description": "Secure local filesystem access with configurable allowed directories.",

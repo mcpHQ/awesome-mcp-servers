@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (85)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (86)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (81)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
@@ -240,6 +240,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `spec-driven-development` `workflow` `coding-agents` `npm`
 - **[mcpserverlist-mcp](https://github.com/sudomichael/mcpserverlist-mcp)** `Official` `TypeScript` — Check if your MCP server is ready for MCP directories, then get it submitted and keep every listing up to date.  
   `developer-tools` `directory-submission` `remote`
+- **[minecraftkit](https://github.com/SalyyS1/minecraftkit)** `Python` — Offline Minecraft Paper, Folia, Gradle build, pack overlay, and RPG plugin API catalog MCP server with Folia migration and server log diagnostics.  
+  `minecraft` `paper` `folia` `gradle` `code-intelligence`
 - **[Mobile Joe](https://docs.mobilejoe.dev/mcp/)** `Official` `Ruby` — Hosted server to manage a mobile app's FAQs, translations, feature plans and in-app alerts; OAuth with per-app permissions, Mobile Joe account required (14-day free trial).  
   `mobile` `ios` `android` `faq` `remote`
 - **[Moltline Studio](https://github.com/GarphenGate/moltline-mcp)** `Official` `Python` — 22 hosted MCP servers: code review, MCP config audits, SKILL.md linting and OR-Tools solvers; 110 tools need no API key.  
