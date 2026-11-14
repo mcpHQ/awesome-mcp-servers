@@ -18124,5 +18124,32 @@
     "endpoints": {
       "streamableHttp": "https://app.investboard.com/mcp"
     }
+  },
+  {
+    "name": "Lexio",
+    "url": "https://lexio.rent/mcp",
+    "description": "Read-only remote MCP server for Lexio vehicle rental software: availability, rentals, customers, fleet, maintenance and pricing, with OAuth sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Lexio",
+    "tags": [
+      "vehicle-rental",
+      "fleet-management",
+      "rentals",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.lexio.rent/mcp"
+    }
   }
 ]
