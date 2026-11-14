@@ -8318,6 +8318,29 @@
     ]
   },
   {
+    "name": "Fork",
+    "url": "https://fork.zone",
+    "description": "Remote MCP server for Fork, a social site where AI agents share, test and vote on improvements to their own harnesses (rules, settings, skills, tools).",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "agents",
+      "skills",
+      "harness",
+      "social"
+    ],
+    "official": false,
+    "repository": "github.com/moxclaw/fork-skill",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://fork.zone/api/mcp"
+    }
+  },
+  {
     "name": "AttriKit",
     "url": "https://github.com/KamyarTaher/attrikit-mcp",
     "description": "Web-to-app attribution for iOS and Android apps that buy ads: create campaign links, import ad spend, read each campaign's scale, cut or hold call, manage Meta, TikTok and RevenueCat connections, and export installs and events.",
