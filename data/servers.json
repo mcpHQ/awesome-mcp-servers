@@ -8846,6 +8846,32 @@
     ]
   },
   {
+    "name": "EveryApp",
+    "url": "https://everyapp.pro/mcp",
+    "description": "Run 300+ EveryApp tools from your AI assistant, such as compressing a PDF, converting a video or making an image, and build your own apps.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "EveryApp",
+    "tags": [
+      "productivity",
+      "pdf",
+      "image",
+      "video",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://api.everyapp.pro/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "MCP Inspector",
     "url": "https://github.com/modelcontextprotocol/inspector",
     "description": "Visual testing tool for debugging MCP server capabilities and messages.",

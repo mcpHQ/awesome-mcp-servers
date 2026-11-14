@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 836 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 837 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3810,6 +3810,21 @@ Parent access to ENT ONE, the French primary-school digital workspace (Edifice):
 - Official: no
 - Tags: education, school, france, messaging, parents
 - Category: Communication and Productivity
+
+### EveryApp
+
+Run 300+ EveryApp tools from your AI assistant, such as compressing a PDF, converting a video or making an image, and build your own apps.
+
+- URL: https://everyapp.pro/mcp
+- Language: TypeScript
+- Provider: EveryApp
+- Official: yes
+- Tags: productivity, pdf, image, video, remote
+- Category: Communication and Productivity
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://api.everyapp.pro/mcp
 
 ### Faceless
 
