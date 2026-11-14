@@ -18363,5 +18363,30 @@
     "endpoints": {
       "streamableHttp": "https://pentestcompare.com/mcp"
     }
+  },
+  {
+    "name": "leadli.me",
+    "url": "https://leadli.me/en/guides/mcp-server",
+    "description": "Connects AI assistants to subscriber reports and Meta/TikTok ad attribution for Telegram channels and bots, with an organization API key.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "leadli.me",
+    "tags": [
+      "telegram",
+      "ad-attribution",
+      "analytics",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.leadli.me/api/v1/mcp"
+    }
   }
 ]

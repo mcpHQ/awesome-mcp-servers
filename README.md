@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-837-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-839-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
 - [Communication and Productivity](#communication-and-productivity) (108)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (99)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (93)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (94)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (41)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (178)
@@ -1156,6 +1156,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `pinball` `games` `news` `remote`
 - **[KissMyPost](https://kissmypost.com/mcp)** `Official` `TypeScript` — Hosted read-only server for Reddit audience research: subreddit search by topic, member growth, audience demographics, best time to post, posting rules and brand mention counts. ([source](https://github.com/krutytskyi/kissmypost-mcp))  
   `reddit` `audience-research` `subreddits` `analytics` `remote`
+- **[leadli.me](https://leadli.me/en/guides/mcp-server)** `Official` `TypeScript` — Connects AI assistants to subscriber reports and Meta/TikTok ad attribution for Telegram channels and bots, with an organization API key.  
+  `telegram` `ad-attribution` `analytics` `marketing` `remote`
 - **[LinkDR](https://linkdr.com/docs/mcp)** `Official` `TypeScript` — Domain rating and backlink research, SERP and keyword analysis, AI search visibility checks, publisher site approvals, and managed backlink ordering. ([source](https://github.com/Illyism/linkdr-mcp))  
   `seo` `backlinks` `serp` `remote` `oauth`
 - **[LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp)** `Official` `JavaScript` — Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic.  
