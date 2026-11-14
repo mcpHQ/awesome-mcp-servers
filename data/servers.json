@@ -17449,5 +17449,30 @@
     "endpoints": {
       "streamableHttp": "https://assistant.wavelocus.com/mcp"
     }
+  },
+  {
+    "name": "OffSeq Threat Radar",
+    "url": "https://radar.offseq.com/api-docs?tab=mcp",
+    "description": "Vulnerability intelligence for agents: CVE search with CISA KEV, EPSS and exploit status, SBOM and lockfile scans, patch-order ranking, IOC checks and monitored-host findings.",
+    "category": "security-and-identity",
+    "language": "JavaScript",
+    "provider": "OffSeq",
+    "tags": [
+      "vulnerability-intelligence",
+      "cve",
+      "sbom",
+      "threat-intelligence"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://radar.offseq.com/mcp"
+    }
   }
 ]

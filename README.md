@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-804-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-805-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (94)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
-- [Security and Identity](#security-and-identity) (36)
+- [Security and Identity](#security-and-identity) (37)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (172)
 - [Utilities and Examples](#utilities-and-examples) (42)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
@@ -1288,6 +1288,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `security` `proxy` `firewall` `optimization`
 - **[NPMScan](https://npmscan.com/docs/mcp)** `Official` `TypeScript` — Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs.  
   `npm` `supply-chain` `vulnerabilities` `malware` `remote`
+- **[OffSeq Threat Radar](https://radar.offseq.com/api-docs?tab=mcp)** `Official` `JavaScript` — Vulnerability intelligence for agents: CVE search with CISA KEV, EPSS and exploit status, SBOM and lockfile scans, patch-order ranking, IOC checks and monitored-host findings.  
+  `vulnerability-intelligence` `cve` `sbom` `threat-intelligence`
 - **[OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check)** `Official` `Go` — Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows.  
   `security` `domains` `typosquatting` `remote`
 - **[qURL](https://github.com/layervai/qurl-mcp)** `Official` `TypeScript` — Mint, resolve, audit, and rotate scope-limited expiring access links (qURLs) for AI agents.  
