@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 795 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 801 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -564,6 +564,20 @@ Official remote MCP server for Buddy: run and monitor pipelines, manage sandboxe
 - Category: Developer Tools and Code Intelligence
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.buddy.works/mcp
+
+### Bugsly
+
+List, read and resolve Bugsly error-tracking issues and check monitors.
+
+- URL: https://bugsly.dev
+- Language: Other
+- Provider: Bugsly
+- Official: yes
+- Tags: error-tracking, monitoring, debugging, remote, oauth
+- Category: Developer Tools and Code Intelligence
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://bugsly.dev/api/mcp
 
 ### Chain.Love MCP
 
@@ -3312,6 +3326,20 @@ Exchange end-to-end encrypted messages between AI agents through an account-free
 - Tags: agents, messaging, encryption, self-hosted, mcp
 - Category: Communication and Productivity
 
+### AISend
+
+Send email from your verified domain, track delivery, list mail and validate addresses.
+
+- URL: https://aisend.app
+- Language: Other
+- Provider: AISend
+- Official: yes
+- Tags: email, delivery, agents, remote, oauth
+- Category: Communication and Productivity
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://api.aisend.app/mcp
+
 ### anon.li
 
 Remote MCP server for anon.li, an open-source privacy suite: tools manage email aliases, recipients, end-to-end encrypted file drops and encrypted forms.
@@ -3498,6 +3526,20 @@ Hosted LinkedIn MCP server. Sign in with OAuth, or use a Bearer API key. Search 
 - Tags: linkedin, sales, remote, oauth
 - Category: Communication and Productivity
 - Auth: api-key, oauth
+
+### CVPosh
+
+Read your resumes, check ATS compatibility and match keywords to a job posting.
+
+- URL: https://cvposh.com
+- Language: Other
+- Provider: CVPosh
+- Official: yes
+- Tags: resume, ats, career, remote, oauth
+- Category: Communication and Productivity
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://cvposh.com/api/mcp
 
 ### day3
 
@@ -4138,6 +4180,20 @@ Self-hosted Reddit MCP server that reads account context and prepares browser-pr
 - Official: no
 - Tags: reddit, publishing, browser-automation, approval
 - Category: Communication and Productivity
+
+### RemixViral
+
+Check clip jobs, videos and credits, and create faceless Shorts from a prompt.
+
+- URL: https://remixviral.ai
+- Language: Other
+- Provider: RemixViral
+- Official: yes
+- Tags: video, shorts, clips, remote, oauth
+- Category: Communication and Productivity
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://remixviral.ai/api/mcp
 
 ### Repostit for Claude
 
@@ -8678,6 +8734,20 @@ Keyless Base market data for agents: live DeFi yields, perp funding rates, crypt
 - Auth: none
 - Streamable HTTP endpoint: https://x402-data-api.sigrunner.workers.dev/mcp
 
+### GrowFast
+
+Find B2B customers for a product: score matching companies, draft emails, listen on Reddit.
+
+- URL: https://growfast.sh
+- Language: Other
+- Provider: GrowFast
+- Official: yes
+- Tags: sales, leads, outreach, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://growfast.sh/api/mcp
+
 ### helloasso-mcp
 
 HelloAsso for French associations: members, event tickets, donations, payments, refunds and checkout links, covering all 36 routes of the v5 API.
@@ -9535,6 +9605,20 @@ Issues and cancels Brazilian NFS-e and NFC-e invoices, looks up CNPJ and service
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://api.sendnf.com/mcp
+
+### SEOBolt
+
+Crawl a site, audit Google and AI-search readiness, get a fix plan for your coding agent.
+
+- URL: https://seobolt.app
+- Language: Other
+- Provider: SEOBolt
+- Official: yes
+- Tags: seo, audit, marketing, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://seobolt.app/mcp
 
 ### Shop Nobi
 

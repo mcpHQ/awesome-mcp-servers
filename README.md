@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-795-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-801-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,16 +43,16 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (82)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (83)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (76)
 - [Filesystems and Documents](#filesystems-and-documents) (32)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
-- [Communication and Productivity](#communication-and-productivity) (98)
+- [Communication and Productivity](#communication-and-productivity) (101)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (94)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (36)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (170)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (172)
 - [Utilities and Examples](#utilities-and-examples) (41)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -168,6 +168,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `bulma` `react` `typescript` `components` `local`
 - **[Buddy MCP Server](https://buddy.works/docs/ai-agents/mcp)** `Official` `Other` — Official remote MCP server for Buddy: run and monitor pipelines, manage sandboxes, environments, artifacts, domains, and Git repositories from AI agents.  
   `sandbox` `pipelines` `deployments` `git` `remote`
+- **[Bugsly](https://bugsly.dev)** `Official` `Other` — List, read and resolve Bugsly error-tracking issues and check monitors.  
+  `error-tracking` `monitoring` `debugging` `remote` `oauth`
 - **[Chain.Love MCP](https://github.com/Chain-Love/chain.love-mcp)** `Official` `Other` — Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.  
   `web3` `infrastructure` `discovery` `remote`
 - **[Coding Tools MCP](https://github.com/mybolide/coding-tools-mcp)** `Rust` — Rust + Tauri 2 desktop app that turns a local project into an MCP workspace for AI agents: file read/edit, command and test execution, Git status, and project-local history sessions that restore context in a new conversation.  
@@ -620,6 +622,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `notifications` `desktop` `coding-agents`
 - **[agentcomms](https://github.com/web3wes/agentcomms)** `Official` `Python` — Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub.  
   `agents` `messaging` `encryption` `self-hosted` `mcp`
+- **[AISend](https://aisend.app)** `Official` `Other` — Send email from your verified domain, track delivery, list mail and validate addresses.  
+  `email` `delivery` `agents` `remote` `oauth`
 - **[anon.li](https://anon.li/mcp)** `Official` `TypeScript` — Remote MCP server for anon.li, an open-source privacy suite: tools manage email aliases, recipients, end-to-end encrypted file drops and encrypted forms.  
   `email-alias` `privacy` `file-sharing` `encryption` `remote`
 - **[ArtiGram](https://artigram.cafeboon.com/connect)** `Official` `Python` — Publish, version and search AI-made HTML, React, SVG and Markdown artifacts as live pages on the ArtiGram community.  
@@ -648,6 +652,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `email` `inbox` `agents` `otp` `remote`
 - **[Crispy](https://crispy.sh)** `TypeScript` — Hosted LinkedIn MCP server. Sign in with OAuth, or use a Bearer API key. Search people and companies, read profile and company data, and send and read messages.  
   `linkedin` `sales` `remote` `oauth`
+- **[CVPosh](https://cvposh.com)** `Official` `Other` — Read your resumes, check ATS compatibility and match keywords to a job posting.  
+  `resume` `ats` `career` `remote` `oauth`
 - **[day3](https://docs.day3.app/mcp)** `Official` `TypeScript` — Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope.  
   `email-marketing` `newsletters` `campaigns` `api-key`
 - **[Deacon](https://heydeacon.com/features/mcp-server)** `Official` `PHP` — Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix.  
@@ -744,6 +750,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `linkedin` `sales` `crm` `oauth` `remote`
 - **[Reddit MCP Publisher](https://github.com/Bl0ck154/reddit-mcp-publisher)** `TypeScript` — Self-hosted Reddit MCP server that reads account context and prepares browser-previewed, owner-approved posts, comments and direct messages.  
   `reddit` `publishing` `browser-automation` `approval`
+- **[RemixViral](https://remixviral.ai)** `Official` `Other` — Check clip jobs, videos and credits, and create faceless Shorts from a prompt.  
+  `video` `shorts` `clips` `remote` `oauth`
 - **[Repostit for Claude](https://app.repostit.io/claude-connector.html)** `Official` `Other` — Official hosted MCP connector for managing connected social accounts, creating post and carousel drafts, scheduling publishing, cross-account workflows, and checking delivery status.  
   `social-media` `scheduling` `publishing` `drafts` `cross-posting`
 - **[Revid](https://www.revid.ai/mcp)** `Official` `TypeScript` — Official Revid server to research viral TikTok, YouTube, Instagram and X videos, make finished short-form videos with voice, captions and music, and publish or schedule them.  
@@ -1447,6 +1455,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `hotels` `travel` `pricing` `apify`
 - **[Grey Ridge x402 Market & DeFi Data](https://github.com/rezearcher/x402-data-api)** `TypeScript` — Keyless Base market data for agents: live DeFi yields, perp funding rates, crypto spot prices, Polymarket odds and a pre-trade token-safety gate. Free preview tools; paid calls settle per request in USDC via x402, no key or account.  
   `x402` `base` `defi` `crypto` `remote`
+- **[GrowFast](https://growfast.sh)** `Official` `Other` — Find B2B customers for a product: score matching companies, draft emails, listen on Reddit.  
+  `sales` `leads` `outreach` `remote` `oauth`
 - **[helloasso-mcp](https://github.com/edouard-claude/helloasso-mcp)** `Rust` — HelloAsso for French associations: members, event tickets, donations, payments, refunds and checkout links, covering all 36 routes of the v5 API.  
   `payments` `nonprofit` `donations` `france` `ticketing`
 - **[HireFerry](https://github.com/TokenNotIncluded/hireferry)** `Rust` — Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows.  
@@ -1573,6 +1583,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `linkedin` `sales` `prospecting` `outreach` `crm`
 - **[SendNF](https://sendnf.com/mcp/)** `Official` `TypeScript` — Issues and cancels Brazilian NFS-e and NFC-e invoices, looks up CNPJ and service codes, and pre-checks each invoice with human approval before it is sent. 44 tools. ([source](https://github.com/sendnf/sendnf-mcp))  
   `nfse` `nfce` `invoicing` `brazil` `remote`
+- **[SEOBolt](https://seobolt.app)** `Official` `Other` — Crawl a site, audit Google and AI-search readiness, get a fix plan for your coding agent.  
+  `seo` `audit` `marketing` `remote` `oauth`
 - **[Shop Nobi](https://nobi.ai/shop)** `Official` `Java` — Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.  
   `shopping` `product-search` `remote`
 - **[Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp)** `TypeScript` — Community-maintained integration for Shopify products, orders, and store operations.  
