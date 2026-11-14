@@ -17689,5 +17689,32 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "AY Listicle",
+    "url": "https://www.aylistcle.com/mcp",
+    "repository": "https://github.com/tahalatif-cmd/aylistcle-mcp",
+    "description": "Remote MCP server to find best-of listicles with open spots, request editorial inclusion, propose swaps and answer requests, with a preview before credits are spent.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "AY Automate",
+    "tags": [
+      "listicles",
+      "content-marketing",
+      "editorial",
+      "remote"
+    ],
+    "official": true,
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://www.aylistcle.com/api/mcp/mcp"
+    }
   }
 ]

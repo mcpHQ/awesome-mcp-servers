@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-813-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-814-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (91)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (37)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (172)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (173)
 - [Utilities and Examples](#utilities-and-examples) (42)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1369,6 +1369,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ats` `recruiting` `job-scraping` `delta-tracking` `apify`
 - **[Award Travel Finder](https://github.com/AwardTravelFinder/mcp)** `Official` `Other` — Search award flight availability and points pricing across 27 airlines and 23 loyalty programs from any MCP client.  
   `travel` `flights` `airlines` `award-travel` `points`
+- **[AY Listicle](https://www.aylistcle.com/mcp)** `Official` `Other` — Remote MCP server to find best-of listicles with open spots, request editorial inclusion, propose swaps and answer requests, with a preview before credits are spent. ([source](https://github.com/tahalatif-cmd/aylistcle-mcp))  
+  `listicles` `content-marketing` `editorial` `remote`
 - **[AyHire](https://ayhire.com/agents.md)** `Official` `Other` — Hosted OAuth MCP server to find, judge and shortlist engineers for a role from their public GitHub work, with links to the evidence for each pick.  
   `recruiting` `hiring` `github` `oauth` `remote`
 - **[BankBridge](https://bankbridge.money)** `Official` `TypeScript` — Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.  

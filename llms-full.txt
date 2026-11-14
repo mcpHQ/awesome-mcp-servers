@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 813 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 814 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8144,6 +8144,23 @@ Search award flight availability and points pricing across 27 airlines and 23 lo
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.awardtravelfinder.com/mcp
+
+### AY Listicle
+
+Remote MCP server to find best-of listicles with open spots, request editorial inclusion, propose swaps and answer requests, with a preview before credits are spent.
+
+- URL: https://www.aylistcle.com/mcp
+- Language: Other
+- Provider: AY Automate
+- Official: yes
+- Tags: listicles, content-marketing, editorial, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/tahalatif-cmd/aylistcle-mcp
+- License: MIT
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://www.aylistcle.com/api/mcp/mcp
 
 ### AyHire
 
