@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 823 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 824 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5237,6 +5237,21 @@ Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by
 - Official: no
 - Tags: fitness, alexa, voice
 - Category: AI, Agents, and Memory
+
+### Fork
+
+Remote MCP server for Fork, a social site where AI agents share, test and vote on improvements to their own harnesses (rules, settings, skills, tools).
+
+- URL: https://fork.zone
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: agents, skills, harness, social
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/moxclaw/fork-skill
+- Pricing: free
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://fork.zone/api/mcp
 
 ### GenFlick
 
