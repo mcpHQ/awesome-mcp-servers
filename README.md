@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-869-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-870-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (97)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (188)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (189)
 - [Utilities and Examples](#utilities-and-examples) (46)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1629,6 +1629,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `jobs` `job-search` `careers` `hiring` `remote`
 - **[MoltNode by Chord](https://github.com/tuantqse90/moltnode-mcp)** `Official` `Other` — Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.  
   `blockchain` `json-rpc` `defi` `swap` `crypto`
+- **[Neblex Integration Fabric](https://www.neblex.com/integration-fabric/docs/guide/mcp)** `Official` `Other` — Official MCP server for the Neblex integration platform: build, test and run integration flows, read run history and fix failed runs across 300+ connectors. ([source](https://github.com/neblexhq/neblex-mcp))  
+  `integration` `ipaas` `automation` `workflows` `data-quality`
 - **[Nexscope](https://www.nexscope.ai/mcp-map?co-from=mcphq-awesome-mcp-servers)** `Official` `TypeScript` — Remote MCP and REST/OpenAPI for ecommerce product research across Amazon and other marketplaces, with self-serve API key trial credits then paid plans. ([source](https://github.com/nexscope-ai/nexscope-ecommerce-api))  
   `ecommerce` `amazon` `product-research` `remote`
 - **[NFC Tap Builder by Tap.Giving](https://github.com/Tap-Giving/tap-giving-mcp)** `Official` `TypeScript` — A tool first: create print-ready NFC artwork proofs with correct vector art for organizations, free to take to any vendor, with no lock-in. Keyless pricing and quotes; ordering custom discs through Tap.Giving is an optional next step.  
