@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 856 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 858 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10226,6 +10226,19 @@ Manage QuickBooks accounting records and financial reports.
 - Tags: accounting, finance, bookkeeping
 - Category: Finance, Commerce, and Business Apps
 
+### QuoteBuild
+
+UK building calculators, estimate comparisons and account-scoped quoting and job costs.
+
+- URL: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fquotebuild/versions/latest
+- Language: TypeScript
+- Provider: Strawberry Works Limited
+- Official: yes
+- Tags: construction, estimating, quoting
+- Category: Finance, Commerce, and Business Apps
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://mcp.quotebuild.co.uk/mcp
+
 ### Relaticle
 
 Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields.
@@ -10303,6 +10316,19 @@ Query Salesforce CRM records and manage business workflows.
 - Official: yes
 - Tags: crm, sales, enterprise
 - Category: Finance, Commerce, and Business Apps
+
+### SCENE
+
+Campaign briefs, creative recipes and private drafts in an authorized SCENE studio.
+
+- URL: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fscene/versions/latest
+- Language: TypeScript
+- Provider: Strawberry Works Limited
+- Official: yes
+- Tags: marketing, campaigns, drafts
+- Category: Finance, Commerce, and Business Apps
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://app.scenehq.co.uk/mcp
 
 ### ScentVerdict
 

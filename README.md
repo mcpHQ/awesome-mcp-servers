@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-856-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-858-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (95)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (184)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (186)
 - [Utilities and Examples](#utilities-and-examples) (44)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1659,6 +1659,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `stocks` `sentiment` `alternative-data` `congress-trades` `remote`
 - **[QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server)** `Official` `TypeScript` — Manage QuickBooks accounting records and financial reports.  
   `accounting` `finance` `bookkeeping`
+- **[QuoteBuild](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fquotebuild/versions/latest)** `Official` `TypeScript` — UK building calculators, estimate comparisons and account-scoped quoting and job costs.  
+  `construction` `estimating` `quoting`
 - **[Relaticle](https://github.com/relaticle/relaticle)** `Official` `PHP` — Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields.  
   `crm` `sales` `oauth` `remote`
 - **[RentReboot](https://github.com/imiraoui/rentreboot-mcp)** `Official` `Other` — Search NYC apartments and renter guides, explore rent data, and access personal alerts and saved searches with scoped OAuth; website alert plans are separate.  
@@ -1671,6 +1673,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `launch` `directories` `seo` `marketing` `remote`
 - **[Salesforce MCP Server](https://github.com/salesforcecli/mcp)** `Official` `TypeScript` — Query Salesforce CRM records and manage business workflows.  
   `crm` `sales` `enterprise`
+- **[SCENE](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fscene/versions/latest)** `Official` `TypeScript` — Campaign briefs, creative recipes and private drafts in an authorized SCENE studio.  
+  `marketing` `campaigns` `drafts`
 - **[ScentVerdict](https://scentverdict.com/connect)** `Official` `C#` — Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.  
   `fragrance` `perfume` `shopping` `read-only` `remote`
 - **[Screwtape.ai](https://screwtape.ai)** `Official` `TypeScript` — Spend guardrails for AI agents: check payments, track budgets, catch duplicates, and issue signed receipts.  
