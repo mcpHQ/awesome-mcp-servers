@@ -18871,5 +18871,32 @@
     "endpoints": {
       "streamableHttp": "https://app.scenehq.co.uk/mcp"
     }
+  },
+  {
+    "name": "FairValid",
+    "url": "https://fairvalid.com/en/help/mcp",
+    "description": "Verify email addresses, read verification jobs and find verified work emails with FairMatch through the official hosted MCP connector.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "FairValid",
+    "tags": [
+      "email-verification",
+      "sales",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/moonlitnayeem/fairvalid-ai",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.fairvalid.com/mcp"
+    }
   }
 ]
