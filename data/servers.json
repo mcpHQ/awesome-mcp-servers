@@ -18695,5 +18695,33 @@
     "endpoints": {
       "streamableHttp": "https://cheaterbusting.com/mcp"
     }
+  },
+  {
+    "name": "BeYourCover",
+    "url": "https://beyourcover.com/mcp",
+    "description": "Official hosted MCP server that designs AI book covers, Amazon KDP print wraps and audiobook covers, and lists and downloads an account's existing covers.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "BeYourCover",
+    "tags": [
+      "book-covers",
+      "image-generation",
+      "publishing",
+      "kdp",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://beyourcover.com/api/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
