@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 851 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 852 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5217,6 +5217,22 @@ Generate images, videos, 3D models, speech and music, transcribe audio, chat wit
 - Auth: api-key, oauth
 - Install: npx atlascloud-mcp
 - Streamable HTTP endpoint: https://mcp.atlascloud.ai/mcp
+
+### BeYourCover
+
+Official hosted MCP server that designs AI book covers, Amazon KDP print wraps and audiobook covers, and lists and downloads an account's existing covers.
+
+- URL: https://beyourcover.com/mcp
+- Language: JavaScript
+- Provider: BeYourCover
+- Official: yes
+- Tags: book-covers, image-generation, publishing, kdp, remote
+- Category: AI, Agents, and Memory
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://beyourcover.com/api/mcp
 
 ### BotGathering
 
