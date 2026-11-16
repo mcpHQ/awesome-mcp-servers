@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 840 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 841 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9808,6 +9808,23 @@ Non-custodial Hyperliquid perps execution for AI agents: pre-trade limits, human
 - Transport: stdio
 - Auth: none
 - Install: uvx omx-hyperliquid
+
+### OneFindMe
+
+Remote read-only server for searching AliExpress in 21 languages, returning listings with local-currency prices, ratings, order counts and links, plus a budget-fitting basket builder.
+
+- URL: https://onefindme.com/mcp
+- Language: JavaScript
+- Provider: OneFindMe
+- Official: no
+- Tags: aliexpress, shopping, ecommerce, multilingual, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/skazi1976/onefindme-plugin
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://onefindme.com/mcp
 
 ### OpenCart Greece
 
