@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 862 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 863 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9029,6 +9029,21 @@ Crypto trend, regime and indicators tools, pay-per-call via x402 on Base.
 - Transport: stdio
 - Auth: none
 - Verified: 2026-11-09
+
+### CryptoExchangeIn
+
+Crypto exchange legality by country, true fee and spread calculator, and cold wallet comparisons, through a keyless remote MCP server.
+
+- URL: https://cryptoexchangein.com/about
+- Language: TypeScript
+- Provider: CryptoExchangeIn
+- Official: yes
+- Tags: crypto, exchanges, fees, wallets, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://cryptoexchangein.com/mcp
 
 ### CueHQ
 

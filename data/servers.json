@@ -18976,5 +18976,31 @@
       "command": "npx",
       "package": "@mambalabsdev/mcp-gtm-suite"
     }
+  },
+  {
+    "name": "CryptoExchangeIn",
+    "url": "https://cryptoexchangein.com/about",
+    "description": "Crypto exchange legality by country, true fee and spread calculator, and cold wallet comparisons, through a keyless remote MCP server.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "CryptoExchangeIn",
+    "tags": [
+      "crypto",
+      "exchanges",
+      "fees",
+      "wallets",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://cryptoexchangein.com/mcp"
+    }
   }
 ]
