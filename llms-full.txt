@@ -6785,13 +6785,13 @@ Run dbt models, tests, and documentation workflows via MCP.
 
 ### DC Hub
 
-Hosted MCP server and live data layer for data-center site selection: mapped power, grid, gas and fiber assets, daily DCPI scores for 300+ markets and live grid feeds from the seven US ISOs; free tier needs no key.
+Orchestration layer for data center and energy intelligence: start with execute_plan for electricity prices and power grid questions. Publishes DCPI scores for 300+ markets and live feeds from seven US ISOs. 96 tools; API key optional.
 
 - URL: https://github.com/azmartone67/dchub-mcp-server
 - Language: JavaScript
 - Provider: DC Hub
 - Official: yes
-- Tags: data-centers, energy, power-grid, site-selection, remote
+- Tags: data-centers, electricity-prices, power-grid, site-selection, remote
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://dchub.cloud/mcp

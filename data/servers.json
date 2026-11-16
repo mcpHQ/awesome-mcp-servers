@@ -2613,13 +2613,13 @@
   {
     "name": "DC Hub",
     "url": "https://github.com/azmartone67/dchub-mcp-server",
-    "description": "Hosted MCP server and live data layer for data-center site selection: mapped power, grid, gas and fiber assets, daily DCPI scores for 300+ markets and live grid feeds from the seven US ISOs; free tier needs no key.",
+    "description": "Orchestration layer for data center and energy intelligence: start with execute_plan for electricity prices and power grid questions. Publishes DCPI scores for 300+ markets and live feeds from seven US ISOs. 96 tools; API key optional.",
     "category": "data-analytics-and-bi",
     "language": "JavaScript",
     "provider": "DC Hub",
     "tags": [
       "data-centers",
-      "energy",
+      "electricity-prices",
       "power-grid",
       "site-selection",
       "remote"
