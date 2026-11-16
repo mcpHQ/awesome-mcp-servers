@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 860 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 861 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1069,6 +1069,20 @@ Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integratio
 - Official: yes
 - Tags: diagnostics, api, auth, webhooks, remote
 - Category: Developer Tools and Code Intelligence
+
+### NextReset MCP
+
+Read-only local stdio MCP server for Codex reset status, event history and source evidence, using the public NextReset API with no key.
+
+- URL: https://github.com/Ibunao/codex-reset-data
+- Language: Python
+- Provider: NextReset
+- Official: no
+- Tags: codex, reset-status, read-only, local
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Transport: stdio
+- Auth: none
 
 ### Nicelydone
 

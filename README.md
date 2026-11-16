@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-860-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-861-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (87)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (88)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (84)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
@@ -250,6 +250,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `code-review` `mcp-governance` `skill-md` `remote`
 - **[NAIF Gravity](https://naifgravity.com)** `Official` `Other` — Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.  
   `diagnostics` `api` `auth` `webhooks` `remote`
+- **[NextReset MCP](https://github.com/Ibunao/codex-reset-data)** `Python` — Read-only local stdio MCP server for Codex reset status, event history and source evidence, using the public NextReset API with no key.  
+  `codex` `reset-status` `read-only` `local`
 - **[Nicelydone](https://github.com/nicelydoneapp/mcp)** `Official` `Other` — Search web app screens, UI elements, and user flows for design research. Requires Nicelydone Premium.  
   `design` `ui` `ux` `remote` `oauth`
 - **[Oh My Android](https://github.com/ateymoori/oh-my-android)** `Swift` — Native macOS app with a built-in MCP server that lets AI agents see and drive the Android Emulator and adb devices: screenshots, UI tree in dp, taps, logcat, dark mode, font scale, and locale.  

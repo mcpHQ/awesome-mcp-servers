@@ -18924,5 +18924,28 @@
       "none",
       "api-key"
     ]
+  },
+  {
+    "name": "NextReset MCP",
+    "url": "https://github.com/Ibunao/codex-reset-data",
+    "repository": "https://github.com/Ibunao/codex-reset-data",
+    "description": "Read-only local stdio MCP server for Codex reset status, event history and source evidence, using the public NextReset API with no key.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "NextReset",
+    "tags": [
+      "codex",
+      "reset-status",
+      "read-only",
+      "local"
+    ],
+    "official": false,
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]
