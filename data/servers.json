@@ -9175,6 +9175,27 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "Taskhold",
+    "url": "https://taskhold.com",
+    "description": "Hosted MCP server for a task list shared by a person and their coding agents: next task, steps, live progress, blocked questions and full change history.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "task-management",
+      "coding-agents",
+      "productivity",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://taskhold.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",

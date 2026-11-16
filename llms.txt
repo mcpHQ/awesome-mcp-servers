@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 869 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 870 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -397,6 +397,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [SystemSculpt](https://systemsculpt.com/obsidian-ai-plugin-docs/agents?utm_source=mcphq&utm_medium=directory&utm_campaign=listing_nov2026): Hosted OAuth MCP server for a SystemSculpt account (Obsidian AI plugin): plan, credits, usage, billing links and server-side captures; no local vault access. (TypeScript, official)
 - [Tale](https://docs.tale.dev/develop/mcp-endpoint): Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale. (TypeScript, official)
 - [Taskfolk](https://github.com/taskfolk/mcp): Project management for teams and their AI agents. Agents join as named members. (Other, official)
+- [Taskhold](https://taskhold.com): Hosted MCP server for a task list shared by a person and their coding agents: next task, steps, live progress, blocked questions and full change history. (TypeScript, official)
 - [Telegram Archive MCP Server](https://github.com/GeiserX/telegram-archive-mcp): Search messages, browse chats and read archived Telegram history from a self-hosted Telegram-Archive instance. (Go, official)
 - [Telofy](https://telofy.de): Remote MCP server for Telofy, the AI phone receptionist for small businesses in Germany: lets agents read calls, captured leads and tickets, and booked appointments. (TypeScript, official)
 - [TextKit](https://jointextkit.com/docs/mcp): Hosted MCP server to send and receive SMS, verify phone numbers, buy US and Canada numbers, and manage contacts, segments, broadcasts and automations. (TypeScript, official)
