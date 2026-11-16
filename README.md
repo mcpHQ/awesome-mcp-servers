@@ -329,7 +329,7 @@ Browse the web, scrape content, search, and automate browser interactions.
   `browser-automation` `mcp` `chrome` `live-viewer`
 - **[AgentRender](https://github.com/corbinvachal48/agentrender-mcp)** `Official` `Python` — Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.  
   `screenshot` `pdf` `web-extraction` `remote`
-- **[AgentSearch](https://github.com/agentsearchhq-coder/agentsearch-mcp)** `Official` `TypeScript` — Web search, URL-to-Markdown, JS render, and search_and_read for agents. Free keyless search (25/day per IP) plus an extract/render trial; paid via direct x402 on Base ($0.008/$0.007/$0.010/$0.015). `npx -y @agentsearchhq/agentsearch-mcp`.  
+- **[AgentSearch](https://github.com/agentsearchhq-coder/agentsearch-mcp)** `Official` `TypeScript` — Web search, news, URL-to-Markdown, JS render, screenshots, search_and_read. Free keyless search plus an extract/render trial; then direct x402 on Base from $0.002 (search $0.003). `npx -y @agentsearchhq/agentsearch-mcp`.  
   `web-search` `web-extraction` `markdown` `rendering`
 - **[AgentWeb](https://agentweb.us)** `Official` `Other` — Hosted remote MCP server that lets any agent act on real signed-in sites through typed, verified actions. ([source](https://github.com/AgentWeb-Labs/agentweb-mcp))  
   `web-automation` `browser-automation` `remote`
