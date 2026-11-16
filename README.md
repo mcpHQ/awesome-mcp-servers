@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-853-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-854-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (94)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (183)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (184)
 - [Utilities and Examples](#utilities-and-examples) (44)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1681,6 +1681,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `nfse` `nfce` `invoicing` `brazil` `remote`
 - **[SEOBolt](https://seobolt.app)** `Official` `Other` — Crawl a site, audit Google and AI-search readiness, get a fix plan for your coding agent.  
   `seo` `audit` `marketing` `remote` `oauth`
+- **[ShipFunnels](https://shipfunnels.app/connect)** `Official` `Other` — Hosted MCP server that lets AI agents build, publish and analyse sales funnels with checkout, upsells, CRM, email sequences and A/B tests.  
+  `sales-funnels` `marketing` `ecommerce` `remote` `oauth`
 - **[Shop Nobi](https://nobi.ai/shop)** `Official` `Java` — Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.  
   `shopping` `product-search` `remote`
 - **[Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp)** `TypeScript` — Community-maintained integration for Shopify products, orders, and store operations.  

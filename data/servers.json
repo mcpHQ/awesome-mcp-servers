@@ -18751,5 +18751,33 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "ShipFunnels",
+    "url": "https://shipfunnels.app/connect",
+    "description": "Hosted MCP server that lets AI agents build, publish and analyse sales funnels with checkout, upsells, CRM, email sequences and A/B tests.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "ShipFunnels",
+    "tags": [
+      "sales-funnels",
+      "marketing",
+      "ecommerce",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://shipfunnels.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   }
 ]
