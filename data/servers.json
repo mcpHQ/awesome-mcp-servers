@@ -19108,5 +19108,33 @@
     "endpoints": {
       "streamableHttp": "https://mcp.appy.to"
     }
+  },
+  {
+    "name": "Fourth Feed",
+    "url": "https://fourthfeed.com/about",
+    "repository": "https://github.com/fourthfeed/fourthfeed-mcp",
+    "description": "Search AI video tools for prices, free credits, traffic and agent-readiness through a keyless remote MCP server.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Fourth Feed",
+    "tags": [
+      "ai-video",
+      "pricing",
+      "comparison",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://fourthfeed.com/mcp"
+    }
   }
 ]

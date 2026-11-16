@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-867-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-868-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (113)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (96)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (97)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (41)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (188)
@@ -1152,6 +1152,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `travel` `airports` `wait-times` `flight-delays`
 - **[Folklore Clinical Variant Interpretation MCP](https://folklore.helena.bio/integrations/mcp)** `Official` `Python` — ACMG/AMP germline variant classification, gene profiles, disease associations and literature. ([source](https://github.com/helena-bioinformatics/folklore-mcp))  
   `genomics` `variant-classification` `acmg` `bioinformatics` `remote`
+- **[Fourth Feed](https://fourthfeed.com/about)** `Official` `TypeScript` — Search AI video tools for prices, free credits, traffic and agent-readiness through a keyless remote MCP server. ([source](https://github.com/fourthfeed/fourthfeed-mcp))  
+  `ai-video` `pricing` `comparison` `read-only` `remote`
 - **[Global Database](https://api.globaldatabase.com/docs/v2/#mcp-server)** `Official` `Other` — Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication.  
   `company-data` `business-intelligence` `kyb` `oauth`
 - **[Globatics](https://globatics.live/docs/mcp)** `Official` `Other` — Read-only remote MCP server to query your own Globatics web analytics reports; a paid hosted tool, available on the Pro and Business plans.  
