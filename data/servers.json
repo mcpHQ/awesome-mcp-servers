@@ -8900,6 +8900,29 @@
     ]
   },
   {
+    "name": "BeliefState",
+    "url": "https://beliefstate.ai/agent-quickstart.md",
+    "description": "Hosted MCP server for dated, source-linked investor theses, catalysts, risks and revisions, with free company coverage and paid research calls through x402.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "BeliefState LLC",
+    "tags": [
+      "finance",
+      "research",
+      "stocks",
+      "x402"
+    ],
+    "official": true,
+    "repository": "https://github.com/Antcolombo/beliefstate-agent-integrations",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://beliefstate.ai/v1/research/mcp"
+    }
+  },
+  {
     "name": "MCP Inspector",
     "url": "https://github.com/modelcontextprotocol/inspector",
     "description": "Visual testing tool for debugging MCP server capabilities and messages.",
