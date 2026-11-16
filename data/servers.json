@@ -18620,5 +18620,27 @@
     "endpoints": {
       "streamableHttp": "https://easyrender.ai/api/mcp"
     }
+  },
+  {
+    "name": "No Stairs Please",
+    "url": "https://nostairsplease.com/mcp",
+    "description": "Search 4,300+ under-400-capacity North American live music venues, room capacities, booking contacts, and tour routing via Streamable HTTP.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "No Stairs Please",
+    "tags": [
+      "live-music",
+      "venues",
+      "touring",
+      "directory",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nostairsplease.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
   }
 ]

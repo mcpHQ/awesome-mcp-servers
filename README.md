@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-848-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-849-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (87)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (82)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (83)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (109)
@@ -429,6 +429,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `testing` `browser` `qa` `remote` `oauth`
 - **[Neeed Directory](https://neeed.directory/docs/api)** `Official` `TypeScript` — Search curated software and digital products, create private listing drafts, and manage your own listings with OAuth.  
   `software-discovery` `directory` `search` `remote` `oauth`
+- **[No Stairs Please](https://nostairsplease.com/mcp)** `Official` `TypeScript` — Search 4,300+ under-400-capacity North American live music venues, room capacities, booking contacts, and tour routing via Streamable HTTP.  
+  `live-music` `venues` `touring` `directory` `remote`
 - **[Perceptlayer](https://docs.perceptlayer.com/ai-agents)** `Official` `JavaScript` — Searches and calls 1,659 data endpoints across 248 websites (maps, real estate, jobs, travel, search) over a hosted MCP endpoint and returns structured JSON; free tier included.  
   `web-data` `web-scraping` `structured-data` `search` `remote`
 - **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `Official` `TypeScript` — Official Microsoft Playwright server for browser automation via accessibility snapshots.  
