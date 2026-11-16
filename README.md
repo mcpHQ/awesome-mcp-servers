@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-844-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-846-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,8 +52,8 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (94)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (180)
-- [Utilities and Examples](#utilities-and-examples) (43)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (181)
+- [Utilities and Examples](#utilities-and-examples) (44)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1539,6 +1539,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `recruiting` `resume-parsing` `hiring` `remote` `oauth`
 - **[HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server)** `Official` `TypeScript` — Access HubSpot contacts, deals, and marketing automation data.  
   `crm` `marketing` `sales`
+- **[Inbox eSIM](https://inboxesim.com/mcp-docs)** `Official` `TypeScript` — Find travel eSIM plans for about 200 places, compare brands' prices, check a phone for eSIM support and get a checkout link the traveller pays on.  
+  `travel` `esim` `commerce` `remote`
 - **[inReels](https://github.com/inreels-ai/inreels-mcp)** `Official` `JavaScript` — Generate video ads, UGC ads, static image ads, voiceover and faceless videos from an agent, with exact credit quotes before spending.  
   `video-generation` `ads` `ugc` `marketing` `remote`
 - **[Investboard](https://investboard.com/product/mcp)** `Official` `TypeScript` — Analyze holdings, fund overlap, performance and portfolio changes against your investment plan, with two public tools and OAuth-protected account tools.  
@@ -1780,6 +1782,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `image` `headshot` `photo-quality` `linkedin` `remote`
 - **[Ignav Flights](https://github.com/gusgordon/ignav-skill)** `Official` `Python` — Search live flight prices, compare departure dates, resolve airports, and get booking links.  
   `travel` `flights` `booking-links` `remote` `oauth`
+- **[LFG Atlas](https://lfgatlas.pages.dev/developers/)** `Official` `Other` — Find LFG groups for 110 games, official game news, live player counts and what's hot.  
+  `gaming` `lfg` `news` `remote`
 - **[LogoAPI.sh](https://logoapi.sh/docs/mcp)** `Official` `JavaScript` — Company logos for agents: get a logo by domain, search brands by name, or fetch a favicon, as SVG or PNG URLs. Free, no API key.  
   `logos` `branding` `images` `remote`
 - **[MakeItSay](https://makeitsay.com/docs/mcp)** `Official` `TypeScript` — Change the words in a screenshot or photo and keep the original font and layout, through a remote MCP server. ([source](https://github.com/makeitsay/makeitsay-mcp))  

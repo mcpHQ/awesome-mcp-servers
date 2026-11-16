@@ -11551,11 +11551,20 @@
     "category": "utilities-and-examples",
     "language": "Other",
     "provider": "LFG Atlas",
-    "tags": ["gaming", "lfg", "news", "remote"],
+    "tags": [
+      "gaming",
+      "lfg",
+      "news",
+      "remote"
+    ],
     "official": true,
     "pricing": "free",
-    "transport": ["streamable-http"],
-    "auth": ["none"],
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
     "endpoints": {
       "streamableHttp": "https://lfgatlas-bot.jonsimm36.workers.dev/mcp"
     }
@@ -18525,6 +18534,31 @@
     "pricing": "free",
     "transport": [
       "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Inbox eSIM",
+    "url": "https://inboxesim.com/mcp-docs",
+    "description": "Find travel eSIM plans for about 200 places, compare brands' prices, check a phone for eSIM support and get a checkout link the traveller pays on.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Inbox eSIM",
+    "tags": [
+      "travel",
+      "esim",
+      "commerce",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://inboxesim.com/mcp/claude"
+    },
+    "transport": [
+      "streamable-http"
     ],
     "auth": [
       "none"
