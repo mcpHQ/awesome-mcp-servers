@@ -19163,5 +19163,23 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Verand",
+    "url": "https://verand.ai/mcp",
+    "repository": "https://github.com/verand-ai/verand-mcp",
+    "description": "Your site's rankings, AI-answer visibility and compliance checks, plus drafts and fixes you approve, from any AI assistant.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Verand",
+    "tags": ["seo", "marketing", "ai-visibility", "compliance", "remote"],
+    "official": true,
+    "pricing": "paid",
+    "transport": ["streamable-http"],
+    "auth": ["oauth"],
+    "endpoints": {
+      "streamableHttp": "https://app.verand.ai/mcp"
+    }
   }
+
 ]
