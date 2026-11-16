@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 858 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 859 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3942,6 +3942,23 @@ Create AI faceless videos from a script, run automated series, and publish to Yo
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://faceless.so/api/v1/mcp
+
+### FairValid
+
+Verify email addresses, read verification jobs and find verified work emails with FairMatch through the official hosted MCP connector.
+
+- URL: https://fairvalid.com/en/help/mcp
+- Language: Other
+- Provider: FairValid
+- Official: yes
+- Tags: email-verification, sales, remote
+- Category: Communication and Productivity
+- Repository: https://github.com/moonlitnayeem/fairvalid-ai
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key, oauth
+- Streamable HTTP endpoint: https://mcp.fairvalid.com/mcp
 
 ### Fax for Agents
 
