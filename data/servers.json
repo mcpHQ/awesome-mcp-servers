@@ -18642,5 +18642,32 @@
     "transport": [
       "streamable-http"
     ]
+  },
+  {
+    "name": "AnyScribe",
+    "url": "https://www.anyscribe.app/mcp",
+    "description": "Search and read your AnyScribe transcripts, summaries, translations and highlights from the iPhone and iPad transcription app, and send YouTube, TikTok or Instagram links to your iPhone to transcribe.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "AnyScribe",
+    "tags": [
+      "transcription",
+      "transcripts",
+      "youtube",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/KELiON/anyscribe-mcp",
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://mcp.anyscribe.app"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]
