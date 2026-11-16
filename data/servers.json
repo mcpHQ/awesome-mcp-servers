@@ -9175,6 +9175,31 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "NukeBG",
+    "url": "https://nukebg.com/mcp-server",
+    "description": "Official hosted server: remove image backgrounds, erase objects by description and upscale images 2x/4x; transparent PNG/WebP or marketplace-ready white.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "NukeBG",
+    "tags": [
+      "image",
+      "background-removal",
+      "upscale",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/nukebg/nukebg-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.nukebg.com/mcp"
+    }
+  },
+  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
