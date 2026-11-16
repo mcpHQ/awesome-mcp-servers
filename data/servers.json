@@ -9567,6 +9567,34 @@
     "official": true
   },
   {
+    "name": "HumanCalls",
+    "url": "https://humancalls.ai",
+    "description": "A real person phones a US or Canadian business for your agent, asks your questions and returns typed answers, a summary, the recording and a transcript.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Hire Overseas",
+    "tags": [
+      "phone-calls",
+      "human-in-the-loop",
+      "remote",
+      "business"
+    ],
+    "official": true,
+    "repository": "https://github.com/Hire-Overseas/humancalls-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://humancalls.ai/mcp"
+    }
+  },
+  {
     "name": "Tera Ads",
     "url": "https://teraads.co/connect",
     "description": "Meta Ads from Claude, ChatGPT, Cursor or Claude Code with approval before changes, undo for pauses and budgets, and Shopify profit after returns.",
