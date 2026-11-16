@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 843 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 844 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3366,6 +3366,21 @@ Create, deploy and manage static company websites through a local stdio MCP serv
 - Pricing: freemium
 - Transport: stdio
 - Install: npx @sakupa/mcp
+
+### serverdoctor
+
+Offline diagnostic MCP server for Minecraft Paper, Folia, and Spigot server logs, JVM G1GC and ZGC flags, crash reports, region worlds, and cross-file configs across 111 rules.
+
+- URL: https://github.com/SalyyS1/serverdoctor
+- Language: Kotlin
+- Provider: Community
+- Official: no
+- Tags: minecraft, diagnostics, logs, jvm, infrastructure
+- Category: Cloud and Infrastructure
+- License: Apache-2.0
+- Pricing: free
+- Transport: stdio
+- Auth: none
 
 ### Shipvela
 

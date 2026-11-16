@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 843 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 844 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -290,6 +290,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Railway MCP Server](https://docs.railway.com/cli/mcp): Deploy services and manage Railway projects through the MCP server built into the Railway CLI. (Rust, official)
 - [remotify-mcp](https://github.com/onlsol/relay.remotify.run): Local stdio MCP server that executes shell commands on remote computers through an HTTP relay, with optional per-command approval. (JavaScript)
 - [Sakupa](https://www.npmjs.com/package/@sakupa/mcp): Create, deploy and manage static company websites through a local stdio MCP server, with a 30-day free preview and optional paid hosting. (TypeScript, official)
+- [serverdoctor](https://github.com/SalyyS1/serverdoctor): Offline diagnostic MCP server for Minecraft Paper, Folia, and Spigot server logs, JVM G1GC and ZGC flags, crash reports, region worlds, and cross-file configs across 111 rules. (Kotlin)
 - [Shipvela](https://shipvela.com/integrations/codex): Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server. (TypeScript, official)
 - [SolidPing](https://github.com/fclairamb/solidping): Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio. (Go, official)
 - [Symbioza](https://symbioza.dev/agent): Symbioza runs your containerized GPU job on a rented cloud machine and hands back the files it writes, under a spending limit you set. (TypeScript, official)

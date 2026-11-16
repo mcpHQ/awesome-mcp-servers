@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-843-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-844-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (87)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (82)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (34)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (108)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (99)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (94)
@@ -617,6 +617,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `remote-shell` `relay` `command-execution` `stdio`
 - **[Sakupa](https://www.npmjs.com/package/@sakupa/mcp)** `Official` `TypeScript` — Create, deploy and manage static company websites through a local stdio MCP server, with a 30-day free preview and optional paid hosting.  
   `website-hosting` `deployment` `static-sites` `small-business`
+- **[serverdoctor](https://github.com/SalyyS1/serverdoctor)** `Kotlin` — Offline diagnostic MCP server for Minecraft Paper, Folia, and Spigot server logs, JVM G1GC and ZGC flags, crash reports, region worlds, and cross-file configs across 111 rules.  
+  `minecraft` `diagnostics` `logs` `jvm` `infrastructure`
 - **[Shipvela](https://shipvela.com/integrations/codex)** `Official` `TypeScript` — Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.  
   `hosting` `deployment` `github` `oauth`
 - **[SolidPing](https://github.com/fclairamb/solidping)** `Official` `Go` — Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio.  
