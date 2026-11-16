@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 842 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 843 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -914,6 +914,21 @@ Checks a list of web links and reports each status code, final URL and redirect 
 - Transport: stdio
 - Auth: none
 - Install: uvx link-check-lite
+
+### Louis Studios
+
+Hosted designer for coding agents that plans React pages and installs animated components fitted to a brand.
+
+- URL: https://studios.lou15.com/agents?ref=mcp
+- Language: TypeScript
+- Provider: Louis Studios
+- Official: yes
+- Tags: design, react, ui, components, remote
+- Category: Developer Tools and Code Intelligence
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://studios.lou15.com/mcp
 
 ### LynxPrompt MCP Server
 

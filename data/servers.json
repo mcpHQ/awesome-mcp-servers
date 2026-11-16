@@ -18462,5 +18462,31 @@
     "endpoints": {
       "streamableHttp": "https://cassette.gg/mcp"
     }
+  },
+  {
+    "name": "Louis Studios",
+    "url": "https://studios.lou15.com/agents?ref=mcp",
+    "description": "Hosted designer for coding agents that plans React pages and installs animated components fitted to a brand.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Louis Studios",
+    "tags": [
+      "design",
+      "react",
+      "ui",
+      "components",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://studios.lou15.com/mcp"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
   }
 ]
