@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-846-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-847-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (82)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
-- [Communication and Productivity](#communication-and-productivity) (108)
+- [Communication and Productivity](#communication-and-productivity) (109)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (99)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (94)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -760,6 +760,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `phone-calls` `voice-agent` `telephony` `remote`
 - **[Outbound OS](https://github.com/RecepioHQ/outbound-os)** `Official` `JavaScript` — Local MCP tools for evidence-gated email outreach with default-disabled live sending  
   `email` `ai-agents` `outreach` `approval`
+- **[Pageree](https://pageree.com)** `Official` `TypeScript` — Build landing pages as private previews and publish them once you approve, send form leads to email or a CRM webhook, hold back spam with submission rules, connect a custom domain, and read per-section visitor analytics. ([source](https://github.com/Pageree/mcp-server))  
+  `landing-pages` `lead-capture` `marketing` `analytics` `remote`
 - **[Pallyy](https://pallyy.com/docs/api/mcp)** `Official` `TypeScript` — Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks.  
   `social-media` `scheduling` `marketing` `remote`
 - **[Paper Plane Post](https://paperplanepost.com/for/agents)** `Official` `TypeScript` — Create and send an AI-illustrated postcard anywhere in the world  
