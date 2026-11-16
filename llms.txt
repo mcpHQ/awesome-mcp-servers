@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 856 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 858 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -808,12 +808,14 @@ Links under each category point at the upstream project, docs, or registry page.
 - [QR Cloud](https://qr-cloud.com/mcp-server/): Creates dynamic QR codes and short links, sets up QR Reviews that route guests to Google or Tripadvisor, and reads click, scan and review statistics from a QR Cloud account. (PHP, official)
 - [Quantral](https://quantral.com/mcp): Investment ideas built on alternative data: 0-100 stock scores from what investors say on X, Reddit, Substack and YouTube, track records for the accounts behind them, plus US Congress trades and insider buys. Read-only tools. (TypeScript, official)
 - [QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server): Manage QuickBooks accounting records and financial reports. (TypeScript, official)
+- [QuoteBuild](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fquotebuild/versions/latest): UK building calculators, estimate comparisons and account-scoped quoting and job costs. (TypeScript, official)
 - [Relaticle](https://github.com/relaticle/relaticle): Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields. (PHP, official)
 - [RentReboot](https://github.com/imiraoui/rentreboot-mcp): Search NYC apartments and renter guides, explore rent data, and access personal alerts and saved searches with scoped OAuth; website alert plans are separate. (Other, official)
 - [Requstory](https://requstory.com/developers/api/): Map how a company works from its website, who owns each process, and which steps AI agents can run; search public company maps and AI-readiness scores. (PHP, official)
 - [RestoSignals](https://github.com/paperandbeyond23-gif/restosignals-mcp): Finds US restaurants and bars 1-6 months before they open by fusing public liquor-license, food-permit and new-business filings into scored venues with owner contact. (Python, official)
 - [SaaSCity](https://github.com/nyyhao/saascity-mcp): Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity. (JavaScript, official)
 - [Salesforce MCP Server](https://github.com/salesforcecli/mcp): Query Salesforce CRM records and manage business workflows. (TypeScript, official)
+- [SCENE](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fscene/versions/latest): Campaign briefs, creative recipes and private drafts in an authorized SCENE studio. (TypeScript, official)
 - [ScentVerdict](https://scentverdict.com/connect): Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication. (C#, official)
 - [Screwtape.ai](https://screwtape.ai): Spend guardrails for AI agents: check payments, track budgets, catch duplicates, and issue signed receipts. (TypeScript, official)
 - [SecureLend Underwriting](https://github.com/SecureLend/mcp-underwriting): Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides. (TypeScript, official)

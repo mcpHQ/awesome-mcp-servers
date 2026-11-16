@@ -18831,5 +18831,45 @@
       "api-key",
       "oauth"
     ]
+  },
+  {
+    "name": "QuoteBuild",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fquotebuild/versions/latest",
+    "description": "UK building calculators, estimate comparisons and account-scoped quoting and job costs.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Strawberry Works Limited",
+    "tags": [
+      "construction",
+      "estimating",
+      "quoting"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.quotebuild.co.uk/mcp"
+    }
+  },
+  {
+    "name": "SCENE",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fscene/versions/latest",
+    "description": "Campaign briefs, creative recipes and private drafts in an authorized SCENE studio.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Strawberry Works Limited",
+    "tags": [
+      "marketing",
+      "campaigns",
+      "drafts"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://app.scenehq.co.uk/mcp"
+    }
   }
 ]
