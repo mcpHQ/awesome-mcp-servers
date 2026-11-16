@@ -19028,5 +19028,33 @@
     "endpoints": {
       "streamableHttp": "https://mcp.robowrite.ai/mcp"
     }
+  },
+  {
+    "name": "Valmera MCP Server",
+    "url": "https://valmera.io/mcp",
+    "repository": "https://github.com/ABO3SKRALMASAOODI/valmera-mcp",
+    "description": "Edit existing video footage through an OAuth-authenticated MCP connection, review cuts and captions, request revisions, and export a finished MP4.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Valmera",
+    "tags": [
+      "video-editing",
+      "captions",
+      "media",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://valmera.io/mcp/server"
+    }
   }
 ]
