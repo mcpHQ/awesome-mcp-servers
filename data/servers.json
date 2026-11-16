@@ -18411,5 +18411,33 @@
     "endpoints": {
       "streamableHttp": "https://api.leadli.me/api/v1/mcp"
     }
+  },
+  {
+    "name": "OneFindMe",
+    "url": "https://onefindme.com/mcp",
+    "description": "Remote read-only server for searching AliExpress in 21 languages, returning listings with local-currency prices, ratings, order counts and links, plus a budget-fitting basket builder.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "OneFindMe",
+    "tags": [
+      "aliexpress",
+      "shopping",
+      "ecommerce",
+      "multilingual",
+      "remote"
+    ],
+    "official": false,
+    "repository": "https://github.com/skazi1976/onefindme-plugin",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://onefindme.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]
