@@ -19002,5 +19002,31 @@
     "endpoints": {
       "streamableHttp": "https://cryptoexchangein.com/mcp"
     }
+  },
+  {
+    "name": "RoboWrite",
+    "url": "https://www.robowrite.ai/guides/robowrite-mcp",
+    "repository": "https://github.com/RoboAdApp/robowrite-plugin",
+    "description": "Plan brand-aware content, review briefs and recover saved Markdown drafts from RoboWrite through a hosted MCP server with OAuth sign-in.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "M Powered Ventures",
+    "tags": [
+      "content-planning",
+      "marketing",
+      "drafts",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.robowrite.ai/mcp"
+    }
   }
 ]
