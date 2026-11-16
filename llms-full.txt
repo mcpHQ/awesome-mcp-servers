@@ -4612,13 +4612,13 @@ Answer, note, assign, triage and close Rinhelp help desk conversations, search k
 
 ### RoboWrite
 
-Plan brand-aware content, review briefs and recover saved Markdown drafts from RoboWrite through a hosted MCP server with OAuth sign-in.
+SEO/GEO content grounded in keyword research, competitor insights, brand voice, and knowledge.
 
 - URL: https://www.robowrite.ai/guides/robowrite-mcp
 - Language: TypeScript
 - Provider: M Powered Ventures
 - Official: yes
-- Tags: content-planning, marketing, drafts, oauth, remote
+- Tags: seo, geo, keyword-research, competitor-research, rag
 - Category: Communication and Productivity
 - Repository: https://github.com/RoboAdApp/robowrite-plugin
 - Transport: streamable-http
