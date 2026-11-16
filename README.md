@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-847-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-848-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (94)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (181)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (182)
 - [Utilities and Examples](#utilities-and-examples) (44)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1481,6 +1481,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `solana` `crypto` `risk` `x402`
 - **[Dropify](https://github.com/xozxro/dropify-mcp)** `Official` `TypeScript` — Looks up the official merch stores Dropify tracks for an artist or brand and returns the page where restock and drop alerts are set.  
   `merch` `restock-alerts` `shopping` `music`
+- **[easyrender](https://easyrender.ai/mcp)** `Official` `TypeScript` — Turn a product photo into a textured 3D model (GLB), with a free angle-sheet preview, then build with account credits. ([source](https://github.com/easyrenderai/easyrender.ai))  
+  `image-to-3d` `glb` `ecommerce` `remote`
 - **[Ecommerce Leads](https://getecommerceleads.com/docs/)** `Official` `PHP` — Look up any ecommerce store by domain for estimated revenue, ad spend, traffic and buying signals; sign in to search 600k+ stores and reveal contacts. ([source](https://github.com/matosdfm/ecommerce-leads-mcp))  
   `ecommerce` `sales` `leads` `marketing` `remote`
 - **[Edgrapi](https://edgrapi.com)** `Official` `Python` — US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants, House STOCK Act trades and SEC EDGAR filings, 19 read-only tools.  

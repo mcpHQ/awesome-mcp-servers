@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 847 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 848 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8976,6 +8976,23 @@ Looks up the official merch stores Dropify tracks for an artist or brand and ret
 - Official: yes
 - Tags: merch, restock-alerts, shopping, music
 - Category: Finance, Commerce, and Business Apps
+
+### easyrender
+
+Turn a product photo into a textured 3D model (GLB), with a free angle-sheet preview, then build with account credits.
+
+- URL: https://easyrender.ai/mcp
+- Language: TypeScript
+- Provider: easyrender
+- Official: yes
+- Tags: image-to-3d, glb, ecommerce, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/easyrenderai/easyrender.ai
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key, oauth
+- Verified: 2026-11-15
+- Streamable HTTP endpoint: https://easyrender.ai/api/mcp
 
 ### Ecommerce Leads
 
