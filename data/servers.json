@@ -18563,5 +18563,34 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Pageree",
+    "url": "https://pageree.com",
+    "description": "Build landing pages as private previews and publish them once you approve, send form leads to email or a CRM webhook, hold back spam with submission rules, connect a custom domain, and read per-section visitor analytics.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Pageree",
+    "tags": [
+      "landing-pages",
+      "lead-capture",
+      "marketing",
+      "analytics",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/Pageree/mcp-server",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.pageree.com/"
+    },
+    "verified": "2026-11-15"
   }
 ]

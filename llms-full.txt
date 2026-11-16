@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 846 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 847 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4290,6 +4290,24 @@ Local MCP tools for evidence-gated email outreach with default-disabled live sen
 - Official: yes
 - Tags: email, ai-agents, outreach, approval
 - Category: Communication and Productivity
+
+### Pageree
+
+Build landing pages as private previews and publish them once you approve, send form leads to email or a CRM webhook, hold back spam with submission rules, connect a custom domain, and read per-section visitor analytics.
+
+- URL: https://pageree.com
+- Language: TypeScript
+- Provider: Pageree
+- Official: yes
+- Tags: landing-pages, lead-capture, marketing, analytics, remote
+- Category: Communication and Productivity
+- Repository: https://github.com/Pageree/mcp-server
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Verified: 2026-11-15
+- Streamable HTTP endpoint: https://mcp.pageree.com/
 
 ### Pallyy
 
