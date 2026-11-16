@@ -19082,5 +19082,31 @@
     "endpoints": {
       "streamableHttp": "https://mcp.thrivedesk.com"
     }
+  },
+  {
+    "name": "Appy Smart Links",
+    "url": "https://appy.to/docs/mcp",
+    "description": "Create and edit device-aware smart links and inspect click analytics from MCP clients; install attribution requires an Enterprise plan.",
+    "category": "utilities-and-examples",
+    "language": "Go",
+    "provider": "Appy",
+    "tags": [
+      "smart-links",
+      "deep-linking",
+      "click-analytics",
+      "app-attribution",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.appy.to"
+    }
   }
 ]
