@@ -19056,5 +19056,31 @@
     "endpoints": {
       "streamableHttp": "https://valmera.io/mcp/server"
     }
+  },
+  {
+    "name": "ThriveDesk MCP",
+    "url": "https://www.thrivedesk.com/mcp/",
+    "repository": "https://github.com/thrivedesk/thrivedesk-mcp",
+    "description": "Search, reply, tag, assign and report on ThriveDesk help desk conversations from your AI assistant.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "ThriveDesk",
+    "tags": [
+      "help-desk",
+      "customer-support",
+      "conversations",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.thrivedesk.com"
+    }
   }
 ]

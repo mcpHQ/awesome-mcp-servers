@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-865-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-866-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (84)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
-- [Communication and Productivity](#communication-and-productivity) (112)
+- [Communication and Productivity](#communication-and-productivity) (113)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (96)
 - [Legal and Court Data](#legal-and-court-data) (10)
@@ -840,6 +840,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `sms` `phone-verification` `messaging` `remote`
 - **[There There](https://there-there.app/docs/integrations/mcp-server)** `Official` `PHP` — Read, search and triage There There helpdesk tickets, save private reply drafts, send replies and manage knowledge base articles, limited to the abilities granted over OAuth.  
   `helpdesk` `customer-support` `tickets` `oauth`
+- **[ThriveDesk MCP](https://www.thrivedesk.com/mcp/)** `Official` `TypeScript` — Search, reply, tag, assign and report on ThriveDesk help desk conversations from your AI assistant. ([source](https://github.com/thrivedesk/thrivedesk-mcp))  
+  `help-desk` `customer-support` `conversations` `oauth` `remote`
 - **[Timesheet MCP Server](https://github.com/timesheetIO/timesheet-mcp)** `Official` `TypeScript` — Official Timesheet time tracking server: run timers, log work, manage projects, todos, expenses and absences, and pull reports and exports.  
   `time-tracking` `timesheet` `productivity` `hosted`
 - **[Toads](https://github.com/854Labs/toads)** `Official` `Swift` — Edit screen recordings in Toads on your Mac: tidy up filler words, cut by transcript, add captions, titles and zooms, and export.  
