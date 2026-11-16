@@ -11545,6 +11545,22 @@
     "repository": "https://github.com/masondelan/selvedge"
   },
   {
+    "name": "LFG Atlas",
+    "url": "https://lfgatlas.pages.dev/developers/",
+    "description": "Find LFG groups for 110 games, official game news, live player counts and what's hot.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "LFG Atlas",
+    "tags": ["gaming", "lfg", "news", "remote"],
+    "official": true,
+    "pricing": "free",
+    "transport": ["streamable-http"],
+    "auth": ["none"],
+    "endpoints": {
+      "streamableHttp": "https://lfgatlas-bot.jonsimm36.workers.dev/mcp"
+    }
+  },
+  {
     "name": "ShortSmash",
     "url": "https://github.com/hydope/shortsmash",
     "description": "MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms.",
