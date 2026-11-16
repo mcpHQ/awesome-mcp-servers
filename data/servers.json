@@ -18488,5 +18488,30 @@
     "auth": [
       "api-key"
     ]
+  },
+  {
+    "name": "serverdoctor",
+    "url": "https://github.com/SalyyS1/serverdoctor",
+    "description": "Offline diagnostic MCP server for Minecraft Paper, Folia, and Spigot server logs, JVM G1GC and ZGC flags, crash reports, region worlds, and cross-file configs across 111 rules.",
+    "category": "cloud-and-infrastructure",
+    "language": "Kotlin",
+    "provider": "Community",
+    "tags": [
+      "minecraft",
+      "diagnostics",
+      "logs",
+      "jvm",
+      "infrastructure"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/serverdoctor",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]
