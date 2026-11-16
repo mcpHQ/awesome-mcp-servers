@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-850-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-851-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (87)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (83)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (84)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (110)
@@ -371,6 +371,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `social-media` `remote` `tiktok` `instagram` `youtube`
 - **[Cassette Game Finder](https://registry.modelcontextprotocol.io/v0.1/servers/gg.cassette%2Ffind/versions/latest)** `Official` `Rust` — Search browser games, read game details, find similar games and list genres on Cassette; read-only, no sign-in.  
   `games` `search` `browser-games`
+- **[CheaterBusting](https://cheaterbusting.com/agents.md)** `Official` `JavaScript` — Checks Tinder, Bumble, Hinge and 9 more dating apps for a public profile matching a photo, name, age and city: plans, apps covered, how it works, and the start link. Read-only, no sign-in. ([source](https://github.com/MindCraftersGroup/cheaterbusting-plugin))  
+  `dating` `search` `lifestyle` `remote`
 - **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `Official` `TypeScript` — Control and inspect Chrome through DevTools protocol for debugging and automation.  
   `chrome` `devtools` `debugging`
 - **[CloakBrowser MCP](https://github.com/swimmwatch/cloakbrowser-mcp)** `TypeScript` — Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.  
