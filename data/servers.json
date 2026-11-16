@@ -18898,5 +18898,31 @@
     "endpoints": {
       "streamableHttp": "https://mcp.fairvalid.com/mcp"
     }
+  },
+  {
+    "name": "Pay2GPT",
+    "url": "https://pay2gpt.com/en/llms.txt",
+    "description": "Official remote MCP server for Pay2GPT: list ChatGPT Go/Plus/Pro top-up plans and Codex credits with current prices and checkout links, and read how-to guides as Markdown (en, zh-CN, ru); business tools need an API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Ruby",
+    "provider": "Pay2GPT",
+    "tags": [
+      "chatgpt",
+      "pricing",
+      "guides",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://pay2gpt.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
   }
 ]

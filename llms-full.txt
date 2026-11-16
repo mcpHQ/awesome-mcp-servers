@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 859 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 860 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10108,6 +10108,21 @@ A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX bi
 - Official: no
 - Tags: a-share, stock-data, real-time-quotes, market-data
 - Category: Finance, Commerce, and Business Apps
+
+### Pay2GPT
+
+Official remote MCP server for Pay2GPT: list ChatGPT Go/Plus/Pro top-up plans and Codex credits with current prices and checkout links, and read how-to guides as Markdown (en, zh-CN, ru); business tools need an API key.
+
+- URL: https://pay2gpt.com/en/llms.txt
+- Language: Ruby
+- Provider: Pay2GPT
+- Official: yes
+- Tags: chatgpt, pricing, guides, remote
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Transport: streamable-http
+- Auth: none, api-key
+- Streamable HTTP endpoint: https://pay2gpt.com/mcp
 
 ### PayPal MCP Server
 
