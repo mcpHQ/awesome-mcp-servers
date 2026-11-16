@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 854 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 855 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6926,6 +6926,21 @@ Read-only access to Google Search Console properties, Search Analytics, sitemaps
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://gscmate.com/mcp
+
+### HarborRank
+
+Hosted SEO MCP server with OAuth: keyword research, live Google SERPs and Maps rank grids, competitor and backlink data, rank tracking, site audits, AI visibility, and read-only Search Console and Google Analytics.
+
+- URL: https://harborrank.com/docs/mcp
+- Language: TypeScript
+- Provider: HarborRank
+- Official: yes
+- Tags: seo, keyword-research, rank-tracking, remote, oauth
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/winsley-jeune/harborrank-skills
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://app.harborrank.com/mcp
 
 ### HEY Research Lab
 

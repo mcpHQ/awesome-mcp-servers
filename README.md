@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-854-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-855-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (110)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (100)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (94)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (95)
 - [Legal and Court Data](#legal-and-court-data) (10)
 - [Security and Identity](#security-and-identity) (41)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (184)
@@ -1160,6 +1160,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `google-search-console` `google-analytics` `read-only` `remote`
 - **[GSCmate](https://gscmate.com)** `Official` `JavaScript` — Read-only access to Google Search Console properties, Search Analytics, sitemaps, and URL inspection through user-authorized OAuth 2.1.  
   `google-search-console` `seo` `analytics` `oauth` `remote`
+- **[HarborRank](https://harborrank.com/docs/mcp)** `Official` `TypeScript` — Hosted SEO MCP server with OAuth: keyword research, live Google SERPs and Maps rank grids, competitor and backlink data, rank tracking, site audits, AI visibility, and read-only Search Console and Google Analytics. ([source](https://github.com/winsley-jeune/harborrank-skills))  
+  `seo` `keyword-research` `rank-tracking` `remote` `oauth`
 - **[HEY Research Lab](https://github.com/hey-research-lab/hey-research-open)** `Official` `TypeScript` — Read-only research on Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its public source.  
   `blockchain` `robinhood-chain` `research` `open-data`
 - **[HirePulse Agent Gateway](https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/)** `Official` `Other` — Remote MCP tools for website technologies and company job listings; paid HTTP API calls use x402 on Base.  

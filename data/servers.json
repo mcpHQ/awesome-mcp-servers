@@ -18779,5 +18779,31 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "HarborRank",
+    "url": "https://harborrank.com/docs/mcp",
+    "description": "Hosted SEO MCP server with OAuth: keyword research, live Google SERPs and Maps rank grids, competitor and backlink data, rank tracking, site audits, AI visibility, and read-only Search Console and Google Analytics.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "HarborRank",
+    "tags": [
+      "seo",
+      "keyword-research",
+      "rank-tracking",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.harborrank.com/mcp"
+    },
+    "repository": "https://github.com/winsley-jeune/harborrank-skills",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]
