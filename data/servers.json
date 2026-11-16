@@ -18805,5 +18805,31 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "ClickHouse Loom",
+    "url": "https://github.com/ClickHouse/loom",
+    "repository": "https://github.com/ClickHouse/loom",
+    "description": "Self-hosted MCP server that gives AI agents shared long-term memory, document search with citations and a code index (definitions, callers, change impact), stored in ClickHouse.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "ClickHouse",
+    "tags": [
+      "memory",
+      "rag",
+      "code-search",
+      "self-hosted",
+      "clickhouse"
+    ],
+    "official": true,
+    "license": "Apache-2.0",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key",
+      "oauth"
+    ]
   }
 ]
