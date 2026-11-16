@@ -18723,5 +18723,33 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "Sprout",
+    "url": "https://sprout.mindcrafters.group/mcp",
+    "description": "Hosted OAuth MCP server with read-only cash flow, spending, recurring charges and transaction search over your connected US and Canadian bank and card accounts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "MindCrafters LLC",
+    "tags": [
+      "personal-finance",
+      "banking",
+      "budgeting",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api-sprout.mindcrafters.group/mcp"
+    },
+    "repository": "https://github.com/MindCraftersGroup/sprout-claude-plugin",
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]
