@@ -18669,5 +18669,31 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "CheaterBusting",
+    "url": "https://cheaterbusting.com/agents.md",
+    "description": "Checks Tinder, Bumble, Hinge and 9 more dating apps for a public profile matching a photo, name, age and city: plans, apps covered, how it works, and the start link. Read-only, no sign-in.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "MindCrafters LLC",
+    "tags": [
+      "dating",
+      "search",
+      "lifestyle",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/MindCraftersGroup/cheaterbusting-plugin",
+    "license": "MIT",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://cheaterbusting.com/mcp"
+    }
   }
 ]
