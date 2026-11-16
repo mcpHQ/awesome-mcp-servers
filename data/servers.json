@@ -18947,5 +18947,34 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Mamba Labs GTM Suite MCP Server",
+    "url": "https://github.com/mambalabsdev/mcp-gtm-suite",
+    "repository": "https://github.com/mambalabsdev/mcp-gtm-suite",
+    "description": "21 account intelligence tools for sales research: company identity, firmographics, hiring, tech stack, funding signals and ICP scoring, with Clay-ready JSON output.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Mamba Labs",
+    "tags": [
+      "sales-research",
+      "lead-enrichment",
+      "firmographics",
+      "apify",
+      "local"
+    ],
+    "official": true,
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@mambalabsdev/mcp-gtm-suite"
+    }
   }
 ]
