@@ -18592,5 +18592,33 @@
       "streamableHttp": "https://mcp.pageree.com/"
     },
     "verified": "2026-11-15"
+  },
+  {
+    "name": "easyrender",
+    "url": "https://easyrender.ai/mcp",
+    "description": "Turn a product photo into a textured 3D model (GLB), with a free angle-sheet preview, then build with account credits.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "easyrender",
+    "tags": [
+      "image-to-3d",
+      "glb",
+      "ecommerce",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/easyrenderai/easyrender.ai",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "verified": "2026-11-15",
+    "endpoints": {
+      "streamableHttp": "https://easyrender.ai/api/mcp"
+    }
   }
 ]
