@@ -7634,6 +7634,34 @@
     "verified": "2026-11-09"
   },
   {
+    "name": "Roopedia MCP",
+    "url": "https://roopedia.com/mcp",
+    "description": "Query 786+ verified AI tools, SaaS pricing freshness, and MCP server security records in English and French.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Roopedia",
+    "tags": [
+      "ai-tools",
+      "mcp-registry",
+      "pricing",
+      "security"
+    ],
+    "official": false,
+    "repository": "https://github.com/hajejbusiness/roopedia-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:hajejbusiness/roopedia-mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "WISEPIM Commerce Reference",
     "url": "https://github.com/lldiegon/wisepim-commerce-mcp",
     "description": "Look up HS headings, read marketplace listing requirements, and screen environmental claims in product copy offline.",
