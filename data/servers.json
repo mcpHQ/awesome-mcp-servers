@@ -11859,6 +11859,31 @@
     ]
   },
   {
+    "name": "Gesher",
+    "url": "https://github.com/EphraimElgrabli/gesher",
+    "description": "Local MCP servers that let AI clients read and edit Apple Notes, Reminders, Calendar, Contacts, Maps, Weather and Freeform on a Mac.",
+    "category": "communication-and-productivity",
+    "language": "Swift",
+    "provider": "Community",
+    "tags": [
+      "macos",
+      "apple-notes",
+      "reminders",
+      "calendar",
+      "local"
+    ],
+    "official": false,
+    "repository": "https://github.com/EphraimElgrabli/gesher",
+    "license": "GPL-3.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "SigRank MCP",
     "url": "https://github.com/SunrisesIllNeverSee/sigrank-mcp",
     "description": "AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.",

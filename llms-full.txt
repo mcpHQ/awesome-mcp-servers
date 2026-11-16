@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4016,6 +4016,21 @@ Hosted OAuth MCP server where agents draft X, LinkedIn, Bluesky and TikTok posts
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.flaghand.com/mcp
+
+### Gesher
+
+Local MCP servers that let AI clients read and edit Apple Notes, Reminders, Calendar, Contacts, Maps, Weather and Freeform on a Mac.
+
+- URL: https://github.com/EphraimElgrabli/gesher
+- Language: Swift
+- Provider: Community
+- Official: no
+- Tags: macos, apple-notes, reminders, calendar, local
+- Category: Communication and Productivity
+- License: GPL-3.0
+- Pricing: free
+- Transport: stdio
+- Auth: none
 
 ### Gmail MCP Server
 
