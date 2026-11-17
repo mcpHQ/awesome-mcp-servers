@@ -2013,9 +2013,9 @@ Scrape, crawl, and extract structured web data with Firecrawl.
 - Tags: scraping, crawl, web
 - Category: Browsers, Search, and Web Automation
 
-### FlashData Google Search and YouTube Data
+### FlashData Google Search, YouTube Data & Download
 
-Google vertical search and YouTube search, transcripts, captions, metadata, channels, autocomplete, license labels and async media delivery via MCP; data calls require a FlashData API key and paid Credits.
+Fast, affordable access to Google search, YouTube data, and YouTube video/audio downloads via MCP, with a free trial.
 
 - URL: https://github.com/rocosen/flashdata-mcp
 - Language: TypeScript
