@@ -14865,6 +14865,31 @@
     ]
   },
   {
+    "name": "Tapline",
+    "url": "https://tapline.sh/docs/mcp",
+    "description": "Hosted MCP server returning structured JSON from YouTube, Airbnb, TikTok, Instagram, Facebook, LinkedIn, Zillow and Google Maps.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Tapline",
+    "tags": [
+      "web-scraping",
+      "data-extraction",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://api.tapline.sh/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "CartViral",
     "url": "https://cartviral.com/mcp",
     "description": "Hosted server that imports products from a store or product link and makes AI product videos for TikTok, Reels and Shorts, product photos, carousels, static ads and listing copy, returning download links.",
