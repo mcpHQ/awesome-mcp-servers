@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3633,6 +3633,21 @@ Connect a WhatsApp number to Claude or ChatGPT by pasting one MCP link and scann
 - Repository: https://github.com/yehudashtein/wa-bridge-mcp
 - License: MIT
 - Transport: stdio
+
+### AppStruct Social MCP
+
+Hosted MCP for reading AppStruct Social channels, posts and available analytics, and creating or updating unscheduled drafts; requires a workspace Bearer key and cannot schedule or publish posts.
+
+- URL: https://blog.appstruct.ai/blog/social-media-mcp-server?utm_source=mcphq&utm_medium=referral&utm_campaign=social_mcp_launch_20261114&utm_content=directory_visit
+- Language: Other
+- Provider: AppStruct
+- Official: yes
+- Tags: social-media, drafts, marketing, remote, api-key
+- Category: Communication and Productivity
+- License: proprietary
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://api.appstruct.ai/v1/social/mcp
 
 ### ArtiGram
 
