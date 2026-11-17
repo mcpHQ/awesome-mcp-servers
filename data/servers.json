@@ -6557,6 +6557,32 @@
     ]
   },
   {
+    "name": "OpenSMM Protocol",
+    "url": "https://opensmm.dev",
+    "description": "Open protocol and reference MCP gateway for ordering social media growth services: catalog search, quotes, idempotent orders, provider-node registration and x402 payments in one local node.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "OpenSMM Protocol",
+    "tags": [
+      "social-media",
+      "smm",
+      "orders",
+      "payments",
+      "self-hosted"
+    ],
+    "official": true,
+    "repository": "https://github.com/opensmm-protocol/mcp-server",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Metaintro Job Search",
     "url": "https://www.metaintro.com/developers/mcp",
     "description": "Search live jobs pulled straight from employer career sites, read postings, and see how employers hire and pay; free, no sign-in.",
