@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-869-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-877-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,10 +49,10 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (113)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (97)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (104)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (188)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (189)
 - [Utilities and Examples](#utilities-and-examples) (46)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1098,6 +1098,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `ai-seo` `geo` `citations` `remote`
 - **[ailiste](https://ailiste.app/mcp/)** `Official` `Python` — New-build homes in Cyprus: buildings with the stage seen on site and the day, developers, and district asking prices per m², read-only. ([source](https://github.com/ahmlvs/ailiste-mcp))  
   `real-estate` `cyprus` `property-prices` `new-builds` `remote`
+- **[Airport Delays FAA Status MCP](https://github.com/theluckystrike/airport-delays-faa-status-mcp)** `TypeScript` — Live FAA ground stops, ground delay programs, arrival and departure delays, closures and deicing at US airports, plus a multi-airport trip check.  
+  `travel` `airports` `flight-delays` `faa`
 - **[AltoRank](https://github.com/AltoRank/altorank)** `Official` `TypeScript` — Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.  
   `seo` `content` `marketing` `remote` `oauth`
 - **[Amplitude MCP Server](https://amplitude.com/docs/amplitude-ai/amplitude-mcp)** `Official` `TypeScript` — Analyze product analytics events and user behavior in Amplitude.  
@@ -1118,6 +1120,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `blogging` `content` `wordpress` `remote`
 - **[BOIM (보임)](https://github.com/kikiyop1101/boim-mcp)** `Official` `Other` — Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.  
   `korea` `business-directory` `public-procurement` `public-bids` `read-only`
+- **[Border Wait Times Canada Mexico MCP](https://github.com/theluckystrike/border-wait-times-canada-mexico-mcp)** `TypeScript` — Live CBP wait times at every US-Mexico and US-Canada land crossing for cars, SENTRI, NEXUS, Ready Lane, pedestrians and trucks, with the fastest crossing.  
+  `travel` `border` `wait-times` `cbp`
 - **[Bruin Cloud MCP](https://getbruin.com/docs/bruin/cloud/mcp-setup.html)** `Official` `Other` — Hosted MCP server for Bruin Cloud to list data pipelines, inspect runs, and trigger actions from Claude, Cursor, Claude Code, or Codex via OAuth or an access token.  
   `data-pipelines` `orchestration` `remote` `oauth`
 - **[Bruin MCP](https://getbruin.com/docs/bruin/getting-started/bruin-mcp.html)** `Official` `Go` — Local MCP server in the open-source Bruin CLI that lets agents query databases, ingest data, compare tables, and build SQL and Python data pipelines.  
@@ -1128,6 +1132,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `company-data` `verification` `registry` `evidence` `remote`
 - **[countrymanager](https://countrymanager.app/mcp)** `Official` `TypeScript` — Hosted OAuth MCP server for App Store and Google Play reviews: filter reviews by app, country and rating, read translations, insights and per-country ratings, and draft replies in the reviewer's language that a person sends.  
   `app-store` `google-play` `app-reviews` `remote`
+- **[COVID Flu RSV Wastewater Levels MCP](https://github.com/theluckystrike/covid-flu-rsv-wastewater-levels-mcp)** `TypeScript` — CDC wastewater viral activity levels for COVID-19, flu and RSV by US state and county, plus ER respiratory illness activity and national test positivity.  
+  `public-health` `covid` `wastewater` `cdc`
 - **[CoworkingView](https://coworkingview.com/en/mcp)** `Official` `Other` — Hosted, no-key, read-only MCP server for coworking spaces, private offices and city price medians in European and UAE cities.  
   `real-estate` `coworking` `europe` `remote`
 - **[CrakSEO Search Console MCP](https://docs.crakseo.com/mcp-servers/search-console)** `Official` `Other` — Free remote MCP access to owned-site Google Search Console and Bing Webmaster data; CrakSEO authentication and authorization for the user's own properties required.  
@@ -1150,10 +1156,14 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `mobile-apps` `subscriptions` `paywalls` `analytics` `attribution`
 - **[FlightQueue](https://flightqueue.com/mcp)** `Official` `Other` — Airport security wait times, forecasts, FAA delays, EES border queues and baggage stats for 8,000+ airports over a hosted MCP server.  
   `travel` `airports` `wait-times` `flight-delays`
+- **[Flood Zone Lookup FEMA Flood Map MCP](https://github.com/theluckystrike/flood-zone-lookup-fema-flood-map-mcp)** `TypeScript` — FEMA flood zone, Special Flood Hazard Area status, base flood elevation, FIRM panel and nearby floodplain for any US address from the National Flood Hazard Layer.  
+  `flood-zone` `fema` `geospatial` `real-estate`
 - **[Folklore Clinical Variant Interpretation MCP](https://folklore.helena.bio/integrations/mcp)** `Official` `Python` — ACMG/AMP germline variant classification, gene profiles, disease associations and literature. ([source](https://github.com/helena-bioinformatics/folklore-mcp))  
   `genomics` `variant-classification` `acmg` `bioinformatics` `remote`
 - **[Fourth Feed](https://fourthfeed.com/about)** `Official` `TypeScript` — Search AI video tools for prices, free credits, traffic and agent-readiness through a keyless remote MCP server. ([source](https://github.com/fourthfeed/fourthfeed-mcp))  
   `ai-video` `pricing` `comparison` `read-only` `remote`
+- **[Fuel Economy Gas Mileage MPG MCP](https://github.com/theluckystrike/fuel-economy-gas-mileage-mpg-mcp)** `TypeScript` — EPA city, highway and combined MPG, EV range and annual fuel cost for any car by year, make and model from fueleconomy.gov, with side-by-side comparisons.  
+  `fuel-economy` `mpg` `vehicles` `epa`
 - **[Global Database](https://api.globaldatabase.com/docs/v2/#mcp-server)** `Official` `Other` — Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication.  
   `company-data` `business-intelligence` `kyb` `oauth`
 - **[Globatics](https://globatics.live/docs/mcp)** `Official` `Other` — Read-only remote MCP server to query your own Globatics web analytics reports; a paid hosted tool, available on the Pro and Business plans.  
@@ -1186,6 +1196,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `pinball` `games` `news` `remote`
 - **[KissMyPost](https://kissmypost.com/mcp)** `Official` `TypeScript` — Hosted read-only server for Reddit audience research: subreddit search by topic, member growth, audience demographics, best time to post, posting rules and brand mention counts. ([source](https://github.com/krutytskyi/kissmypost-mcp))  
   `reddit` `audience-research` `subreddits` `analytics` `remote`
+- **[Last Frost Date Hardiness Zone MCP](https://github.com/theluckystrike/last-frost-date-hardiness-zone-mcp)** `TypeScript` — USDA hardiness zone by ZIP code, median last spring and first fall frost dates from 30 seasons of weather history, a frost forecast and a planting calendar.  
+  `gardening` `hardiness-zone` `frost-dates` `weather`
 - **[leadli.me](https://leadli.me/en/guides/mcp-server)** `Official` `TypeScript` — Connects AI assistants to subscriber reports and Meta/TikTok ad attribution for Telegram channels and bots, with an organization API key.  
   `telegram` `ad-attribution` `analytics` `marketing` `remote`
 - **[LinkDR](https://linkdr.com/docs/mcp)** `Official` `TypeScript` — Domain rating and backlink research, SERP and keyword analysis, AI search visibility checks, publisher site approvals, and managed backlink ordering. ([source](https://github.com/Illyism/linkdr-mcp))  
@@ -1226,6 +1238,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `ios` `app-store` `aso` `ads` `remote`
 - **[PinnFeed](https://pinnfeed.io/docs/mcp)** `Official` `Other` — Hosted Streamable HTTP MCP for live and prematch Pinnacle odds, no-vig fair prices, drops and closing lines, with a free plan. ([source](https://github.com/pinnfeed/pinnfeed-mcp))  
   `sports` `odds` `mcp` `remote`
+- **[Powerball Mega Millions Winning Numbers MCP](https://github.com/theluckystrike/powerball-mega-millions-winning-numbers-mcp)** `TypeScript` — Latest and past Powerball and Mega Millions winning numbers from NY Gaming Commission open data, a ticket checker with prize tier and amount, and hot and cold numbers.  
+  `lottery` `powerball` `mega-millions` `open-data`
 - **[PreReason](https://github.com/PreReason/mcp)** `Official` `JavaScript` — Financial market context for AI agents, reasoned in advance, from the economy and markets to listed companies' reported results; remote Streamable HTTP or npm stdio bridge.  
   `finance` `markets` `economics` `remote`
 - **[Proofsource](https://proofsource.co/docs/chatgpt-and-claude)** `Official` `Go` — Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth.  
@@ -1669,6 +1683,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `plush` `manufacturing` `sourcing` `directory`
 - **[Pocket Drives](https://github.com/RevList/pocket-drives-mcp)** `TypeScript` — Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.  
   `travel` `car-rental` `marketplace`
+- **[Prime Rate SOFR Fed Funds Rate Today MCP](https://github.com/theluckystrike/prime-rate-sofr-fed-funds-rate-today-mcp)** `TypeScript` — Prime rate, SOFR averages and the fed funds target and effective rate from the New York Fed, with FOMC rate changes and a prime or SOFR based loan rate calculator.  
+  `interest-rates` `sofr` `fed-funds` `prime-rate`
 - **[Puley](https://puley.com)** `Official` `Other` — Gives ChatGPT and Claude live data and real jobs: local business leads from Google Maps, competitors' live Meta and Google ads, TikTok, Instagram and YouTube stats and transcripts, price comparison and change alerts.  
   `lead-generation` `marketing` `competitor-ads` `remote` `oauth`
 - **[QR Cloud](https://qr-cloud.com/mcp-server/)** `Official` `PHP` — Creates dynamic QR codes and short links, sets up QR Reviews that route guests to Google or Tripadvisor, and reads click, scan and review statistics from a QR Cloud account.  

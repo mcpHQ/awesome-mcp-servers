@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 877 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6510,6 +6510,22 @@ New-build homes in Cyprus: buildings with the stage seen on site and the day, de
 - Auth: none
 - Streamable HTTP endpoint: https://mcp.ailiste.app/
 
+### Airport Delays FAA Status MCP
+
+Live FAA ground stops, ground delay programs, arrival and departure delays, closures and deicing at US airports, plus a multi-airport trip check.
+
+- URL: https://github.com/theluckystrike/airport-delays-faa-status-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: travel, airports, flight-delays, faa
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://airport-delays-faa-status-mcp.lipmichal.workers.dev/mcp
+
 ### AltoRank
 
 Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.
@@ -6648,6 +6664,22 @@ Hosted read-only MCP server for finding Korean businesses (2.7M, all industries)
 - Auth: none
 - Streamable HTTP endpoint: https://boim.io/api/mcp
 
+### Border Wait Times Canada Mexico MCP
+
+Live CBP wait times at every US-Mexico and US-Canada land crossing for cars, SENTRI, NEXUS, Ready Lane, pedestrians and trucks, with the fastest crossing.
+
+- URL: https://github.com/theluckystrike/border-wait-times-canada-mexico-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: travel, border, wait-times, cbp
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://border-wait-times-canada-mexico-mcp.lipmichal.workers.dev/mcp
+
 ### Bruin Cloud MCP
 
 Hosted MCP server for Bruin Cloud to list data pipelines, inspect runs, and trigger actions from Claude, Cursor, Claude Code, or Codex via OAuth or an access token.
@@ -6717,6 +6749,22 @@ Hosted OAuth MCP server for App Store and Google Play reviews: filter reviews by
 - Transport: streamable-http
 - Auth: oauth, api-key
 - Streamable HTTP endpoint: https://countrymanager.app/api/loc/mcp
+
+### COVID Flu RSV Wastewater Levels MCP
+
+CDC wastewater viral activity levels for COVID-19, flu and RSV by US state and county, plus ER respiratory illness activity and national test positivity.
+
+- URL: https://github.com/theluckystrike/covid-flu-rsv-wastewater-levels-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: public-health, covid, wastewater, cdc
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://covid-flu-rsv-wastewater-levels-mcp.lipmichal.workers.dev/mcp
 
 ### CoworkingView
 
@@ -6861,6 +6909,22 @@ Airport security wait times, forecasts, FAA delays, EES border queues and baggag
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.flightqueue.com/mcp
 
+### Flood Zone Lookup FEMA Flood Map MCP
+
+FEMA flood zone, Special Flood Hazard Area status, base flood elevation, FIRM panel and nearby floodplain for any US address from the National Flood Hazard Layer.
+
+- URL: https://github.com/theluckystrike/flood-zone-lookup-fema-flood-map-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: flood-zone, fema, geospatial, real-estate
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://flood-zone-lookup-fema-flood-map-mcp.lipmichal.workers.dev/mcp
+
 ### Folklore Clinical Variant Interpretation MCP
 
 ACMG/AMP germline variant classification, gene profiles, disease associations and literature.
@@ -6894,6 +6958,22 @@ Search AI video tools for prices, free credits, traffic and agent-readiness thro
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://fourthfeed.com/mcp
+
+### Fuel Economy Gas Mileage MPG MCP
+
+EPA city, highway and combined MPG, EV range and annual fuel cost for any car by year, make and model from fueleconomy.gov, with side-by-side comparisons.
+
+- URL: https://github.com/theluckystrike/fuel-economy-gas-mileage-mpg-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: fuel-economy, mpg, vehicles, epa
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://fuel-economy-gas-mileage-mpg-mcp.lipmichal.workers.dev/mcp
 
 ### Global Database
 
@@ -7115,6 +7195,22 @@ Hosted read-only server for Reddit audience research: subreddit search by topic,
 - Transport: streamable-http
 - Auth: oauth, api-key
 - Streamable HTTP endpoint: https://kissmypost.com/api/mcp
+
+### Last Frost Date Hardiness Zone MCP
+
+USDA hardiness zone by ZIP code, median last spring and first fall frost dates from 30 seasons of weather history, a frost forecast and a planting calendar.
+
+- URL: https://github.com/theluckystrike/last-frost-date-hardiness-zone-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: gardening, hardiness-zone, frost-dates, weather
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://last-frost-date-hardiness-zone-mcp.lipmichal.workers.dev/mcp
 
 ### leadli.me
 
@@ -7385,6 +7481,22 @@ Hosted Streamable HTTP MCP for live and prematch Pinnacle odds, no-vig fair pric
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://pinnfeed.io/mcp
+
+### Powerball Mega Millions Winning Numbers MCP
+
+Latest and past Powerball and Mega Millions winning numbers from NY Gaming Commission open data, a ticket checker with prize tier and amount, and hot and cold numbers.
+
+- URL: https://github.com/theluckystrike/powerball-mega-millions-winning-numbers-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: lottery, powerball, mega-millions, open-data
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://powerball-mega-millions-winning-numbers-mcp.lipmichal.workers.dev/mcp
 
 ### PreReason
 
@@ -10308,6 +10420,22 @@ Search, quote, and browse luxury, exotic, and EV rentals from independent hosts.
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://pocketdrives.ai/mcp
+
+### Prime Rate SOFR Fed Funds Rate Today MCP
+
+Prime rate, SOFR averages and the fed funds target and effective rate from the New York Fed, with FOMC rate changes and a prime or SOFR based loan rate calculator.
+
+- URL: https://github.com/theluckystrike/prime-rate-sofr-fed-funds-rate-today-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: interest-rates, sofr, fed-funds, prime-rate
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://prime-rate-sofr-fed-funds-rate-today-mcp.lipmichal.workers.dev/mcp
 
 ### Puley
 

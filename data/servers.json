@@ -3615,6 +3615,34 @@
     ]
   },
   {
+    "name": "Prime Rate SOFR Fed Funds Rate Today MCP",
+    "url": "https://github.com/theluckystrike/prime-rate-sofr-fed-funds-rate-today-mcp",
+    "description": "Prime rate, SOFR averages and the fed funds target and effective rate from the New York Fed, with FOMC rate changes and a prime or SOFR based loan rate calculator.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "interest-rates",
+      "sofr",
+      "fed-funds",
+      "prime-rate"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/prime-rate-sofr-fed-funds-rate-today-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://prime-rate-sofr-fed-funds-rate-today-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
     "name": "Graphiti MCP Server",
     "url": "https://github.com/getzep/graphiti",
     "description": "Temporal knowledge graphs for agent memory and context building.",
@@ -5551,6 +5579,34 @@
     ]
   },
   {
+    "name": "Powerball Mega Millions Winning Numbers MCP",
+    "url": "https://github.com/theluckystrike/powerball-mega-millions-winning-numbers-mcp",
+    "description": "Latest and past Powerball and Mega Millions winning numbers from NY Gaming Commission open data, a ticket checker with prize tier and amount, and hot and cold numbers.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "lottery",
+      "powerball",
+      "mega-millions",
+      "open-data"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/powerball-mega-millions-winning-numbers-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://powerball-mega-millions-winning-numbers-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
     "name": "SaaSCity",
     "url": "https://github.com/nyyhao/saascity-mcp",
     "description": "Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.",
@@ -6417,6 +6473,34 @@
     ]
   },
   {
+    "name": "COVID Flu RSV Wastewater Levels MCP",
+    "url": "https://github.com/theluckystrike/covid-flu-rsv-wastewater-levels-mcp",
+    "description": "CDC wastewater viral activity levels for COVID-19, flu and RSV by US state and county, plus ER respiratory illness activity and national test positivity.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "public-health",
+      "covid",
+      "wastewater",
+      "cdc"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/covid-flu-rsv-wastewater-levels-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://covid-flu-rsv-wastewater-levels-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
     "name": "genesis-blackbox",
     "url": "https://github.com/johannschiffer/genesis-blackbox",
     "description": "Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.",
@@ -6448,6 +6532,34 @@
     ],
     "official": false,
     "repository": "https://github.com/nushey/ContextManager"
+  },
+  {
+    "name": "Last Frost Date Hardiness Zone MCP",
+    "url": "https://github.com/theluckystrike/last-frost-date-hardiness-zone-mcp",
+    "description": "USDA hardiness zone by ZIP code, median last spring and first fall frost dates from 30 seasons of weather history, a frost forecast and a planting calendar.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "gardening",
+      "hardiness-zone",
+      "frost-dates",
+      "weather"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/last-frost-date-hardiness-zone-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://last-frost-date-hardiness-zone-mcp.lipmichal.workers.dev/mcp"
+    }
   },
   {
     "name": "Signbee MCP Server",
@@ -6555,6 +6667,34 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Flood Zone Lookup FEMA Flood Map MCP",
+    "url": "https://github.com/theluckystrike/flood-zone-lookup-fema-flood-map-mcp",
+    "description": "FEMA flood zone, Special Flood Hazard Area status, base flood elevation, FIRM panel and nearby floodplain for any US address from the National Flood Hazard Layer.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "flood-zone",
+      "fema",
+      "geospatial",
+      "real-estate"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/flood-zone-lookup-fema-flood-map-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://flood-zone-lookup-fema-flood-map-mcp.lipmichal.workers.dev/mcp"
+    }
   },
   {
     "name": "Metaintro Job Search",
@@ -6698,6 +6838,34 @@
     ],
     "official": true,
     "repository": "https://github.com/burmanharry/spillmark-mcp"
+  },
+  {
+    "name": "Fuel Economy Gas Mileage MPG MCP",
+    "url": "https://github.com/theluckystrike/fuel-economy-gas-mileage-mpg-mcp",
+    "description": "EPA city, highway and combined MPG, EV range and annual fuel cost for any car by year, make and model from fueleconomy.gov, with side-by-side comparisons.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "fuel-economy",
+      "mpg",
+      "vehicles",
+      "epa"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/fuel-economy-gas-mileage-mpg-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://fuel-economy-gas-mileage-mpg-mcp.lipmichal.workers.dev/mcp"
+    }
   },
   {
     "name": "Fezola",
@@ -10233,6 +10401,34 @@
     "repository": "https://github.com/jaspertvdm/mcp-server-openai-bridge"
   },
   {
+    "name": "Border Wait Times Canada Mexico MCP",
+    "url": "https://github.com/theluckystrike/border-wait-times-canada-mexico-mcp",
+    "description": "Live CBP wait times at every US-Mexico and US-Canada land crossing for cars, SENTRI, NEXUS, Ready Lane, pedestrians and trucks, with the fastest crossing.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "travel",
+      "border",
+      "wait-times",
+      "cbp"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/border-wait-times-canada-mexico-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://border-wait-times-canada-mexico-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
     "name": "Openhook",
     "url": "https://github.com/openhook-dev/openhook-inbox",
     "description": "Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, and wait for events over MCP; hosted or self-hosted, with private per-inbox access tokens.",
@@ -12808,6 +13004,34 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Airport Delays FAA Status MCP",
+    "url": "https://github.com/theluckystrike/airport-delays-faa-status-mcp",
+    "description": "Live FAA ground stops, ground delay programs, arrival and departure delays, closures and deicing at US airports, plus a multi-airport trip check.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "travel",
+      "airports",
+      "flight-delays",
+      "faa"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/airport-delays-faa-status-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://airport-delays-faa-status-mcp.lipmichal.workers.dev/mcp"
+    }
   },
   {
     "name": "Iris Code",
