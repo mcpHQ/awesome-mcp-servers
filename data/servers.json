@@ -9329,6 +9329,33 @@
     ]
   },
   {
+    "name": "SEOcrawl AI",
+    "url": "https://seocrawl.ai/mcp",
+    "description": "Hosted MCP server for Google Search Console, GA4, site audits, keyword and page analysis, SEO tasks and AI visibility tracking across AI search engines.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SEOcrawl",
+    "tags": [
+      "seo",
+      "google-search-console",
+      "ga4",
+      "ai-visibility",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/SEOcrawl/seocrawl-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://mcp.seocrawl.ai"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "MCPJungle",
     "url": "https://github.com/duaraghav8/MCPJungle",
     "description": "Self-hosted MCP server registry for enterprise AI agent deployments.",

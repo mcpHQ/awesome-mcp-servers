@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7508,6 +7508,22 @@ Provides keyword research, live SERPs, backlink analysis, site audits, and AI vi
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://seoclar.com/mcp
+
+### SEOcrawl AI
+
+Hosted MCP server for Google Search Console, GA4, site audits, keyword and page analysis, SEO tasks and AI visibility tracking across AI search engines.
+
+- URL: https://seocrawl.ai/mcp
+- Language: JavaScript
+- Provider: SEOcrawl
+- Official: yes
+- Tags: seo, google-search-console, ga4, ai-visibility, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/SEOcrawl/seocrawl-mcp
+- License: MIT
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.seocrawl.ai
 
 ### Seonix
 
