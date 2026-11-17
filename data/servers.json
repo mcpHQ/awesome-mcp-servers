@@ -9175,6 +9175,27 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "MARU Japan Hands",
+    "url": "https://github.com/ihouse-corp/maru-japan-hands",
+    "description": "Human services in Japan for AI agents: Japanese phone calls, reservations, shopping and on-site checks.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "iHouse Co., Ltd.",
+    "tags": [
+      "japan",
+      "human-services",
+      "reservations"
+    ],
+    "official": true,
+    "repository": "https://github.com/ihouse-corp/maru-japan-hands",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
