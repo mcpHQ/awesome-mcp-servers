@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4107,6 +4107,21 @@ Hosted kanban board with a remote MCP server where AI agents claim cards, check 
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://kanbanmcp.com/
+
+### LinkBunny Exchange
+
+Hosted MCP for contextual nofollow link exchanges: your coding agent gets a matched link request from a participating site, proposes a placement for you to approve, and reports it; OAuth.
+
+- URL: https://getlinkbunny.com/mcp
+- Language: TypeScript
+- Provider: LinkBunny
+- Official: yes
+- Tags: seo, link-building, backlinks, nofollow, remote
+- Category: Communication and Productivity
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.getlinkbunny.com/exchange
 
 ### Linkedcamp
 
