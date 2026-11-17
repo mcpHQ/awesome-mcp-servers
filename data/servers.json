@@ -6657,6 +6657,32 @@
     ]
   },
   {
+    "name": "RipSeek",
+    "url": "https://ripseek.2cstudio.app/blog/ripseek-mcp",
+    "description": "Live odds, expected value and chase cards for Collector Crypt graded trading-card packs on Solana, plus recent pulls and budget estimates; read-only.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "2C Studio",
+    "tags": [
+      "trading-cards",
+      "collectibles",
+      "solana",
+      "odds",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://ripseek.2cstudio.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Vaneform",
     "url": "https://github.com/vaneform/vaneform-mcp",
     "description": "Hosted MCP for website traffic estimates, domain compare, registry facts and keyword briefs; API key required.",
