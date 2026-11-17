@@ -9329,6 +9329,33 @@
     ]
   },
   {
+    "name": "Octopost",
+    "url": "https://octopost.ink",
+    "description": "Remote MCP server for posting to X, Bluesky, Mastodon and LinkedIn: threads, scheduling, a queue and a human approval queue where agents cannot approve their own posts.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "approvals",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/octopost-ink/octopost-plugin",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://octopost.ink/mcp"
+    }
+  },
+  {
     "name": "MCPJungle",
     "url": "https://github.com/duaraghav8/MCPJungle",
     "description": "Self-hosted MCP server registry for enterprise AI agent deployments.",
