@@ -8479,6 +8479,33 @@
     ]
   },
   {
+    "name": "Tapline",
+    "url": "https://tapline.sh/docs/mcp",
+    "description": "Structured JSON from YouTube, Airbnb, TikTok, Instagram, Facebook, LinkedIn, Zillow and Google Maps.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Tapline",
+    "tags": [
+      "web-scraping",
+      "data-extraction",
+      "hosted",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.tapline.sh/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "NoLimit MCP",
     "url": "https://github.com/sharpmagazine/nolimit-mcp",
     "description": "Self-hosted WordPress plugin exposing 60 MCP tools over Streamable HTTP with OAuth 2.1, letting AI clients manage posts, pages, media, users, comments and SEO.",
