@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10308,6 +10308,21 @@ Search, quote, and browse luxury, exotic, and EV rentals from independent hosts.
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://pocketdrives.ai/mcp
+
+### Poptin
+
+Create email campaigns, analyze email and popup performance, manage existing popups and forms, and build audience segments; requires a Poptin account and OAuth sign-in.
+
+- URL: https://developers.poptin.com/docs/mcp
+- Language: Other
+- Provider: Poptin
+- Official: yes
+- Tags: email-marketing, popups, analytics, segmentation, oauth
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/Poptin-LTD/Poptin-MCP
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.popt.in/mcp
 
 ### Puley
 

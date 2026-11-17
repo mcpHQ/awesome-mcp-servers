@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 869 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 870 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -813,6 +813,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Plaid MCP Server](https://plaid.com/docs/resources/mcp/): Connect bank accounts and retrieve financial transaction data. (TypeScript, official)
 - [PlushSource MCP](https://github.com/quickman924/plushsource-mcp): Search, filter and compare custom plush toy manufacturers listed in the PlushSource directory; facts are recorded as stated by the manufacturers, and a listing is not an endorsement. (TypeScript)
 - [Pocket Drives](https://github.com/RevList/pocket-drives-mcp): Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app. (TypeScript)
+- [Poptin](https://developers.poptin.com/docs/mcp): Create email campaigns, analyze email and popup performance, manage existing popups and forms, and build audience segments; requires a Poptin account and OAuth sign-in. (Other, official)
 - [Puley](https://puley.com): Gives ChatGPT and Claude live data and real jobs: local business leads from Google Maps, competitors' live Meta and Google ads, TikTok, Instagram and YouTube stats and transcripts, price comparison and change alerts. (Other, official)
 - [QR Cloud](https://qr-cloud.com/mcp-server/): Creates dynamic QR codes and short links, sets up QR Reviews that route guests to Google or Tripadvisor, and reads click, scan and review statistics from a QR Cloud account. (PHP, official)
 - [Quantral](https://quantral.com/mcp): Investment ideas built on alternative data: 0-100 stock scores from what investors say on X, Reddit, Substack and YouTube, track records for the accounts behind them, plus US Congress trades and insider buys. Read-only tools. (TypeScript, official)

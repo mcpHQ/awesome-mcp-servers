@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-869-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-870-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (97)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (188)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (189)
 - [Utilities and Examples](#utilities-and-examples) (46)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1669,6 +1669,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `plush` `manufacturing` `sourcing` `directory`
 - **[Pocket Drives](https://github.com/RevList/pocket-drives-mcp)** `TypeScript` — Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.  
   `travel` `car-rental` `marketplace`
+- **[Poptin](https://developers.poptin.com/docs/mcp)** `Official` `Other` — Create email campaigns, analyze email and popup performance, manage existing popups and forms, and build audience segments; requires a Poptin account and OAuth sign-in. ([source](https://github.com/Poptin-LTD/Poptin-MCP))  
+  `email-marketing` `popups` `analytics` `segmentation` `oauth`
 - **[Puley](https://puley.com)** `Official` `Other` — Gives ChatGPT and Claude live data and real jobs: local business leads from Google Maps, competitors' live Meta and Google ads, TikTok, Instagram and YouTube stats and transcripts, price comparison and change alerts.  
   `lead-generation` `marketing` `competitor-ads` `remote` `oauth`
 - **[QR Cloud](https://qr-cloud.com/mcp-server/)** `Official` `PHP` — Creates dynamic QR codes and short links, sets up QR Reviews that route guests to Google or Tripadvisor, and reads click, scan and review statistics from a QR Cloud account.  
