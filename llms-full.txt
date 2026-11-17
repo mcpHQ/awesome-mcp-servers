@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1232,6 +1232,22 @@ Vendor-neutral robot hardware compatibility checker across 868 entities with thr
 - Official: yes
 - Tags: robotics, hardware, compatibility, industrial, iso-9409-1
 - Category: Developer Tools and Code Intelligence
+
+### Runheed
+
+Error tracking your coding agent can read: search production errors, read stack traces and breadcrumbs, and resolve them with the fixing commit. Hosted remote server with OAuth 2.1.
+
+- URL: https://runheed.com/mcp-server?ref=mcphq
+- Language: TypeScript
+- Provider: Great Work LLC
+- Official: yes
+- Tags: error-tracking, debugging, monitoring, remote, oauth
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/getrunheed/runheed-plugin
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://runheed.com/api/mcp
 
 ### Rystic
 
