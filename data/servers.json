@@ -9175,6 +9175,33 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "Runheed",
+    "url": "https://runheed.com/mcp-server?ref=mcphq",
+    "description": "Error tracking your coding agent can read: search production errors, read stack traces and breadcrumbs, and resolve them with the fixing commit. Hosted remote server with OAuth 2.1.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "error-tracking",
+      "debugging",
+      "monitoring",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/getrunheed/runheed-plugin",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://runheed.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
