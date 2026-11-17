@@ -4469,6 +4469,39 @@
     ]
   },
   {
+    "name": "ScrapeUnblocker MCP Server",
+    "url": "https://github.com/ScrapeUnblocker/scrapeunblocker-mcp",
+    "description": "Fetch any web page as HTML, Markdown or parsed JSON with real-browser rendering and anti-bot handling, run Google searches, and use ready-made plugins for sites such as Amazon, Google Maps and YouTube.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "ScrapeUnblocker",
+    "tags": [
+      "scraping",
+      "web",
+      "search",
+      "anti-bot",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/ScrapeUnblocker/scrapeunblocker-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://mcp.scrapeunblocker.com/mcp"
+    },
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "scrapeunblocker-mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
     "name": "LinkMCP",
     "url": "https://app.linkmcp.io",
     "description": "Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial.",

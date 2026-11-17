@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2352,6 +2352,22 @@ Search 500+ ready-made web scrapers, run them in the cloud and read their struct
 - Auth: oauth, api-key
 - Install: uvx scrapely-mcp
 - Streamable HTTP endpoint: https://mcp.scrape.ly
+
+### ScrapeUnblocker MCP Server
+
+Fetch any web page as HTML, Markdown or parsed JSON with real-browser rendering and anti-bot handling, run Google searches, and use ready-made plugins for sites such as Amazon, Google Maps and YouTube.
+
+- URL: https://github.com/ScrapeUnblocker/scrapeunblocker-mcp
+- Language: TypeScript
+- Provider: ScrapeUnblocker
+- Official: yes
+- Tags: scraping, web, search, anti-bot, remote
+- Category: Browsers, Search, and Web Automation
+- License: MIT
+- Transport: stdio, streamable-http
+- Auth: api-key, oauth
+- Install: npx scrapeunblocker-mcp
+- Streamable HTTP endpoint: https://mcp.scrapeunblocker.com/mcp
 
 ### Scrapewise MCP
 
