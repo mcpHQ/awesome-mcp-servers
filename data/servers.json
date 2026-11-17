@@ -10012,6 +10012,32 @@
     "repository": "https://github.com/crawlbrulee/crawlbrulee-mcp"
   },
   {
+    "name": "Poptin",
+    "url": "https://developers.poptin.com/docs/mcp",
+    "description": "Create email campaigns, analyze email and popup performance, manage existing popups and forms, and build audience segments; requires a Poptin account and OAuth sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Poptin",
+    "tags": [
+      "email-marketing",
+      "popups",
+      "analytics",
+      "segmentation",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/Poptin-LTD/Poptin-MCP",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.popt.in/mcp"
+    }
+  },
+  {
     "name": "Network Sketcher",
     "url": "https://github.com/cisco-open/network-sketcher",
     "description": "Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.",
