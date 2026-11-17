@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -11139,6 +11139,20 @@ Plan, create, and export stream overlays, AI alerts, and transparent videos thro
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://alertforge.ai/api/mcp
+
+### Alloy MCP
+
+Lets coding agents build and run multi-material physics simulations (rigid robots, cloth, soft bodies, sand and liquids) through local stdio tools via the alloy mcp command.
+
+- URL: https://github.com/argonrobotics-ai/alloy
+- Language: Python
+- Provider: Argon Robotics
+- Official: yes
+- Tags: physics, simulation, robotics, local
+- Category: Utilities and Examples
+- License: Apache-2.0
+- Transport: stdio
+- Install: pip alloy-engine
 
 ### Anyquery
 
