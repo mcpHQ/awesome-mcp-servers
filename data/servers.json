@@ -7308,7 +7308,7 @@
   {
     "name": "AppScreen",
     "url": "https://appscreen.pro",
-    "description": "Build App Store and Google Play screenshots in the AppScreen browser editor: slides, device frames, text, app screenshots, backgrounds, export and share links, over remote Streamable HTTP with OAuth 2.1 (Pro plan).",
+    "description": "Build App Store and Google Play screenshots in the free AppScreen browser editor: slides, phone frames, captions, app screenshots, backgrounds and PNG export at store sizes, over remote Streamable HTTP with OAuth 2.1.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "Intenseloop",
@@ -7323,7 +7323,6 @@
     "endpoints": {
       "streamableHttp": "https://appscreen.pro/mcp"
     },
-    "pricing": "paid",
     "transport": [
       "streamable-http"
     ],

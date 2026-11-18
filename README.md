@@ -154,7 +154,7 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `google-play` `app-store-connect` `admob` `mobile` `local-stdio`
 - **[Apple Docs 2.0 MCP](https://github.com/mishafyi/Apple-Docs-2.0-MCP)** `TypeScript` — Searches and reads Apple's developer documentation, Human Interface Guidelines and 1,700 WWDC sessions with code, with an offline index of 336,629 pages.  
   `apple` `ios` `swift` `documentation` `wwdc`
-- **[AppScreen](https://appscreen.pro)** `Official` `TypeScript` — Build App Store and Google Play screenshots in the AppScreen browser editor: slides, device frames, text, app screenshots, backgrounds, export and share links, over remote Streamable HTTP with OAuth 2.1 (Pro plan).  
+- **[AppScreen](https://appscreen.pro)** `Official` `TypeScript` — Build App Store and Google Play screenshots in the free AppScreen browser editor: slides, phone frames, captions, app screenshots, backgrounds and PNG export at store sizes, over remote Streamable HTTP with OAuth 2.1.  
   `app-store` `google-play` `screenshots` `remote` `oauth`
 - **[AsItIs](https://github.com/Katta041/asitis-agent-tools)** `Official` `TypeScript` — Read-only server that lints CLAUDE.md, AGENTS.md and SKILL.md against vendor rules, estimates the tokens they load per session, and flags hidden instructions such as comments addressed to the AI and invisible Unicode.  
   `claude-md` `agents-md` `linting` `prompt-injection` `markdown`
