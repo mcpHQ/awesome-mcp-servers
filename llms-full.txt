@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4410,6 +4410,21 @@ Create and send an AI-illustrated postcard anywhere in the world
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://api.paperplanepost.com/v1/mcp
+
+### Peeve
+
+Official MCP server for Peeve, an AI customer support agent for SaaS: exposes a product's verified support capabilities to users' own AI agents as typed tools, each stating its effect, with per-user scoped grants.
+
+- URL: https://docs.peeve.ai/mcp/overview
+- Language: Other
+- Provider: Peeve
+- Official: yes
+- Tags: customer-support, saas, remote, api-key
+- Category: Communication and Productivity
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: api-key
 
 ### Pinto Notes
 

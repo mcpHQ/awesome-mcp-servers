@@ -7230,6 +7230,29 @@
     ]
   },
   {
+    "name": "Peeve",
+    "url": "https://docs.peeve.ai/mcp/overview",
+    "description": "Official MCP server for Peeve, an AI customer support agent for SaaS: exposes a product's verified support capabilities to users' own AI agents as typed tools, each stating its effect, with per-user scoped grants.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Peeve",
+    "tags": [
+      "customer-support",
+      "saas",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Bowmark",
     "url": "https://github.com/bowmark-ai/mcp",
     "description": "Remote MCP server that gives agents typed, tested functions for live websites such as LinkedIn, YouTube, Amazon and flight search.",

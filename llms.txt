@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 869 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 870 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -369,6 +369,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Pageree](https://pageree.com): Build landing pages as private previews and publish them once you approve, send form leads to email or a CRM webhook, hold back spam with submission rules, connect a custom domain, and read per-section visitor analytics. (TypeScript, official)
 - [Pallyy](https://pallyy.com/docs/api/mcp): Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks. (TypeScript, official)
 - [Paper Plane Post](https://paperplanepost.com/for/agents): Create and send an AI-illustrated postcard anywhere in the world (TypeScript, official)
+- [Peeve](https://docs.peeve.ai/mcp/overview): Official MCP server for Peeve, an AI customer support agent for SaaS: exposes a product's verified support capabilities to users' own AI agents as typed tools, each stating its effect, with per-user scoped grants. (Other, official)
 - [Pinto Notes](https://github.com/pinto-notes/pinto-notes): Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth. (TypeScript, official)
 - [PlaceCall](https://github.com/voygr-tech/placecall): VOYGR's hosted MCP server whose voice agent places real outbound calls to US businesses for reservations, appointments, inquiries and quotes, gets through phone menus and hold, and reports back the outcome, transcript and recording. (Python, official)
 - [Polidict](https://polidict.com): Official hosted MCP server for the Polidict vocabulary app: save words to your vocabulary, look up meanings and images, and practice them with FSRS spaced repetition. (TypeScript, official)
