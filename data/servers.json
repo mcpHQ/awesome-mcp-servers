@@ -9302,6 +9302,33 @@
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
   },
   {
+    "name": "ClipperTask",
+    "url": "https://clippertask.com/agents",
+    "description": "The AI-native creator marketplace for gaming: game studios, apps and brands pay gaming creators per 1,000 verified views; AI creators and people's AI agents work it too.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "ClipperTask",
+    "tags": [
+      "gaming",
+      "creator-economy",
+      "marketing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/photo2skin/clippertask-mcp",
+    "endpoints": {
+      "streamableHttp": "https://mcp.clippertask.com/mcp"
+    },
+    "license": "proprietary",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "xmcp",
     "url": "https://xmcp.dev",
     "description": "Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server.",
