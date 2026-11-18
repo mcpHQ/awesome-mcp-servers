@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-920-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,10 +49,10 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
 - [Communication and Productivity](#communication-and-productivity) (122)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (109)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (110)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (199)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (200)
 - [Utilities and Examples](#utilities-and-examples) (48)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1178,6 +1178,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `healthcare` `jobs` `job-search` `remote`
 - **[CompanyProof](https://companyproof.ai/docs/mcp)** `Official` `Other` — Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.  
   `company-data` `verification` `registry` `evidence` `remote`
+- **[Competitor Ads (Google Ads Transparency + LinkedIn Ad Library)](https://apify.com/dheerajitbhu/google-ads-transparency?utm_source=mcphq&utm_medium=directory&utm_campaign=google-ads-transparency)** `Other` — Hosted MCP (Apify) returning competitor ad creatives from Google Ads Transparency Center and LinkedIn Ad Library by domain, advertiser, or keyword, with dates and formats.  
+  `ad-library` `google-ads` `linkedin-ads` `competitor-research` `remote`
 - **[countrymanager](https://countrymanager.app/mcp)** `Official` `TypeScript` — Hosted OAuth MCP server for App Store and Google Play reviews: filter reviews by app, country and rating, read translations, insights and per-country ratings, and draft replies in the reviewer's language that a person sends.  
   `app-store` `google-play` `app-reviews` `remote`
 - **[COVID Flu RSV Wastewater Levels MCP](https://github.com/theluckystrike/covid-flu-rsv-wastewater-levels-mcp)** `TypeScript` — CDC wastewater viral activity levels for COVID-19, flu and RSV by US state and county, plus ER respiratory illness activity and national test positivity.  
@@ -1803,6 +1805,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `sales-funnels` `marketing` `ecommerce` `remote` `oauth`
 - **[Shop Nobi](https://nobi.ai/shop)** `Official` `Java` — Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.  
   `shopping` `product-search` `remote`
+- **[Shopify App Store Search (Apify)](https://apify.com/dheerajitbhu/shopify-app-store?utm_source=mcphq&utm_medium=directory&utm_campaign=shopify-app-store)** `Other` — Hosted MCP (Apify) that searches the Shopify App Store by keyword, category, or app URL and returns typed rows: rating, review count, pricing label, developer.  
+  `shopify` `app-store` `ecommerce` `market-research` `remote`
 - **[Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp)** `TypeScript` — Community-maintained integration for Shopify products, orders, and store operations.  
   `ecommerce` `shopify` `retail`
 - **[Silicon Floor](https://github.com/Baptoshi/silicon-floor)** `Official` `TypeScript` — Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source.  

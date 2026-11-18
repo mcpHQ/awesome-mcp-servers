@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 920 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7110,6 +7110,21 @@ Hosted company search, registry profiles and verification of six company identit
 - Auth: api-key, oauth
 - Streamable HTTP endpoint: https://companyproof.ai/v2/mcp
 
+### Competitor Ads (Google Ads Transparency + LinkedIn Ad Library)
+
+Hosted MCP (Apify) returning competitor ad creatives from Google Ads Transparency Center and LinkedIn Ad Library by domain, advertiser, or keyword, with dates and formats.
+
+- URL: https://apify.com/dheerajitbhu/google-ads-transparency?utm_source=mcphq&utm_medium=directory&utm_campaign=google-ads-transparency
+- Language: Other
+- Provider: dheerajitbhu (Apify Store)
+- Official: no
+- Tags: ad-library, google-ads, linkedin-ads, competitor-research, remote
+- Category: Data, Analytics, and BI
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com/?tools=dheerajitbhu/google-ads-transparency,dheerajitbhu/linkedin-ad-library
+
 ### countrymanager
 
 Hosted OAuth MCP server for App Store and Google Play reviews: filter reviews by app, country and rating, read translations, insights and per-country ratings, and draft replies in the reviewer's language that a person sends.
@@ -11325,6 +11340,21 @@ Read-only product search across independent stores and exact-topic shopping page
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://api.nobi.ai/v1/shop/mcp
+
+### Shopify App Store Search (Apify)
+
+Hosted MCP (Apify) that searches the Shopify App Store by keyword, category, or app URL and returns typed rows: rating, review count, pricing label, developer.
+
+- URL: https://apify.com/dheerajitbhu/shopify-app-store?utm_source=mcphq&utm_medium=directory&utm_campaign=shopify-app-store
+- Language: Other
+- Provider: dheerajitbhu (Apify Store)
+- Official: no
+- Tags: shopify, app-store, ecommerce, market-research, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com/?tools=dheerajitbhu/shopify-app-store
 
 ### Shopify MCP Server
 
