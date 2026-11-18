@@ -9644,6 +9644,34 @@
     "official": true
   },
   {
+    "name": "Neblex Integration Fabric",
+    "url": "https://www.neblex.com/integration-fabric/docs/guide/mcp",
+    "description": "Official MCP server for the Neblex integration platform: build, test and run integration flows, read run history and fix failed runs across 300+ connectors.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Neblex",
+    "tags": [
+      "integration",
+      "ipaas",
+      "automation",
+      "workflows",
+      "data-quality"
+    ],
+    "official": true,
+    "repository": "https://github.com/neblexhq/neblex-mcp",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://if.neblex.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Tera Ads",
     "url": "https://teraads.co/connect",
     "description": "Meta Ads from Claude, ChatGPT, Cursor or Claude Code with approval before changes, undo for pauses and budgets, and Shopify profit after returns.",
