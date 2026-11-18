@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-869-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-870-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (97)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (188)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (189)
 - [Utilities and Examples](#utilities-and-examples) (46)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1645,6 +1645,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `aliexpress` `shopping` `ecommerce` `multilingual` `remote`
 - **[OpenCart Greece](https://eshop.opencartgreece.gr/mcp)** `Official` `PHP` — Searches the OpenCart Greece catalog of OpenCart extensions, themes and services and returns prices, options, categories and store details. Read-only, no sign-in.  
   `opencart` `ecommerce` `extensions` `catalog` `remote`
+- **[Oppi Digital Products MCP](https://github.com/Reggiebro/oppi-digital-products)** `JavaScript` — Agent commerce for ready-made digital products: browse the catalog, test free sample prompts, pay with crypto to a verified wallet, verify payments on-chain and request delivery.  
+  `e-commerce` `crypto` `usdc` `digital-products` `prompts`
 - **[Orizn Visa](https://github.com/MattJeff/orizn-mcp-server)** `Official` `TypeScript` — Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs.  
   `visa` `travel` `immigration` `remote`
 - **[OttoQuest](https://ottoquest.com/mcp)** `Official` `TypeScript` — Search US dealer listings with estimated market values, look up VINs and recalls, browse dealer inventory, and manage deal alerts with an OttoQuest account.  
