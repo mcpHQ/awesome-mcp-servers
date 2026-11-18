@@ -478,7 +478,7 @@ Searches and reads Apple's developer documentation, Human Interface Guidelines a
 
 ### AppScreen
 
-Build App Store and Google Play screenshots in the AppScreen browser editor: slides, device frames, text, app screenshots, backgrounds, export and share links, over remote Streamable HTTP with OAuth 2.1 (Pro plan).
+Build App Store and Google Play screenshots in the AppScreen browser editor: slides, phone frames, captions, app screenshots, backgrounds and PNG export at store sizes, over remote Streamable HTTP with OAuth 2.1.
 
 - URL: https://appscreen.pro
 - Language: TypeScript
@@ -486,7 +486,6 @@ Build App Store and Google Play screenshots in the AppScreen browser editor: sli
 - Official: yes
 - Tags: app-store, google-play, screenshots, remote, oauth
 - Category: Developer Tools and Code Intelligence
-- Pricing: paid
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://appscreen.pro/mcp
