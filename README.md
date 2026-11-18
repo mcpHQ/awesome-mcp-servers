@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-869-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-870-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (113)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (101)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (102)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (97)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (41)
@@ -1027,6 +1027,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `image-generation` `video-generation` `audio` `remote`
 - **[Pyrimid](https://github.com/pyrimid-ai/pyrimid)** `Official` `TypeScript` — Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.  
   `x402` `ai-agent` `payments` `base` `usdc`
+- **[QuelLLM MCP](https://quelllm.fr/)** `Official` `Python` — Helps MCP clients explore language models and estimate memory and API or self-hosting costs; estimates are indicative. ([source](https://github.com/MGM-FALCON/quelllm-mcp))  
+  `llm` `models` `hardware`
 - **[ReadShore](https://readshore.app/connect-ai-assistants/)** `Official` `TypeScript` — Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete. ([source](https://github.com/flsteven87/readshore-mcp))  
   `read-later` `knowledge` `reading` `remote`
 - **[recall (fainir)](https://github.com/fainir/recall)** `JavaScript` — Reads and writes Claude Code's auto memory, Markdown files with wiki-links, so Codex, Cursor and other agents share the same memories over MCP or from code.  
