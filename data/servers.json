@@ -19116,16 +19116,16 @@
     "name": "RoboWrite",
     "url": "https://www.robowrite.ai/guides/robowrite-mcp",
     "repository": "https://github.com/RoboAdApp/robowrite-plugin",
-    "description": "Plan brand-aware content, review briefs and recover saved Markdown drafts from RoboWrite through a hosted MCP server with OAuth sign-in.",
+    "description": "SEO/GEO content grounded in keyword research, competitor insights, brand voice, and knowledge.",
     "category": "communication-and-productivity",
     "language": "TypeScript",
     "provider": "M Powered Ventures",
     "tags": [
-      "content-planning",
-      "marketing",
-      "drafts",
-      "oauth",
-      "remote"
+      "seo",
+      "geo",
+      "keyword-research",
+      "competitor-research",
+      "rag"
     ],
     "official": true,
     "transport": [
