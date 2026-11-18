@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 870 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 872 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -114,6 +114,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Openhook](https://github.com/openhook-dev/openhook-inbox): Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, and wait for events over MCP; hosted or self-hosted, with private per-inbox access tokens. (Python, official)
 - [OverlayQA](https://github.com/OverlayQA/mcp): Runs WCAG accessibility (axe-core), color-contrast and design-token audits on any public URL and files the findings as QA issues in OverlayQA. (TypeScript, official)
 - [Persqo](https://github.com/YaakovTzedek/persqo-mcp): AI personas test a web app in a real browser and return findings and fix prompts; start runs, read findings, and pull fix prompts from MCP clients. (JavaScript, official)
+- [pluginscope](https://github.com/SalyyS1/pluginscope): Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins. (Kotlin)
 - [POSH](https://github.com/skatkov/posh-mcp): Search and read local Ruby and gem documentation matched to project versions; proprietary POSH agent-tools license required. (Go, official)
 - [Postman MCP Server](https://github.com/postmanlabs/postman-mcp-server): Explore and run Postman collections and API workflows from AI clients. (TypeScript, official)
 - [REA](https://github.com/morluto/rea): Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies. (TypeScript)
@@ -213,6 +214,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Selan MCP Extension](https://selan.ai/browser?utm_source=mcphq&utm_medium=directory&utm_campaign=extension-mcp): Chrome extension plus hosted MCP server that lets MCP clients open and use tabs in your own signed-in Chrome, only in its own tab group and only on sites you allow; free, no account. (Other, official)
 - [Shortform Kit](https://shortformkit.com/mcp-server/): Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key. (Python, official)
 - [SitePatent](https://sitepatent.com/mcp): Read-only MCP server for the SitePatent product discovery directory: search the websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account. (TypeScript, official)
+- [Social Fetch](https://www.socialfetch.dev/docs/integrations/mcp): Hosted MCP server for public social posts, profiles, comments, transcripts and search. (Other, official)
 - [Solvecha](https://solvecha.com/mcp-captcha-solver): Solves reCAPTCHA v2 image grids, text captchas, GeeTest sliders and FunCAPTCHA for AI agents over a hosted MCP endpoint; free tier included. (Go, official)
 - [SpecStream](https://specstream.ai/docs/mcp): Hosted MCP server that returns structured records from the live web for requests in plain words, with the price shown before each run and billing per delivered row. (Python, official)
 - [Tavily MCP Server](https://github.com/tavily-ai/tavily-mcp): AI-native search and content extraction for research agents. (Python, official)

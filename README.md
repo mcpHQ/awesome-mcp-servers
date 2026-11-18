@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-870-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-872-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,8 +43,8 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (88)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (84)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (89)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (85)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (114)
@@ -262,6 +262,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `accessibility` `wcag` `design-qa` `qa` `issue-tracking`
 - **[Persqo](https://github.com/YaakovTzedek/persqo-mcp)** `Official` `JavaScript` — AI personas test a web app in a real browser and return findings and fix prompts; start runs, read findings, and pull fix prompts from MCP clients.  
   `testing` `qa` `usability` `remote`
+- **[pluginscope](https://github.com/SalyyS1/pluginscope)** `Kotlin` — Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins.  
+  `minecraft` `static-analysis` `bytecode` `kotlin` `code-intelligence`
 - **[POSH](https://github.com/skatkov/posh-mcp)** `Official` `Go` — Search and read local Ruby and gem documentation matched to project versions; proprietary POSH agent-tools license required.  
   `ruby` `rails` `documentation` `local` `stdio`
 - **[Postman MCP Server](https://github.com/postmanlabs/postman-mcp-server)** `Official` `TypeScript` — Explore and run Postman collections and API workflows from AI clients.  
@@ -461,6 +463,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `video` `transcription` `social-media` `youtube` `remote`
 - **[SitePatent](https://sitepatent.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the SitePatent product discovery directory: search the websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
   `search` `directory` `startups` `remote`
+- **[Social Fetch](https://www.socialfetch.dev/docs/integrations/mcp)** `Official` `Other` — Hosted MCP server for public social posts, profiles, comments, transcripts and search. ([source](https://github.com/social-freak-ltd/socialfetch-mcp))  
+  `social-media` `tiktok` `instagram` `search` `remote`
 - **[Solvecha](https://solvecha.com/mcp-captcha-solver)** `Official` `Go` — Solves reCAPTCHA v2 image grids, text captchas, GeeTest sliders and FunCAPTCHA for AI agents over a hosted MCP endpoint; free tier included.  
   `captcha` `recaptcha` `browser-automation` `remote`
 - **[SpecStream](https://specstream.ai/docs/mcp)** `Official` `Python` — Hosted MCP server that returns structured records from the live web for requests in plain words, with the price shown before each run and billing per delivered row. ([source](https://github.com/specstream/specstream-tools))  

@@ -8900,6 +8900,34 @@
     ]
   },
   {
+    "name": "Social Fetch",
+    "url": "https://www.socialfetch.dev/docs/integrations/mcp",
+    "description": "Hosted MCP server for public social posts, profiles, comments, transcripts and search.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Social Fetch",
+    "tags": [
+      "social-media",
+      "tiktok",
+      "instagram",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/social-freak-ltd/socialfetch-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://api.socialfetch.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "BeliefState",
     "url": "https://beliefstate.ai/agent-quickstart.md",
     "description": "Hosted MCP server for dated, source-linked investor theses, catalysts, risks and revisions, with free company coverage and paid research calls through x402.",
@@ -9506,6 +9534,31 @@
     },
     "transport": [
       "streamable-http"
+    ]
+  },
+  {
+    "name": "pluginscope",
+    "url": "https://github.com/SalyyS1/pluginscope",
+    "description": "Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Kotlin",
+    "provider": "Community",
+    "tags": [
+      "minecraft",
+      "static-analysis",
+      "bytecode",
+      "kotlin",
+      "code-intelligence"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/pluginscope",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
     ]
   },
   {
