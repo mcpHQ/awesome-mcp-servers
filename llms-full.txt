@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9913,6 +9913,21 @@ Search hotels (3M+) and flights, read hotel details and reviews, then send the c
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://mcp.maqami.co/
+
+### Market News API
+
+Hosted MCP for crypto and market news headlines with AI crypto-impact scores: free discovery tools, and news data paid per call in USDC over x402.
+
+- URL: https://github.com/takashidoyle/crypto-news-x402-examples
+- Language: JavaScript
+- Provider: Market News API
+- Official: yes
+- Tags: market-news, crypto, x402, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://goat-lighthouse.site/mcp
 
 ### MCP Ads
 
