@@ -415,7 +415,7 @@ Browse the web, scrape content, search, and automate browser interactions.
   `search` `directory` `ai-tools` `remote`
 - **[Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server)** `Official` `TypeScript` — Scrape, crawl, and extract structured web data with Firecrawl.  
   `scraping` `crawl` `web`
-- **[FlashData Google Search and YouTube Data](https://github.com/rocosen/flashdata-mcp)** `Official` `TypeScript` — Google vertical search and YouTube search, transcripts, captions, metadata, channels, autocomplete, license labels and async media delivery via MCP; data calls require a FlashData API key and paid Credits.  
+- **[FlashData Google Search, YouTube Data & Download](https://github.com/rocosen/flashdata-mcp)** `Official` `TypeScript` — Fast, affordable access to Google search, YouTube data, and YouTube video/audio downloads via MCP, with a free trial.  
   `google-search` `youtube` `transcripts` `research` `data-api`
 - **[GetYouTubeTranscript](https://github.com/tubeagentkit/youtube-mcp)** `Official` `JavaScript` — YouTube transcripts and data over MCP: fetch a video's captions (language choice, optional timestamps), search YouTube, and browse channels, playlists and related videos.  
   `youtube` `transcripts` `video` `search` `remote`
