@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-873-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-874-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (89)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (85)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (86)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (114)
@@ -331,6 +331,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `web-scraping` `x402` `markdown` `remote`
 - **[Agent Browser Use](https://github.com/cavaldos/agent-browser-use)** `Go` — Let AI coding agents drive a real browser over MCP (Playwright-style element refs) while you watch every step live in a web viewer and take over at any time.  
   `browser-automation` `mcp` `chrome` `live-viewer`
+- **[Agent Flights](https://lowest.flights/connect)** `Official` `TypeScript` — Searches the cheapest flights worldwide, strong on Africa, with price calendars, cheap destinations and booking links through a hosted MCP server. ([source](https://github.com/lomiafrica/agent-flights-mcp))  
+  `travel` `flights` `africa` `remote`
 - **[AgentRender](https://github.com/corbinvachal48/agentrender-mcp)** `Official` `Python` — Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.  
   `screenshot` `pdf` `web-extraction` `remote`
 - **[AgentSearch](https://github.com/agentsearchhq-coder/agentsearch-mcp)** `Official` `TypeScript` — Web search, news, URL-to-Markdown, JS render, screenshots, search_and_read. Free keyless search plus an extract/render trial; then direct x402 on Base from $0.002 (search $0.003). `npx -y @agentsearchhq/agentsearch-mcp`.  

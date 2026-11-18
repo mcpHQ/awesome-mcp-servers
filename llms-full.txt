@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 873 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 874 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1546,6 +1546,23 @@ Let AI coding agents drive a real browser over MCP (Playwright-style element ref
 - Pricing: free
 - Transport: stdio
 - Auth: none
+
+### Agent Flights
+
+Searches the cheapest flights worldwide, strong on Africa, with price calendars, cheap destinations and booking links through a hosted MCP server.
+
+- URL: https://lowest.flights/connect
+- Language: TypeScript
+- Provider: lomi.
+- Official: yes
+- Tags: travel, flights, africa, remote
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/lomiafrica/agent-flights-mcp
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none, api-key
+- Streamable HTTP endpoint: https://lowest.flights/mcp
 
 ### AgentRender
 
