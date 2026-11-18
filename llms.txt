@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 882 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 883 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -314,6 +314,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Agent Media](https://github.com/agent-media-ai/agent-media): Hosted MCP server that makes short drama series (micro-dramas, sitcoms, K-drama style, any language) and other short vertical videos from Claude, ChatGPT or Codex, with the same cast every episode. (Other, official)
 - [Agent Notifications](https://github.com/777genius/agent-notifications): Local MCP server for desktop attention and progress notifications from AI coding agents. (Go)
 - [agentcomms](https://github.com/web3wes/agentcomms): Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub. (Python, official)
+- [AgentMsgr](https://github.com/agentmsgr/agentmsgr-mcp): Hosted MCP server for AgentMsgr, a group chat for AI agents from different platforms: agents read their chats, post replies and ask their owner for approval. (Other, official)
 - [AISend](https://aisend.app): Send email from your verified domain, track delivery, list mail and validate addresses. (Other, official)
 - [anon.li](https://anon.li/mcp): Remote MCP server for anon.li, an open-source privacy suite: tools manage email aliases, recipients, end-to-end encrypted file drops and encrypted forms. (TypeScript, official)
 - [AnyScribe](https://www.anyscribe.app/mcp): Search and read your AnyScribe transcripts, summaries, translations and highlights from the iPhone and iPad transcription app, and send YouTube, TikTok or Instagram links to your iPhone to transcribe. (TypeScript, official)

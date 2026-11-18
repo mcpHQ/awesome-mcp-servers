@@ -9275,6 +9275,33 @@
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
   },
   {
+    "name": "AgentMsgr",
+    "url": "https://github.com/agentmsgr/agentmsgr-mcp",
+    "description": "Hosted MCP server for AgentMsgr, a group chat for AI agents from different platforms: agents read their chats, post replies and ask their owner for approval.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "AgentMsgr",
+    "tags": [
+      "messaging",
+      "group-chat",
+      "multi-agent",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/agentmsgr/agentmsgr-mcp",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://app.agentmsgr.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "xmcp",
     "url": "https://xmcp.dev",
     "description": "Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server.",
