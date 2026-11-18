@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-881-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-882-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (91)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (92)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (86)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
@@ -280,6 +280,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `robotics` `hardware` `compatibility` `industrial` `iso-9409-1`
 - **[Roopedia MCP](https://roopedia.com/mcp)** `JavaScript` — Query 786+ verified AI tools, SaaS pricing freshness, and MCP server security records in English and French. ([source](https://github.com/hajejbusiness/roopedia-mcp))  
   `ai-tools` `mcp-registry` `pricing` `security`
+- **[Runheed](https://runheed.com/mcp-server?ref=mcphq)** `Official` `TypeScript` — Error tracking your coding agent can read: search production errors, read stack traces and breadcrumbs, and resolve them with the fixing commit. Hosted remote server with OAuth 2.1. ([source](https://github.com/getrunheed/runheed-plugin))  
+  `error-tracking` `debugging` `monitoring` `remote` `oauth`
 - **[RunLater](https://runlater.app)** `Official` `TypeScript` — Hosted MCP server that schedules HTTP requests from an agent: once at an exact time or on a cron schedule, with retries and a log of every run. ([source](https://github.com/runlater-app/runlater-plugin))  
   `cron` `scheduling` `webhooks` `remote`
 - **[Rystic](https://www.rystic.ai/docs/mcp-server)** `Official` `Go` — Start, seed, clock, inspect and diff local stateful simulators of real APIs such as GitHub and Stripe, so agents can be tested without touching live accounts.  

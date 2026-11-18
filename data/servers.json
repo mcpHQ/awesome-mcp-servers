@@ -1295,34 +1295,6 @@
     ]
   },
   {
-    "name": "RunLater",
-    "url": "https://runlater.app",
-    "description": "Hosted MCP server that schedules HTTP requests from an agent: once at an exact time or on a cron schedule, with retries and a log of every run.",
-    "category": "developer-tools-and-code-intelligence",
-    "language": "TypeScript",
-    "provider": "Great Work LLC",
-    "tags": [
-      "cron",
-      "scheduling",
-      "webhooks",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/runlater-app/runlater-plugin",
-    "license": "MIT",
-    "pricing": "paid",
-    "endpoints": {
-      "streamableHttp": "https://runlater.app/api/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
-  },
-  {
     "name": "Basedash MCP Server",
     "url": "https://github.com/Basedash/mcp",
     "description": "Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth.",
@@ -7662,34 +7634,6 @@
     "verified": "2026-11-09"
   },
   {
-    "name": "Roopedia MCP",
-    "url": "https://roopedia.com/mcp",
-    "description": "Query 786+ verified AI tools, SaaS pricing freshness, and MCP server security records in English and French.",
-    "category": "developer-tools-and-code-intelligence",
-    "language": "JavaScript",
-    "provider": "Roopedia",
-    "tags": [
-      "ai-tools",
-      "mcp-registry",
-      "pricing",
-      "security"
-    ],
-    "official": false,
-    "repository": "https://github.com/hajejbusiness/roopedia-mcp",
-    "license": "MIT",
-    "pricing": "free",
-    "transport": [
-      "stdio"
-    ],
-    "install": {
-      "command": "npx",
-      "package": "github:hajejbusiness/roopedia-mcp"
-    },
-    "auth": [
-      "none"
-    ]
-  },
-  {
     "name": "WISEPIM Commerce Reference",
     "url": "https://github.com/lldiegon/wisepim-commerce-mcp",
     "description": "Look up HS headings, read marketplace listing requirements, and screen environmental claims in product copy offline.",
@@ -9231,24 +9175,30 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
-    "name": "Taskhold",
-    "url": "https://taskhold.com",
-    "description": "Hosted MCP server for a task list shared by a person and their coding agents: next task, steps, live progress, blocked questions and full change history.",
-    "category": "communication-and-productivity",
+    "name": "Runheed",
+    "url": "https://runheed.com/mcp-server?ref=mcphq",
+    "description": "Error tracking your coding agent can read: search production errors, read stack traces and breadcrumbs, and resolve them with the fixing commit. Hosted remote server with OAuth 2.1.",
+    "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "Great Work LLC",
     "tags": [
-      "task-management",
-      "coding-agents",
-      "productivity",
-      "remote"
+      "error-tracking",
+      "debugging",
+      "monitoring",
+      "remote",
+      "oauth"
     ],
     "official": true,
+    "repository": "https://github.com/getrunheed/runheed-plugin",
+    "pricing": "paid",
     "endpoints": {
-      "streamableHttp": "https://taskhold.com/api/mcp"
+      "streamableHttp": "https://runheed.com/api/mcp"
     },
     "transport": [
       "streamable-http"
+    ],
+    "auth": [
+      "oauth"
     ]
   },
   {
@@ -9642,34 +9592,6 @@
       "product"
     ],
     "official": true
-  },
-  {
-    "name": "Neblex Integration Fabric",
-    "url": "https://www.neblex.com/integration-fabric/docs/guide/mcp",
-    "description": "Official MCP server for the Neblex integration platform: build, test and run integration flows, read run history and fix failed runs across 300+ connectors.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Other",
-    "provider": "Neblex",
-    "tags": [
-      "integration",
-      "ipaas",
-      "automation",
-      "workflows",
-      "data-quality"
-    ],
-    "official": true,
-    "repository": "https://github.com/neblexhq/neblex-mcp",
-    "license": "proprietary",
-    "pricing": "freemium",
-    "endpoints": {
-      "streamableHttp": "https://if.neblex.com/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth"
-    ]
   },
   {
     "name": "Tera Ads",
@@ -11961,31 +11883,6 @@
     },
     "transport": [
       "streamable-http"
-    ]
-  },
-  {
-    "name": "Gesher",
-    "url": "https://github.com/EphraimElgrabli/gesher",
-    "description": "Local MCP servers that let AI clients read and edit Apple Notes, Reminders, Calendar, Contacts, Maps, Weather and Freeform on a Mac.",
-    "category": "communication-and-productivity",
-    "language": "Swift",
-    "provider": "Community",
-    "tags": [
-      "macos",
-      "apple-notes",
-      "reminders",
-      "calendar",
-      "local"
-    ],
-    "official": false,
-    "repository": "https://github.com/EphraimElgrabli/gesher",
-    "license": "GPL-3.0",
-    "pricing": "free",
-    "transport": [
-      "stdio"
-    ],
-    "auth": [
-      "none"
     ]
   },
   {
@@ -19292,6 +19189,136 @@
     ],
     "auth": [
       "oauth"
+    ]
+  },
+  {
+    "name": "RunLater",
+    "url": "https://runlater.app",
+    "description": "Hosted MCP server that schedules HTTP requests from an agent: once at an exact time or on a cron schedule, with retries and a log of every run.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "cron",
+      "scheduling",
+      "webhooks",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/runlater-app/runlater-plugin",
+    "license": "MIT",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://runlater.app/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Roopedia MCP",
+    "url": "https://roopedia.com/mcp",
+    "description": "Query 786+ verified AI tools, SaaS pricing freshness, and MCP server security records in English and French.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Roopedia",
+    "tags": [
+      "ai-tools",
+      "mcp-registry",
+      "pricing",
+      "security"
+    ],
+    "official": false,
+    "repository": "https://github.com/hajejbusiness/roopedia-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:hajejbusiness/roopedia-mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Taskhold",
+    "url": "https://taskhold.com",
+    "description": "Hosted MCP server for a task list shared by a person and their coding agents: next task, steps, live progress, blocked questions and full change history.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "task-management",
+      "coding-agents",
+      "productivity",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://taskhold.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "Neblex Integration Fabric",
+    "url": "https://www.neblex.com/integration-fabric/docs/guide/mcp",
+    "description": "Official MCP server for the Neblex integration platform: build, test and run integration flows, read run history and fix failed runs across 300+ connectors.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Neblex",
+    "tags": [
+      "integration",
+      "ipaas",
+      "automation",
+      "workflows",
+      "data-quality"
+    ],
+    "official": true,
+    "repository": "https://github.com/neblexhq/neblex-mcp",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://if.neblex.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "Gesher",
+    "url": "https://github.com/EphraimElgrabli/gesher",
+    "description": "Local MCP servers that let AI clients read and edit Apple Notes, Reminders, Calendar, Contacts, Maps, Weather and Freeform on a Mac.",
+    "category": "communication-and-productivity",
+    "language": "Swift",
+    "provider": "Community",
+    "tags": [
+      "macos",
+      "apple-notes",
+      "reminders",
+      "calendar",
+      "local"
+    ],
+    "official": false,
+    "repository": "https://github.com/EphraimElgrabli/gesher",
+    "license": "GPL-3.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
     ]
   },
   {
