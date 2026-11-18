@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-876-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-877-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (86)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
-- [Communication and Productivity](#communication-and-productivity) (114)
+- [Communication and Productivity](#communication-and-productivity) (115)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (99)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -840,6 +840,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `knowledge` `automations` `productivity`
 - **[Taskfolk](https://github.com/taskfolk/mcp)** `Official` `Other` — Project management for teams and their AI agents. Agents join as named members.  
   `project-management` `tasks` `agents` `remote`
+- **[Taskhold](https://taskhold.com)** `Official` `TypeScript` — Hosted MCP server for a task list shared by a person and their coding agents: next task, steps, live progress, blocked questions and full change history.  
+  `task-management` `coding-agents` `productivity` `remote`
 - **[Telegram Archive MCP Server](https://github.com/GeiserX/telegram-archive-mcp)** `Official` `Go` — Search messages, browse chats and read archived Telegram history from a self-hosted Telegram-Archive instance.  
   `telegram` `chat` `archives` `self-hosted`
 - **[Telofy](https://telofy.de)** `Official` `TypeScript` — Remote MCP server for Telofy, the AI phone receptionist for small businesses in Germany: lets agents read calls, captured leads and tickets, and booked appointments. ([source](https://github.com/RuJerome/telofy-mcp))  

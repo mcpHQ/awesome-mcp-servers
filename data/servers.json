@@ -8900,34 +8900,6 @@
     ]
   },
   {
-    "name": "Social Fetch",
-    "url": "https://www.socialfetch.dev/docs/integrations/mcp",
-    "description": "Hosted MCP server for public social posts, profiles, comments, transcripts and search.",
-    "category": "browsers-search-and-web-automation",
-    "language": "Other",
-    "provider": "Social Fetch",
-    "tags": [
-      "social-media",
-      "tiktok",
-      "instagram",
-      "search",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/social-freak-ltd/socialfetch-mcp",
-    "pricing": "freemium",
-    "endpoints": {
-      "streamableHttp": "https://api.socialfetch.dev/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
-  },
-  {
     "name": "BeliefState",
     "url": "https://beliefstate.ai/agent-quickstart.md",
     "description": "Hosted MCP server for dated, source-linked investor theses, catalysts, risks and revisions, with free company coverage and paid research calls through x402.",
@@ -9203,29 +9175,25 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
-    "name": "NukeBG",
-    "url": "https://nukebg.com/mcp-server",
-    "description": "Official hosted server: remove image backgrounds, erase objects by description and upscale images 2x/4x; transparent PNG/WebP or marketplace-ready white.",
-    "category": "utilities-and-examples",
-    "language": "Other",
-    "provider": "NukeBG",
+    "name": "Taskhold",
+    "url": "https://taskhold.com",
+    "description": "Hosted MCP server for a task list shared by a person and their coding agents: next task, steps, live progress, blocked questions and full change history.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
     "tags": [
-      "image",
-      "background-removal",
-      "upscale",
+      "task-management",
+      "coding-agents",
+      "productivity",
       "remote"
     ],
     "official": true,
-    "repository": "https://github.com/nukebg/nukebg-mcp",
+    "endpoints": {
+      "streamableHttp": "https://taskhold.com/api/mcp"
+    },
     "transport": [
       "streamable-http"
-    ],
-    "auth": [
-      "api-key"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://api.nukebg.com/mcp"
-    }
+    ]
   },
   {
     "name": "ReadShore",
@@ -9299,35 +9267,6 @@
     ],
     "official": true,
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
-  },
-  {
-    "name": "Local SEO Data",
-    "url": "https://localseodata.com/docs/mcp-server",
-    "description": "Local SEO data for agents: local pack and Maps rankings, Business Profile and reviews, citation audits, geogrid scans and AI visibility.",
-    "category": "data-analytics-and-bi",
-    "language": "TypeScript",
-    "provider": "Local SEO Data",
-    "tags": [
-      "local-seo",
-      "seo",
-      "google-maps",
-      "reviews",
-      "geogrid"
-    ],
-    "official": true,
-    "repository": "https://github.com/localseodata/mcp-server",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.localseodata.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
   },
   {
     "name": "xmcp",
@@ -9591,31 +9530,6 @@
     ]
   },
   {
-    "name": "pluginscope",
-    "url": "https://github.com/SalyyS1/pluginscope",
-    "description": "Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins.",
-    "category": "developer-tools-and-code-intelligence",
-    "language": "Kotlin",
-    "provider": "Community",
-    "tags": [
-      "minecraft",
-      "static-analysis",
-      "bytecode",
-      "kotlin",
-      "code-intelligence"
-    ],
-    "official": false,
-    "repository": "https://github.com/SalyyS1/pluginscope",
-    "license": "Apache-2.0",
-    "pricing": "free",
-    "transport": [
-      "stdio"
-    ],
-    "auth": [
-      "none"
-    ]
-  },
-  {
     "name": "Metabase MCP Server",
     "url": "https://www.metabase.com/docs/latest/ai/mcp",
     "description": "Query dashboards and explore data in Metabase BI.",
@@ -9672,34 +9586,6 @@
       "product"
     ],
     "official": true
-  },
-  {
-    "name": "HumanCalls",
-    "url": "https://humancalls.ai",
-    "description": "A real person phones a US or Canadian business for your agent, asks your questions and returns typed answers, a summary, the recording and a transcript.",
-    "category": "communication-and-productivity",
-    "language": "Other",
-    "provider": "Hire Overseas",
-    "tags": [
-      "phone-calls",
-      "human-in-the-loop",
-      "remote",
-      "business"
-    ],
-    "official": true,
-    "repository": "https://github.com/Hire-Overseas/humancalls-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth",
-      "api-key"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://humancalls.ai/mcp"
-    }
   },
   {
     "name": "Tera Ads",
@@ -10059,34 +9945,6 @@
     "repository": "https://github.com/stonianua/neither-mcp",
     "transport": [
       "stdio"
-    ]
-  },
-  {
-    "name": "Agent Flights",
-    "url": "https://lowest.flights/connect",
-    "description": "Searches the cheapest flights worldwide, strong on Africa, with price calendars, cheap destinations and booking links through a hosted MCP server.",
-    "category": "browsers-search-and-web-automation",
-    "language": "TypeScript",
-    "provider": "lomi.",
-    "tags": [
-      "travel",
-      "flights",
-      "africa",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/lomiafrica/agent-flights-mcp",
-    "license": "MIT",
-    "endpoints": {
-      "streamableHttp": "https://lowest.flights/mcp"
-    },
-    "pricing": "free",
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "none",
-      "api-key"
     ]
   },
   {
@@ -19328,6 +19186,169 @@
     ]
   },
   {
+    "name": "Social Fetch",
+    "url": "https://www.socialfetch.dev/docs/integrations/mcp",
+    "description": "Hosted MCP server for public social posts, profiles, comments, transcripts and search.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Social Fetch",
+    "tags": [
+      "social-media",
+      "tiktok",
+      "instagram",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/social-freak-ltd/socialfetch-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://api.socialfetch.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "NukeBG",
+    "url": "https://nukebg.com/mcp-server",
+    "description": "Official hosted server: remove image backgrounds, erase objects by description and upscale images 2x/4x; transparent PNG/WebP or marketplace-ready white.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "NukeBG",
+    "tags": [
+      "image",
+      "background-removal",
+      "upscale",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/nukebg/nukebg-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.nukebg.com/mcp"
+    }
+  },
+  {
+    "name": "Local SEO Data",
+    "url": "https://localseodata.com/docs/mcp-server",
+    "description": "Local SEO data for agents: local pack and Maps rankings, Business Profile and reviews, citation audits, geogrid scans and AI visibility.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Local SEO Data",
+    "tags": [
+      "local-seo",
+      "seo",
+      "google-maps",
+      "reviews",
+      "geogrid"
+    ],
+    "official": true,
+    "repository": "https://github.com/localseodata/mcp-server",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.localseodata.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "pluginscope",
+    "url": "https://github.com/SalyyS1/pluginscope",
+    "description": "Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Kotlin",
+    "provider": "Community",
+    "tags": [
+      "minecraft",
+      "static-analysis",
+      "bytecode",
+      "kotlin",
+      "code-intelligence"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/pluginscope",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "HumanCalls",
+    "url": "https://humancalls.ai",
+    "description": "A real person phones a US or Canadian business for your agent, asks your questions and returns typed answers, a summary, the recording and a transcript.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Hire Overseas",
+    "tags": [
+      "phone-calls",
+      "human-in-the-loop",
+      "remote",
+      "business"
+    ],
+    "official": true,
+    "repository": "https://github.com/Hire-Overseas/humancalls-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://humancalls.ai/mcp"
+    }
+  },
+  {
+    "name": "Agent Flights",
+    "url": "https://lowest.flights/connect",
+    "description": "Searches the cheapest flights worldwide, strong on Africa, with price calendars, cheap destinations and booking links through a hosted MCP server.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "lomi.",
+    "tags": [
+      "travel",
+      "flights",
+      "africa",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/lomiafrica/agent-flights-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://lowest.flights/mcp"
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "Verand",
     "url": "https://verand.ai/mcp",
     "repository": "https://github.com/verand-ai/verand-mcp",
@@ -19335,14 +19356,23 @@
     "category": "data-analytics-and-bi",
     "language": "TypeScript",
     "provider": "Verand",
-    "tags": ["seo", "marketing", "ai-visibility", "compliance", "remote"],
+    "tags": [
+      "seo",
+      "marketing",
+      "ai-visibility",
+      "compliance",
+      "remote"
+    ],
     "official": true,
     "pricing": "paid",
-    "transport": ["streamable-http"],
-    "auth": ["oauth"],
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
     "endpoints": {
       "streamableHttp": "https://app.verand.ai/mcp"
     }
   }
-
 ]

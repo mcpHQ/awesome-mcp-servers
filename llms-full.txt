@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 876 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 877 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4847,6 +4847,19 @@ Project management for teams and their AI agents. Agents join as named members.
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://taskfolk.ai/api/mcp/v1
+
+### Taskhold
+
+Hosted MCP server for a task list shared by a person and their coding agents: next task, steps, live progress, blocked questions and full change history.
+
+- URL: https://taskhold.com
+- Language: TypeScript
+- Provider: Great Work LLC
+- Official: yes
+- Tags: task-management, coding-agents, productivity, remote
+- Category: Communication and Productivity
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://taskhold.com/api/mcp
 
 ### Telegram Archive MCP Server
 
