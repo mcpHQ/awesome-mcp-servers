@@ -7230,29 +7230,6 @@
     ]
   },
   {
-    "name": "Peeve",
-    "url": "https://docs.peeve.ai/mcp/overview",
-    "description": "Official MCP server for Peeve, an AI customer support agent for SaaS: exposes a product's verified support capabilities to users' own AI agents as typed tools, each stating its effect, with per-user scoped grants.",
-    "category": "communication-and-productivity",
-    "language": "Other",
-    "provider": "Peeve",
-    "tags": [
-      "customer-support",
-      "saas",
-      "remote",
-      "api-key"
-    ],
-    "official": true,
-    "license": "proprietary",
-    "pricing": "paid",
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "api-key"
-    ]
-  },
-  {
     "name": "Bowmark",
     "url": "https://github.com/bowmark-ai/mcp",
     "description": "Remote MCP server that gives agents typed, tested functions for live websites such as LinkedIn, YouTube, Amazon and flight search.",
@@ -9197,29 +9174,6 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
-    "name": "QuelLLM MCP",
-    "url": "https://quelllm.fr/",
-    "description": "Helps MCP clients explore language models and estimate memory and API or self-hosting costs; estimates are indicative.",
-    "category": "ai-agents-and-memory",
-    "language": "Python",
-    "provider": "QuelLLM",
-    "tags": [
-      "llm",
-      "models",
-      "hardware"
-    ],
-    "official": true,
-    "repository": "https://github.com/MGM-FALCON/quelllm-mcp",
-    "license": "MIT",
-    "pricing": "free",
-    "transport": [
-      "stdio"
-    ],
-    "auth": [
-      "none"
-    ]
-  },
-  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
@@ -9374,28 +9328,26 @@
     ]
   },
   {
-    "name": "10ML Perfume Finder",
-    "url": "https://github.com/10ml-com/perfume-finder-mcp",
-    "description": "Free perfume knowledge for AI assistants: notes, accords and families for 6,000+ perfumes, similar scents and decant prices. Remote, read-only, no key.",
-    "category": "data-analytics-and-bi",
-    "language": "Other",
-    "provider": "10ML",
+    "name": "Market News API",
+    "url": "https://github.com/takashidoyle/crypto-news-x402-examples",
+    "description": "Hosted MCP for crypto and market news headlines with AI crypto-impact scores: free discovery tools, and news data paid per call in USDC over x402.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Market News API",
     "tags": [
-      "perfume",
-      "fragrance",
-      "reference-data",
+      "market-news",
+      "crypto",
+      "x402",
       "remote"
     ],
     "official": true,
     "endpoints": {
-      "streamableHttp": "https://mcp.10ml.com/mcp"
+      "streamableHttp": "https://goat-lighthouse.site/mcp"
     },
+    "pricing": "freemium",
     "transport": [
       "streamable-http"
     ],
-    "repository": "https://github.com/10ml-com/perfume-finder-mcp",
-    "license": "MIT",
-    "pricing": "free",
     "auth": [
       "none"
     ]
@@ -19205,6 +19157,79 @@
     ],
     "auth": [
       "oauth"
+    ]
+  },
+  {
+    "name": "Peeve",
+    "url": "https://docs.peeve.ai/mcp/overview",
+    "description": "Official MCP server for Peeve, an AI customer support agent for SaaS: exposes a product's verified support capabilities to users' own AI agents as typed tools, each stating its effect, with per-user scoped grants.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Peeve",
+    "tags": [
+      "customer-support",
+      "saas",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "QuelLLM MCP",
+    "url": "https://quelllm.fr/",
+    "description": "Helps MCP clients explore language models and estimate memory and API or self-hosting costs; estimates are indicative.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "QuelLLM",
+    "tags": [
+      "llm",
+      "models",
+      "hardware"
+    ],
+    "official": true,
+    "repository": "https://github.com/MGM-FALCON/quelllm-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "10ML Perfume Finder",
+    "url": "https://github.com/10ml-com/perfume-finder-mcp",
+    "description": "Free perfume knowledge for AI assistants: notes, accords and families for 6,000+ perfumes, similar scents and decant prices. Remote, read-only, no key.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "10ML",
+    "tags": [
+      "perfume",
+      "fragrance",
+      "reference-data",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.10ml.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "repository": "https://github.com/10ml-com/perfume-finder-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "auth": [
+      "none"
     ]
   },
   {
