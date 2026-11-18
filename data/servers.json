@@ -9329,6 +9329,31 @@
     ]
   },
   {
+    "name": "Market News API",
+    "url": "https://github.com/takashidoyle/crypto-news-x402-examples",
+    "description": "Hosted MCP for crypto and market news headlines with AI crypto-impact scores: free discovery tools, and news data paid per call in USDC over x402.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Market News API",
+    "tags": [
+      "market-news",
+      "crypto",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://goat-lighthouse.site/mcp"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MCPJungle",
     "url": "https://github.com/duaraghav8/MCPJungle",
     "description": "Self-hosted MCP server registry for enterprise AI agent deployments.",
