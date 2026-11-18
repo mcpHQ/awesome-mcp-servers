@@ -9325,6 +9325,33 @@
     "verified": "2026-11-11"
   },
   {
+    "name": "MexCheck",
+    "url": "https://mexcheck.com/docs/mcp",
+    "description": "Hosted MCP server that checks Mexican RFCs (SAT, including the 69/69-B lists), CFDI invoices, CURPs (RENAPO) and INE voter IDs against the official registries.",
+    "category": "security-and-identity",
+    "language": "Elixir",
+    "provider": "MexCheck",
+    "tags": [
+      "mexico",
+      "kyc",
+      "sat",
+      "curp",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mexcheck.com/mcp"
+    }
+  },
+  {
     "name": "MCP Server Templates",
     "url": "https://github.com/Data-Everything/mcp-server-templates",
     "description": "Unified MCP platform connecting many apps behind one interface.",
