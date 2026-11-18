@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 902 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 903 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10595,6 +10595,22 @@ Open protocol and reference MCP gateway for ordering social media growth service
 - Pricing: free
 - Transport: stdio, streamable-http
 - Auth: none
+
+### Oppi Digital Products MCP
+
+Agent commerce for ready-made digital products: browse the catalog, test free sample prompts, pay with crypto to a verified wallet, verify payments on-chain and request delivery.
+
+- URL: https://github.com/Reggiebro/oppi-digital-products
+- Language: JavaScript
+- Provider: Oppi
+- Official: no
+- Tags: e-commerce, crypto, usdc, digital-products, prompts
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Pricing: paid
+- Transport: stdio
+- Auth: none
+- Install: npx github:Reggiebro/oppi-digital-products/mcp-server
 
 ### Orizn Visa
 

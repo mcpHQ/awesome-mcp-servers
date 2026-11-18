@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 902 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 903 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -829,6 +829,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [OneFindMe](https://onefindme.com/mcp): Remote read-only server for searching AliExpress in 21 languages, returning listings with local-currency prices, ratings, order counts and links, plus a budget-fitting basket builder. (JavaScript)
 - [OpenCart Greece](https://eshop.opencartgreece.gr/mcp): Searches the OpenCart Greece catalog of OpenCart extensions, themes and services and returns prices, options, categories and store details. Read-only, no sign-in. (PHP, official)
 - [OpenSMM Protocol](https://opensmm.dev): Open protocol and reference MCP gateway for ordering social media growth services: catalog search, quotes, idempotent orders, provider-node registration and x402 payments in one local node. (TypeScript, official)
+- [Oppi Digital Products MCP](https://github.com/Reggiebro/oppi-digital-products): Agent commerce for ready-made digital products: browse the catalog, test free sample prompts, pay with crypto to a verified wallet, verify payments on-chain and request delivery. (JavaScript)
 - [Orizn Visa](https://github.com/MattJeff/orizn-mcp-server): Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs. (TypeScript, official)
 - [OttoQuest](https://ottoquest.com/mcp): Search US dealer listings with estimated market values, look up VINs and recalls, browse dealer inventory, and manage deal alerts with an OttoQuest account. (TypeScript, official)
 - [OutreachGenie](https://github.com/Outreachgenie/outreachgenie-linkedin-mcp): Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys. (TypeScript, official)

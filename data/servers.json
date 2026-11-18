@@ -9757,6 +9757,35 @@
     ]
   },
   {
+    "name": "Oppi Digital Products MCP",
+    "url": "https://github.com/Reggiebro/oppi-digital-products",
+    "description": "Agent commerce for ready-made digital products: browse the catalog, test free sample prompts, pay with crypto to a verified wallet, verify payments on-chain and request delivery.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Oppi",
+    "tags": [
+      "e-commerce",
+      "crypto",
+      "usdc",
+      "digital-products",
+      "prompts"
+    ],
+    "official": false,
+    "repository": "https://github.com/Reggiebro/oppi-digital-products",
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:Reggiebro/oppi-digital-products/mcp-server"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MoltNode by Chord",
     "url": "https://github.com/tuantqse90/moltnode-mcp",
     "description": "Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.",
