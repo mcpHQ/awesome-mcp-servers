@@ -23,28 +23,6 @@
     ]
   },
   {
-    "name": "NexRex",
-    "url": "https://github.com/NexRex-Dev/nexrex-mcp",
-    "description": "AI running coach for workouts, training plans, athlete progress, and team reviews.",
-    "category": "communication-and-productivity",
-    "language": "Python",
-    "provider": "NexRex Inc.",
-    "tags": [
-      "running",
-      "coaching",
-      "training",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/NexRex-Dev/nexrex-mcp",
-    "endpoints": {
-      "streamableHttp": "https://mcp.nexrex.ai/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ]
-  },
-  {
     "name": "Toolradar",
     "url": "https://github.com/Nadeus/toolradar-mcp",
     "description": "Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.",
@@ -5953,31 +5931,6 @@
     ]
   },
   {
-    "name": "StalkChain Data",
-    "url": "https://data.stalkchain.com/docs/guides/getting-started",
-    "description": "Research on-chain traders, wallet activity, token safety, and Hyperliquid positions from a hosted MCP server.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "TypeScript",
-    "provider": "StalkChain",
-    "tags": [
-      "crypto",
-      "on-chain",
-      "wallets",
-      "market-data",
-      "hyperliquid"
-    ],
-    "official": true,
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://data.stalkchain.com/mcp"
-    }
-  },
-  {
     "name": "402cron",
     "url": "https://402cron.com",
     "description": "Remote MCP server (streamable HTTP) for a paid cron service for agents: pricing and docs need no key, and thirteen more tools manage scheduled webhook tasks with the API token bought over x402.",
@@ -9219,35 +9172,6 @@
     ],
     "official": false,
     "repository": "https://github.com/mailveri/mailveri-mcp"
-  },
-  {
-    "name": "Frank AI Researcher",
-    "url": "https://www.hifrank.ai/mcp",
-    "description": "Official remote MCP server for Frank AI Researcher: draft AI-moderated voice interview studies with your own customers, publish them after approval, and read the transcripts.",
-    "category": "data-analytics-and-bi",
-    "language": "Other",
-    "provider": "hifrank",
-    "tags": [
-      "customer-research",
-      "interviews",
-      "voice",
-      "remote",
-      "oauth"
-    ],
-    "official": true,
-    "repository": "https://github.com/nar-vardanyan/frank-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://api.hifrank.ai/mcp"
-    },
-    "auth": [
-      "oauth"
-    ],
-    "verified": "2026-11-18"
   },
   {
     "name": "ReadShore",
@@ -19209,6 +19133,107 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "omnivm",
+    "url": "https://github.com/SalyyS1/omnivm",
+    "description": "MCP server for provisioning hardware-isolated scale-to-zero Linux microVMs on Cloud Hypervisor and KVM, with single-file JSON configuration, snapshot-based fast boot, cgroup v2 quotas, and ephemeral AI sandbox lifecycle.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "kvm",
+      "microvm",
+      "sandbox",
+      "cloud-hypervisor",
+      "scale-to-zero"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/omnivm",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "NexRex",
+    "url": "https://github.com/NexRex-Dev/nexrex-mcp",
+    "description": "AI running coach for workouts, training plans, athlete progress, and team reviews.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "NexRex Inc.",
+    "tags": [
+      "running",
+      "coaching",
+      "training",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/NexRex-Dev/nexrex-mcp",
+    "endpoints": {
+      "streamableHttp": "https://mcp.nexrex.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "StalkChain Data",
+    "url": "https://data.stalkchain.com/docs/guides/getting-started",
+    "description": "Research on-chain traders, wallet activity, token safety, and Hyperliquid positions from a hosted MCP server.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "StalkChain",
+    "tags": [
+      "crypto",
+      "on-chain",
+      "wallets",
+      "market-data",
+      "hyperliquid"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://data.stalkchain.com/mcp"
+    }
+  },
+  {
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai/mcp",
+    "description": "Official remote MCP server for Frank AI Researcher: draft AI-moderated voice interview studies with your own customers, publish them after approval, and read the transcripts.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "hifrank",
+    "tags": [
+      "customer-research",
+      "interviews",
+      "voice",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/nar-vardanyan/frank-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.hifrank.ai/mcp"
+    },
+    "auth": [
+      "oauth"
+    ],
+    "verified": "2026-11-18"
   },
   {
     "name": "Prime Rate SOFR Fed Funds Rate Today MCP",
