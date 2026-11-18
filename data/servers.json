@@ -23,6 +23,28 @@
     ]
   },
   {
+    "name": "NexRex",
+    "url": "https://github.com/NexRex-Dev/nexrex-mcp",
+    "description": "AI running coach for workouts, training plans, athlete progress, and team reviews.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "NexRex Inc.",
+    "tags": [
+      "running",
+      "coaching",
+      "training",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/NexRex-Dev/nexrex-mcp",
+    "endpoints": {
+      "streamableHttp": "https://mcp.nexrex.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
     "name": "Toolradar",
     "url": "https://github.com/Nadeus/toolradar-mcp",
     "description": "Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.",

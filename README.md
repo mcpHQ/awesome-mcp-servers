@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-908-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-909-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (89)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (36)
-- [Communication and Productivity](#communication-and-productivity) (120)
+- [Communication and Productivity](#communication-and-productivity) (121)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (108)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -788,6 +788,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `prayer-times` `islamic` `location` `reminders`
 - **[NeverApply](https://github.com/kasovy/neverapply-mcp)** `Official` `Other` — AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.  
   `jobs` `career` `resume` `oauth` `remote`
+- **[NexRex](https://github.com/NexRex-Dev/nexrex-mcp)** `Official` `Python` — AI running coach for workouts, training plans, athlete progress, and team reviews.  
+  `running` `coaching` `training` `remote`
 - **[Nitrosend](https://docs.nitrosend.com/mcp)** `Official` `Ruby` — Manage email campaigns, flows, contacts, audiences, and transactional email or SMS in Nitrosend through its hosted MCP server.  
   `email-marketing` `campaigns` `automation` `transactional-email` `oauth`
 - **[NoLimit MCP](https://github.com/sharpmagazine/nolimit-mcp)** `PHP` — Self-hosted WordPress plugin exposing 60 MCP tools over Streamable HTTP with OAuth 2.1, letting AI clients manage posts, pages, media, users, comments and SEO.  
