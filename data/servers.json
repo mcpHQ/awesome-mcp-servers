@@ -9301,6 +9301,35 @@
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
   },
   {
+    "name": "Local SEO Data",
+    "url": "https://localseodata.com/docs/mcp-server",
+    "description": "Local SEO data for agents: local pack and Maps rankings, Business Profile and reviews, citation audits, geogrid scans and AI visibility.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Local SEO Data",
+    "tags": [
+      "local-seo",
+      "seo",
+      "google-maps",
+      "reviews",
+      "geogrid"
+    ],
+    "official": true,
+    "repository": "https://github.com/localseodata/mcp-server",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.localseodata.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "xmcp",
     "url": "https://xmcp.dev",
     "description": "Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server.",

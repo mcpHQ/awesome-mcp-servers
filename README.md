@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-875-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-876-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
 - [Communication and Productivity](#communication-and-productivity) (114)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (98)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (99)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (41)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (188)
@@ -1200,6 +1200,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `backlinks` `serp` `remote` `oauth`
 - **[LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp)** `Official` `JavaScript` — Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic.  
   `ai-visibility` `analytics` `marketing`
+- **[Local SEO Data](https://localseodata.com/docs/mcp-server)** `Official` `TypeScript` — Local SEO data for agents: local pack and Maps rankings, Business Profile and reviews, citation audits, geogrid scans and AI visibility. ([source](https://github.com/localseodata/mcp-server))  
+  `local-seo` `seo` `google-maps` `reviews` `geogrid`
 - **[LogNorm](https://github.com/lognorm/lognorm-mcp)** `Official` `Other` — Hosted MCP server that hands a site's SEO/GEO growth backlog (audits, fixes, content, AI-visibility tracking) to Claude Code, Codex and Cursor via OAuth.  
   `seo` `geo` `marketing` `remote` `oauth`
 - **[Lomen Analytics](https://lomenanalytics.com/docs)** `Official` `TypeScript` — Read-only remote MCP server for Lomen, a cookie-free website analytics service in public beta: list your sites, read 30-day traffic, top pages and sources, and ask why one day differed from usual. OAuth sign-in.  
