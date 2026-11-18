@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 911 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 912 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -793,6 +793,23 @@ A secure, 100% native GDScript Server-Sent Events (SSE) server bridging Claude, 
 - Tags: godot, developer-tools, code-intelligence, claude, cursor
 - Category: Developer Tools and Code Intelligence
 - Transport: sse
+
+### Grainulator
+
+Local evidence and verification ledger for coding agents (Codex, Claude Code) with contradiction detection and test soundness loops.
+
+- URL: https://grainulator.dev
+- Language: JavaScript
+- Provider: Grainulation
+- Official: no
+- Tags: agents, codex, claude-code, testing, verification
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/grainulation/grainulator
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx github:grainulation/grainulator#v2.3.0
 
 ### installed-api
 

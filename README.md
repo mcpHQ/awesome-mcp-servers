@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-911-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-912-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (92)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (93)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (89)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
@@ -206,6 +206,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `gitlab` `devops` `issues`
 - **[GodotMCP](https://github.com/vberai/godot-mcp)** `Official` `GDScript` — A secure, 100% native GDScript Server-Sent Events (SSE) server bridging Claude, Cursor, and Windsurf directly to Godot 4.x scene trees. No Node.js or C# dependencies required.  
   `godot` `developer-tools` `code-intelligence` `claude` `cursor`
+- **[Grainulator](https://grainulator.dev)** `JavaScript` — Local evidence and verification ledger for coding agents (Codex, Claude Code) with contradiction detection and test soundness loops. ([source](https://github.com/grainulation/grainulator))  
+  `agents` `codex` `claude-code` `testing` `verification`
 - **[installed-api](https://github.com/ajwann/installed-api)** `Python` — Answers API questions from the packages installed in the project: Python signatures, docstrings and source from the project's interpreter, TypeScript declarations from node_modules, and installed versions.  
   `python` `typescript` `api-docs` `claude-code`
 - **[IntlPull MCP Server](https://intlpull.com/docs/mcp)** `Official` `TypeScript` — Manage translation keys, translate strings, and sync localization files with IntlPull from MCP clients.  
