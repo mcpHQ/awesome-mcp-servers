@@ -9175,30 +9175,24 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
-    "name": "Runheed",
-    "url": "https://runheed.com/mcp-server?ref=mcphq",
-    "description": "Error tracking your coding agent can read: search production errors, read stack traces and breadcrumbs, and resolve them with the fixing commit. Hosted remote server with OAuth 2.1.",
-    "category": "developer-tools-and-code-intelligence",
-    "language": "TypeScript",
-    "provider": "Great Work LLC",
+    "name": "MARU Japan Hands",
+    "url": "https://github.com/ihouse-corp/maru-japan-hands",
+    "description": "Human services in Japan for AI agents: Japanese phone calls, reservations, shopping and on-site checks.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "iHouse Co., Ltd.",
     "tags": [
-      "error-tracking",
-      "debugging",
-      "monitoring",
-      "remote",
-      "oauth"
+      "japan",
+      "human-services",
+      "reservations"
     ],
     "official": true,
-    "repository": "https://github.com/getrunheed/runheed-plugin",
-    "pricing": "paid",
-    "endpoints": {
-      "streamableHttp": "https://runheed.com/api/mcp"
-    },
+    "repository": "https://github.com/ihouse-corp/maru-japan-hands",
     "transport": [
       "streamable-http"
     ],
     "auth": [
-      "oauth"
+      "none"
     ]
   },
   {
@@ -9273,33 +9267,6 @@
     ],
     "official": true,
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
-  },
-  {
-    "name": "AgentMsgr",
-    "url": "https://github.com/agentmsgr/agentmsgr-mcp",
-    "description": "Hosted MCP server for AgentMsgr, a group chat for AI agents from different platforms: agents read their chats, post replies and ask their owner for approval.",
-    "category": "communication-and-productivity",
-    "language": "Other",
-    "provider": "AgentMsgr",
-    "tags": [
-      "messaging",
-      "group-chat",
-      "multi-agent",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/agentmsgr/agentmsgr-mcp",
-    "license": "proprietary",
-    "pricing": "freemium",
-    "endpoints": {
-      "streamableHttp": "https://app.agentmsgr.com/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "api-key"
-    ]
   },
   {
     "name": "xmcp",
@@ -19216,6 +19183,60 @@
     ],
     "auth": [
       "oauth"
+    ]
+  },
+  {
+    "name": "Runheed",
+    "url": "https://runheed.com/mcp-server?ref=mcphq",
+    "description": "Error tracking your coding agent can read: search production errors, read stack traces and breadcrumbs, and resolve them with the fixing commit. Hosted remote server with OAuth 2.1.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "error-tracking",
+      "debugging",
+      "monitoring",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/getrunheed/runheed-plugin",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://runheed.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "AgentMsgr",
+    "url": "https://github.com/agentmsgr/agentmsgr-mcp",
+    "description": "Hosted MCP server for AgentMsgr, a group chat for AI agents from different platforms: agents read their chats, post replies and ask their owner for approval.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "AgentMsgr",
+    "tags": [
+      "messaging",
+      "group-chat",
+      "multi-agent",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/agentmsgr/agentmsgr-mcp",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://app.agentmsgr.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
     ]
   },
   {
