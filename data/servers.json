@@ -4469,39 +4469,6 @@
     ]
   },
   {
-    "name": "ScrapeUnblocker MCP Server",
-    "url": "https://github.com/ScrapeUnblocker/scrapeunblocker-mcp",
-    "description": "Fetch any web page as HTML, Markdown or parsed JSON with real-browser rendering and anti-bot handling, run Google searches, and use ready-made plugins for sites such as Amazon, Google Maps and YouTube.",
-    "category": "browsers-search-and-web-automation",
-    "language": "TypeScript",
-    "provider": "ScrapeUnblocker",
-    "tags": [
-      "scraping",
-      "web",
-      "search",
-      "anti-bot",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/ScrapeUnblocker/scrapeunblocker-mcp",
-    "license": "MIT",
-    "endpoints": {
-      "streamableHttp": "https://mcp.scrapeunblocker.com/mcp"
-    },
-    "transport": [
-      "stdio",
-      "streamable-http"
-    ],
-    "install": {
-      "command": "npx",
-      "package": "scrapeunblocker-mcp"
-    },
-    "auth": [
-      "api-key",
-      "oauth"
-    ]
-  },
-  {
     "name": "LinkMCP",
     "url": "https://app.linkmcp.io",
     "description": "Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial.",
@@ -6687,32 +6654,6 @@
     ],
     "auth": [
       "oauth"
-    ]
-  },
-  {
-    "name": "RipSeek",
-    "url": "https://ripseek.2cstudio.app/blog/ripseek-mcp",
-    "description": "Live odds, expected value and chase cards for Collector Crypt graded trading-card packs on Solana, plus recent pulls and budget estimates; read-only.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "TypeScript",
-    "provider": "2C Studio",
-    "tags": [
-      "trading-cards",
-      "collectibles",
-      "solana",
-      "odds",
-      "remote"
-    ],
-    "official": true,
-    "pricing": "free",
-    "endpoints": {
-      "streamableHttp": "https://ripseek.2cstudio.app/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "none"
     ]
   },
   {
@@ -9071,30 +9012,6 @@
     ]
   },
   {
-    "name": "Alloy MCP",
-    "url": "https://github.com/argonrobotics-ai/alloy",
-    "description": "Lets coding agents build and run multi-material physics simulations (rigid robots, cloth, soft bodies, sand and liquids) through local stdio tools via the alloy mcp command.",
-    "category": "utilities-and-examples",
-    "language": "Python",
-    "provider": "Argon Robotics",
-    "tags": [
-      "physics",
-      "simulation",
-      "robotics",
-      "local"
-    ],
-    "official": true,
-    "repository": "https://github.com/argonrobotics-ai/alloy",
-    "license": "Apache-2.0",
-    "transport": [
-      "stdio"
-    ],
-    "install": {
-      "command": "pip",
-      "package": "alloy-engine"
-    }
-  },
-  {
     "name": "MCP Registry",
     "url": "https://github.com/modelcontextprotocol/registry",
     "description": "Official MCP registry service and API for discovering publicly available MCP servers.",
@@ -9258,24 +9175,31 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
-    "name": "MARU Japan Hands",
-    "url": "https://github.com/ihouse-corp/maru-japan-hands",
-    "description": "Human services in Japan for AI agents: Japanese phone calls, reservations, shopping and on-site checks.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Python",
-    "provider": "iHouse Co., Ltd.",
+    "name": "ClearFetch MCP",
+    "url": "https://clearfetch.dev",
+    "description": "Unblocked web scraping and token-optimized Markdown reader with residential anti-bot challenge bypass.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "ClearFetch",
     "tags": [
-      "japan",
-      "human-services",
-      "reservations"
+      "scraping",
+      "web",
+      "markdown",
+      "anti-bot"
     ],
     "official": true,
-    "repository": "https://github.com/ihouse-corp/maru-japan-hands",
+    "repository": "https://github.com/zenkdom/clearfetch",
+    "license": "MIT",
+    "pricing": "freemium",
     "transport": [
-      "streamable-http"
+      "stdio"
     ],
+    "install": {
+      "command": "npx",
+      "package": "clearfetch"
+    },
     "auth": [
-      "none"
+      "api-key"
     ]
   },
   {
@@ -9431,33 +9355,6 @@
     "auth": [
       "oauth"
     ]
-  },
-  {
-    "name": "Octopost",
-    "url": "https://octopost.ink",
-    "description": "Remote MCP server for posting to X, Bluesky, Mastodon and LinkedIn: threads, scheduling, a queue and a human approval queue where agents cannot approve their own posts.",
-    "category": "communication-and-productivity",
-    "language": "TypeScript",
-    "provider": "Great Work LLC",
-    "tags": [
-      "social-media",
-      "scheduling",
-      "approvals",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/octopost-ink/octopost-plugin",
-    "pricing": "paid",
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth",
-      "api-key"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://octopost.ink/mcp"
-    }
   },
   {
     "name": "MCPJungle",
@@ -19294,6 +19191,137 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "ScrapeUnblocker MCP Server",
+    "url": "https://github.com/ScrapeUnblocker/scrapeunblocker-mcp",
+    "description": "Fetch any web page as HTML, Markdown or parsed JSON with real-browser rendering and anti-bot handling, run Google searches, and use ready-made plugins for sites such as Amazon, Google Maps and YouTube.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "ScrapeUnblocker",
+    "tags": [
+      "scraping",
+      "web",
+      "search",
+      "anti-bot",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/ScrapeUnblocker/scrapeunblocker-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://mcp.scrapeunblocker.com/mcp"
+    },
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "scrapeunblocker-mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
+    "name": "RipSeek",
+    "url": "https://ripseek.2cstudio.app/blog/ripseek-mcp",
+    "description": "Live odds, expected value and chase cards for Collector Crypt graded trading-card packs on Solana, plus recent pulls and budget estimates; read-only.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "2C Studio",
+    "tags": [
+      "trading-cards",
+      "collectibles",
+      "solana",
+      "odds",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://ripseek.2cstudio.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Alloy MCP",
+    "url": "https://github.com/argonrobotics-ai/alloy",
+    "description": "Lets coding agents build and run multi-material physics simulations (rigid robots, cloth, soft bodies, sand and liquids) through local stdio tools via the alloy mcp command.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Argon Robotics",
+    "tags": [
+      "physics",
+      "simulation",
+      "robotics",
+      "local"
+    ],
+    "official": true,
+    "repository": "https://github.com/argonrobotics-ai/alloy",
+    "license": "Apache-2.0",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "pip",
+      "package": "alloy-engine"
+    }
+  },
+  {
+    "name": "MARU Japan Hands",
+    "url": "https://github.com/ihouse-corp/maru-japan-hands",
+    "description": "Human services in Japan for AI agents: Japanese phone calls, reservations, shopping and on-site checks.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "iHouse Co., Ltd.",
+    "tags": [
+      "japan",
+      "human-services",
+      "reservations"
+    ],
+    "official": true,
+    "repository": "https://github.com/ihouse-corp/maru-japan-hands",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Octopost",
+    "url": "https://octopost.ink",
+    "description": "Remote MCP server for posting to X, Bluesky, Mastodon and LinkedIn: threads, scheduling, a queue and a human approval queue where agents cannot approve their own posts.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "approvals",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/octopost-ink/octopost-plugin",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://octopost.ink/mcp"
+    }
   },
   {
     "name": "Runheed",
