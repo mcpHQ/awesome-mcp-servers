@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-885-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-886-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (41)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (190)
-- [Utilities and Examples](#utilities-and-examples) (47)
+- [Utilities and Examples](#utilities-and-examples) (48)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1828,6 +1828,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `travel` `airports` `lounges`
 - **[AlertForge](https://alertforge.ai/docs/agents)** `Official` `TypeScript` — Plan, create, and export stream overlays, AI alerts, and transparent videos through a hosted service requiring an active paid subscription and generation credits.  
   `streaming` `design` `video` `oauth`
+- **[Alloy MCP](https://github.com/argonrobotics-ai/alloy)** `Official` `Python` — Lets coding agents build and run multi-material physics simulations (rigid robots, cloth, soft bodies, sand and liquids) through local stdio tools via the alloy mcp command.  
+  `physics` `simulation` `robotics` `local`
 - **[Anyquery](https://github.com/julien040/anyquery)** `Go` — Query 40+ apps and databases with SQL from a single local binary.  
   `sql` `integration` `local`
 - **[Appy Smart Links](https://appy.to/docs/mcp)** `Official` `Go` — Create and edit device-aware smart links and inspect click analytics from MCP clients; install attribution requires an Enterprise plan.  

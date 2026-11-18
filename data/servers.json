@@ -9012,6 +9012,30 @@
     ]
   },
   {
+    "name": "Alloy MCP",
+    "url": "https://github.com/argonrobotics-ai/alloy",
+    "description": "Lets coding agents build and run multi-material physics simulations (rigid robots, cloth, soft bodies, sand and liquids) through local stdio tools via the alloy mcp command.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Argon Robotics",
+    "tags": [
+      "physics",
+      "simulation",
+      "robotics",
+      "local"
+    ],
+    "official": true,
+    "repository": "https://github.com/argonrobotics-ai/alloy",
+    "license": "Apache-2.0",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "pip",
+      "package": "alloy-engine"
+    }
+  },
+  {
     "name": "MCP Registry",
     "url": "https://github.com/modelcontextprotocol/registry",
     "description": "Official MCP registry service and API for discovering publicly available MCP servers.",
