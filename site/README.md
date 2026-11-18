@@ -6,9 +6,9 @@ The searchable directory at [mcphq.org](https://mcphq.org). It is a static site 
 
 | Path | Page |
 | --- | --- |
-| `/` | Explorer with search, facet filters (backing, transport, category, language), sort, and grid or list view. Filters are kept in the URL. |
+| `/` | Explorer with search, facet filters (backing, transport, auth, pricing, category, language), sort, pagination, and grid or list view. Auth and pricing filters appear once those fields are set. Filters and the current page are kept in the URL. |
 | `/servers/<slug>/` | One page per server with install links and configs for Cursor, VS Code, Claude Code, Claude Desktop, and Codex, plus related servers. |
-| `/categories/` and `/categories/<id>/` | Category index and one page per category. |
+| `/categories/` and `/categories/<id>/` | Category index and one page per category. Category listings are paginated. |
 | `/stack/` | Stack builder. Merges the hosted servers you picked into one config file, lists local ones, and shares the stack as a link. |
 | `/developers/` | JSON API, `llms.txt`, and badge docs. |
 | `/api/*.json`, `/llms.txt`, `/llms-full.txt`, `/sitemap.xml`, `/robots.txt` | Machine-readable outputs. |
