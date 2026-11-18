@@ -9669,6 +9669,32 @@
     "repository": "https://github.com/motherduckdb/mcp-server-motherduck"
   },
   {
+    "name": "CheapCarRent search",
+    "url": "https://cheapcarent.com/developers",
+    "description": "Read-only remote MCP server that lists CheapCarRent pickup cities and airports and searches live car rental offers from local rental companies (15,000 pickup points in 46 countries).",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "CheapCarRent",
+    "tags": [
+      "car-rental",
+      "travel",
+      "search"
+    ],
+    "official": true,
+    "repository": "https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://cheapcarent.com/mcp"
+    }
+  },
+  {
     "name": "MuAPI MCP Server",
     "url": "https://muapi.ai/docs/mcp",
     "description": "Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.",
