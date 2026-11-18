@@ -9038,6 +9038,30 @@
     ]
   },
   {
+    "name": "Alloy MCP",
+    "url": "https://github.com/argonrobotics-ai/alloy",
+    "description": "Lets coding agents build and run multi-material physics simulations (rigid robots, cloth, soft bodies, sand and liquids) through local stdio tools via the alloy mcp command.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Argon Robotics",
+    "tags": [
+      "physics",
+      "simulation",
+      "robotics",
+      "local"
+    ],
+    "official": true,
+    "repository": "https://github.com/argonrobotics-ai/alloy",
+    "license": "Apache-2.0",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "pip",
+      "package": "alloy-engine"
+    }
+  },
+  {
     "name": "MCP Registry",
     "url": "https://github.com/modelcontextprotocol/registry",
     "description": "Official MCP registry service and API for discovering publicly available MCP servers.",
@@ -9201,6 +9225,27 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "MARU Japan Hands",
+    "url": "https://github.com/ihouse-corp/maru-japan-hands",
+    "description": "Human services in Japan for AI agents: Japanese phone calls, reservations, shopping and on-site checks.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "iHouse Co., Ltd.",
+    "tags": [
+      "japan",
+      "human-services",
+      "reservations"
+    ],
+    "official": true,
+    "repository": "https://github.com/ihouse-corp/maru-japan-hands",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
@@ -9353,6 +9398,33 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Octopost",
+    "url": "https://octopost.ink",
+    "description": "Remote MCP server for posting to X, Bluesky, Mastodon and LinkedIn: threads, scheduling, a queue and a human approval queue where agents cannot approve their own posts.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "approvals",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/octopost-ink/octopost-plugin",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://octopost.ink/mcp"
+    }
   },
   {
     "name": "MCPJungle",
@@ -19033,16 +19105,16 @@
     "name": "RoboWrite",
     "url": "https://www.robowrite.ai/guides/robowrite-mcp",
     "repository": "https://github.com/RoboAdApp/robowrite-plugin",
-    "description": "Plan brand-aware content, review briefs and recover saved Markdown drafts from RoboWrite through a hosted MCP server with OAuth sign-in.",
+    "description": "SEO/GEO content grounded in keyword research, competitor insights, brand voice, and knowledge.",
     "category": "communication-and-productivity",
     "language": "TypeScript",
     "provider": "M Powered Ventures",
     "tags": [
-      "content-planning",
-      "marketing",
-      "drafts",
-      "oauth",
-      "remote"
+      "seo",
+      "geo",
+      "keyword-research",
+      "competitor-research",
+      "rag"
     ],
     "official": true,
     "transport": [
@@ -19189,5 +19261,379 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Runheed",
+    "url": "https://runheed.com/mcp-server?ref=mcphq",
+    "description": "Error tracking your coding agent can read: search production errors, read stack traces and breadcrumbs, and resolve them with the fixing commit. Hosted remote server with OAuth 2.1.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "error-tracking",
+      "debugging",
+      "monitoring",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/getrunheed/runheed-plugin",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://runheed.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "AgentMsgr",
+    "url": "https://github.com/agentmsgr/agentmsgr-mcp",
+    "description": "Hosted MCP server for AgentMsgr, a group chat for AI agents from different platforms: agents read their chats, post replies and ask their owner for approval.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "AgentMsgr",
+    "tags": [
+      "messaging",
+      "group-chat",
+      "multi-agent",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/agentmsgr/agentmsgr-mcp",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://app.agentmsgr.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "RunLater",
+    "url": "https://runlater.app",
+    "description": "Hosted MCP server that schedules HTTP requests from an agent: once at an exact time or on a cron schedule, with retries and a log of every run.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "cron",
+      "scheduling",
+      "webhooks",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/runlater-app/runlater-plugin",
+    "license": "MIT",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://runlater.app/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Roopedia MCP",
+    "url": "https://roopedia.com/mcp",
+    "description": "Query 786+ verified AI tools, SaaS pricing freshness, and MCP server security records in English and French.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Roopedia",
+    "tags": [
+      "ai-tools",
+      "mcp-registry",
+      "pricing",
+      "security"
+    ],
+    "official": false,
+    "repository": "https://github.com/hajejbusiness/roopedia-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:hajejbusiness/roopedia-mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Taskhold",
+    "url": "https://taskhold.com",
+    "description": "Hosted MCP server for a task list shared by a person and their coding agents: next task, steps, live progress, blocked questions and full change history.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Great Work LLC",
+    "tags": [
+      "task-management",
+      "coding-agents",
+      "productivity",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://taskhold.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "Neblex Integration Fabric",
+    "url": "https://www.neblex.com/integration-fabric/docs/guide/mcp",
+    "description": "Official MCP server for the Neblex integration platform: build, test and run integration flows, read run history and fix failed runs across 300+ connectors.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Neblex",
+    "tags": [
+      "integration",
+      "ipaas",
+      "automation",
+      "workflows",
+      "data-quality"
+    ],
+    "official": true,
+    "repository": "https://github.com/neblexhq/neblex-mcp",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://if.neblex.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "Gesher",
+    "url": "https://github.com/EphraimElgrabli/gesher",
+    "description": "Local MCP servers that let AI clients read and edit Apple Notes, Reminders, Calendar, Contacts, Maps, Weather and Freeform on a Mac.",
+    "category": "communication-and-productivity",
+    "language": "Swift",
+    "provider": "Community",
+    "tags": [
+      "macos",
+      "apple-notes",
+      "reminders",
+      "calendar",
+      "local"
+    ],
+    "official": false,
+    "repository": "https://github.com/EphraimElgrabli/gesher",
+    "license": "GPL-3.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Social Fetch",
+    "url": "https://www.socialfetch.dev/docs/integrations/mcp",
+    "description": "Hosted MCP server for public social posts, profiles, comments, transcripts and search.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Social Fetch",
+    "tags": [
+      "social-media",
+      "tiktok",
+      "instagram",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/social-freak-ltd/socialfetch-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://api.socialfetch.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "NukeBG",
+    "url": "https://nukebg.com/mcp-server",
+    "description": "Official hosted server: remove image backgrounds, erase objects by description and upscale images 2x/4x; transparent PNG/WebP or marketplace-ready white.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "NukeBG",
+    "tags": [
+      "image",
+      "background-removal",
+      "upscale",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/nukebg/nukebg-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.nukebg.com/mcp"
+    }
+  },
+  {
+    "name": "Local SEO Data",
+    "url": "https://localseodata.com/docs/mcp-server",
+    "description": "Local SEO data for agents: local pack and Maps rankings, Business Profile and reviews, citation audits, geogrid scans and AI visibility.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Local SEO Data",
+    "tags": [
+      "local-seo",
+      "seo",
+      "google-maps",
+      "reviews",
+      "geogrid"
+    ],
+    "official": true,
+    "repository": "https://github.com/localseodata/mcp-server",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.localseodata.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "pluginscope",
+    "url": "https://github.com/SalyyS1/pluginscope",
+    "description": "Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Kotlin",
+    "provider": "Community",
+    "tags": [
+      "minecraft",
+      "static-analysis",
+      "bytecode",
+      "kotlin",
+      "code-intelligence"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/pluginscope",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "HumanCalls",
+    "url": "https://humancalls.ai",
+    "description": "A real person phones a US or Canadian business for your agent, asks your questions and returns typed answers, a summary, the recording and a transcript.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Hire Overseas",
+    "tags": [
+      "phone-calls",
+      "human-in-the-loop",
+      "remote",
+      "business"
+    ],
+    "official": true,
+    "repository": "https://github.com/Hire-Overseas/humancalls-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://humancalls.ai/mcp"
+    }
+  },
+  {
+    "name": "Agent Flights",
+    "url": "https://lowest.flights/connect",
+    "description": "Searches the cheapest flights worldwide, strong on Africa, with price calendars, cheap destinations and booking links through a hosted MCP server.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "lomi.",
+    "tags": [
+      "travel",
+      "flights",
+      "africa",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/lomiafrica/agent-flights-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://lowest.flights/mcp"
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Verand",
+    "url": "https://verand.ai/mcp",
+    "repository": "https://github.com/verand-ai/verand-mcp",
+    "description": "Your site's rankings, AI-answer visibility and compliance checks, plus drafts and fixes you approve, from any AI assistant.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Verand",
+    "tags": [
+      "seo",
+      "marketing",
+      "ai-visibility",
+      "compliance",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://app.verand.ai/mcp"
+    }
   }
 ]
