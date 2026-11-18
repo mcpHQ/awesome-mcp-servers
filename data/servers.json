@@ -10390,6 +10390,34 @@
     ]
   },
   {
+    "name": "ScraperSocial",
+    "url": "https://scrapersocial.com/mcp/",
+    "description": "Read-only tools for public social media data: profiles, posts, comments, search, reviews and video transcripts from TikTok, Instagram, LinkedIn, X, Reddit and 30+ platforms.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "ScraperSocial",
+    "tags": [
+      "social-media",
+      "scraping",
+      "transcripts",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.scrapersocial.com"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "PandaStock",
     "url": "https://github.com/D-Asce/pandastocksdk",
     "description": "A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.",

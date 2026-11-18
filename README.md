@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-917-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
 - [Communication and Productivity](#communication-and-productivity) (122)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (109)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (110)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (198)
@@ -1306,6 +1306,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `perfume` `fragrance` `reference-data` `remote`
 - **[Scoopkit](https://github.com/nateslabach/scoopkit-mcp)** `Official` `Python` — Hosted AI-industry news server: returns each story once as a taxonomy-classified event with sources and correction history; no key needed to start, Pro adds semantic search.  
   `news` `ai-industry` `events` `remote`
+- **[ScraperSocial](https://scrapersocial.com/mcp/)** `Official` `TypeScript` — Read-only tools for public social media data: profiles, posts, comments, search, reviews and video transcripts from TikTok, Instagram, LinkedIn, X, Reddit and 30+ platforms.  
+  `social-media` `scraping` `transcripts` `remote` `oauth`
 - **[Screpy SEO MCP](https://screpy.com/feature/seo-mcp/)** `Official` `Other` — Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.  
   `seo` `analytics` `ai-visibility` `remote` `oauth`
 - **[SEOclar](https://seoclar.com/mcp-tools)** `Official` `TypeScript` — Provides keyword research, live SERPs, backlink analysis, site audits, and AI visibility data through a remote MCP server.  
