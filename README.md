@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-907-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-908-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (36)
 - [Communication and Productivity](#communication-and-productivity) (120)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (107)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (108)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (196)
@@ -1196,6 +1196,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `genomics` `variant-classification` `acmg` `bioinformatics` `remote`
 - **[Fourth Feed](https://fourthfeed.com/about)** `Official` `TypeScript` — Search AI video tools for prices, free credits, traffic and agent-readiness through a keyless remote MCP server. ([source](https://github.com/fourthfeed/fourthfeed-mcp))  
   `ai-video` `pricing` `comparison` `read-only` `remote`
+- **[Frank AI Researcher](https://www.hifrank.ai/mcp)** `Official` `Other` — Official remote MCP server for Frank AI Researcher: draft AI-moderated voice interview studies with your own customers, publish them after approval, and read the transcripts. ([source](https://github.com/nar-vardanyan/frank-mcp))  
+  `customer-research` `interviews` `voice` `remote` `oauth`
 - **[Fuel Economy Gas Mileage MPG MCP](https://github.com/theluckystrike/fuel-economy-gas-mileage-mpg-mcp)** `TypeScript` — EPA city, highway and combined MPG, EV range and annual fuel cost for any car by year, make and model from fueleconomy.gov, with side-by-side comparisons.  
   `fuel-economy` `mpg` `vehicles` `epa`
 - **[Global Database](https://api.globaldatabase.com/docs/v2/#mcp-server)** `Official` `Other` — Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication.  
