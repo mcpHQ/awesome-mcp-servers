@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-884-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-885-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (86)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
-- [Communication and Productivity](#communication-and-productivity) (117)
+- [Communication and Productivity](#communication-and-productivity) (118)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (99)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -782,6 +782,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `wordpress` `cms` `websites` `oauth` `remote`
 - **[NumRadar](https://numradar.app/mcp-server)** `Official` `TypeScript` — Check WhatsApp registration for individual phone numbers, submit bulk validation jobs, and read validation allowances through a hosted Streamable HTTP server or the local npm package.  
   `whatsapp` `phone-validation` `bulk-validation`
+- **[Octopost](https://octopost.ink)** `Official` `TypeScript` — Remote MCP server for posting to X, Bluesky, Mastodon and LinkedIn: threads, scheduling, a queue and a human approval queue where agents cannot approve their own posts. ([source](https://github.com/octopost-ink/octopost-plugin))  
+  `social-media` `scheduling` `approvals` `remote`
 - **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `Official` `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
   `video` `editing` `automation` `mcp`
 - **[OsmO Phone Calls](https://github.com/Mountainheads-Private-limited/osmo-ai-plugins)** `Official` `Other` — OsmO's hosted MCP server places real phone calls to businesses and helplines after the user confirms, and returns the outcome, summary and transcript.  
