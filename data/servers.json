@@ -5424,6 +5424,29 @@
     ]
   },
   {
+    "name": "Shager",
+    "url": "https://shager.ai/agents",
+    "description": "Hosted MCP server that lets an assistant schedule one post to many social accounts, each network at its own hour, answer comments, run auto-replies and report views, likes and clicks per post.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Shager",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "analytics",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/shagerai/shager-mcp",
+    "endpoints": {
+      "streamableHttp": "https://app.shager.ai/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
     "name": "PushNotif",
     "url": "https://github.com/AarsyDesign/pushnotif-mcp",
     "description": "Hosted remote and stdio MCP server with 24 tools for Web Push (VAPID), Android (FCM), iOS (APNs), In-App Popups, Social Proof Toasts, and Transactional Email OTP.",

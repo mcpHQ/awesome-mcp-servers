@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4965,6 +4965,20 @@ Manage email contacts, campaigns, automation sequences, transactional email and 
 - Official: yes
 - Tags: email, marketing, automation
 - Category: Communication and Productivity
+
+### Shager
+
+Hosted MCP server that lets an assistant schedule one post to many social accounts, each network at its own hour, answer comments, run auto-replies and report views, likes and clicks per post.
+
+- URL: https://shager.ai/agents
+- Language: TypeScript
+- Provider: Shager
+- Official: yes
+- Tags: social-media, scheduling, analytics, remote, oauth
+- Category: Communication and Productivity
+- Repository: https://github.com/shagerai/shager-mcp
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://app.shager.ai/api/mcp
 
 ### Shipmail
 
