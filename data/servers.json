@@ -8900,6 +8900,34 @@
     ]
   },
   {
+    "name": "Social Fetch",
+    "url": "https://www.socialfetch.dev/docs/integrations/mcp",
+    "description": "Hosted MCP server for public social posts, profiles, comments, transcripts and search.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Social Fetch",
+    "tags": [
+      "social-media",
+      "tiktok",
+      "instagram",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/social-freak-ltd/socialfetch-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://api.socialfetch.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "BeliefState",
     "url": "https://beliefstate.ai/agent-quickstart.md",
     "description": "Hosted MCP server for dated, source-linked investor theses, catalysts, risks and revisions, with free company coverage and paid research calls through x402.",
@@ -9534,6 +9562,31 @@
     ]
   },
   {
+    "name": "pluginscope",
+    "url": "https://github.com/SalyyS1/pluginscope",
+    "description": "Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Kotlin",
+    "provider": "Community",
+    "tags": [
+      "minecraft",
+      "static-analysis",
+      "bytecode",
+      "kotlin",
+      "code-intelligence"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/pluginscope",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Metabase MCP Server",
     "url": "https://www.metabase.com/docs/latest/ai/mcp",
     "description": "Query dashboards and explore data in Metabase BI.",
@@ -9590,6 +9643,34 @@
       "product"
     ],
     "official": true
+  },
+  {
+    "name": "HumanCalls",
+    "url": "https://humancalls.ai",
+    "description": "A real person phones a US or Canadian business for your agent, asks your questions and returns typed answers, a summary, the recording and a transcript.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Hire Overseas",
+    "tags": [
+      "phone-calls",
+      "human-in-the-loop",
+      "remote",
+      "business"
+    ],
+    "official": true,
+    "repository": "https://github.com/Hire-Overseas/humancalls-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://humancalls.ai/mcp"
+    }
   },
   {
     "name": "Tera Ads",
@@ -9949,6 +10030,34 @@
     "repository": "https://github.com/stonianua/neither-mcp",
     "transport": [
       "stdio"
+    ]
+  },
+  {
+    "name": "Agent Flights",
+    "url": "https://lowest.flights/connect",
+    "description": "Searches the cheapest flights worldwide, strong on Africa, with price calendars, cheap destinations and booking links through a hosted MCP server.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "lomi.",
+    "tags": [
+      "travel",
+      "flights",
+      "africa",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/lomiafrica/agent-flights-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://lowest.flights/mcp"
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
     ]
   },
   {
@@ -19032,16 +19141,16 @@
     "name": "RoboWrite",
     "url": "https://www.robowrite.ai/guides/robowrite-mcp",
     "repository": "https://github.com/RoboAdApp/robowrite-plugin",
-    "description": "Plan brand-aware content, review briefs and recover saved Markdown drafts from RoboWrite through a hosted MCP server with OAuth sign-in.",
+    "description": "SEO/GEO content grounded in keyword research, competitor insights, brand voice, and knowledge.",
     "category": "communication-and-productivity",
     "language": "TypeScript",
     "provider": "M Powered Ventures",
     "tags": [
-      "content-planning",
-      "marketing",
-      "drafts",
-      "oauth",
-      "remote"
+      "seo",
+      "geo",
+      "keyword-research",
+      "competitor-research",
+      "rag"
     ],
     "official": true,
     "transport": [
@@ -19188,5 +19297,23 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Verand",
+    "url": "https://verand.ai/mcp",
+    "repository": "https://github.com/verand-ai/verand-mcp",
+    "description": "Your site's rankings, AI-answer visibility and compliance checks, plus drafts and fixes you approve, from any AI assistant.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Verand",
+    "tags": ["seo", "marketing", "ai-visibility", "compliance", "remote"],
+    "official": true,
+    "pricing": "paid",
+    "transport": ["streamable-http"],
+    "auth": ["oauth"],
+    "endpoints": {
+      "streamableHttp": "https://app.verand.ai/mcp"
+    }
   }
+
 ]
