@@ -5953,6 +5953,31 @@
     ]
   },
   {
+    "name": "StalkChain Data",
+    "url": "https://data.stalkchain.com/docs/guides/getting-started",
+    "description": "Research on-chain traders, wallet activity, token safety, and Hyperliquid positions from a hosted MCP server.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "StalkChain",
+    "tags": [
+      "crypto",
+      "on-chain",
+      "wallets",
+      "market-data",
+      "hyperliquid"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://data.stalkchain.com/mcp"
+    }
+  },
+  {
     "name": "402cron",
     "url": "https://402cron.com",
     "description": "Remote MCP server (streamable HTTP) for a paid cron service for agents: pricing and docs need no key, and thirteen more tools manage scheduled webhook tasks with the API token bought over x402.",
