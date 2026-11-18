@@ -8130,6 +8130,32 @@
     ]
   },
   {
+    "name": "LinkBunny Exchange",
+    "url": "https://getlinkbunny.com/mcp",
+    "description": "Hosted MCP for contextual nofollow link exchanges: your coding agent gets a matched link request from a participating site, proposes a placement for you to approve, and reports it; OAuth.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "LinkBunny",
+    "tags": [
+      "seo",
+      "link-building",
+      "backlinks",
+      "nofollow",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.getlinkbunny.com/exchange"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "AlertForge",
     "url": "https://alertforge.ai/docs/agents",
     "description": "Plan, create, and export stream overlays, AI alerts, and transparent videos through a hosted service requiring an active paid subscription and generation credits.",

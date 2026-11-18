@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-889-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-890-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (88)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (35)
-- [Communication and Productivity](#communication-and-productivity) (118)
+- [Communication and Productivity](#communication-and-productivity) (119)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (99)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -754,6 +754,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `customer-support` `receptionist` `crm` `remote` `oauth`
 - **[KanbanMCP](https://kanbanmcp.com/docs/connect)** `Official` `Other` — Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes.  
   `kanban` `project-management` `multi-agent` `remote`
+- **[LinkBunny Exchange](https://getlinkbunny.com/mcp)** `Official` `TypeScript` — Hosted MCP for contextual nofollow link exchanges: your coding agent gets a matched link request from a participating site, proposes a placement for you to approve, and reports it; OAuth.  
+  `seo` `link-building` `backlinks` `nofollow` `remote`
 - **[Linkedcamp](https://docs.linkedcamp.com/mcp/overview)** `Official` `Other` — Hosted MCP server for Linkedcamp LinkedIn and email outreach: campaigns, unified inbox, leads and analytics in 133 tools across 15 groups; OAuth 2.1 or API key, paid plans from $79/mo with a 14-day free trial. ([source](https://github.com/LinkedCamp/linkedcamp-mcp))  
   `linkedin` `outreach` `lead-generation` `email` `remote`
 - **[LinkedNav](https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing)** `Official` `JavaScript` — Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.  
