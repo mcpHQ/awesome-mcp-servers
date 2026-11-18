@@ -9175,6 +9175,27 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "GoCommerce",
+    "url": "https://github.com/misiki-in/gocommerce",
+    "description": "MCP tools inside a self-hosted Go commerce engine for products, inventory, orders, fulfillment, discounts, refunds, customers and sales reports, with an audit trail of every agent call.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Go",
+    "provider": "Misiki",
+    "tags": [
+      "ecommerce",
+      "orders",
+      "inventory",
+      "self-hosted"
+    ],
+    "official": true,
+    "repository": "https://github.com/misiki-in/gocommerce",
+    "license": "MIT",
+    "pricing": "free",
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
