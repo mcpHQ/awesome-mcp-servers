@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 871 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1150,6 +1150,21 @@ AI personas test a web app in a real browser and return findings and fix prompts
 - Auth: api-key, oauth
 - Install: npx github:YaakovTzedek/persqo-mcp
 - Streamable HTTP endpoint: https://persqo.com/api/mcp
+
+### pluginscope
+
+Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins.
+
+- URL: https://github.com/SalyyS1/pluginscope
+- Language: Kotlin
+- Provider: Community
+- Official: no
+- Tags: minecraft, static-analysis, bytecode, kotlin, code-intelligence
+- Category: Developer Tools and Code Intelligence
+- License: Apache-2.0
+- Pricing: free
+- Transport: stdio
+- Auth: none
 
 ### POSH
 

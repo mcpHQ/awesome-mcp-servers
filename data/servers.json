@@ -9537,6 +9537,31 @@
     ]
   },
   {
+    "name": "pluginscope",
+    "url": "https://github.com/SalyyS1/pluginscope",
+    "description": "Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Kotlin",
+    "provider": "Community",
+    "tags": [
+      "minecraft",
+      "static-analysis",
+      "bytecode",
+      "kotlin",
+      "code-intelligence"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/pluginscope",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Metabase MCP Server",
     "url": "https://www.metabase.com/docs/latest/ai/mcp",
     "description": "Query dashboards and explore data in Metabase BI.",
