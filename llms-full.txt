@@ -2467,6 +2467,7 @@ Structured JSON from YouTube, Airbnb, TikTok, Instagram, Facebook, LinkedIn, Zil
 - Official: yes
 - Tags: web-scraping, data-extraction, hosted, oauth
 - Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/TaplineData/tapline-mcp
 - License: proprietary
 - Pricing: freemium
 - Transport: streamable-http

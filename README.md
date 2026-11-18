@@ -465,7 +465,7 @@ Browse the web, scrape content, search, and automate browser interactions.
   `captcha` `recaptcha` `browser-automation` `remote`
 - **[SpecStream](https://specstream.ai/docs/mcp)** `Official` `Python` — Hosted MCP server that returns structured records from the live web for requests in plain words, with the price shown before each run and billing per delivered row. ([source](https://github.com/specstream/specstream-tools))  
   `web-data` `structured-data` `enrichment` `remote`
-- **[Tapline](https://tapline.sh/docs/mcp)** `Official` `Other` — Structured JSON from YouTube, Airbnb, TikTok, Instagram, Facebook, LinkedIn, Zillow and Google Maps.  
+- **[Tapline](https://tapline.sh/docs/mcp)** `Official` `Other` — Structured JSON from YouTube, Airbnb, TikTok, Instagram, Facebook, LinkedIn, Zillow and Google Maps. ([source](https://github.com/TaplineData/tapline-mcp))  
   `web-scraping` `data-extraction` `hosted` `oauth`
 - **[Tavily MCP Server](https://github.com/tavily-ai/tavily-mcp)** `Official` `Python` — AI-native search and content extraction for research agents.  
   `search` `research` `agents`
