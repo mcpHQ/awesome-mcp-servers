@@ -11885,6 +11885,32 @@
     ]
   },
   {
+    "name": "AppStruct Social MCP",
+    "url": "https://blog.appstruct.ai/blog/social-media-mcp-server?utm_source=mcphq&utm_medium=referral&utm_campaign=social_mcp_launch_20261114&utm_content=directory_visit",
+    "description": "Hosted MCP for reading AppStruct Social channels, posts and available analytics, and creating or updating unscheduled drafts; requires a workspace Bearer key and cannot schedule or publish posts.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "AppStruct",
+    "tags": [
+      "social-media",
+      "drafts",
+      "marketing",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.appstruct.ai/v1/social/mcp"
+    },
+    "license": "proprietary",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Shipvela",
     "url": "https://shipvela.com/integrations/codex",
     "description": "Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.",
