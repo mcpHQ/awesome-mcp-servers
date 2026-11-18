@@ -9197,6 +9197,29 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "QuelLLM MCP",
+    "url": "https://quelllm.fr/",
+    "description": "Helps MCP clients explore language models and estimate memory and API or self-hosting costs; estimates are indicative.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "QuelLLM",
+    "tags": [
+      "llm",
+      "models",
+      "hardware"
+    ],
+    "official": true,
+    "repository": "https://github.com/MGM-FALCON/quelllm-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
