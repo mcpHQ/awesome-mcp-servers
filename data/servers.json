@@ -12167,6 +12167,31 @@
     "official": true
   },
   {
+    "name": "EggAPI",
+    "url": "https://eggapi.ai/docs/mcp",
+    "description": "Remote MCP server for image and video generation with Seedream, Nano Banana, GPT Image, Seedance and Wan.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "EggAPI",
+    "tags": [
+      "generative-media",
+      "image-generation",
+      "video-generation",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://api.eggapi.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Spinnaker MCP Server",
     "url": "https://github.com/GeiserX/spinnaker-mcp",
     "description": "Read and operate a Spinnaker instance through its Gate API: 37 tools for applications, pipelines, executions, deployment strategies, and infrastructure, plus a read-only toolset.",
