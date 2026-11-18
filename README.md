@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-869-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-870-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (97)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (41)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (188)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (189)
 - [Utilities and Examples](#utilities-and-examples) (46)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1727,6 +1727,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `personal-finance` `banking` `budgeting` `oauth` `remote`
 - **[Square MCP Server](https://github.com/square/square-mcp-server)** `Official` `TypeScript` — Process Square payments and manage point-of-sale operations.  
   `payments` `pos` `commerce`
+- **[StalkChain Data](https://data.stalkchain.com/docs/guides/getting-started)** `Official` `TypeScript` — Research on-chain traders, wallet activity, token safety, and Hyperliquid positions from a hosted MCP server.  
+  `crypto` `on-chain` `wallets` `market-data` `hyperliquid`
 - **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** `Official` `TypeScript` — Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances.  
   `company-data` `business` `finance` `remote`
 - **[StrictScore](https://strictscore.com/developers)** `Official` `TypeScript` — Hosted MCP server and REST API for STRICT scores, AI-rated 0-100 crypto fundamentals for 970 assets on six pillars; needs an Enterprise plan API key (Bearer).  
