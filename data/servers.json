@@ -9329,6 +9329,33 @@
     ]
   },
   {
+    "name": "10ML Perfume Finder",
+    "url": "https://github.com/10ml-com/perfume-finder-mcp",
+    "description": "Free perfume knowledge for AI assistants: notes, accords and families for 6,000+ perfumes, similar scents and decant prices. Remote, read-only, no key.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "10ML",
+    "tags": [
+      "perfume",
+      "fragrance",
+      "reference-data",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.10ml.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "repository": "https://github.com/10ml-com/perfume-finder-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MCPJungle",
     "url": "https://github.com/duaraghav8/MCPJungle",
     "description": "Self-hosted MCP server registry for enterprise AI agent deployments.",

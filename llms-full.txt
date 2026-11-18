@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 869 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 870 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6429,6 +6429,22 @@ AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via Zerouter, an OpenA
 ## Data, Analytics, and BI
 
 Analytics platforms, monitoring, and business intelligence tooling.
+
+### 10ML Perfume Finder
+
+Free perfume knowledge for AI assistants: notes, accords and families for 6,000+ perfumes, similar scents and decant prices. Remote, read-only, no key.
+
+- URL: https://github.com/10ml-com/perfume-finder-mcp
+- Language: Other
+- Provider: 10ML
+- Official: yes
+- Tags: perfume, fragrance, reference-data, remote
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://mcp.10ml.com/mcp
 
 ### Adspy
 
