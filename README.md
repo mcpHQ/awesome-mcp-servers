@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-913-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-914-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
 - [Communication and Productivity](#communication-and-productivity) (122)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (101)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (108)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (109)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (197)
@@ -1130,6 +1130,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
 
 Analytics platforms, monitoring, and business intelligence tooling.
 
+- **[10ML Perfume Finder](https://github.com/10ml-com/perfume-finder-mcp)** `Official` `Other` — Free perfume knowledge for AI assistants: notes, accords and families for 6,000+ perfumes, similar scents and decant prices. Remote, read-only, no key.  
+  `perfume` `fragrance` `reference-data` `remote`
 - **[Adspy](https://www.adspy.sh)** `Official` `Other` — Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.  
   `ad-library` `meta-ads` `google-ads` `competitor-research` `remote`
 - **[AgenticWebScore](https://github.com/marifeting/agenticwebscore-mcp)** `Official` `TypeScript` — Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.  
