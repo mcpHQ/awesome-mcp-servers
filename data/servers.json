@@ -9175,6 +9175,35 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "Frank AI Researcher",
+    "url": "https://www.hifrank.ai/mcp",
+    "description": "Official remote MCP server for Frank AI Researcher: draft AI-moderated voice interview studies with your own customers, publish them after approval, and read the transcripts.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "hifrank",
+    "tags": [
+      "customer-research",
+      "interviews",
+      "voice",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/nar-vardanyan/frank-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.hifrank.ai/mcp"
+    },
+    "auth": [
+      "oauth"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
