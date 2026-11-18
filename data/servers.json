@@ -9343,6 +9343,33 @@
     "repository": "https://github.com/mailveri/mailveri-mcp"
   },
   {
+    "name": "Connecty",
+    "url": "https://connecty.nl/en/ai-assistant?utm_source=mcphq&utm_medium=directory",
+    "description": "Free public status pages for up to five HTTPS sites with a daily check: read any page without signing in, or list, add and remove your own sites after OAuth sign-in.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Connecty",
+    "tags": [
+      "status-page",
+      "uptime",
+      "monitoring",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://connecty.nl/mcp"
+    }
+  },
+  {
     "name": "ReadShore",
     "url": "https://readshore.app/connect-ai-assistants/",
     "description": "Search, read and save to your own ReadShore read-later library: summaries, analysis and original text with numbered passages for citation. Adds links only; cannot delete.",
