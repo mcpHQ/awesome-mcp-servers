@@ -2613,13 +2613,13 @@
   {
     "name": "DC Hub",
     "url": "https://github.com/azmartone67/dchub-mcp-server",
-    "description": "Hosted MCP server and live data layer for data-center site selection: mapped power, grid, gas and fiber assets, daily DCPI scores for 300+ markets and live grid feeds from the seven US ISOs; free tier needs no key.",
+    "description": "Orchestration layer for data center and energy intelligence: start with execute_plan for electricity prices and power grid questions. Publishes DCPI scores for 300+ markets and live feeds from seven US ISOs. 96 tools; API key optional.",
     "category": "data-analytics-and-bi",
     "language": "JavaScript",
     "provider": "DC Hub",
     "tags": [
       "data-centers",
-      "energy",
+      "electricity-prices",
       "power-grid",
       "site-selection",
       "remote"
@@ -6977,7 +6977,7 @@
   {
     "name": "AgentSearch",
     "url": "https://github.com/agentsearchhq-coder/agentsearch-mcp",
-    "description": "Web search, URL-to-Markdown, JS render, and search_and_read for agents. Free keyless search (25/day per IP) plus an extract/render trial; paid via direct x402 on Base ($0.008/$0.007/$0.010/$0.015). `npx -y @agentsearchhq/agentsearch-mcp`.",
+    "description": "Web search, news, URL-to-Markdown, JS render, screenshots, search_and_read. Free keyless search plus an extract/render trial; then direct x402 on Base from $0.002 (search $0.003). `npx -y @agentsearchhq/agentsearch-mcp`.",
     "category": "browsers-search-and-web-automation",
     "language": "TypeScript",
     "provider": "AgentSearch",
@@ -8926,6 +8926,29 @@
       "oauth",
       "api-key"
     ]
+  },
+  {
+    "name": "BeliefState",
+    "url": "https://beliefstate.ai/agent-quickstart.md",
+    "description": "Hosted MCP server for dated, source-linked investor theses, catalysts, risks and revisions, with free company coverage and paid research calls through x402.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "BeliefState LLC",
+    "tags": [
+      "finance",
+      "research",
+      "stocks",
+      "x402"
+    ],
+    "official": true,
+    "repository": "https://github.com/Antcolombo/beliefstate-agent-integrations",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://beliefstate.ai/v1/research/mcp"
+    }
   },
   {
     "name": "MCP Inspector",
@@ -11548,6 +11571,31 @@
     ],
     "official": false,
     "repository": "https://github.com/masondelan/selvedge"
+  },
+  {
+    "name": "LFG Atlas",
+    "url": "https://lfgatlas.pages.dev/developers/",
+    "description": "Find LFG groups for 110 games, official game news, live player counts and what's hot.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "LFG Atlas",
+    "tags": [
+      "gaming",
+      "lfg",
+      "news",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://lfgatlas-bot.jonsimm36.workers.dev/mcp"
+    }
   },
   {
     "name": "ShortSmash",
@@ -18416,5 +18464,732 @@
     "endpoints": {
       "streamableHttp": "https://api.leadli.me/api/v1/mcp"
     }
+  },
+  {
+    "name": "OneFindMe",
+    "url": "https://onefindme.com/mcp",
+    "description": "Remote read-only server for searching AliExpress in 21 languages, returning listings with local-currency prices, ratings, order counts and links, plus a budget-fitting basket builder.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "OneFindMe",
+    "tags": [
+      "aliexpress",
+      "shopping",
+      "ecommerce",
+      "multilingual",
+      "remote"
+    ],
+    "official": false,
+    "repository": "https://github.com/skazi1976/onefindme-plugin",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://onefindme.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Cassette Game Finder",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/gg.cassette%2Ffind/versions/latest",
+    "description": "Search browser games, read game details, find similar games and list genres on Cassette; read-only, no sign-in.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Rust",
+    "provider": "Cassette",
+    "tags": [
+      "games",
+      "search",
+      "browser-games"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://cassette.gg/mcp"
+    }
+  },
+  {
+    "name": "Louis Studios",
+    "url": "https://studios.lou15.com/agents?ref=mcp",
+    "description": "Hosted designer for coding agents that plans React pages and installs animated components fitted to a brand.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Louis Studios",
+    "tags": [
+      "design",
+      "react",
+      "ui",
+      "components",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://studios.lou15.com/mcp"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "serverdoctor",
+    "url": "https://github.com/SalyyS1/serverdoctor",
+    "description": "Offline diagnostic MCP server for Minecraft Paper, Folia, and Spigot server logs, JVM G1GC and ZGC flags, crash reports, region worlds, and cross-file configs across 111 rules.",
+    "category": "cloud-and-infrastructure",
+    "language": "Kotlin",
+    "provider": "Community",
+    "tags": [
+      "minecraft",
+      "diagnostics",
+      "logs",
+      "jvm",
+      "infrastructure"
+    ],
+    "official": false,
+    "repository": "https://github.com/SalyyS1/serverdoctor",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Inbox eSIM",
+    "url": "https://inboxesim.com/mcp-docs",
+    "description": "Find travel eSIM plans for about 200 places, compare brands' prices, check a phone for eSIM support and get a checkout link the traveller pays on.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Inbox eSIM",
+    "tags": [
+      "travel",
+      "esim",
+      "commerce",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://inboxesim.com/mcp/claude"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Pageree",
+    "url": "https://pageree.com",
+    "description": "Build landing pages as private previews and publish them once you approve, send form leads to email or a CRM webhook, hold back spam with submission rules, connect a custom domain, and read per-section visitor analytics.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Pageree",
+    "tags": [
+      "landing-pages",
+      "lead-capture",
+      "marketing",
+      "analytics",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/Pageree/mcp-server",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.pageree.com/"
+    },
+    "verified": "2026-11-15"
+  },
+  {
+    "name": "easyrender",
+    "url": "https://easyrender.ai/mcp",
+    "description": "Turn a product photo into a textured 3D model (GLB), with a free angle-sheet preview, then build with account credits.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "easyrender",
+    "tags": [
+      "image-to-3d",
+      "glb",
+      "ecommerce",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/easyrenderai/easyrender.ai",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "verified": "2026-11-15",
+    "endpoints": {
+      "streamableHttp": "https://easyrender.ai/api/mcp"
+    }
+  },
+  {
+    "name": "No Stairs Please",
+    "url": "https://nostairsplease.com/mcp",
+    "description": "Search 4,300+ under-400-capacity North American live music venues, room capacities, booking contacts, and tour routing via Streamable HTTP.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "No Stairs Please",
+    "tags": [
+      "live-music",
+      "venues",
+      "touring",
+      "directory",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nostairsplease.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "AnyScribe",
+    "url": "https://www.anyscribe.app/mcp",
+    "description": "Search and read your AnyScribe transcripts, summaries, translations and highlights from the iPhone and iPad transcription app, and send YouTube, TikTok or Instagram links to your iPhone to transcribe.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "AnyScribe",
+    "tags": [
+      "transcription",
+      "transcripts",
+      "youtube",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/KELiON/anyscribe-mcp",
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://mcp.anyscribe.app"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "CheaterBusting",
+    "url": "https://cheaterbusting.com/agents.md",
+    "description": "Checks Tinder, Bumble, Hinge and 9 more dating apps for a public profile matching a photo, name, age and city: plans, apps covered, how it works, and the start link. Read-only, no sign-in.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "MindCrafters LLC",
+    "tags": [
+      "dating",
+      "search",
+      "lifestyle",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/MindCraftersGroup/cheaterbusting-plugin",
+    "license": "MIT",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://cheaterbusting.com/mcp"
+    }
+  },
+  {
+    "name": "BeYourCover",
+    "url": "https://beyourcover.com/mcp",
+    "description": "Official hosted MCP server that designs AI book covers, Amazon KDP print wraps and audiobook covers, and lists and downloads an account's existing covers.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "BeYourCover",
+    "tags": [
+      "book-covers",
+      "image-generation",
+      "publishing",
+      "kdp",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://beyourcover.com/api/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Sprout",
+    "url": "https://sprout.mindcrafters.group/mcp",
+    "description": "Hosted OAuth MCP server with read-only cash flow, spending, recurring charges and transaction search over your connected US and Canadian bank and card accounts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "MindCrafters LLC",
+    "tags": [
+      "personal-finance",
+      "banking",
+      "budgeting",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api-sprout.mindcrafters.group/mcp"
+    },
+    "repository": "https://github.com/MindCraftersGroup/sprout-claude-plugin",
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "ShipFunnels",
+    "url": "https://shipfunnels.app/connect",
+    "description": "Hosted MCP server that lets AI agents build, publish and analyse sales funnels with checkout, upsells, CRM, email sequences and A/B tests.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "ShipFunnels",
+    "tags": [
+      "sales-funnels",
+      "marketing",
+      "ecommerce",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://shipfunnels.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "HarborRank",
+    "url": "https://harborrank.com/docs/mcp",
+    "description": "Hosted SEO MCP server with OAuth: keyword research, live Google SERPs and Maps rank grids, competitor and backlink data, rank tracking, site audits, AI visibility, and read-only Search Console and Google Analytics.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "HarborRank",
+    "tags": [
+      "seo",
+      "keyword-research",
+      "rank-tracking",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.harborrank.com/mcp"
+    },
+    "repository": "https://github.com/winsley-jeune/harborrank-skills",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "ClickHouse Loom",
+    "url": "https://github.com/ClickHouse/loom",
+    "repository": "https://github.com/ClickHouse/loom",
+    "description": "Self-hosted MCP server that gives AI agents shared long-term memory, document search with citations and a code index (definitions, callers, change impact), stored in ClickHouse.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "ClickHouse",
+    "tags": [
+      "memory",
+      "rag",
+      "code-search",
+      "self-hosted",
+      "clickhouse"
+    ],
+    "official": true,
+    "license": "Apache-2.0",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
+    "name": "QuoteBuild",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fquotebuild/versions/latest",
+    "description": "UK building calculators, estimate comparisons and account-scoped quoting and job costs.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Strawberry Works Limited",
+    "tags": [
+      "construction",
+      "estimating",
+      "quoting"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.quotebuild.co.uk/mcp"
+    }
+  },
+  {
+    "name": "SCENE",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fscene/versions/latest",
+    "description": "Campaign briefs, creative recipes and private drafts in an authorized SCENE studio.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Strawberry Works Limited",
+    "tags": [
+      "marketing",
+      "campaigns",
+      "drafts"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://app.scenehq.co.uk/mcp"
+    }
+  },
+  {
+    "name": "FairValid",
+    "url": "https://fairvalid.com/en/help/mcp",
+    "description": "Verify email addresses, read verification jobs and find verified work emails with FairMatch through the official hosted MCP connector.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "FairValid",
+    "tags": [
+      "email-verification",
+      "sales",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/moonlitnayeem/fairvalid-ai",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.fairvalid.com/mcp"
+    }
+  },
+  {
+    "name": "Pay2GPT",
+    "url": "https://pay2gpt.com/en/llms.txt",
+    "description": "Official remote MCP server for Pay2GPT: list ChatGPT Go/Plus/Pro top-up plans and Codex credits with current prices and checkout links, and read how-to guides as Markdown (en, zh-CN, ru); business tools need an API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Ruby",
+    "provider": "Pay2GPT",
+    "tags": [
+      "chatgpt",
+      "pricing",
+      "guides",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://pay2gpt.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
+    "name": "NextReset MCP",
+    "url": "https://github.com/Ibunao/codex-reset-data",
+    "repository": "https://github.com/Ibunao/codex-reset-data",
+    "description": "Read-only local stdio MCP server for Codex reset status, event history and source evidence, using the public NextReset API with no key.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "NextReset",
+    "tags": [
+      "codex",
+      "reset-status",
+      "read-only",
+      "local"
+    ],
+    "official": false,
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Mamba Labs GTM Suite MCP Server",
+    "url": "https://github.com/mambalabsdev/mcp-gtm-suite",
+    "repository": "https://github.com/mambalabsdev/mcp-gtm-suite",
+    "description": "21 account intelligence tools for sales research: company identity, firmographics, hiring, tech stack, funding signals and ICP scoring, with Clay-ready JSON output.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Mamba Labs",
+    "tags": [
+      "sales-research",
+      "lead-enrichment",
+      "firmographics",
+      "apify",
+      "local"
+    ],
+    "official": true,
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@mambalabsdev/mcp-gtm-suite"
+    }
+  },
+  {
+    "name": "CryptoExchangeIn",
+    "url": "https://cryptoexchangein.com/about",
+    "description": "Crypto exchange legality by country, true fee and spread calculator, and cold wallet comparisons, through a keyless remote MCP server.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "CryptoExchangeIn",
+    "tags": [
+      "crypto",
+      "exchanges",
+      "fees",
+      "wallets",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://cryptoexchangein.com/mcp"
+    }
+  },
+  {
+    "name": "RoboWrite",
+    "url": "https://www.robowrite.ai/guides/robowrite-mcp",
+    "repository": "https://github.com/RoboAdApp/robowrite-plugin",
+    "description": "Plan brand-aware content, review briefs and recover saved Markdown drafts from RoboWrite through a hosted MCP server with OAuth sign-in.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "M Powered Ventures",
+    "tags": [
+      "content-planning",
+      "marketing",
+      "drafts",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.robowrite.ai/mcp"
+    }
+  },
+  {
+    "name": "Valmera MCP Server",
+    "url": "https://valmera.io/mcp",
+    "repository": "https://github.com/ABO3SKRALMASAOODI/valmera-mcp",
+    "description": "Edit existing video footage through an OAuth-authenticated MCP connection, review cuts and captions, request revisions, and export a finished MP4.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Valmera",
+    "tags": [
+      "video-editing",
+      "captions",
+      "media",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://valmera.io/mcp/server"
+    }
+  },
+  {
+    "name": "ThriveDesk MCP",
+    "url": "https://www.thrivedesk.com/mcp/",
+    "repository": "https://github.com/thrivedesk/thrivedesk-mcp",
+    "description": "Search, reply, tag, assign and report on ThriveDesk help desk conversations from your AI assistant.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "ThriveDesk",
+    "tags": [
+      "help-desk",
+      "customer-support",
+      "conversations",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.thrivedesk.com"
+    }
+  },
+  {
+    "name": "Appy Smart Links",
+    "url": "https://appy.to/docs/mcp",
+    "description": "Create and edit device-aware smart links and inspect click analytics from MCP clients; install attribution requires an Enterprise plan.",
+    "category": "utilities-and-examples",
+    "language": "Go",
+    "provider": "Appy",
+    "tags": [
+      "smart-links",
+      "deep-linking",
+      "click-analytics",
+      "app-attribution",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.appy.to"
+    }
+  },
+  {
+    "name": "Fourth Feed",
+    "url": "https://fourthfeed.com/about",
+    "repository": "https://github.com/fourthfeed/fourthfeed-mcp",
+    "description": "Search AI video tools for prices, free credits, traffic and agent-readiness through a keyless remote MCP server.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Fourth Feed",
+    "tags": [
+      "ai-video",
+      "pricing",
+      "comparison",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://fourthfeed.com/mcp"
+    }
+  },
+  {
+    "name": "Amendment",
+    "url": "https://amendment.app/data",
+    "description": "Current, cited U.S. law your agent can call: federal and state bills, the U.S. Code, C.F.R. and Constitution, politicians, and lobbying joined to SEC companies.",
+    "category": "legal-and-court-data",
+    "language": "Other",
+    "provider": "The Governance Company",
+    "tags": [
+      "legal",
+      "legislation",
+      "government",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.amendment.app/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]
