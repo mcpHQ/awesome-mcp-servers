@@ -10390,6 +10390,33 @@
     ]
   },
   {
+    "name": "Perq",
+    "url": "https://perq.sh",
+    "description": "Remote MCP server and agent skill for looking up verified free AI credits, startup programs and perks, each with a source link and last-verified date.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Avatar 8 LLC",
+    "tags": [
+      "credits",
+      "startup-perks",
+      "free-tier",
+      "directory"
+    ],
+    "official": true,
+    "repository": "https://github.com/f-o-x11/perq-skill",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://perq.sh/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "PandaStock",
     "url": "https://github.com/D-Asce/pandastocksdk",
     "description": "A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.",
