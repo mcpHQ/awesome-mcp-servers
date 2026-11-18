@@ -1248,7 +1248,6 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `news` `ai-industry` `events` `remote`
 - **[Screpy SEO MCP](https://screpy.com/feature/seo-mcp/)** `Official` `Other` — Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.  
   `seo` `analytics` `ai-visibility` `remote` `oauth`
-- **[SEO Rank Fixer](https://seorankfixer.com/connectors)** `Official` `Other` — Hosted MCP server for your Google Search Console and Bing data: SEO fixes ranked by the clicks they can win, site audits, index status, page scans and AI search visibility. Streamable HTTP at `https://seorankfixer.com/api/mcp` with OAuth 2.1. ([source](https://github.com/sharikwani/seo-rank-fixer-plugin))  \n  `seo` `search-console` `bing` `site-audit` `remote`
 - **[SEOclar](https://seoclar.com/mcp-tools)** `Official` `TypeScript` — Provides keyword research, live SERPs, backlink analysis, site audits, and AI visibility data through a remote MCP server.  
   `seo` `keyword-research` `serp` `backlinks` `site-audit`
 - **[Seonix](https://seonix.ai/mcp)** `Official` `Other` — Hosted read-only MCP server for a Seonix SEO project: Search Console and GA4 rankings and clicks, site audit issues, keyword clusters, articles, and brand mentions in ChatGPT, Gemini, Claude and Perplexity answers.  
