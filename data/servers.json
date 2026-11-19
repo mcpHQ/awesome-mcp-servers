@@ -20468,5 +20468,30 @@
     "endpoints": {
       "streamableHttp": "https://app.verand.ai/mcp"
     }
+  },
+  {
+    "name": "FloorGen",
+    "url": "https://floorgen.app/docs/mcp",
+    "description": "Draw, edit, check and render 2D/3D floor plans from Claude, ChatGPT or Cursor: walls, rooms, doors, windows, furniture and stairs, with building-code checks and PDF, DXF and glTF export.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "FloorGen",
+    "tags": [
+      "floor-plans",
+      "architecture",
+      "cad",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://floorgen.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   }
 ]

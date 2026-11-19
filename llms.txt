@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 918 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 919 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -934,6 +934,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Everything2MCP](https://github.com/shcdwz1234/Everything2MCP): Turn local capabilities, private-net services, OpenAPI/gRPC/MQTT/queues, and Feishu/DingTalk/WeCom into one MCP surface with hot-reload and Safe defaults. (TypeScript)
 - [FastMCP](https://github.com/jlowin/fastmcp): Python framework for building MCP servers quickly with decorators. (Python)
 - [FaviconDL](https://github.com/sweesama/favicondl.com): Extract and download website favicons via MCP; wraps the free no-key FaviconDL API. (JavaScript)
+- [FloorGen](https://floorgen.app/docs/mcp): Draw, edit, check and render 2D/3D floor plans from Claude, ChatGPT or Cursor: walls, rooms, doors, windows, furniture and stairs, with building-code checks and PDF, DXF and glTF export. (TypeScript, official)
 - [fotosize](https://fotosize.com/docs/mcp): Read-only lookup of passport, visa and ID photo specs (photo size, head height, background color) checked against official sources. (TypeScript, official)
 - [genealogy-mcp](https://github.com/igormel81/genealogy-mcp): Family history research with 79 archives and databases, name variants, historical calendars, evidence checks, GEDCOM audit, and archive-request drafts. Runs locally without API keys or network requests. (Python)
 - [Google Maps MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps): Geocoding, directions, and place search via Google Maps. (Python)
