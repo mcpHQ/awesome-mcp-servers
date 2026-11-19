@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (93)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (89)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (38)
 - [Communication and Productivity](#communication-and-productivity) (122)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (109)
@@ -621,6 +621,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `hosting` `deployment` `domains` `https` `remote`
 - **[Duplicacy MCP Server](https://github.com/GeiserX/duplicacy-mcp)** `Go` — Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.  
   `duplicacy` `backup` `prometheus`
+- **[Embarko](https://embarko.ai)** `Official` `Other` — Deploy and host AI-built apps and websites, and get a live URL without any DevOps setup. ([source](https://github.com/walkover-mcp/embarko))  
+  `deployment` `hosting` `remote` `oauth`
 - **[Fly.io MCP Server](https://github.com/superfly/flymcp)** `Official` `TypeScript` — Manage Fly.io apps, machines, and deployments via MCP.  
   `fly` `deploy` `edge`
 - **[gpu.nz GPU Cloud](https://gpu.nz/en/docs/mcp)** `Official` `TypeScript` — Find live cloud GPU offers, estimate model VRAM needs, and launch, stop, or delete per-minute GPU servers on gpu.nz.  
