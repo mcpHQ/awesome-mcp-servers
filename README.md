@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
 - [Communication and Productivity](#communication-and-productivity) (122)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (109)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (110)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (199)
@@ -1346,6 +1346,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `marketing` `ai-visibility` `compliance` `remote`
 - **[Vergabeweiser](https://vergabeweiser.de/api#mcp)** `PHP` — Hosted read-only MCP server for German public tenders and contract awards, with buyers, winners and award sums from open procurement data.  
   `public-tenders` `procurement` `germany` `contract-awards` `remote`
+- **[Viewlify](https://viewlify.app/tiktok-data-api)** `Official` `TypeScript` — TikTok videos that beat their creator's usual views, plus the videos, hashtags and sounds rising by niche, from public TikTok data (read only). ([source](https://github.com/benjaminb10/viewlify-mcp))  
+  `tiktok` `social-media` `analytics` `trends` `remote`
 - **[World Monitor](https://github.com/koala73/worldmonitor)** `Official` `TypeScript` — Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server.  
   `geopolitics` `news` `markets` `osint` `remote`
 - **[zaDojo](https://zadojo.com/docs/mcp)** `Official` `TypeScript` — Free Google Search Console, Google Analytics and site audits, plus pay-as-you-go SERP, keyword research, rank tracking and AI visibility tracking for ChatGPT, Gemini, Perplexity and Google AI Overviews. ([source](https://github.com/zaDojo/seo-geo-mcp))  

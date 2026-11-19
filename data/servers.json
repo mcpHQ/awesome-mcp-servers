@@ -9747,6 +9747,35 @@
     "repository": "https://github.com/tareq7/muslim-prayer-mcp"
   },
   {
+    "name": "Viewlify",
+    "url": "https://viewlify.app/tiktok-data-api",
+    "description": "TikTok videos that beat their creator's usual views, plus the videos, hashtags and sounds rising by niche, from public TikTok data (read only).",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Viewlify",
+    "tags": [
+      "tiktok",
+      "social-media",
+      "analytics",
+      "trends",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/benjaminb10/viewlify-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://viewlify.app/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "Mysocial",
     "url": "https://github.com/mysocialio/mysocial-intelligence",
     "description": "Official hosted OAuth MCP for social media intelligence: connected content history, performance signals, and creator memory over Streamable HTTP.",
