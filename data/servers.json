@@ -9513,6 +9513,31 @@
     ]
   },
   {
+    "name": "Embarko",
+    "url": "https://embarko.ai",
+    "description": "Deploy and host AI-built apps and websites, and get a live URL without any DevOps setup.",
+    "category": "cloud-and-infrastructure",
+    "language": "Other",
+    "provider": "Walkover",
+    "tags": [
+      "deployment",
+      "hosting",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/walkover-mcp/embarko",
+    "endpoints": {
+      "streamableHttp": "https://mcp.embarko.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://docs.mem0.ai/platform/mem0-mcp",
     "description": "Hosted persistent memory layer for personalized agent interactions.",
