@@ -9513,6 +9513,33 @@
     ]
   },
   {
+    "name": "DocStar",
+    "url": "https://docstar.io",
+    "description": "Turns your product's API into published docs that your users' AI assistants can read and call.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Walkover",
+    "tags": [
+      "api-docs",
+      "documentation",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/swayammaheshwari/docstar-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://mcp.docstar.io/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "oauth"
+    ]
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://docs.mem0.ai/platform/mem0-mcp",
     "description": "Hosted persistent memory layer for personalized agent interactions.",
