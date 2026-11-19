@@ -10417,6 +10417,34 @@
     ]
   },
   {
+    "name": "Learn AI with Yaakov Tzedek",
+    "url": "https://tzedek.me/en/mcp",
+    "description": "Search and read practical AI guides, AI courses, learning paths and AI news from tzedek.me in English and Hebrew; free, read-only, no auth.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "Yaakov Tzedek",
+    "tags": [
+      "learn-ai",
+      "courses",
+      "guides",
+      "news",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://tzedek.me/mcp"
+    },
+    "repository": "https://github.com/YaakovTzedek/tzedek-ai-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "PandaStock",
     "url": "https://github.com/D-Asce/pandastocksdk",
     "description": "A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.",

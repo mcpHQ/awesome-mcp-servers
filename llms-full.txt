@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3009,6 +3009,23 @@ Search and read documents and files, and create and edit documents, in the local
 - Official: yes
 - Tags: notes, documents, local-first, local
 - Category: Filesystems and Documents
+
+### Learn AI with Yaakov Tzedek
+
+Search and read practical AI guides, AI courses, learning paths and AI news from tzedek.me in English and Hebrew; free, read-only, no auth.
+
+- URL: https://tzedek.me/en/mcp
+- Language: JavaScript
+- Provider: Yaakov Tzedek
+- Official: yes
+- Tags: learn-ai, courses, guides, news, remote
+- Category: Filesystems and Documents
+- Repository: https://github.com/YaakovTzedek/tzedek-ai-mcp
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://tzedek.me/mcp
 
 ### MarkItDown MCP
 
