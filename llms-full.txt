@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9622,6 +9622,23 @@ The AI-native creator marketplace for gaming: game studios, apps and brands pay 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://mcp.clippertask.com/mcp
+
+### Contha
+
+Personal and small-business books: ask Claude what you can spend, what you owe in US tax (Schedule C) and where money went. 22 read tools, 6 write tools; it cannot move money.
+
+- URL: https://contha.com/ai?ref=mcphq
+- Language: Other
+- Provider: OWSH Unlimited LLC
+- Official: yes
+- Tags: finance, bookkeeping, budgeting, tax, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/noahowsh/contha-claude
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://app.contha.com/api/mcp
 
 ### CorpusIQ
 

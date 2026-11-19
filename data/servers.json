@@ -9669,6 +9669,34 @@
     "repository": "https://github.com/motherduckdb/mcp-server-motherduck"
   },
   {
+    "name": "Contha",
+    "url": "https://contha.com/ai?ref=mcphq",
+    "description": "Personal and small-business books: ask Claude what you can spend, what you owe in US tax (Schedule C) and where money went. 22 read tools, 6 write tools; it cannot move money.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "OWSH Unlimited LLC",
+    "tags": [
+      "finance",
+      "bookkeeping",
+      "budgeting",
+      "tax",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/contha-claude",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://app.contha.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "MuAPI MCP Server",
     "url": "https://muapi.ai/docs/mcp",
     "description": "Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.",
