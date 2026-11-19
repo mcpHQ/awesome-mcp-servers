@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (89)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
-- [Communication and Productivity](#communication-and-productivity) (122)
+- [Communication and Productivity](#communication-and-productivity) (123)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (109)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -859,6 +859,8 @@ Integrate chat, email, calendars, and team collaboration tools.
 - **[Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** `Python` — Send messages and interact with Slack channels and workspaces. ([source](https://github.com/modelcontextprotocol/servers-archived))  
   `slack` `chat` `team`
 - **[Social Post Flow](https://www.socialpostflow.com/documentation/mcp/)** `Official` `PHP` — Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Threads, Pinterest, TikTok, Bluesky, Mastodon and more.  
+  `social-media` `scheduling` `marketing` `remote`
+- **[Spica Post](https://spicapost.com/reference/)** `Official` `Other` — Social media scheduler for small businesses and creators: your AI assistant drafts a post per network, checks it against each network's rules, and schedules or publishes it once you approve. ([source](https://github.com/unbowedgod/spica-post-mcp))  
   `social-media` `scheduling` `marketing` `remote`
 - **[Spillmark](https://github.com/burmanharry/spillmark-mcp)** `Official` `TypeScript` — Remote MCP for free Amazon and Meta ads calculators; optional read-only brand lift and test plans.  
   `amazon` `meta-ads` `roas` `holdout` `remote`

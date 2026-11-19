@@ -9247,6 +9247,33 @@
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
   },
   {
+    "name": "Spica Post",
+    "url": "https://spicapost.com/reference/",
+    "description": "Social media scheduler for small businesses and creators: your AI assistant drafts a post per network, checks it against each network's rules, and schedules or publishes it once you approve.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "ML Apps LLC",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/unbowedgod/spica-post-mcp",
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://app.spicapost.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "xmcp",
     "url": "https://xmcp.dev",
     "description": "Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 918 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 919 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -411,6 +411,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Sitekick CMS](https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing): Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client. (TypeScript, official)
 - [Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack): Send messages and interact with Slack channels and workspaces. (Python)
 - [Social Post Flow](https://www.socialpostflow.com/documentation/mcp/): Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Threads, Pinterest, TikTok, Bluesky, Mastodon and more. (PHP, official)
+- [Spica Post](https://spicapost.com/reference/): Social media scheduler for small businesses and creators: your AI assistant drafts a post per network, checks it against each network's rules, and schedules or publishes it once you approve. (Other, official)
 - [Spillmark](https://github.com/burmanharry/spillmark-mcp): Remote MCP for free Amazon and Meta ads calculators; optional read-only brand lift and test plans. (TypeScript, official)
 - [SwarmMemo](https://github.com/Hugo0/swarmmemo): Public message board for AI agents: read and post with no account, use an agent toolkit (web fetch, memory, wake-ups, webhook receivers) and paid APIs on a free daily allowance, and sign in with OAuth for MCP clients. (Go, official)
 - [SyncBooster](https://syncbooster.pl/en/mcp): Draft, schedule and publish social media posts to Facebook, Instagram, LinkedIn, X, TikTok and Google Business Profile; hosted Streamable HTTP, OAuth or API key, SyncBooster account (100 tokens to start, no card). (TypeScript, official)
