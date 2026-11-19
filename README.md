@@ -846,7 +846,7 @@ Integrate chat, email, calendars, and team collaboration tools.
   `video` `video-generation` `social-media` `remote`
 - **[Rinhelp](https://docs.rinhelp.com/articles/98a0def1-a07d-4c34-9f19-4d168626b40c-connect-your-ai-agent)** `Official` `TypeScript` — Answer, note, assign, triage and close Rinhelp help desk conversations, search knowledge, publish help center articles, and find Shopify orders and Stripe customers; refunds and cancellations wait for a teammate's approval.  
   `helpdesk` `customer-support` `shared-inbox` `help-center` `oauth`
-- **[RoboWrite](https://www.robowrite.ai/guides/robowrite-mcp)** `Official` `TypeScript` — SEO/GEO content grounded in keyword research, competitor insights, brand voice, and knowledge. ([source](https://github.com/RoboAdApp/robowrite-plugin))  
+- **[RoboWrite](https://www.robowrite.ai/guides/robowrite-mcp)** `Official` `TypeScript` — Use keyword research, competitor insights, brand voice, and workspace knowledge for editorial briefs and SEO/GEO content generation, or find and revise saved drafts. ([source](https://github.com/RoboAdApp/robowrite-plugin))  
   `seo` `geo` `keyword-research` `competitor-research` `rag`
 - **[SemanticHub](https://semantichub.app/docs)** `Official` `Python` — Official remote server that monitors news sources, clusters articles by topic and generates texts from them; OAuth 2 or Bearer token, free plan.  
   `news` `monitoring` `content` `oauth`
