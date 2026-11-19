@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (89)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
-- [Communication and Productivity](#communication-and-productivity) (122)
+- [Communication and Productivity](#communication-and-productivity) (123)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (109)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -764,6 +764,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `customer-support` `receptionist` `crm` `remote` `oauth`
 - **[KanbanMCP](https://kanbanmcp.com/docs/connect)** `Official` `Other` — Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes.  
   `kanban` `project-management` `multi-agent` `remote`
+- **[lemlist](https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key)** `Official` `TypeScript` — Official hosted lemlist server: run multichannel outreach campaigns, build email and LinkedIn sequences, add and search leads, read campaign stats and check sending-domain deliverability; OAuth or API key. ([source](https://github.com/l3mpire/lemlist-plugin))  
+  `sales` `outreach` `cold-email` `linkedin` `remote`
 - **[LinkBunny Exchange](https://getlinkbunny.com/mcp)** `Official` `TypeScript` — Hosted MCP for contextual nofollow link exchanges: your coding agent gets a matched link request from a participating site, proposes a placement for you to approve, and reports it; OAuth.  
   `seo` `link-building` `backlinks` `nofollow` `remote`
 - **[Linkedcamp](https://docs.linkedcamp.com/mcp/overview)** `Official` `Other` — Hosted MCP server for Linkedcamp LinkedIn and email outreach: campaigns, unified inbox, leads and analytics in 133 tools across 15 groups; OAuth 2.1 or API key, paid plans from $79/mo with a 14-day free trial. ([source](https://github.com/LinkedCamp/linkedcamp-mcp))  
