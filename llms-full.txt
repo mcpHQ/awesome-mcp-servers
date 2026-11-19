@@ -4928,7 +4928,7 @@ Answer, note, assign, triage and close Rinhelp help desk conversations, search k
 
 ### RoboWrite
 
-SEO/GEO content grounded in keyword research, competitor insights, brand voice, and knowledge.
+Create SEO and GEO content briefs and drafts using keyword research, competitor research, brand voice, and relevant context from your workspace knowledge base.
 
 - URL: https://www.robowrite.ai/guides/robowrite-mcp
 - Language: TypeScript
