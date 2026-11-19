@@ -8176,7 +8176,8 @@
       "streamable-http"
     ],
     "auth": [
-      "api-key"
+      "none",
+      "oauth"
     ]
   },
   {

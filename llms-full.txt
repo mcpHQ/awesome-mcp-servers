@@ -2856,7 +2856,7 @@ Publish HTML pages, Markdown, static sites, files, JSON and key-value data to fr
 - Tags: hosting, html, markdown, file-sharing, remote
 - Category: Filesystems and Documents
 - Transport: streamable-http
-- Auth: api-key
+- Auth: none, oauth
 - Streamable HTTP endpoint: https://brewpage.app/mcp
 
 ### Bridgerator
