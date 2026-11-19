@@ -9515,10 +9515,10 @@
   {
     "name": "Common Room Booking Platform",
     "url": "https://www.common-room.hk/mcp",
-    "description": "Hosted, read-only MCP server for finding verified Hong Kong venues - hourly hotels, party rooms, event venues, private dining rooms and boats - with prices and hourly hotel availability.",
+    "description": "Official read-only MCP server of common-room.hk, a Hong Kong venue booking site, for finding hourly hotels, party rooms, event venues, private dining rooms and boats with prices and hotel availability.",
     "category": "finance-commerce-and-business-apps",
     "language": "JavaScript",
-    "provider": "Common Room",
+    "provider": "MT Technology Group Limited (common-room.hk)",
     "tags": [
       "hong-kong",
       "venues",
