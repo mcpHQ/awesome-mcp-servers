@@ -5986,7 +5986,7 @@ Shared team project for coding agents: read and claim board tasks, post handoffs
 - Auth: oauth
 - Streamable HTTP endpoint: https://joxo.ai/api/mcp
 
-### Kling AI China Plugin
+### Kling AI China MCP Plugin
 
 Official China-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.
 
@@ -6000,7 +6000,7 @@ Official China-region image/video generation, reference workflows and task track
 - Auth: oauth
 - Streamable HTTP endpoint: https://klingai.com/mcp/plugin
 
-### Kling AI Global Plugin
+### Kling AI Global MCP Plugin
 
 Official Global-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.
 
