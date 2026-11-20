@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10828,6 +10828,22 @@ Visa and entry requirements for 49,750 passport-destination pairs (199 passports
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://visa.orizn.app/mcp
+
+### OsmO Travel eSIM
+
+OsmO's hosted MCP server compares travel eSIM data plans for a trip (including multi-country), checks phone eSIM support, estimates trip data, compares a carrier's roaming pass, and gives setup help, with no sign-in.
+
+- URL: https://esim.getosmo.app
+- Language: Other
+- Provider: OsmO AI
+- Official: yes
+- Tags: travel, esim, roaming, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/Mountainheads-Private-limited/osmo-travel-esim
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://esim.getosmo.app/mcp
 
 ### OttoQuest
 

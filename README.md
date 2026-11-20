@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (109)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (199)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (200)
 - [Utilities and Examples](#utilities-and-examples) (48)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1731,6 +1731,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `e-commerce` `crypto` `usdc` `digital-products` `prompts`
 - **[Orizn Visa](https://github.com/MattJeff/orizn-mcp-server)** `Official` `TypeScript` — Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs.  
   `visa` `travel` `immigration` `remote`
+- **[OsmO Travel eSIM](https://esim.getosmo.app)** `Official` `Other` — OsmO's hosted MCP server compares travel eSIM data plans for a trip (including multi-country), checks phone eSIM support, estimates trip data, compares a carrier's roaming pass, and gives setup help, with no sign-in. ([source](https://github.com/Mountainheads-Private-limited/osmo-travel-esim))  
+  `travel` `esim` `roaming` `remote`
 - **[OttoQuest](https://ottoquest.com/mcp)** `Official` `TypeScript` — Search US dealer listings with estimated market values, look up VINs and recalls, browse dealer inventory, and manage deal alerts with an OttoQuest account.  
   `automotive` `car-search` `valuations` `oauth` `remote`
 - **[OutreachGenie](https://github.com/Outreachgenie/outreachgenie-linkedin-mcp)** `Official` `TypeScript` — Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.  

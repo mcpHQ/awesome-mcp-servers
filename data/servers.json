@@ -9639,6 +9639,32 @@
     ]
   },
   {
+    "name": "OsmO Travel eSIM",
+    "url": "https://esim.getosmo.app",
+    "description": "OsmO's hosted MCP server compares travel eSIM data plans for a trip (including multi-country), checks phone eSIM support, estimates trip data, compares a carrier's roaming pass, and gives setup help, with no sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "OsmO AI",
+    "tags": [
+      "travel",
+      "esim",
+      "roaming",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://esim.getosmo.app/mcp"
+    },
+    "repository": "https://github.com/Mountainheads-Private-limited/osmo-travel-esim",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MongoDB MCP Server",
     "url": "https://github.com/mongodb-js/mongodb-mcp-server",
     "description": "Query and manage MongoDB databases and collections from AI clients.",
