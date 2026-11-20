@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (199)
-- [Utilities and Examples](#utilities-and-examples) (48)
+- [Utilities and Examples](#utilities-and-examples) (49)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1916,6 +1916,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `photo-specs` `passport` `visa` `remote`
 - **[genealogy-mcp](https://github.com/igormel81/genealogy-mcp)** `Python` — Family history research with 79 archives and databases, name variants, historical calendars, evidence checks, GEDCOM audit, and archive-request drafts. Runs locally without API keys or network requests.  
   `genealogy` `family-history` `archives` `gedcom` `evidence`
+- **[GenesisCore Astrology](https://github.com/AETHER-CORE1219/genesis-astro-mcp)** `Other` — Remote MCP server for Western (tropical) and Vedic (sidereal, Lahiri) astrology calculations: signs, nakshatra, ascendant, retrogrades and ingresses.  
+  `astrology` `astronomy` `vedic` `calendar`
 - **[Google Maps MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** `Python` — Geocoding, directions, and place search via Google Maps. ([source](https://github.com/modelcontextprotocol/servers-archived))  
   `maps` `location` `geo`
 - **[Headshot Photo Check](https://www.profilfoto-ki.de/mcp/)** `Official` `TypeScript` — Checks the technical quality of a profile or job-application photo (resolution, crop, format; brightness, contrast, sharpness when pixels are analysed) and returns a score and prioritised tips. ([source](https://github.com/TRW123123/bewerbungsfoto-check-mcp))  
