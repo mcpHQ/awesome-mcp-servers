@@ -1929,6 +1929,34 @@
     ]
   },
   {
+    "name": "Christian Pure",
+    "url": "https://github.com/christianpure/connector",
+    "description": "Written prayers for a need, Bible verses by subject, and Christian articles on faith and church history from christianpure.com. Free hosted read-only server, no key.",
+    "category": "utilities-and-examples",
+    "language": "PHP",
+    "provider": "Christian Pure",
+    "tags": [
+      "bible",
+      "prayer",
+      "christianity",
+      "church-history",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/christianpure/connector",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://christianpure.com/wp-json/christianpure-connector/v1/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-20"
+  },
+  {
     "name": "Chroma MCP Server",
     "url": "https://github.com/chroma-core/chroma-mcp",
     "description": "Vector search and embedding storage with Chroma collections.",

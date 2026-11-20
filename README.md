@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (199)
-- [Utilities and Examples](#utilities-and-examples) (48)
+- [Utilities and Examples](#utilities-and-examples) (49)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1900,6 +1900,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `smart-links` `deep-linking` `click-analytics` `app-attribution` `remote`
 - **[CareClinic Health Tracker](https://github.com/tandemloop/careclinic_mcp)** `Other` — Track symptoms, mood, medications, and wellness patterns through a remote OAuth MCP server.  
   `health` `tracking` `oauth` `wellness`
+- **[Christian Pure](https://github.com/christianpure/connector)** `Official` `PHP` — Written prayers for a need, Bible verses by subject, and Christian articles on faith and church history from christianpure.com. Free hosted read-only server, no key.  
+  `bible` `prayer` `christianity` `church-history` `remote`
 - **[ComputeFirst](https://computefirst.net/docs)** `Official` `JavaScript` — Hosted catalog of versioned, deterministic tools for exact math, CSV and JSON transforms, date math, text, hashing and identifier checks; search, then execute by id. No key.  
   `math` `data-transforms` `deterministic` `remote`
 - **[DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender)** `Python` — Free stdio server for Blender 5.2 LTS: check the runtime, query a bpy knowledge base, validate part specs and run headless passes to build parametric parts with glTF/STL export. Source-available (PolyForm Shield).  
