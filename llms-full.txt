@@ -4928,7 +4928,7 @@ Answer, note, assign, triage and close Rinhelp help desk conversations, search k
 
 ### RoboWrite
 
-Use keyword research, competitor insights, brand voice, and workspace knowledge for editorial briefs and SEO/GEO content generation, or find and revise saved drafts.
+Use keyword research, competitor insights, brand voice, and context from your workspace knowledge base for editorial briefs and SEO/GEO content generation, or find and revise saved Markdown drafts.
 
 - URL: https://www.robowrite.ai/guides/robowrite-mcp
 - Language: TypeScript
