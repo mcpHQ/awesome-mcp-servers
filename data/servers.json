@@ -17677,7 +17677,7 @@
     }
   },
   {
-    "name": "Kling AI MCP (China)",
+    "name": "Kling AI MCP (China) Plugin",
     "url": "https://github.com/klingai-dev/openclaw-plugin",
     "description": "Official China-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.",
     "category": "ai-agents-and-memory",
@@ -17701,7 +17701,7 @@
     }
   },
   {
-    "name": "Kling AI MCP (Global)",
+    "name": "Kling AI MCP (Global) Plugin",
     "url": "https://github.com/klingai-tech/claude-plugin",
     "description": "Official Global-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.",
     "category": "ai-agents-and-memory",
