@@ -5986,9 +5986,9 @@ Shared team project for coding agents: read and claim board tasks, post handoffs
 - Auth: oauth
 - Streamable HTTP endpoint: https://joxo.ai/api/mcp
 
-### Kling AI MCP (China) Plugin
+### Kling AI (China) Plugin
 
-Official China MCP Plugin for image/video generation via OAuth; uses China account credits. npm: https://www.npmjs.com/package/@klingai/plugin-cn; CLI: https://www.npmjs.com/package/@klingai/cli-cn.
+Official China Kling MCP via OAuth; credits are region-specific. [Guide](https://kling.ai/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-cn) · [CLI](https://www.npmjs.com/package/@klingai/cli-cn).
 
 - URL: https://github.com/klingai-dev/openclaw-plugin
 - Language: Other
@@ -6000,9 +6000,9 @@ Official China MCP Plugin for image/video generation via OAuth; uses China accou
 - Auth: oauth
 - Streamable HTTP endpoint: https://klingai.com/mcp/plugin
 
-### Kling AI MCP (Global) Plugin
+### Kling AI (Global) Plugin
 
-Official Global MCP Plugin for image/video generation via OAuth; uses Global account credits. npm: https://www.npmjs.com/package/@klingai/plugin-global; CLI: https://www.npmjs.com/package/@klingai/cli-global.
+Official Global Kling MCP via OAuth; credits are region-specific. [Guide](https://kling.ai/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-global) · [CLI](https://www.npmjs.com/package/@klingai/cli-global).
 
 - URL: https://github.com/klingai-tech/claude-plugin
 - Language: Other

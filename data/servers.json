@@ -17677,9 +17677,9 @@
     }
   },
   {
-    "name": "Kling AI MCP (China) Plugin",
+    "name": "Kling AI (China) Plugin",
     "url": "https://github.com/klingai-dev/openclaw-plugin",
-    "description": "Official China MCP Plugin for image/video generation via OAuth; uses China account credits. npm: https://www.npmjs.com/package/@klingai/plugin-cn; CLI: https://www.npmjs.com/package/@klingai/cli-cn.",
+    "description": "Official China Kling MCP via OAuth; credits are region-specific. [Guide](https://kling.ai/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-cn) · [CLI](https://www.npmjs.com/package/@klingai/cli-cn).",
     "category": "ai-agents-and-memory",
     "language": "Other",
     "provider": "Kling AI",
@@ -17701,9 +17701,9 @@
     }
   },
   {
-    "name": "Kling AI MCP (Global) Plugin",
+    "name": "Kling AI (Global) Plugin",
     "url": "https://github.com/klingai-tech/claude-plugin",
-    "description": "Official Global MCP Plugin for image/video generation via OAuth; uses Global account credits. npm: https://www.npmjs.com/package/@klingai/plugin-global; CLI: https://www.npmjs.com/package/@klingai/cli-global.",
+    "description": "Official Global Kling MCP via OAuth; credits are region-specific. [Guide](https://kling.ai/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-global) · [CLI](https://www.npmjs.com/package/@klingai/cli-global).",
     "category": "ai-agents-and-memory",
     "language": "Other",
     "provider": "Kling AI",
