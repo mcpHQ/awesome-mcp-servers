@@ -17679,7 +17679,7 @@
   {
     "name": "Kling AI (China) Plugin",
     "url": "https://github.com/klingai-dev/openclaw-plugin",
-    "description": "Official China Kling MCP via OAuth; credits are region-specific. [Guide](https://kling.ai/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-cn) · [CLI](https://www.npmjs.com/package/@klingai/cli-cn).",
+    "description": "Official China Kling MCP via OAuth; credits are region-specific. [Guide](https://klingai.com/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-cn) · [CLI](https://www.npmjs.com/package/@klingai/cli-cn).",
     "category": "ai-agents-and-memory",
     "language": "Other",
     "provider": "Kling AI",
