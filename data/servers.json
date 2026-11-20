@@ -10417,6 +10417,34 @@
     ]
   },
   {
+    "name": "LogBrew",
+    "url": "https://docs.logbrew.co/guides/mcp",
+    "description": "Read LogBrew error tracking and application monitoring data in your coding agent, including issues, logs, traces, metrics, and releases, and with the write scope resolve, assign, and prioritize issues. Hosted remote server with OAuth.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Rust",
+    "provider": "LogBrew",
+    "tags": [
+      "error-tracking",
+      "logs",
+      "observability",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/LogBrewCo/mcp",
+    "license": "Apache-2.0",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://logbrew.co/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "PandaStock",
     "url": "https://github.com/D-Asce/pandastocksdk",
     "description": "A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.",
