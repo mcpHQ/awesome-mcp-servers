@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3714,6 +3714,22 @@ Deploy static sites and connect custom domains from coding agents over hosted MC
 - Auth: api-key
 - Verified: 2026-11-09
 - Streamable HTTP endpoint: https://mcp.webprompter.ai/mcp
+
+### while.sh
+
+Deploy and share tools built with Claude or ChatGPT: your team, a client or everyone. Your AI agent deploys each tool with its PostgreSQL database, file storage and scheduled jobs, then reads its logs. Hosted in France, no sign-up.
+
+- URL: https://while.sh/en/docs/get-started/connect-your-agent/
+- Language: TypeScript
+- Provider: Nextmap
+- Official: yes
+- Tags: paas, deployment, hosting, postgres, remote
+- Category: Cloud and Infrastructure
+- Repository: https://github.com/while-sh/while
+- License: proprietary
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://app.while.sh/mcp
 
 ## Communication and Productivity
 
