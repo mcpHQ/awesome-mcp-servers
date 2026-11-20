@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (93)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (89)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (38)
 - [Communication and Productivity](#communication-and-productivity) (122)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (109)
@@ -663,6 +663,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `vercel` `deploy` `frontend`
 - **[Webprompter.ai MCP](https://webprompter.ai)** `Official` `TypeScript` — Deploy static sites and connect custom domains from coding agents over hosted MCP.  
   `hosting` `static-sites` `deploy` `domains` `remote`
+- **[while.sh](https://while.sh/en/docs/get-started/connect-your-agent/)** `Official` `TypeScript` — Deploy and share tools built with Claude or ChatGPT: your team, a client or everyone. Your AI agent deploys each tool with its PostgreSQL database, file storage and scheduled jobs, then reads its logs. Hosted in France, no sign-up. ([source](https://github.com/while-sh/while))  
+  `paas` `deployment` `hosting` `postgres` `remote`
 
 <a id="communication-and-productivity"></a>
 
