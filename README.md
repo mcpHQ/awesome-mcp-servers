@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (109)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (199)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (200)
 - [Utilities and Examples](#utilities-and-examples) (48)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1679,6 +1679,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `loyalty` `apple-wallet` `retail` `remote` `oauth`
 - **[Lexio](https://lexio.rent/mcp)** `Official` `TypeScript` — Read-only remote MCP server for Lexio vehicle rental software: availability, rentals, customers, fleet, maintenance and pricing, with OAuth sign-in.  
   `vehicle-rental` `fleet-management` `rentals` `read-only` `remote`
+- **[LGDA Autonomic Pacing Node](https://github.com/lgda-technologies/lgda-autonomic-node)** `Official` `Python` — Remote MCP server selling biometric wellness music to AI agents via x402 ($5.99/track USDC on Base), with measured HRV session evidence per track.  
+  `music` `x402` `usdc` `wellness` `remote`
 - **[LinkedIn People Search (AlphaOSINT)](https://alphaosint.com/sources/linkedin-people-search-api/)** `Python` — Searches LinkedIn people by title, company, location and keywords and returns structured profile rows, served as a remote MCP tool on Apify.  
   `linkedin` `people-search` `sales` `remote`
 - **[Live Tennis API MCP](https://www.npmjs.com/package/livetennisapi-mcp)** `TypeScript` — Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.  

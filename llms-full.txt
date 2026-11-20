@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10448,6 +10448,22 @@ Read-only remote MCP server for Lexio vehicle rental software: availability, ren
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://api.lexio.rent/mcp
+
+### LGDA Autonomic Pacing Node
+
+Remote MCP server selling biometric wellness music to AI agents via x402 ($5.99/track USDC on Base), with measured HRV session evidence per track.
+
+- URL: https://github.com/lgda-technologies/lgda-autonomic-node
+- Language: Python
+- Provider: LGDA Technologies
+- Official: yes
+- Tags: music, x402, usdc, wellness, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: paid
+- Transport: streamable-http
+- Auth: none
+- Verified: 2026-11-19
+- Streamable HTTP endpoint: https://lgda-music.fly.dev/mcp
 
 ### LinkedIn People Search (AlphaOSINT)
 
