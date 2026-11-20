@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-920-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,8 +44,8 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (93)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (89)
-- [Filesystems and Documents](#filesystems-and-documents) (34)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (90)
+- [Filesystems and Documents](#filesystems-and-documents) (35)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
 - [Communication and Productivity](#communication-and-productivity) (122)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
@@ -497,6 +497,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `transcripts` `tiktok` `video-analysis` `remote`
 - **[TubeText YouTube Transcripts & Channel Analytics](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/youtube-transcripts)** `Official` `Other` — YouTube transcripts from videos, Shorts, playlists or channels, plus channel and Social Blade stats. Hosted on Apify (OAuth), pay per result. ([source](https://github.com/LMSlay/tubetext-mcp))  
   `transcripts` `youtube` `social-blade` `remote`
+- **[Web2MD MCP](https://web2md.org)** `TypeScript` — Converts webpages to Markdown for MCP clients, and can route conversion through the user's browser session for pages that block server-side fetches. ([source](https://github.com/io-oi-ai/web2md-mcp))  
+  `markdown` `web-scraping` `browser`
 - **[WebExtract](https://github.com/nyx464664816-stack/webextract)** `Official` `Other` — Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).  
   `web-scraping` `markdown` `structured-data` `x402` `remote`
 - **[Weir](https://github.com/tarun-khatri/weir-mcp)** `Official` `TypeScript` — Search and read public X (Twitter) and Reddit data: posts, replies, threads, profiles, followers, subreddits and comments, plus monitors for new matches.  
@@ -544,6 +546,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `research` `knowledge-base` `longevity` `search`
 - **[Holos33](https://holos33.com)** `Official` `Python` — Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact. ([source](https://github.com/aiagentcycle/holos33-mcp))  
   `knowledge-base` `privacy` `read-only` `wellbeing`
+- **[Inplain MCP](https://inplain.app)** `TypeScript` — MCP server that generates a deck, document, or dashboard from a prompt as a self-contained web page, with optional Office export. ([source](https://github.com/io-oi-ai/inplain))  
+  `presentations` `documents` `dashboards` `markdown`
 - **[isGenAI](https://isgenai.com/developers/mcp)** `Official` `TypeScript` — Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels.  
   `c2pa` `provenance` `metadata` `ai-detection` `remote`
 - **[Koru MCP Server](https://github.com/koruworks/mono)** `Official` `Rust` — Search and read documents and files, and create and edit documents, in the local database of the Koru notes, docs and files app.  

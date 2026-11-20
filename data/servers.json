@@ -5275,6 +5275,35 @@
     ]
   },
   {
+    "name": "Web2MD MCP",
+    "url": "https://web2md.org",
+    "description": "Converts webpages to Markdown for MCP clients, and can route conversion through the user's browser session for pages that block server-side fetches.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Web2MD",
+    "tags": [
+      "markdown",
+      "web-scraping",
+      "browser"
+    ],
+    "official": false,
+    "repository": "https://github.com/io-oi-ai/web2md-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "web2md-mcp-server"
+    },
+    "auth": [
+      "none",
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
     "name": "Outbound OS",
     "url": "https://github.com/RecepioHQ/outbound-os",
     "description": "Local MCP tools for evidence-gated email outreach with default-disabled live sending",
@@ -12153,6 +12182,31 @@
     },
     "transport": [
       "streamable-http"
+    ]
+  },
+  {
+    "name": "Inplain MCP",
+    "url": "https://inplain.app",
+    "description": "MCP server that generates a deck, document, or dashboard from a prompt as a self-contained web page, with optional Office export.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "Inplain",
+    "tags": [
+      "presentations",
+      "documents",
+      "dashboards",
+      "markdown"
+    ],
+    "official": false,
+    "repository": "https://github.com/io-oi-ai/inplain",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none",
+      "api-key"
     ]
   },
   {
