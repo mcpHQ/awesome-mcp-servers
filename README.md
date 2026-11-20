@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (93)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (94)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (89)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
@@ -316,6 +316,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `visual-testing` `testing` `code-review` `api-key` `remote`
 - **[unslop](https://github.com/avivgerz-hue/unslop)** `TypeScript` — Design-craft linter with 72 rules for CSS, Tailwind and React that audits contrast, typography and spacing, exposed to MCP clients through 4 tools.  
   `linter` `design` `css` `accessibility` `code-quality`
+- **[viaSocket](https://viasocket.com/)** `Official` `Other` — Integration and AI infrastructure for developers: explore viaSocket's docs and APIs, then let your users connect their own apps and run actions across 2,300+ apps. ([source](https://github.com/walkover-mcp/viasocket))  
+  `integrations` `automation` `oauth` `remote`
 - **[Vibe Monitor](https://github.com/tubban1/vibe-monitor)** `JavaScript` — Local architecture checkpoints for AI coding agents; read-only source analysis and practical advice (Node 22+; default-on pseudonymous telemetry, required for Free analysis).  
   `architecture` `code-quality` `ai-coding` `local`
 - **[vibe-testing](https://github.com/AishwaryShrivastav/vibe-testing)** `TypeScript` — Scan web app routes and forms, run Playwright browser checks, and produce HTML QA reports through a local MCP server.  
