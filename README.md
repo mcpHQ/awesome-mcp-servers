@@ -1009,9 +1009,9 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `interview` `education` `ai-engineering` `practice`
 - **[Joxo](https://joxo.ai)** `Official` `TypeScript` — Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents.  
   `agents` `collaboration` `tasks` `remote` `oauth`
-- **[Kling AI MCP (China) Plugin](https://github.com/klingai-dev/openclaw-plugin)** `Official` `Other` — Official China-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.  
+- **[Kling AI MCP (China) Plugin](https://github.com/klingai-dev/openclaw-plugin)** `Official` `Other` — Official China MCP Plugin for image/video generation via OAuth; uses China account credits. npm: https://www.npmjs.com/package/@klingai/plugin-cn; CLI: https://www.npmjs.com/package/@klingai/cli-cn.  
   `image-generation` `video-generation` `oauth` `remote-mcp`
-- **[Kling AI MCP (Global) Plugin](https://github.com/klingai-tech/claude-plugin)** `Official` `Other` — Official Global-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.  
+- **[Kling AI MCP (Global) Plugin](https://github.com/klingai-tech/claude-plugin)** `Official` `Other` — Official Global MCP Plugin for image/video generation via OAuth; uses Global account credits. npm: https://www.npmjs.com/package/@klingai/plugin-global; CLI: https://www.npmjs.com/package/@klingai/cli-global.  
   `image-generation` `video-generation` `oauth` `remote-mcp`
 - **[knowsme](https://knowsme.dev)** `Official` `JavaScript` — One memory of who you are and how you work (notes, rules and projects) that any AI model or agent can read and update over MCP, across apps and machines.  
   `memory` `agents` `personalization` `remote` `oauth`

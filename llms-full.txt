@@ -5988,7 +5988,7 @@ Shared team project for coding agents: read and claim board tasks, post handoffs
 
 ### Kling AI MCP (China) Plugin
 
-Official China-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.
+Official China MCP Plugin for image/video generation via OAuth; uses China account credits. npm: https://www.npmjs.com/package/@klingai/plugin-cn; CLI: https://www.npmjs.com/package/@klingai/cli-cn.
 
 - URL: https://github.com/klingai-dev/openclaw-plugin
 - Language: Other
@@ -6002,7 +6002,7 @@ Official China-region image/video generation, reference workflows and task track
 
 ### Kling AI MCP (Global) Plugin
 
-Official Global-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.
+Official Global MCP Plugin for image/video generation via OAuth; uses Global account credits. npm: https://www.npmjs.com/package/@klingai/plugin-global; CLI: https://www.npmjs.com/package/@klingai/cli-global.
 
 - URL: https://github.com/klingai-tech/claude-plugin
 - Language: Other
