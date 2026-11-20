@@ -5990,7 +5990,7 @@ Shared team project for coding agents: read and claim board tasks, post handoffs
 
 Official China Kling MCP via OAuth; credits are region-specific. [Guide](https://klingai.com/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-cn) · [CLI](https://www.npmjs.com/package/@klingai/cli-cn).
 
-- URL: https://github.com/klingai-dev/openclaw-plugin
+- URL: https://github.com/klingai-tech/claude-plugin-cn
 - Language: Other
 - Provider: Kling AI
 - Official: yes
