@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1504,6 +1504,21 @@ Design-craft linter with 72 rules for CSS, Tailwind and React that audits contra
 - Transport: stdio
 - Auth: none
 - Install: npx unslop-mcp
+
+### viaSocket
+
+Integration and AI infrastructure for developers: explore viaSocket's docs and APIs, then let your users connect their own apps and run actions across 2,300+ apps.
+
+- URL: https://viasocket.com/
+- Language: Other
+- Provider: Walkover
+- Official: yes
+- Tags: integrations, automation, oauth, remote
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/walkover-mcp/viasocket
+- Transport: streamable-http
+- Auth: none, oauth
+- Streamable HTTP endpoint: https://connect.viasocket.com/mcp
 
 ### Vibe Monitor
 
