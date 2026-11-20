@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4630,6 +4630,22 @@ Remote MCP server for posting to X, Bluesky, Mastodon and LinkedIn: threads, sch
 - Transport: streamable-http
 - Auth: oauth, api-key
 - Streamable HTTP endpoint: https://octopost.ink/mcp
+
+### OpenShorts.io MCP
+
+Clip long videos into captioned shorts and retrieve job status and usage through a hosted MCP server.
+
+- URL: https://openshorts.io/api
+- Language: Other
+- Provider: OpenShorts.io
+- Official: yes
+- Tags: video, shorts, ai-video, remote
+- Category: Communication and Productivity
+- Repository: https://github.com/xspring1982/openshorts-oss
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://openshorts.io/api/mcp
 
 ### OrkasVideoStudio
 
