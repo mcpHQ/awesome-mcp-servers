@@ -17679,14 +17679,15 @@
   {
     "name": "Kling AI China Plugin",
     "url": "https://github.com/klingai-dev/openclaw-plugin",
-    "description": "Official China-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.",
+    "description": "Official China Kling MCP Plugin for image/video generation, refs, and task tracking. Kling 4.0 adds native 4K and optional 10-bit HDR at 1080p/4K for eligible accounts. Live MCP tools report available settings. OAuth uses China credits.",
     "category": "ai-agents-and-memory",
     "language": "Other",
     "provider": "Kling AI",
     "tags": [
       "image-generation",
       "video-generation",
-      "oauth",
+      "native-4k",
+      "hdr",
       "remote-mcp"
     ],
     "official": true,
@@ -17703,14 +17704,15 @@
   {
     "name": "Kling AI Global Plugin",
     "url": "https://github.com/klingai-tech/claude-plugin",
-    "description": "Official Global-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.",
+    "description": "Official Global Kling MCP Plugin for image/video generation, refs, and task tracking. Kling 4.0 adds native 4K and optional 10-bit HDR at 1080p/4K for eligible accounts. Live MCP tools report available settings. OAuth uses Global credits.",
     "category": "ai-agents-and-memory",
     "language": "Other",
     "provider": "Kling AI",
     "tags": [
       "image-generation",
       "video-generation",
-      "oauth",
+      "native-4k",
+      "hdr",
       "remote-mcp"
     ],
     "official": true,

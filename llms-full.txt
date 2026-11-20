@@ -5988,13 +5988,13 @@ Shared team project for coding agents: read and claim board tasks, post handoffs
 
 ### Kling AI China Plugin
 
-Official China-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.
+Official China Kling MCP Plugin for image/video generation, refs, and task tracking. Kling 4.0 adds native 4K and optional 10-bit HDR at 1080p/4K for eligible accounts. Live MCP tools report available settings. OAuth uses China credits.
 
 - URL: https://github.com/klingai-dev/openclaw-plugin
 - Language: Other
 - Provider: Kling AI
 - Official: yes
-- Tags: image-generation, video-generation, oauth, remote-mcp
+- Tags: image-generation, video-generation, native-4k, hdr, remote-mcp
 - Category: AI, Agents, and Memory
 - Transport: streamable-http
 - Auth: oauth
@@ -6002,13 +6002,13 @@ Official China-region image/video generation, reference workflows and task track
 
 ### Kling AI Global Plugin
 
-Official Global-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.
+Official Global Kling MCP Plugin for image/video generation, refs, and task tracking. Kling 4.0 adds native 4K and optional 10-bit HDR at 1080p/4K for eligible accounts. Live MCP tools report available settings. OAuth uses Global credits.
 
 - URL: https://github.com/klingai-tech/claude-plugin
 - Language: Other
 - Provider: Kling AI
 - Official: yes
-- Tags: image-generation, video-generation, oauth, remote-mcp
+- Tags: image-generation, video-generation, native-4k, hdr, remote-mcp
 - Category: AI, Agents, and Memory
 - Transport: streamable-http
 - Auth: oauth

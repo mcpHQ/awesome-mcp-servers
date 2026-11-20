@@ -1009,10 +1009,10 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `interview` `education` `ai-engineering` `practice`
 - **[Joxo](https://joxo.ai)** `Official` `TypeScript` — Shared team project for coding agents: read and claim board tasks, post handoffs and decisions, and message teammates and their agents.  
   `agents` `collaboration` `tasks` `remote` `oauth`
-- **[Kling AI China Plugin](https://github.com/klingai-dev/openclaw-plugin)** `Official` `Other` — Official China-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.  
-  `image-generation` `video-generation` `oauth` `remote-mcp`
-- **[Kling AI Global Plugin](https://github.com/klingai-tech/claude-plugin)** `Official` `Other` — Official Global-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.  
-  `image-generation` `video-generation` `oauth` `remote-mcp`
+- **[Kling AI China Plugin](https://github.com/klingai-dev/openclaw-plugin)** `Official` `Other` — Official China Kling MCP Plugin for image/video generation, refs, and task tracking. Kling 4.0 adds native 4K and optional 10-bit HDR at 1080p/4K for eligible accounts. Live MCP tools report available settings. OAuth uses China credits.  
+  `image-generation` `video-generation` `native-4k` `hdr` `remote-mcp`
+- **[Kling AI Global Plugin](https://github.com/klingai-tech/claude-plugin)** `Official` `Other` — Official Global Kling MCP Plugin for image/video generation, refs, and task tracking. Kling 4.0 adds native 4K and optional 10-bit HDR at 1080p/4K for eligible accounts. Live MCP tools report available settings. OAuth uses Global credits.  
+  `image-generation` `video-generation` `native-4k` `hdr` `remote-mcp`
 - **[knowsme](https://knowsme.dev)** `Official` `JavaScript` — One memory of who you are and how you work (notes, rules and projects) that any AI model or agent can read and update over MCP, across apps and machines.  
   `memory` `agents` `personalization` `remote` `oauth`
 - **[LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp)** `Official` `Other` — Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint.  
