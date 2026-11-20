@@ -11803,6 +11803,38 @@
     ]
   },
   {
+    "name": "DankMachine",
+    "url": "https://github.com/HalberdLLC/dank-meme-sounds",
+    "description": "Meme soundboard for AI agents with 38k meme sound effects: find a reaction sound for a moment, search by name, mood or use case, see trending sounds, and play them locally.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "DankMachine",
+    "tags": [
+      "audio",
+      "sound-effects",
+      "memes",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://dankmachine.com/mcp"
+    },
+    "repository": "https://github.com/HalberdLLC/dank-meme-sounds",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "dank-meme-sounds"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "SheetsData",
     "url": "https://sheetsdata.com",
     "description": "Electronic component datasheets for AI agents: pinouts, specs, package info and design checks from manufacturer PDFs, with part search across JLCPCB, Mouser and DigiKey; hosted, OAuth or API key, paid per call.",

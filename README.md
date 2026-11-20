@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-919-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (199)
-- [Utilities and Examples](#utilities-and-examples) (48)
+- [Utilities and Examples](#utilities-and-examples) (49)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
 <a id="official-and-reference"></a>
@@ -1902,6 +1902,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `health` `tracking` `oauth` `wellness`
 - **[ComputeFirst](https://computefirst.net/docs)** `Official` `JavaScript` — Hosted catalog of versioned, deterministic tools for exact math, CSV and JSON transforms, date math, text, hashing and identifier checks; search, then execute by id. No key.  
   `math` `data-transforms` `deterministic` `remote`
+- **[DankMachine](https://github.com/HalberdLLC/dank-meme-sounds)** `Official` `JavaScript` — Meme soundboard for AI agents with 38k meme sound effects: find a reaction sound for a moment, search by name, mood or use case, see trending sounds, and play them locally.  
+  `audio` `sound-effects` `memes` `remote`
 - **[DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender)** `Python` — Free stdio server for Blender 5.2 LTS: check the runtime, query a bpy knowledge base, validate part specs and run headless passes to build parametric parts with glTF/STL export. Source-available (PolyForm Shield).  
   `blender` `3d-modeling` `cad` `gltf` `local`
 - **[Domain Search King](https://github.com/johnsmalls22-rgb/domain-search-king-mcp)** `Official` `JavaScript` — Suggests .com domain names and returns only those currently available to register, checked against the Verisign RDAP registry; hosted, no API key.  
