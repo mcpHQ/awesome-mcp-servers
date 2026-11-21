@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-940-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-941-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (93)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (90)
-- [Filesystems and Documents](#filesystems-and-documents) (34)
+- [Filesystems and Documents](#filesystems-and-documents) (35)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (38)
 - [Communication and Productivity](#communication-and-productivity) (125)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
@@ -550,6 +550,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `c2pa` `provenance` `metadata` `ai-detection` `remote`
 - **[Koru MCP Server](https://github.com/koruworks/mono)** `Official` `Rust` — Search and read documents and files, and create and edit documents, in the local database of the Koru notes, docs and files app.  
   `notes` `documents` `local-first` `local`
+- **[Learn AI with Yaakov Tzedek](https://tzedek.me/en/mcp)** `Official` `JavaScript` — Search and read practical AI guides, AI courses, learning paths and AI news from tzedek.me in English and Hebrew; free, read-only, no auth. ([source](https://github.com/YaakovTzedek/tzedek-ai-mcp))  
+  `learn-ai` `courses` `guides` `news` `remote`
 - **[MarkItDown MCP](https://github.com/microsoft/markitdown)** `Official` `Python` — Convert PDFs, Office docs, and media into markdown for LLM ingestion.  
   `documents` `conversion` `markdown`
 - **[Markovo](https://github.com/fisher-byte/markovo)** `Python` — Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio.  
