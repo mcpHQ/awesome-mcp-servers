@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 938 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2103,6 +2103,17 @@ Neural and keyword web search optimized for AI research workflows.
 - Tags: search, research, web
 - Category: Browsers, Search, and Web Automation
 
+### Fairquery Website Tech, SEO & AI-Readiness
+
+Seven free tools for a site's tech stack, SEO score, AI-crawler robots.txt rules, llms.txt, sitemap and security headers, plus an optional paid bulk audit.
+
+- URL: https://github.com/fairquery/website-tech-seo-ai-readiness
+- Language: TypeScript
+- Provider: Fairquery
+- Official: yes
+- Tags: seo, llms-txt, robots-txt, tech-stack
+- Category: Browsers, Search, and Web Automation
+
 ### FindAIforWork
 
 Read-only MCP server for a human-reviewed AI tools directory organized by work scenario: search tools, list categories, read listing details and compare tools; no account or API key.
@@ -4182,6 +4193,17 @@ Create AI faceless videos from a script, run automated series, and publish to Yo
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://faceless.so/api/v1/mcp
 
+### Fairquery Email Validator
+
+Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks.
+
+- URL: https://github.com/fairquery/email-validator-mx-disposable
+- Language: TypeScript
+- Provider: Fairquery
+- Official: yes
+- Tags: email, validation, mx, disposable
+- Category: Communication and Productivity
+
 ### FairValid
 
 Verify email addresses, read verification jobs and find verified work emails with FairMatch through the official hosted MCP connector.
@@ -4966,6 +4988,20 @@ Manage email contacts, campaigns, automation sequences, transactional email and 
 - Tags: email, marketing, automation
 - Category: Communication and Productivity
 
+### Shager
+
+Hosted MCP server that lets an assistant schedule one post to many social accounts, each network at its own hour, answer comments, run auto-replies and report views, likes and clicks per post.
+
+- URL: https://shager.ai/agents
+- Language: TypeScript
+- Provider: Shager
+- Official: yes
+- Tags: social-media, scheduling, analytics, remote, oauth
+- Category: Communication and Productivity
+- Repository: https://github.com/shagerai/shager-mcp
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://app.shager.ai/api/mcp
+
 ### Shipmail
 
 Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks.
@@ -5017,6 +5053,23 @@ Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Thr
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://app.socialpostflow.com/mcp
+
+### Spica Post
+
+Social media scheduler for small businesses and creators: your AI assistant drafts a post per network, checks it against each network's rules, and schedules or publishes it once you approve.
+
+- URL: https://spicapost.com/reference/
+- Language: Other
+- Provider: ML Apps LLC
+- Official: yes
+- Tags: social-media, scheduling, marketing, remote
+- Category: Communication and Productivity
+- Repository: https://github.com/unbowedgod/spica-post-mcp
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://app.spicapost.com/mcp
 
 ### Spillmark
 
@@ -6806,6 +6859,23 @@ Free perfume knowledge for AI assistants: notes, accords and families for 6,000+
 - Auth: none
 - Streamable HTTP endpoint: https://mcp.10ml.com/mcp
 
+### AcesAPI
+
+ATP and WTA tennis since 2007: results with every set, draws, rankings, head to head, surface splits and Elo ratings.
+
+- URL: https://acesapi.com
+- Language: JavaScript
+- Provider: SportsDataHQ
+- Official: yes
+- Tags: tennis, atp, wta, sports, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/noahowsh/acesapi-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.acesapi.com/mcp
+
 ### Adspy
 
 Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.
@@ -7012,6 +7082,23 @@ Hosted MCP server for U.S. property data: property search, comps, owner skip tra
 - Auth: api-key, oauth
 - Streamable HTTP endpoint: https://mcp.batchdata.com
 
+### BirdieAPI
+
+PGA Tour golf since 2001 plus LPGA, LIV, DP World and Korn Ferry: leaderboards, hole-by-hole scores, courses and strokes-versus-field ratings.
+
+- URL: https://birdieapi.com
+- Language: JavaScript
+- Provider: SportsDataHQ
+- Official: yes
+- Tags: golf, pga, sports, leaderboards, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/noahowsh/birdieapi-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.birdieapi.com/mcp
+
 ### Blawgy
 
 Hosted SEO blog server that researches keywords, manages the content plan, writes and refreshes articles, reads Search Console traffic, and publishes to WordPress, Shopify, Webflow, Wix, Framer, Ghost or Duda via OAuth or API key.
@@ -7109,6 +7196,21 @@ Hosted company search, registry profiles and verification of six company identit
 - Transport: streamable-http
 - Auth: api-key, oauth
 - Streamable HTTP endpoint: https://companyproof.ai/v2/mcp
+
+### Competitor Ads (Google Ads Transparency + LinkedIn Ad Library)
+
+Hosted MCP (Apify) returning competitor ad creatives from Google Ads Transparency Center and LinkedIn Ad Library by domain, advertiser, or keyword, with dates and formats.
+
+- URL: https://apify.com/dheerajitbhu/google-ads-transparency?utm_source=mcphq&utm_medium=directory&utm_campaign=google-ads-transparency
+- Language: Other
+- Provider: dheerajitbhu (Apify Store)
+- Official: no
+- Tags: ad-library, google-ads, linkedin-ads, competitor-research, remote
+- Category: Data, Analytics, and BI
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com/?tools=dheerajitbhu/google-ads-transparency,dheerajitbhu/linkedin-ad-library
 
 ### countrymanager
 
@@ -7220,6 +7322,23 @@ Orchestration layer for data center and energy intelligence: start with execute_
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://dchub.cloud/mcp
 
+### DunkAPI
+
+NBA, WNBA and college basketball: play-by-play with shot locations, box scores, ratings and sportsbook odds and player prop history.
+
+- URL: https://dunkapi.com
+- Language: JavaScript
+- Provider: SportsDataHQ
+- Official: yes
+- Tags: nba, basketball, sports, shot-charts, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/noahowsh/dunkapi-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.dunkapi.com/mcp
+
 ### Eigenheim Berlin Market Data
 
 Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.
@@ -7230,6 +7349,23 @@ Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², renta
 - Official: yes
 - Tags: real-estate, berlin, market-data, remote
 - Category: Data, Analytics, and BI
+
+### EndzoneAPI
+
+NFL and college football since 1999: play-by-play with EPA, stats, injuries, depth charts, snap counts and sportsbook odds history.
+
+- URL: https://endzoneapi.com
+- Language: JavaScript
+- Provider: SportsDataHQ
+- Official: yes
+- Tags: nfl, football, sports, epa, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/noahowsh/endzoneapi-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.endzoneapi.com/mcp
 
 ### EventSend
 
@@ -7259,6 +7395,23 @@ Query Chrome and Firefox extension users, ratings, and search-rank data through 
 - Auth: oauth
 - Streamable HTTP endpoint: https://extensiondash.com/mcp
 
+### FastballAPI
+
+MLB since 2015 plus college baseball: pitch-by-pitch data, plate appearances, box scores, ratings and sportsbook odds history.
+
+- URL: https://fastballapi.com
+- Language: JavaScript
+- Provider: SportsDataHQ
+- Official: yes
+- Tags: mlb, baseball, sports, pitch-data, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/noahowsh/fastballapi-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.fastballapi.com/mcp
+
 ### Fictura
 
 Hosted MCP server for Fictura: paywalls, onboarding, subscription analytics, A/B experiments, attribution and errors for Expo and React Native apps, with draft-only editing.
@@ -7271,6 +7424,23 @@ Hosted MCP server for Fictura: paywalls, onboarding, subscription analytics, A/B
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.fictura.co/mcp
+
+### FighterAPI
+
+UFC fights since 2000: results, round-by-round stat sheets, fighter records, Elo ratings and moneyline history.
+
+- URL: https://fighterapi.com
+- Language: JavaScript
+- Provider: SportsDataHQ
+- Official: yes
+- Tags: ufc, mma, sports, fight-data, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/noahowsh/fighterapi-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.fighterapi.com/mcp
 
 ### FlightQueue
 
@@ -7936,6 +8106,23 @@ Hosted AI visibility server: which buyer questions name your brand in ChatGPT, P
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.proofsource.co/v1/mcp
 
+### PuckAPI
+
+NHL play-by-play with rink coordinates, xG and goalie stats, plus AHL, PWHL and junior leagues, standings and sportsbook odds history.
+
+- URL: https://puckapi.com
+- Language: JavaScript
+- Provider: SportsDataHQ
+- Official: yes
+- Tags: nhl, hockey, sports, play-by-play, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/PuckAPI/mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.puckapi.com/mcp
+
 ### QuestionPunk
 
 Create, edit and publish surveys and AI-moderated interviews, then read responses and reports through a hosted MCP server.
@@ -8004,6 +8191,22 @@ Hosted AI-industry news server: returns each story once as a taxonomy-classified
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://api.scoopkit.dev/mcp
+
+### ScraperSocial
+
+Read-only tools for public social media data: profiles, posts, comments, search, reviews and video transcripts from TikTok, Instagram, LinkedIn, X, Reddit and 30+ platforms.
+
+- URL: https://scrapersocial.com/mcp/
+- Language: TypeScript
+- Provider: ScraperSocial
+- Official: yes
+- Tags: social-media, scraping, transcripts, remote, oauth
+- Category: Data, Analytics, and BI
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.scrapersocial.com
 
 ### Screpy SEO MCP
 
@@ -8202,6 +8405,23 @@ Read-only remote server for searching sourced industry statistics, each with its
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://statorigin.org/mcp
 
+### StrikerAPI
+
+Soccer across 17 leagues: fixtures, lineups, match events with shot locations and xG, standings, Elo ratings and sportsbook odds history.
+
+- URL: https://strikerapi.com
+- Language: JavaScript
+- Provider: SportsDataHQ
+- Official: yes
+- Tags: soccer, football, sports, xg, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/noahowsh/strikerapi-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.strikerapi.com/mcp
+
 ### Tectova Runway Records
 
 Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country.
@@ -8301,6 +8521,23 @@ Real-time global intelligence on conflict, markets, energy, trade, shipping and 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://worldmonitor.app/mcp
+
+### YorkerAPI
+
+Cricket ball by ball in every format, men's and women's: batting and bowling cards, player splits, Elo ratings and match odds.
+
+- URL: https://yorkerapi.com
+- Language: JavaScript
+- Provider: SportsDataHQ
+- Official: yes
+- Tags: cricket, sports, ball-by-ball, ratings, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/noahowsh/yorkerapi-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.yorkerapi.com/mcp
 
 ### zaDojo
 
@@ -9565,6 +9802,23 @@ Hosted server that imports products from a store or product link and makes AI pr
 - Auth: oauth, api-key
 - Streamable HTTP endpoint: https://app.cartviral.com/mcp
 
+### CheapCarRent search
+
+Read-only remote MCP server that lists CheapCarRent pickup cities and airports and searches live car rental offers from local rental companies (15,000 pickup points in 46 countries).
+
+- URL: https://cheapcarent.com/developers
+- Language: JavaScript
+- Provider: CheapCarRent
+- Official: yes
+- Tags: car-rental, travel, search
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://cheapcarent.com/mcp
+
 ### Checkout Page
 
 Create and manage checkout pages, events, forms, products, coupons, customers, payments and subscriptions on Checkout Page, a checkout platform on Stripe Connect, over remote Streamable HTTP with OAuth.
@@ -9622,6 +9876,23 @@ The AI-native creator marketplace for gaming: game studios, apps and brands pay 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://mcp.clippertask.com/mcp
+
+### Contha
+
+Personal and small-business books: ask Claude what you can spend, what you owe in US tax (Schedule C) and where money went. 22 read tools, 6 write tools; it cannot move money.
+
+- URL: https://contha.com/ai?ref=mcphq
+- Language: Other
+- Provider: OWSH Unlimited LLC
+- Official: yes
+- Tags: finance, bookkeeping, budgeting, tax, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/noahowsh/contha-claude
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://app.contha.com/api/mcp
 
 ### CorpusIQ
 
@@ -9940,6 +10211,17 @@ Remote MCP that gives Claude or ChatGPT fair value estimates from 26 valuation m
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://www.fairvalue-calculator.com/mcp
+
+### Fairquery EDGAR
+
+SEC EDGAR filings and XBRL financial facts by ticker, CIK or company name, with five free tools that query sec.gov directly and an optional paid bulk export.
+
+- URL: https://github.com/fairquery/edgar-company-facts-filings
+- Language: TypeScript
+- Provider: Fairquery
+- Official: yes
+- Tags: sec, edgar, xbrl, finance
+- Category: Finance, Commerce, and Business Apps
 
 ### Feminiq Rides
 
@@ -11325,6 +11607,21 @@ Read-only product search across independent stores and exact-topic shopping page
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://api.nobi.ai/v1/shop/mcp
+
+### Shopify App Store Search (Apify)
+
+Hosted MCP (Apify) that searches the Shopify App Store by keyword, category, or app URL and returns typed rows: rating, review count, pricing label, developer.
+
+- URL: https://apify.com/dheerajitbhu/shopify-app-store?utm_source=mcphq&utm_medium=directory&utm_campaign=shopify-app-store
+- Language: Other
+- Provider: dheerajitbhu (Apify Store)
+- Official: no
+- Tags: shopify, app-store, ecommerce, market-research, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com/?tools=dheerajitbhu/shopify-app-store
 
 ### Shopify MCP Server
 
