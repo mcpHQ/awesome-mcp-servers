@@ -10418,26 +10418,25 @@
     ]
   },
   {
-    "name": "LogBrew",
-    "url": "https://docs.logbrew.co/guides/mcp",
-    "description": "Read LogBrew error tracking and application monitoring data in your coding agent, including issues, logs, traces, metrics, and releases, and with the write scope resolve, assign, and prioritize issues. Hosted remote server with OAuth.",
-    "category": "developer-tools-and-code-intelligence",
-    "language": "Rust",
-    "provider": "LogBrew",
+    "name": "Ginta",
+    "url": "https://ginta.app/website-builder-mcp/",
+    "description": "Hosted MCP server that builds, publishes and edits small-business websites with contact forms, bookings, an online shop and a blog, live on a ginta.page subdomain or a custom domain on paid plans.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Ginta",
     "tags": [
-      "error-tracking",
-      "logs",
-      "observability",
-      "remote",
-      "oauth"
+      "websites",
+      "hosting",
+      "website-builder",
+      "small-business"
     ],
     "official": true,
-    "repository": "https://github.com/LogBrewCo/mcp",
-    "license": "Apache-2.0",
-    "pricing": "freemium",
     "endpoints": {
-      "streamableHttp": "https://logbrew.co/mcp"
+      "streamableHttp": "https://ginta.app/mcp"
     },
+    "repository": "https://github.com/justlinuxnoob/ginta-mcp",
+    "license": "proprietary",
+    "pricing": "freemium",
     "transport": [
       "streamable-http"
     ],
@@ -20449,6 +20448,34 @@
     "endpoints": {
       "streamableHttp": "https://app.verand.ai/mcp"
     }
+  },
+  {
+    "name": "LogBrew",
+    "url": "https://docs.logbrew.co/guides/mcp",
+    "description": "Read LogBrew error tracking and application monitoring data in your coding agent, including issues, logs, traces, metrics, and releases, and with the write scope resolve, assign, and prioritize issues. Hosted remote server with OAuth.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Rust",
+    "provider": "LogBrew",
+    "tags": [
+      "error-tracking",
+      "logs",
+      "observability",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/LogBrewCo/mcp",
+    "license": "Apache-2.0",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://logbrew.co/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
   },
   {
     "name": "Web2MD MCP",
