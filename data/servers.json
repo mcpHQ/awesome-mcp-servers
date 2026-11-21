@@ -6337,6 +6337,33 @@
     "repository": "https://github.com/Johnnnmai/interview-questions-mcp"
   },
   {
+    "name": "Competitor Ads (Google Ads Transparency + LinkedIn Ad Library)",
+    "url": "https://apify.com/dheerajitbhu/google-ads-transparency?utm_source=mcphq&utm_medium=directory&utm_campaign=google-ads-transparency",
+    "description": "Hosted MCP (Apify) returning competitor ad creatives from Google Ads Transparency Center and LinkedIn Ad Library by domain, advertiser, or keyword, with dates and formats.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "dheerajitbhu (Apify Store)",
+    "tags": [
+      "ad-library",
+      "google-ads",
+      "linkedin-ads",
+      "competitor-research",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=dheerajitbhu/google-ads-transparency,dheerajitbhu/linkedin-ad-library"
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "BORME API",
     "url": "https://github.com/bormeapi/borme-mcp",
     "description": "Spain's company registry gazette (BORME) as typed events: more than 9.6 million events since 2009, with company, officer and insolvency lookups, over a hosted Streamable HTTP server with an API key or OAuth.",
@@ -12709,6 +12736,33 @@
     ],
     "auth": [
       "oauth"
+    ]
+  },
+  {
+    "name": "Shopify App Store Search (Apify)",
+    "url": "https://apify.com/dheerajitbhu/shopify-app-store?utm_source=mcphq&utm_medium=directory&utm_campaign=shopify-app-store",
+    "description": "Hosted MCP (Apify) that searches the Shopify App Store by keyword, category, or app URL and returns typed rows: rating, review count, pricing label, developer.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "dheerajitbhu (Apify Store)",
+    "tags": [
+      "shopify",
+      "app-store",
+      "ecommerce",
+      "market-research",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=dheerajitbhu/shopify-app-store"
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
     ]
   },
   {
