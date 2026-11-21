@@ -5211,35 +5211,6 @@
     ]
   },
   {
-    "name": "StrikerAPI",
-    "url": "https://strikerapi.com",
-    "description": "Soccer across 17 leagues: fixtures, lineups, match events with shot locations and xG, standings, Elo ratings and sportsbook odds history.",
-    "category": "data-analytics-and-bi",
-    "language": "JavaScript",
-    "provider": "SportsDataHQ",
-    "tags": [
-      "soccer",
-      "football",
-      "sports",
-      "xg",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/noahowsh/strikerapi-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.strikerapi.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
-  },
-  {
     "name": "BusyBee",
     "url": "https://github.com/danfeistar/busybee-mcp",
     "description": "Hosted remote MCP server for public social media data across TikTok, Instagram, YouTube, X, Douyin and Xiaohongshu: search posts and creators, read post detail, pull comments and comment insights, and read trending topics.",
@@ -5470,35 +5441,6 @@
     "repository": "https://github.com/AarsyDesign/pushnotif-mcp",
     "transport": [
       "stdio"
-    ]
-  },
-  {
-    "name": "AcesAPI",
-    "url": "https://acesapi.com",
-    "description": "ATP and WTA tennis since 2007: results with every set, draws, rankings, head to head, surface splits and Elo ratings.",
-    "category": "data-analytics-and-bi",
-    "language": "JavaScript",
-    "provider": "SportsDataHQ",
-    "tags": [
-      "tennis",
-      "atp",
-      "wta",
-      "sports",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/noahowsh/acesapi-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.acesapi.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
     ]
   },
   {
@@ -5751,35 +5693,6 @@
     },
     "transport": [
       "streamable-http"
-    ]
-  },
-  {
-    "name": "YorkerAPI",
-    "url": "https://yorkerapi.com",
-    "description": "Cricket ball by ball in every format, men's and women's: batting and bowling cards, player splits, Elo ratings and match odds.",
-    "category": "data-analytics-and-bi",
-    "language": "JavaScript",
-    "provider": "SportsDataHQ",
-    "tags": [
-      "cricket",
-      "sports",
-      "ball-by-ball",
-      "ratings",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/noahowsh/yorkerapi-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.yorkerapi.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
     ]
   },
   {
@@ -6422,35 +6335,6 @@
     ],
     "official": false,
     "repository": "https://github.com/Johnnnmai/interview-questions-mcp"
-  },
-  {
-    "name": "EndzoneAPI",
-    "url": "https://endzoneapi.com",
-    "description": "NFL and college football since 1999: play-by-play with EPA, stats, injuries, depth charts, snap counts and sportsbook odds history.",
-    "category": "data-analytics-and-bi",
-    "language": "JavaScript",
-    "provider": "SportsDataHQ",
-    "tags": [
-      "nfl",
-      "football",
-      "sports",
-      "epa",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/noahowsh/endzoneapi-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.endzoneapi.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
   },
   {
     "name": "BORME API",
@@ -8462,35 +8346,6 @@
     ]
   },
   {
-    "name": "PuckAPI",
-    "url": "https://puckapi.com",
-    "description": "NHL play-by-play with rink coordinates, xG and goalie stats, plus AHL, PWHL and junior leagues, standings and sportsbook odds history.",
-    "category": "data-analytics-and-bi",
-    "language": "JavaScript",
-    "provider": "SportsDataHQ",
-    "tags": [
-      "nhl",
-      "hockey",
-      "sports",
-      "play-by-play",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/PuckAPI/mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.puckapi.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
-  },
-  {
     "name": "Fin Codes API",
     "url": "https://fincodesapi.com/mcp-server",
     "description": "Validate IBANs and bank codes, verify payee names, and screen names against sanctions lists through an authenticated hosted MCP server.",
@@ -9244,35 +9099,6 @@
     ]
   },
   {
-    "name": "DunkAPI",
-    "url": "https://dunkapi.com",
-    "description": "NBA, WNBA and college basketball: play-by-play with shot locations, box scores, ratings and sportsbook odds and player prop history.",
-    "category": "data-analytics-and-bi",
-    "language": "JavaScript",
-    "provider": "SportsDataHQ",
-    "tags": [
-      "nba",
-      "basketball",
-      "sports",
-      "shot-charts",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/noahowsh/dunkapi-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.dunkapi.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
-  },
-  {
     "name": "Trading Signals MCP",
     "url": "https://github.com/gdietsch/trading-signals-mcp",
     "description": "Pay-per-call market data for AI agents: ES futures event-risk gate, SEC insider buys, and AI trade briefs.",
@@ -9419,33 +9245,6 @@
     ],
     "official": true,
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
-  },
-  {
-    "name": "Spica Post",
-    "url": "https://spicapost.com/reference/",
-    "description": "Social media scheduler for small businesses and creators: your AI assistant drafts a post per network, checks it against each network's rules, and schedules or publishes it once you approve.",
-    "category": "communication-and-productivity",
-    "language": "Other",
-    "provider": "ML Apps LLC",
-    "tags": [
-      "social-media",
-      "scheduling",
-      "marketing",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/unbowedgod/spica-post-mcp",
-    "license": "proprietary",
-    "pricing": "paid",
-    "endpoints": {
-      "streamableHttp": "https://app.spicapost.com/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth"
-    ]
   },
   {
     "name": "xmcp",
@@ -9868,34 +9667,6 @@
     ],
     "official": true,
     "repository": "https://github.com/motherduckdb/mcp-server-motherduck"
-  },
-  {
-    "name": "Contha",
-    "url": "https://contha.com/ai?ref=mcphq",
-    "description": "Personal and small-business books: ask Claude what you can spend, what you owe in US tax (Schedule C) and where money went. 22 read tools, 6 write tools; it cannot move money.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Other",
-    "provider": "OWSH Unlimited LLC",
-    "tags": [
-      "finance",
-      "bookkeeping",
-      "budgeting",
-      "tax",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/noahowsh/contha-claude",
-    "license": "MIT",
-    "pricing": "freemium",
-    "endpoints": {
-      "streamableHttp": "https://app.contha.com/api/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth"
-    ]
   },
   {
     "name": "MuAPI MCP Server",
@@ -10708,35 +10479,6 @@
     "official": true,
     "repository": "https://github.com/happywpco/pdftomarkdown-mcp",
     "pricing": "freemium"
-  },
-  {
-    "name": "FighterAPI",
-    "url": "https://fighterapi.com",
-    "description": "UFC fights since 2000: results, round-by-round stat sheets, fighter records, Elo ratings and moneyline history.",
-    "category": "data-analytics-and-bi",
-    "language": "JavaScript",
-    "provider": "SportsDataHQ",
-    "tags": [
-      "ufc",
-      "mma",
-      "sports",
-      "fight-data",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/noahowsh/fighterapi-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.fighterapi.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
   },
   {
     "name": "PeekPanda",
@@ -11893,35 +11635,6 @@
     ],
     "official": false,
     "repository": "https://github.com/hydope/shortsmash"
-  },
-  {
-    "name": "FastballAPI",
-    "url": "https://fastballapi.com",
-    "description": "MLB since 2015 plus college baseball: pitch-by-pitch data, plate appearances, box scores, ratings and sportsbook odds history.",
-    "category": "data-analytics-and-bi",
-    "language": "JavaScript",
-    "provider": "SportsDataHQ",
-    "tags": [
-      "mlb",
-      "baseball",
-      "sports",
-      "pitch-data",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/noahowsh/fastballapi-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.fastballapi.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
   },
   {
     "name": "Orizn Visa",
@@ -13679,35 +13392,6 @@
     },
     "transport": [
       "streamable-http"
-    ]
-  },
-  {
-    "name": "BirdieAPI",
-    "url": "https://birdieapi.com",
-    "description": "PGA Tour golf since 2001 plus LPGA, LIV, DP World and Korn Ferry: leaderboards, hole-by-hole scores, courses and strokes-versus-field ratings.",
-    "category": "data-analytics-and-bi",
-    "language": "JavaScript",
-    "provider": "SportsDataHQ",
-    "tags": [
-      "golf",
-      "pga",
-      "sports",
-      "leaderboards",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/noahowsh/birdieapi-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.birdieapi.com/mcp"
-    },
-    "auth": [
-      "oauth",
-      "api-key"
     ]
   },
   {
@@ -20784,6 +20468,347 @@
     "endpoints": {
       "streamableHttp": "https://app.verand.ai/mcp"
     }
+  },
+  {
+    "name": "FloorGen",
+    "url": "https://floorgen.app/docs/mcp",
+    "description": "Draw, edit, check and render 2D/3D floor plans from Claude, ChatGPT or Cursor: walls, rooms, doors, windows, furniture and stairs, with building-code checks and PDF, DXF and glTF export.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "FloorGen",
+    "tags": [
+      "floor-plans",
+      "architecture",
+      "cad",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://floorgen.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "StrikerAPI",
+    "url": "https://strikerapi.com",
+    "description": "Soccer across 17 leagues: fixtures, lineups, match events with shot locations and xG, standings, Elo ratings and sportsbook odds history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "soccer",
+      "football",
+      "sports",
+      "xg",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/strikerapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.strikerapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "AcesAPI",
+    "url": "https://acesapi.com",
+    "description": "ATP and WTA tennis since 2007: results with every set, draws, rankings, head to head, surface splits and Elo ratings.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "tennis",
+      "atp",
+      "wta",
+      "sports",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/acesapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.acesapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "YorkerAPI",
+    "url": "https://yorkerapi.com",
+    "description": "Cricket ball by ball in every format, men's and women's: batting and bowling cards, player splits, Elo ratings and match odds.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "cricket",
+      "sports",
+      "ball-by-ball",
+      "ratings",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/yorkerapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.yorkerapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "EndzoneAPI",
+    "url": "https://endzoneapi.com",
+    "description": "NFL and college football since 1999: play-by-play with EPA, stats, injuries, depth charts, snap counts and sportsbook odds history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "nfl",
+      "football",
+      "sports",
+      "epa",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/endzoneapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.endzoneapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "PuckAPI",
+    "url": "https://puckapi.com",
+    "description": "NHL play-by-play with rink coordinates, xG and goalie stats, plus AHL, PWHL and junior leagues, standings and sportsbook odds history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "nhl",
+      "hockey",
+      "sports",
+      "play-by-play",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/PuckAPI/mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.puckapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "DunkAPI",
+    "url": "https://dunkapi.com",
+    "description": "NBA, WNBA and college basketball: play-by-play with shot locations, box scores, ratings and sportsbook odds and player prop history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "nba",
+      "basketball",
+      "sports",
+      "shot-charts",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/dunkapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.dunkapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Spica Post",
+    "url": "https://spicapost.com/reference/",
+    "description": "Social media scheduler for small businesses and creators: your AI assistant drafts a post per network, checks it against each network's rules, and schedules or publishes it once you approve.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "ML Apps LLC",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/unbowedgod/spica-post-mcp",
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://app.spicapost.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "Contha",
+    "url": "https://contha.com/ai?ref=mcphq",
+    "description": "Personal and small-business books: ask Claude what you can spend, what you owe in US tax (Schedule C) and where money went. 22 read tools, 6 write tools; it cannot move money.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "OWSH Unlimited LLC",
+    "tags": [
+      "finance",
+      "bookkeeping",
+      "budgeting",
+      "tax",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/contha-claude",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://app.contha.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "FighterAPI",
+    "url": "https://fighterapi.com",
+    "description": "UFC fights since 2000: results, round-by-round stat sheets, fighter records, Elo ratings and moneyline history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "ufc",
+      "mma",
+      "sports",
+      "fight-data",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/fighterapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.fighterapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "FastballAPI",
+    "url": "https://fastballapi.com",
+    "description": "MLB since 2015 plus college baseball: pitch-by-pitch data, plate appearances, box scores, ratings and sportsbook odds history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "mlb",
+      "baseball",
+      "sports",
+      "pitch-data",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/fastballapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.fastballapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "BirdieAPI",
+    "url": "https://birdieapi.com",
+    "description": "PGA Tour golf since 2001 plus LPGA, LIV, DP World and Korn Ferry: leaderboards, hole-by-hole scores, courses and strokes-versus-field ratings.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "golf",
+      "pga",
+      "sports",
+      "leaderboards",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/birdieapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.birdieapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   },
   {
     "name": "Shager",
