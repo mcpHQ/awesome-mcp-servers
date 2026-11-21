@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 947 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 949 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -232,6 +232,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Toolradar](https://github.com/Nadeus/toolradar-mcp): Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives. (TypeScript, official)
 - [TubeText TikTok Transcripts & Video Breakdown](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/tiktok-transcripts): TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown. Hosted on Apify (OAuth), pay per result. (Other, official)
 - [TubeText YouTube Transcripts & Channel Analytics](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/youtube-transcripts): YouTube transcripts from videos, Shorts, playlists or channels, plus channel and Social Blade stats. Hosted on Apify (OAuth), pay per result. (Other, official)
+- [Web2MD MCP](https://web2md.org): Converts webpages to Markdown for MCP clients, and can route conversion through the user's browser session for pages that block server-side fetches. (TypeScript)
 - [WebExtract](https://github.com/nyx464664816-stack/webextract): Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark). (Other, official)
 - [Weir](https://github.com/tarun-khatri/weir-mcp): Search and read public X (Twitter) and Reddit data: posts, replies, threads, profiles, followers, subreddits and comments, plus monitors for new matches. (TypeScript, official)
 - [XActions](https://github.com/nirholas/xactions): X/Twitter toolkit with an MCP server, CLI and browser scripts to scrape profiles, followers and tweets, monitor analytics and automate engagement without API fees. (JavaScript)
@@ -256,6 +257,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Google Drive MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive): Access and search files in Google Drive from MCP clients. (Python)
 - [Grandpa's AI](https://github.com/wescorp/grandpasai-mcp): Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization. (JavaScript, official)
 - [Holos33](https://holos33.com): Provides sourced, read-only Holos33 information about modules, Early Access, privacy, access and contact. (Python, official)
+- [Inplain MCP](https://inplain.app): MCP server that generates a deck, document, or dashboard from a prompt as a self-contained web page, with optional Office export. (TypeScript)
 - [isGenAI](https://isgenai.com/developers/mcp): Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels. (TypeScript, official)
 - [Koru MCP Server](https://github.com/koruworks/mono): Search and read documents and files, and create and edit documents, in the local database of the Koru notes, docs and files app. (Rust, official)
 - [Learn AI with Yaakov Tzedek](https://tzedek.me/en/mcp): Search and read practical AI guides, AI courses, learning paths and AI news from tzedek.me in English and Hebrew; free, read-only, no auth. (JavaScript, official)

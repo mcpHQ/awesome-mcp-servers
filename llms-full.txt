@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 947 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 949 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2714,6 +2714,23 @@ YouTube transcripts from videos, Shorts, playlists or channels, plus channel and
 - Auth: oauth
 - Streamable HTTP endpoint: https://mcp.apify.com/?tools=fetch-actor-details,tubetext/youtube-transcript-fast,tubetext/youtube-channel-analytics,tubetext/socialblade-scraper
 
+### Web2MD MCP
+
+Converts webpages to Markdown for MCP clients, and can route conversion through the user's browser session for pages that block server-side fetches.
+
+- URL: https://web2md.org
+- Language: TypeScript
+- Provider: Web2MD
+- Official: no
+- Tags: markdown, web-scraping, browser
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/io-oi-ai/web2md-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: stdio
+- Auth: none, api-key, oauth
+- Install: npx web2md-mcp-server
+
 ### WebExtract
 
 Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).
@@ -3012,6 +3029,22 @@ Provides sourced, read-only Holos33 information about modules, Early Access, pri
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://mcp.holos33.com/mcp
+
+### Inplain MCP
+
+MCP server that generates a deck, document, or dashboard from a prompt as a self-contained web page, with optional Office export.
+
+- URL: https://inplain.app
+- Language: TypeScript
+- Provider: Inplain
+- Official: no
+- Tags: presentations, documents, dashboards, markdown
+- Category: Filesystems and Documents
+- Repository: https://github.com/io-oi-ai/inplain
+- License: MIT
+- Pricing: freemium
+- Transport: stdio
+- Auth: none, api-key
 
 ### isGenAI
 
