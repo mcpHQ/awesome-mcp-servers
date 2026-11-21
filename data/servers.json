@@ -7657,6 +7657,33 @@
     ]
   },
   {
+    "name": "lemlist",
+    "url": "https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key",
+    "description": "Official hosted lemlist server: run multichannel outreach campaigns, build email and LinkedIn sequences, add and search leads, read campaign stats and check sending-domain deliverability; OAuth or API key.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "lemlist",
+    "tags": [
+      "sales",
+      "outreach",
+      "cold-email",
+      "linkedin",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.lemlist.com/mcp"
+    },
+    "repository": "https://github.com/l3mpire/lemlist-plugin",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
     "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
@@ -9540,6 +9567,31 @@
     ]
   },
   {
+    "name": "Common Room Booking Platform",
+    "url": "https://www.common-room.hk/mcp",
+    "description": "Official read-only MCP server of common-room.hk, a Hong Kong venue booking site, for finding hourly hotels, party rooms, event venues, private dining rooms and boats with prices and hotel availability.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "MT Technology Group Limited (common-room.hk)",
+    "tags": [
+      "hong-kong",
+      "venues",
+      "booking",
+      "hotels",
+      "travel"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.common-room.hk/mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://docs.mem0.ai/platform/mem0-mcp",
     "description": "Hosted persistent memory layer for personalized agent interactions.",
@@ -9696,6 +9748,33 @@
     "repository": "https://github.com/motherduckdb/mcp-server-motherduck"
   },
   {
+    "name": "InfraRabbit",
+    "url": "https://infrarabbit.com",
+    "description": "Free remote MCP server with dated list prices of VPS, GPU and LLM API plans, price history, change feeds and price indices.",
+    "category": "cloud-and-infrastructure",
+    "language": "Other",
+    "provider": "InfraRabbit",
+    "tags": [
+      "pricing",
+      "gpu",
+      "vps",
+      "llm",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/InfraRabbit/mcp",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://infrarabbit.com/mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MuAPI MCP Server",
     "url": "https://muapi.ai/docs/mcp",
     "description": "Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.",
@@ -9772,6 +9851,35 @@
     ],
     "official": false,
     "repository": "https://github.com/tareq7/muslim-prayer-mcp"
+  },
+  {
+    "name": "Viewlify",
+    "url": "https://viewlify.app/tiktok-data-api",
+    "description": "TikTok videos that beat their creator's usual views, plus the videos, hashtags and sounds rising by niche, from public TikTok data (read only).",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Viewlify",
+    "tags": [
+      "tiktok",
+      "social-media",
+      "analytics",
+      "trends",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/benjaminb10/viewlify-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://viewlify.app/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
   },
   {
     "name": "Mysocial",
@@ -10436,6 +10544,34 @@
     "endpoints": {
       "streamableHttp": "https://perq.sh/mcp"
     },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Learn AI with Yaakov Tzedek",
+    "url": "https://tzedek.me/en/mcp",
+    "description": "Search and read practical AI guides, AI courses, learning paths and AI news from tzedek.me in English and Hebrew; free, read-only, no auth.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "Yaakov Tzedek",
+    "tags": [
+      "learn-ai",
+      "courses",
+      "guides",
+      "news",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://tzedek.me/mcp"
+    },
+    "repository": "https://github.com/YaakovTzedek/tzedek-ai-mcp",
+    "license": "MIT",
+    "pricing": "free",
     "transport": [
       "streamable-http"
     ],
@@ -20495,5 +20631,522 @@
     "endpoints": {
       "streamableHttp": "https://app.verand.ai/mcp"
     }
+  },
+  {
+    "name": "FloorGen",
+    "url": "https://floorgen.app/docs/mcp",
+    "description": "Draw, edit, check and render 2D/3D floor plans from Claude, ChatGPT or Cursor: walls, rooms, doors, windows, furniture and stairs, with building-code checks and PDF, DXF and glTF export.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "FloorGen",
+    "tags": [
+      "floor-plans",
+      "architecture",
+      "cad",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://floorgen.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "StrikerAPI",
+    "url": "https://strikerapi.com",
+    "description": "Soccer across 17 leagues: fixtures, lineups, match events with shot locations and xG, standings, Elo ratings and sportsbook odds history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "soccer",
+      "football",
+      "sports",
+      "xg",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/strikerapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.strikerapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "AcesAPI",
+    "url": "https://acesapi.com",
+    "description": "ATP and WTA tennis since 2007: results with every set, draws, rankings, head to head, surface splits and Elo ratings.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "tennis",
+      "atp",
+      "wta",
+      "sports",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/acesapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.acesapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "YorkerAPI",
+    "url": "https://yorkerapi.com",
+    "description": "Cricket ball by ball in every format, men's and women's: batting and bowling cards, player splits, Elo ratings and match odds.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "cricket",
+      "sports",
+      "ball-by-ball",
+      "ratings",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/yorkerapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.yorkerapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "EndzoneAPI",
+    "url": "https://endzoneapi.com",
+    "description": "NFL and college football since 1999: play-by-play with EPA, stats, injuries, depth charts, snap counts and sportsbook odds history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "nfl",
+      "football",
+      "sports",
+      "epa",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/endzoneapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.endzoneapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "PuckAPI",
+    "url": "https://puckapi.com",
+    "description": "NHL play-by-play with rink coordinates, xG and goalie stats, plus AHL, PWHL and junior leagues, standings and sportsbook odds history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "nhl",
+      "hockey",
+      "sports",
+      "play-by-play",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/PuckAPI/mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.puckapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "DunkAPI",
+    "url": "https://dunkapi.com",
+    "description": "NBA, WNBA and college basketball: play-by-play with shot locations, box scores, ratings and sportsbook odds and player prop history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "nba",
+      "basketball",
+      "sports",
+      "shot-charts",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/dunkapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.dunkapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Spica Post",
+    "url": "https://spicapost.com/reference/",
+    "description": "Social media scheduler for small businesses and creators: your AI assistant drafts a post per network, checks it against each network's rules, and schedules or publishes it once you approve.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "ML Apps LLC",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/unbowedgod/spica-post-mcp",
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://app.spicapost.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "Contha",
+    "url": "https://contha.com/ai?ref=mcphq",
+    "description": "Personal and small-business books: ask Claude what you can spend, what you owe in US tax (Schedule C) and where money went. 22 read tools, 6 write tools; it cannot move money.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "OWSH Unlimited LLC",
+    "tags": [
+      "finance",
+      "bookkeeping",
+      "budgeting",
+      "tax",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/contha-claude",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://app.contha.com/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "FighterAPI",
+    "url": "https://fighterapi.com",
+    "description": "UFC fights since 2000: results, round-by-round stat sheets, fighter records, Elo ratings and moneyline history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "ufc",
+      "mma",
+      "sports",
+      "fight-data",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/fighterapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.fighterapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "FastballAPI",
+    "url": "https://fastballapi.com",
+    "description": "MLB since 2015 plus college baseball: pitch-by-pitch data, plate appearances, box scores, ratings and sportsbook odds history.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "mlb",
+      "baseball",
+      "sports",
+      "pitch-data",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/fastballapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.fastballapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "BirdieAPI",
+    "url": "https://birdieapi.com",
+    "description": "PGA Tour golf since 2001 plus LPGA, LIV, DP World and Korn Ferry: leaderboards, hole-by-hole scores, courses and strokes-versus-field ratings.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SportsDataHQ",
+    "tags": [
+      "golf",
+      "pga",
+      "sports",
+      "leaderboards",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/noahowsh/birdieapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.birdieapi.com/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Shager",
+    "url": "https://shager.ai/agents",
+    "description": "Hosted MCP server that lets an assistant schedule one post to many social accounts, each network at its own hour, answer comments, run auto-replies and report views, likes and clicks per post.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Shager",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "analytics",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "repository": "https://github.com/shagerai/shager-mcp",
+    "endpoints": {
+      "streamableHttp": "https://app.shager.ai/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
+    "name": "Competitor Ads (Google Ads Transparency + LinkedIn Ad Library)",
+    "url": "https://apify.com/dheerajitbhu/google-ads-transparency?utm_source=mcphq&utm_medium=directory&utm_campaign=google-ads-transparency",
+    "description": "Hosted MCP (Apify) returning competitor ad creatives from Google Ads Transparency Center and LinkedIn Ad Library by domain, advertiser, or keyword, with dates and formats.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "dheerajitbhu (Apify Store)",
+    "tags": [
+      "ad-library",
+      "google-ads",
+      "linkedin-ads",
+      "competitor-research",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=dheerajitbhu/google-ads-transparency,dheerajitbhu/linkedin-ad-library"
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "CheapCarRent search",
+    "url": "https://cheapcarent.com/developers",
+    "description": "Read-only remote MCP server that lists CheapCarRent pickup cities and airports and searches live car rental offers from local rental companies (15,000 pickup points in 46 countries).",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "CheapCarRent",
+    "tags": [
+      "car-rental",
+      "travel",
+      "search"
+    ],
+    "official": true,
+    "repository": "https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://cheapcarent.com/mcp"
+    }
+  },
+  {
+    "name": "ScraperSocial",
+    "url": "https://scrapersocial.com/mcp/",
+    "description": "Read-only tools for public social media data: profiles, posts, comments, search, reviews and video transcripts from TikTok, Instagram, LinkedIn, X, Reddit and 30+ platforms.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "ScraperSocial",
+    "tags": [
+      "social-media",
+      "scraping",
+      "transcripts",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.scrapersocial.com"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Shopify App Store Search (Apify)",
+    "url": "https://apify.com/dheerajitbhu/shopify-app-store?utm_source=mcphq&utm_medium=directory&utm_campaign=shopify-app-store",
+    "description": "Hosted MCP (Apify) that searches the Shopify App Store by keyword, category, or app URL and returns typed rows: rating, review count, pricing label, developer.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "dheerajitbhu (Apify Store)",
+    "tags": [
+      "shopify",
+      "app-store",
+      "ecommerce",
+      "market-research",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=dheerajitbhu/shopify-app-store"
+    },
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Fairquery Email Validator",
+    "url": "https://github.com/fairquery/email-validator-mx-disposable",
+    "description": "Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Fairquery",
+    "tags": [
+      "email",
+      "validation",
+      "mx",
+      "disposable"
+    ],
+    "official": true
+  },
+  {
+    "name": "Fairquery Website Tech, SEO & AI-Readiness",
+    "url": "https://github.com/fairquery/website-tech-seo-ai-readiness",
+    "description": "Seven free tools for a site's tech stack, SEO score, AI-crawler robots.txt rules, llms.txt, sitemap and security headers, plus an optional paid bulk audit.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Fairquery",
+    "tags": [
+      "seo",
+      "llms-txt",
+      "robots-txt",
+      "tech-stack"
+    ],
+    "official": true
+  },
+  {
+    "name": "Fairquery EDGAR",
+    "url": "https://github.com/fairquery/edgar-company-facts-filings",
+    "description": "SEC EDGAR filings and XBRL financial facts by ticker, CIK or company name, with five free tools that query sec.gov directly and an optional paid bulk export.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Fairquery",
+    "tags": [
+      "sec",
+      "edgar",
+      "xbrl",
+      "finance"
+    ],
+    "official": true
   }
 ]
