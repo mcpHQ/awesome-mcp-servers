@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-941-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-942-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (38)
 - [Communication and Productivity](#communication-and-productivity) (125)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (120)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (121)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (204)
@@ -1378,6 +1378,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `marketing` `ai-visibility` `compliance` `remote`
 - **[Vergabeweiser](https://vergabeweiser.de/api#mcp)** `PHP` — Hosted read-only MCP server for German public tenders and contract awards, with buyers, winners and award sums from open procurement data.  
   `public-tenders` `procurement` `germany` `contract-awards` `remote`
+- **[Viewlify](https://viewlify.app/tiktok-data-api)** `Official` `TypeScript` — TikTok videos that beat their creator's usual views, plus the videos, hashtags and sounds rising by niche, from public TikTok data (read only). ([source](https://github.com/benjaminb10/viewlify-mcp))  
+  `tiktok` `social-media` `analytics` `trends` `remote`
 - **[World Monitor](https://github.com/koala73/worldmonitor)** `Official` `TypeScript` — Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server.  
   `geopolitics` `news` `markets` `osint` `remote`
 - **[YorkerAPI](https://yorkerapi.com)** `Official` `JavaScript` — Cricket ball by ball in every format, men's and women's: batting and bowling cards, player splits, Elo ratings and match odds. ([source](https://github.com/noahowsh/yorkerapi-mcp))  
