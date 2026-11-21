@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 939 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 940 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -776,6 +776,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Chord](https://github.com/getchordlabs/chord): Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial. (TypeScript, official)
 - [Clera](https://github.com/getclera/mcp): Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server. (TypeScript, official)
 - [ClipperTask](https://clippertask.com/agents): The AI-native creator marketplace for gaming: game studios, apps and brands pay gaming creators per 1,000 verified views; AI creators and people's AI agents work it too. (Python, official)
+- [Common Room Booking Platform](https://www.common-room.hk/mcp): Official read-only MCP server of common-room.hk, a Hong Kong venue booking site, for finding hourly hotels, party rooms, event venues, private dining rooms and boats with prices and hotel availability. (JavaScript, official)
 - [Contha](https://contha.com/ai?ref=mcphq): Personal and small-business books: ask Claude what you can spend, what you owe in US tax (Schedule C) and where money went. 22 read tools, 6 write tools; it cannot move money. (Other, official)
 - [CorpusIQ](https://docs.corpusiq.io?utm_source=mcphq&utm_medium=listing): Remote MCP server for live business data: read-only retrieval across 40+ connected systems including Stripe, Shopify, QuickBooks, HubSpot and GA4, with source-cited answers and OAuth 2.1 dynamic client registration. (Other, official)
 - [CreditUnions](https://creditunions.fyi): Query federally insured US credit unions from NCUA call report data by city and state: charter, field of membership, assets, members and branches. (TypeScript)
