@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-922-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-923-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (110)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (200)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (201)
 - [Utilities and Examples](#utilities-and-examples) (48)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1559,6 +1559,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `automotive` `car-dealer` `listings` `checklist` `remote`
 - **[CartViral](https://cartviral.com/mcp)** `Official` `TypeScript` — Hosted server that imports products from a store or product link and makes AI product videos for TikTok, Reels and Shorts, product photos, carousels, static ads and listing copy, returning download links. ([source](https://github.com/artemecom/cartviral-mcp))  
   `ecommerce` `video` `marketing` `remote` `oauth`
+- **[CheapCarRent search](https://cheapcarent.com/developers)** `Official` `JavaScript` — Read-only remote MCP server that lists CheapCarRent pickup cities and airports and searches live car rental offers from local rental companies (15,000 pickup points in 46 countries). ([source](https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp))  
+  `car-rental` `travel` `search`
 - **[Checkout Page](https://checkoutpage.com/mcp?utm_source=mcphq&utm_medium=listing)** `Official` `TypeScript` — Create and manage checkout pages, events, forms, products, coupons, customers, payments and subscriptions on Checkout Page, a checkout platform on Stripe Connect, over remote Streamable HTTP with OAuth.  
   `payments` `ecommerce` `events` `stripe` `remote`
 - **[Chord](https://github.com/getchordlabs/chord)** `Official` `TypeScript` — Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial.  
