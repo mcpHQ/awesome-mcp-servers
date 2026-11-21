@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-918-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-921-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,15 +44,15 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (93)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (89)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (90)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
-- [Communication and Productivity](#communication-and-productivity) (122)
+- [Communication and Productivity](#communication-and-productivity) (123)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (109)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (199)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (200)
 - [Utilities and Examples](#utilities-and-examples) (48)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -413,6 +413,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `browser-automation` `chrome` `self-hosted` `human-in-the-loop`
 - **[Exa MCP Server](https://github.com/exa-labs/exa-mcp-server)** `Official` `TypeScript` — Neural and keyword web search optimized for AI research workflows.  
   `search` `research` `web`
+- **[Fairquery Website Tech, SEO & AI-Readiness](https://github.com/fairquery/website-tech-seo-ai-readiness)** `Official` `TypeScript` — Seven free tools for a site's tech stack, SEO score, AI-crawler robots.txt rules, llms.txt, sitemap and security headers, plus an optional paid bulk audit.  
+  `seo` `llms-txt` `robots-txt` `tech-stack`
 - **[FindAIforWork](https://findaiforwork.com/llms.txt)** `Official` `TypeScript` — Read-only MCP server for a human-reviewed AI tools directory organized by work scenario: search tools, list categories, read listing details and compare tools; no account or API key.  
   `search` `directory` `ai-tools` `remote`
 - **[Firecrawl MCP Server](https://github.com/mendableai/firecrawl-mcp-server)** `Official` `TypeScript` — Scrape, crawl, and extract structured web data with Firecrawl.  
@@ -738,6 +740,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `productivity` `pdf` `image` `video` `remote`
 - **[Faceless](https://faceless.so)** `Official` `TypeScript` — Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).  
   `video` `social-media` `publishing` `remote`
+- **[Fairquery Email Validator](https://github.com/fairquery/email-validator-mx-disposable)** `Official` `TypeScript` — Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks.  
+  `email` `validation` `mx` `disposable`
 - **[FairValid](https://fairvalid.com/en/help/mcp)** `Official` `Other` — Verify email addresses, read verification jobs and find verified work emails with FairMatch through the official hosted MCP connector. ([source](https://github.com/moonlitnayeem/fairvalid-ai))  
   `email-verification` `sales` `remote`
 - **[Fax for Agents](https://github.com/faxforagents/mcp)** `Official` `TypeScript` — Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence.  
@@ -1605,6 +1609,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `commercial-real-estate` `calculators` `finance` `remote` `audit-trail`
 - **[Fair Value Calculator](https://www.fairvalue-calculator.com/integrations)** `Official` `PHP` — Remote MCP that gives Claude or ChatGPT fair value estimates from 26 valuation models, quality scores and screeners for 40,000+ listed stocks, plus the user's own watchlist and alerts.  
   `stocks` `valuation` `investing` `remote` `oauth`
+- **[Fairquery EDGAR](https://github.com/fairquery/edgar-company-facts-filings)** `Official` `TypeScript` — SEC EDGAR filings and XBRL financial facts by ticker, CIK or company name, with five free tools that query sec.gov directly and an optional paid bulk export.  
+  `sec` `edgar` `xbrl` `finance`
 - **[Feminiq Rides](https://www.feminiqrides.nl/llms.txt)** `Official` `JavaScript` — Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request.  
   `travel` `taxi` `booking` `remote`
 - **[Fin Codes API](https://fincodesapi.com/mcp-server)** `Official` `PHP` — Validate IBANs and bank codes, verify payee names, and screen names against sanctions lists through an authenticated hosted MCP server.  
