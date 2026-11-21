@@ -12632,6 +12632,39 @@
     ]
   },
   {
+    "name": "I2v.ai MCP Server",
+    "url": "https://i2v.ai/docs/mcp",
+    "description": "Generate images and videos with 12 image models and 16 video models through 13 tools covering cost estimates, capped job submission, polling, and usage.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "I2v.ai",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "media",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/i2v-ai/i2v-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@i2v-ai/cli"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://i2v.ai/api/mcp"
+    }
+  },
+  {
     "name": "Synci",
     "url": "https://github.com/synciio/synci-mcp",
     "description": "Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health.",
