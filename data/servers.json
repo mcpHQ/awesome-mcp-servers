@@ -12197,6 +12197,40 @@
     ]
   },
   {
+    "name": "I2v.ai",
+    "url": "https://i2v.ai/docs/mcp",
+    "description": "Generate images and videos from a prompt across 12 image and 16 video models, with model discovery and per-job USD cost quoting.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "I2v.ai",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "media",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/i2v-ai/i2v-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://i2v.ai/api/mcp"
+    },
+    "install": {
+      "command": "npx",
+      "package": "@i2v-ai/cli"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "verified": "2026-11-21"
+  },
+  {
     "name": "Sourcegraph Cody MCP",
     "url": "https://sourcegraph.com/docs/api/mcp",
     "description": "Code intelligence and search across large codebases with Cody.",
