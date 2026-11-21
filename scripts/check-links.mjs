@@ -49,6 +49,9 @@ function collectFromServersJson() {
   );
   for (const server of servers) {
     addLink(server.url, `servers.json (${server.name})`);
+    if (server.repository) {
+      addLink(server.repository, `servers.json (${server.name} repository)`);
+    }
   }
 }
 
@@ -134,7 +137,7 @@ async function checkLink(url) {
     }
 
     // Authentication and method restrictions still prove the target exists.
-    if ([401, 403, 405].includes(response.status)) {
+    if ([401, 403, 405, 429].includes(response.status)) {
       return { ok: true };
     }
 

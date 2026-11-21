@@ -63,5 +63,10 @@
     "id": "utilities-and-examples",
     "name": "Utilities and Examples",
     "description": "Helpful utilities, templates, and starter servers for learning MCP."
+  },
+  {
+    "id": "logistics-and-shipping",
+    "name": "Logistics and Shipping",
+    "description": "Freight and parcel shipping, carrier rates, shipment tracking, and supply chain operations."
   }
 ]

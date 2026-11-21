@@ -74,7 +74,7 @@ function compareServers(left, right) {
 function renderLlms() {
   const data = `## Data
 
-- [Full catalog](${siteUrl}/llms-full.txt): Every server in Markdown, with language, provider, tags, official status, and remote endpoints when listed.
+- [Full catalog](${siteUrl}/llms-full.txt): Every server in Markdown, with language, provider, tags, official status, and, when listed, repository, license, pricing, transport, auth, install, and remote endpoints.
 - [Servers JSON](${siteUrl}/api/servers.json): The same catalog as a JSON array.
 - [Categories JSON](${siteUrl}/api/categories.json): Category ids, names, and descriptions.
 - [Server schema](${repoUrl}/blob/main/data/servers.schema.json): Allowed fields for each catalog entry.`;
@@ -106,7 +106,7 @@ function renderLlms() {
 
   return `# Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of ${servers.length} Model Context Protocol (MCP) servers in ${activeCategories.length} categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of ${servers.length} Model Context Protocol (MCP) servers in ${activeCategories.length} categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -138,6 +138,27 @@ function renderLlmsFull() {
             `- Tags: ${server.tags.join(", ")}`,
             `- Category: ${category.name}`,
           ];
+          if (server.repository && server.repository !== server.url) {
+            lines.push(`- Repository: ${server.repository}`);
+          }
+          if (server.license) {
+            lines.push(`- License: ${server.license}`);
+          }
+          if (server.pricing) {
+            lines.push(`- Pricing: ${server.pricing}`);
+          }
+          if (server.transport?.length) {
+            lines.push(`- Transport: ${server.transport.join(", ")}`);
+          }
+          if (server.auth?.length) {
+            lines.push(`- Auth: ${server.auth.join(", ")}`);
+          }
+          if (server.install) {
+            lines.push(`- Install: ${server.install.command} ${server.install.package}`);
+          }
+          if (server.verified) {
+            lines.push(`- Verified: ${server.verified}`);
+          }
           if (server.endpoints?.sse) {
             lines.push(`- SSE endpoint: ${server.endpoints.sse}`);
           }
@@ -162,7 +183,7 @@ ${rows}`;
 
 > Full Markdown catalog of ${servers.length} hand-curated Model Context Protocol (MCP) servers. A shorter index lives at ${siteUrl}/llms.txt. The same records are published as JSON at ${siteUrl}/api/servers.json.
 
-This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. \`Official: yes\` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
+This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. \`Official: yes\` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
 ${sections}
 `;

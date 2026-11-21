@@ -23,6 +23,25 @@ export function transportOf(endpoints) {
   return null;
 }
 
+/** Args a local client should pass for a catalog install record. */
+export function installArgs(install) {
+  if (install.command === "npx") return ["-y", install.package];
+  if (install.command === "docker") return ["run", "-i", "--rm", install.package];
+  return [install.package];
+}
+
+export function installCommand(install) {
+  return [install.command, ...installArgs(install)].join(" ");
+}
+
+export function localConfig(key, install) {
+  return JSON.stringify(
+    { mcpServers: { [key]: { command: install.command, args: installArgs(install) } } },
+    null,
+    2
+  );
+}
+
 function mcpRemote(url) {
   return { command: "npx", args: ["-y", "mcp-remote", url] };
 }

@@ -206,5 +206,10 @@
   "agproxy": "domain-agproxy-shveik-dev.svg",
   "agvps": "domain-agvps-shveik-dev.svg",
   "SEAL MCP": "domain-seal-net.svg",
-  "AcqPath": "github-reflectme-source.svg"
+  "AcqPath": "github-reflectme-source.svg",
+  "Nitrosend": "nitrosend.svg",
+  "Runx": "runx.svg",
+  "Sourcey": "sourcey.svg",
+  "Frantic": "frantic.svg",
+  "Ausca": "ausca.svg"
 }

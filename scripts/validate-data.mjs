@@ -120,6 +120,27 @@ if (!Array.isArray(servers)) {
     validateDescription(server.description, `${label}.description`);
     validateTags(server.tags, label);
     validateHttpUrl(server.url, `${label}.url`);
+    validateRepository(server.repository, label);
+    validateEnum(server.license, "license", label);
+    validateEnum(server.pricing, "pricing", label);
+    validateStringArray(server.transport, "transport", label);
+    validateInstall(server.install, label);
+    validateStringArray(server.auth, "auth", label);
+    validateVerified(server.verified, label);
+
+    if (
+      server.endpoints?.streamableHttp &&
+      !server.transport?.includes("streamable-http")
+    ) {
+      errors.push(
+        `${label}: endpoints.streamableHttp requires transport to include "streamable-http"`
+      );
+    }
+    if (server.endpoints?.sse && !server.transport?.includes("sse")) {
+      errors.push(
+        `${label}: endpoints.sse requires transport to include "sse"`
+      );
+    }
 
     if (
       server.order !== undefined &&
@@ -217,6 +238,129 @@ function normalizeUrl(value) {
     return parsed.toString();
   } catch {
     return null;
+  }
+}
+
+function validateEnum(value, field, label) {
+  if (value === undefined) {
+    return;
+  }
+  const allowed = new Set(serverSchema.items.properties[field].enum);
+  if (!allowed.has(value)) {
+    errors.push(`${label}: unsupported ${field} "${value}"`);
+  }
+}
+
+function validateStringArray(value, field, label) {
+  if (value === undefined) {
+    return;
+  }
+  const schema = serverSchema.items.properties[field];
+  const allowed = new Set(schema.items.enum);
+  if (!Array.isArray(value)) {
+    errors.push(`${label}: "${field}" must be an array`);
+    return;
+  }
+  if (value.length < schema.minItems || value.length > schema.maxItems) {
+    errors.push(
+      `${label}: "${field}" must contain ${schema.minItems}–${schema.maxItems} items`
+    );
+  }
+  const seen = new Set();
+  for (const item of value) {
+    if (!allowed.has(item)) {
+      errors.push(`${label}: unsupported ${field} "${item}"`);
+    }
+    if (seen.has(item)) {
+      errors.push(`${label}: duplicate ${field} "${item}"`);
+    }
+    seen.add(item);
+  }
+}
+
+function validateRepository(value, label) {
+  if (value === undefined) {
+    return;
+  }
+  validateHttpUrl(value, `${label}.repository`);
+  let parsed;
+  try {
+    parsed = new URL(value);
+  } catch {
+    return;
+  }
+  if (parsed.protocol !== "https:") {
+    errors.push(`${label}: "repository" must use https`);
+  }
+  const host = parsed.hostname.replace(/^www\./, "").toLowerCase();
+  if (host === "github.com") {
+    const parts = parsed.pathname.split("/").filter(Boolean);
+    if (parts.length !== 2 || parts.some((part) => part === "." || part === "..")) {
+      errors.push(
+        `${label}: GitHub repository must be https://github.com/owner/name`
+      );
+    }
+  }
+}
+
+function validateInstall(value, label) {
+  if (value === undefined) {
+    return;
+  }
+  const schema = serverSchema.items.properties.install;
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    errors.push(`${label}: "install" must be an object`);
+    return;
+  }
+  for (const field of Object.keys(value)) {
+    if (!Object.hasOwn(schema.properties, field)) {
+      errors.push(`${label}: unknown install field "${field}"`);
+    }
+  }
+  for (const field of schema.required) {
+    if (value[field] === undefined) {
+      errors.push(`${label}: install missing "${field}"`);
+    }
+  }
+  const commands = new Set(schema.properties.command.enum);
+  if (value.command !== undefined && !commands.has(value.command)) {
+    errors.push(`${label}: unsupported install command "${value.command}"`);
+  }
+  const packagePattern = new RegExp(schema.properties.package.pattern);
+  if (
+    value.package !== undefined &&
+    (typeof value.package !== "string" ||
+      value.package.length < schema.properties.package.minLength ||
+      value.package.length > schema.properties.package.maxLength ||
+      !packagePattern.test(value.package))
+  ) {
+    errors.push(
+      `${label}: install package must be a single token, 1–200 characters`
+    );
+  }
+}
+
+function validateVerified(value, label) {
+  if (value === undefined) {
+    return;
+  }
+  if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    errors.push(`${label}: "verified" must be a YYYY-MM-DD date`);
+    return;
+  }
+  const [year, month, day] = value.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  const valid =
+    date.getUTCFullYear() === year &&
+    date.getUTCMonth() === month - 1 &&
+    date.getUTCDate() === day;
+  if (!valid) {
+    errors.push(`${label}: "verified" is not a real date`);
+    return;
+  }
+  const today = new Date().toISOString().slice(0, 10);
+  if (value > today) {
+    errors.push(`${label}: "verified" cannot be in the future`);
   }
 }
 
