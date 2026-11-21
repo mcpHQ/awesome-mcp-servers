@@ -9274,6 +9274,33 @@
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
   },
   {
+    "name": "Converter Studio",
+    "url": "https://converter.studio/developers",
+    "description": "Hosted file converter for video, audio, images, PDFs, documents, e-books, subtitles, data and archives in 67 formats: send a link or a file and get a download link back, kept for 6 hours; API key as Bearer token.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "Converter Studio",
+    "tags": [
+      "file-conversion",
+      "video",
+      "pdf",
+      "documents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://converter.studio/api/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "xmcp",
     "url": "https://xmcp.dev",
     "description": "Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server.",
