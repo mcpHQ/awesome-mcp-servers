@@ -19218,7 +19218,7 @@
     "name": "RoboWrite",
     "url": "https://www.robowrite.ai/guides/robowrite-mcp",
     "repository": "https://github.com/RoboAdApp/robowrite-plugin",
-    "description": "SEO/GEO content grounded in keyword research, competitor insights, brand voice, and knowledge.",
+    "description": "Use keyword research, competitor insights, brand voice, and context from your workspace knowledge base for editorial briefs and SEO/GEO content generation, or find and revise saved Markdown drafts.",
     "category": "communication-and-productivity",
     "language": "TypeScript",
     "provider": "M Powered Ventures",
