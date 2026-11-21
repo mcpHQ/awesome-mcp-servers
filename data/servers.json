@@ -7657,6 +7657,33 @@
     ]
   },
   {
+    "name": "lemlist",
+    "url": "https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key",
+    "description": "Official hosted lemlist server: run multichannel outreach campaigns, build email and LinkedIn sequences, add and search leads, read campaign stats and check sending-domain deliverability; OAuth or API key.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "lemlist",
+    "tags": [
+      "sales",
+      "outreach",
+      "cold-email",
+      "linkedin",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.lemlist.com/mcp"
+    },
+    "repository": "https://github.com/l3mpire/lemlist-plugin",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
     "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
