@@ -10524,6 +10524,33 @@
     "repository": "https://github.com/paypal/agent-toolkit"
   },
   {
+    "name": "Emero",
+    "url": "https://www.emero.studio",
+    "description": "Hosted MCP that lets ChatGPT, Claude and other assistants make images, video, music and speech with Kling, Seedance, Nano Banana Pro and GPT Image, plus a brand memory reused across prompts.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Emero",
+    "tags": [
+      "ai-video",
+      "image-generation",
+      "audio-generation",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.emero.studio/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "repository": "https://github.com/EmeroAI/emero-mcp",
+    "pricing": "paid",
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "PDF MCP Server",
     "url": "https://github.com/jztan/pdf-mcp",
     "description": "Extract text and metadata from PDF documents for analysis.",
