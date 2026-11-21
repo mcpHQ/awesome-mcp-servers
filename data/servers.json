@@ -9513,6 +9513,31 @@
     ]
   },
   {
+    "name": "Common Room Booking Platform",
+    "url": "https://www.common-room.hk/mcp",
+    "description": "Official read-only MCP server of common-room.hk, a Hong Kong venue booking site, for finding hourly hotels, party rooms, event venues, private dining rooms and boats with prices and hotel availability.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "MT Technology Group Limited (common-room.hk)",
+    "tags": [
+      "hong-kong",
+      "venues",
+      "booking",
+      "hotels",
+      "travel"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.common-room.hk/mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "mem0 MCP Server",
     "url": "https://docs.mem0.ai/platform/mem0-mcp",
     "description": "Hosted persistent memory layer for personalized agent interactions.",
