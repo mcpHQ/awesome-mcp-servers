@@ -10,6 +10,7 @@
     "check-generated": "node scripts/generate-readme.mjs --check && node scripts/generate-llms.mjs --check",
     "fetch-logos": "node scripts/fetch-logos.mjs",
     "build-site": "node scripts/build-site.mjs",
+    "test:site-guidance": "node --test scripts/site-guidance.test.mjs",
     "serve-site": "node scripts/serve-site.mjs",
     "dev": "node scripts/build-site.mjs && node scripts/serve-site.mjs",
     "check-links": "node scripts/check-links.mjs",
