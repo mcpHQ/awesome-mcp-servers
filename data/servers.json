@@ -9104,6 +9104,32 @@
     "repository": "https://github.com/modelcontextprotocol/python-sdk"
   },
   {
+    "name": "OpenShorts.io MCP",
+    "url": "https://openshorts.io/api",
+    "description": "Clip long videos into captioned shorts and retrieve job status and usage through a hosted MCP server.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "OpenShorts.io",
+    "tags": [
+      "video",
+      "shorts",
+      "ai-video",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/xspring1982/openshorts-oss",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://openshorts.io/api/mcp"
+    }
+  },
+  {
     "name": "AgentFEM MCP",
     "url": "https://github.com/haoming-luo/agentfem-mcp",
     "description": "Create, validate and run finite-element projects and inspect numerical results through local stdio tools, with a separately installed compatible AgentFEM scientific runtime.",
