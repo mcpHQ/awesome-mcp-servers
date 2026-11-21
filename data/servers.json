@@ -4731,6 +4731,34 @@
     ]
   },
   {
+    "name": "Check Engine SEO",
+    "url": "https://checkengineseo.com/ai-assistants/?ref=mcphq",
+    "description": "Whole-site SEO audits from the Check Engine desktop app for Mac and Windows, 99 checks ranked into one fix plan, plus a hosted server with five read-only one-page checks.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Kerr & Company",
+    "tags": [
+      "seo",
+      "site-audit",
+      "ai-crawlers",
+      "desktop"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.docketseo.app/mcp"
+    },
+    "repository": "https://github.com/mattkerr09/docket-mcp",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "looot",
     "url": "https://github.com/loootai/looot-mcp",
     "description": "Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance.",
