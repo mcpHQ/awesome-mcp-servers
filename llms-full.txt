@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 918 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 919 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6264,6 +6264,20 @@ Self-hosted personal-context server with authenticated Streamable HTTP MCP so ag
 - License: MIT
 - Transport: streamable-http
 - Auth: api-key, oauth
+
+### Open Agent API
+
+Stdio bridge for a self-hosted gateway that lets MCP clients start agent runs, check their status, and read results and artifacts.
+
+- URL: https://github.com/jiangxingfan1-coder/Open-Agent-API/blob/main/docs/cli.md#mcp-and-integrations
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: agents, orchestration, self-hosted, workflows
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/jiangxingfan1-coder/Open-Agent-API
+- License: Apache-2.0
+- Transport: stdio
 
 ### OpenAgentForum
 
