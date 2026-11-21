@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-926-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-935-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
 - [Communication and Productivity](#communication-and-productivity) (124)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (111)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (120)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (42)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (202)
@@ -1142,6 +1142,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
 
 - **[10ML Perfume Finder](https://github.com/10ml-com/perfume-finder-mcp)** `Official` `Other` — Free perfume knowledge for AI assistants: notes, accords and families for 6,000+ perfumes, similar scents and decant prices. Remote, read-only, no key.  
   `perfume` `fragrance` `reference-data` `remote`
+- **[AcesAPI](https://acesapi.com)** `Official` `JavaScript` — ATP and WTA tennis since 2007: results with every set, draws, rankings, head to head, surface splits and Elo ratings. ([source](https://github.com/noahowsh/acesapi-mcp))  
+  `tennis` `atp` `wta` `sports` `remote`
 - **[Adspy](https://www.adspy.sh)** `Official` `Other` — Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.  
   `ad-library` `meta-ads` `google-ads` `competitor-research` `remote`
 - **[AgenticWebScore](https://github.com/marifeting/agenticwebscore-mcp)** `Official` `TypeScript` — Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.  
@@ -1170,6 +1172,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `bi` `dashboards` `sql`
 - **[BatchData](https://github.com/batchdataco/batchdata-mcp-server)** `Official` `Other` — Hosted MCP server for U.S. property data: property search, comps, owner skip tracing, and phone and address verification. OAuth 2.1 or API token.  
   `real-estate` `property-data` `skip-tracing` `remote` `oauth`
+- **[BirdieAPI](https://birdieapi.com)** `Official` `JavaScript` — PGA Tour golf since 2001 plus LPGA, LIV, DP World and Korn Ferry: leaderboards, hole-by-hole scores, courses and strokes-versus-field ratings. ([source](https://github.com/noahowsh/birdieapi-mcp))  
+  `golf` `pga` `sports` `leaderboards` `remote`
 - **[Blawgy](https://github.com/adamgusky/blawgy-mcp)** `Official` `JavaScript` — Hosted SEO blog server that researches keywords, manages the content plan, writes and refreshes articles, reads Search Console traffic, and publishes to WordPress, Shopify, Webflow, Wix, Framer, Ghost or Duda via OAuth or API key.  
   `seo` `blogging` `content` `wordpress` `remote`
 - **[BOIM (보임)](https://github.com/kikiyop1101/boim-mcp)** `Official` `Other` — Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.  
@@ -1202,14 +1206,22 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `dbt` `analytics` `transform`
 - **[DC Hub](https://github.com/azmartone67/dchub-mcp-server)** `Official` `JavaScript` — Orchestration layer for data center and energy intelligence: start with execute_plan for electricity prices and power grid questions. Publishes DCPI scores for 300+ markets and live feeds from seven US ISOs. 96 tools; API key optional.  
   `data-centers` `electricity-prices` `power-grid` `site-selection` `remote`
+- **[DunkAPI](https://dunkapi.com)** `Official` `JavaScript` — NBA, WNBA and college basketball: play-by-play with shot locations, box scores, ratings and sportsbook odds and player prop history. ([source](https://github.com/noahowsh/dunkapi-mcp))  
+  `nba` `basketball` `sports` `shot-charts` `remote`
 - **[Eigenheim Berlin Market Data](https://github.com/magicSEO/eigenheim-mcp)** `Official` `TypeScript` — Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.  
   `real-estate` `berlin` `market-data` `remote`
+- **[EndzoneAPI](https://endzoneapi.com)** `Official` `JavaScript` — NFL and college football since 1999: play-by-play with EPA, stats, injuries, depth charts, snap counts and sportsbook odds history. ([source](https://github.com/noahowsh/endzoneapi-mcp))  
+  `nfl` `football` `sports` `epa` `remote`
 - **[EventSend](https://eventsend.io/docs/mcp)** `Official` `Other` — Ask your AI about your product's events, delivery health and usage: search events, follow a customer's timeline, and see why a Slack, Discord or webhook notification failed. Read-only, over OAuth.  
   `events` `observability` `notifications` `oauth` `remote`
 - **[ExtensionDash](https://extensiondash.com/)** `Official` `Ruby` — Query Chrome and Firefox extension users, ratings, and search-rank data through ExtensionDash's hosted MCP server with OAuth authentication.  
   `browser-extensions` `analytics` `chrome` `firefox` `remote`
+- **[FastballAPI](https://fastballapi.com)** `Official` `JavaScript` — MLB since 2015 plus college baseball: pitch-by-pitch data, plate appearances, box scores, ratings and sportsbook odds history. ([source](https://github.com/noahowsh/fastballapi-mcp))  
+  `mlb` `baseball` `sports` `pitch-data` `remote`
 - **[Fictura](https://docs.fictura.co/connections/outgoing/mcp-server)** `Official` `TypeScript` — Hosted MCP server for Fictura: paywalls, onboarding, subscription analytics, A/B experiments, attribution and errors for Expo and React Native apps, with draft-only editing.  
   `mobile-apps` `subscriptions` `paywalls` `analytics` `attribution`
+- **[FighterAPI](https://fighterapi.com)** `Official` `JavaScript` — UFC fights since 2000: results, round-by-round stat sheets, fighter records, Elo ratings and moneyline history. ([source](https://github.com/noahowsh/fighterapi-mcp))  
+  `ufc` `mma` `sports` `fight-data` `remote`
 - **[FlightQueue](https://flightqueue.com/mcp)** `Official` `Other` — Airport security wait times, forecasts, FAA delays, EES border queues and baggage stats for 8,000+ airports over a hosted MCP server.  
   `travel` `airports` `wait-times` `flight-delays`
 - **[Flood Zone Lookup FEMA Flood Map MCP](https://github.com/theluckystrike/flood-zone-lookup-fema-flood-map-mcp)** `TypeScript` — FEMA flood zone, Special Flood Hazard Area status, base flood elevation, FIRM panel and nearby floodplain for any US address from the National Flood Hazard Layer.  
@@ -1304,6 +1316,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `finance` `markets` `economics` `remote`
 - **[Proofsource](https://proofsource.co/docs/chatgpt-and-claude)** `Official` `Go` — Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth.  
   `ai-visibility` `geo` `aeo` `marketing` `remote`
+- **[PuckAPI](https://puckapi.com)** `Official` `JavaScript` — NHL play-by-play with rink coordinates, xG and goalie stats, plus AHL, PWHL and junior leagues, standings and sportsbook odds history. ([source](https://github.com/PuckAPI/mcp))  
+  `nhl` `hockey` `sports` `play-by-play` `remote`
 - **[QuestionPunk](https://www.questionpunk.com/features/mcp-server)** `Official` `TypeScript` — Create, edit and publish surveys and AI-moderated interviews, then read responses and reports through a hosted MCP server.  
   `surveys` `research` `interviews` `remote`
 - **[Recall Kitchen](https://github.com/Recall-Kitchen/rk-mcp)** `Official` `Go` — Hosted MCP server that searches government product recall notices from CPSC, FDA, USDA, NHTSA and Health Canada by keyword, UPC, product name or vehicle, and fetches a full notice; free API key or anonymous x402 pay-per-call.  
@@ -1344,6 +1358,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `sports` `betting` `odds` `remote`
 - **[StatOrigin](https://statorigin.org/docs/mcp)** `Official` `Other` — Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence.  
   `statistics` `open-data` `citations` `remote`
+- **[StrikerAPI](https://strikerapi.com)** `Official` `JavaScript` — Soccer across 17 leagues: fixtures, lineups, match events with shot locations and xG, standings, Elo ratings and sportsbook odds history. ([source](https://github.com/noahowsh/strikerapi-mcp))  
+  `soccer` `football` `sports` `xg` `remote`
 - **[Tectova Runway Records](https://tectova.com/tools/mcp)** `Official` `TypeScript` — Read-only remote MCP server for fashion runway records: models' careers, show casts, house histories and models by country.  
   `fashion` `runway` `fashion-week` `models`
 - **[Trends MCP](https://github.com/trendsmcp-ai/Trends-MCP)** `Official` `Python` — Gives AI assistants trend data (search interest over time, growth percentages and live top-trends boards) from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, npm, Steam and app stores through one remote MCP server.  
@@ -1358,6 +1374,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `public-tenders` `procurement` `germany` `contract-awards` `remote`
 - **[World Monitor](https://github.com/koala73/worldmonitor)** `Official` `TypeScript` — Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server.  
   `geopolitics` `news` `markets` `osint` `remote`
+- **[YorkerAPI](https://yorkerapi.com)** `Official` `JavaScript` — Cricket ball by ball in every format, men's and women's: batting and bowling cards, player splits, Elo ratings and match odds. ([source](https://github.com/noahowsh/yorkerapi-mcp))  
+  `cricket` `sports` `ball-by-ball` `ratings` `remote`
 - **[zaDojo](https://zadojo.com/docs/mcp)** `Official` `TypeScript` — Free Google Search Console, Google Analytics and site audits, plus pay-as-you-go SERP, keyword research, rank tracking and AI visibility tracking for ChatGPT, Gemini, Perplexity and Google AI Overviews. ([source](https://github.com/zaDojo/seo-geo-mcp))  
   `seo` `geo` `google-search-console` `google-analytics` `remote`
 - **[Zip-Codes.com ZIP & Postal Code MCP](https://www.zip-codes.com/api/mcp)** `Official` `C#` — Validates and standardizes US street addresses to ZIP+4 and looks up US ZIP Codes and Canadian postal codes, with optional census tract demographics, county and district overlaps, radius search and distance.  
