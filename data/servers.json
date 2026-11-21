@@ -9696,6 +9696,32 @@
     "repository": "https://github.com/motherduckdb/mcp-server-motherduck"
   },
   {
+    "name": "CheapCarRent search",
+    "url": "https://cheapcarent.com/developers",
+    "description": "Read-only remote MCP server that lists CheapCarRent pickup cities and airports and searches live car rental offers from local rental companies (15,000 pickup points in 46 countries).",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "CheapCarRent",
+    "tags": [
+      "car-rental",
+      "travel",
+      "search"
+    ],
+    "official": true,
+    "repository": "https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://cheapcarent.com/mcp"
+    }
+  },
+  {
     "name": "MuAPI MCP Server",
     "url": "https://muapi.ai/docs/mcp",
     "description": "Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.",
@@ -10417,30 +10443,31 @@
     ]
   },
   {
-    "name": "Perq",
-    "url": "https://perq.sh",
-    "description": "Remote MCP server and agent skill for looking up verified free AI credits, startup programs and perks, each with a source link and last-verified date.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Other",
-    "provider": "Avatar 8 LLC",
+    "name": "ScraperSocial",
+    "url": "https://scrapersocial.com/mcp/",
+    "description": "Read-only tools for public social media data: profiles, posts, comments, search, reviews and video transcripts from TikTok, Instagram, LinkedIn, X, Reddit and 30+ platforms.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "ScraperSocial",
     "tags": [
-      "credits",
-      "startup-perks",
-      "free-tier",
-      "directory"
+      "social-media",
+      "scraping",
+      "transcripts",
+      "remote",
+      "oauth"
     ],
     "official": true,
-    "repository": "https://github.com/f-o-x11/perq-skill",
-    "license": "MIT",
-    "pricing": "free",
+    "license": "proprietary",
+    "pricing": "freemium",
     "endpoints": {
-      "streamableHttp": "https://perq.sh/mcp"
+      "streamableHttp": "https://mcp.scrapersocial.com"
     },
     "transport": [
       "streamable-http"
     ],
     "auth": [
-      "none"
+      "oauth",
+      "api-key"
     ]
   },
   {
@@ -20522,5 +20549,77 @@
     "endpoints": {
       "streamableHttp": "https://app.verand.ai/mcp"
     }
+  },
+  {
+    "name": "Fairquery Email Validator",
+    "url": "https://github.com/fairquery/email-validator-mx-disposable",
+    "description": "Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Fairquery",
+    "tags": [
+      "email",
+      "validation",
+      "mx",
+      "disposable"
+    ],
+    "official": true
+  },
+  {
+    "name": "Fairquery Website Tech, SEO & AI-Readiness",
+    "url": "https://github.com/fairquery/website-tech-seo-ai-readiness",
+    "description": "Seven free tools for a site's tech stack, SEO score, AI-crawler robots.txt rules, llms.txt, sitemap and security headers, plus an optional paid bulk audit.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Fairquery",
+    "tags": [
+      "seo",
+      "llms-txt",
+      "robots-txt",
+      "tech-stack"
+    ],
+    "official": true
+  },
+  {
+    "name": "Fairquery EDGAR",
+    "url": "https://github.com/fairquery/edgar-company-facts-filings",
+    "description": "SEC EDGAR filings and XBRL financial facts by ticker, CIK or company name, with five free tools that query sec.gov directly and an optional paid bulk export.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Fairquery",
+    "tags": [
+      "sec",
+      "edgar",
+      "xbrl",
+      "finance"
+    ],
+    "official": true
+  },
+  {
+    "name": "Perq",
+    "url": "https://perq.sh",
+    "description": "Remote MCP server and agent skill for looking up verified free AI credits, startup programs and perks, each with a source link and last-verified date.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Avatar 8 LLC",
+    "tags": [
+      "credits",
+      "startup-perks",
+      "free-tier",
+      "directory"
+    ],
+    "official": true,
+    "repository": "https://github.com/f-o-x11/perq-skill",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://perq.sh/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
   }
 ]

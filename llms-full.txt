@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 920 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 925 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2103,6 +2103,17 @@ Neural and keyword web search optimized for AI research workflows.
 - Tags: search, research, web
 - Category: Browsers, Search, and Web Automation
 
+### Fairquery Website Tech, SEO & AI-Readiness
+
+Seven free tools for a site's tech stack, SEO score, AI-crawler robots.txt rules, llms.txt, sitemap and security headers, plus an optional paid bulk audit.
+
+- URL: https://github.com/fairquery/website-tech-seo-ai-readiness
+- Language: TypeScript
+- Provider: Fairquery
+- Official: yes
+- Tags: seo, llms-txt, robots-txt, tech-stack
+- Category: Browsers, Search, and Web Automation
+
 ### FindAIforWork
 
 Read-only MCP server for a human-reviewed AI tools directory organized by work scenario: search tools, list categories, read listing details and compare tools; no account or API key.
@@ -4181,6 +4192,17 @@ Create AI faceless videos from a script, run automated series, and publish to Yo
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://faceless.so/api/v1/mcp
+
+### Fairquery Email Validator
+
+Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks.
+
+- URL: https://github.com/fairquery/email-validator-mx-disposable
+- Language: TypeScript
+- Provider: Fairquery
+- Official: yes
+- Tags: email, validation, mx, disposable
+- Category: Communication and Productivity
 
 ### FairValid
 
@@ -8020,6 +8042,22 @@ Hosted AI-industry news server: returns each story once as a taxonomy-classified
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://api.scoopkit.dev/mcp
 
+### ScraperSocial
+
+Read-only tools for public social media data: profiles, posts, comments, search, reviews and video transcripts from TikTok, Instagram, LinkedIn, X, Reddit and 30+ platforms.
+
+- URL: https://scrapersocial.com/mcp/
+- Language: TypeScript
+- Provider: ScraperSocial
+- Official: yes
+- Tags: social-media, scraping, transcripts, remote, oauth
+- Category: Data, Analytics, and BI
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.scrapersocial.com
+
 ### Screpy SEO MCP
 
 Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.
@@ -9580,6 +9618,23 @@ Hosted server that imports products from a store or product link and makes AI pr
 - Auth: oauth, api-key
 - Streamable HTTP endpoint: https://app.cartviral.com/mcp
 
+### CheapCarRent search
+
+Read-only remote MCP server that lists CheapCarRent pickup cities and airports and searches live car rental offers from local rental companies (15,000 pickup points in 46 countries).
+
+- URL: https://cheapcarent.com/developers
+- Language: JavaScript
+- Provider: CheapCarRent
+- Official: yes
+- Tags: car-rental, travel, search
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://cheapcarent.com/mcp
+
 ### Checkout Page
 
 Create and manage checkout pages, events, forms, products, coupons, customers, payments and subscriptions on Checkout Page, a checkout platform on Stripe Connect, over remote Streamable HTTP with OAuth.
@@ -9955,6 +10010,17 @@ Remote MCP that gives Claude or ChatGPT fair value estimates from 26 valuation m
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://www.fairvalue-calculator.com/mcp
+
+### Fairquery EDGAR
+
+SEC EDGAR filings and XBRL financial facts by ticker, CIK or company name, with five free tools that query sec.gov directly and an optional paid bulk export.
+
+- URL: https://github.com/fairquery/edgar-company-facts-filings
+- Language: TypeScript
+- Provider: Fairquery
+- Official: yes
+- Tags: sec, edgar, xbrl, finance
+- Category: Finance, Commerce, and Business Apps
 
 ### Feminiq Rides
 
