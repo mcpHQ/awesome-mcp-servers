@@ -8951,6 +8951,26 @@
     }
   },
   {
+    "name": "Open Agent API",
+    "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API/blob/main/docs/cli.md#mcp-and-integrations",
+    "description": "Stdio bridge for a self-hosted gateway that lets MCP clients start agent runs, check their status, and read results and artifacts.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "agents",
+      "orchestration",
+      "self-hosted",
+      "workflows"
+    ],
+    "official": false,
+    "repository": "https://github.com/jiangxingfan1-coder/Open-Agent-API",
+    "license": "Apache-2.0",
+    "transport": [
+      "stdio"
+    ]
+  },
+  {
     "name": "MCP Inspector",
     "url": "https://github.com/modelcontextprotocol/inspector",
     "description": "Visual testing tool for debugging MCP server capabilities and messages.",
