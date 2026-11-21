@@ -684,6 +684,9 @@ function transportLabel(item) {
 }
 
 function authNote(item) {
+  if (item.auth?.includes("api-key") && !item.auth.includes("none") && !item.auth.includes("oauth")) {
+    return `API key required. The generated examples and install links include the endpoint only. Add the provider's required credential settings from the <a href="${esc(item.url)}" rel="noopener">project setup docs</a> before connecting.`;
+  }
   if (!item.auth?.length) {
     return "Some hosted servers ask you to sign in or pass an API key the first time you connect. Check the project docs if the client reports an auth error.";
   }
@@ -737,7 +740,8 @@ function serverPage(item) {
 
     connect = `<section class="panel">
       <div class="panel-head"><h2>Connect</h2><span class="badge badge-remote">${icon("remote")}${item.remote.type === "http" ? "Streamable HTTP" : "SSE"}</span></div>
-      <p class="muted">This server is hosted, so there is nothing to install. Add it to your client in one click, or paste the config below.</p>
+      <p class="muted">This server is hosted. Add its endpoint to your client using an install link or the configuration below.</p>
+      <p class="muted small">${authNote(item)}</p>
       <div class="endpoint">
         <code>${esc(item.remote.url)}</code>
         <button class="copy-btn" type="button" data-copy-text="${esc(item.remote.url)}">${icon("copy", "when-off")}${icon("check", "when-on")}<span class="sr-only">Copy endpoint</span></button>
@@ -750,7 +754,6 @@ function serverPage(item) {
         <div class="tab-list" role="tablist" aria-label="Client">${tabs}</div>
         ${panels}
       </div>
-      <p class="muted small">${authNote(item)}</p>
     </section>${item.install ? localPanel(item, key, true) : ""}`;
   } else {
     connect = localPanel(item, key, false);
