@@ -12907,6 +12907,37 @@
     ]
   },
   {
+    "name": "IPGeolocation.io MCP Server",
+    "url": "https://ipgeolocation.io/integrations/ipgeolocation-io-mcp",
+    "description": "Look up IP geolocation, company information, ASN and network data, and security signals (VPN, proxy, Tor, bot, hosting and spam), or use tools for abuse contacts, time zones, astronomy, currency data and user-agent parsing.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "IPGeolocation.io",
+    "tags": [
+      "ip-geolocation",
+      "asn",
+      "ip-security",
+      "network-intelligence",
+      "osint"
+    ],
+    "official": true,
+    "repository": "https://github.com/IPGeolocation/ipgeolocation-io-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "ipgeolocation-io-mcp@latest"
+    },
+    "auth": [
+      "api-key",
+      "none"
+    ]
+  },
+  {
     "name": "Iris",
     "url": "https://iriscan.app/mcp",
     "description": "Hosted on-chain investigations: wallet analysis, fund tracing through mixers, exchanges and instant swaps, and Solana token insiders, on Solana, EVM chains, Bitcoin and Tron. API key (10 free calls a day) or x402 per call.",
