@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-925-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-926-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (90)
 - [Filesystems and Documents](#filesystems-and-documents) (34)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (37)
-- [Communication and Productivity](#communication-and-productivity) (123)
+- [Communication and Productivity](#communication-and-productivity) (124)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (103)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (111)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -856,6 +856,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `news` `monitoring` `content` `oauth`
 - **[Sequenzy](https://github.com/Sequenzy/mcp)** `Official` `TypeScript` — Manage email contacts, campaigns, automation sequences, transactional email and analytics.  
   `email` `marketing` `automation`
+- **[Shager](https://shager.ai/agents)** `Official` `TypeScript` — Hosted MCP server that lets an assistant schedule one post to many social accounts, each network at its own hour, answer comments, run auto-replies and report views, likes and clicks per post. ([source](https://github.com/shagerai/shager-mcp))  
+  `social-media` `scheduling` `analytics` `remote` `oauth`
 - **[Shipmail](https://github.com/shipmail-to/shipmail-mcp)** `Official` `TypeScript` — Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks.  
   `email` `business-email` `calendar` `newsletters` `remote`
 - **[Sitekick CMS](https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing)** `Official` `TypeScript` — Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client.  
