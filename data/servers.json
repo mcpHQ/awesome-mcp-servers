@@ -12775,6 +12775,31 @@
     "official": true
   },
   {
+    "name": "Atlas Verified",
+    "url": "https://registry.modelcontextprotocol.io/?q=ai.atlasverified%2Fatlas-mcp",
+    "description": "Verify suppliers and certifications, review trade documents, and track shipments across global trade and logistics through Atlas Verified’s hosted MCP endpoint.",
+    "category": "logistics-and-shipping",
+    "language": "TypeScript",
+    "provider": "Atlas Verified",
+    "tags": [
+      "trade",
+      "logistics",
+      "suppliers",
+      "certifications",
+      "shipments"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.atlasverified.ai/mcp"
+    },
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Tanod",
     "url": "https://tanod.dev",
     "description": "Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).",
