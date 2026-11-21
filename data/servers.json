@@ -9669,6 +9669,33 @@
     "repository": "https://github.com/motherduckdb/mcp-server-motherduck"
   },
   {
+    "name": "InfraRabbit",
+    "url": "https://infrarabbit.com",
+    "description": "Free remote MCP server with dated list prices of VPS, GPU and LLM API plans, price history, change feeds and price indices.",
+    "category": "cloud-and-infrastructure",
+    "language": "Other",
+    "provider": "InfraRabbit",
+    "tags": [
+      "pricing",
+      "gpu",
+      "vps",
+      "llm",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/InfraRabbit/mcp",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://infrarabbit.com/mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MuAPI MCP Server",
     "url": "https://muapi.ai/docs/mcp",
     "description": "Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.",
