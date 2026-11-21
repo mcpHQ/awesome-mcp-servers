@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-951-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-952-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (93)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (94)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (91)
 - [Filesystems and Documents](#filesystems-and-documents) (37)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (38)
@@ -228,6 +228,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `issues` `project-management` `product`
 - **[link-check-lite](https://github.com/tidybytetools/link-check-lite)** `Python` — Checks a list of web links and reports each status code, final URL and redirect chain.  
   `links` `http` `seo`
+- **[LogBrew](https://docs.logbrew.co/guides/mcp)** `Official` `Rust` — Read LogBrew error tracking and application monitoring data in your coding agent, including issues, logs, traces, metrics, and releases, and with the write scope resolve, assign, and prioritize issues. Hosted remote server with OAuth. ([source](https://github.com/LogBrewCo/mcp))  
+  `error-tracking` `logs` `observability` `remote` `oauth`
 - **[Louis Studios](https://studios.lou15.com/agents?ref=mcp)** `Official` `TypeScript` — Hosted designer for coding agents that plans React pages and installs animated components fitted to a brand.  
   `design` `react` `ui` `components` `remote`
 - **[LynxPrompt MCP Server](https://github.com/GeiserX/lynxprompt-mcp)** `Official` `Go` — Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance.  

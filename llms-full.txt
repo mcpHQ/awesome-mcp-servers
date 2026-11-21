@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 951 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 952 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -930,6 +930,23 @@ Checks a list of web links and reports each status code, final URL and redirect 
 - Transport: stdio
 - Auth: none
 - Install: uvx link-check-lite
+
+### LogBrew
+
+Read LogBrew error tracking and application monitoring data in your coding agent, including issues, logs, traces, metrics, and releases, and with the write scope resolve, assign, and prioritize issues. Hosted remote server with OAuth.
+
+- URL: https://docs.logbrew.co/guides/mcp
+- Language: Rust
+- Provider: LogBrew
+- Official: yes
+- Tags: error-tracking, logs, observability, remote, oauth
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/LogBrewCo/mcp
+- License: Apache-2.0
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://logbrew.co/mcp
 
 ### Louis Studios
 

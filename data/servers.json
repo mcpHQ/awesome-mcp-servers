@@ -5275,35 +5275,6 @@
     ]
   },
   {
-    "name": "Web2MD MCP",
-    "url": "https://web2md.org",
-    "description": "Converts webpages to Markdown for MCP clients, and can route conversion through the user's browser session for pages that block server-side fetches.",
-    "category": "browsers-search-and-web-automation",
-    "language": "TypeScript",
-    "provider": "Web2MD",
-    "tags": [
-      "markdown",
-      "web-scraping",
-      "browser"
-    ],
-    "official": false,
-    "repository": "https://github.com/io-oi-ai/web2md-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "stdio"
-    ],
-    "install": {
-      "command": "npx",
-      "package": "web2md-mcp-server"
-    },
-    "auth": [
-      "none",
-      "api-key",
-      "oauth"
-    ]
-  },
-  {
     "name": "Outbound OS",
     "url": "https://github.com/RecepioHQ/outbound-os",
     "description": "Local MCP tools for evidence-gated email outreach with default-disabled live sending",
@@ -7686,33 +7657,6 @@
     ]
   },
   {
-    "name": "lemlist",
-    "url": "https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key",
-    "description": "Official hosted lemlist server: run multichannel outreach campaigns, build email and LinkedIn sequences, add and search leads, read campaign stats and check sending-domain deliverability; OAuth or API key.",
-    "category": "communication-and-productivity",
-    "language": "TypeScript",
-    "provider": "lemlist",
-    "tags": [
-      "sales",
-      "outreach",
-      "cold-email",
-      "linkedin",
-      "remote"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://app.lemlist.com/mcp"
-    },
-    "repository": "https://github.com/l3mpire/lemlist-plugin",
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth",
-      "api-key"
-    ]
-  },
-  {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
     "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
@@ -8446,33 +8390,6 @@
     ]
   },
   {
-    "name": "GenesisCore Astrology",
-    "url": "https://github.com/AETHER-CORE1219/genesis-astro-mcp",
-    "description": "Remote MCP server for Western (tropical) and Vedic (sidereal, Lahiri) astrology calculations: signs, nakshatra, ascendant, retrogrades and ingresses.",
-    "category": "utilities-and-examples",
-    "language": "Other",
-    "provider": "GenesisCore",
-    "tags": [
-      "astrology",
-      "astronomy",
-      "vedic",
-      "calendar"
-    ],
-    "official": false,
-    "repository": "https://github.com/AETHER-CORE1219/genesis-astro-mcp",
-    "license": "MIT",
-    "pricing": "free",
-    "endpoints": {
-      "streamableHttp": "https://genesis-astro-guide-r2owtywexa-an.a.run.app/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "none"
-    ]
-  },
-  {
     "name": "AgentSandboxes",
     "url": "https://agentsandboxes.fyi",
     "description": "Search an index of cloud sandbox providers for AI agents: isolation, cold start, persistence, GPU support and pricing, each fact linked to its source.",
@@ -8560,34 +8477,6 @@
     "auth": [
       "none"
     ]
-  },
-  {
-    "name": "LGDA Autonomic Pacing Node",
-    "url": "https://github.com/lgda-technologies/lgda-autonomic-node",
-    "description": "Remote MCP server selling biometric wellness music to AI agents via x402 ($5.99/track USDC on Base), with measured HRV session evidence per track.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Python",
-    "provider": "LGDA Technologies",
-    "tags": [
-      "music",
-      "x402",
-      "usdc",
-      "wellness",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/lgda-technologies/lgda-autonomic-node",
-    "pricing": "paid",
-    "endpoints": {
-      "streamableHttp": "https://lgda-music.fly.dev/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "none"
-    ],
-    "verified": "2026-11-19"
   },
   {
     "name": "NoLimit MCP",
@@ -9104,32 +8993,6 @@
     "repository": "https://github.com/modelcontextprotocol/python-sdk"
   },
   {
-    "name": "OpenShorts.io MCP",
-    "url": "https://openshorts.io/api",
-    "description": "Clip long videos into captioned shorts and retrieve job status and usage through a hosted MCP server.",
-    "category": "communication-and-productivity",
-    "language": "Other",
-    "provider": "OpenShorts.io",
-    "tags": [
-      "video",
-      "shorts",
-      "ai-video",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/xspring1982/openshorts-oss",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "api-key"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://openshorts.io/api/mcp"
-    }
-  },
-  {
     "name": "AgentFEM MCP",
     "url": "https://github.com/haoming-luo/agentfem-mcp",
     "description": "Create, validate and run finite-element projects and inspect numerical results through local stdio tools, with a separately installed compatible AgentFEM scientific runtime.",
@@ -9383,33 +9246,6 @@
     ],
     "official": true,
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
-  },
-  {
-    "name": "Converter Studio",
-    "url": "https://converter.studio/developers",
-    "description": "Hosted file converter for video, audio, images, PDFs, documents, e-books, subtitles, data and archives in 67 formats: send a link or a file and get a download link back, kept for 6 hours; API key as Bearer token.",
-    "category": "filesystems-and-documents",
-    "language": "TypeScript",
-    "provider": "Converter Studio",
-    "tags": [
-      "file-conversion",
-      "video",
-      "pdf",
-      "documents",
-      "remote"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://converter.studio/api/mcp"
-    },
-    "license": "proprietary",
-    "pricing": "freemium",
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "api-key"
-    ]
   },
   {
     "name": "xmcp",
@@ -9678,31 +9514,6 @@
     ]
   },
   {
-    "name": "Common Room Booking Platform",
-    "url": "https://www.common-room.hk/mcp",
-    "description": "Official read-only MCP server of common-room.hk, a Hong Kong venue booking site, for finding hourly hotels, party rooms, event venues, private dining rooms and boats with prices and hotel availability.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "JavaScript",
-    "provider": "MT Technology Group Limited (common-room.hk)",
-    "tags": [
-      "hong-kong",
-      "venues",
-      "booking",
-      "hotels",
-      "travel"
-    ],
-    "official": true,
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://mcp.common-room.hk/mcp"
-    },
-    "auth": [
-      "none"
-    ]
-  },
-  {
     "name": "mem0 MCP Server",
     "url": "https://docs.mem0.ai/platform/mem0-mcp",
     "description": "Hosted persistent memory layer for personalized agent interactions.",
@@ -9829,32 +9640,6 @@
     ]
   },
   {
-    "name": "OsmO Travel eSIM",
-    "url": "https://esim.getosmo.app",
-    "description": "OsmO's hosted MCP server compares travel eSIM data plans for a trip (including multi-country), checks phone eSIM support, estimates trip data, compares a carrier's roaming pass, and gives setup help, with no sign-in.",
-    "category": "finance-commerce-and-business-apps",
-    "language": "Other",
-    "provider": "OsmO AI",
-    "tags": [
-      "travel",
-      "esim",
-      "roaming",
-      "remote"
-    ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://esim.getosmo.app/mcp"
-    },
-    "repository": "https://github.com/Mountainheads-Private-limited/osmo-travel-esim",
-    "pricing": "free",
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "none"
-    ]
-  },
-  {
     "name": "MongoDB MCP Server",
     "url": "https://github.com/mongodb-js/mongodb-mcp-server",
     "description": "Query and manage MongoDB databases and collections from AI clients.",
@@ -9883,33 +9668,6 @@
     ],
     "official": true,
     "repository": "https://github.com/motherduckdb/mcp-server-motherduck"
-  },
-  {
-    "name": "InfraRabbit",
-    "url": "https://infrarabbit.com",
-    "description": "Free remote MCP server with dated list prices of VPS, GPU and LLM API plans, price history, change feeds and price indices.",
-    "category": "cloud-and-infrastructure",
-    "language": "Other",
-    "provider": "InfraRabbit",
-    "tags": [
-      "pricing",
-      "gpu",
-      "vps",
-      "llm",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/InfraRabbit/mcp",
-    "pricing": "free",
-    "transport": [
-      "streamable-http"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://infrarabbit.com/mcp"
-    },
-    "auth": [
-      "none"
-    ]
   },
   {
     "name": "MuAPI MCP Server",
@@ -9988,35 +9746,6 @@
     ],
     "official": false,
     "repository": "https://github.com/tareq7/muslim-prayer-mcp"
-  },
-  {
-    "name": "Viewlify",
-    "url": "https://viewlify.app/tiktok-data-api",
-    "description": "TikTok videos that beat their creator's usual views, plus the videos, hashtags and sounds rising by niche, from public TikTok data (read only).",
-    "category": "data-analytics-and-bi",
-    "language": "TypeScript",
-    "provider": "Viewlify",
-    "tags": [
-      "tiktok",
-      "social-media",
-      "analytics",
-      "trends",
-      "remote"
-    ],
-    "official": true,
-    "repository": "https://github.com/benjaminb10/viewlify-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "endpoints": {
-      "streamableHttp": "https://viewlify.app/api/mcp"
-    },
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "none",
-      "api-key"
-    ]
   },
   {
     "name": "Mysocial",
@@ -10689,31 +10418,31 @@
     ]
   },
   {
-    "name": "Learn AI with Yaakov Tzedek",
-    "url": "https://tzedek.me/en/mcp",
-    "description": "Search and read practical AI guides, AI courses, learning paths and AI news from tzedek.me in English and Hebrew; free, read-only, no auth.",
-    "category": "filesystems-and-documents",
-    "language": "JavaScript",
-    "provider": "Yaakov Tzedek",
+    "name": "LogBrew",
+    "url": "https://docs.logbrew.co/guides/mcp",
+    "description": "Read LogBrew error tracking and application monitoring data in your coding agent, including issues, logs, traces, metrics, and releases, and with the write scope resolve, assign, and prioritize issues. Hosted remote server with OAuth.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Rust",
+    "provider": "LogBrew",
     "tags": [
-      "learn-ai",
-      "courses",
-      "guides",
-      "news",
-      "remote"
+      "error-tracking",
+      "logs",
+      "observability",
+      "remote",
+      "oauth"
     ],
     "official": true,
+    "repository": "https://github.com/LogBrewCo/mcp",
+    "license": "Apache-2.0",
+    "pricing": "freemium",
     "endpoints": {
-      "streamableHttp": "https://tzedek.me/mcp"
+      "streamableHttp": "https://logbrew.co/mcp"
     },
-    "repository": "https://github.com/YaakovTzedek/tzedek-ai-mcp",
-    "license": "MIT",
-    "pricing": "free",
     "transport": [
       "streamable-http"
     ],
     "auth": [
-      "none"
+      "oauth"
     ]
   },
   {
@@ -12456,31 +12185,6 @@
     ]
   },
   {
-    "name": "Inplain MCP",
-    "url": "https://inplain.app",
-    "description": "MCP server that generates a deck, document, or dashboard from a prompt as a self-contained web page, with optional Office export.",
-    "category": "filesystems-and-documents",
-    "language": "TypeScript",
-    "provider": "Inplain",
-    "tags": [
-      "presentations",
-      "documents",
-      "dashboards",
-      "markdown"
-    ],
-    "official": false,
-    "repository": "https://github.com/io-oi-ai/inplain",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "stdio"
-    ],
-    "auth": [
-      "none",
-      "api-key"
-    ]
-  },
-  {
     "name": "Waspes",
     "url": "https://waspes.com/api",
     "description": "AI website builder, 3D model generator, and Roblox Studio asset pipeline MCP server.",
@@ -12904,37 +12608,6 @@
     ],
     "auth": [
       "oauth"
-    ]
-  },
-  {
-    "name": "IPGeolocation.io MCP Server",
-    "url": "https://ipgeolocation.io/integrations/ipgeolocation-io-mcp",
-    "description": "Look up IP geolocation, company information, ASN and network data, and security signals (VPN, proxy, Tor, bot, hosting and spam), or use tools for abuse contacts, time zones, astronomy, currency data and user-agent parsing.",
-    "category": "security-and-identity",
-    "language": "TypeScript",
-    "provider": "IPGeolocation.io",
-    "tags": [
-      "ip-geolocation",
-      "asn",
-      "ip-security",
-      "network-intelligence",
-      "osint"
-    ],
-    "official": true,
-    "repository": "https://github.com/IPGeolocation/ipgeolocation-io-mcp",
-    "license": "MIT",
-    "pricing": "freemium",
-    "transport": [
-      "stdio",
-      "streamable-http"
-    ],
-    "install": {
-      "command": "npx",
-      "package": "ipgeolocation-io-mcp@latest"
-    },
-    "auth": [
-      "api-key",
-      "none"
     ]
   },
   {
@@ -18033,54 +17706,6 @@
     }
   },
   {
-    "name": "Kling AI (China) Plugin",
-    "url": "https://github.com/klingai-tech/claude-plugin-cn",
-    "description": "Official China Kling MCP via OAuth; credits are region-specific. [Guide](https://klingai.com/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-cn) · [CLI](https://www.npmjs.com/package/@klingai/cli-cn).",
-    "category": "ai-agents-and-memory",
-    "language": "Other",
-    "provider": "Kling AI",
-    "tags": [
-      "image-generation",
-      "video-generation",
-      "oauth",
-      "remote-mcp"
-    ],
-    "official": true,
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://klingai.com/mcp/plugin"
-    }
-  },
-  {
-    "name": "Kling AI (Global) Plugin",
-    "url": "https://github.com/klingai-tech/claude-plugin",
-    "description": "Official Global Kling MCP via OAuth; credits are region-specific. [Guide](https://kling.ai/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-global) · [CLI](https://www.npmjs.com/package/@klingai/cli-global).",
-    "category": "ai-agents-and-memory",
-    "language": "Other",
-    "provider": "Kling AI",
-    "tags": [
-      "image-generation",
-      "video-generation",
-      "oauth",
-      "remote-mcp"
-    ],
-    "official": true,
-    "transport": [
-      "streamable-http"
-    ],
-    "auth": [
-      "oauth"
-    ],
-    "endpoints": {
-      "streamableHttp": "https://kling.ai/mcp/plugin"
-    }
-  },
-  {
     "name": "Wassenger",
     "url": "https://github.com/wassengerhq/whatsapp-mcp",
     "description": "Hosted MCP server for the official WhatsApp Business API: send messages and approved templates, and manage chats, contacts, campaigns and a shared team inbox; needs a Wassenger API key.",
@@ -20823,6 +20448,409 @@
     ],
     "endpoints": {
       "streamableHttp": "https://app.verand.ai/mcp"
+    }
+  },
+  {
+    "name": "Web2MD MCP",
+    "url": "https://web2md.org",
+    "description": "Converts webpages to Markdown for MCP clients, and can route conversion through the user's browser session for pages that block server-side fetches.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Web2MD",
+    "tags": [
+      "markdown",
+      "web-scraping",
+      "browser"
+    ],
+    "official": false,
+    "repository": "https://github.com/io-oi-ai/web2md-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "web2md-mcp-server"
+    },
+    "auth": [
+      "none",
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
+    "name": "lemlist",
+    "url": "https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key",
+    "description": "Official hosted lemlist server: run multichannel outreach campaigns, build email and LinkedIn sequences, add and search leads, read campaign stats and check sending-domain deliverability; OAuth or API key.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "lemlist",
+    "tags": [
+      "sales",
+      "outreach",
+      "cold-email",
+      "linkedin",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.lemlist.com/mcp"
+    },
+    "repository": "https://github.com/l3mpire/lemlist-plugin",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "GenesisCore Astrology",
+    "url": "https://github.com/AETHER-CORE1219/genesis-astro-mcp",
+    "description": "Remote MCP server for Western (tropical) and Vedic (sidereal, Lahiri) astrology calculations: signs, nakshatra, ascendant, retrogrades and ingresses.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "GenesisCore",
+    "tags": [
+      "astrology",
+      "astronomy",
+      "vedic",
+      "calendar"
+    ],
+    "official": false,
+    "repository": "https://github.com/AETHER-CORE1219/genesis-astro-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://genesis-astro-guide-r2owtywexa-an.a.run.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "LGDA Autonomic Pacing Node",
+    "url": "https://github.com/lgda-technologies/lgda-autonomic-node",
+    "description": "Remote MCP server selling biometric wellness music to AI agents via x402 ($5.99/track USDC on Base), with measured HRV session evidence per track.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "LGDA Technologies",
+    "tags": [
+      "music",
+      "x402",
+      "usdc",
+      "wellness",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/lgda-technologies/lgda-autonomic-node",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://lgda-music.fly.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-19"
+  },
+  {
+    "name": "OpenShorts.io MCP",
+    "url": "https://openshorts.io/api",
+    "description": "Clip long videos into captioned shorts and retrieve job status and usage through a hosted MCP server.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "OpenShorts.io",
+    "tags": [
+      "video",
+      "shorts",
+      "ai-video",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/xspring1982/openshorts-oss",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://openshorts.io/api/mcp"
+    }
+  },
+  {
+    "name": "Converter Studio",
+    "url": "https://converter.studio/developers",
+    "description": "Hosted file converter for video, audio, images, PDFs, documents, e-books, subtitles, data and archives in 67 formats: send a link or a file and get a download link back, kept for 6 hours; API key as Bearer token.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "Converter Studio",
+    "tags": [
+      "file-conversion",
+      "video",
+      "pdf",
+      "documents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://converter.studio/api/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
+    "name": "Common Room Booking Platform",
+    "url": "https://www.common-room.hk/mcp",
+    "description": "Official read-only MCP server of common-room.hk, a Hong Kong venue booking site, for finding hourly hotels, party rooms, event venues, private dining rooms and boats with prices and hotel availability.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "MT Technology Group Limited (common-room.hk)",
+    "tags": [
+      "hong-kong",
+      "venues",
+      "booking",
+      "hotels",
+      "travel"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.common-room.hk/mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "OsmO Travel eSIM",
+    "url": "https://esim.getosmo.app",
+    "description": "OsmO's hosted MCP server compares travel eSIM data plans for a trip (including multi-country), checks phone eSIM support, estimates trip data, compares a carrier's roaming pass, and gives setup help, with no sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "OsmO AI",
+    "tags": [
+      "travel",
+      "esim",
+      "roaming",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://esim.getosmo.app/mcp"
+    },
+    "repository": "https://github.com/Mountainheads-Private-limited/osmo-travel-esim",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "InfraRabbit",
+    "url": "https://infrarabbit.com",
+    "description": "Free remote MCP server with dated list prices of VPS, GPU and LLM API plans, price history, change feeds and price indices.",
+    "category": "cloud-and-infrastructure",
+    "language": "Other",
+    "provider": "InfraRabbit",
+    "tags": [
+      "pricing",
+      "gpu",
+      "vps",
+      "llm",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/InfraRabbit/mcp",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://infrarabbit.com/mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Viewlify",
+    "url": "https://viewlify.app/tiktok-data-api",
+    "description": "TikTok videos that beat their creator's usual views, plus the videos, hashtags and sounds rising by niche, from public TikTok data (read only).",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Viewlify",
+    "tags": [
+      "tiktok",
+      "social-media",
+      "analytics",
+      "trends",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/benjaminb10/viewlify-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://viewlify.app/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Learn AI with Yaakov Tzedek",
+    "url": "https://tzedek.me/en/mcp",
+    "description": "Search and read practical AI guides, AI courses, learning paths and AI news from tzedek.me in English and Hebrew; free, read-only, no auth.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "Yaakov Tzedek",
+    "tags": [
+      "learn-ai",
+      "courses",
+      "guides",
+      "news",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://tzedek.me/mcp"
+    },
+    "repository": "https://github.com/YaakovTzedek/tzedek-ai-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Inplain MCP",
+    "url": "https://inplain.app",
+    "description": "MCP server that generates a deck, document, or dashboard from a prompt as a self-contained web page, with optional Office export.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "Inplain",
+    "tags": [
+      "presentations",
+      "documents",
+      "dashboards",
+      "markdown"
+    ],
+    "official": false,
+    "repository": "https://github.com/io-oi-ai/inplain",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
+    "name": "IPGeolocation.io MCP Server",
+    "url": "https://ipgeolocation.io/integrations/ipgeolocation-io-mcp",
+    "description": "Look up IP geolocation, company information, ASN and network data, and security signals (VPN, proxy, Tor, bot, hosting and spam), or use tools for abuse contacts, time zones, astronomy, currency data and user-agent parsing.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "IPGeolocation.io",
+    "tags": [
+      "ip-geolocation",
+      "asn",
+      "ip-security",
+      "network-intelligence",
+      "osint"
+    ],
+    "official": true,
+    "repository": "https://github.com/IPGeolocation/ipgeolocation-io-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "ipgeolocation-io-mcp@latest"
+    },
+    "auth": [
+      "api-key",
+      "none"
+    ]
+  },
+  {
+    "name": "Kling AI (China) Plugin",
+    "url": "https://github.com/klingai-tech/claude-plugin-cn",
+    "description": "Official China Kling MCP via OAuth; credits are region-specific. [Guide](https://klingai.com/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-cn) · [CLI](https://www.npmjs.com/package/@klingai/cli-cn).",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Kling AI",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "oauth",
+      "remote-mcp"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://klingai.com/mcp/plugin"
+    }
+  },
+  {
+    "name": "Kling AI (Global) Plugin",
+    "url": "https://github.com/klingai-tech/claude-plugin",
+    "description": "Official Global Kling MCP via OAuth; credits are region-specific. [Guide](https://kling.ai/app/mcp/guide) · [Plugin](https://www.npmjs.com/package/@klingai/plugin-global) · [CLI](https://www.npmjs.com/package/@klingai/cli-global).",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Kling AI",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "oauth",
+      "remote-mcp"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://kling.ai/mcp/plugin"
     }
   },
   {
