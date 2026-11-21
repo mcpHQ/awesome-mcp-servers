@@ -10271,6 +10271,34 @@
     "repository": "https://github.com/jaspertvdm/mcp-server-ollama-bridge"
   },
   {
+    "name": "BeReach",
+    "url": "https://bereach.ai/linkedin-claude",
+    "description": "Find people and companies that match an ideal customer description, read profiles and post engagers, spot buying signals, find work emails and draft first messages.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "BeReach",
+    "tags": [
+      "sales",
+      "lead-generation",
+      "outreach",
+      "linkedin",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/bereach-ai/bereach-claude-plugin",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.bereach.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Open Health Sync",
     "url": "https://github.com/soma-intelligence/open-health-sync",
     "description": "Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources.",
