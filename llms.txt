@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 944 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 945 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -962,6 +962,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [FloorGen](https://floorgen.app/docs/mcp): Draw, edit, check and render 2D/3D floor plans from Claude, ChatGPT or Cursor: walls, rooms, doors, windows, furniture and stairs, with building-code checks and PDF, DXF and glTF export. (TypeScript, official)
 - [fotosize](https://fotosize.com/docs/mcp): Read-only lookup of passport, visa and ID photo specs (photo size, head height, background color) checked against official sources. (TypeScript, official)
 - [genealogy-mcp](https://github.com/igormel81/genealogy-mcp): Family history research with 79 archives and databases, name variants, historical calendars, evidence checks, GEDCOM audit, and archive-request drafts. Runs locally without API keys or network requests. (Python)
+- [GenesisCore Astrology](https://github.com/AETHER-CORE1219/genesis-astro-mcp): Remote MCP server for Western (tropical) and Vedic (sidereal, Lahiri) astrology calculations: signs, nakshatra, ascendant, retrogrades and ingresses. (Other)
 - [Google Maps MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps): Geocoding, directions, and place search via Google Maps. (Python)
 - [Headshot Photo Check](https://www.profilfoto-ki.de/mcp/): Checks the technical quality of a profile or job-application photo (resolution, crop, format; brightness, contrast, sharpness when pixels are analysed) and returns a score and prioritised tips. (TypeScript, official)
 - [Ignav Flights](https://github.com/gusgordon/ignav-skill): Search live flight prices, compare departure dates, resolve airports, and get booking links. (Python, official)

@@ -8417,6 +8417,33 @@
     ]
   },
   {
+    "name": "GenesisCore Astrology",
+    "url": "https://github.com/AETHER-CORE1219/genesis-astro-mcp",
+    "description": "Remote MCP server for Western (tropical) and Vedic (sidereal, Lahiri) astrology calculations: signs, nakshatra, ascendant, retrogrades and ingresses.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "GenesisCore",
+    "tags": [
+      "astrology",
+      "astronomy",
+      "vedic",
+      "calendar"
+    ],
+    "official": false,
+    "repository": "https://github.com/AETHER-CORE1219/genesis-astro-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://genesis-astro-guide-r2owtywexa-an.a.run.app/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "AgentSandboxes",
     "url": "https://agentsandboxes.fyi",
     "description": "Search an index of cloud sandbox providers for AI agents: isolation, cold start, persistence, GPU support and pricing, each fact linked to its source.",
