@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-955-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-956-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (121)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (43)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (206)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (207)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1547,6 +1547,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `x402` `bonding-curve` `base` `remote`
 - **[AdMakeAI](https://github.com/mesmerlord/admakeai-mcp)** `Official` `TypeScript` — Hosted MCP server for AdMakeAI: generate Meta and TikTok ad images and UGC-style video ads, pull competitors' live Meta Ad Library ads, and draft and report on Meta campaigns.  
   `advertising` `ad-creative` `meta-ads` `remote` `oauth`
+- **[Aethel](https://aethel.pro/mcp)** `Official` `JavaScript` — What 42 companies' own pages say about their AI and video interviews, each fact with its source page and the day it was read. Read-only; no sign-in.  
+  `interviews` `jobs` `hiring` `read-only` `remote`
 - **[Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node)** `Official` `TypeScript` — Local CLI and stdio MCP payment tools for AI agents on macOS Apple Silicon, with foreground human approval for signing.  
   `payments` `agent-payments` `local-stdio` `macos`
 - **[AgentServices](https://github.com/vbkotecha/agentservices-api)** `Python` — Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.  

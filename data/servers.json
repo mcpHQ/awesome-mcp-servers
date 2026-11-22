@@ -10390,6 +10390,31 @@
     ]
   },
   {
+    "name": "Aethel",
+    "url": "https://aethel.pro/mcp",
+    "description": "What 42 companies' own pages say about their AI and video interviews, each fact with its source page and the day it was read. Read-only; no sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Aethel",
+    "tags": [
+      "interviews",
+      "jobs",
+      "hiring",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://us-central1-aethel-pro.cloudfunctions.net/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "OutreachGenie",
     "url": "https://github.com/Outreachgenie/outreachgenie-linkedin-mcp",
     "description": "Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.",
