@@ -23,6 +23,28 @@
     ]
   },
   {
+    "name": "Smarty Pants Network (smartypants.network)",
+    "url": "https://smartypants.network/docs/agents",
+    "description": "Hosted MCP server for Smarty Pants Network: run open AI models on Apple Silicon Macs (prompts, embeddings, reranking, batch), find a model for a task, and compare per-token prices.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Smarty Pants",
+    "tags": [
+      "ai-models",
+      "pricing",
+      "inference",
+      "apple-silicon"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://smartypants.network/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
     "name": "Toolradar",
     "url": "https://github.com/Nadeus/toolradar-mcp",
     "description": "Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.",
