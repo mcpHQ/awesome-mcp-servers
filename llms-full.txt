@@ -1632,13 +1632,13 @@ Let AI coding agents drive a real browser over MCP (Playwright-style element ref
 
 ### Agent Flights
 
-Searches the cheapest flights worldwide, strong on Africa, with price calendars, cheap destinations and booking links through a hosted MCP server.
+Cheap flights worldwide. Fare search, price calendars, cheap destinations and booking links through a hosted MCP server.
 
 - URL: https://lowest.flights/connect
 - Language: TypeScript
 - Provider: lomi.
 - Official: yes
-- Tags: travel, flights, africa, remote
+- Tags: travel, flights, remote
 - Category: Browsers, Search, and Web Automation
 - Repository: https://github.com/lomiafrica/agent-flights-mcp
 - License: MIT

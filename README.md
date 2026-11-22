@@ -341,8 +341,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `web-scraping` `x402` `markdown` `remote`
 - **[Agent Browser Use](https://github.com/cavaldos/agent-browser-use)** `Go` — Let AI coding agents drive a real browser over MCP (Playwright-style element refs) while you watch every step live in a web viewer and take over at any time.  
   `browser-automation` `mcp` `chrome` `live-viewer`
-- **[Agent Flights](https://lowest.flights/connect)** `Official` `TypeScript` — Searches the cheapest flights worldwide, strong on Africa, with price calendars, cheap destinations and booking links through a hosted MCP server. ([source](https://github.com/lomiafrica/agent-flights-mcp))  
-  `travel` `flights` `africa` `remote`
+- **[Agent Flights](https://lowest.flights/connect)** `Official` `TypeScript` — Cheap flights worldwide. Fare search, price calendars, cheap destinations and booking links through a hosted MCP server. ([source](https://github.com/lomiafrica/agent-flights-mcp))  
+  `travel` `flights` `remote`
 - **[AgentRender](https://github.com/corbinvachal48/agentrender-mcp)** `Official` `Python` — Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.  
   `screenshot` `pdf` `web-extraction` `remote`
 - **[AgentSearch](https://github.com/agentsearchhq-coder/agentsearch-mcp)** `Official` `TypeScript` — Web search, news, URL-to-Markdown, JS render, screenshots, search_and_read. Free keyless search plus an extract/render trial; then direct x402 on Base from $0.002 (search $0.003). `npx -y @agentsearchhq/agentsearch-mcp`.  
