@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-955-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-956-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (91)
 - [Filesystems and Documents](#filesystems-and-documents) (37)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (39)
-- [Communication and Productivity](#communication-and-productivity) (127)
+- [Communication and Productivity](#communication-and-productivity) (128)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (104)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (121)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -742,6 +742,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `fitness` `strength-training` `workouts` `remote` `oauth`
 - **[Discord MCP Server](https://github.com/SaseQ/discord-mcp)** `Python` — Read and send messages in Discord servers and channels.  
   `discord` `chat` `community`
+- **[EasyMail Pro](https://easymailpro.tech/mcp)** `Official` `JavaScript` — Local-first MCP server for EasyMail Pro that lets AI assistants search, read, extract attachments, draft, snooze, organize, and send email across Gmail, Outlook, and IMAP. ([source](https://github.com/mdsolutionsdk/easymailpro-mcp))  
+  `email` `gmail` `outlook` `imap` `local-first`
 - **[Edusign MCP](https://developers.edusign.com/docs/mcp)** `Official` `TypeScript` — Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server.  
   `education` `attendance` `documents` `oauth`
 - **[EmailFig](https://github.com/EmailFig/mcp)** `Official` `Ruby` — Check campaign and automation results, look up and update contacts, and draft email campaigns you review and send in EmailFig.  
@@ -1845,8 +1847,6 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `lead-generation` `restaurants` `sales` `public-records` `remote`
 - **[RipSeek](https://ripseek.2cstudio.app/blog/ripseek-mcp)** `Official` `TypeScript` — Live odds, expected value and chase cards for Collector Crypt graded trading-card packs on Solana, plus recent pulls and budget estimates; read-only.  
   `trading-cards` `collectibles` `solana` `odds` `remote`
-- **[SaaSCity](https://github.com/nyyhao/saascity-mcp)** `Official` `JavaScript` — Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.  
-  `launch` `directories` `seo` `marketing` `remote`
 - **[Salesforce MCP Server](https://github.com/salesforcecli/mcp)** `Official` `TypeScript` — Query Salesforce CRM records and manage business workflows.  
   `crm` `sales` `enterprise`
 - **[SCENE](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fscene/versions/latest)** `Official` `TypeScript` — Campaign briefs, creative recipes and private drafts in an authorized SCENE studio.  
@@ -1901,6 +1901,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `banking` `personal-finance` `open-banking` `oauth` `read-only`
 - **[Synmerco](https://www.npmjs.com/package/@synmerco/mcp-server)** `Official` `TypeScript` — MCP server for Synmerco, an agent-to-agent marketplace where AI agents post and bid on funded jobs, with payment held in USDC escrow until the work is delivered.  
   `agents` `marketplace` `escrow` `payments` `usdc`
+- **[SaaSCity](https://github.com/nyyhao/saascity-mcp)** `Official` `JavaScript` — Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.  
+  `launch` `directories` `seo` `marketing` `remote`
 - **[Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp)** `Official` `TypeScript` — Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking.  
   `stocks` `india` `market-data` `remote` `oauth`
 - **[Tenmomo](https://github.com/tenmomo-sokui)** `Official` `PHP` — Search US stores for cashback rates and coupon codes, and get a tracked activation link.  

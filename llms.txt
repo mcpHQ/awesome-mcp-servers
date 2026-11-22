@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 955 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 956 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -352,6 +352,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Deacon](https://heydeacon.com/features/mcp-server): Lets your coding agent read what customers told Deacon's support chat, next to your site's JavaScript errors, then find the cause in your code and show you the fix. (PHP, official)
 - [depot.fitness](https://depot.fitness/connect): Hosted MCP server for strength training: search 101 written-out programs and 539 exercises, read training guides, and save programs or read recent workouts for signed-in users. (TypeScript, official)
 - [Discord MCP Server](https://github.com/SaseQ/discord-mcp): Read and send messages in Discord servers and channels. (Python)
+- [EasyMail Pro](https://easymailpro.tech/mcp): Local-first MCP server for EasyMail Pro that lets AI assistants search, read, extract attachments, draft, snooze, organize, and send email across Gmail, Outlook, and IMAP. (JavaScript, official)
 - [Edusign MCP](https://developers.edusign.com/docs/mcp): Access Edusign attendance, courses, learners, documents, and API documentation through a hosted OAuth 2.1 MCP server. (TypeScript, official)
 - [EmailFig](https://github.com/EmailFig/mcp): Check campaign and automation results, look up and update contacts, and draft email campaigns you review and send in EmailFig. (Ruby, official)
 - [Enhanciar](https://github.com/enhanciar/enhanciar-mcp): A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted; needs an Enhanciar API key (paid plans). (Other, official)
@@ -901,7 +902,6 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Requstory](https://requstory.com/developers/api/): Map how a company works from its website, who owns each process, and which steps AI agents can run; search public company maps and AI-readiness scores. (PHP, official)
 - [RestoSignals](https://github.com/paperandbeyond23-gif/restosignals-mcp): Finds US restaurants and bars 1-6 months before they open by fusing public liquor-license, food-permit and new-business filings into scored venues with owner contact. (Python, official)
 - [RipSeek](https://ripseek.2cstudio.app/blog/ripseek-mcp): Live odds, expected value and chase cards for Collector Crypt graded trading-card packs on Solana, plus recent pulls and budget estimates; read-only. (TypeScript, official)
-- [SaaSCity](https://github.com/nyyhao/saascity-mcp): Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity. (JavaScript, official)
 - [Salesforce MCP Server](https://github.com/salesforcecli/mcp): Query Salesforce CRM records and manage business workflows. (TypeScript, official)
 - [SCENE](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.joea836%2Fscene/versions/latest): Campaign briefs, creative recipes and private drafts in an authorized SCENE studio. (TypeScript, official)
 - [ScentVerdict](https://scentverdict.com/connect): Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication. (C#, official)
@@ -929,6 +929,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [SwapWallet](https://github.com/SwapWallet/swapwallet-mcp): Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram. (Kotlin, official)
 - [Synci](https://github.com/synciio/synci-mcp): Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health. (Other, official)
 - [Synmerco](https://www.npmjs.com/package/@synmerco/mcp-server): MCP server for Synmerco, an agent-to-agent marketplace where AI agents post and bid on funded jobs, with payment held in USDC escrow until the work is delivered. (TypeScript, official)
+- [SaaSCity](https://github.com/nyyhao/saascity-mcp): Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity. (JavaScript, official)
 - [Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp): Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking. (TypeScript, official)
 - [Tenmomo](https://github.com/tenmomo-sokui): Search US stores for cashback rates and coupon codes, and get a tracked activation link. (PHP, official)
 - [Tera Ads](https://teraads.co/connect): Meta Ads from Claude, ChatGPT, Cursor or Claude Code with approval before changes, undo for pauses and budgets, and Shopify profit after returns. (Python, official)

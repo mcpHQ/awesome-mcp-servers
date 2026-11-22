@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 955 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 956 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4225,6 +4225,23 @@ Read and send messages in Discord servers and channels.
 - Official: no
 - Tags: discord, chat, community
 - Category: Communication and Productivity
+
+### EasyMail Pro
+
+Local-first MCP server for EasyMail Pro that lets AI assistants search, read, extract attachments, draft, snooze, organize, and send email across Gmail, Outlook, and IMAP.
+
+- URL: https://easymailpro.tech/mcp
+- Language: JavaScript
+- Provider: Mosgaard Digital Solutions
+- Official: yes
+- Tags: email, gmail, outlook, imap, local-first
+- Category: Communication and Productivity
+- Repository: https://github.com/mdsolutionsdk/easymailpro-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: stdio
+- Auth: api-key
+- Install: npx @easymailpro/mcp
 
 ### Edusign MCP
 
@@ -11683,19 +11700,6 @@ Live odds, expected value and chase cards for Collector Crypt graded trading-car
 - Auth: none
 - Streamable HTTP endpoint: https://ripseek.2cstudio.app/mcp
 
-### SaaSCity
-
-Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.
-
-- URL: https://github.com/nyyhao/saascity-mcp
-- Language: JavaScript
-- Provider: SaaSCity
-- Official: yes
-- Tags: launch, directories, seo, marketing, remote
-- Category: Finance, Commerce, and Business Apps
-- Transport: streamable-http
-- Streamable HTTP endpoint: https://saascity.io/api/mcp
-
 ### Salesforce MCP Server
 
 Query Salesforce CRM records and manage business workflows.
@@ -12057,6 +12061,19 @@ MCP server for Synmerco, an agent-to-agent marketplace where AI agents post and 
 - Tags: agents, marketplace, escrow, payments, usdc
 - Category: Finance, Commerce, and Business Apps
 - Install: npx @synmerco/mcp-server
+
+### SaaSCity
+
+Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.
+
+- URL: https://github.com/nyyhao/saascity-mcp
+- Language: JavaScript
+- Provider: SaaSCity
+- Official: yes
+- Tags: launch, directories, seo, marketing, remote
+- Category: Finance, Commerce, and Business Apps
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://saascity.io/api/mcp
 
 ### Tapetide
 
