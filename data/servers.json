@@ -10054,6 +10054,40 @@
     ]
   },
   {
+    "name": "JustFill PDF Forms",
+    "url": "https://justfill.app/mcp",
+    "description": "Detect, visually preview, and fill fields in flat, scanned, and AcroForm PDF forms with reusable templates.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "JustFill",
+    "tags": [
+      "pdf",
+      "forms",
+      "documents",
+      "ocr",
+      "templates"
+    ],
+    "official": true,
+    "repository": "https://github.com/mrmaciej1/justfill-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://justfill.app/api/mcp"
+    },
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "justfill-mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
