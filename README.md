@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-959-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-960-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (127)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (106)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (121)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (122)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (43)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (206)
@@ -1216,6 +1216,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `data-pipelines` `etl` `sql` `data-quality`
 - **[CareJobs.Now Healthcare Jobs](https://github.com/yumaheymans/carejobs-mcp)** `Official` `Other` — Remote MCP server for US healthcare jobs: search 170,000+ open jobs read daily from 270 hospitals' and health systems' career sites, with the posted pay. Free, read-only, no API key.  
   `healthcare` `jobs` `job-search` `remote`
+- **[Check Engine SEO](https://checkengineseo.com/ai-assistants/?ref=mcphq)** `Official` `Other` — Whole-site SEO audits from the Check Engine desktop app for Mac and Windows, 99 checks ranked into one fix plan, plus a hosted server with five read-only one-page checks. ([source](https://github.com/mattkerr09/docket-mcp))  
+  `seo` `site-audit` `ai-crawlers` `desktop`
 - **[CompanyProof](https://companyproof.ai/docs/mcp)** `Official` `Other` — Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.  
   `company-data` `verification` `registry` `evidence` `remote`
 - **[Competitor Ads (Google Ads Transparency + LinkedIn Ad Library)](https://apify.com/dheerajitbhu/google-ads-transparency?utm_source=mcphq&utm_medium=directory&utm_campaign=google-ads-transparency)** `Other` — Hosted MCP (Apify) returning competitor ad creatives from Google Ads Transparency Center and LinkedIn Ad Library by domain, advertiser, or keyword, with dates and formats.  

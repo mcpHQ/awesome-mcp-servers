@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 959 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 960 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7409,6 +7409,23 @@ Remote MCP server for US healthcare jobs: search 170,000+ open jobs read daily f
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://carejobs.now/api/mcp
+
+### Check Engine SEO
+
+Whole-site SEO audits from the Check Engine desktop app for Mac and Windows, 99 checks ranked into one fix plan, plus a hosted server with five read-only one-page checks.
+
+- URL: https://checkengineseo.com/ai-assistants/?ref=mcphq
+- Language: Other
+- Provider: Kerr & Company
+- Official: yes
+- Tags: seo, site-audit, ai-crawlers, desktop
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/mattkerr09/docket-mcp
+- License: proprietary
+- Pricing: freemium
+- Transport: stdio, streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://mcp.docketseo.app/mcp
 
 ### CompanyProof
 
