@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 962 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 963 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9678,6 +9678,20 @@ Hosted MCP server for AdMakeAI: generate Meta and TikTok ad images and UGC-style
 - Transport: streamable-http
 - Auth: oauth, api-key
 - Streamable HTTP endpoint: https://admakeai.com/api/mcp
+
+### Aethel
+
+What 42 companies' own pages say about their AI and video interviews, each fact with its source page and the day it was read. Read-only; no sign-in.
+
+- URL: https://aethel.pro/mcp
+- Language: JavaScript
+- Provider: Aethel
+- Official: yes
+- Tags: interviews, jobs, hiring, read-only, remote
+- Category: Finance, Commerce, and Business Apps
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://us-central1-aethel-pro.cloudfunctions.net/mcp
 
 ### Agent Payment Node
 
