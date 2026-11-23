@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-963-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-964-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (127)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (106)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (122)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (43)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (207)
@@ -1354,6 +1354,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `nhl` `hockey` `sports` `play-by-play` `remote`
 - **[QuestionPunk](https://www.questionpunk.com/features/mcp-server)** `Official` `TypeScript` — Create, edit and publish surveys and AI-moderated interviews, then read responses and reports through a hosted MCP server.  
   `surveys` `research` `interviews` `remote`
+- **[RankBrain AI](https://access.rankbrain.app/mcphq)** `Official` `TypeScript` — Hosted SEO MCP server for Cursor, Claude Code, Codex and others that reads your site and applies fixes to titles, meta descriptions, schema markup and link text after you approve each change.  
+  `seo` `schema` `marketing` `remote`
 - **[Recall Kitchen](https://github.com/Recall-Kitchen/rk-mcp)** `Official` `Go` — Hosted MCP server that searches government product recall notices from CPSC, FDA, USDA, NHTSA and Health Canada by keyword, UPC, product name or vehicle, and fetches a full notice; free API key or anonymous x402 pay-per-call.  
   `recalls` `product-safety` `government-data` `remote`
 - **[Robot Speed](https://github.com/robot-speed/mcp)** `Official` `TypeScript` — SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.  

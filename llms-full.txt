@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 963 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 964 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8397,6 +8397,21 @@ Create, edit and publish surveys and AI-moderated interviews, then read response
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.questionpunk.com/api/v1
+
+### RankBrain AI
+
+Hosted SEO MCP server for Cursor, Claude Code, Codex and others that reads your site and applies fixes to titles, meta descriptions, schema markup and link text after you approve each change.
+
+- URL: https://access.rankbrain.app/mcphq
+- Language: TypeScript
+- Provider: Maitreya Labs
+- Official: yes
+- Tags: seo, schema, marketing, remote
+- Category: Data, Analytics, and BI
+- Pricing: paid
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://rankbrain.app/api/mcp
 
 ### Recall Kitchen
 
