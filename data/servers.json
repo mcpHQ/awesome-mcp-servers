@@ -7762,6 +7762,29 @@
     ]
   },
   {
+    "name": "WA MCP",
+    "url": "https://github.com/tsahospital-beep/wa-mcp",
+    "description": "Search messages and voice transcripts from a linked WhatsApp account through a local bridge, with sending off by default.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "whatsapp",
+      "messaging",
+      "transcription"
+    ],
+    "official": false,
+    "repository": "https://github.com/tsahospital-beep/wa-mcp",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "pip",
+      "package": "wa-mcp-server"
+    }
+  },
+  {
     "name": "WebExtract",
     "url": "https://github.com/nyx464664816-stack/webextract",
     "description": "Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).",
