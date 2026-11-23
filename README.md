@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (94)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (95)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (91)
 - [Filesystems and Documents](#filesystems-and-documents) (37)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (121)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (43)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (206)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (205)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -262,6 +262,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `android` `emulator` `mobile` `testing`
 - **[Openhook](https://github.com/openhook-dev/openhook-inbox)** `Official` `Python` — Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, and wait for events over MCP; hosted or self-hosted, with private per-inbox access tokens.  
   `webhooks` `testing` `callbacks` `agents`
+- **[Oppi Digital Products](https://github.com/Reggiebro/oppi-digital-products)** `JavaScript` — MCP server for browsing sample-first digital products, crypto payment instructions, read-only on-chain verification, and delivery requests.  
+  `mcp` `e-commerce` `crypto` `digital-products`
 - **[OverlayQA](https://github.com/OverlayQA/mcp)** `Official` `TypeScript` — Runs WCAG accessibility (axe-core), color-contrast and design-token audits on any public URL and files the findings as QA issues in OverlayQA.  
   `accessibility` `wcag` `design-qa` `qa` `issue-tracking`
 - **[Persqo](https://github.com/YaakovTzedek/persqo-mcp)** `Official` `JavaScript` — AI personas test a web app in a real browser and return findings and fix prompts; start runs, read findings, and pull fix prompts from MCP clients.  
@@ -1793,8 +1795,6 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `opencart` `ecommerce` `extensions` `catalog` `remote`
 - **[OpenSMM Protocol](https://opensmm.dev)** `Official` `TypeScript` — Open protocol and reference MCP gateway for ordering social media growth services: catalog search, quotes, idempotent orders, provider-node registration and x402 payments in one local node. ([source](https://github.com/opensmm-protocol/mcp-server))  
   `social-media` `smm` `orders` `payments` `self-hosted`
-- **[Oppi Digital Products MCP](https://github.com/Reggiebro/oppi-digital-products)** `JavaScript` — Agent commerce for ready-made digital products: browse the catalog, test free sample prompts, pay with crypto to a verified wallet, verify payments on-chain and request delivery.  
-  `e-commerce` `crypto` `usdc` `digital-products` `prompts`
 - **[Orizn Visa](https://github.com/MattJeff/orizn-mcp-server)** `Official` `TypeScript` — Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs.  
   `visa` `travel` `immigration` `remote`
 - **[OsmO Travel eSIM](https://esim.getosmo.app)** `Official` `Other` — OsmO's hosted MCP server compares travel eSIM data plans for a trip (including multi-country), checks phone eSIM support, estimates trip data, compares a carrier's roaming pass, and gives setup help, with no sign-in. ([source](https://github.com/Mountainheads-Private-limited/osmo-travel-esim))  

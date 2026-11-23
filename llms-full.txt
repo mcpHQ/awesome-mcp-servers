@@ -1155,6 +1155,22 @@ Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, 
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://openhook.dev/mcp
 
+### Oppi Digital Products
+
+MCP server for browsing sample-first digital products, crypto payment instructions, read-only on-chain verification, and delivery requests.
+
+- URL: https://github.com/Reggiebro/oppi-digital-products
+- Language: JavaScript
+- Provider: Oppi
+- Official: no
+- Tags: mcp, e-commerce, crypto, digital-products
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx oppi-digital-products-mcp
+
 ### OverlayQA
 
 Runs WCAG accessibility (axe-core), color-contrast and design-token audits on any public URL and files the findings as QA issues in OverlayQA.
@@ -11321,22 +11337,6 @@ Open protocol and reference MCP gateway for ordering social media growth service
 - Pricing: free
 - Transport: stdio, streamable-http
 - Auth: none
-
-### Oppi Digital Products MCP
-
-Agent commerce for ready-made digital products: browse the catalog, test free sample prompts, pay with crypto to a verified wallet, verify payments on-chain and request delivery.
-
-- URL: https://github.com/Reggiebro/oppi-digital-products
-- Language: JavaScript
-- Provider: Oppi
-- Official: no
-- Tags: e-commerce, crypto, usdc, digital-products, prompts
-- Category: Finance, Commerce, and Business Apps
-- License: proprietary
-- Pricing: paid
-- Transport: stdio
-- Auth: none
-- Install: npx github:Reggiebro/oppi-digital-products/mcp-server
 
 ### Orizn Visa
 
