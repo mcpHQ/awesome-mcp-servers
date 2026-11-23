@@ -29,6 +29,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 ## Quick Links
 
+- [hanshs474/fitv-mcp](https://github.com/hanshs474/fitv-mcp) - MCP server for [Free Image to Video](https://freeimagetovideo.ai/) image-to-video and text-to-video generation with synchronized sound and no watermark (hosted endpoint: `https://freeimagetovideo.ai/api/mcp`).
 - [mcpHQ directory](https://mcphq.org/): search, filter, and install servers
 - [Stack builder](https://mcphq.org/stack/): merge several servers into one client config
 - [Use the data](#use-the-data): JSON API and LLM catalog files
