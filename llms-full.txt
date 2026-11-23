@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 958 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 959 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6178,6 +6178,24 @@ Developer-alpha encrypted knowledge store with MCP search and retrieval through 
 - Official: no
 - Tags: memory, knowledge, encryption, local
 - Category: AI, Agents, and Memory
+
+### I2v.ai MCP Server
+
+Generate images and videos with 12 image models and 16 video models through 13 tools covering cost estimates, capped job submission, polling, and usage.
+
+- URL: https://i2v.ai/docs/mcp
+- Language: TypeScript
+- Provider: I2v.ai
+- Official: yes
+- Tags: image-generation, video-generation, media, remote
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/i2v-ai/i2v-mcp
+- License: MIT
+- Pricing: paid
+- Transport: streamable-http, stdio
+- Auth: oauth, api-key
+- Install: npx @i2v-ai/cli
+- Streamable HTTP endpoint: https://i2v.ai/api/mcp
 
 ### imageat
 
