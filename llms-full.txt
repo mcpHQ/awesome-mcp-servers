@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -868,6 +868,23 @@ Mac network monitoring and diagnostics through a local stdio MCP server.
 - Tags: macos, network, diagnostics
 - Category: Developer Tools and Code Intelligence
 - Transport: stdio
+
+### Kite
+
+Hosted MCP server for Kite, a collaborative design tool: agents draw editable frames, text, components and auto layout into the same file a team edits live.
+
+- URL: https://kite.new/docs
+- Language: Other
+- Provider: Kite
+- Official: yes
+- Tags: design, ui-design, figma-alternative, remote
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/kitedotnew/kite-agent-plugins
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://kite.new/api/mcp
 
 ### Kleap
 

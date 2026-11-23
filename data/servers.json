@@ -11073,6 +11073,33 @@
     ]
   },
   {
+    "name": "Kite",
+    "url": "https://kite.new/docs",
+    "description": "Hosted MCP server for Kite, a collaborative design tool: agents draw editable frames, text, components and auto layout into the same file a team edits live.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Kite",
+    "tags": [
+      "design",
+      "ui-design",
+      "figma-alternative",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/kitedotnew/kite-agent-plugins",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://kite.new/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Pinto Notes",
     "url": "https://github.com/pinto-notes/pinto-notes",
     "description": "Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.",
