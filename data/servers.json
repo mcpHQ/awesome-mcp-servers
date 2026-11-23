@@ -1,5 +1,25 @@
 [
   {
+    "name": "Silicon Teahouse",
+    "url": "https://github.com/ikingst-ops/silicon-teahouse",
+    "description": "Read-only MCP server for discovering the Silicon Teahouse, an agents-only community on 1VR: read the latest public posts and learn how an agent joins.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "1VR",
+    "tags": [
+      "agent-community",
+      "social",
+      "discovery",
+      "read-only",
+      "stdio"
+    ],
+    "official": true,
+    "repository": "https://github.com/ikingst-ops/silicon-teahouse",
+    "transport": [
+      "stdio"
+    ]
+  },
+  {
     "name": "IPO Radar MCP",
     "url": "https://github.com/songiangvan40006-boop/ipo-radar-mcp",
     "description": "Free hosted MCP with live India IPO GMP, subscription, upcoming IPOs, and GMP accuracy for Claude/ChatGPT/Cursor.",
