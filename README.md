@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-961-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-962-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (95)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (91)
 - [Filesystems and Documents](#filesystems-and-documents) (37)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
@@ -324,6 +324,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `architecture` `code-quality` `ai-coding` `local`
 - **[vibe-testing](https://github.com/AishwaryShrivastav/vibe-testing)** `TypeScript` — Scan web app routes and forms, run Playwright browser checks, and produce HTML QA reports through a local MCP server.  
   `testing` `browser` `playwright` `qa` `mcp`
+- **[WhatsDownNow](https://whatsdownnow.com/developers)** `Official` `TypeScript` — Live outage status, incident history, AI API fallback suggestions, and free alert stacks for 250 services. ([source](https://github.com/jacobpmiller/whatsdownnow-mcp))  
+  `status` `outages` `monitoring` `ai-apis` `remote`
 - **[xmcp](https://xmcp.dev)** `Official` `TypeScript` — Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server.  
   `documentation` `search` `typescript`
 
