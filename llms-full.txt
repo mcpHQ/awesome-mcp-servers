@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 960 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 961 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -13141,6 +13141,20 @@ Hosted maps MCP server for AI agents: live place search, place details, nearby s
 ## Logistics and Shipping
 
 Freight and parcel shipping, carrier rates, shipment tracking, and supply chain operations.
+
+### Atlas Verified
+
+Verify suppliers and certifications, review trade documents, and track shipments across global trade and logistics through Atlas Verified’s hosted MCP endpoint.
+
+- URL: https://registry.modelcontextprotocol.io/?q=ai.atlasverified%2Fatlas-mcp
+- Language: TypeScript
+- Provider: Atlas Verified
+- Official: yes
+- Tags: trade, logistics, suppliers, certifications, shipments
+- Category: Logistics and Shipping
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://api.atlasverified.ai/mcp
 
 ### Mothership
 
