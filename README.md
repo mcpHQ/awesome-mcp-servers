@@ -487,6 +487,7 @@ Browse the web, scrape content, search, and automate browser interactions.
   `video` `transcription` `social-media` `youtube` `remote`
 - **[SitePatent](https://sitepatent.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the SitePatent product discovery directory: search the websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
   `search` `directory` `startups` `remote`
+- **[Skool Community Scraper](https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/servers/skool-community-mcp)** `JavaScript` — Search Skool communities by keyword. Members, price, rating and estimated monthly revenue for each, plus daily growth tracking.
 - **[Social Fetch](https://www.socialfetch.dev/docs/integrations/mcp)** `Official` `Other` — Hosted MCP server for public social posts, profiles, comments, transcripts and search. ([source](https://github.com/social-freak-ltd/socialfetch-mcp))  
   `social-media` `tiktok` `instagram` `search` `remote`
 - **[Solvecha](https://solvecha.com/mcp-captcha-solver)** `Official` `Go` — Solves reCAPTCHA v2 image grids, text captchas, GeeTest sliders and FunCAPTCHA for AI agents over a hosted MCP endpoint; free tier included.  
