@@ -655,6 +655,30 @@
     ]
   },
   {
+    "name": "last30days",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "Local MCP server and agent skill that researches a topic across Reddit, X, YouTube, TikTok, Hacker News, Polymarket, and the web from the last 30 days and ranks results by real engagement.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Go",
+    "provider": "mvanhorn",
+    "tags": [
+      "research",
+      "reddit",
+      "social-media",
+      "search"
+    ],
+    "official": true,
+    "repository": "https://github.com/mvanhorn/last30days-skill",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Airtable MCP Server",
     "url": "https://github.com/domdomegg/airtable-mcp-server",
     "description": "Read and write Airtable bases, tables, and records via MCP.",
