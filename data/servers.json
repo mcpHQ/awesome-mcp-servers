@@ -8725,6 +8725,32 @@
     ]
   },
   {
+    "name": "OmniForge Launch Audit MCP",
+    "url": "https://github.com/zColdWater/mcp-launch-audit",
+    "description": "Read-only pre-deploy web security, Supabase RLS, SPF/DKIM/DMARC email DNS, RDAP domain, and llms.txt readiness MCP server.",
+    "category": "security-and-identity",
+    "language": "JavaScript",
+    "provider": "OmniForge Studio",
+    "tags": [
+      "security",
+      "dns",
+      "dmarc",
+      "supabase",
+      "devtools"
+    ],
+    "official": true,
+    "repository": "https://github.com/zColdWater/mcp-launch-audit",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MCP Everything",
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
     "description": "Reference server exposing prompts, resources, and tools for protocol testing.",

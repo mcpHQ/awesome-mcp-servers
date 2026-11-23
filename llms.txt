@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 955 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 956 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -728,6 +728,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [MexCheck](https://mexcheck.com/docs/mcp): Hosted MCP server that checks Mexican RFCs (SAT, including the 69/69-B lists), CFDI invoices, CURPs (RENAPO) and INE voter IDs against the official registries. (Elixir, official)
 - [NPMScan](https://npmscan.com/docs/mcp): Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs. (TypeScript, official)
 - [OffSeq Threat Radar](https://radar.offseq.com/api-docs?tab=mcp): Vulnerability intelligence for agents: CVE search with CISA KEV, EPSS and exploit status, SBOM and lockfile scans, patch-order ranking, IOC checks and monitored-host findings. (JavaScript, official)
+- [OmniForge Launch Audit MCP](https://github.com/zColdWater/mcp-launch-audit): Read-only pre-deploy web security, Supabase RLS, SPF/DKIM/DMARC email DNS, RDAP domain, and llms.txt readiness MCP server. (JavaScript, official)
 - [OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check): Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows. (Go, official)
 - [Penetration Test Services MCP](https://penetrationtestservices.com/developers/): Check HTTP security headers, search penetration testing guides, and request a penetration test. (JavaScript, official)
 - [PentestCompare MCP](https://pentestcompare.com/developers/): Search and read PentestCompare, filter penetration testing providers, and read provider profiles. (JavaScript, official)
