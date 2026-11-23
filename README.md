@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-967-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-968-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (91)
-- [Filesystems and Documents](#filesystems-and-documents) (37)
+- [Filesystems and Documents](#filesystems-and-documents) (38)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (128)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (108)
@@ -560,6 +560,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `presentations` `documents` `dashboards` `markdown`
 - **[isGenAI](https://isgenai.com/developers/mcp)** `Official` `TypeScript` — Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels.  
   `c2pa` `provenance` `metadata` `ai-detection` `remote`
+- **[JustFill PDF Forms](https://justfill.app/mcp)** `Official` `Python` — Detect, visually preview, and fill fields in flat, scanned, and AcroForm PDF forms with reusable templates. ([source](https://github.com/mrmaciej1/justfill-mcp))  
+  `pdf` `forms` `documents` `ocr` `templates`
 - **[Koru MCP Server](https://github.com/koruworks/mono)** `Official` `Rust` — Search and read documents and files, and create and edit documents, in the local database of the Koru notes, docs and files app.  
   `notes` `documents` `local-first` `local`
 - **[Learn AI with Yaakov Tzedek](https://tzedek.me/en/mcp)** `Official` `JavaScript` — Search and read practical AI guides, AI courses, learning paths and AI news from tzedek.me in English and Hebrew; free, read-only, no auth. ([source](https://github.com/YaakovTzedek/tzedek-ai-mcp))  
