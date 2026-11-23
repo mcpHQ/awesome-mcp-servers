@@ -1238,7 +1238,7 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `datadog` `metrics` `logs`
 - **[dbt MCP Server](https://github.com/dbt-labs/dbt-mcp)** `Official` `Python` — Run dbt models, tests, and documentation workflows via MCP.  
   `dbt` `analytics` `transform`
-- **[DC Hub](https://github.com/azmartone67/dchub-mcp-server)** `Official` `JavaScript` — Orchestration layer for data center and energy intelligence: start with execute_plan for electricity prices and power grid questions. Publishes DCPI scores for 300+ markets and live feeds from seven US ISOs. 96 tools; API key optional.  
+- **[DC Hub](https://github.com/azmartone67/dchub-mcp-server)** `Official` `JavaScript` — DC Hub is the orchestration layer for data center and energy intelligence: start with execute_plan for electricity prices and power grid questions. Publishes the Data Center Power Index (DCPI) for 300+ markets. DCHUB_API_KEY is optional.  
   `data-centers` `electricity-prices` `power-grid` `site-selection` `remote`
 - **[DunkAPI](https://dunkapi.com)** `Official` `JavaScript` — NBA, WNBA and college basketball: play-by-play with shot locations, box scores, ratings and sportsbook odds and player prop history. ([source](https://github.com/noahowsh/dunkapi-mcp))  
   `nba` `basketball` `sports` `shot-charts` `remote`
