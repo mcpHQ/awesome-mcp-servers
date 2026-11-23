@@ -10977,6 +10977,29 @@
     "verified": "2026-11-07"
   },
   {
+    "name": "DROP File Transfer",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/space.drop%2Fdrop/versions/latest",
+    "description": "Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "DROP",
+    "tags": [
+      "file-transfer",
+      "file-requests",
+      "client-uploads"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://drop.space/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Pinto Notes",
     "url": "https://github.com/pinto-notes/pinto-notes",
     "description": "Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.",
