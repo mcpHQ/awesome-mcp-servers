@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 969 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 970 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3008,6 +3008,20 @@ Generate PDFs from templates, fill existing PDF forms, and batch-create invoices
 - Official: yes
 - Tags: pdf, document-generation, form-filling, invoice
 - Category: Filesystems and Documents
+
+### DROP File Transfer
+
+Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.
+
+- URL: https://registry.modelcontextprotocol.io/v0.1/servers/space.drop%2Fdrop/versions/latest
+- Language: TypeScript
+- Provider: DROP
+- Official: yes
+- Tags: file-transfer, file-requests, client-uploads
+- Category: Filesystems and Documents
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://drop.space/mcp
 
 ### FastOCR MCP
 
