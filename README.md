@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-956-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-957-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (37)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (127)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (104)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (105)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (121)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (43)
@@ -1013,6 +1013,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `image-generation` `video-generation` `text-to-speech` `transcription` `copywriting`
 - **[EggAPI](https://eggapi.ai/docs/mcp)** `Official` `Other` — Remote MCP server for image and video generation with Seedream, Nano Banana, GPT Image, Seedance and Wan.  
   `generative-media` `image-generation` `video-generation` `remote`
+- **[Emero](https://www.emero.studio)** `Official` `TypeScript` — Hosted MCP that lets ChatGPT, Claude and other assistants make images, video, music and speech with Kling, Seedance, Nano Banana Pro and GPT Image, plus a brand memory reused across prompts. ([source](https://github.com/EmeroAI/emero-mcp))  
+  `ai-video` `image-generation` `audio-generation` `remote` `oauth`
 - **[fal.ai](https://fal.ai/mcp)** `Official` `Other` — Discover models and prices, then generate or edit images, video, audio, and 3D through the hosted fal MCP server.  
   `generative-media` `images` `video` `remote` `oauth`
 - **[fitlog-mcp](https://github.com/hahahahahahahahah6/fitlog-mcp)** `Python` — Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by voice, track personal records, and get workout plans.  
