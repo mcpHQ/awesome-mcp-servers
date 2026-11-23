@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-960-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-961-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -54,7 +54,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Security and Identity](#security-and-identity) (43)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (206)
 - [Utilities and Examples](#utilities-and-examples) (51)
-- [Logistics and Shipping](#logistics-and-shipping) (1)
+- [Logistics and Shipping](#logistics-and-shipping) (2)
 
 <a id="official-and-reference"></a>
 
@@ -2071,6 +2071,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
 
 Freight and parcel shipping, carrier rates, shipment tracking, and supply chain operations.
 
+- **[Atlas Verified](https://registry.modelcontextprotocol.io/?q=ai.atlasverified%2Fatlas-mcp)** `Official` `TypeScript` — Verify suppliers and certifications, review trade documents, and track shipments across global trade and logistics through Atlas Verified’s hosted MCP endpoint.  
+  `trade` `logistics` `suppliers` `certifications` `shipments`
 - **[Mothership](https://github.com/mothership/agent-plugins)** `Official` `TypeScript` — Mothership LTL, FTL & Local Freight: get quotes and track shipments.  
   `freight` `logistics` `shipping` `oauth` `remote`
 
