@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-955-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-956-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (121)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (43)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (206)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (207)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (1)
 
@@ -1561,6 +1561,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `defi` `market-data` `funding` `read-only`
 - **[APISign](https://apisign.io/docs/api/mcp)** `Official` `TypeScript` — Hosted MCP server for legally binding e-signature: create contracts from Markdown templates or .docx, email them to signers, track views and signatures, and get signed PDFs with a SHA-256 seal and audit trail.  
   `e-signature` `contracts` `documents` `remote` `api-key`
+- **[Apiwren Amazon Data MCP](https://apiwren.com/mcp)** `TypeScript` — Search Amazon products and retrieve details, ratings, reviews, seller offers, deals, and best sellers across 23 marketplaces. ([source](https://github.com/apiwren/amazon-data-api))  
+  `amazon` `e-commerce` `product-data`
 - **[Ariadne for Therapists](https://github.com/bgrieco22/ariadne-mcp)** `Official` `TypeScript` — Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.  
   `marketing` `local-seo` `google-business-profile` `therapists`
 - **[Ask Japan](https://github.com/ihouse-corp/ask-japan-mcp)** `Official` `Python` — Japanese company, invoice, postcode and EDINET data, plus people in Japan who make phone calls, reservations and errands for AI agents.  

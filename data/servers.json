@@ -14578,6 +14578,33 @@
     }
   },
   {
+    "name": "Apiwren Amazon Data MCP",
+    "url": "https://apiwren.com/mcp",
+    "description": "Search Amazon products and retrieve details, ratings, reviews, seller offers, deals, and best sellers across 23 marketplaces.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Apiwren",
+    "tags": [
+      "amazon",
+      "e-commerce",
+      "product-data"
+    ],
+    "official": false,
+    "repository": "https://github.com/apiwren/amazon-data-api",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "amazon-data-api-mcp"
+    },
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Good Nature Vibe Catalog",
     "url": "https://catalog-mcp.goodnaturevibe.com",
     "description": "Provides read-only product catalog search and published shop knowledge without login, cart, checkout or ordering.",
