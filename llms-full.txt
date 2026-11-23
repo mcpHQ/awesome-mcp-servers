@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 956 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 957 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6048,6 +6048,22 @@ Remote MCP server for image and video generation with Seedream, Nano Banana, GPT
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://api.eggapi.ai/mcp
+
+### Emero
+
+Hosted MCP that lets ChatGPT, Claude and other assistants make images, video, music and speech with Kling, Seedance, Nano Banana Pro and GPT Image, plus a brand memory reused across prompts.
+
+- URL: https://www.emero.studio
+- Language: TypeScript
+- Provider: Emero
+- Official: yes
+- Tags: ai-video, image-generation, audio-generation, remote, oauth
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/EmeroAI/emero-mcp
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.emero.studio/mcp
 
 ### fal.ai
 

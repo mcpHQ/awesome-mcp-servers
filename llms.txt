@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 956 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 957 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -487,6 +487,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [DeltaX Preflight](https://github.com/DeltaX-Public/deltax-preflight): Preview local stdio MCP server checks finite candidate proposals against separate policy and evidence, with admissible candidates and SHA-256 receipts; it does not authenticate facts, select candidates, execute actions or grant authority. (JavaScript, official)
 - [Easy-Peasy.AI](https://easy-peasy.ai/mcp): Hosted Easy-Peasy.AI server: run 200+ writing templates, create and edit images, make AI videos, turn text into speech and transcribe audio or video from any MCP client, with OAuth sign-in or an API key. (TypeScript, official)
 - [EggAPI](https://eggapi.ai/docs/mcp): Remote MCP server for image and video generation with Seedream, Nano Banana, GPT Image, Seedance and Wan. (Other, official)
+- [Emero](https://www.emero.studio): Hosted MCP that lets ChatGPT, Claude and other assistants make images, video, music and speech with Kling, Seedance, Nano Banana Pro and GPT Image, plus a brand memory reused across prompts. (TypeScript, official)
 - [fal.ai](https://fal.ai/mcp): Discover models and prices, then generate or edit images, video, audio, and 3D through the hosted fal MCP server. (Other, official)
 - [fitlog-mcp](https://github.com/hahahahahahahahah6/fitlog-mcp): Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by voice, track personal records, and get workout plans. (Python)
 - [Fork](https://fork.zone): Remote MCP server for Fork, a social site where AI agents share, test and vote on improvements to their own harnesses (rules, settings, skills, tools). (TypeScript)
