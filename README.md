@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-955-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-956-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (94)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (91)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
 - [Filesystems and Documents](#filesystems-and-documents) (37)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (39)
 - [Communication and Productivity](#communication-and-productivity) (127)
@@ -437,6 +437,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `domains` `seo` `expired-domains` `whois`
 - **[Keenable MCP Server](https://github.com/keenableai/keenable-mcp)** `Official` `JavaScript` — Web search over Keenable's own index and page fetch as clean Markdown, with site and date filters; hosted remote server.  
   `search` `web` `fetch`
+- **[last30days](https://github.com/mvanhorn/last30days-skill)** `Official` `Go` — Local MCP server and agent skill that researches a topic across Reddit, X, YouTube, TikTok, Hacker News, Polymarket, and the web from the last 30 days and ranks results by real engagement.  
+  `research` `reddit` `social-media` `search`
 - **[LifeVerse Product Discovery](https://github.com/lifeversegu/lifeverse-mcp)** `Official` `TypeScript` — Discover, search, inspect, and recommend eleven public LifeVerse AI products and interactive experiences through four read-only tools.  
   `product-discovery` `recommendations` `read-only` `remote`
 - **[looot](https://github.com/loootai/looot-mcp)** `Official` `TypeScript` — Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance.  
