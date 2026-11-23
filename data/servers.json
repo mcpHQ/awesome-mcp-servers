@@ -5212,6 +5212,29 @@
     ]
   },
   {
+    "name": "Moedux",
+    "url": "https://www.moedux.com/llms.txt",
+    "description": "Remote MCP for personal-finance diagnosis in Portuguese: from balance, monthly income and fixed expenses it projects your balance and the date your cash runs out (Mar Vermelho), without signup.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Go",
+    "provider": "Moedux",
+    "tags": [
+      "personal-finance",
+      "budgeting",
+      "brazil",
+      "remote",
+      "diagnosis"
+    ],
+    "official": true,
+    "repository": "https://github.com/jhonnysabino/moedux-agent-tools",
+    "endpoints": {
+      "streamableHttp": "https://www.moedux.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
     "name": "Adspy",
     "url": "https://www.adspy.sh",
     "description": "Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.",
