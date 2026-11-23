@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-968-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-969-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (43)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (207)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (208)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1795,6 +1795,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `finance` `accounting` `oauth` `remote`
 - **[Metaintro Job Search](https://www.metaintro.com/developers/mcp)** `Official` `TypeScript` — Search live jobs pulled straight from employer career sites, read postings, and see how employers hire and pay; free, no sign-in.  
   `jobs` `job-search` `careers` `hiring` `remote`
+- **[Moedux](https://www.moedux.com/llms.txt)** `Official` `Go` — Remote MCP for personal-finance diagnosis in Portuguese: from balance, monthly income and fixed expenses it projects your balance and the date your cash runs out (Mar Vermelho), without signup. ([source](https://github.com/jhonnysabino/moedux-agent-tools))  
+  `personal-finance` `budgeting` `brazil` `remote` `diagnosis`
 - **[MoltNode by Chord](https://github.com/tuantqse90/moltnode-mcp)** `Official` `Other` — Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.  
   `blockchain` `json-rpc` `defi` `swap` `crypto`
 - **[Neblex Integration Fabric](https://www.neblex.com/integration-fabric/docs/guide/mcp)** `Official` `Other` — Official MCP server for the Neblex integration platform: build, test and run integration flows, read run history and fix failed runs across 300+ connectors. ([source](https://github.com/neblexhq/neblex-mcp))  
