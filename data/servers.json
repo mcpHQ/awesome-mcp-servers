@@ -10325,6 +10325,31 @@
     "repository": "https://github.com/netdata/netdata"
   },
   {
+    "name": "Vertov MCP",
+    "url": "https://vertov.app/docs/mcp",
+    "description": "Search workspace recordings, read timestamped transcripts, and upload videos for sharing.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Vertov",
+    "tags": [
+      "video",
+      "screen-recording",
+      "transcripts"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://vertov.app/mcp"
+    }
+  },
+  {
     "name": "WhatsDownNow",
     "url": "https://whatsdownnow.com/developers",
     "description": "Live outage status, incident history, AI API fallback suggestions, and free alert stacks for 250 services.",
