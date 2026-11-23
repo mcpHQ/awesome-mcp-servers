@@ -6462,6 +6462,33 @@
     "repository": "https://github.com/johannschiffer/genesis-blackbox"
   },
   {
+    "name": "while.sh",
+    "url": "https://while.sh/en/docs/get-started/connect-your-agent/",
+    "description": "Deploy and share tools built with Claude or ChatGPT: your team, a client or everyone. Your AI agent deploys each tool with its PostgreSQL database, file storage and scheduled jobs, then reads its logs. Hosted in France, no sign-up.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Nextmap",
+    "tags": [
+      "paas",
+      "deployment",
+      "hosting",
+      "postgres",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/while-sh/while",
+    "license": "proprietary",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://app.while.sh/mcp"
+    }
+  },
+  {
     "name": "ContextManager",
     "url": "https://github.com/nushey/ContextManager",
     "description": "Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents.",
