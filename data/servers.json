@@ -10939,6 +10939,31 @@
     "repository": "https://github.com/microsoft/playwright-mcp"
   },
   {
+    "name": "RankBrain AI",
+    "url": "https://access.rankbrain.app/mcphq",
+    "description": "Hosted SEO MCP server for Cursor, Claude Code, Codex and others that reads your site and applies fixes to titles, meta descriptions, schema markup and link text after you approve each change.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Maitreya Labs",
+    "tags": [
+      "seo",
+      "schema",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://rankbrain.app/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Plazmi",
     "url": "https://plazmi.gg/SKILL.md",
     "description": "A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.",
