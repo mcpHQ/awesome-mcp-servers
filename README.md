@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-955-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-956-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (94)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (95)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (91)
 - [Filesystems and Documents](#filesystems-and-documents) (37)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (39)
@@ -156,6 +156,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `apple` `ios` `swift` `documentation` `wwdc`
 - **[AppScreen](https://appscreen.pro)** `Official` `TypeScript` — Build App Store and Google Play screenshots in the AppScreen browser editor: slides, phone frames, captions, app screenshots, backgrounds and PNG export at store sizes, over remote Streamable HTTP with OAuth 2.1.  
   `app-store` `google-play` `screenshots` `remote` `oauth`
+- **[AppScreenshots MCP](https://appscreenshots.net/docs/mcp)** `Official` `TypeScript` — Create and edit App Store and Google Play screenshot projects using templates and authorized assets, then review and export them in the AppScreenshots browser editor. ([source](https://github.com/horace68/appscreenshots-mcp))  
+  `app-store` `google-play` `screenshots`
 - **[AsItIs](https://github.com/Katta041/asitis-agent-tools)** `Official` `TypeScript` — Read-only server that lints CLAUDE.md, AGENTS.md and SKILL.md against vendor rules, estimates the tokens they load per session, and flags hidden instructions such as comments addressed to the AI and invisible Unicode.  
   `claude-md` `agents-md` `linting` `prompt-injection` `markdown`
 - **[ax](https://github.com/Necmttn/ax)** `TypeScript` — Local-first MCP server for querying coding-agent sessions, tool calls, skills, and costs.  
