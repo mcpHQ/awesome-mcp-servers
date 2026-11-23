@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 973 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9921,6 +9921,23 @@ Hosted MCP server for legally binding e-signature: create contracts from Markdow
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://apisign.io/mcp
+
+### Apiwren Amazon Data MCP
+
+Search Amazon products and retrieve details, ratings, reviews, seller offers, deals, and best sellers across 23 marketplaces.
+
+- URL: https://apiwren.com/mcp
+- Language: TypeScript
+- Provider: Apiwren
+- Official: no
+- Tags: amazon, e-commerce, product-data
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/apiwren/amazon-data-api
+- License: MIT
+- Pricing: freemium
+- Transport: stdio
+- Auth: api-key
+- Install: npx amazon-data-api-mcp
 
 ### Ariadne for Therapists
 
