@@ -10151,6 +10151,35 @@
     ]
   },
   {
+    "name": "EasyMail Pro",
+    "url": "https://easymailpro.tech/mcp",
+    "description": "Local-first MCP server for EasyMail Pro that lets AI assistants search, read, extract attachments, draft, snooze, organize, and send email across Gmail, Outlook, and IMAP.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "Mosgaard Digital Solutions",
+    "tags": [
+      "email",
+      "gmail",
+      "outlook",
+      "imap",
+      "local-first"
+    ],
+    "official": true,
+    "repository": "https://github.com/mdsolutionsdk/easymailpro-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@easymailpro/mcp"
+    },
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
