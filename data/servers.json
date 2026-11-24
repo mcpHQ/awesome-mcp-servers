@@ -10310,6 +10310,258 @@
     ]
   },
   {
+    "name": "Hospital Ratings CMS Star Ratings MCP",
+    "url": "https://github.com/theluckystrike/hospital-ratings-cms-star-ratings-mcp",
+    "description": "CMS overall hospital star ratings, patient survey (HCAHPS) stars, ER wait times and quality measures for every US hospital from Medicare Care Compare.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "healthcare",
+      "hospitals",
+      "medicare",
+      "cms"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/hospital-ratings-cms-star-ratings-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://hospital-ratings-cms-star-ratings-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "Nursing Home Ratings Care Compare MCP",
+    "url": "https://github.com/theluckystrike/nursing-home-ratings-medicare-care-compare-mcp",
+    "description": "Medicare Care Compare star ratings, nurse staffing hours, turnover, inspection deficiencies, fines and abuse flags for every US nursing home.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "healthcare",
+      "nursing-homes",
+      "medicare",
+      "cms"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/nursing-home-ratings-medicare-care-compare-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://nursing-home-ratings-medicare-care-compare-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "Home Health and Hospice Ratings MCP",
+    "url": "https://github.com/theluckystrike/home-health-hospice-ratings-care-compare-mcp",
+    "description": "Medicare Care Compare star ratings, patient and family survey results and quality measures for US home health agencies and hospices by ZIP code.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "healthcare",
+      "home-health",
+      "hospice",
+      "cms"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/home-health-hospice-ratings-care-compare-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://home-health-hospice-ratings-care-compare-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "Measles Cases by State Outbreak MCP",
+    "url": "https://github.com/theluckystrike/measles-cases-by-state-outbreak-mcp",
+    "description": "CDC confirmed US measles cases by state, outbreak counts, hospitalizations, weekly trends and kindergarten MMR vaccination rates.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "public-health",
+      "cdc",
+      "epidemiology",
+      "open-data"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/measles-cases-by-state-outbreak-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://measles-cases-by-state-outbreak-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "Restaurant Health Inspection Scores MCP",
+    "url": "https://github.com/theluckystrike/restaurant-health-inspection-scores-mcp",
+    "description": "Latest restaurant health inspection grades, scores, violations and closures in NYC, Chicago, Austin and Boston from city open data portals.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "food-safety",
+      "restaurants",
+      "open-data",
+      "inspections"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/restaurant-health-inspection-scores-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://restaurant-health-inspection-scores-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "Snow Depth Snowpack SNOTEL MCP",
+    "url": "https://github.com/theluckystrike/snow-depth-snowpack-snotel-mcp",
+    "description": "Daily USDA NRCS SNOTEL snow depth, snow water equivalent and percent of 30-year median for western US mountain stations.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "weather",
+      "snowpack",
+      "snotel",
+      "usda"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/snow-depth-snowpack-snotel-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://snow-depth-snowpack-snotel-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "Avalanche Forecast Danger Rating MCP",
+    "url": "https://github.com/theluckystrike/avalanche-forecast-danger-rating-mcp",
+    "description": "Today avalanche danger ratings by zone and elevation, avalanche problems and bottom line summaries from US avalanche centers.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "weather",
+      "avalanche",
+      "backcountry",
+      "safety"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/avalanche-forecast-danger-rating-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://avalanche-forecast-danger-rating-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "Egg Prices and Grocery Prices MCP",
+    "url": "https://github.com/theluckystrike/egg-prices-grocery-prices-mcp",
+    "description": "Monthly US average retail prices for eggs, beef, coffee, milk, bread, gasoline and electricity from BLS CPI average price series.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "economics",
+      "bls",
+      "cpi",
+      "prices"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/egg-prices-grocery-prices-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://egg-prices-grocery-prices-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "Ingredient Convert MCP",
+    "url": "https://github.com/theluckystrike/ingredient-convert-mcp",
+    "description": "Cooking ingredient unit converter (cups, tablespoons, teaspoons, ml, grams, ounces) using a measured density table plus recipe scaling.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "cooking",
+      "unit-converter",
+      "recipes",
+      "baking"
+    ],
+    "official": false,
+    "repository": "https://github.com/theluckystrike/ingredient-convert-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://ingredient-convert-mcp.lipmichal.workers.dev/mcp"
+    }
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",

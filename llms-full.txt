@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 983 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7401,6 +7401,22 @@ Web-to-app attribution for iOS and Android apps that buy ads: create campaign li
 - Auth: api-key
 - Install: npx @attrkit/mcp
 
+### Avalanche Forecast Danger Rating MCP
+
+Today avalanche danger ratings by zone and elevation, avalanche problems and bottom line summaries from US avalanche centers.
+
+- URL: https://github.com/theluckystrike/avalanche-forecast-danger-rating-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: weather, avalanche, backcountry, safety
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://avalanche-forecast-danger-rating-mcp.lipmichal.workers.dev/mcp
+
 ### Basedash MCP Server
 
 Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth.
@@ -8068,6 +8084,22 @@ Remote MCP tools for website technologies and company job listings; paid HTTP AP
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/mcp
 
+### Home Health and Hospice Ratings MCP
+
+Medicare Care Compare star ratings, patient and family survey results and quality measures for US home health agencies and hospices by ZIP code.
+
+- URL: https://github.com/theluckystrike/home-health-hospice-ratings-care-compare-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: healthcare, home-health, hospice, cms
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://home-health-hospice-ratings-care-compare-mcp.lipmichal.workers.dev/mcp
+
 ### Hoot Lens
 
 Read website session replays, click heatmaps and broken clicks, trace one to its JavaScript error and source line, and check whether a shipped change helped.
@@ -8080,6 +8112,22 @@ Read website session replays, click heatmaps and broken clicks, trace one to its
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.hootlens.com/mcp
+
+### Hospital Ratings CMS Star Ratings MCP
+
+CMS overall hospital star ratings, patient survey (HCAHPS) stars, ER wait times and quality measures for every US hospital from Medicare Care Compare.
+
+- URL: https://github.com/theluckystrike/hospital-ratings-cms-star-ratings-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: healthcare, hospitals, medicare, cms
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://hospital-ratings-cms-star-ratings-mcp.lipmichal.workers.dev/mcp
 
 ### Invokely
 
@@ -8269,6 +8317,22 @@ An MCP for marketers that gives agents tools for SEO, AEO, socials and ads data,
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.manifoldmcp.com/mcp
 
+### Measles Cases by State Outbreak MCP
+
+CDC confirmed US measles cases by state, outbreak counts, hospitalizations, weekly trends and kindergarten MMR vaccination rates.
+
+- URL: https://github.com/theluckystrike/measles-cases-by-state-outbreak-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: public-health, cdc, epidemiology, open-data
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://measles-cases-by-state-outbreak-mcp.lipmichal.workers.dev/mcp
+
 ### Metabase MCP Server
 
 Query dashboards and explore data in Metabase BI.
@@ -8343,6 +8407,22 @@ New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse,
 - License: MIT
 - Transport: stdio
 - Install: npx github:GeminiGeorge22/ats-jobs-mcp
+
+### Nursing Home Ratings Care Compare MCP
+
+Medicare Care Compare star ratings, nurse staffing hours, turnover, inspection deficiencies, fines and abuse flags for every US nursing home.
+
+- URL: https://github.com/theluckystrike/nursing-home-ratings-medicare-care-compare-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: healthcare, nursing-homes, medicare, cms
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://nursing-home-ratings-medicare-care-compare-mcp.lipmichal.workers.dev/mcp
 
 ### OMOPHub
 
@@ -8531,6 +8611,22 @@ Hosted MCP server that searches government product recall notices from CPSC, FDA
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://app.recallkitchen.com/mcp
+
+### Restaurant Health Inspection Scores MCP
+
+Latest restaurant health inspection grades, scores, violations and closures in NYC, Chicago, Austin and Boston from city open data portals.
+
+- URL: https://github.com/theluckystrike/restaurant-health-inspection-scores-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: food-safety, restaurants, open-data, inspections
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://restaurant-health-inspection-scores-mcp.lipmichal.workers.dev/mcp
 
 ### Robot Speed
 
@@ -8727,6 +8823,22 @@ Keyless stdio and streamable-HTTP server with 26 tools for poker hand and range 
 - Auth: none
 - Install: npx smarter-poker-mcp
 - Streamable HTTP endpoint: https://smarter.poker/api/mcp
+
+### Snow Depth Snowpack SNOTEL MCP
+
+Daily USDA NRCS SNOTEL snow depth, snow water equivalent and percent of 30-year median for western US mountain stations.
+
+- URL: https://github.com/theluckystrike/snow-depth-snowpack-snotel-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: weather, snowpack, snotel, usda
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://snow-depth-snowpack-snotel-mcp.lipmichal.workers.dev/mcp
 
 ### Sociality MCP
 
@@ -10586,6 +10698,22 @@ US government data as JSON: SAM.gov contract opportunities, USAspending awards, 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://api.edgrapi.com/mcp
+
+### Egg Prices and Grocery Prices MCP
+
+Monthly US average retail prices for eggs, beef, coffee, milk, bread, gasoline and electricity from BLS CPI average price series.
+
+- URL: https://github.com/theluckystrike/egg-prices-grocery-prices-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: economics, bls, cpi, prices
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://egg-prices-grocery-prices-mcp.lipmichal.workers.dev/mcp
 
 ### EL7.AI
 
@@ -12938,6 +13066,22 @@ Search live flight prices, compare departure dates, resolve airports, and get bo
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://ignav.com/mcp
+
+### Ingredient Convert MCP
+
+Cooking ingredient unit converter (cups, tablespoons, teaspoons, ml, grams, ounces) using a measured density table plus recipe scaling.
+
+- URL: https://github.com/theluckystrike/ingredient-convert-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: cooking, unit-converter, recipes, baking
+- Category: Utilities and Examples
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://ingredient-convert-mcp.lipmichal.workers.dev/mcp
 
 ### LFG Atlas
 
