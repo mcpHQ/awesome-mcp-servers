@@ -11073,6 +11073,32 @@
     ]
   },
   {
+    "name": "FiveSocket MT5",
+    "url": "https://fivesocket.com/mcp",
+    "description": "Hosted MetaTrader 5 MCP server and REST API: read balances, positions, history and candles on any MT5 broker, place orders (opt-in), no Windows needed. Read-only endpoint available.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "FiveSocket",
+    "tags": [
+      "trading",
+      "forex",
+      "metatrader",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.fivesocket.com/mcp/read"
+    },
+    "repository": "https://github.com/fivesocket/mt5-mcp-server",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Pinto Notes",
     "url": "https://github.com/pinto-notes/pinto-notes",
     "description": "Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.",
