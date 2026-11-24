@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 974 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 975 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -502,6 +502,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [House AI](https://www.houseaiapp.com/connector): AI interior and exterior design: redesign a room, house exterior or yard from a photo in 100+ styles, preview wall paint and flooring, and find real furniture and decor to match. OAuth sign-in with a House AI account. (Python, official)
 - [Hugging Face MCP Server](https://github.com/huggingface/hf-mcp-server): Access Hugging Face models, datasets, and Spaces from MCP clients. (TypeScript, official)
 - [HumanEndpoint](https://humanendpoint.au): Quote-first human execution for AI agents: business and supplier calls, stock and availability checks, physical verification, manual research, and human QA. (TypeScript, official)
+- [Hydracept](https://docs.hydracept.com/): Executes external capabilities such as image, video, audio, text, DNS, and domain operations for agents through one catalog with sealed pricing and receipts. (Python, official)
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness): Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants. (Rust)
 - [I2v.ai MCP Server](https://i2v.ai/docs/mcp): Generate images and videos with 12 image models and 16 video models through 13 tools covering cost estimates, capped job submission, polling, and usage. (TypeScript, official)
 - [imageat](https://github.com/incendies/imageat-mcp): AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imageat/mcp` with an API key, or use the hosted Streamable HTTP server with OAuth. Credits per generation. (Other, official)

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -6261,6 +6261,23 @@ Quote-first human execution for AI agents: business and supplier calls, stock an
 - Category: AI, Agents, and Memory
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://humanendpoint.au/mcp
+
+### Hydracept
+
+Executes external capabilities such as image, video, audio, text, DNS, and domain operations for agents through one catalog with sealed pricing and receipts.
+
+- URL: https://docs.hydracept.com/
+- Language: Python
+- Provider: Hydracept
+- Official: yes
+- Tags: agents, capabilities, media-generation, receipts
+- Category: AI, Agents, and Memory
+- Repository: https://github.com/zencodeinc/hydracept-public
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key
+- Verified: 2026-11-24
+- Streamable HTTP endpoint: https://api.hydracept.com/mcp
 
 ### Hyperconsciousness
 
