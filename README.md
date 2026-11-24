@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (93)
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (129)
@@ -487,7 +487,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `video` `transcription` `social-media` `youtube` `remote`
 - **[SitePatent](https://sitepatent.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the SitePatent product discovery directory: search the websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
   `search` `directory` `startups` `remote`
-- **[Skool Community Scraper](https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/servers/skool-community-mcp)** `JavaScript` — Search Skool communities by keyword. Members, price, rating and estimated monthly revenue for each, plus daily growth tracking.
+- **[Skool Community Scraper](https://github.com/GeminiGeorge22/publicrecords-mcp)** `JavaScript` — Search Skool communities by keyword. Members, price, rating and estimated monthly revenue for each, plus daily growth tracking.  
+  `skool` `communities` `search` `remote`
 - **[Social Fetch](https://www.socialfetch.dev/docs/integrations/mcp)** `Official` `Other` — Hosted MCP server for public social posts, profiles, comments, transcripts and search. ([source](https://github.com/social-freak-ltd/socialfetch-mcp))  
   `social-media` `tiktok` `instagram` `search` `remote`
 - **[Solvecha](https://solvecha.com/mcp-captcha-solver)** `Official` `Go` — Solves reCAPTCHA v2 image grids, text captchas, GeeTest sliders and FunCAPTCHA for AI agents over a hosted MCP endpoint; free tier included.  
