@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (97)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
@@ -172,6 +172,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `error-tracking` `monitoring` `debugging` `remote` `oauth`
 - **[Chain.Love MCP](https://github.com/Chain-Love/chain.love-mcp)** `Official` `Other` — Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.  
   `web3` `infrastructure` `discovery` `remote`
+- **[Chattee](https://chattee.ai/docs/mcp)** `Official` `JavaScript` — Lets AI assistants create, change, deploy and publish full web apps on Chattee. ([source](https://github.com/chattee-ai/plugins))  
+  `app-builder` `web-apps` `deploy` `hosting`
 - **[Coding Tools MCP](https://github.com/mybolide/coding-tools-mcp)** `Rust` — Rust + Tauri 2 desktop app that turns a local project into an MCP workspace for AI agents: file read/edit, command and test execution, Git status, and project-local history sessions that restore context in a new conversation.  
   `desktop` `tauri` `workspace` `local`
 - **[Communicate](https://developer.communicate.so/docs/mcp)** `Official` `TypeScript` — List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials.  

@@ -8109,6 +8109,34 @@
     ]
   },
   {
+    "name": "Chattee",
+    "url": "https://chattee.ai/docs/mcp",
+    "description": "Lets AI assistants create, change, deploy and publish full web apps on Chattee.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Anwendo GmbH",
+    "tags": [
+      "app-builder",
+      "web-apps",
+      "deploy",
+      "hosting"
+    ],
+    "official": true,
+    "repository": "https://github.com/chattee-ai/plugins",
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://chattee.ai/mcp/connect"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Hail",
     "url": "https://hail.so/mcp",
     "description": "Give your AI assistant a phone number and an email inbox to handle calls, texts, and email.",
