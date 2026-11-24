@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -371,6 +371,22 @@ Official Harness.io MCP server for CI/CD pipelines, deployments, GitOps, and pla
 - Official: yes
 - Tags: harness, cicd, devops
 - Category: Developer Tools and Code Intelligence
+
+### A1 Gallery
+
+Search a hand-picked gallery of real live websites for design references: sections, full pages, fonts, font pairings, and colours, type sizes, and spacing measured off each live page.
+
+- URL: https://www.a1.gallery/mcp
+- Language: TypeScript
+- Provider: A1 Gallery
+- Official: yes
+- Tags: design, ui, websites, fonts, remote
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/a1-gallery/a1-mcp
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://www.a1.gallery/api/mcp
 
 ### Agent QA
 

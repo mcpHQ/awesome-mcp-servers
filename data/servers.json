@@ -10310,6 +10310,33 @@
     ]
   },
   {
+    "name": "A1 Gallery",
+    "url": "https://www.a1.gallery/mcp",
+    "description": "Search a hand-picked gallery of real live websites for design references: sections, full pages, fonts, font pairings, and colours, type sizes, and spacing measured off each live page.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "A1 Gallery",
+    "tags": [
+      "design",
+      "ui",
+      "websites",
+      "fonts",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/a1-gallery/a1-mcp",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://www.a1.gallery/api/mcp"
+    }
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
