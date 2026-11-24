@@ -10352,6 +10352,38 @@
     }
   },
   {
+    "name": "LeadMerlin",
+    "url": "https://github.com/HalberdLLC/leadmerlin-mcp",
+    "description": "Search local businesses (Google Maps) by niche and city, then get each one enriched with owner name, emails checked against the mail server, phone line type and website tech; API key, 100 free leads on signup.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "LeadMerlin",
+    "tags": [
+      "lead-generation",
+      "sales",
+      "local-business",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.leadmerlin.com/mcp"
+    },
+    "repository": "https://github.com/HalberdLLC/leadmerlin-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:HalberdLLC/leadmerlin-mcp"
+    },
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "crawlbrulee mcp server",
     "url": "https://github.com/crawlbrulee/crawlbrulee-mcp",
     "description": "Scrape any page into clean markdown, screenshots, metadata and links, or map a site's urls, with an EU-hosted web scraping api.",
