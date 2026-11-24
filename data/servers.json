@@ -10310,6 +10310,37 @@
     ]
   },
   {
+    "name": "FineRx",
+    "url": "https://www.finerxfinder.com/en/connect",
+    "description": "Observed US prescription prices by pharmacy chain with the date seen, the free FineRx discount card and US equivalents of foreign-brand medicines, in 12 languages; an independent comparison service, not insurance or medical advice.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "FineRx",
+    "tags": [
+      "drug-prices",
+      "pharmacy",
+      "healthcare",
+      "discount-card",
+      "multilingual"
+    ],
+    "official": true,
+    "repository": "https://github.com/andrewfinerx/finerx-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "finerx-mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
