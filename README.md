@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (209)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (210)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1669,6 +1669,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `exchanges` `fees` `wallets` `remote`
 - **[CueHQ](https://www.cuehq.social/agents)** `Official` `TypeScript` — Finds the Reddit, X, YouTube and TikTok threads where people ask for a product like yours, ranked, with reply drafts in your voice. ([source](https://github.com/CueHQSocial/cuehq-mcp))  
   `social-listening` `reddit` `lead-generation` `marketing`
+- **[Cueston](https://cueston.com/docs/mcp)** `Official` `TypeScript` — Hosted MCP server to build, preview and publish in-app product tours, tooltips, banners, onboarding checklists, surveys and announcements on a SaaS app, and read their analytics. ([source](https://github.com/andreycretsu/cueston-mcp))  
+  `onboarding` `product-tours` `in-app-guidance` `saas` `remote`
 - **[Darioa Web Developer](https://www.darioa.nl/llms.txt)** `Official` `TypeScript` — Remote server for a one-person web developer in the Netherlands: list fixed-price websites, booking sites, webshops and web apps, get the price for a described need, see client work and ask for contact.  
   `web-development` `website` `ecommerce` `quote` `remote`
 - **[Datacircle](https://datacircle.dev/docs/mcp)** `Official` `Python` — Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor.  

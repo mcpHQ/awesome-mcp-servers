@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10473,6 +10473,24 @@ Finds the Reddit, X, YouTube and TikTok threads where people ask for a product l
 - Auth: api-key
 - Install: npx cuehq-mcp
 - Streamable HTTP endpoint: https://www.cuehq.social/mcp
+
+### Cueston
+
+Hosted MCP server to build, preview and publish in-app product tours, tooltips, banners, onboarding checklists, surveys and announcements on a SaaS app, and read their analytics.
+
+- URL: https://cueston.com/docs/mcp
+- Language: TypeScript
+- Provider: Cueston
+- Official: yes
+- Tags: onboarding, product-tours, in-app-guidance, saas, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/andreycretsu/cueston-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http, stdio
+- Auth: oauth, api-key
+- Install: npx cueston
+- Streamable HTTP endpoint: https://app.cueston.com/api/mcp
 
 ### Darioa Web Developer
 
