@@ -10281,6 +10281,24 @@
     ]
   },
   {
+    "name": "SprutMonitor DLP",
+    "url": "https://sprutmonitor.ru/mcp.html",
+    "description": "Read-only SprutMonitor DLP Cloud MCP for risks, idle time, productivity, and employee monitoring. Runs locally.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "SprutMonitor",
+    "tags": ["dlp", "security", "monitoring", "employee-monitoring"],
+    "official": true,
+    "repository": "https://github.com/extralabs/sprutmonitor-mcp-server",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": ["stdio"],
+    "install": {
+      "command": "uvx",
+      "package": "sprutmonitor-mcp"
+    }
+  },
+  {
     "name": "EasyMail Pro",
     "url": "https://easymailpro.tech/mcp",
     "description": "Local-first MCP server for EasyMail Pro that lets AI assistants search, read, extract attachments, draft, snooze, organize, and send email across Gmail, Outlook, and IMAP.",
