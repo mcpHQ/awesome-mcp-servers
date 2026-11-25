@@ -6019,7 +6019,7 @@ Remote MCP story bible for fiction writers: locked characters, relationships, wo
 
 ### CoreSpeed
 
-Hosted OAuth MCP gateway for any agent: your connected apps (Notion, Slack, GitHub, Gmail and more), shared team memory, web search, social data and media tools, with spend caps and an activity log.
+CoreSpeed is the agent-native cloud: one MCP endpoint that gives AI agents such as Claude Code, Codex and Cursor your apps, built-in tools and team memory.
 
 - URL: https://corespeed.io/docs/mcp
 - Language: TypeScript
