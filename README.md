@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
-- [Filesystems and Documents](#filesystems-and-documents) (39)
+- [Filesystems and Documents](#filesystems-and-documents) (40)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (129)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (108)
@@ -534,6 +534,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `company-knowledge` `automation` `integrations` `read-only` `remote`
 - **[Airtable MCP Server](https://github.com/domdomegg/airtable-mcp-server)** `TypeScript` — Read and write Airtable bases, tables, and records via MCP.  
   `airtable` `spreadsheets` `data`
+- **[AppStruct Docs MCP](https://blog.appstruct.ai/blog/docs-mcp-meeting-notes-to-project-brief?utm_source=mcphq&utm_medium=referral&utm_campaign=docs_claude_code_20261120&utm_content=docs_listing_01)** `Official` `Other` — Read, search and edit documents you own in AppStruct Docs using hosted MCP and a scoped Bearer key; requires an AppStruct account with Docs access.  
+  `documents` `docs` `productivity` `remote` `api-key`
 - **[Audo](https://audo.ai/docs/mcp)** `Official` `TypeScript` — Audio and video creation and editing tools for AI agents: speech generation, voice cloning and changing, cleanup, transcription, and captions. ([source](https://github.com/audo-ai/audo-mcp))  
   `audio` `video` `transcription` `editing`
 - **[BrewPage](https://github.com/kochetkov-ma/brewpage-openapi)** `Official` `TypeScript` — Publish HTML pages, Markdown, static sites, files, JSON and key-value data to free temporary HTTPS links with no signup or API key; content expires after a set TTL.  
