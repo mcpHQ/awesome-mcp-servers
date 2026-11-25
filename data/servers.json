@@ -6837,6 +6837,34 @@
     ]
   },
   {
+    "name": "PDF & Image to Markdown/Text (Apify Actors)",
+    "url": "https://github.com/Skaarking/pdf-to-markdown-api",
+    "description": "Converts public text-layer PDF URLs to Markdown with page markers and detected tables, and extracts text from images with English/Spanish OCR, via two hosted Apify Actors billed per document.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "gunpark",
+    "tags": [
+      "pdf",
+      "markdown",
+      "ocr",
+      "rag",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=gunpark/pdf-to-markdown-extractor,gunpark/bulk-image-ocr"
+    },
+    "repository": "https://github.com/Skaarking/pdf-to-markdown-api",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Carbon",
     "url": "https://github.com/CarbonDataSolutions/carbon-mcp",
     "description": "Hire skills-assessed data professionals from any MCP host. Post your role free. Hosted Streamable HTTP server with OAuth.",
