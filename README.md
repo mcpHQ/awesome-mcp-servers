@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (97)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
@@ -146,6 +146,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `sandboxes` `agents` `developer-tools` `directory`
 - **[AgentTask Atlas](https://agenttaskatlas.com/mcp)** `Official` `TypeScript` — Read-only, no-auth search over a curated catalog of MCP servers and Agent Skills organized by dev task, each with a one-line verdict, install command and source link.  
   `directory` `discovery` `devtools` `remote`
+- **[AI Review](https://github.com/purge-unlimited/ai-review)** `JavaScript` — Zero-dependency MCP server that asks a second cloud or local OpenAI-compatible model for independent code review, architectural scrutiny, and second opinions.  
+  `mcp` `code-review` `second-opinion` `llm` `stdio`
 - **[anylocale](https://anylocale.com/mcp)** `Official` `TypeScript` — Hosted OAuth MCP server for iOS and Android app localization: per-locale coverage, missing strings, glossary-aware AI drafts, placeholder and length checks, and .xcstrings, .strings and strings.xml push and pull.  
   `localization` `translation` `ios` `android` `remote`
 - **[API.market MCP Gateway](https://api.market/mcp)** `Official` `TypeScript` — Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API.  
@@ -357,10 +359,10 @@ Browse the web, scrape content, search, and automate browser interactions.
   `proxy` `residential-proxy` `x402` `remote`
 - **[AI Resources](https://github.com/Drix10/ai-resources/tree/main/mcp)** `Official` `JavaScript` — Search and read dated AI news briefings on model releases, dev tools, funding rounds and research, each linking to the original post; no API key. ([source](https://github.com/Drix10/ai-resources))  
   `ai-news` `search` `research` `citations`
-- **[AIHOT](https://aihot.news/agent?tab=mcp)** `Official` `TypeScript` — Searches Chinese-language AI industry news and retrieves daily, weekly, and monthly briefings. ([source](https://github.com/KKKKhazix/AIHOT))  
-  `news` `search` `chinese` `remote`
 - **[AI观潮 News MCP](https://aiguanchao.com/en/agent)** `Official` `Go` — Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Needs a personal token (free daily quota).  
   `news` `ai-news` `chinese` `remote`
+- **[AIHOT](https://aihot.news/agent?tab=mcp)** `Official` `TypeScript` — Searches Chinese-language AI industry news and retrieves daily, weekly, and monthly briefings. ([source](https://github.com/KKKKhazix/AIHOT))  
+  `news` `search` `chinese` `remote`
 - **[Allscreenshots](https://github.com/allscreenshots/allscreenshots-plugin)** `Official` `Python` — Captures website screenshots, runs bulk captures, and manages screenshot schedules and history via the Allscreenshots API; available as a local Python server or a remote endpoint.  
   `screenshot` `web-capture` `remote`
 - **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `Official` `TypeScript` — Run Apify Actors and extract web datasets at scale.  

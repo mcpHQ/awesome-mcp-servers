@@ -10325,6 +10325,29 @@
     "repository": "https://github.com/netdata/netdata"
   },
   {
+    "name": "AI Review",
+    "url": "https://github.com/purge-unlimited/ai-review",
+    "description": "Zero-dependency MCP server that asks a second cloud or local OpenAI-compatible model for independent code review, architectural scrutiny, and second opinions.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "mcp",
+      "code-review",
+      "second-opinion",
+      "llm",
+      "stdio"
+    ],
+    "official": false,
+    "repository": "https://github.com/purge-unlimited/ai-review",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "verified": "2026-11-25"
+  },
+  {
     "name": "WhatsDownNow",
     "url": "https://whatsdownnow.com/developers",
     "description": "Live outage status, incident history, AI API fallback suggestions, and free alert stacks for 250 services.",
