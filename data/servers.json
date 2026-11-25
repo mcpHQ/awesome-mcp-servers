@@ -10310,6 +10310,34 @@
     ]
   },
   {
+    "name": "ScanMalware",
+    "url": "https://mcp.scanmalware.com/",
+    "description": "Submits URLs for analysis in isolated environments and searches the public scan archive by domain, IP, ASN, JARM or favicon hash, with AI classification of suspicious pages by scam type.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "ScanMalware",
+    "tags": [
+      "phishing",
+      "url-scanning",
+      "threat-intelligence",
+      "osint",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/scanmalware/mcp-server",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.scanmalware.com/mcp"
+    }
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
