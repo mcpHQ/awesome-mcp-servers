@@ -10310,6 +10310,36 @@
     ]
   },
   {
+    "name": "AlphaSift",
+    "url": "https://alphasift.zhulinsen.tech/",
+    "description": "Multi-market quantitative stock screening and empirical pattern validation MCP server with purged walk-forward track records across 7 equity markets.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "AlphaSift",
+    "tags": [
+      "finance",
+      "quant",
+      "stock-screening",
+      "walk-forward",
+      "equities"
+    ],
+    "official": true,
+    "repository": "https://github.com/ZhuLinsen/alphasift",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "pip",
+      "package": "alphasift"
+    },
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-25"
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",

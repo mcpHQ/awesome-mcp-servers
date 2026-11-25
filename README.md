@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (209)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (210)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1591,6 +1591,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `enrichment` `seo` `social-media` `remote` `oauth`
 - **[AlphaGrowth](https://alphagrowth.io/mcp-server)** `Official` `Elixir` — Free, read-only crypto market data for AI agents: DeFi TVL, chains, fees, funding rounds, DAO treasuries, yield pools, token unlocks and grants. ([source](https://github.com/alphagrowth/alphagrowth-mcp))  
   `crypto` `defi` `market-data` `funding` `read-only`
+- **[AlphaSift](https://alphasift.zhulinsen.tech/)** `Official` `Python` — Multi-market quantitative stock screening and empirical pattern validation MCP server with purged walk-forward track records across 7 equity markets. ([source](https://github.com/ZhuLinsen/alphasift))  
+  `finance` `quant` `stock-screening` `walk-forward` `equities`
 - **[APISign](https://apisign.io/docs/api/mcp)** `Official` `TypeScript` — Hosted MCP server for legally binding e-signature: create contracts from Markdown templates or .docx, email them to signers, track views and signatures, and get signed PDFs with a SHA-256 seal and audit trail.  
   `e-signature` `contracts` `documents` `remote` `api-key`
 - **[Apiwren Amazon Data MCP](https://apiwren.com/mcp)** `TypeScript` — Search Amazon products and retrieve details, ratings, reviews, seller offers, deals, and best sellers across 23 marketplaces. ([source](https://github.com/apiwren/amazon-data-api))  
