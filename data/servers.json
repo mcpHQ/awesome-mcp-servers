@@ -13552,6 +13552,25 @@
     ]
   },
   {
+    "name": "XShots MCP",
+    "url": "https://selfark.com/xshots/support",
+    "description": "Local stdio server bundled with XShots on macOS 14+ to list templates and device frames and render app-store screenshot sets. Requires an active three-day trial, paid pass, or lifetime license.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "SELFARK LTD",
+    "tags": [
+      "macos",
+      "design",
+      "app-store",
+      "screenshots"
+    ],
+    "official": true,
+    "pricing": "paid",
+    "transport": [
+      "stdio"
+    ]
+  },
+  {
     "name": "TubeText Meta Ad Library & Video Ad Analyzer",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence",
     "description": "Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result.",
