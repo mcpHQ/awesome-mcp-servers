@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (129)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (108)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (123)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (124)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (209)
@@ -1262,6 +1262,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `nfl` `football` `sports` `epa` `remote`
 - **[EventSend](https://eventsend.io/docs/mcp)** `Official` `Other` — Ask your AI about your product's events, delivery health and usage: search events, follow a customer's timeline, and see why a Slack, Discord or webhook notification failed. Read-only, over OAuth.  
   `events` `observability` `notifications` `oauth` `remote`
+- **[EVP Public Data MCP](https://intius.github.io/evp-labs-data-extractors/mcp/)** `Official` `JavaScript` — Eleven read-only tools for marketplace, grant, spending, filing, clinical trial, podcast, and game data through public Apify Actors. ([source](https://github.com/intius/evp-public-data-mcp))  
+  `public-data` `apify` `government` `market-research` `sec-filings`
 - **[ExtensionDash](https://extensiondash.com/)** `Official` `Ruby` — Query Chrome and Firefox extension users, ratings, and search-rank data through ExtensionDash's hosted MCP server with OAuth authentication.  
   `browser-extensions` `analytics` `chrome` `firefox` `remote`
 - **[FastballAPI](https://fastballapi.com)** `Official` `JavaScript` — MLB since 2015 plus college baseball: pitch-by-pitch data, plate appearances, box scores, ratings and sportsbook odds history. ([source](https://github.com/noahowsh/fastballapi-mcp))  
