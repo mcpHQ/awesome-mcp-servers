@@ -9745,6 +9745,31 @@
     "repository": "https://github.com/XAGI-Lab/melra"
   },
   {
+    "name": "Mint",
+    "url": "https://mint.gg/mcp-config-generator",
+    "description": "Hosted Mint server for agents to generate, revise and approve 3D models and 3D worlds, upload reference images, and read assets, statuses and credits.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Mint",
+    "tags": [
+      "3d-generation",
+      "text-to-3d",
+      "image-to-3d",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.mint.gg/mcp"
+    }
+  },
+  {
     "name": "3Q Tools",
     "url": "https://getwold.com",
     "description": "Buy-once Windows PDF and Excel tools with no subscription: 36 offline PDF commands and 8 auto-calculating spreadsheet templates, each with a direct checkout link.",
