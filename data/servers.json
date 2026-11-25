@@ -11073,6 +11073,33 @@
     ]
   },
   {
+    "name": "Sortance",
+    "url": "https://sortance.com/docs/mcp",
+    "description": "Hosted MCP server that checks whether a signup email is real, disposable, role-based or risky and returns allow, review or block.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Sortance",
+    "tags": [
+      "email-validation",
+      "fraud-prevention",
+      "signup",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/wilsonbright/sortance-mcp",
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://api.sortance.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Pinto Notes",
     "url": "https://github.com/pinto-notes/pinto-notes",
     "description": "Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.",
