@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (129)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (108)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (123)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (124)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (209)
@@ -1234,6 +1234,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `healthcare` `jobs` `job-search` `remote`
 - **[Check Engine SEO](https://checkengineseo.com/ai-assistants/?ref=mcphq)** `Official` `Other` — Whole-site SEO audits from the Check Engine desktop app for Mac and Windows, 99 checks ranked into one fix plan, plus a hosted server with five read-only one-page checks. ([source](https://github.com/mattkerr09/docket-mcp))  
   `seo` `site-audit` `ai-crawlers` `desktop`
+- **[Clema](https://clema.ai/docs/mcp)** `Official` `Other` — Hosted MCP server for higher-ed institutional research teams to manage IR data request tickets and run read-only SQL on public IPEDS and College Scorecard data. ([source](https://github.com/wilsonbright/clema-mcp))  
+  `higher-education` `ipeds` `college-scorecard` `institutional-research` `sql`
 - **[CompanyProof](https://companyproof.ai/docs/mcp)** `Official` `Other` — Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.  
   `company-data` `verification` `registry` `evidence` `remote`
 - **[Competitor Ads (Google Ads Transparency + LinkedIn Ad Library)](https://apify.com/dheerajitbhu/google-ads-transparency?utm_source=mcphq&utm_medium=directory&utm_campaign=google-ads-transparency)** `Other` — Hosted MCP (Apify) returning competitor ad creatives from Google Ads Transparency Center and LinkedIn Ad Library by domain, advertiser, or keyword, with dates and formats.  
