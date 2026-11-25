@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (97)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
@@ -252,6 +252,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `mobile` `ios` `android` `faq` `remote`
 - **[Moltline Studio](https://github.com/GarphenGate/moltline-mcp)** `Official` `Python` — 22 hosted MCP servers: code review, MCP config audits, SKILL.md linting and OR-Tools solvers; 110 tools need no API key.  
   `code-review` `mcp-governance` `skill-md` `remote`
+- **[n8n Preflight](https://github.com/haechiwood/mcp-n8n-preflight)** `Python` — Offline, read-only lint for exported n8n workflow JSON files: run-time failure patterns, secrets and credential IDs left in before sharing, and n8n Creator Hub template checks.  
+  `n8n` `lint` `workflow-automation` `secrets`
 - **[NAIF Gravity](https://naifgravity.com)** `Official` `Other` — Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.  
   `diagnostics` `api` `auth` `webhooks` `remote`
 - **[NextReset MCP](https://github.com/Ibunao/codex-reset-data)** `Python` — Read-only local stdio MCP server for Codex reset status, event history and source evidence, using the public NextReset API with no key.  

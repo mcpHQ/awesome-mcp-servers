@@ -10554,6 +10554,34 @@
     "repository": "https://github.com/jaspertvdm/mcp-server-ollama-bridge"
   },
   {
+    "name": "n8n Preflight",
+    "url": "https://github.com/haechiwood/mcp-n8n-preflight",
+    "description": "Offline, read-only lint for exported n8n workflow JSON files: run-time failure patterns, secrets and credential IDs left in before sharing, and n8n Creator Hub template checks.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "n8n",
+      "lint",
+      "workflow-automation",
+      "secrets"
+    ],
+    "official": false,
+    "repository": "https://github.com/haechiwood/mcp-n8n-preflight",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "mcp-n8n-preflight"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "BeReach",
     "url": "https://bereach.ai/linkedin-claude",
     "description": "Find people and companies that match an ideal customer description, read profiles and post engagers, spot buying signals, find work emails and draft first messages.",

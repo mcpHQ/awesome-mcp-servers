@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1091,6 +1091,22 @@ Hosted server to manage a mobile app's FAQs, translations, feature plans and in-
 - Category: Developer Tools and Code Intelligence
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.moltlinestudio.com/catalog
+
+### n8n Preflight
+
+Offline, read-only lint for exported n8n workflow JSON files: run-time failure patterns, secrets and credential IDs left in before sharing, and n8n Creator Hub template checks.
+
+- URL: https://github.com/haechiwood/mcp-n8n-preflight
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: n8n, lint, workflow-automation, secrets
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: uvx mcp-n8n-preflight
 
 ### NAIF Gravity
 
