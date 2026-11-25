@@ -10325,9 +10325,9 @@
     "repository": "https://github.com/netdata/netdata"
   },
   {
-    "name": "Taplio",
+    "name": "Taplio for LinkedIn",
     "url": "https://github.com/TaplioOfficial/taplio-linkedin-mcp",
-    "description": "Official hosted Taplio server for LinkedIn: draft, schedule, publish and analyze posts, search inspiration, find posts and comments worth engaging with, draft comments and replies, like posts and send connection requests; OAuth.",
+    "description": "Official hosted Taplio server for LinkedIn: search Taplio's lead database for prospects, draft, schedule, publish and analyze posts, search inspiration, find posts and comments worth engaging with, draft comments and replies, like posts and send connection requests; OAuth.",
     "category": "communication-and-productivity",
     "language": "Other",
     "provider": "Taplio",
