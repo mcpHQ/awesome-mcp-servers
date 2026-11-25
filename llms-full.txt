@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4448,6 +4448,20 @@ Verify email addresses, read verification jobs and find verified work emails wit
 - Transport: streamable-http
 - Auth: api-key, oauth
 - Streamable HTTP endpoint: https://mcp.fairvalid.com/mcp
+
+### FastScribe
+
+Transcribe a supported public video link and retrieve the transcript as plain text, timestamped text, or SRT using a FastScribe access token.
+
+- URL: https://registry.modelcontextprotocol.io/v0.1/servers/org.fastscribe%2Ffastscribe/versions/latest
+- Language: TypeScript
+- Provider: FastScribe
+- Official: yes
+- Tags: transcription, subtitles, video, remote
+- Category: Communication and Productivity
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://fastscribe.org/api/mcp
 
 ### Fax for Agents
 
