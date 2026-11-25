@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
-- [Filesystems and Documents](#filesystems-and-documents) (39)
+- [Filesystems and Documents](#filesystems-and-documents) (40)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (129)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (108)
@@ -598,6 +598,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `file-transfer` `encryption` `agents` `handoff`
 - **[Signbee MCP Server](https://github.com/signbee/mcp)** `Official` `TypeScript` — Send Markdown or PDF documents for two-party electronic signing with SHA-256 cryptographic audit certificates and OTP verification.  
   `documents` `esignature` `contracts` `legal` `pdf`
+- **[SmartDrugs](https://smartdrugs.com.br/desenvolvedores/)** `Other` — Independent evidence-based information platform on nootropics in Brazilian Portuguese, with public read-only access and optional community tools after Google sign-in, always with confirmation in the chat. ([source](https://github.com/smartdrugs-org/mcp))  
+  `knowledge-base` `nootropics` `remote` `research`
 - **[Tools That Don't Upload](https://toolsthatdontupload.com/docs/mcp/)** `Official` `JavaScript` — Hosted MCP server that runs saved PDF and office file flows, converts Korean HWP/HWPX documents to Markdown, text or DOCX, and calls data and text APIs; files are processed in memory and not stored. ([source](https://github.com/etacbae6768-a11y/tools-that-dont-upload))  
   `pdf` `hwp` `documents` `korean` `remote`
 - **[VectoSolve](https://vectosolve.com/integrations/mcp)** `Official` `TypeScript` — Converts a PNG, JPG or WebP image into a clean SVG, DXF or EPS file for design tools, Cricut, laser cutters and CNC routers. ([source](https://github.com/Vectosolve/vectosolve-mcp))  
