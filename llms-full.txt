@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -11055,6 +11055,21 @@ Free hosted MCP with live India IPO GMP, subscription, upcoming IPOs, and GMP ac
 - Category: Finance, Commerce, and Business Apps
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://ipogmpradar.com/mcp
+
+### iQuota Hotels
+
+Search live availability and prices of independent hotels, apartments and villas, check a rate and book it directly, with payment at the property.
+
+- URL: https://github.com/iquota/iquota-mcp
+- Language: Python
+- Provider: iQuota
+- Official: yes
+- Tags: travel, hotels, booking, vacation-rentals, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://iquota.io/mcp
 
 ### Jet Cab AMS
 

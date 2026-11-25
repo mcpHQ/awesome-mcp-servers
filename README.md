@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (209)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (210)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1753,6 +1753,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `invoicing` `finance` `oauth` `remote`
 - **[IPO Radar MCP](https://github.com/songiangvan40006-boop/ipo-radar-mcp)** `Official` `TypeScript` — Free hosted MCP with live India IPO GMP, subscription, upcoming IPOs, and GMP accuracy for Claude/ChatGPT/Cursor.  
   `ipo` `gmp` `india` `finance` `remote`
+- **[iQuota Hotels](https://github.com/iquota/iquota-mcp)** `Official` `Python` — Search live availability and prices of independent hotels, apartments and villas, check a rate and book it directly, with payment at the property.  
+  `travel` `hotels` `booking` `vacation-rentals` `remote`
 - **[Jet Cab AMS](https://www.jetcabams.nl/llms.txt)** `Official` `JavaScript` — Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.  
   `travel` `taxi` `booking` `remote`
 - **[JobsPipe](https://github.com/jobspipe/mcp)** `Official` `Other` — Search live job postings from 30+ ATS feeds and job boards in one normalized schema, filter by location, salary, seniority, skills and visa stance, and save searches as alerts.  
