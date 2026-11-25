@@ -7471,6 +7471,30 @@
     ]
   },
   {
+    "name": "Kanvas",
+    "url": "https://github.com/open-kanvas/kanvas",
+    "description": "Gives an AI agent a screen in any browser to show tables, dashboards and diagrams.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Kanvas",
+    "tags": [
+      "visualization",
+      "display",
+      "dashboard",
+      "remote"
+    ],
+    "official": false,
+    "repository": "https://github.com/open-kanvas/kanvas",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "auth": [
+      "oauth"
+    ],
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
     "name": "Sequenzy",
     "url": "https://github.com/Sequenzy/mcp",
     "description": "Manage email contacts, campaigns, automation sequences, transactional email and analytics.",
