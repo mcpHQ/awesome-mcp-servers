@@ -1969,7 +1969,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `vat` `vies` `kyb` `sanctions` `e-invoicing`
 - **[Warden MCP](https://github.com/warden-protocol/warden-mcp)** `Official` `Other` — Remote MCP server for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within user-set limits.  
   `crypto` `trading` `defi` `onchain` `ai-agents`
-- **[Whimbrel MedTech Analyst](https://github.com/WhimbrelResearch/whimbrel-mcp)** `Official` `JavaScript` — Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.  
+- **[Whimbrel: Medtech Research](https://whimbrelresearch.com/)** `Official` `JavaScript` — Find US medical device clients and Contacts at each company, in ChatGPT, Claude or the web app. ([source](https://github.com/WhimbrelResearch/whimbrel-mcp))  
   `medtech` `fda` `company-research` `oauth` `remote`
 - **[Wine Labs](https://github.com/imiraoui/winelabs-mcp)** `Official` `Other` — Fine-wine matching, market prices, auctions, merchant offers, and portfolio intelligence through a hosted MCP server; browser OAuth and account plans or credits apply.  
   `wine` `pricing` `auctions` `remote`
