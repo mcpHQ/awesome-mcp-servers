@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
-- [Communication and Productivity](#communication-and-productivity) (129)
+- [Communication and Productivity](#communication-and-productivity) (130)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (108)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -910,6 +910,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `obsidian` `account` `credits` `remote` `oauth`
 - **[Tale](https://docs.tale.dev/develop/mcp-endpoint)** `Official` `TypeScript` — Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale.  
   `knowledge` `automations` `productivity`
+- **[Taplio](https://github.com/TaplioOfficial/taplio-linkedin-mcp)** `Official` `Other` — Official hosted Taplio server for LinkedIn: draft, schedule, publish and analyze posts, search inspiration, find posts and comments worth engaging with, draft comments and replies, like posts and send connection requests; OAuth.  
+  `linkedin` `social-media` `content` `remote` `oauth`
 - **[Taskfolk](https://github.com/taskfolk/mcp)** `Official` `Other` — Project management for teams and their AI agents. Agents join as named members.  
   `project-management` `tasks` `agents` `remote`
 - **[Taskhold](https://taskhold.com)** `Official` `TypeScript` — Hosted MCP server for a task list shared by a person and their coding agents: next task, steps, live progress, blocked questions and full change history.  

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5397,6 +5397,20 @@ Retrieve organization knowledge and author, validate, deploy, and run automation
 - Official: yes
 - Tags: knowledge, automations, productivity
 - Category: Communication and Productivity
+
+### Taplio
+
+Official hosted Taplio server for LinkedIn: draft, schedule, publish and analyze posts, search inspiration, find posts and comments worth engaging with, draft comments and replies, like posts and send connection requests; OAuth.
+
+- URL: https://github.com/TaplioOfficial/taplio-linkedin-mcp
+- Language: Other
+- Provider: Taplio
+- Official: yes
+- Tags: linkedin, social-media, content, remote, oauth
+- Category: Communication and Productivity
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.taplio.com/
 
 ### Taskfolk
 
