@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 974 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 975 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -290,6 +290,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [402cron](https://402cron.com): Remote MCP server (streamable HTTP) for a paid cron service for agents: pricing and docs need no key, and thirteen more tools manage scheduled webhook tasks with the API token bought over x402. (TypeScript, official)
 - [agvps](https://agvps.shveik.dev): Servers for agents, rented by the month: a Linux server with root access and a public IPv4, paid per call with x402 stablecoins, renewed by paying again; no API key. (Go, official)
 - [API Status Check MCP](https://apistatuscheck.com/mcp): Query current and historical uptime for 285 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug. (TypeScript, official)
+- [Apidly Tools MCP Server](https://github.com/idimetrix/apidly-tools/tree/main/mcp): Prices, launches and manages Apidly Cloud GPU servers from an AI assistant; read-only by default, with an optional hourly price cap for writes. (TypeScript)
 - [Ausca](https://ausca.com/docs/mcp/): Discover metered OCR, transcription, browser and receive-only inbox services; paid invocations require x402 payment authority and return receipts. (Go, official)
 - [AWS MCP Server](https://github.com/alexei-led/aws-mcp-server): Execute AWS CLI commands safely in a containerized environment. (Python)
 - [Azure MCP Server](https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server): Manage Azure resources and services through MCP tools. (C#, official)

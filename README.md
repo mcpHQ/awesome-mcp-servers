@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
 - [Filesystems and Documents](#filesystems-and-documents) (39)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
 - [Communication and Productivity](#communication-and-productivity) (129)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (108)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
@@ -617,6 +617,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `vps` `hosting` `x402` `remote`
 - **[API Status Check MCP](https://apistatuscheck.com/mcp)** `Official` `TypeScript` — Query current and historical uptime for 285 third-party developer APIs (OpenAI, Stripe, GitHub, AWS and more) to tell an upstream outage from a local bug.  
   `uptime` `monitoring` `status` `incidents`
+- **[Apidly Tools MCP Server](https://github.com/idimetrix/apidly-tools/tree/main/mcp)** `TypeScript` — Prices, launches and manages Apidly Cloud GPU servers from an AI assistant; read-only by default, with an optional hourly price cap for writes. ([source](https://github.com/idimetrix/apidly-tools))  
+  `gpu` `cloud` `infrastructure`
 - **[Ausca](https://ausca.com/docs/mcp/)** `Official` `Go` — Discover metered OCR, transcription, browser and receive-only inbox services; paid invocations require x402 payment authority and return receipts.  
   `x402` `ocr` `transcription` `browser-automation` `agent-infrastructure`
 - **[AWS MCP Server](https://github.com/alexei-led/aws-mcp-server)** `Python` — Execute AWS CLI commands safely in a containerized environment.  

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3444,6 +3444,21 @@ Query current and historical uptime for 285 third-party developer APIs (OpenAI, 
 - Category: Cloud and Infrastructure
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://apistatuscheck.com/api/mcp
+
+### Apidly Tools MCP Server
+
+Prices, launches and manages Apidly Cloud GPU servers from an AI assistant; read-only by default, with an optional hourly price cap for writes.
+
+- URL: https://github.com/idimetrix/apidly-tools/tree/main/mcp
+- Language: TypeScript
+- Provider: Apidly Cloud
+- Official: no
+- Tags: gpu, cloud, infrastructure
+- Category: Cloud and Infrastructure
+- Repository: https://github.com/idimetrix/apidly-tools
+- License: MIT
+- Transport: stdio
+- Auth: api-key
 
 ### Ausca
 

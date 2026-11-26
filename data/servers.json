@@ -10325,6 +10325,28 @@
     "repository": "https://github.com/netdata/netdata"
   },
   {
+    "name": "Apidly Tools MCP Server",
+    "url": "https://github.com/idimetrix/apidly-tools/tree/main/mcp",
+    "description": "Prices, launches and manages Apidly Cloud GPU servers from an AI assistant; read-only by default, with an optional hourly price cap for writes.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Apidly Cloud",
+    "tags": [
+      "gpu",
+      "cloud",
+      "infrastructure"
+    ],
+    "official": false,
+    "repository": "https://github.com/idimetrix/apidly-tools",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "WhatsDownNow",
     "url": "https://whatsdownnow.com/developers",
     "description": "Live outage status, incident history, AI API fallback suggestions, and free alert stacks for 250 services.",
