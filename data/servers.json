@@ -10325,6 +10325,31 @@
     "repository": "https://github.com/netdata/netdata"
   },
   {
+    "name": "docs-rag-mcp",
+    "url": "https://github.com/Ahmed-Manai/docs-rag-mcp",
+    "repository": "https://github.com/Ahmed-Manai/docs-rag-mcp",
+    "description": "Local RAG over your own Markdown, text, HTML, Word and PDF files: indexes a folder into one SQLite file with Ollama, OpenAI or Azure OpenAI embeddings and serves hybrid search with file and heading citations.",
+    "category": "filesystems-and-documents",
+    "language": "C#",
+    "provider": "Community",
+    "tags": [
+      "rag",
+      "semantic-search",
+      "documents",
+      "ollama",
+      "sqlite"
+    ],
+    "official": false,
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "WhatsDownNow",
     "url": "https://whatsdownnow.com/developers",
     "description": "Live outage status, incident history, AI API fallback suggestions, and free alert stacks for 250 services.",

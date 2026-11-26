@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3012,6 +3012,21 @@ Turns local text PDFs and saved HTML pages into Markdown and keeps tables as Mar
 - Transport: stdio
 - Auth: none
 - Install: uvx doc2md-lite
+
+### docs-rag-mcp
+
+Local RAG over your own Markdown, text, HTML, Word and PDF files: indexes a folder into one SQLite file with Ollama, OpenAI or Azure OpenAI embeddings and serves hybrid search with file and heading citations.
+
+- URL: https://github.com/Ahmed-Manai/docs-rag-mcp
+- Language: C#
+- Provider: Community
+- Official: no
+- Tags: rag, semantic-search, documents, ollama, sqlite
+- Category: Filesystems and Documents
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
 
 ### DocuQueue MCP
 
