@@ -10310,6 +10310,33 @@
     ]
   },
   {
+    "name": "The Network Tools",
+    "url": "https://thenetworktools.com/docs/mcp",
+    "description": "Hosted read-only MCP server for DNS records, MX routing, SPF/DMARC email security, HTTP security headers, and ICANN RDAP lookups.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "The Network Tools",
+    "tags": [
+      "dns",
+      "ssl",
+      "dmarc",
+      "security",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://thenetworktools.com/mcp"
+    }
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
