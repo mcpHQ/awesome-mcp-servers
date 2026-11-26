@@ -5261,7 +5261,7 @@
   {
     "name": "Adspy",
     "url": "https://www.adspy.sh",
-    "description": "Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.",
+    "description": "Hosted MCP server for ad research: brands' public Meta and Google ads, TikTok and Pinterest ads in listed regions, and organic TikTok, YouTube and Instagram posts, from Claude, ChatGPT, Claude Code or Codex. No spend or ROAS.",
     "category": "data-analytics-and-bi",
     "language": "Other",
     "provider": "Adspy",
