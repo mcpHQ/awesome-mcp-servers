@@ -11073,6 +11073,40 @@
     ]
   },
   {
+    "name": "Hermoso",
+    "url": "https://github.com/hermoso-ai/hermoso",
+    "description": "AI marketing agent: research competitor ads, make image and video ads, publish and schedule posts to your own social channels, and run and report on ad campaigns.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Hermoso AI",
+    "tags": [
+      "marketing",
+      "advertising",
+      "social-media",
+      "ads",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/hermoso-ai/hermoso",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "hermoso"
+    },
+    "endpoints": {
+      "streamableHttp": "https://app.hermoso.ai/mcp"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Pinto Notes",
     "url": "https://github.com/pinto-notes/pinto-notes",
     "description": "Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10946,6 +10946,23 @@ HelloAsso for French associations: members, event tickets, donations, payments, 
 - Official: no
 - Tags: payments, nonprofit, donations, france, ticketing
 - Category: Finance, Commerce, and Business Apps
+
+### Hermoso
+
+AI marketing agent: research competitor ads, make image and video ads, publish and schedule posts to your own social channels, and run and report on ad campaigns.
+
+- URL: https://github.com/hermoso-ai/hermoso
+- Language: JavaScript
+- Provider: Hermoso AI
+- Official: yes
+- Tags: marketing, advertising, social-media, ads, remote
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Pricing: freemium
+- Transport: stdio, streamable-http
+- Auth: oauth, api-key
+- Install: npx hermoso
+- Streamable HTTP endpoint: https://app.hermoso.ai/mcp
 
 ### HireFerry
 
