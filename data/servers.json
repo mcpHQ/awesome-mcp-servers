@@ -6837,6 +6837,36 @@
     ]
   },
   {
+    "name": "Wiro Agent Connectors",
+    "url": "https://github.com/wiroai/Wiro-Agent-Connectors",
+    "description": "MCP connectors for 45 services with no official MCP server, such as Gmail, Google Ads, Shopify, YouTube and Notion; each one runs as its own stdio server with npx and your own credentials.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Wiro AI",
+    "tags": [
+      "connectors",
+      "social-media",
+      "marketing",
+      "google",
+      "ecommerce"
+    ],
+    "official": false,
+    "repository": "https://github.com/wiroai/Wiro-Agent-Connectors",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@wiro-ai/wiro-agent-connectors"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
     "name": "Carbon",
     "url": "https://github.com/CarbonDataSolutions/carbon-mcp",
     "description": "Hire skills-assessed data professionals from any MCP host. Post your role free. Hosted Streamable HTTP server with OAuth.",
