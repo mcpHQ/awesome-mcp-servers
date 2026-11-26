@@ -9853,6 +9853,34 @@
     "repository": "https://github.com/InditexTech/mcp-teams-server"
   },
   {
+    "name": "Groundsocial",
+    "url": "https://groundsocial.dev/docs/mcp",
+    "description": "Read public data from 77 platforms (Reddit, X, TikTok, Instagram, YouTube, LinkedIn, Google, Amazon) as each platform's own JSON. Remote Streamable HTTP at https://api.groundsocial.dev/mcp.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Groundsocial",
+    "tags": [
+      "social-media",
+      "scraping",
+      "reddit",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/shivanshmehendiratta/groundsocial-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://api.groundsocial.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Mixpanel MCP Server",
     "url": "https://docs.mixpanel.com/docs/mcp",
     "description": "Query Mixpanel funnels, retention, and event analytics.",
