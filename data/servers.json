@@ -10310,6 +10310,34 @@
     ]
   },
   {
+    "name": "Inkspira",
+    "url": "https://inkspira.de/tattoo-generator/",
+    "description": "Plan a tattoo with style and placement options, prefilled generator links, actual-size 3 cm and 5 cm print samples, and a photo placement preview.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Inkspira",
+    "tags": [
+      "tattoo",
+      "design",
+      "printables",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/TJLDC/inkspira-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://inkspira-mcp.743078294ldc.workers.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-26"
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -12938,6 +12938,24 @@ Search live flight prices, compare departure dates, resolve airports, and get bo
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://ignav.com/mcp
+
+### Inkspira
+
+Plan a tattoo with style and placement options, prefilled generator links, actual-size 3 cm and 5 cm print samples, and a photo placement preview.
+
+- URL: https://inkspira.de/tattoo-generator/
+- Language: JavaScript
+- Provider: Inkspira
+- Official: yes
+- Tags: tattoo, design, printables, remote
+- Category: Utilities and Examples
+- Repository: https://github.com/TJLDC/inkspira-mcp
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Verified: 2026-11-26
+- Streamable HTTP endpoint: https://inkspira-mcp.743078294ldc.workers.dev/mcp
 
 ### LFG Atlas
 
