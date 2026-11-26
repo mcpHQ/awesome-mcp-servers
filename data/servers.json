@@ -10310,6 +10310,31 @@
     ]
   },
   {
+    "name": "CodeDesign",
+    "url": "https://github.com/codedesignapp/mcp",
+    "description": "AI website builder: design a site from a short description, edit pages and text, check SEO issues, read form leads and analytics, and publish to your own domain.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "CodeDesign",
+    "tags": [
+      "website-builder",
+      "seo",
+      "cms",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/codedesignapp/mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.codedesign.ai/mcp"
+    }
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
