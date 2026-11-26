@@ -3028,7 +3028,7 @@ Generate PDFs from templates, fill existing PDF forms, and batch-create invoices
 
 Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.
 
-- URL: https://registry.modelcontextprotocol.io/v0.1/servers/space.drop%2Fdrop/versions/latest
+- URL: https://drop.space/en/agent-file-transfer/#check-mcp-connection
 - Language: TypeScript
 - Provider: DROP
 - Official: yes
