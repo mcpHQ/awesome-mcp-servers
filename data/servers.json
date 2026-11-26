@@ -11892,6 +11892,33 @@
     ]
   },
   {
+    "name": "IQFluence MCP",
+    "url": "https://iqfluence.io/docs/mcp",
+    "description": "Hosted MCP server for influencer analytics: search 455M+ Instagram, TikTok and YouTube creators, open audience reports with fake-follower checks, check audience overlap and build media plans.",
+    "category": "data-analytics-and-bi",
+    "language": "Python",
+    "provider": "IQFluence",
+    "tags": [
+      "influencer-marketing",
+      "instagram",
+      "tiktok",
+      "youtube",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/iqfluence/iqfluence-mcp",
+    "license": "MIT",
+    "endpoints": {
+      "streamableHttp": "https://mcp.iqfluence.io/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "SandBase CLI",
     "url": "https://github.com/sandbaseai/cli",
     "description": "Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools.",
