@@ -21938,5 +21938,33 @@
       "finance"
     ],
     "official": true
+  },
+  {
+    "name": "Caelo",
+    "url": "https://caelo.sh",
+    "description": "Free, local security scanner for AI-built apps: finds exposed API keys, Supabase service-role keys, browser-bundled secrets, open Firebase rules, and committed .env files.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Irth Labs",
+    "tags": [
+      "security",
+      "secret-scanning",
+      "static-analysis",
+      "local"
+    ],
+    "official": false,
+    "repository": "https://github.com/arthi-arumugam-git/caelo",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "caelo"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]
