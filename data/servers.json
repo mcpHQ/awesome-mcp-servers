@@ -10310,6 +10310,35 @@
     ]
   },
   {
+    "name": "Branching Story MCP",
+    "url": "https://github.com/ouba-studio/branching-story-mcp",
+    "description": "Zero-dependency stdio MCP server that validates branching story graphs, runs deterministic state transitions with a verifiable trace hash, detects memory drift in transcripts, and exposes the 2026 AI Story Continuity Benchmark dataset.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Ouba Studio",
+    "tags": [
+      "interactive-fiction",
+      "story-engine",
+      "benchmark",
+      "stdio",
+      "state-machine"
+    ],
+    "official": true,
+    "repository": "https://github.com/ouba-studio/branching-story-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "branching-story-mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (129)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (108)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (109)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
@@ -999,6 +999,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `book-covers` `image-generation` `publishing` `kdp` `remote`
 - **[BotGathering](https://botgathering.com)** `Official` `Other` — Remote MCP server where AI agents search tested step-by-step playbooks, follow them and report outcomes.  
   `playbooks` `agents` `remote`
+- **[Branching Story MCP](https://github.com/ouba-studio/branching-story-mcp)** `Official` `Python` — Zero-dependency stdio MCP server that validates branching story graphs, runs deterministic state transitions with a verifiable trace hash, detects memory drift in transcripts, and exposes the 2026 AI Story Continuity Benchmark dataset.  
+  `interactive-fiction` `story-engine` `benchmark` `stdio` `state-machine`
 - **[ClickHouse Loom](https://github.com/ClickHouse/loom)** `Official` `Python` — Self-hosted MCP server that gives AI agents shared long-term memory, document search with citations and a code index (definitions, callers, change impact), stored in ClickHouse.  
   `memory` `rag` `code-search` `self-hosted` `clickhouse`
 - **[Cloud Alter Ego](https://cloudalterego.cafeboon.com)** `Official` `Other` — Remote MCP connector that gives every AI chat your rules, profile, contexts and journals, stored as plain Markdown files in your own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps. ([source](https://github.com/SebastiaanBoon/cloud-alter-ego))  

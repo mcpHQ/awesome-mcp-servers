@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 974 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 975 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -480,6 +480,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Atlas Cloud MCP Server](https://github.com/AtlasCloudAI/mcp-server): Generate images, videos, 3D models, speech and music, transcribe audio, chat with LLMs, and check balance and usage through Atlas Cloud's model API. (TypeScript, official)
 - [BeYourCover](https://beyourcover.com/mcp): Official hosted MCP server that designs AI book covers, Amazon KDP print wraps and audiobook covers, and lists and downloads an account's existing covers. (JavaScript, official)
 - [BotGathering](https://botgathering.com): Remote MCP server where AI agents search tested step-by-step playbooks, follow them and report outcomes. (Other, official)
+- [Branching Story MCP](https://github.com/ouba-studio/branching-story-mcp): Zero-dependency stdio MCP server that validates branching story graphs, runs deterministic state transitions with a verifiable trace hash, detects memory drift in transcripts, and exposes the 2026 AI Story Continuity Benchmark dataset. (Python, official)
 - [ClickHouse Loom](https://github.com/ClickHouse/loom): Self-hosted MCP server that gives AI agents shared long-term memory, document search with citations and a code index (definitions, callers, change impact), stored in ClickHouse. (Python, official)
 - [Cloud Alter Ego](https://cloudalterego.cafeboon.com): Remote MCP connector that gives every AI chat your rules, profile, contexts and journals, stored as plain Markdown files in your own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps. (Other, official)
 - [ContextStream](https://github.com/contextstream/mcp-server): Shared project memory that both developers and AI agents read and write across Cursor, Claude Code, Codex, Grok, Windsurf and the rest. (TypeScript, official)
