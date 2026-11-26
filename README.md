@@ -1536,7 +1536,7 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `penetration-testing` `security-providers` `directory` `remote`
 - **[qURL](https://github.com/layervai/qurl-mcp)** `Official` `TypeScript` — Mint, resolve, audit, and rotate scope-limited expiring access links (qURLs) for AI agents.  
   `access-links` `expiring-links` `localhost-sharing` `security`
-- **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.  
+- **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Official hosted server to manage Scalekit orgs, users, SSO, and MCP OAuth; agent auth with 1,100+ connectors and 55,000+ tools.  
   `auth` `identity` `oauth` `mcp`
 - **[Snyk MCP Server](https://github.com/snyk/studio-mcp)** `Official` `TypeScript` — Scan dependencies and code for vulnerabilities with Snyk.  
   `security` `vulnerabilities` `dependencies`
