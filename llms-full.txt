@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9990,6 +9990,21 @@ Protocol scraper and MCP server for Workday, Greenhouse, Lever, Ashby, and Smart
 - Official: yes
 - Tags: ats, recruiting, job-scraping, delta-tracking, apify
 - Category: Finance, Commerce, and Business Apps
+
+### Autotroph Data & Compliance MCP
+
+Schema-verified US-GAAP SEC EDGAR XBRL financials, EU TED eForms tenders, USAspending/SAM.gov federal contracts, USPTO global patent claim trees, and US Federal Register rules via Apify Streamable HTTP or zero-dep stdio.
+
+- URL: https://github.com/char5742/autotroph-mcp-catalog
+- Language: JavaScript
+- Provider: Autotroph
+- Official: no
+- Tags: sec-edgar, xbrl, ted-europa, patents, remote
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http, stdio
+- Auth: api-key, oauth
 
 ### Award Travel Finder
 

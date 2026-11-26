@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (209)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (210)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1603,6 +1603,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `nft` `blockchain` `base` `minting`
 - **[ATS Zero-Browser Gateway](https://github.com/ginugokz/ats-zero-browser-gateway)** `Official` `Python` — Protocol scraper and MCP server for Workday, Greenhouse, Lever, Ashby, and SmartRecruiters with deterministic ADDED/REMOVED/UPDATED delta tracking, runnable standalone or on Apify.  
   `ats` `recruiting` `job-scraping` `delta-tracking` `apify`
+- **[Autotroph Data & Compliance MCP](https://github.com/char5742/autotroph-mcp-catalog)** `JavaScript` — Schema-verified US-GAAP SEC EDGAR XBRL financials, EU TED eForms tenders, USAspending/SAM.gov federal contracts, USPTO global patent claim trees, and US Federal Register rules via Apify Streamable HTTP or zero-dep stdio.  
+  `sec-edgar` `xbrl` `ted-europa` `patents` `remote`
 - **[Award Travel Finder](https://github.com/AwardTravelFinder/mcp)** `Official` `Other` — Search award flight availability and points pricing across 27 airlines and 23 loyalty programs from any MCP client.  
   `travel` `flights` `airlines` `award-travel` `points`
 - **[AY Listicle](https://www.aylistcle.com/mcp)** `Official` `Other` — Remote MCP server to find best-of listicles with open spots, request editorial inclusion, propose swaps and answer requests, with a preview before credits are spent. ([source](https://github.com/tahalatif-cmd/aylistcle-mcp))  

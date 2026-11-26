@@ -21938,5 +21938,32 @@
       "finance"
     ],
     "official": true
+  },
+  {
+    "name": "Autotroph Data & Compliance MCP",
+    "url": "https://github.com/char5742/autotroph-mcp-catalog",
+    "description": "Schema-verified US-GAAP SEC EDGAR XBRL financials, EU TED eForms tenders, USAspending/SAM.gov federal contracts, USPTO global patent claim trees, and US Federal Register rules via Apify Streamable HTTP or zero-dep stdio.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Autotroph",
+    "tags": [
+      "sec-edgar",
+      "xbrl",
+      "ted-europa",
+      "patents",
+      "remote"
+    ],
+    "official": false,
+    "repository": "https://github.com/char5742/autotroph-mcp-catalog",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
   }
 ]
