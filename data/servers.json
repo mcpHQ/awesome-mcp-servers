@@ -11209,6 +11209,31 @@
     ]
   },
   {
+    "name": "Winly",
+    "url": "https://getwinly.ai/mcp/",
+    "description": "Connects Instagram and Facebook DMs to AI agents to read the inbox, reply to leads, manage the pipeline and pull sales reports.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Winly AI",
+    "tags": [
+      "instagram",
+      "crm",
+      "sales",
+      "messaging"
+    ],
+    "official": true,
+    "repository": "https://github.com/getwinly/winly-mcp",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
     "name": "Pocket Drives",
     "url": "https://github.com/RevList/pocket-drives-mcp",
     "description": "Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.",
