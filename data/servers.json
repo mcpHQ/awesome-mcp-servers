@@ -9302,6 +9302,35 @@
     "repository": "https://github.com/modelcontextprotocol/registry"
   },
   {
+    "name": "FeraTerra Arena Exchange MCP",
+    "url": "https://github.com/FeraTerra/feraterra-sdk",
+    "description": "Headless 24-tool MCP server for Arena Exchange (feraterra.app) with non-custodial spot and perpetual futures trading, stateless order margin previews, flash arbitrage, and L2 custody verification.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "FeraTerra",
+    "tags": [
+      "crypto",
+      "trading",
+      "perpetuals",
+      "defi",
+      "ai-agents"
+    ],
+    "official": true,
+    "repository": "https://github.com/FeraTerra/feraterra-sdk",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "feraterra-sdk"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MCP Sequential Thinking",
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
     "description": "Structured step-by-step reasoning tool for complex problem solving.",
