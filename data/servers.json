@@ -9750,6 +9750,33 @@
     ]
   },
   {
+    "name": "RZLT",
+    "url": "https://github.com/therzlt/rzlt-mcp",
+    "description": "Official hosted MCP server for RZLT, an AI-native growth and marketing agency: services, case studies, a fit check, a free website AI-readiness check and a contact tool.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "RZLT",
+    "tags": [
+      "marketing",
+      "agency",
+      "seo",
+      "ai-readiness",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/therzlt/rzlt-mcp",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://mcp.rzlt.io/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MELRA",
     "url": "https://github.com/XAGI-Lab/melra",
     "description": "Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation.",
