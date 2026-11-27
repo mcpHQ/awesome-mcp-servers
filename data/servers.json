@@ -14204,6 +14204,34 @@
     ]
   },
   {
+    "name": "Pandex",
+    "url": "https://www.pandex.io/docs",
+    "description": "Official legislation and case law for AI agents (EU, UK, DE, FR, ES, NL, AT, CH and more): every past version with dates, citations linked to the passage. Remote MCP, free tier.",
+    "category": "legal-and-court-data",
+    "language": "Python",
+    "provider": "Pandex",
+    "tags": [
+      "legal",
+      "legislation",
+      "case-law",
+      "citations",
+      "streamable-http"
+    ],
+    "official": true,
+    "repository": "https://github.com/pandex-io/pandex-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://api.pandex.io/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "FastOCR MCP",
     "url": "https://github.com/fastocr-org/fastocr-mcp",
     "description": "OCR local PDF files through the FastOCR API and check API balance from MCP clients.",

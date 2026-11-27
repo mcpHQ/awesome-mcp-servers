@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1044-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1045-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -50,7 +50,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Communication and Productivity](#communication-and-productivity) (136)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (114)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (135)
-- [Legal and Court Data](#legal-and-court-data) (11)
+- [Legal and Court Data](#legal-and-court-data) (12)
 - [Security and Identity](#security-and-identity) (50)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (227)
 - [Utilities and Examples](#utilities-and-examples) (54)
@@ -1543,6 +1543,8 @@ Court records, legal research, case search, and judicial workflow data.
   `legal` `hr` `employment-law` `germany` `remote`
 - **[My Spain Visa](https://myspainvisa.com/mcp/)** `Official` `PHP` — Spain visa rules for 2026, a Schengen 90/180 calculator and consulate processing times from a Barcelona immigration law firm's own cases. Free hosted server, no account.  
   `immigration` `visa` `spain` `schengen` `remote`
+- **[Pandex](https://www.pandex.io/docs)** `Official` `Python` — Official legislation and case law for AI agents (EU, UK, DE, FR, ES, NL, AT, CH and more): every past version with dates, citations linked to the passage. Remote MCP, free tier. ([source](https://github.com/pandex-io/pandex-mcp))  
+  `legal` `legislation` `case-law` `citations` `streamable-http`
 - **[Polish MCP Servers](https://github.com/kamilkaczmareksolutions/polish-mcp-servers)** `TypeScript` — Stdio server with 12 read-only tools for Polish law and public registers (Sejm ELI acts, SAOS judgments, tenders, building permits, land parcels and zoning), each running a public Apify Actor billed to your Apify account.  
   `legal` `court-data` `poland` `public-registers` `apify`
 - **[US Code MCP](https://github.com/lrehmann/uscode-mcp)** `TypeScript` — Read-only U.S. Code search, section retrieval, and title browsing with citations linked to uscode.ecfr.io and published OLRC release metadata; independent OLRC corpus mirror, not a government service.  

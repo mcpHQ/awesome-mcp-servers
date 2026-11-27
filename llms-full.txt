@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1044 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1045 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9765,6 +9765,23 @@ Spain visa rules for 2026, a Schengen 90/180 calculator and consulate processing
 - Category: Legal and Court Data
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://myspainvisa.com/api/mcp
+
+### Pandex
+
+Official legislation and case law for AI agents (EU, UK, DE, FR, ES, NL, AT, CH and more): every past version with dates, citations linked to the passage. Remote MCP, free tier.
+
+- URL: https://www.pandex.io/docs
+- Language: Python
+- Provider: Pandex
+- Official: yes
+- Tags: legal, legislation, case-law, citations, streamable-http
+- Category: Legal and Court Data
+- Repository: https://github.com/pandex-io/pandex-mcp
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://api.pandex.io/mcp
 
 ### Polish MCP Servers
 
