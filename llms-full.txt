@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1052 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1057 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -754,6 +754,23 @@ Extracts structural C# context with Roslyn and builds an incremental knowledge g
 - Official: no
 - Tags: csharp, dotnet, roslyn, code-analysis
 - Category: Developer Tools and Code Intelligence
+
+### DNS Lookup MCP
+
+Bulk DNS lookup for a list of domains: A, MX, NS, TXT, SPF, DMARC and email provider, one row per domain.
+
+- URL: https://apify.com/publicrecords/dns-lookup
+- Language: JavaScript
+- Provider: publicrecords
+- Official: no
+- Tags: dns, mx, spf, dmarc, remote
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/GeminiGeorge22/publicrecords-mcp
+- License: MIT
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com?tools=publicrecords/dns-lookup
 
 ### Docker MCP Server
 
@@ -1637,6 +1654,23 @@ Scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, c
 - Official: no
 - Tags: react, ui-consistency, design-system, frontend
 - Category: Developer Tools and Code Intelligence
+
+### Tech Stack Detector MCP
+
+Find what any website is built with: CMS, frameworks, analytics, CDN, hosting and more, with evidence for each match.
+
+- URL: https://apify.com/publicrecords/tech-stack-detector
+- Language: JavaScript
+- Provider: publicrecords
+- Official: no
+- Tags: tech-stack, cms, websites, remote
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/GeminiGeorge22/publicrecords-mcp
+- License: MIT
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com?tools=publicrecords/tech-stack-detector
 
 ### TreeHarbor MCP
 
@@ -7747,6 +7781,23 @@ Free perfume knowledge for AI assistants: notes, accords and families for 6,000+
 - Auth: none
 - Streamable HTTP endpoint: https://mcp.10ml.com/mcp
 
+### Academic Paper Search & DOI Lookup MCP
+
+Search Crossref scholarly works or look up DOIs for title, authors, journal, citation counts and retraction flags.
+
+- URL: https://apify.com/publicrecords/crossref-papers-doi-lookup
+- Language: JavaScript
+- Provider: publicrecords
+- Official: no
+- Tags: crossref, doi, research, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/GeminiGeorge22/publicrecords-mcp
+- License: MIT
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com?tools=publicrecords/crossref-papers-doi-lookup
+
 ### AcesAPI
 
 ATP and WTA tennis since 2007: results with every set, draws, rankings, head to head, surface splits and Elo ratings.
@@ -9641,6 +9692,23 @@ TikTok videos that beat their creator's usual views, plus the videos, hashtags a
 - Transport: streamable-http
 - Auth: none, api-key
 - Streamable HTTP endpoint: https://viewlify.app/api/mcp
+
+### Wikipedia Search, ECB FX & Treasury Yields MCP
+
+Search Wikipedia for article extracts, or fetch official ECB euro foreign-exchange reference rates and U.S. Treasury par yields.
+
+- URL: https://apify.com/publicrecords/wikipedia-search
+- Language: JavaScript
+- Provider: publicrecords
+- Official: no
+- Tags: wikipedia, exchange-rates, treasury, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/GeminiGeorge22/publicrecords-mcp
+- License: MIT
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com?tools=publicrecords/wikipedia-search
 
 ### World Monitor
 
@@ -14348,6 +14416,23 @@ Generate PDFs, screenshots, images, QR codes and short links, and validate email
 - Transport: streamable-http
 - Auth: oauth, api-key
 - Streamable HTTP endpoint: https://onesimpleapi.com/mcp
+
+### Phone Number Validator MCP
+
+Validate and format phone numbers to E.164 with country and line type from the numbering plan. Not a live carrier lookup.
+
+- URL: https://apify.com/publicrecords/phone-number-validator
+- Language: JavaScript
+- Provider: publicrecords
+- Official: no
+- Tags: phone, validation, e164, remote
+- Category: Utilities and Examples
+- Repository: https://github.com/GeminiGeorge22/publicrecords-mcp
+- License: MIT
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.apify.com?tools=publicrecords/phone-number-validator
 
 ### Pic2SVG MCP
 

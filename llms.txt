@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1052 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1057 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -81,6 +81,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ContactLint](https://contactlint.com): Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing. (TypeScript, official)
 - [Context7 MCP](https://github.com/upstash/context7): Up-to-date library and framework documentation injected into prompts. (TypeScript, official)
 - [ContextManager](https://github.com/nushey/ContextManager): Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents. (C#)
+- [DNS Lookup MCP](https://apify.com/publicrecords/dns-lookup): Bulk DNS lookup for a list of domains: A, MX, NS, TXT, SPF, DMARC and email provider, one row per domain. (JavaScript)
 - [Docker MCP Server](https://github.com/docker/mcp-gateway): Manage containers, images, and Docker environments through MCP. (Go, official)
 - [Docsy](https://github.com/getremcp/docsy-plugin): Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools. (TypeScript, official)
 - [E2B MCP Server](https://docs.e2b.dev/mcp): Secure cloud sandboxes with a built-in MCP gateway for running code and MCP tools in agent workflows. (Other, official)
@@ -149,6 +150,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Spinnaker MCP Server](https://github.com/GeiserX/spinnaker-mcp): Read and operate a Spinnaker instance through its Gate API: 37 tools for applications, pipelines, executions, deployment strategies, and infrastructure, plus a read-only toolset. (Go)
 - [SrcLog](https://github.com/srclogcom/srclog-mcp): Search open-source GitHub repositories, find alternatives to any project, browse curated topics, and rank top developers and organizations by language and country. (PHP, official)
 - [Tavero](https://github.com/baccaraaa/tavero): Scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors, and spacing, and returns fixes with file and line references to the coding agent. (TypeScript)
+- [Tech Stack Detector MCP](https://apify.com/publicrecords/tech-stack-detector): Find what any website is built with: CMS, frameworks, analytics, CDN, hosting and more, with evidence for each match. (JavaScript)
 - [TreeHarbor MCP](https://github.com/ArtAndrew/TreeHarbor/blob/v0.1.19-alpha.1/docs/mcp.md): Read files at a pinned Git revision and submit changes that survive workspace cleanup through a local TreeHarbor service. (Rust, official)
 - [UI Verify MCP Server](https://uiverify.ai/docs/triage-with-your-agent): Review a pull request's visual diffs, read the AI judge's verdict on each change, and accept new baselines in UI Verify from a coding agent. (TypeScript, official)
 - [unslop](https://github.com/avivgerz-hue/unslop): Design-craft linter with 72 rules for CSS, Tailwind and React that audits contrast, typography and spacing, exposed to MCP clients through 4 tools. (TypeScript)
@@ -609,6 +611,7 @@ Links under each category point at the upstream project, docs, or registry page.
 ## Data, Analytics, and BI
 
 - [10ML Perfume Finder](https://github.com/10ml-com/perfume-finder-mcp): Free perfume knowledge for AI assistants: notes, accords and families for 6,000+ perfumes, similar scents and decant prices. Remote, read-only, no key. (Other, official)
+- [Academic Paper Search & DOI Lookup MCP](https://apify.com/publicrecords/crossref-papers-doi-lookup): Search Crossref scholarly works or look up DOIs for title, authors, journal, citation counts and retraction flags. (JavaScript)
 - [AcesAPI](https://acesapi.com): ATP and WTA tennis since 2007: results with every set, draws, rankings, head to head, surface splits and Elo ratings. (JavaScript, official)
 - [Adspy](https://www.adspy.sh): Hosted MCP server for ad research: brands' public Meta and Google ads, TikTok and Pinterest ads in listed regions, and organic TikTok, YouTube and Instagram posts, from Claude, ChatGPT, Claude Code or Codex. No spend or ROAS. (Other, official)
 - [AgenticWebScore](https://github.com/marifeting/agenticwebscore-mcp): Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key. (TypeScript, official)
@@ -739,6 +742,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Verand](https://verand.ai/mcp): Your site's rankings, AI-answer visibility and compliance checks, plus drafts and fixes you approve, from any AI assistant. (TypeScript, official)
 - [Vergabeweiser](https://vergabeweiser.de/api#mcp): Hosted read-only MCP server for German public tenders and contract awards, with buyers, winners and award sums from open procurement data. (PHP)
 - [Viewlify](https://viewlify.app/tiktok-data-api): TikTok videos that beat their creator's usual views, plus the videos, hashtags and sounds rising by niche, from public TikTok data (read only). (TypeScript, official)
+- [Wikipedia Search, ECB FX & Treasury Yields MCP](https://apify.com/publicrecords/wikipedia-search): Search Wikipedia for article extracts, or fetch official ECB euro foreign-exchange reference rates and U.S. Treasury par yields. (JavaScript)
 - [World Monitor](https://github.com/koala73/worldmonitor): Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server. (TypeScript, official)
 - [YorkerAPI](https://yorkerapi.com): Cricket ball by ball in every format, men's and women's: batting and bowling cards, player splits, Elo ratings and match odds. (JavaScript, official)
 - [zaDojo](https://zadojo.com/docs/mcp): Free Google Search Console, Google Analytics and site audits, plus pay-as-you-go SERP, keyword research, rank tracking and AI visibility tracking for ChatGPT, Gemini, Perplexity and Google AI Overviews. (TypeScript, official)
@@ -1085,6 +1089,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [NukeBG](https://nukebg.com/mcp-server): Official hosted server: remove image backgrounds, erase objects by description and upscale images 2x/4x; transparent PNG/WebP or marketplace-ready white. (Other, official)
 - [obd2-mcp](https://github.com/shoka-jp/obd2-mcp): Read OBD-II trouble codes, live data, and freeze frames through an ELM327 adapter, with a mock vehicle for testing. (TypeScript)
 - [OneSimpleAPI](https://registry.modelcontextprotocol.io/v0.1/servers/com.onesimpleapi%2Fonesimpleapi/versions/1.0.0): Generate PDFs, screenshots, images, QR codes and short links, and validate emails through an official hosted MCP endpoint. (PHP, official)
+- [Phone Number Validator MCP](https://apify.com/publicrecords/phone-number-validator): Validate and format phone numbers to E.164 with country and line type from the numbering plan. Not a live carrier lookup. (JavaScript)
 - [Pic2SVG MCP](https://pic2svg.com/mcp/): Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths. (JavaScript, official)
 - [QRX](https://qrx.codes/developers/mcp): Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link. (TypeScript, official)
 - [RoboDebut](https://registry.modelcontextprotocol.io/v0.1/servers/com.robodebut%2Fsubmissions/versions/1.0.0): RoboDebut, run by Boon who also builds LinkBunny, lets agents submit websites and startups for operator review through an anonymous MCP server; ordinary submissions need a followed homepage badge and private maker email. (TypeScript, official)

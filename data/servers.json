@@ -6709,6 +6709,35 @@
     ]
   },
   {
+    "name": "DNS Lookup MCP",
+    "url": "https://apify.com/publicrecords/dns-lookup",
+    "description": "Bulk DNS lookup for a list of domains: A, MX, NS, TXT, SPF, DMARC and email provider, one row per domain.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "dns",
+      "mx",
+      "spf",
+      "dmarc",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/dns-lookup"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "genesis-blackbox",
     "url": "https://github.com/johannschiffer/genesis-blackbox",
     "description": "Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.",
@@ -7179,6 +7208,34 @@
     },
     "transport": [
       "streamable-http"
+    ]
+  },
+  {
+    "name": "Academic Paper Search & DOI Lookup MCP",
+    "url": "https://apify.com/publicrecords/crossref-papers-doi-lookup",
+    "description": "Search Crossref scholarly works or look up DOIs for title, authors, journal, citation counts and retraction flags.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "crossref",
+      "doi",
+      "research",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/crossref-papers-doi-lookup"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
     ]
   },
   {
@@ -9469,6 +9526,34 @@
     "license": "Apache-2.0",
     "transport": [
       "stdio"
+    ]
+  },
+  {
+    "name": "Wikipedia Search, ECB FX & Treasury Yields MCP",
+    "url": "https://apify.com/publicrecords/wikipedia-search",
+    "description": "Search Wikipedia for article extracts, or fetch official ECB euro foreign-exchange reference rates and U.S. Treasury par yields.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "wikipedia",
+      "exchange-rates",
+      "treasury",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/wikipedia-search"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
     ]
   },
   {
@@ -14636,6 +14721,34 @@
     ]
   },
   {
+    "name": "Phone Number Validator MCP",
+    "url": "https://apify.com/publicrecords/phone-number-validator",
+    "description": "Validate and format phone numbers to E.164 with country and line type from the numbering plan. Not a live carrier lookup.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "phone",
+      "validation",
+      "e164",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/phone-number-validator"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "SpellBook Finance",
     "url": "https://spellbook-finance.com/agent/mcp.md",
     "description": "Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.",
@@ -17726,6 +17839,34 @@
     "transport": [
       "streamable-http",
       "sse"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Tech Stack Detector MCP",
+    "url": "https://apify.com/publicrecords/tech-stack-detector",
+    "description": "Find what any website is built with: CMS, frameworks, analytics, CDN, hosting and more, with evidence for each match.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "tech-stack",
+      "cms",
+      "websites",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/tech-stack-detector"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
     ],
     "auth": [
       "oauth",

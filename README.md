@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1052-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1057-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,17 +43,17 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (105)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (107)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (98)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
 - [Communication and Productivity](#communication-and-productivity) (137)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (114)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (135)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (137)
 - [Legal and Court Data](#legal-and-court-data) (12)
 - [Security and Identity](#security-and-identity) (50)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (230)
-- [Utilities and Examples](#utilities-and-examples) (54)
+- [Utilities and Examples](#utilities-and-examples) (55)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
 <a id="official-and-reference"></a>
@@ -196,6 +196,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `docs` `libraries` `coding`
 - **[ContextManager](https://github.com/nushey/ContextManager)** `C#` — Extracts structural C# context with Roslyn and builds an incremental knowledge graph of .NET solutions for AI coding agents.  
   `csharp` `dotnet` `roslyn` `code-analysis`
+- **[DNS Lookup MCP](https://apify.com/publicrecords/dns-lookup)** `JavaScript` — Bulk DNS lookup for a list of domains: A, MX, NS, TXT, SPF, DMARC and email provider, one row per domain. ([source](https://github.com/GeminiGeorge22/publicrecords-mcp))  
+  `dns` `mx` `spf` `dmarc` `remote`
 - **[Docker MCP Server](https://github.com/docker/mcp-gateway)** `Official` `Go` — Manage containers, images, and Docker environments through MCP.  
   `containers` `devops` `docker`
 - **[Docsy](https://github.com/getremcp/docsy-plugin)** `Official` `TypeScript` — Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools.  
@@ -332,6 +334,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `github` `open-source` `search` `developer-rankings` `alternatives`
 - **[Tavero](https://github.com/baccaraaa/tavero)** `TypeScript` — Scans a running React 19 app (Vite or Next.js) for UI drift in buttons, cards, colors, and spacing, and returns fixes with file and line references to the coding agent.  
   `react` `ui-consistency` `design-system` `frontend`
+- **[Tech Stack Detector MCP](https://apify.com/publicrecords/tech-stack-detector)** `JavaScript` — Find what any website is built with: CMS, frameworks, analytics, CDN, hosting and more, with evidence for each match. ([source](https://github.com/GeminiGeorge22/publicrecords-mcp))  
+  `tech-stack` `cms` `websites` `remote`
 - **[TreeHarbor MCP](https://github.com/ArtAndrew/TreeHarbor/blob/v0.1.19-alpha.1/docs/mcp.md)** `Official` `Rust` — Read files at a pinned Git revision and submit changes that survive workspace cleanup through a local TreeHarbor service. ([source](https://github.com/ArtAndrew/TreeHarbor))  
   `git` `source-control` `coding-agents`
 - **[UI Verify MCP Server](https://uiverify.ai/docs/triage-with-your-agent)** `Official` `TypeScript` — Review a pull request's visual diffs, read the AI judge's verdict on each change, and accept new baselines in UI Verify from a coding agent.  
@@ -1258,6 +1262,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
 
 - **[10ML Perfume Finder](https://github.com/10ml-com/perfume-finder-mcp)** `Official` `Other` — Free perfume knowledge for AI assistants: notes, accords and families for 6,000+ perfumes, similar scents and decant prices. Remote, read-only, no key.  
   `perfume` `fragrance` `reference-data` `remote`
+- **[Academic Paper Search & DOI Lookup MCP](https://apify.com/publicrecords/crossref-papers-doi-lookup)** `JavaScript` — Search Crossref scholarly works or look up DOIs for title, authors, journal, citation counts and retraction flags. ([source](https://github.com/GeminiGeorge22/publicrecords-mcp))  
+  `crossref` `doi` `research` `remote`
 - **[AcesAPI](https://acesapi.com)** `Official` `JavaScript` — ATP and WTA tennis since 2007: results with every set, draws, rankings, head to head, surface splits and Elo ratings. ([source](https://github.com/noahowsh/acesapi-mcp))  
   `tennis` `atp` `wta` `sports` `remote`
 - **[Adspy](https://www.adspy.sh)** `Official` `Other` — Hosted MCP server for ad research: brands' public Meta and Google ads, TikTok and Pinterest ads in listed regions, and organic TikTok, YouTube and Instagram posts, from Claude, ChatGPT, Claude Code or Codex. No spend or ROAS.  
@@ -1518,6 +1524,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `public-tenders` `procurement` `germany` `contract-awards` `remote`
 - **[Viewlify](https://viewlify.app/tiktok-data-api)** `Official` `TypeScript` — TikTok videos that beat their creator's usual views, plus the videos, hashtags and sounds rising by niche, from public TikTok data (read only). ([source](https://github.com/benjaminb10/viewlify-mcp))  
   `tiktok` `social-media` `analytics` `trends` `remote`
+- **[Wikipedia Search, ECB FX & Treasury Yields MCP](https://apify.com/publicrecords/wikipedia-search)** `JavaScript` — Search Wikipedia for article extracts, or fetch official ECB euro foreign-exchange reference rates and U.S. Treasury par yields. ([source](https://github.com/GeminiGeorge22/publicrecords-mcp))  
+  `wikipedia` `exchange-rates` `treasury` `remote`
 - **[World Monitor](https://github.com/koala73/worldmonitor)** `Official` `TypeScript` — Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber, with about 100 read-only tools over a remote OAuth server.  
   `geopolitics` `news` `markets` `osint` `remote`
 - **[YorkerAPI](https://yorkerapi.com)** `Official` `JavaScript` — Cricket ball by ball in every format, men's and women's: batting and bowling cards, player splits, Elo ratings and match odds. ([source](https://github.com/noahowsh/yorkerapi-mcp))  
@@ -2214,6 +2222,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `automotive` `obd2` `diagnostics`
 - **[OneSimpleAPI](https://registry.modelcontextprotocol.io/v0.1/servers/com.onesimpleapi%2Fonesimpleapi/versions/1.0.0)** `Official` `PHP` — Generate PDFs, screenshots, images, QR codes and short links, and validate emails through an official hosted MCP endpoint.  
   `pdf` `images` `screenshots` `qr-codes` `url-shortener`
+- **[Phone Number Validator MCP](https://apify.com/publicrecords/phone-number-validator)** `JavaScript` — Validate and format phone numbers to E.164 with country and line type from the numbering plan. Not a live carrier lookup. ([source](https://github.com/GeminiGeorge22/publicrecords-mcp))  
+  `phone` `validation` `e164` `remote`
 - **[Pic2SVG MCP](https://pic2svg.com/mcp/)** `Official` `JavaScript` — Source-installed local stdio server that uploads raster images to Pic2SVG's hosted tracing API and writes SVG filled paths.  
   `svg` `raster-tracing` `images`
 - **[QRX](https://qrx.codes/developers/mcp)** `Official` `TypeScript` — Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link.  
