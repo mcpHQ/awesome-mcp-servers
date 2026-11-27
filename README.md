@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1044-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1045-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (96)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
-- [Communication and Productivity](#communication-and-productivity) (136)
+- [Communication and Productivity](#communication-and-productivity) (137)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (114)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (135)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -938,6 +938,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `social-media` `scheduling` `analytics` `remote` `oauth`
 - **[Shipmail](https://github.com/shipmail-to/shipmail-mcp)** `Official` `TypeScript` — Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks.  
   `email` `business-email` `calendar` `newsletters` `remote`
+- **[Signatoro](https://signatoro.com/docs/install-signature/agent/mcp)** `Official` `Other` — Hosted MCP server for email signatures: make a free signature without signing in, fetch or update the saved one so emails an agent sends carry it, and manage a company's people.  
+  `email` `email-signature` `productivity` `remote`
 - **[Sitekick CMS](https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing)** `Official` `TypeScript` — Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client.  
   `wordpress` `cms` `websites` `oauth` `remote`
 - **[Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** `Python` — Send messages and interact with Slack channels and workspaces. ([source](https://github.com/modelcontextprotocol/servers-archived))  

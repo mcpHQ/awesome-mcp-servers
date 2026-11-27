@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1044 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1045 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5627,6 +5627,21 @@ Business email on your own domain for people and AI agents: read, search, send a
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://shipmail.to/api/mcp
+
+### Signatoro
+
+Hosted MCP server for email signatures: make a free signature without signing in, fetch or update the saved one so emails an agent sends carry it, and manage a company's people.
+
+- URL: https://signatoro.com/docs/install-signature/agent/mcp
+- Language: Other
+- Provider: Signatoro
+- Official: yes
+- Tags: email, email-signature, productivity, remote
+- Category: Communication and Productivity
+- License: proprietary
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://signatoro.com/mcp
 
 ### Sitekick CMS
 

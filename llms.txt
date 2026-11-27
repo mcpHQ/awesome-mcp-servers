@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1044 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1045 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -450,6 +450,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Sequenzy](https://github.com/Sequenzy/mcp): Manage email contacts, campaigns, automation sequences, transactional email and analytics. (TypeScript, official)
 - [Shager](https://shager.ai/agents): Hosted MCP server that lets an assistant schedule one post to many social accounts, each network at its own hour, answer comments, run auto-replies and report views, likes and clicks per post. (TypeScript, official)
 - [Shipmail](https://github.com/shipmail-to/shipmail-mcp): Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks. (TypeScript, official)
+- [Signatoro](https://signatoro.com/docs/install-signature/agent/mcp): Hosted MCP server for email signatures: make a free signature without signing in, fetch or update the saved one so emails an agent sends carry it, and manage a company's people. (Other, official)
 - [Sitekick CMS](https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing): Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client. (TypeScript, official)
 - [Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack): Send messages and interact with Slack channels and workspaces. (Python)
 - [Social Post Flow](https://www.socialpostflow.com/documentation/mcp/): Schedule and publish social media posts to Facebook, X, LinkedIn, Instagram, Threads, Pinterest, TikTok, Bluesky, Mastodon and more. (PHP, official)
