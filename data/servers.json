@@ -11236,6 +11236,29 @@
     "repository": "https://github.com/netdata/netdata"
   },
   {
+    "name": "AI Review",
+    "url": "https://github.com/purge-unlimited/ai-review",
+    "description": "Zero-dependency MCP server that asks a second cloud or local OpenAI-compatible model for independent code review, architectural scrutiny, and second opinions.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "mcp",
+      "code-review",
+      "second-opinion",
+      "llm",
+      "stdio"
+    ],
+    "official": false,
+    "repository": "https://github.com/purge-unlimited/ai-review",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "verified": "2026-11-25"
+  },
+  {
     "name": "Vertov MCP",
     "url": "https://vertov.app/docs/mcp",
     "description": "Search workspace recordings, read timestamped transcripts, and upload videos for sharing.",

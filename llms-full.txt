@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1024 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1025 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -436,6 +436,21 @@ Read-only, no-auth search over a curated catalog of MCP servers and Agent Skills
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://agenttaskatlas.com/api/mcp
+
+### AI Review
+
+Zero-dependency MCP server that asks a second cloud or local OpenAI-compatible model for independent code review, architectural scrutiny, and second opinions.
+
+- URL: https://github.com/purge-unlimited/ai-review
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: mcp, code-review, second-opinion, llm, stdio
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Verified: 2026-11-25
 
 ### anylocale
 
