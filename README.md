@@ -1626,7 +1626,7 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `penetration-testing` `security-providers` `directory` `remote`
 - **[qURL](https://github.com/layervai/qurl-mcp)** `Official` `TypeScript` — Mint, resolve, audit, and rotate scope-limited expiring access links (qURLs) for AI agents.  
   `access-links` `expiring-links` `localhost-sharing` `security`
-- **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Official hosted server to manage Scalekit orgs, users, SSO, and MCP OAuth; agent auth with 1,100+ connectors and 55,000+ tools.  
+- **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.  
   `auth` `identity` `oauth` `mcp`
 - **[ScanMalware](https://mcp.scanmalware.com/)** `Official` `Python` — Submits URLs for analysis in isolated environments and searches the public scan archive by domain, IP, ASN, JARM or favicon hash, with AI classification of suspicious pages by scam type. ([source](https://github.com/scanmalware/mcp-server))  
   `phishing` `url-scanning` `threat-intelligence` `osint` `remote`
