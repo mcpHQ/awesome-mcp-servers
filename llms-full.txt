@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1044 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1045 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1485,6 +1485,22 @@ Public SanctionsKit documentation, API schemas, and request validation, with aut
 - Category: Developer Tools and Code Intelligence
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://www.sanctionskit.com/mcp
+
+### Sandscale
+
+Hosted MCP server that lets an agent create a Firecracker microVM sandbox, run commands in it, move files in and out, and stop it, with every call recorded in an audit log.
+
+- URL: https://sandscale.dev/sandboxes/mcp
+- Language: Other
+- Provider: Sandscale
+- Official: yes
+- Tags: sandbox, microvm, code-execution, remote
+- Category: Developer Tools and Code Intelligence
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.sandscale.dev/mcp
 
 ### Semgrep MCP Server
 

@@ -13596,6 +13596,32 @@
     "repository": "https://github.com/sandbaseai/sandbase-harness"
   },
   {
+    "name": "Sandscale",
+    "url": "https://sandscale.dev/sandboxes/mcp",
+    "description": "Hosted MCP server that lets an agent create a Firecracker microVM sandbox, run commands in it, move files in and out, and stop it, with every call recorded in an audit log.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Sandscale",
+    "tags": [
+      "sandbox",
+      "microvm",
+      "code-execution",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.sandscale.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Scalekit MCP Server",
     "url": "https://github.com/scalekit-inc/scalekit-mcp-server",
     "description": "Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.",
