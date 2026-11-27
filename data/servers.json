@@ -11378,6 +11378,37 @@
     }
   },
   {
+    "name": "Geekflare MCP Server",
+    "url": "https://github.com/geekflare/geekflare-api-mcp",
+    "description": "Web scraping, web and Google SERP search, site crawling, screenshots and website checks through the Geekflare API.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Geekflare",
+    "tags": [
+      "scraping",
+      "search",
+      "crawl",
+      "screenshot",
+      "web"
+    ],
+    "official": true,
+    "repository": "https://github.com/geekflare/geekflare-api-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@geekflare/mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
     "name": "A1 Gallery",
     "url": "https://www.a1.gallery/mcp",
     "description": "Search a hand-picked gallery of real live websites for design references: sections, full pages, fonts, font pairings, and colours, type sizes, and spacing measured off each live page.",

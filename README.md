@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1058-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1059-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (108)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (98)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (99)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
 - [Communication and Productivity](#communication-and-productivity) (137)
@@ -453,6 +453,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `scraping` `crawl` `web`
 - **[FlashData Google Search, YouTube Data & Download](https://github.com/rocosen/flashdata-mcp)** `Official` `TypeScript` — Fast, affordable access to Google search, YouTube data, and YouTube video/audio downloads via MCP, with a free trial.  
   `google-search` `youtube` `transcripts` `research` `data-api`
+- **[Geekflare MCP Server](https://github.com/geekflare/geekflare-api-mcp)** `Official` `TypeScript` — Web scraping, web and Google SERP search, site crawling, screenshots and website checks through the Geekflare API.  
+  `scraping` `search` `crawl` `screenshot` `web`
 - **[GetYouTubeTranscript](https://github.com/tubeagentkit/youtube-mcp)** `Official` `JavaScript` — YouTube transcripts and data over MCP: fetch a video's captions (language choice, optional timestamps), search YouTube, and browse channels, playlists and related videos.  
   `youtube` `transcripts` `video` `search` `remote`
 - **[ghost-qa](https://github.com/avivgerz-hue/ghost-qa)** `TypeScript` — Headless Playwright QA for web apps that checks console errors, network failures, layout, accessibility and Core Web Vitals across desktop, tablet and mobile in light and dark themes, with a QA health score and regression diffing.  
