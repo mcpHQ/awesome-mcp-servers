@@ -9728,6 +9728,33 @@
     ]
   },
   {
+    "name": "RZLT",
+    "url": "https://github.com/therzlt/rzlt-mcp",
+    "description": "Official hosted MCP server for RZLT, an AI-native growth and marketing agency: services, case studies, a fit check, a free website AI-readiness check and a contact tool.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "RZLT",
+    "tags": [
+      "marketing",
+      "agency",
+      "seo",
+      "ai-readiness",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/therzlt/rzlt-mcp",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://mcp.rzlt.io/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MELRA",
     "url": "https://github.com/XAGI-Lab/melra",
     "description": "Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation.",
@@ -10310,6 +10337,71 @@
     ]
   },
   {
+    "name": "Cueston",
+    "url": "https://cueston.com/docs/mcp",
+    "description": "Hosted MCP server to build, preview and publish in-app product tours, tooltips, banners, onboarding checklists, surveys and announcements on a SaaS app, and read their analytics.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Cueston",
+    "tags": [
+      "onboarding",
+      "product-tours",
+      "in-app-guidance",
+      "saas",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/andreycretsu/cueston-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "cueston"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://app.cueston.com/api/mcp"
+    }
+  },
+  {
+    "name": "FineRx",
+    "url": "https://www.finerxfinder.com/en/connect",
+    "description": "Observed US prescription prices by pharmacy chain with the date seen, the free FineRx discount card and US equivalents of foreign-brand medicines, in 12 languages; an independent comparison service, not insurance or medical advice.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "FineRx",
+    "tags": [
+      "drug-prices",
+      "pharmacy",
+      "healthcare",
+      "discount-card",
+      "multilingual"
+    ],
+    "official": true,
+    "repository": "https://github.com/andrewfinerx/finerx-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "finerx-mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
@@ -10323,6 +10415,31 @@
     ],
     "official": true,
     "repository": "https://github.com/netdata/netdata"
+  },
+  {
+    "name": "Vertov MCP",
+    "url": "https://vertov.app/docs/mcp",
+    "description": "Search workspace recordings, read timestamped transcripts, and upload videos for sharing.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Vertov",
+    "tags": [
+      "video",
+      "screen-recording",
+      "transcripts"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://vertov.app/mcp"
+    }
   },
   {
     "name": "WhatsDownNow",
@@ -10637,6 +10754,35 @@
     "transport": [
       "streamable-http"
     ]
+  },
+  {
+    "name": "Vadyu AI Video Ad Studio",
+    "url": "https://vadyu.com/api-docs#mcp",
+    "description": "Preview Shopify or DTC storefronts with zero auth and render multi-cut 9:16, 4:5, 1:1, and 16:9 commercial AI video ads with 3D studio lighting and voiceover.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Vadyu",
+    "tags": [
+      "video-ads",
+      "shopify",
+      "ecommerce",
+      "marketing"
+    ],
+    "official": true,
+    "repository": "https://github.com/crawde/mcp-vadyu",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://vadyu.com/api/mcp"
+    }
   },
   {
     "name": "ORANO",
@@ -10975,6 +11121,35 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "Benchline",
+    "url": "https://benchline.fabwaseem.com",
+    "description": "Free remote MCP server exposing 61 developer tools (JSON, PDF, images, JWT, DNS, llms.txt and more) over Streamable HTTP with no API key, account, or session.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Benchline",
+    "tags": [
+      "developer-tools",
+      "json",
+      "pdf",
+      "jwt",
+      "dns"
+    ],
+    "official": true,
+    "repository": "https://github.com/fabwaseem/benchline",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://benchline.fabwaseem.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-24"
   },
   {
     "name": "Cockatoo",
@@ -13229,6 +13404,22 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "ACQ",
+    "url": "https://github.com/damri-labs/acq",
+    "description": "Two-seat plain-text relay for agents on different machines, over MCP or curl; the relay can read text, and guest rooms expire with best-effort deletion.",
+    "category": "communication-and-productivity",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "communication",
+      "mcp",
+      "curl"
+    ],
+    "official": false,
+    "repository": "https://github.com/damri-labs/acq",
+    "license": "MIT"
   },
   {
     "name": "Tale",
