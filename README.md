@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1013-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1022-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,11 +49,11 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (134)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (114)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (126)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (133)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (49)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (219)
-- [Utilities and Examples](#utilities-and-examples) (52)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (220)
+- [Utilities and Examples](#utilities-and-examples) (53)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
 <a id="official-and-reference"></a>
@@ -1254,6 +1254,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `jobs` `recruiting` `greenhouse` `lever` `ashby`
 - **[AttriKit](https://github.com/KamyarTaher/attrikit-mcp)** `Official` `TypeScript` — Web-to-app attribution for iOS and Android apps that buy ads: create campaign links, import ad spend, read each campaign's scale, cut or hold call, manage Meta, TikTok and RevenueCat connections, and export installs and events.  
   `attribution` `mobile-apps` `advertising` `marketing-analytics` `api-key`
+- **[Avalanche Forecast Danger Rating MCP](https://github.com/theluckystrike/avalanche-forecast-danger-rating-mcp)** `TypeScript` — Today avalanche danger ratings by zone and elevation, avalanche problems and bottom line summaries from US avalanche centers.  
+  `weather` `avalanche` `backcountry` `safety`
 - **[Basedash MCP Server](https://github.com/Basedash/mcp)** `Official` `Other` — Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth.  
   `bi` `dashboards` `sql`
 - **[BatchData](https://github.com/batchdataco/batchdata-mcp-server)** `Official` `Other` — Hosted MCP server for U.S. property data: property search, comps, owner skip tracing, and phone and address verification. OAuth 2.1 or API token.  
@@ -1348,8 +1350,12 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `blockchain` `robinhood-chain` `research` `open-data`
 - **[HirePulse Agent Gateway](https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/)** `Official` `Other` — Remote MCP tools for website technologies and company job listings; paid HTTP API calls use x402 on Base.  
   `remote` `jobs` `technology` `x402`
+- **[Home Health and Hospice Ratings MCP](https://github.com/theluckystrike/home-health-hospice-ratings-care-compare-mcp)** `TypeScript` — Medicare Care Compare star ratings, patient and family survey results and quality measures for US home health agencies and hospices by ZIP code.  
+  `healthcare` `home-health` `hospice` `cms`
 - **[Hoot Lens](https://github.com/Parallel-Platforms/hootlens-mcp)** `Official` `TypeScript` — Read website session replays, click heatmaps and broken clicks, trace one to its JavaScript error and source line, and check whether a shipped change helped.  
   `session-replay` `heatmaps` `web-analytics` `debugging`
+- **[Hospital Ratings CMS Star Ratings MCP](https://github.com/theluckystrike/hospital-ratings-cms-star-ratings-mcp)** `TypeScript` — CMS overall hospital star ratings, patient survey (HCAHPS) stars, ER wait times and quality measures for every US hospital from Medicare Care Compare.  
+  `healthcare` `hospitals` `medicare` `cms`
 - **[HospitalAid](https://hospitalaid.org/for-ai/)** `Official` `JavaScript` — Free, read-only lookup of US hospital charity care policies and health center sliding fees, with a source link for each number. Five tools find facilities, estimate eligibility, show the policy and the steps to apply.  
   `healthcare` `hospital-bills` `charity-care` `public-data` `remote`
 - **[Invokely](https://invokely.ai/docs)** `Official` `Other` — Query source-cited official statistics by indicator, place and period; retrieve values and time series, compare places, and rank regions. No-account MCP trial allows 25 calls per IP per day.  
@@ -1380,6 +1386,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `marketing` `seo` `aeo` `social-media` `remote`
 - **[maviapi](https://maviapi.com/docs#mcp)** `Official` `TypeScript` — The unofficial API for any website, as MCP tools: search ready site APIs, read their endpoints, call them for live structured JSON, or have a new one built. Data only; it never acts on the target sites. ([source](https://github.com/kuzenlabs/maviapi-mcp))  
   `structured-data` `json` `site-apis` `remote`
+- **[Measles Cases by State Outbreak MCP](https://github.com/theluckystrike/measles-cases-by-state-outbreak-mcp)** `TypeScript` — CDC confirmed US measles cases by state, outbreak counts, hospitalizations, weekly trends and kindergarten MMR vaccination rates.  
+  `public-health` `cdc` `epidemiology` `open-data`
 - **[Metabase MCP Server](https://www.metabase.com/docs/latest/ai/mcp)** `Official` `TypeScript` — Query dashboards and explore data in Metabase BI.  
   `bi` `dashboards` `sql`
 - **[Mixpanel MCP Server](https://docs.mixpanel.com/docs/mcp)** `Official` `TypeScript` — Query Mixpanel funnels, retention, and event analytics.  
@@ -1392,6 +1400,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `monitoring` `infra` `metrics`
 - **[New Job Postings MCP (Ashby, Greenhouse, Lever, SmartRecruiters)](https://github.com/GeminiGeorge22/ats-jobs-mcp)** `JavaScript` — New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse, Lever and SmartRecruiters job boards.  
   `jobs` `recruiting` `ats` `greenhouse`
+- **[Nursing Home Ratings Care Compare MCP](https://github.com/theluckystrike/nursing-home-ratings-medicare-care-compare-mcp)** `TypeScript` — Medicare Care Compare star ratings, nurse staffing hours, turnover, inspection deficiencies, fines and abuse flags for every US nursing home.  
+  `healthcare` `nursing-homes` `medicare` `cms`
 - **[OMOPHub](https://github.com/OMOPHub/omophub-mcp)** `Official` `TypeScript` — Search, map and navigate the OHDSI OMOP standardized vocabularies (11M+ concepts, including SNOMED CT, ICD-10, LOINC and RxNorm) from AI agents, with concept hierarchies and cross-vocabulary mappings.  
   `healthcare` `omop` `medical-vocabularies` `fhir` `remote`
 - **[Open Health Sync](https://github.com/soma-intelligence/open-health-sync)** `Official` `Go` — Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources.  
@@ -1418,6 +1428,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `schema` `marketing` `remote`
 - **[Recall Kitchen](https://github.com/Recall-Kitchen/rk-mcp)** `Official` `Go` — Hosted MCP server that searches government product recall notices from CPSC, FDA, USDA, NHTSA and Health Canada by keyword, UPC, product name or vehicle, and fetches a full notice; free API key or anonymous x402 pay-per-call.  
   `recalls` `product-safety` `government-data` `remote`
+- **[Restaurant Health Inspection Scores MCP](https://github.com/theluckystrike/restaurant-health-inspection-scores-mcp)** `TypeScript` — Latest restaurant health inspection grades, scores, violations and closures in NYC, Chicago, Austin and Boston from city open data portals.  
+  `food-safety` `restaurants` `open-data` `inspections`
 - **[Robot Speed](https://github.com/robot-speed/mcp)** `Official` `TypeScript` — SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.  
   `seo` `analytics` `keywords` `content`
 - **[Scento Perfume API](https://www.scento.com/developers)** `Official` `Other` — Perfume knowledge for AI assistants: 1,400+ designer and niche perfumes with notes and families, 400+ raw materials, similar scents. Remote, read-only, no key.  
@@ -1446,6 +1458,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `history` `wikipedia` `reference-data` `remote`
 - **[Smarter.Poker MCP Server](https://github.com/Smarter-Poker/smarter-poker-mcp)** `Official` `JavaScript` — Keyless stdio and streamable-HTTP server with 26 tools for poker hand and range equity, ICM, Nash push/fold charts, bankroll risk of ruin and US poker venue discovery.  
   `poker` `game-theory` `analytics` `sports` `remote`
+- **[Snow Depth Snowpack SNOTEL MCP](https://github.com/theluckystrike/snow-depth-snowpack-snotel-mcp)** `TypeScript` — Daily USDA NRCS SNOTEL snow depth, snow water equivalent and percent of 30-year median for western US mountain stations.  
+  `weather` `snowpack` `snotel` `usda`
 - **[Sociality MCP](https://github.com/socialityio/sociality-mcp)** `Official` `Other` — Hosted OAuth MCP server from Sociality.io for social media analytics, post insights, and competitor benchmarking across Facebook, X, Instagram, YouTube, LinkedIn, and TikTok.  
   `social-media` `analytics` `competitor-analysis` `marketing` `oauth`
 - **[Sourcey](https://sourcey.com/mcp)** `Official` `TypeScript` — Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record.  
@@ -1745,6 +1759,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `sales` `leads` `marketing` `remote`
 - **[Edgrapi](https://edgrapi.com)** `Official` `Python` — US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants, House STOCK Act trades and SEC EDGAR filings, 19 read-only tools.  
   `government-data` `sec-edgar` `procurement` `remote` `oauth`
+- **[Egg Prices and Grocery Prices MCP](https://github.com/theluckystrike/egg-prices-grocery-prices-mcp)** `TypeScript` — Monthly US average retail prices for eggs, beef, coffee, milk, bread, gasoline and electricity from BLS CPI average price series.  
+  `economics` `bls` `cpi` `prices`
 - **[EL7.AI](https://el7.ai/en/mcp)** `Official` `TypeScript` — Financial market intelligence for your AI: markets news, economic calendar, 8 central banks, COT positioning, stocks, earnings, gold and oil, with sources and dates; 85 read-only tools, English first with full Arabic support. ([source](https://github.com/walidelhelw/el7-mcp))  
   `finance` `markets` `central-banks` `economic-calendar` `remote`
 - **[Elori](https://github.com/elori-debug/elori-mcp)** `Official` `TypeScript` — Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.  
@@ -2108,6 +2124,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `image` `headshot` `photo-quality` `linkedin` `remote`
 - **[Ignav Flights](https://github.com/gusgordon/ignav-skill)** `Official` `Python` — Search live flight prices, compare departure dates, resolve airports, and get booking links.  
   `travel` `flights` `booking-links` `remote` `oauth`
+- **[Ingredient Convert MCP](https://github.com/theluckystrike/ingredient-convert-mcp)** `TypeScript` — Cooking ingredient unit converter (cups, tablespoons, teaspoons, ml, grams, ounces) using a measured density table plus recipe scaling.  
+  `cooking` `unit-converter` `recipes` `baking`
 - **[Inkspira](https://inkspira.de/tattoo-generator/)** `Official` `JavaScript` — Plan a tattoo with style and placement options, prefilled generator links, actual-size 3 cm and 5 cm print samples, and a photo placement preview. ([source](https://github.com/TJLDC/inkspira-mcp))  
   `tattoo` `design` `printables` `remote`
 - **[LFG Atlas](https://lfgatlas.pages.dev/developers/)** `Official` `Other` — Find LFG groups for 110 games, official game news, live player counts and what's hot.  
