@@ -12712,6 +12712,22 @@ Official remote MCP server for Pay2GPT: list ChatGPT Go/Plus/Pro top-up plans an
 - Auth: none, api-key
 - Streamable HTTP endpoint: https://pay2gpt.com/mcp
 
+### PayGate USDT
+
+Non-custodial multi-chain crypto checkout and x402 paywall MCP server verifying USDC, USDT, ETH, BNB, POL, SOL, and BTC payments on-chain across 7 networks.
+
+- URL: https://github.com/EzequielLech/paygate-usdt
+- Language: Python
+- Provider: PayGate
+- Official: no
+- Tags: crypto-payments, usdt, usdc, x402, checkout
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Pricing: freemium
+- Transport: stdio, streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://chainguard-studio-production.up.railway.app/paygate/mcp
+
 ### PayPal MCP Server
 
 Process PayPal payments and manage merchant operations.

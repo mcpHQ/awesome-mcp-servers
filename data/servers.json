@@ -11549,6 +11549,35 @@
     "verified": "2026-11-25"
   },
   {
+    "name": "PayGate USDT",
+    "url": "https://github.com/EzequielLech/paygate-usdt",
+    "description": "Non-custodial multi-chain crypto checkout and x402 paywall MCP server verifying USDC, USDT, ETH, BNB, POL, SOL, and BTC payments on-chain across 7 networks.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "PayGate",
+    "tags": [
+      "crypto-payments",
+      "usdt",
+      "usdc",
+      "x402",
+      "checkout"
+    ],
+    "official": false,
+    "repository": "https://github.com/EzequielLech/paygate-usdt",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://chainguard-studio-production.up.railway.app/paygate/mcp"
+    }
+  },
+  {
     "name": "Vertov MCP",
     "url": "https://vertov.app/docs/mcp",
     "description": "Search workspace recordings, read timestamped transcripts, and upload videos for sharing.",

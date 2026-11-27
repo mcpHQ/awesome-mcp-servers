@@ -1971,6 +1971,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `a-share` `stock-data` `real-time-quotes` `market-data`
 - **[Pay2GPT](https://pay2gpt.com/en/llms.txt)** `Official` `Ruby` — Official remote MCP server for Pay2GPT: list ChatGPT Go/Plus/Pro top-up plans and Codex credits with current prices and checkout links, and read how-to guides as Markdown (en, zh-CN, ru); business tools need an API key.  
   `chatgpt` `pricing` `guides` `remote`
+- **[PayGate USDT](https://github.com/EzequielLech/paygate-usdt)** `Python` — Non-custodial multi-chain crypto checkout and x402 paywall MCP server verifying USDC, USDT, ETH, BNB, POL, SOL, and BTC payments on-chain across 7 networks.  
+  `crypto-payments` `usdt` `usdc` `x402` `checkout`
 - **[PayPal MCP Server](https://github.com/paypal/agent-toolkit)** `Official` `TypeScript` — Process PayPal payments and manage merchant operations.  
   `payments` `commerce` `fintech`
 - **[Perq](https://perq.sh)** `Official` `Other` — Remote MCP server and agent skill for looking up verified free AI credits, startup programs and perks, each with a source link and last-verified date. ([source](https://github.com/f-o-x11/perq-skill))  
