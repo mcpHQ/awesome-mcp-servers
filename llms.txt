@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 983 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 984 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -382,6 +382,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Impulse](https://www.impulse-interactive.com/product/mcp-server): Hosted MCP for Impulse event pages, emails, guests, and check-in. (Other, official)
 - [InsertChat](https://insertchat.com): AI receptionist and AI chatbot: triage calls and chats that need you, draft replies, look up leads, review reports, and train your assistant on web pages. (TypeScript, official)
 - [KanbanMCP](https://kanbanmcp.com/docs/connect): Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes. (Other, official)
+- [Kanvas](https://github.com/open-kanvas/kanvas): Gives an AI agent a screen in any browser to show tables, dashboards and diagrams. (TypeScript)
 - [lemlist](https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key): Official hosted lemlist server: run multichannel outreach campaigns, build email and LinkedIn sequences, add and search leads, read campaign stats and check sending-domain deliverability; OAuth or API key. (TypeScript, official)
 - [LinkBunny Exchange](https://getlinkbunny.com/mcp): Hosted MCP for contextual nofollow link exchanges: your coding agent gets a matched link request from a participating site, proposes a placement for you to approve, and reports it; OAuth. (TypeScript, official)
 - [Linkedcamp](https://docs.linkedcamp.com/mcp/overview): Hosted MCP server for Linkedcamp LinkedIn and email outreach: campaigns, unified inbox, leads and analytics in 133 tools across 15 groups; OAuth 2.1 or API key, paid plans from $79/mo with a 14-day free trial. (Other, official)
