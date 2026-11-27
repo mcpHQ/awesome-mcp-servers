@@ -12970,6 +12970,31 @@
     "repository": "https://github.com/port-labs/port-mcp-server"
   },
   {
+    "name": "Signatoro",
+    "url": "https://signatoro.com/docs/install-signature/agent/mcp",
+    "description": "Hosted MCP server for email signatures: make a free signature without signing in, fetch or update the saved one so emails an agent sends carry it, and manage a company's people.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Signatoro",
+    "tags": [
+      "email",
+      "email-signature",
+      "productivity",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://signatoro.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Postbag MCP Server",
     "url": "https://github.com/faahim/postbag",
     "description": "Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks.",
