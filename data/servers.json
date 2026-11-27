@@ -11683,6 +11683,32 @@
     "repository": "https://github.com/netdata/netdata"
   },
   {
+    "name": "Taplio for LinkedIn",
+    "url": "https://github.com/TaplioOfficial/taplio-linkedin-mcp",
+    "description": "Official hosted Taplio server for LinkedIn: search Taplio's lead database, draft, schedule, publish and analyze posts, find posts and comments to engage with, draft replies, like posts and send connection requests. OAuth.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Taplio",
+    "tags": [
+      "linkedin",
+      "social-media",
+      "content",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.taplio.com/"
+    },
+    "repository": "https://github.com/TaplioOfficial/taplio-linkedin-mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "docs-rag-mcp",
     "url": "https://github.com/Ahmed-Manai/docs-rag-mcp",
     "repository": "https://github.com/Ahmed-Manai/docs-rag-mcp",
