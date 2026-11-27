@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1039-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1040-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (135)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (50)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (224)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (225)
 - [Utilities and Examples](#utilities-and-examples) (54)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1851,6 +1851,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `local-services` `plumbers` `electricians` `toronto`
 - **[helloasso-mcp](https://github.com/edouard-claude/helloasso-mcp)** `Rust` — HelloAsso for French associations: members, event tickets, donations, payments, refunds and checkout links, covering all 36 routes of the v5 API.  
   `payments` `nonprofit` `donations` `france` `ticketing`
+- **[Hermoso](https://github.com/hermoso-ai/hermoso)** `Official` `JavaScript` — AI marketing agent: research competitor ads, make image and video ads, publish and schedule posts to your own social channels, and run and report on ad campaigns.  
+  `marketing` `advertising` `social-media` `ads` `remote`
 - **[HireFerry](https://github.com/TokenNotIncluded/hireferry)** `Rust` — Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows.  
   `jobs` `recruiting` `resumes` `self-hosted`
 - **[HireLayer](https://github.com/HireLayer/hirelayer-mcp)** `Official` `TypeScript` — Parse resumes and CVs into structured JSON, extract weighted criteria from a job description, match and rank candidates with per-criterion explanations, and normalize skills.  
