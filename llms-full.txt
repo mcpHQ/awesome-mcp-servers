@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 998 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 999 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8309,6 +8309,21 @@ Read website session replays, click heatmaps and broken clicks, trace one to its
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.hootlens.com/mcp
+
+### HospitalAid
+
+Free, read-only lookup of US hospital charity care policies and health center sliding fees, with a source link for each number. Five tools find facilities, estimate eligibility, show the policy and the steps to apply.
+
+- URL: https://hospitalaid.org/for-ai/
+- Language: JavaScript
+- Provider: HospitalAid
+- Official: yes
+- Tags: healthcare, hospital-bills, charity-care, public-data, remote
+- Category: Data, Analytics, and BI
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://hospitalaid.org/mcp
 
 ### Invokely
 

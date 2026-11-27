@@ -9701,6 +9701,32 @@
     ]
   },
   {
+    "name": "HospitalAid",
+    "url": "https://hospitalaid.org/for-ai/",
+    "description": "Free, read-only lookup of US hospital charity care policies and health center sliding fees, with a source link for each number. Five tools find facilities, estimate eligibility, show the policy and the steps to apply.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "HospitalAid",
+    "tags": [
+      "healthcare",
+      "hospital-bills",
+      "charity-care",
+      "public-data",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://hospitalaid.org/mcp"
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "mcp-pool",
     "url": "https://github.com/yuzu-octopus/mcp-pool",
     "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
