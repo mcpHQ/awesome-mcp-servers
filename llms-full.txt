@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 991 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 992 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2938,6 +2938,20 @@ Read and write Airtable bases, tables, and records via MCP.
 - Official: no
 - Tags: airtable, spreadsheets, data
 - Category: Filesystems and Documents
+
+### AppStruct Docs MCP
+
+Read, search and edit documents you own in AppStruct Docs using hosted MCP and a scoped Bearer key; requires an AppStruct account with Docs access.
+
+- URL: https://blog.appstruct.ai/blog/docs-mcp-meeting-notes-to-project-brief?utm_source=mcphq&utm_medium=referral&utm_campaign=docs_claude_code_20261120&utm_content=docs_listing_01
+- Language: Other
+- Provider: AppStruct
+- Official: yes
+- Tags: documents, docs, productivity, remote, api-key
+- Category: Filesystems and Documents
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://api.appstruct.cloud/v1/docs/mcp
 
 ### Audo
 

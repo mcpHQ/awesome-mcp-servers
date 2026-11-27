@@ -10192,6 +10192,31 @@
     "official": true
   },
   {
+    "name": "AppStruct Docs MCP",
+    "url": "https://blog.appstruct.ai/blog/docs-mcp-meeting-notes-to-project-brief?utm_source=mcphq&utm_medium=referral&utm_campaign=docs_claude_code_20261120&utm_content=docs_listing_01",
+    "description": "Read, search and edit documents you own in AppStruct Docs using hosted MCP and a scoped Bearer key; requires an AppStruct account with Docs access.",
+    "category": "filesystems-and-documents",
+    "language": "Other",
+    "provider": "AppStruct",
+    "tags": [
+      "documents",
+      "docs",
+      "productivity",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.appstruct.cloud/v1/docs/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "AI SEO Tracker",
     "url": "https://aiseotracker.com/docs/mcp",
     "description": "Track brand visibility, citations, prompts, competitors, and missing citation sources across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews.",
