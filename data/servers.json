@@ -10691,6 +10691,35 @@
     ]
   },
   {
+    "name": "Vadyu AI Video Ad Studio",
+    "url": "https://vadyu.com/api-docs#mcp",
+    "description": "Preview Shopify or DTC storefronts with zero auth and render multi-cut 9:16, 4:5, 1:1, and 16:9 commercial AI video ads with 3D studio lighting and voiceover.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Vadyu",
+    "tags": [
+      "video-ads",
+      "shopify",
+      "ecommerce",
+      "marketing"
+    ],
+    "official": true,
+    "repository": "https://github.com/crawde/mcp-vadyu",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://vadyu.com/api/mcp"
+    }
+  },
+  {
     "name": "ORANO",
     "url": "https://oranoai.com/mcp",
     "description": "Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.",

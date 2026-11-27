@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 976 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 977 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -12533,6 +12533,23 @@ MCP server for agents to work across Ethereum, Arbitrum, Base, Polygon and BNB C
 - Official: no
 - Tags: crypto, defi, x402, blockchain
 - Category: Finance, Commerce, and Business Apps
+
+### Vadyu AI Video Ad Studio
+
+Preview Shopify or DTC storefronts with zero auth and render multi-cut 9:16, 4:5, 1:1, and 16:9 commercial AI video ads with 3D studio lighting and voiceover.
+
+- URL: https://vadyu.com/api-docs#mcp
+- Language: JavaScript
+- Provider: Vadyu
+- Official: yes
+- Tags: video-ads, shopify, ecommerce, marketing
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/crawde/mcp-vadyu
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http, stdio
+- Auth: none, api-key
+- Streamable HTTP endpoint: https://vadyu.com/api/mcp
 
 ### Vedar Kamchatka
 
