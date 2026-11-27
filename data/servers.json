@@ -12525,6 +12525,32 @@
     ]
   },
   {
+    "name": "Get MCP Ads",
+    "url": "https://www.getmcpads.com",
+    "description": "Hosted MCP gateway for 16 ad and analytics sources, including Meta, Google Ads, TikTok, LinkedIn, GA4 and Search Console. Every write is previewed and confirmed, and new campaigns start paused.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Get MCP Ads",
+    "tags": [
+      "advertising",
+      "meta-ads",
+      "google-ads",
+      "ga4",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.getmcpads.com/mcp"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Pocket Drives",
     "url": "https://github.com/RevList/pocket-drives-mcp",
     "description": "Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app.",
