@@ -9575,6 +9575,30 @@
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
   },
   {
+    "name": "Gradium",
+    "url": "https://registry.modelcontextprotocol.io/?q=ai.gradium%2Fmcp",
+    "description": "Gradium text-to-speech: browse voices, generate speech as WAV audio, and check your organization's credit balance.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Gradium",
+    "tags": [
+      "text-to-speech",
+      "voice",
+      "audio",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.gradium.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "xmcp",
     "url": "https://xmcp.dev",
     "description": "Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server.",
