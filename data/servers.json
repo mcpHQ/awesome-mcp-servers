@@ -10790,6 +10790,31 @@
     ]
   },
   {
+    "name": "CodeDesign",
+    "url": "https://github.com/codedesignapp/mcp",
+    "description": "AI website builder: design a site from a short description, edit pages and text, check SEO issues, read form leads and analytics, and publish to your own domain.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "CodeDesign",
+    "tags": [
+      "website-builder",
+      "seo",
+      "cms",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/codedesignapp/mcp",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.codedesign.ai/mcp"
+    }
+  },
+  {
     "name": "iQuota Hotels",
     "url": "https://github.com/iquota/iquota-mcp",
     "description": "Search live availability and prices of independent hotels, apartments and villas, check a rate and book it directly, with payment at the property.",

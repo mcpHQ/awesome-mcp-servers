@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1033 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1034 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4427,6 +4427,20 @@ Makes vertical UGC videos for mobile apps with an AI influencer who keeps the sa
 - Auth: api-key, oauth
 - Install: npx clipugc
 - Streamable HTTP endpoint: https://clipugc.com/mcp
+
+### CodeDesign
+
+AI website builder: design a site from a short description, edit pages and text, check SEO issues, read form leads and analytics, and publish to your own domain.
+
+- URL: https://github.com/codedesignapp/mcp
+- Language: Other
+- Provider: CodeDesign
+- Official: yes
+- Tags: website-builder, seo, cms, remote
+- Category: Communication and Productivity
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.codedesign.ai/mcp
 
 ### Cooper Email
 
