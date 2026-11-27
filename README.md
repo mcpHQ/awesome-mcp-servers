@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (209)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (210)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1735,6 +1735,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `x402` `base` `defi` `crypto` `remote`
 - **[GrowFast](https://growfast.sh)** `Official` `Other` — Find B2B customers for a product: score matching companies, draft emails, listen on Reddit.  
   `sales` `leads` `outreach` `remote` `oauth`
+- **[Hailtrades](https://hailtrades.com/for-agents)** `TypeScript` — Hosted remote MCP server for finding emergency residential plumbers and electricians in Toronto and the GTA: hours, call-out fees, licences and contacts; read-only search with no API key. ([source](https://github.com/Hailtrades/hailtrades-mcp))  
+  `local-services` `plumbers` `electricians` `toronto`
 - **[helloasso-mcp](https://github.com/edouard-claude/helloasso-mcp)** `Rust` — HelloAsso for French associations: members, event tickets, donations, payments, refunds and checkout links, covering all 36 routes of the v5 API.  
   `payments` `nonprofit` `donations` `france` `ticketing`
 - **[HireFerry](https://github.com/TokenNotIncluded/hireferry)** `Rust` — Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows.  

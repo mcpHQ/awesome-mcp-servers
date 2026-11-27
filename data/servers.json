@@ -10441,6 +10441,29 @@
     "repository": "https://github.com/makenotion/notion-mcp-server"
   },
   {
+    "name": "Hailtrades",
+    "url": "https://hailtrades.com/for-agents",
+    "description": "Hosted remote MCP server for finding emergency residential plumbers and electricians in Toronto and the GTA: hours, call-out fees, licences and contacts; read-only search with no API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Buzz Research Inc.",
+    "tags": [
+      "local-services",
+      "plumbers",
+      "electricians",
+      "toronto"
+    ],
+    "official": false,
+    "repository": "https://github.com/Hailtrades/hailtrades-mcp",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Obsidian MCP Server",
     "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
     "description": "Search and read notes from local Obsidian vaults.",
