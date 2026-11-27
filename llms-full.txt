@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1023 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1024 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -14111,6 +14111,19 @@ Hosted maps MCP server for AI agents: live place search, place details, nearby s
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://wheremind.ai/mcp
+
+### XShots MCP
+
+Local stdio server bundled with XShots on macOS 14+ to list templates and device frames and render app-store screenshot sets. Requires an active three-day trial, paid pass, or lifetime license.
+
+- URL: https://selfark.com/xshots/support
+- Language: Other
+- Provider: SELFARK LTD
+- Official: yes
+- Tags: macos, design, app-store, screenshots
+- Category: Utilities and Examples
+- Pricing: paid
+- Transport: stdio
 
 ## Logistics and Shipping
 
