@@ -12108,6 +12108,34 @@
     }
   },
   {
+    "name": "Flypify",
+    "url": "https://flypify.com/docs",
+    "description": "Hosted MCP server for e-commerce: find TikTok Shop products that are already selling and their ads, match suppliers, build stores, run split tests and set up Meta ad campaigns. Paid plan required.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Flypify",
+    "tags": [
+      "ecommerce",
+      "dropshipping",
+      "shopify",
+      "product-research",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.flypify.com/mcp/"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "ShortSmash",
     "url": "https://github.com/hydope/shortsmash",
     "description": "MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms.",
