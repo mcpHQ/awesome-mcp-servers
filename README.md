@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1044-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1045-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (104)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (96)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (97)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
 - [Communication and Productivity](#communication-and-productivity) (136)
@@ -485,6 +485,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `web-data` `web-scraping` `structured-data` `search` `remote`
 - **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `Official` `TypeScript` — Official Microsoft Playwright server for browser automation via accessibility snapshots.  
   `browser` `playwright` `automation`
+- **[Proxies.sx](https://agents.proxies.sx/mcp/)** `Official` `TypeScript` — Mobile and residential proxies for agents, metered per GB: check live stock by country, build rotating or sticky HTTP and SOCKS5 proxy URLs, rotate IPs, read usage and gateway errors, and rent a dedicated 4G/5G modem by day, week or month. ([source](https://github.com/bolivian-peru/proxies-sx-mcp-server))  
+  `proxy` `residential-proxy` `mobile-proxy` `web-scraping` `remote`
 - **[Puppeteer MCP Server](https://github.com/merajmehrabi/puppeteer-mcp-server)** `TypeScript` — Headless Chrome automation using Puppeteer for scraping and testing.  
   `puppeteer` `browser` `scraping`
 - **[rea-captcha](https://github.com/masakaai/rea-captcha)** `Official` `TypeScript` — MCP server that completes authorized test or owned verification flows in an agent's existing Playwright or CDP session, then resumes after fresh server validation.  
