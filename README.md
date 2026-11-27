@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1044-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1045-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (135)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (50)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (227)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (228)
 - [Utilities and Examples](#utilities-and-examples) (54)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1971,6 +1971,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `a-share` `stock-data` `real-time-quotes` `market-data`
 - **[Pay2GPT](https://pay2gpt.com/en/llms.txt)** `Official` `Ruby` — Official remote MCP server for Pay2GPT: list ChatGPT Go/Plus/Pro top-up plans and Codex credits with current prices and checkout links, and read how-to guides as Markdown (en, zh-CN, ru); business tools need an API key.  
   `chatgpt` `pricing` `guides` `remote`
+- **[PayGate USDT](https://github.com/EzequielLech/paygate-usdt)** `Python` — Non-custodial multi-chain crypto checkout and x402 paywall MCP server verifying USDC, USDT, ETH, BNB, POL, SOL, and BTC payments on-chain across 7 networks.  
+  `crypto-payments` `usdt` `usdc` `x402` `checkout`
 - **[PayPal MCP Server](https://github.com/paypal/agent-toolkit)** `Official` `TypeScript` — Process PayPal payments and manage merchant operations.  
   `payments` `commerce` `fintech`
 - **[Perq](https://perq.sh)** `Official` `Other` — Remote MCP server and agent skill for looking up verified free AI credits, startup programs and perks, each with a source link and last-verified date. ([source](https://github.com/f-o-x11/perq-skill))  
