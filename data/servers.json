@@ -11550,7 +11550,7 @@
   },
   {
     "name": "DROP File Transfer",
-    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/space.drop%2Fdrop/versions/latest",
+    "url": "https://drop.space/en/agent-file-transfer/#check-mcp-connection",
     "description": "Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.",
     "category": "filesystems-and-documents",
     "language": "TypeScript",

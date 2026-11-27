@@ -556,7 +556,7 @@ Read and write files, convert documents, and connect to knowledge bases.
   `presentations` `powerpoint` `pptx` `slides` `remote`
 - **[DocuQueue MCP](https://github.com/docuqueue/docuqueue-mcp)** `Official` `TypeScript` — Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.  
   `pdf` `document-generation` `form-filling` `invoice`
-- **[DROP File Transfer](https://registry.modelcontextprotocol.io/v0.1/servers/space.drop%2Fdrop/versions/latest)** `Official` `TypeScript` — Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.  
+- **[DROP File Transfer](https://drop.space/en/agent-file-transfer/#check-mcp-connection)** `Official` `TypeScript` — Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.  
   `file-transfer` `file-requests` `client-uploads`
 - **[FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp)** `Official` `Python` — OCR local PDF files through the FastOCR API and check API balance from MCP clients.  
   `ocr` `pdf` `documents`
