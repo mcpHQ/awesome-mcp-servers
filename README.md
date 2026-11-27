@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1029-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1030-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (133)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (50)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (222)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (223)
 - [Utilities and Examples](#utilities-and-examples) (54)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1667,6 +1667,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `x402` `stablecoins` `remote`
 - **[Ahel](https://github.com/ahel-technologies/ahel)** `Official` `TypeScript` — Hosted MCP server with one catalog of data tasks: company and people enrichment, work email finding, SEO and SERP data, social media data and EU business registers, priced per call.  
   `enrichment` `seo` `social-media` `remote` `oauth`
+- **[AllSwap MCP Server](https://allswap.io/docs/mcp)** `Official` `JavaScript` — Read-only stdio server with three tools: filter AllSwap's public asset catalog, list AllSwap's official channels and company details, and build block-explorer links for transaction hashes. ([source](https://github.com/allswapio/mcp-server))  
+  `crypto` `asset-catalog` `block-explorer` `read-only` `stdio`
 - **[AlphaGrowth](https://alphagrowth.io/mcp-server)** `Official` `Elixir` — Free, read-only crypto market data for AI agents: DeFi TVL, chains, fees, funding rounds, DAO treasuries, yield pools, token unlocks and grants. ([source](https://github.com/alphagrowth/alphagrowth-mcp))  
   `crypto` `defi` `market-data` `funding` `read-only`
 - **[AlphaSift](https://alphasift.zhulinsen.tech/)** `Official` `Python` — Multi-market quantitative stock screening and empirical pattern validation MCP server with purged walk-forward track records across 7 equity markets. ([source](https://github.com/ZhuLinsen/alphasift))  
