@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 992 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1032 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -372,6 +372,22 @@ Official Harness.io MCP server for CI/CD pipelines, deployments, GitOps, and pla
 - Tags: harness, cicd, devops
 - Category: Developer Tools and Code Intelligence
 
+### A1 Gallery
+
+Search a hand-picked gallery of real live websites for design references: sections, full pages, fonts, font pairings, and colours, type sizes, and spacing measured off each live page.
+
+- URL: https://www.a1.gallery/mcp
+- Language: TypeScript
+- Provider: A1 Gallery
+- Official: yes
+- Tags: design, ui, websites, fonts, remote
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/a1-gallery/a1-mcp
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://www.a1.gallery/api/mcp
+
 ### Agent QA
 
 Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces.
@@ -420,6 +436,21 @@ Read-only, no-auth search over a curated catalog of MCP servers and Agent Skills
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://agenttaskatlas.com/api/mcp
+
+### AI Review
+
+Zero-dependency MCP server that asks a second cloud or local OpenAI-compatible model for independent code review, architectural scrutiny, and second opinions.
+
+- URL: https://github.com/purge-unlimited/ai-review
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: mcp, code-review, second-opinion, llm, stdio
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Verified: 2026-11-25
 
 ### anylocale
 
@@ -606,6 +637,23 @@ Hosted MCP gateway for searching and comparing Web3 infrastructure services, suc
 - Official: yes
 - Tags: web3, infrastructure, discovery, remote
 - Category: Developer Tools and Code Intelligence
+
+### Chattee
+
+Lets AI assistants create, change, deploy and publish full web apps on Chattee.
+
+- URL: https://chattee.ai/docs/mcp
+- Language: JavaScript
+- Provider: Anwendo GmbH
+- Official: yes
+- Tags: app-builder, web-apps, deploy, hosting
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/chattee-ai/plugins
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://chattee.ai/mcp/connect
 
 ### Coding Tools MCP
 
@@ -1109,6 +1157,22 @@ Hosted server to manage a mobile app's FAQs, translations, feature plans and in-
 - Category: Developer Tools and Code Intelligence
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.moltlinestudio.com/catalog
+
+### n8n Preflight
+
+Offline, read-only lint for exported n8n workflow JSON files: run-time failure patterns, secrets and credential IDs left in before sharing, and n8n Creator Hub template checks.
+
+- URL: https://github.com/haechiwood/mcp-n8n-preflight
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: n8n, lint, workflow-automation, secrets
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: uvx mcp-n8n-preflight
 
 ### NAIF Gravity
 
@@ -2266,6 +2330,22 @@ Search destinations and places and read published travel information through a h
 - Auth: none
 - Streamable HTTP endpoint: https://govisit.ai/mcp
 
+### Groundsocial
+
+Read public data from 77 platforms (Reddit, X, TikTok, Instagram, YouTube, LinkedIn, Google, Amazon) as each platform's own JSON. Remote Streamable HTTP at https://api.groundsocial.dev/mcp.
+
+- URL: https://groundsocial.dev/docs/mcp
+- Language: TypeScript
+- Provider: Groundsocial
+- Official: yes
+- Tags: social-media, scraping, reddit, search, remote
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/shivanshmehendiratta/groundsocial-mcp
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://api.groundsocial.dev/mcp
+
 ### HolicAudit website checks
 
 Hosted MCP server with free SEO, AI-crawler visibility (robots.txt, llms.txt, JSON-LD) and passive security-header checks for any URL.
@@ -2425,6 +2505,23 @@ Checks a deployed URL against a plain-English expectation in a cloud browser and
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://www.monito.dev/api/mcp
+
+### MotionVideo
+
+Hosted MCP server for searching the motionvideo.xyz catalog of AI-made motion videos, pulling the original prompt behind an entry, and browsing motion tools and studios.
+
+- URL: https://motionvideo.xyz/docs/mcp
+- Language: TypeScript
+- Provider: MotionVideo
+- Official: yes
+- Tags: video, motion-design, prompts, animation, remote
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/motionvideohq/motionvideo-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none, oauth
+- Streamable HTTP endpoint: https://mcp.motionvideo.xyz/mcp
 
 ### Neeed Directory
 
@@ -2651,6 +2748,19 @@ Read-only MCP server for the SitePatent product discovery directory: search the 
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://sitepatent.com/api/mcp
+
+### Skool Community Scraper
+
+Search Skool communities by keyword. Members, price, rating and estimated monthly revenue for each, plus daily growth tracking.
+
+- URL: https://github.com/GeminiGeorge22/publicrecords-mcp
+- Language: JavaScript
+- Provider: publicrecords
+- Official: no
+- Tags: skool, communities, search, remote
+- Category: Browsers, Search, and Web Automation
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://mcp.apify.com?tools=publicrecords/skool-community-growth-tracker
 
 ### Social Fetch
 
@@ -2939,6 +3049,20 @@ Read and write Airtable bases, tables, and records via MCP.
 - Tags: airtable, spreadsheets, data
 - Category: Filesystems and Documents
 
+### AppStruct Docs MCP
+
+Read, search and edit documents you own in AppStruct Docs using hosted MCP and a scoped Bearer key; requires an AppStruct account with Docs access.
+
+- URL: https://blog.appstruct.ai/blog/docs-mcp-meeting-notes-to-project-brief?utm_source=mcphq&utm_medium=referral&utm_campaign=docs_claude_code_20261120&utm_content=docs_listing_01
+- Language: Other
+- Provider: AppStruct
+- Official: yes
+- Tags: documents, docs, productivity, remote, api-key
+- Category: Filesystems and Documents
+- Transport: streamable-http
+- Auth: api-key
+- Streamable HTTP endpoint: https://api.appstruct.cloud/v1/docs/mcp
+
 ### Audo
 
 Audio and video creation and editing tools for AI agents: speech generation, voice cloning and changing, cleanup, transcription, and captions.
@@ -3031,6 +3155,22 @@ Turns local text PDFs and saved HTML pages into Markdown and keeps tables as Mar
 - Auth: none
 - Install: uvx doc2md-lite
 
+### Dock
+
+dock.space presentation editor for PowerPoint, Keynote and PDF: agents create decks from Dock templates or uploaded .pptx and .key files, edit with 200+ actions, render slides to check the result, and export PPTX or PDF.
+
+- URL: https://dock.space/agents
+- Language: Other
+- Provider: GNTC
+- Official: yes
+- Tags: presentations, powerpoint, pptx, slides, remote
+- Category: Filesystems and Documents
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://app.dock.space/v1/mcp
+
 ### DocuQueue MCP
 
 Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.
@@ -3046,7 +3186,7 @@ Generate PDFs from templates, fill existing PDF forms, and batch-create invoices
 
 Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.
 
-- URL: https://registry.modelcontextprotocol.io/v0.1/servers/space.drop%2Fdrop/versions/latest
+- URL: https://drop.space/en/agent-file-transfer/#check-mcp-connection
 - Language: TypeScript
 - Provider: DROP
 - Official: yes
@@ -3384,6 +3524,23 @@ Send Markdown or PDF documents for two-party electronic signing with SHA-256 cry
 - Official: yes
 - Tags: documents, esignature, contracts, legal, pdf
 - Category: Filesystems and Documents
+
+### SmartDrugs
+
+Independent evidence-based information platform on nootropics in Brazilian Portuguese, with public read-only access and optional community tools after Google sign-in, always with confirmation in the chat.
+
+- URL: https://smartdrugs.com.br/desenvolvedores/
+- Language: Other
+- Provider: SmartDrugs
+- Official: no
+- Tags: knowledge-base, nootropics, remote, research
+- Category: Filesystems and Documents
+- Repository: https://github.com/smartdrugs-org/mcp
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://smartdrugs.com.br/mcp
 
 ### Tools That Don't Upload
 
@@ -4550,6 +4707,22 @@ Hosted OAuth MCP server where agents draft X, LinkedIn, Bluesky and TikTok posts
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.flaghand.com/mcp
+
+### Freepost
+
+Hosted MCP for Freepost, an AI social media team for Chinese and global platforms: drafts a version of each post per platform, you review, then schedules and publishes from your own signed-in accounts; live on Xiaohongshu, Instagram and X.
+
+- URL: https://freepost.io/developers
+- Language: Other
+- Provider: Freepost
+- Official: yes
+- Tags: social-media, scheduling, publishing, remote, oauth
+- Category: Communication and Productivity
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://freepost.io/api/mcp
 
 ### Gesher
 
@@ -6052,6 +6225,22 @@ Remote MCP server where AI agents search tested step-by-step playbooks, follow t
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://botgathering.com/mcp
 
+### Branching Story MCP
+
+Zero-dependency stdio MCP server that validates branching story graphs, runs deterministic state transitions with a verifiable trace hash, detects memory drift in transcripts, and exposes the 2026 AI Story Continuity Benchmark dataset.
+
+- URL: https://github.com/ouba-studio/branching-story-mcp
+- Language: Python
+- Provider: Ouba Studio
+- Official: yes
+- Tags: interactive-fiction, story-engine, benchmark, stdio, state-machine
+- Category: AI, Agents, and Memory
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: uvx branching-story-mcp
+
 ### ClickHouse Loom
 
 Self-hosted MCP server that gives AI agents shared long-term memory, document search with citations and a code index (definitions, callers, change impact), stored in ClickHouse.
@@ -7130,6 +7319,22 @@ Read-only MCP server for discovering the Silicon Teahouse, an agents-only commun
 - Category: AI, Agents, and Memory
 - Transport: stdio
 
+### Skillbook
+
+Made by a Korea University student: saves what you understood with AI as one-line study rules in your Google Drive.
+
+- URL: https://myskillbook.kr/guide
+- Language: Python
+- Provider: Skillbook
+- Official: yes
+- Tags: education, study, memory, google-drive, oauth
+- Category: AI, Agents, and Memory
+- License: proprietary
+- Pricing: free
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://myskillbook.kr/mcp
+
 ### Smarty Pants Network (smartypants.network)
 
 Hosted MCP server for Smarty Pants Network: run open AI models on Apple Silicon Macs (prompts, embeddings, reranking, batch), find a model for a task, and compare per-token prices.
@@ -7374,7 +7579,7 @@ ATP and WTA tennis since 2007: results with every set, draws, rankings, head to 
 
 ### Adspy
 
-Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.
+Hosted MCP server for ad research: brands' public Meta and Google ads, TikTok and Pinterest ads in listed regions, and organic TikTok, YouTube and Instagram posts, from Claude, ChatGPT, Claude Code or Codex. No spend or ROAS.
 
 - URL: https://www.adspy.sh
 - Language: Other
@@ -7549,6 +7754,22 @@ Web-to-app attribution for iOS and Android apps that buy ads: create campaign li
 - Transport: stdio
 - Auth: api-key
 - Install: npx @attrkit/mcp
+
+### Avalanche Forecast Danger Rating MCP
+
+Today avalanche danger ratings by zone and elevation, avalanche problems and bottom line summaries from US avalanche centers.
+
+- URL: https://github.com/theluckystrike/avalanche-forecast-danger-rating-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: weather, avalanche, backcountry, safety
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://avalanche-forecast-danger-rating-mcp.lipmichal.workers.dev/mcp
 
 ### Basedash MCP Server
 
@@ -8253,6 +8474,22 @@ Remote MCP tools for website technologies and company job listings; paid HTTP AP
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/mcp
 
+### Home Health and Hospice Ratings MCP
+
+Medicare Care Compare star ratings, patient and family survey results and quality measures for US home health agencies and hospices by ZIP code.
+
+- URL: https://github.com/theluckystrike/home-health-hospice-ratings-care-compare-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: healthcare, home-health, hospice, cms
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://home-health-hospice-ratings-care-compare-mcp.lipmichal.workers.dev/mcp
+
 ### Hoot Lens
 
 Read website session replays, click heatmaps and broken clicks, trace one to its JavaScript error and source line, and check whether a shipped change helped.
@@ -8265,6 +8502,37 @@ Read website session replays, click heatmaps and broken clicks, trace one to its
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.hootlens.com/mcp
+
+### Hospital Ratings CMS Star Ratings MCP
+
+CMS overall hospital star ratings, patient survey (HCAHPS) stars, ER wait times and quality measures for every US hospital from Medicare Care Compare.
+
+- URL: https://github.com/theluckystrike/hospital-ratings-cms-star-ratings-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: healthcare, hospitals, medicare, cms
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://hospital-ratings-cms-star-ratings-mcp.lipmichal.workers.dev/mcp
+
+### HospitalAid
+
+Free, read-only lookup of US hospital charity care policies and health center sliding fees, with a source link for each number. Five tools find facilities, estimate eligibility, show the policy and the steps to apply.
+
+- URL: https://hospitalaid.org/for-ai/
+- Language: JavaScript
+- Provider: HospitalAid
+- Official: yes
+- Tags: healthcare, hospital-bills, charity-care, public-data, remote
+- Category: Data, Analytics, and BI
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://hospitalaid.org/mcp
 
 ### Invokely
 
@@ -8472,6 +8740,22 @@ The unofficial API for any website, as MCP tools: search ready site APIs, read t
 - Install: npx @maviapi/mcp
 - Streamable HTTP endpoint: https://mcp.maviapi.com/mcp
 
+### Measles Cases by State Outbreak MCP
+
+CDC confirmed US measles cases by state, outbreak counts, hospitalizations, weekly trends and kindergarten MMR vaccination rates.
+
+- URL: https://github.com/theluckystrike/measles-cases-by-state-outbreak-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: public-health, cdc, epidemiology, open-data
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://measles-cases-by-state-outbreak-mcp.lipmichal.workers.dev/mcp
+
 ### Metabase MCP Server
 
 Query dashboards and explore data in Metabase BI.
@@ -8546,6 +8830,22 @@ New job postings since any date or window (24h, 7d, 30d) from Ashby, Greenhouse,
 - License: MIT
 - Transport: stdio
 - Install: npx github:GeminiGeorge22/ats-jobs-mcp
+
+### Nursing Home Ratings Care Compare MCP
+
+Medicare Care Compare star ratings, nurse staffing hours, turnover, inspection deficiencies, fines and abuse flags for every US nursing home.
+
+- URL: https://github.com/theluckystrike/nursing-home-ratings-medicare-care-compare-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: healthcare, nursing-homes, medicare, cms
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://nursing-home-ratings-medicare-care-compare-mcp.lipmichal.workers.dev/mcp
 
 ### OMOPHub
 
@@ -8734,6 +9034,22 @@ Hosted MCP server that searches government product recall notices from CPSC, FDA
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://app.recallkitchen.com/mcp
+
+### Restaurant Health Inspection Scores MCP
+
+Latest restaurant health inspection grades, scores, violations and closures in NYC, Chicago, Austin and Boston from city open data portals.
+
+- URL: https://github.com/theluckystrike/restaurant-health-inspection-scores-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: food-safety, restaurants, open-data, inspections
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://restaurant-health-inspection-scores-mcp.lipmichal.workers.dev/mcp
 
 ### Robot Speed
 
@@ -8930,6 +9246,22 @@ Keyless stdio and streamable-HTTP server with 26 tools for poker hand and range 
 - Auth: none
 - Install: npx smarter-poker-mcp
 - Streamable HTTP endpoint: https://smarter.poker/api/mcp
+
+### Snow Depth Snowpack SNOTEL MCP
+
+Daily USDA NRCS SNOTEL snow depth, snow water equivalent and percent of 30-year median for western US mountain stations.
+
+- URL: https://github.com/theluckystrike/snow-depth-snowpack-snotel-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: weather, snowpack, snotel, usda
+- Category: Data, Analytics, and BI
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://snow-depth-snowpack-snotel-mcp.lipmichal.workers.dev/mcp
 
 ### Sociality MCP
 
@@ -9425,6 +9757,38 @@ On-chain address intelligence for Base: seven read-only MCP tools for EVM addres
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://agentsapi.top/mcp
 
+### Caelo
+
+Free, local security scanner for AI-built apps: finds exposed API keys, Supabase service-role keys, browser-bundled secrets, open Firebase rules, and committed .env files.
+
+- URL: https://caelo.sh
+- Language: TypeScript
+- Provider: Irth Labs
+- Official: no
+- Tags: security, secret-scanning, static-analysis, local
+- Category: Security and Identity
+- Repository: https://github.com/arthi-arumugam-git/caelo
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx caelo
+
+### CheckLeaked MCP
+
+Searches breach data by email, username, phone, domain or hash, checks password exposure with k-anonymity, cracks hashes, runs IP and WHOIS lookups and manages breach monitoring.
+
+- URL: https://checkleaked.cc/developers
+- Language: TypeScript
+- Provider: CheckLeaked
+- Official: yes
+- Tags: breach-data, osint, security, password
+- Category: Security and Identity
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: api-key, oauth
+- Streamable HTTP endpoint: https://mcp.checkleaked.cc/mcp
+
 ### Council of AI GSPC
 
 AI-governance measurement MCP server with free verification readers and x402-metered signed-evidence doors; remote endpoint at https://councilof.ai/mcp/.
@@ -9840,6 +10204,38 @@ Read-only pre-sign checks for Solana agents: dry-runs a transaction on mainnet, 
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://solana-pulse-gateway-1021990235790.us-central1.run.app/mcp
 
+### Sortance
+
+Hosted MCP server that checks whether a signup email is real, disposable, role-based or risky and returns allow, review or block.
+
+- URL: https://sortance.com/docs/mcp
+- Language: TypeScript
+- Provider: Sortance
+- Official: yes
+- Tags: email-validation, fraud-prevention, signup, remote
+- Category: Security and Identity
+- Repository: https://github.com/wilsonbright/sortance-mcp
+- License: proprietary
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://api.sortance.com/mcp
+
+### SprutMonitor DLP
+
+Read-only SprutMonitor DLP Cloud MCP for risks, idle time, productivity, and employee monitoring. Runs locally.
+
+- URL: https://sprutmonitor.ru/mcp.html
+- Language: Python
+- Provider: SprutMonitor
+- Official: yes
+- Tags: dlp, security, monitoring, employee-monitoring
+- Category: Security and Identity
+- Repository: https://github.com/extralabs/sprutmonitor-mcp-server
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Install: uvx sprutmonitor-mcp
+
 ### Sunglasses
 
 Scans text and files locally for prompt injection, credential leaks and data exfiltration; runs as a CLI, a Python API or an MCP server (python -m sunglasses.mcp).
@@ -9864,6 +10260,22 @@ Solidity contract scans, pre-transaction address risk checks, OFAC SDN address s
 - Pricing: freemium
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://tanod.dev/mcp
+
+### The Network Tools
+
+Hosted read-only MCP server for DNS records, MX routing, SPF/DMARC email security, HTTP security headers, and ICANN RDAP lookups.
+
+- URL: https://thenetworktools.com/docs/mcp
+- Language: TypeScript
+- Provider: The Network Tools
+- Official: yes
+- Tags: dns, ssl, dmarc, security, remote
+- Category: Security and Identity
+- License: proprietary
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://thenetworktools.com/mcp
 
 ### Vault MCP Server
 
@@ -10113,6 +10525,23 @@ Hosted MCP server with one catalog of data tasks: company and people enrichment,
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.ahel.ai
 
+### AllSwap MCP Server
+
+Read-only stdio server with three tools: filter AllSwap's public asset catalog, list AllSwap's official channels and company details, and build block-explorer links for transaction hashes.
+
+- URL: https://allswap.io/docs/mcp
+- Language: JavaScript
+- Provider: AllSwap
+- Official: yes
+- Tags: crypto, asset-catalog, block-explorer, read-only, stdio
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/allswapio/mcp-server
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx @allswapio/mcp-server
+
 ### AlphaGrowth
 
 Free, read-only crypto market data for AI agents: DeFi TVL, chains, fees, funding rounds, DAO treasuries, yield pools, token unlocks and grants.
@@ -10128,6 +10557,24 @@ Free, read-only crypto market data for AI agents: DeFi TVL, chains, fees, fundin
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://alphagrowth.io/mcp
+
+### AlphaSift
+
+Multi-market quantitative stock screening and empirical pattern validation MCP server with purged walk-forward track records across 7 equity markets.
+
+- URL: https://alphasift.zhulinsen.tech/
+- Language: Python
+- Provider: AlphaSift
+- Official: yes
+- Tags: finance, quant, stock-screening, walk-forward, equities
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/ZhuLinsen/alphasift
+- License: Apache-2.0
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: pip alphasift
+- Verified: 2026-11-25
 
 ### APISign
 
@@ -10645,6 +11092,21 @@ Delegate work to an AI agent that runs your small business (products, orders, cu
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.crevio.co/mcp
 
+### CrowdWisdom Trading
+
+Hosted MCP server that returns a crowd sentiment score from -100 to +100 and the count of pro traders for a ticker, for today or for the week.
+
+- URL: https://github.com/CrowdWisdomTradingx402/crowdwisdomtrading-python
+- Language: Python
+- Provider: CrowdWisdom Trading
+- Official: yes
+- Tags: sentiment, stocks, trading, remote, x402
+- Category: Finance, Commerce, and Business Apps
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://api.crowdwisdomtrading.com/mcp
+
 ### Crypto Regime MCP
 
 Crypto trend, regime and indicators tools, pay-per-call via x402 on Base.
@@ -10824,6 +11286,22 @@ US government data as JSON: SAM.gov contract opportunities, USAspending awards, 
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://api.edgrapi.com/mcp
+
+### Egg Prices and Grocery Prices MCP
+
+Monthly US average retail prices for eggs, beef, coffee, milk, bread, gasoline and electricity from BLS CPI average price series.
+
+- URL: https://github.com/theluckystrike/egg-prices-grocery-prices-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: economics, bls, cpi, prices
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://egg-prices-grocery-prices-mcp.lipmichal.workers.dev/mcp
 
 ### EL7.AI
 
@@ -11037,6 +11515,22 @@ Retrieve CRM contacts, deals, lists and workflows, and create contacts in approv
 - Auth: oauth
 - Streamable HTTP endpoint: https://api.app.firstsales.io/mcp
 
+### FiveSocket MT5
+
+Hosted MetaTrader 5 MCP server and REST API: read balances, positions, history and candles on any MT5 broker, place orders (opt-in), no Windows needed. Read-only endpoint available.
+
+- URL: https://fivesocket.com/mcp
+- Language: TypeScript
+- Provider: FiveSocket
+- Official: yes
+- Tags: trading, forex, metatrader, remote
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/fivesocket/mt5-mcp-server
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://api.fivesocket.com/mcp/read
+
 ### Flight Seatmap
 
 Seat maps, seat ratings, traveller reviews and seat alerts for 100+ airlines, as a hosted remote MCP server.
@@ -11108,6 +11602,37 @@ Private fixed-price airport and cruise transfers for Gold Coast, Brisbane and By
 - Auth: oauth
 - Verified: 2026-11-07
 - Streamable HTTP endpoint: https://gc-airporttransfers.com/wp-json/atb-gateway/v1/mcp
+
+### Genaya Connect
+
+Hosted MCP server for Genaya, an operations app for service businesses: ask about appointments, clients, invoices, calls and tasks, and prepare changes that run only after the member confirms them.
+
+- URL: https://developer.genaya.com/mcp
+- Language: JavaScript
+- Provider: Genaya
+- Official: yes
+- Tags: crm, scheduling, invoicing, small-business, remote
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://api.genaya.com/mcp
+
+### Get MCP Ads
+
+Hosted MCP gateway for 16 ad and analytics sources, including Meta, Google Ads, TikTok, LinkedIn, GA4 and Search Console. Every write is previewed and confirmed, and new campaigns start paused.
+
+- URL: https://www.getmcpads.com
+- Language: Other
+- Provider: Get MCP Ads
+- Official: yes
+- Tags: advertising, meta-ads, google-ads, ga4, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.getmcpads.com/mcp
 
 ### Glongus MCP
 
@@ -11190,6 +11715,21 @@ Find B2B customers for a product: score matching companies, draft emails, listen
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://growfast.sh/api/mcp
+
+### Hailtrades
+
+Hosted remote MCP server for finding emergency residential plumbers and electricians in Toronto and the GTA: hours, call-out fees, licences and contacts; read-only search with no API key.
+
+- URL: https://hailtrades.com/for-agents
+- Language: TypeScript
+- Provider: Buzz Research Inc.
+- Official: no
+- Tags: local-services, plumbers, electricians, toronto
+- Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/Hailtrades/hailtrades-mcp
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
 
 ### helloasso-mcp
 
@@ -11311,6 +11851,21 @@ Free hosted MCP with live India IPO GMP, subscription, upcoming IPOs, and GMP ac
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://ipogmpradar.com/mcp
 
+### iQuota Hotels
+
+Search live availability and prices of independent hotels, apartments and villas, check a rate and book it directly, with payment at the property.
+
+- URL: https://github.com/iquota/iquota-mcp
+- Language: Python
+- Provider: iQuota
+- Official: yes
+- Tags: travel, hotels, booking, vacation-rentals, remote
+- Category: Finance, Commerce, and Business Apps
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://iquota.io/mcp
+
 ### Jet Cab AMS
 
 Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.
@@ -11429,6 +11984,23 @@ Search public job listings and read job details from LAYIQ, a candidate-first jo
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://www.layiq.co/mcp
+
+### LeadMerlin
+
+Search local businesses (Google Maps) by niche and city, then get each one enriched with owner name, emails checked against the mail server, phone line type and website tech; API key, 100 free leads on signup.
+
+- URL: https://github.com/HalberdLLC/leadmerlin-mcp
+- Language: JavaScript
+- Provider: LeadMerlin
+- Official: yes
+- Tags: lead-generation, sales, local-business, remote
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Pricing: freemium
+- Transport: stdio, streamable-http
+- Auth: api-key
+- Install: npx github:HalberdLLC/leadmerlin-mcp
+- Streamable HTTP endpoint: https://api.leadmerlin.com/mcp
 
 ### LeadSets
 
@@ -12542,6 +13114,22 @@ Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives
 - Tags: company-data, business, finance, remote
 - Category: Finance, Commerce, and Business Apps
 
+### StickerByVIN
+
+Check whether a car's original window sticker (Monroney label) is on file for a VIN, with vehicle decode and recall count.
+
+- URL: https://stickerbyvin.com/developers
+- Language: TypeScript
+- Provider: StickerByVIN
+- Official: yes
+- Tags: vin, automotive, window-sticker, recalls, remote
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://stickerbyvin.com/mcp
+
 ### StrictScore
 
 Hosted MCP server and REST API for STRICT scores, AI-rated 0-100 crypto fundamentals for 970 assets on six pillars; needs an Enterprise plan API key (Bearer).
@@ -13227,6 +13815,40 @@ Search live flight prices, compare departure dates, resolve airports, and get bo
 - Auth: oauth
 - Streamable HTTP endpoint: https://ignav.com/mcp
 
+### Ingredient Convert MCP
+
+Cooking ingredient unit converter (cups, tablespoons, teaspoons, ml, grams, ounces) using a measured density table plus recipe scaling.
+
+- URL: https://github.com/theluckystrike/ingredient-convert-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: cooking, unit-converter, recipes, baking
+- Category: Utilities and Examples
+- License: MIT
+- Pricing: free
+- Transport: streamable-http, stdio
+- Auth: none
+- Streamable HTTP endpoint: https://ingredient-convert-mcp.lipmichal.workers.dev/mcp
+
+### Inkspira
+
+Plan a tattoo with style and placement options, prefilled generator links, actual-size 3 cm and 5 cm print samples, and a photo placement preview.
+
+- URL: https://inkspira.de/tattoo-generator/
+- Language: JavaScript
+- Provider: Inkspira
+- Official: yes
+- Tags: tattoo, design, printables, remote
+- Category: Utilities and Examples
+- Repository: https://github.com/TJLDC/inkspira-mcp
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Verified: 2026-11-26
+- Streamable HTTP endpoint: https://inkspira-mcp.743078294ldc.workers.dev/mcp
+
 ### LFG Atlas
 
 Find LFG groups for 110 games, official game news, live player counts and what's hot.
@@ -13620,6 +14242,19 @@ Hosted maps MCP server for AI agents: live place search, place details, nearby s
 - Transport: streamable-http
 - Auth: api-key
 - Streamable HTTP endpoint: https://wheremind.ai/mcp
+
+### XShots MCP
+
+Local stdio server bundled with XShots on macOS 14+ to list templates and device frames and render app-store screenshot sets. Requires an active three-day trial, paid pass, or lifetime license.
+
+- URL: https://selfark.com/xshots/support
+- Language: Other
+- Provider: SELFARK LTD
+- Official: yes
+- Tags: macos, design, app-store, screenshots
+- Category: Utilities and Examples
+- Pricing: paid
+- Transport: stdio
 
 ## Logistics and Shipping
 
