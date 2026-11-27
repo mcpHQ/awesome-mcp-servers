@@ -9250,6 +9250,35 @@
     ]
   },
   {
+    "name": "MotionVideo",
+    "url": "https://motionvideo.xyz/docs/mcp",
+    "description": "Hosted MCP server for searching the motionvideo.xyz catalog of AI-made motion videos, pulling the original prompt behind an entry, and browsing motion tools and studios.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "MotionVideo",
+    "tags": [
+      "video",
+      "motion-design",
+      "prompts",
+      "animation",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/motionvideohq/motionvideo-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.motionvideo.xyz/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "oauth"
+    ]
+  },
+  {
     "name": "MCP Inspector",
     "url": "https://github.com/modelcontextprotocol/inspector",
     "description": "Visual testing tool for debugging MCP server capabilities and messages.",

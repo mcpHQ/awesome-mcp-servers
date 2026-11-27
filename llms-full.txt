@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 993 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 994 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2425,6 +2425,23 @@ Checks a deployed URL against a plain-English expectation in a cloud browser and
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://www.monito.dev/api/mcp
+
+### MotionVideo
+
+Hosted MCP server for searching the motionvideo.xyz catalog of AI-made motion videos, pulling the original prompt behind an entry, and browsing motion tools and studios.
+
+- URL: https://motionvideo.xyz/docs/mcp
+- Language: TypeScript
+- Provider: MotionVideo
+- Official: yes
+- Tags: video, motion-design, prompts, animation, remote
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/motionvideohq/motionvideo-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: none, oauth
+- Streamable HTTP endpoint: https://mcp.motionvideo.xyz/mcp
 
 ### Neeed Directory
 
