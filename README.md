@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-988-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-989-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (110)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (125)
 - [Legal and Court Data](#legal-and-court-data) (11)
-- [Security and Identity](#security-and-identity) (44)
+- [Security and Identity](#security-and-identity) (45)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (213)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
@@ -1558,6 +1558,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `access-links` `expiring-links` `localhost-sharing` `security`
 - **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.  
   `auth` `identity` `oauth` `mcp`
+- **[ScanMalware](https://mcp.scanmalware.com/)** `Official` `Python` — Submits URLs for analysis in isolated environments and searches the public scan archive by domain, IP, ASN, JARM or favicon hash, with AI classification of suspicious pages by scam type. ([source](https://github.com/scanmalware/mcp-server))  
+  `phishing` `url-scanning` `threat-intelligence` `osint` `remote`
 - **[Snyk MCP Server](https://github.com/snyk/studio-mcp)** `Official` `TypeScript` — Scan dependencies and code for vulnerabilities with Snyk.  
   `security` `vulnerabilities` `dependencies`
 - **[Solana Pulse](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway)** `Official` `TypeScript` — Read-only pre-sign checks for Solana agents: dry-runs a transaction on mainnet, confirms it matches the requested transfer or swap, and rates token risk; 25 free calls per tool a day, then x402 in USDC.  

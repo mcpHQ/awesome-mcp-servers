@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 988 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 989 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9751,6 +9751,23 @@ Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an off
 - Tags: auth, identity, oauth, mcp
 - Category: Security and Identity
 - Auth: oauth
+
+### ScanMalware
+
+Submits URLs for analysis in isolated environments and searches the public scan archive by domain, IP, ASN, JARM or favicon hash, with AI classification of suspicious pages by scam type.
+
+- URL: https://mcp.scanmalware.com/
+- Language: Python
+- Provider: ScanMalware
+- Official: yes
+- Tags: phishing, url-scanning, threat-intelligence, osint, remote
+- Category: Security and Identity
+- Repository: https://github.com/scanmalware/mcp-server
+- License: Apache-2.0
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://mcp.scanmalware.com/mcp
 
 ### Snyk MCP Server
 
