@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-977-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-978-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (96)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (97)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
@@ -164,6 +164,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `i18n` `localization` `translation` `react` `nextjs`
 - **[behave](https://github.com/emirmrkaljevic/behave)** `Go` — Record how a CLI behaves as golden tests and diff a rewrite. Local Go CLI and MCP server.  
   `testing` `cli` `compatibility` `golden-tests`
+- **[Benchline](https://benchline.fabwaseem.com)** `Official` `TypeScript` — Free remote MCP server exposing 61 developer tools (JSON, PDF, images, JWT, DNS, llms.txt and more) over Streamable HTTP with no API key, account, or session. ([source](https://github.com/fabwaseem/benchline))  
+  `developer-tools` `json` `pdf` `jwt` `dns`
 - **[Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp)** `Official` `TypeScript` — Build Bulma v1 React apps with Bestax using an offline index of its component props, examples, CSS variables and Agent Skills. ([source](https://github.com/allxsmith/bestax))  
   `bulma` `react` `typescript` `components` `local`
 - **[Buddy MCP Server](https://buddy.works/docs/ai-agents/mcp)** `Official` `Other` — Official remote MCP server for Buddy: run and monitor pipelines, manage sandboxes, environments, artifacts, domains, and Git repositories from AI agents.  

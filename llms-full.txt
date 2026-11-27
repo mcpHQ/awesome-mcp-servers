@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 977 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 978 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -538,6 +538,24 @@ Record how a CLI behaves as golden tests and diff a rewrite. Local Go CLI and MC
 - Transport: stdio
 - Auth: none
 - Install: go github.com/emirmrkaljevic/behave/cmd/behave
+
+### Benchline
+
+Free remote MCP server exposing 61 developer tools (JSON, PDF, images, JWT, DNS, llms.txt and more) over Streamable HTTP with no API key, account, or session.
+
+- URL: https://benchline.fabwaseem.com
+- Language: TypeScript
+- Provider: Benchline
+- Official: yes
+- Tags: developer-tools, json, pdf, jwt, dns
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/fabwaseem/benchline
+- License: MIT
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Verified: 2026-11-24
+- Streamable HTTP endpoint: https://benchline.fabwaseem.com/mcp
 
 ### Bestax
 

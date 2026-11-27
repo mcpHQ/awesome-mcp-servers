@@ -11058,6 +11058,35 @@
     ]
   },
   {
+    "name": "Benchline",
+    "url": "https://benchline.fabwaseem.com",
+    "description": "Free remote MCP server exposing 61 developer tools (JSON, PDF, images, JWT, DNS, llms.txt and more) over Streamable HTTP with no API key, account, or session.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Benchline",
+    "tags": [
+      "developer-tools",
+      "json",
+      "pdf",
+      "jwt",
+      "dns"
+    ],
+    "official": true,
+    "repository": "https://github.com/fabwaseem/benchline",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://benchline.fabwaseem.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
     "name": "Cockatoo",
     "url": "https://cockatoo.com.au/docs/",
     "description": "Create, edit and publish hosted business websites with owner-approved access.",
