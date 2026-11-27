@@ -13034,6 +13034,34 @@
     ]
   },
   {
+    "name": "12happy",
+    "url": "https://www.12hpy.com/mcp?utm_source=mcphq&utm_medium=list&utm_campaign=listings-2026-11",
+    "description": "Manage 12happy uptime monitoring from an AI assistant: create monitors, read incidents, uptime and response times, and open maintenance windows.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "12happy",
+    "tags": [
+      "uptime",
+      "monitoring",
+      "status",
+      "incidents"
+    ],
+    "official": true,
+    "repository": "https://github.com/12happyhq/12happy-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "12happy-mcp"
+    },
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "PlanetScale MCP Server",
     "url": "https://planetscale.com/docs/connect/mcp",
     "description": "Manage PlanetScale MySQL databases, branches, and schema changes.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1062 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1063 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3784,6 +3784,23 @@ Transcribes local audio and video files on your computer with Parakeet TDT v3 (2
 ## Cloud and Infrastructure
 
 Manage cloud resources, deploy services, and operate infrastructure.
+
+### 12happy
+
+Manage 12happy uptime monitoring from an AI assistant: create monitors, read incidents, uptime and response times, and open maintenance windows.
+
+- URL: https://www.12hpy.com/mcp?utm_source=mcphq&utm_medium=list&utm_campaign=listings-2026-11
+- Language: TypeScript
+- Provider: 12happy
+- Official: yes
+- Tags: uptime, monitoring, status, incidents
+- Category: Cloud and Infrastructure
+- Repository: https://github.com/12happyhq/12happy-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: stdio
+- Auth: api-key
+- Install: npx 12happy-mcp
 
 ### 402cron
 
