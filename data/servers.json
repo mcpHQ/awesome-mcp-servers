@@ -65,6 +65,28 @@
     ]
   },
   {
+    "name": "Skool Community Scraper",
+    "url": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "description": "Search Skool communities by keyword. Members, price, rating and estimated monthly revenue for each, plus daily growth tracking.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "skool",
+      "communities",
+      "search",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/skool-community-growth-tracker"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "transport": [
+      "streamable-http"
+    ]
+  },
+  {
     "name": "Toolradar",
     "url": "https://github.com/Nadeus/toolradar-mcp",
     "description": "Search, compare and price 10,000+ software tools with verified, dated pricing and real alternatives.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1005 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1006 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2684,6 +2684,19 @@ Read-only MCP server for the SitePatent product discovery directory: search the 
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://sitepatent.com/api/mcp
+
+### Skool Community Scraper
+
+Search Skool communities by keyword. Members, price, rating and estimated monthly revenue for each, plus daily growth tracking.
+
+- URL: https://github.com/GeminiGeorge22/publicrecords-mcp
+- Language: JavaScript
+- Provider: publicrecords
+- Official: no
+- Tags: skool, communities, search, remote
+- Category: Browsers, Search, and Web Automation
+- Transport: streamable-http
+- Streamable HTTP endpoint: https://mcp.apify.com?tools=publicrecords/skool-community-growth-tracker
 
 ### Social Fetch
 
