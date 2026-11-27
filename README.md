@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1045-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1051-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,15 +44,15 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (104)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (97)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (98)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
-- [Communication and Productivity](#communication-and-productivity) (136)
+- [Communication and Productivity](#communication-and-productivity) (137)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (114)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (135)
-- [Legal and Court Data](#legal-and-court-data) (11)
+- [Legal and Court Data](#legal-and-court-data) (12)
 - [Security and Identity](#security-and-identity) (50)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (227)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (230)
 - [Utilities and Examples](#utilities-and-examples) (54)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -481,6 +481,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `software-discovery` `directory` `search` `remote` `oauth`
 - **[No Stairs Please](https://nostairsplease.com/mcp)** `Official` `TypeScript` — Search 4,300+ under-400-capacity North American live music venues, room capacities, booking contacts, and tour routing via Streamable HTTP.  
   `live-music` `venues` `touring` `directory` `remote`
+- **[Outscraper MCP](https://mcp.outscraper.com/)** `Official` `TypeScript` — Business catalog search, Google Maps scraping, reviews, and enrichment through a local Node bridge using an API key or the hosted OAuth MCP endpoint. ([source](https://github.com/outscraper/outscraper-mcp-server))  
+  `business-data` `google-maps` `reviews` `enrichment` `web-scraping`
 - **[Perceptlayer](https://docs.perceptlayer.com/ai-agents)** `Official` `JavaScript` — Searches and calls 1,659 data endpoints across 248 websites (maps, real estate, jobs, travel, search) over a hosted MCP endpoint and returns structured JSON; free tier included.  
   `web-data` `web-scraping` `structured-data` `search` `remote`
 - **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `Official` `TypeScript` — Official Microsoft Playwright server for browser automation via accessibility snapshots.  
@@ -940,6 +942,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `social-media` `scheduling` `analytics` `remote` `oauth`
 - **[Shipmail](https://github.com/shipmail-to/shipmail-mcp)** `Official` `TypeScript` — Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks.  
   `email` `business-email` `calendar` `newsletters` `remote`
+- **[Signatoro](https://signatoro.com/docs/install-signature/agent/mcp)** `Official` `Other` — Hosted MCP server for email signatures: make a free signature without signing in, fetch or update the saved one so emails an agent sends carry it, and manage a company's people.  
+  `email` `email-signature` `productivity` `remote`
 - **[Sitekick CMS](https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing)** `Official` `TypeScript` — Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client.  
   `wordpress` `cms` `websites` `oauth` `remote`
 - **[Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** `Python` — Send messages and interact with Slack channels and workspaces. ([source](https://github.com/modelcontextprotocol/servers-archived))  
@@ -1545,6 +1549,8 @@ Court records, legal research, case search, and judicial workflow data.
   `legal` `hr` `employment-law` `germany` `remote`
 - **[My Spain Visa](https://myspainvisa.com/mcp/)** `Official` `PHP` — Spain visa rules for 2026, a Schengen 90/180 calculator and consulate processing times from a Barcelona immigration law firm's own cases. Free hosted server, no account.  
   `immigration` `visa` `spain` `schengen` `remote`
+- **[Pandex](https://www.pandex.io/docs)** `Official` `Python` — Official legislation and case law for AI agents (EU, UK, DE, FR, ES, NL, AT, CH and more): every past version with dates, citations linked to the passage. Remote MCP, free tier. ([source](https://github.com/pandex-io/pandex-mcp))  
+  `legal` `legislation` `case-law` `citations` `streamable-http`
 - **[Polish MCP Servers](https://github.com/kamilkaczmareksolutions/polish-mcp-servers)** `TypeScript` — Stdio server with 12 read-only tools for Polish law and public registers (Sejm ELI acts, SAOS judgments, tenders, building permits, land parcels and zoning), each running a public Apify Actor billed to your Apify account.  
   `legal` `court-data` `poland` `public-registers` `apify`
 - **[US Code MCP](https://github.com/lrehmann/uscode-mcp)** `TypeScript` — Read-only U.S. Code search, section retrieval, and title browsing with citations linked to uscode.ecfr.io and published OLRC release metadata; independent OLRC corpus mirror, not a government service.  
@@ -1735,6 +1741,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `defi` `dex` `evm` `calldata` `remote`
 - **[BlockVectra](https://docs.blockvectra.com/en/guides/mcp-server/)** `Official` `Other` — Remote MCP provides RPC and indexed Data API tools through /mcp with per-tool authentication, plus account- and key-free documentation search and reading through /mcp/docs. ([source](https://github.com/blockvectra/mcp))  
   `blockchain` `json-rpc` `evm` `data-api`
+- **[booksy-mcp](https://github.com/PiotrZapolski/booksy-mcp)** `TypeScript` — MCP server for Booksy Biz (salon and barbershop software) that reads calendar, staff schedules, clients, payments and reports through your own logged-in Chrome tab, with no API key and no hosted service.  
+  `booksy` `salon` `scheduling` `chrome`
 - **[Budna MCP](https://github.com/budna-marketplace/mcp)** `Official` `Rust` — Read-only search and inspection of public listings, sellers, bids and ratings on Budna, a Swedish marketplace for new and pre-owned items; no account or API key.  
   `marketplace` `second-hand` `shopping` `sweden`
 - **[Buy-Box](https://buybox.agentconsult.ai)** `Official` `Other` — Saves your buying criteria for homes, cars or any category (budget, must-haves, dealbreakers) so AI agents load them before they search and rank listings against them.  
@@ -1973,6 +1981,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `a-share` `stock-data` `real-time-quotes` `market-data`
 - **[Pay2GPT](https://pay2gpt.com/en/llms.txt)** `Official` `Ruby` — Official remote MCP server for Pay2GPT: list ChatGPT Go/Plus/Pro top-up plans and Codex credits with current prices and checkout links, and read how-to guides as Markdown (en, zh-CN, ru); business tools need an API key.  
   `chatgpt` `pricing` `guides` `remote`
+- **[PayGate USDT](https://github.com/EzequielLech/paygate-usdt)** `Python` — Non-custodial multi-chain crypto checkout and x402 paywall MCP server verifying USDC, USDT, ETH, BNB, POL, SOL, and BTC payments on-chain across 7 networks.  
+  `crypto-payments` `usdt` `usdc` `x402` `checkout`
 - **[PayPal MCP Server](https://github.com/paypal/agent-toolkit)** `Official` `TypeScript` — Process PayPal payments and manage merchant operations.  
   `payments` `commerce` `fintech`
 - **[Perq](https://perq.sh)** `Official` `Other` — Remote MCP server and agent skill for looking up verified free AI credits, startup programs and perks, each with a source link and last-verified date. ([source](https://github.com/f-o-x11/perq-skill))  
@@ -2043,6 +2053,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `shopify` `retail`
 - **[Silicon Floor](https://github.com/Baptoshi/silicon-floor)** `Official` `TypeScript` — Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source.  
   `stocks` `sec-filings` `ownership` `semiconductors` `remote`
+- **[SimOwl](https://simowl.com/ai-assistants)** `Official` `TypeScript` — Find prepaid travel eSIM plans for 148 countries and 10 regions, check if a phone supports eSIM, and estimate trip data, through a hosted read-only MCP server with no sign-in. ([source](https://github.com/AnisDhiyaEddine/simowl-mcp))  
+  `travel` `esim` `commerce` `remote`
 - **[Skael API](https://api.skael.de/docs/mcp)** `Official` `PHP` — Hosted MCP for B2B lead lists with a German focus: commercial register (Handelsregister) companies, officers and new registrations, Google Maps businesses, job boards and imprints, with verified work emails.  
   `lead-generation` `company-data` `handelsregister` `email-finder` `germany`
 - **[SkyAccess](https://github.com/sky-access/skyaccess-mcp)** `Official` `JavaScript` — Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.  
