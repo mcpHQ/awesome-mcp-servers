@@ -13131,6 +13131,7 @@
     "url": "https://github.com/ValorBrain/valorbrain-cli",
     "description": "Shared memory for AI agent teams over MCP: dated facts, handoffs and reusable context across agents.",
     "category": "ai-agents-and-memory",
+    "language": "JavaScript",
     "provider": "Valor Digital",
     "tags": [
       "memory",
