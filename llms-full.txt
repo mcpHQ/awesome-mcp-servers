@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1061 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1062 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4133,6 +4133,21 @@ Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams,
 - Official: yes
 - Tags: networking, diagrams, automation, cursor, cisco
 - Category: Cloud and Infrastructure
+
+### NodeRings
+
+Discover, deploy and manage compute from independent hosting providers through one API.
+
+- URL: https://docs.noderings.com/docs/client-guides/mcp
+- Language: TypeScript
+- Provider: NodeRings
+- Official: yes
+- Tags: cloud, infrastructure, hosting, mcp
+- Category: Cloud and Infrastructure
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://mcp.noderings.com/mcp
 
 ### omnivm
 

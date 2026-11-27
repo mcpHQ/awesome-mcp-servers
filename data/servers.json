@@ -13032,7 +13032,7 @@
     "auth": [
       "oauth"
     ]
-
+  },
   {
     "name": "PlanetScale MCP Server",
     "url": "https://planetscale.com/docs/connect/mcp",
