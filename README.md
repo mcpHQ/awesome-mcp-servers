@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-981-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-982-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (131)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (108)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (109)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
@@ -1049,6 +1049,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `huggingface` `models` `ml`
 - **[HumanEndpoint](https://humanendpoint.au)** `Official` `TypeScript` — Quote-first human execution for AI agents: business and supplier calls, stock and availability checks, physical verification, manual research, and human QA.  
   `human-in-the-loop` `agents` `real-world` `x402` `mcp`
+- **[Hydracept](https://docs.hydracept.com/)** `Official` `Python` — Executes external capabilities such as image, video, audio, text, DNS, and domain operations for agents through one catalog with sealed pricing and receipts. ([source](https://github.com/zencodeinc/hydracept-public))  
+  `agents` `capabilities` `media-generation` `receipts`
 - **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)** `Rust` — Developer-alpha encrypted knowledge store with MCP search and retrieval through scoped, expiring grants.  
   `memory` `knowledge` `encryption` `local`
 - **[I2v.ai MCP Server](https://i2v.ai/docs/mcp)** `Official` `TypeScript` — Generate images and videos with 12 image models and 16 video models through 13 tools covering cost estimates, capped job submission, polling, and usage. ([source](https://github.com/i2v-ai/i2v-mcp))  

@@ -15115,6 +15115,33 @@
     "verified": "2026-11-03"
   },
   {
+    "name": "Hydracept",
+    "url": "https://docs.hydracept.com/",
+    "description": "Executes external capabilities such as image, video, audio, text, DNS, and domain operations for agents through one catalog with sealed pricing and receipts.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Hydracept",
+    "tags": [
+      "agents",
+      "capabilities",
+      "media-generation",
+      "receipts"
+    ],
+    "official": true,
+    "repository": "https://github.com/zencodeinc/hydracept-public",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.hydracept.com/mcp"
+    },
+    "auth": [
+      "api-key"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
     "name": "PostOnce",
     "url": "https://docs.postonce.to/mcp/docs",
     "description": "Official remote MCP server to post and schedule one video or image to many social networks, including Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Threads, Pinterest and Bluesky.",
