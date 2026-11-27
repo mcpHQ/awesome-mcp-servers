@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-978-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-979-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
-- [Communication and Productivity](#communication-and-productivity) (130)
+- [Communication and Productivity](#communication-and-productivity) (131)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (108)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -702,6 +702,8 @@ Integrate chat, email, calendars, and team collaboration tools.
 
 - **[/call-me](https://github.com/radres/call-me)** `Python` — Hosted MCP server that rings the user's iPhone, reads the agent's question aloud and returns the spoken answer as text; it can also text. Needs the /call-me iPhone app (paid subscription).  
   `phone-call` `voice` `notifications` `human-in-the-loop` `ios`
+- **[ACQ](https://github.com/damri-labs/acq)** `Go` — Two-seat plain-text relay for agents on different machines, over MCP or curl; the relay can read text, and guest rooms expire with best-effort deletion.  
+  `communication` `mcp` `curl`
 - **[Agent Media](https://github.com/agent-media-ai/agent-media)** `Official` `Other` — Hosted MCP server that makes short drama series (micro-dramas, sitcoms, K-drama style, any language) and other short vertical videos from Claude, ChatGPT or Codex, with the same cast every episode.  
   `video` `ugc` `ai-video` `remote`
 - **[Agent Notifications](https://github.com/777genius/agent-notifications)** `Go` — Local MCP server for desktop attention and progress notifications from AI coding agents.  

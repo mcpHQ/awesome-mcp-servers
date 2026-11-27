@@ -13315,6 +13315,22 @@
     ]
   },
   {
+    "name": "ACQ",
+    "url": "https://github.com/damri-labs/acq",
+    "description": "Two-seat plain-text relay for agents on different machines, over MCP or curl; the relay can read text, and guest rooms expire with best-effort deletion.",
+    "category": "communication-and-productivity",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "communication",
+      "mcp",
+      "curl"
+    ],
+    "official": false,
+    "repository": "https://github.com/damri-labs/acq",
+    "license": "MIT"
+  },
+  {
     "name": "Tale",
     "url": "https://docs.tale.dev/develop/mcp-endpoint",
     "description": "Retrieve organization knowledge and author, validate, deploy, and run automations through the authenticated MCP server built into Tale.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 978 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 979 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3972,6 +3972,18 @@ Hosted MCP server that rings the user's iPhone, reads the agent's question aloud
 - Pricing: paid
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://callmemcp.com/mcp
+
+### ACQ
+
+Two-seat plain-text relay for agents on different machines, over MCP or curl; the relay can read text, and guest rooms expire with best-effort deletion.
+
+- URL: https://github.com/damri-labs/acq
+- Language: Go
+- Provider: Community
+- Official: no
+- Tags: communication, mcp, curl
+- Category: Communication and Productivity
+- License: MIT
 
 ### Agent Media
 
