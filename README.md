@@ -1019,7 +1019,7 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `context` `agents` `coding`
 - **[Continuity](https://github.com/LAHutchins91/continuity-mcp)** `TypeScript` — Remote MCP story bible for fiction writers: locked characters, relationships, world rules, timelines, and approved scenes with OAuth for ChatGPT, Claude, Gemini, Grok, and Cursor.  
   `story-bible` `fiction` `writing` `oauth` `remote`
-- **[CoreSpeed](https://corespeed.io/docs/mcp)** `Official` `TypeScript` — Hosted OAuth MCP gateway for any agent: your connected apps (Notion, Slack, GitHub, Gmail and more), shared team memory, web search, social data and media tools, with spend caps and an activity log.  
+- **[CoreSpeed](https://corespeed.io/docs/mcp)** `Official` `TypeScript` — CoreSpeed is the agent-native cloud: one MCP endpoint that gives AI agents such as Claude Code, Codex and Cursor your apps, built-in tools and team memory.  
   `gateway` `oauth` `hosted` `memory` `connectors`
 - **[CrewAI Enterprise MCP Server](https://github.com/crewAIInc/enterprise-mcp-server)** `Official` `Python` — Kick off CrewAI crew deployments and check their status from MCP clients.  
   `agents` `multi-agent` `orchestration`
