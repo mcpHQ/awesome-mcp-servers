@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 994 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 995 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3061,6 +3061,22 @@ Turns local text PDFs and saved HTML pages into Markdown and keeps tables as Mar
 - Transport: stdio
 - Auth: none
 - Install: uvx doc2md-lite
+
+### Dock
+
+dock.space presentation editor for PowerPoint, Keynote and PDF: agents create decks from Dock templates or uploaded .pptx and .key files, edit with 200+ actions, render slides to check the result, and export PPTX or PDF.
+
+- URL: https://dock.space/agents
+- Language: Other
+- Provider: GNTC
+- Official: yes
+- Tags: presentations, powerpoint, pptx, slides, remote
+- Category: Filesystems and Documents
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://app.dock.space/v1/mcp
 
 ### DocuQueue MCP
 

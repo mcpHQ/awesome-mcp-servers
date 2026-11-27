@@ -5696,6 +5696,34 @@
     ]
   },
   {
+    "name": "Dock",
+    "url": "https://dock.space/agents",
+    "description": "dock.space presentation editor for PowerPoint, Keynote and PDF: agents create decks from Dock templates or uploaded .pptx and .key files, edit with 200+ actions, render slides to check the result, and export PPTX or PDF.",
+    "category": "filesystems-and-documents",
+    "language": "Other",
+    "provider": "GNTC",
+    "tags": [
+      "presentations",
+      "powerpoint",
+      "pptx",
+      "slides",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.dock.space/v1/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "SaaSCity",
     "url": "https://github.com/nyyhao/saascity-mcp",
     "description": "Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.",
