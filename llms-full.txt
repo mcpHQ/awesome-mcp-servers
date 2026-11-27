@@ -10409,7 +10409,7 @@ The AI-native creator marketplace for gaming: game studios, apps and brands pay 
 - Official: yes
 - Tags: gaming, creator-economy, marketing, remote, oauth
 - Category: Finance, Commerce, and Business Apps
-- Repository: https://github.com/photo2skin/clippertask-mcp
+- Repository: https://github.com/clippertask/clippertask-mcp
 - License: proprietary
 - Transport: streamable-http
 - Auth: oauth

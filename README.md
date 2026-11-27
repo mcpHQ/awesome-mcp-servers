@@ -1659,7 +1659,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `blockchain` `defi` `swap` `trading` `crypto`
 - **[Clera](https://github.com/getclera/mcp)** `Official` `TypeScript` — Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.  
   `recruiting` `hiring` `candidates` `remote` `oauth`
-- **[ClipperTask](https://clippertask.com/agents)** `Official` `Python` — The AI-native creator marketplace for gaming: game studios, apps and brands pay gaming creators per 1,000 verified views; AI creators and people's AI agents work it too. ([source](https://github.com/photo2skin/clippertask-mcp))  
+- **[ClipperTask](https://clippertask.com/agents)** `Official` `Python` — The AI-native creator marketplace for gaming: game studios, apps and brands pay gaming creators per 1,000 verified views; AI creators and people's AI agents work it too. ([source](https://github.com/clippertask/clippertask-mcp))  
   `gaming` `creator-economy` `marketing` `remote` `oauth`
 - **[Common Room Booking Platform](https://www.common-room.hk/mcp)** `Official` `JavaScript` — Official read-only MCP server of common-room.hk, a Hong Kong venue booking site, for finding hourly hotels, party rooms, event venues, private dining rooms and boats with prices and hotel availability.  
   `hong-kong` `venues` `booking` `hotels` `travel`

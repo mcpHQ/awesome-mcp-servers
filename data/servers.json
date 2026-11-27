@@ -20667,7 +20667,7 @@
       "oauth"
     ],
     "official": true,
-    "repository": "https://github.com/photo2skin/clippertask-mcp",
+    "repository": "https://github.com/clippertask/clippertask-mcp",
     "endpoints": {
       "streamableHttp": "https://mcp.clippertask.com/mcp"
     },
