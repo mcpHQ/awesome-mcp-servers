@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1009 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1010 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9991,6 +9991,22 @@ Read-only pre-sign checks for Solana agents: dry-runs a transaction on mainnet, 
 - Category: Security and Identity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://solana-pulse-gateway-1021990235790.us-central1.run.app/mcp
+
+### SprutMonitor DLP
+
+Read-only SprutMonitor DLP Cloud MCP for risks, idle time, productivity, and employee monitoring. Runs locally.
+
+- URL: https://sprutmonitor.ru/mcp.html
+- Language: Python
+- Provider: SprutMonitor
+- Official: yes
+- Tags: dlp, security, monitoring, employee-monitoring
+- Category: Security and Identity
+- Repository: https://github.com/extralabs/sprutmonitor-mcp-server
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Install: uvx sprutmonitor-mcp
 
 ### Sunglasses
 
