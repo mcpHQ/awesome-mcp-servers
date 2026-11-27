@@ -11514,6 +11514,36 @@
     "verified": "2026-11-26"
   },
   {
+    "name": "B2B Market Intel MCP",
+    "url": "https://github.com/truonggiang0111/b2b-market-intel-mcp",
+    "description": "Zero-key MCP STDIO server for decoding Google News CBMi URLs, live UK Gov Contracts Finder buyer tenders, ClinicalTrials.gov biotech sponsors, and optional Apify batch tools for app churn and hiring signals.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Truong Giang",
+    "tags": [
+      "b2b-leads",
+      "google-news",
+      "uk-tenders",
+      "clinical-trials",
+      "scraping"
+    ],
+    "official": false,
+    "repository": "https://github.com/truonggiang0111/b2b-market-intel-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:truonggiang0111/b2b-market-intel-mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "The Network Tools",
     "url": "https://thenetworktools.com/docs/mcp",
     "description": "Hosted read-only MCP server for DNS records, MX routing, SPF/DMARC email security, HTTP security headers, and ICANN RDAP lookups.",

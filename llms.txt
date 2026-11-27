@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1062 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1063 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -180,6 +180,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Apify MCP Server](https://github.com/apify/apify-mcp-server): Run Apify Actors and extract web datasets at scale. (TypeScript, official)
 - [Arcmira: YouTube Transcript Search](https://arcmira.com/docs/mcp-server): YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers. (Other, official)
 - [Awesome Tools](https://awesome.tools): Search curated SaaS and AI tools, browse categories and tags, submit a product, and verify backlink badges. (TypeScript, official)
+- [B2B Market Intel MCP](https://github.com/truonggiang0111/b2b-market-intel-mcp): Zero-key MCP STDIO server for decoding Google News CBMi URLs, live UK Gov Contracts Finder buyer tenders, ClinicalTrials.gov biotech sponsors, and optional Apify batch tools for app churn and hiring signals. (JavaScript)
 - [Baizhi Cloud Agent Toolkit](https://github.com/chaitin/baizhi-agent-toolkit): Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits. (Other, official)
 - [Baizhi Cloud Browser (CapyBrowser)](https://github.com/chaitin/baizhi-cloud-browser): Manage cloud browser sessions, saved profiles, human handoff and downloads via hosted MCP; page actions require a CDP client, and a Baizhi API key and paid browser runtime apply. (Other, official)
 - [BGPT MCP](https://bgpt.pro/mcp/): Search full-text scientific papers and return structured evidence for research agents. (Python)
