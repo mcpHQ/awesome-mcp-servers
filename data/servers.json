@@ -9393,6 +9393,35 @@
     "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
+    "name": "Solana Rent & Rug Shield",
+    "url": "https://rentandrugshield.com/mcp",
+    "description": "Solana 12-layer Token-2022 rug scanner, inner-CPI transaction drain simulator, and read-only empty ATA 0x09 rent scanner via MCP and x402.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Solana Rent & Rug Shield",
+    "tags": [
+      "solana",
+      "defi",
+      "security",
+      "x402",
+      "blockchain"
+    ],
+    "official": true,
+    "repository": "https://github.com/sonnyman2014/solana-rent-rug-shield-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://rentandrugshield.com/mcp"
+    }
+  },
+  {
     "name": "Dynobase MCP Server",
     "url": "https://dynobase.dev/dynamodb-mcp-server/",
     "description": "Local MCP server in the Dynobase DynamoDB desktop app that lets AI clients list tables, read schemas and run queries through existing AWS profiles, read-only by default.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1062 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1063 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -1019,6 +1019,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Skael API](https://api.skael.de/docs/mcp): Hosted MCP for B2B lead lists with a German focus: commercial register (Handelsregister) companies, officers and new registrations, Google Maps businesses, job boards and imprints, with verified work emails. (PHP, official)
 - [SkyAccess](https://github.com/sky-access/skyaccess-mcp): Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key. (JavaScript, official)
 - [SoChain](https://sochain.com/docs): Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits. (Other, official)
+- [Solana Rent & Rug Shield](https://rentandrugshield.com/mcp): Solana 12-layer Token-2022 rug scanner, inner-CPI transaction drain simulator, and read-only empty ATA 0x09 rent scanner via MCP and x402. (TypeScript, official)
 - [SpellBook Finance](https://spellbook-finance.com/agent/mcp.md): Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools. (TypeScript, official)
 - [Sprout](https://sprout.mindcrafters.group/mcp): Hosted OAuth MCP server with read-only cash flow, spending, recurring charges and transaction search over your connected US and Canadian bank and card accounts. (TypeScript, official)
 - [Square MCP Server](https://github.com/square/square-mcp-server): Process Square payments and manage point-of-sale operations. (TypeScript, official)
