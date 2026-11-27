@@ -24324,5 +24324,33 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Konverter Pro",
+    "url": "https://konverter-pro.de/llms.txt",
+    "description": "Converts German bank statements (PDF, CSV, MT940, camt.053) and payment-provider reports (PayPal, Stripe, SumUp, Shopify) into verified DATEV, Lexware or MT940 booking files. Hosted endpoint with a free preview; Single Orders are paid per job, or an API key applies a Konverter Pro plan.",
+    "category": "finance-commerce-and-business-apps",
+    "provider": "Konverter Pro",
+    "tags": [
+      "datev",
+      "accounting",
+      "bank-statements",
+      "germany",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://konverter-pro.de/api/v1/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "license": "proprietary",
+    "pricing": "freemium",
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "verified": "2026-11-27"
   }
 ]
