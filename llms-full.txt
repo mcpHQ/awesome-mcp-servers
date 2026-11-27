@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10853,6 +10853,22 @@ Private fixed-price airport and cruise transfers for Gold Coast, Brisbane and By
 - Auth: oauth
 - Verified: 2026-11-07
 - Streamable HTTP endpoint: https://gc-airporttransfers.com/wp-json/atb-gateway/v1/mcp
+
+### Genaya Connect
+
+Hosted MCP server for Genaya, an operations app for service businesses: ask about appointments, clients, invoices, calls and tasks, and prepare changes that run only after the member confirms them.
+
+- URL: https://developer.genaya.com/mcp
+- Language: JavaScript
+- Provider: Genaya
+- Official: yes
+- Tags: crm, scheduling, invoicing, small-business, remote
+- Category: Finance, Commerce, and Business Apps
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://api.genaya.com/mcp
 
 ### Glongus MCP
 

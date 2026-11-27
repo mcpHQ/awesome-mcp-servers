@@ -9434,6 +9434,34 @@
     "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
+    "name": "Genaya Connect",
+    "url": "https://developer.genaya.com/mcp",
+    "description": "Hosted MCP server for Genaya, an operations app for service businesses: ask about appointments, clients, invoices, calls and tasks, and prepare changes that run only after the member confirms them.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Genaya",
+    "tags": [
+      "crm",
+      "scheduling",
+      "invoicing",
+      "small-business",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://api.genaya.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "MailVeri MCP",
     "url": "https://github.com/mailveri/mailveri-mcp",
     "description": "Verify single emails or bulk lists (valid, invalid, disposable, catch-all, role) from an AI agent through the MailVeri API.",
