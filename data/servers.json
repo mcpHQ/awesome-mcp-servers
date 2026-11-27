@@ -12461,6 +12461,33 @@
     ]
   },
   {
+    "name": "Kite",
+    "url": "https://kite.new/docs",
+    "description": "Hosted MCP server for Kite, a collaborative design tool: agents draw editable frames, text, components and auto layout into the same file a team edits live.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Kite",
+    "tags": [
+      "design",
+      "ui-design",
+      "figma-alternative",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/kitedotnew/kite-agent-plugins",
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://kite.new/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Hermoso",
     "url": "https://github.com/hermoso-ai/hermoso",
     "description": "AI marketing agent: research competitor ads, make image and video ads, publish and schedule posts to your own social channels, and run and report on ad campaigns.",

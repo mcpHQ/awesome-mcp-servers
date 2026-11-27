@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1043 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1044 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -97,6 +97,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ipvolt Proxy Toolkit](https://github.com/ipvolt/proxy-toolkit-mcp): Search reviewed proxy guides, generate tested proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a 407 on CONNECT or a TLS failure. (TypeScript, official)
 - [Iris Code](https://www.iriscode.co/mcp): Local code-quality rules, findings, preview-first safe fixes, refactor verification and gate results for coding agents. (TypeScript, official)
 - [Kilobat CLI](https://github.com/seifip/kilobat-cli): Mac network monitoring and diagnostics through a local stdio MCP server. (Swift, official)
+- [Kite](https://kite.new/docs): Hosted MCP server for Kite, a collaborative design tool: agents draw editable frames, text, components and auto layout into the same file a team edits live. (Other, official)
 - [Kleap](https://github.com/kleaphq/cli): Create, edit, and publish websites from AI clients through a hosted MCP server. (JavaScript, official)
 - [Kubernetes MCP Server](https://github.com/Flux159/mcp-server-kubernetes): Operate Kubernetes clusters with kubectl-style MCP tools. (TypeScript)
 - [Latchkey](https://latchkey.dev/documentation/connect-your-ai-agent): Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: failure bundles with root cause and logs, run status, workflow dispatch, and one-off commands on fresh ephemeral runners. (Other, official)
