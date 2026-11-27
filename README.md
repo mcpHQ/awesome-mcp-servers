@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1012-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1013-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (98)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (99)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (95)
 - [Filesystems and Documents](#filesystems-and-documents) (42)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
@@ -138,6 +138,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
 
 - **[Harness MCP Server](https://github.com/harness/mcp-server)** `Official` `TypeScript` — Official Harness.io MCP server for CI/CD pipelines, deployments, GitOps, and platform engineering workflows.  
   `harness` `cicd` `devops`
+- **[A1 Gallery](https://www.a1.gallery/mcp)** `Official` `TypeScript` — Search a hand-picked gallery of real live websites for design references: sections, full pages, fonts, font pairings, and colours, type sizes, and spacing measured off each live page. ([source](https://github.com/a1-gallery/a1-mcp))  
+  `design` `ui` `websites` `fonts` `remote`
 - **[Agent QA](https://github.com/vostride/agent-qa)** `Official` `TypeScript` — Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces.  
   `testing` `regression` `browser` `mobile` `mcp`
 - **[agent-chain-doctor](https://github.com/elfovo/agent-chain-doctor)** `Python` — Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd) and trace files of a scheduled AI agent and reports which of 30 silent-failure modes it is exposed to.  
