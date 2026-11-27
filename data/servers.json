@@ -14435,9 +14435,9 @@
     "repository": "https://github.com/isdaniel/mcp_weather_server"
   },
   {
-    "name": "Whimbrel MedTech Analyst",
-    "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
-    "description": "Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.",
+    "name": "Whimbrel: Medtech Research",
+    "url": "https://whimbrelresearch.com/",
+    "description": "Find US medical device clients and Contacts at each company, in ChatGPT, Claude or the web app.",
     "category": "finance-commerce-and-business-apps",
     "language": "JavaScript",
     "provider": "Whimbrel Research",

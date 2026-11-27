@@ -12829,16 +12829,17 @@ Remote MCP server for Warden Token Terminal: AI agents find tokens, quote swaps 
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://tokens.wardenprotocol.org/mcp
 
-### Whimbrel MedTech Analyst
+### Whimbrel: Medtech Research
 
-Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.
+Find US medical device clients and Contacts at each company, in ChatGPT, Claude or the web app.
 
-- URL: https://github.com/WhimbrelResearch/whimbrel-mcp
+- URL: https://whimbrelresearch.com/
 - Language: JavaScript
 - Provider: Whimbrel Research
 - Official: yes
 - Tags: medtech, fda, company-research, oauth, remote
 - Category: Finance, Commerce, and Business Apps
+- Repository: https://github.com/WhimbrelResearch/whimbrel-mcp
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://data.whimbrelresearch.com
