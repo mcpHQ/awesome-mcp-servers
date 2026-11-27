@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 976 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5583,6 +5583,21 @@ AI content generation and social media scheduling: generate images, video, talki
 - Category: Communication and Productivity
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.tryunsora.com/mcp
+
+### Vertov MCP
+
+Search workspace recordings, read timestamped transcripts, and upload videos for sharing.
+
+- URL: https://vertov.app/docs/mcp
+- Language: TypeScript
+- Provider: Vertov
+- Official: yes
+- Tags: video, screen-recording, transcripts
+- Category: Communication and Productivity
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://vertov.app/mcp
 
 ### WA MCP
 
