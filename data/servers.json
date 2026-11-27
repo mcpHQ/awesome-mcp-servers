@@ -4109,7 +4109,7 @@
   {
     "name": "Dexra",
     "url": "https://github.com/dexra-dev/mcp",
-    "description": "Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC.",
+    "description": "Read-only Solana risk verdicts for launches, tokens, wallets, pools and swaps; analytical tools need a registered account and API key, while service_stats and score_performance are public.",
     "category": "finance-commerce-and-business-apps",
     "language": "JavaScript",
     "provider": "Dexra",
@@ -12746,7 +12746,7 @@
   },
   {
     "name": "DROP File Transfer",
-    "url": "https://drop.space/en/agent-file-transfer/#check-mcp-connection",
+    "url": "https://drop.space/en/agent-file-transfer/#desktop-or-remote-mcp",
     "description": "Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.",
     "category": "filesystems-and-documents",
     "language": "TypeScript",

@@ -3379,7 +3379,7 @@ Generate PDFs from templates, fill existing PDF forms, and batch-create invoices
 
 Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.
 
-- URL: https://drop.space/en/agent-file-transfer/#check-mcp-connection
+- URL: https://drop.space/en/agent-file-transfer/#desktop-or-remote-mcp
 - Language: TypeScript
 - Provider: DROP
 - Official: yes
@@ -11592,7 +11592,7 @@ Hosted product search and seller prices across online shops worldwide, plus extr
 
 ### Dexra
 
-Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC.
+Read-only Solana risk verdicts for launches, tokens, wallets, pools and swaps; analytical tools need a registered account and API key, while service_stats and score_performance are public.
 
 - URL: https://github.com/dexra-dev/mcp
 - Language: JavaScript

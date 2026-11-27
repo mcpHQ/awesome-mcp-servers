@@ -592,7 +592,7 @@ Read and write files, convert documents, and connect to knowledge bases.
   `rag` `semantic-search` `documents` `ollama` `sqlite`
 - **[DocuQueue MCP](https://github.com/docuqueue/docuqueue-mcp)** `Official` `TypeScript` — Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.  
   `pdf` `document-generation` `form-filling` `invoice`
-- **[DROP File Transfer](https://drop.space/en/agent-file-transfer/#check-mcp-connection)** `Official` `TypeScript` — Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.  
+- **[DROP File Transfer](https://drop.space/en/agent-file-transfer/#desktop-or-remote-mcp)** `Official` `TypeScript` — Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.  
   `file-transfer` `file-requests` `client-uploads`
 - **[FastOCR MCP](https://github.com/fastocr-org/fastocr-mcp)** `Official` `Python` — OCR local PDF files through the FastOCR API and check API balance from MCP clients.  
   `ocr` `pdf` `documents`
@@ -1811,7 +1811,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `remote` `no-auth` `read-only` `sales` `pricing`
 - **[datawebot](https://github.com/datawebot/datawebot-mcp)** `Official` `Other` — Hosted product search and seller prices across online shops worldwide, plus extraction jobs for Amazon and Shopify pages, over remote Streamable HTTP with OAuth or an API key.  
   `ecommerce` `product-search` `prices` `remote` `oauth`
-- **[Dexra](https://github.com/dexra-dev/mcp)** `Official` `JavaScript` — Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC.  
+- **[Dexra](https://github.com/dexra-dev/mcp)** `Official` `JavaScript` — Read-only Solana risk verdicts for launches, tokens, wallets, pools and swaps; analytical tools need a registered account and API key, while service_stats and score_performance are public.  
   `solana` `crypto` `risk` `x402`
 - **[Dropify](https://github.com/xozxro/dropify-mcp)** `Official` `TypeScript` — Looks up the official merch stores Dropify tracks for an artist or brand and returns the page where restock and drop alerts are set.  
   `merch` `restock-alerts` `shopping` `music`
