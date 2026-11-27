@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1062-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1063-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (108)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (99)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (42)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (43)
 - [Communication and Productivity](#communication-and-productivity) (138)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (115)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (137)
@@ -659,6 +659,8 @@ Read and write files, convert documents, and connect to knowledge bases.
 
 Manage cloud resources, deploy services, and operate infrastructure.
 
+- **[12happy](https://www.12hpy.com/mcp?utm_source=mcphq&utm_medium=list&utm_campaign=listings-2026-11)** `Official` `TypeScript` — Manage 12happy uptime monitoring from an AI assistant: create monitors, read incidents, uptime and response times, and open maintenance windows. ([source](https://github.com/12happyhq/12happy-mcp))  
+  `uptime` `monitoring` `status` `incidents`
 - **[402cron](https://402cron.com)** `Official` `TypeScript` — Remote MCP server (streamable HTTP) for a paid cron service for agents: pricing and docs need no key, and thirteen more tools manage scheduled webhook tasks with the API token bought over x402.  
   `cron` `scheduling` `webhooks` `remote`
 - **[agvps](https://agvps.shveik.dev)** `Official` `Go` — Servers for agents, rented by the month: a Linux server with root access and a public IPv4, paid per call with x402 stablecoins, renewed by paying again; no API key.  
