@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1044-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1045-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (104)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (105)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (96)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
@@ -206,6 +206,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `eda` `pcb` `altium` `kicad` `electronics`
 - **[ERIUS PHONE MCP](https://github.com/Protremix/erius-phone-mcp)** `Official` `Python` — Drive an ERIUS PHONE hosted Android phone or tablet: read the screen, tap, type, swipe, launch apps, install APKs, and pull crash logs.  
   `android` `mobile` `testing` `automation`
+- **[EverythingConnect Deconstructor](https://github.com/jiangxingfan1-coder/EverythingConnect)** `Official` `TypeScript` — Local MCP server for inspecting application metadata and drafting ConnectIR definitions; requires local setup and approved read roots.  
+  `developer-tools` `desktop` `stdio`
 - **[Flare](https://flareapp.io/docs/flare/general/our-mcp-server)** `Official` `PHP` — Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP.  
   `error-tracking` `observability` `laravel` `php` `oauth`
 - **[genesis-blackbox](https://github.com/johannschiffer/genesis-blackbox)** `Python` — Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.  
