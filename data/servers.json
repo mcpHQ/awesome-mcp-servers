@@ -15368,6 +15368,32 @@
     ]
   },
   {
+    "name": "Temp Mail Agency MCP",
+    "url": "https://temp-mail.agency/mcp-server.html",
+    "description": "Free MCP server and REST API for temporary email: create disposable inboxes, read messages, and extract verification codes.",
+    "category": "communication-and-productivity",
+    "language": "PHP",
+    "provider": "Temp Mail Agency",
+    "tags": ["email", "temporary-email", "otp", "verification"],
+    "official": true,
+    "pricing": "free",
+    "transport": ["streamable-http"],
+    "auth": ["api-key"]
+  },
+  {
+    "name": "Tempboxy MCP",
+    "url": "https://tempboxy.com/mcp-server",
+    "description": "Free MCP server and API for temporary email with automatic OTP and magic-link extraction for agents and developers.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Tempboxy",
+    "tags": ["email", "temporary-email", "otp", "mcp"],
+    "official": true,
+    "pricing": "free",
+    "transport": ["streamable-http"],
+    "auth": ["api-key"]
+  },
+  {
     "name": "TableJourney",
     "url": "https://github.com/lewismvaughan/tablejourney-mcp",
     "description": "Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth.",
