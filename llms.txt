@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1011 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1012 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -70,6 +70,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Buddy MCP Server](https://buddy.works/docs/ai-agents/mcp): Official remote MCP server for Buddy: run and monitor pipelines, manage sandboxes, environments, artifacts, domains, and Git repositories from AI agents. (Other, official)
 - [Bugsly](https://bugsly.dev): List, read and resolve Bugsly error-tracking issues and check monitors. (Other, official)
 - [Chain.Love MCP](https://github.com/Chain-Love/chain.love-mcp): Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network. (Other, official)
+- [Chattee](https://chattee.ai/docs/mcp): Lets AI assistants create, change, deploy and publish full web apps on Chattee. (JavaScript, official)
 - [Coding Tools MCP](https://github.com/mybolide/coding-tools-mcp): Rust + Tauri 2 desktop app that turns a local project into an MCP workspace for AI agents: file read/edit, command and test execution, Git status, and project-local history sessions that restore context in a new conversation. (Rust)
 - [Communicate](https://developer.communicate.so/docs/mcp): List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials. (TypeScript, official)
 - [Concord MCP](https://github.com/Get-Concord-AI/concord-mcp): Local-first shared work-state for coding agents with presence, claims, messaging, handoffs, and review packets. (TypeScript, official)

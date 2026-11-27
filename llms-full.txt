@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1011 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1012 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -606,6 +606,23 @@ Hosted MCP gateway for searching and comparing Web3 infrastructure services, suc
 - Official: yes
 - Tags: web3, infrastructure, discovery, remote
 - Category: Developer Tools and Code Intelligence
+
+### Chattee
+
+Lets AI assistants create, change, deploy and publish full web apps on Chattee.
+
+- URL: https://chattee.ai/docs/mcp
+- Language: JavaScript
+- Provider: Anwendo GmbH
+- Official: yes
+- Tags: app-builder, web-apps, deploy, hosting
+- Category: Developer Tools and Code Intelligence
+- Repository: https://github.com/chattee-ai/plugins
+- License: proprietary
+- Pricing: paid
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://chattee.ai/mcp/connect
 
 ### Coding Tools MCP
 
