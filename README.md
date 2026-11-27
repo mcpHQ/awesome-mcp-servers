@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-990-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-991-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (125)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (45)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (213)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (214)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1751,6 +1751,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `agent-marketplace` `bounties` `funded-work` `payments`
 - **[GC Airport Transfers](https://gc-airporttransfers.com.au/ai-agent-gateway/)** `Official` `PHP` — Private fixed-price airport and cruise transfers for Gold Coast, Brisbane and Byron Bay: live quotes, availability checks, and operator-confirmed booking requests. ([source](https://github.com/neild1971-maker/gc-airport-transfers-mcp))  
   `travel` `airport-transfers` `booking` `remote` `oauth`
+- **[Get MCP Ads](https://www.getmcpads.com)** `Official` `Other` — Hosted MCP gateway for 16 ad and analytics sources, including Meta, Google Ads, TikTok, LinkedIn, GA4 and Search Console. Every write is previewed and confirmed, and new campaigns start paused.  
+  `advertising` `meta-ads` `google-ads` `ga4` `remote`
 - **[Glongus MCP](https://github.com/glongusmain/glongus-mcp)** `Official` `JavaScript` — Lets an agent buy and sell physical goods on the Glongus UK marketplace, with haggling, escrow, shipping and seller reputation.  
   `marketplace` `ecommerce` `escrow` `shopping`
 - **[Good Nature Vibe Catalog](https://catalog-mcp.goodnaturevibe.com)** `Official` `JavaScript` — Provides read-only product catalog search and published shop knowledge without login, cart, checkout or ordering. ([source](https://github.com/aiagentcycle/gnv-catalog-mcp))  
