@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-987-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-988-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (97)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
-- [Filesystems and Documents](#filesystems-and-documents) (39)
+- [Filesystems and Documents](#filesystems-and-documents) (40)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (133)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (110)
@@ -584,6 +584,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `documents` `search` `docx` `pdf` `sqlite`
 - **[Pagelive MCP Server](https://pagelive.io/mcp)** `Official` `TypeScript` — Publish HTML that Claude builds as a private, view-tracked link, then update it, read views and answer comments.  
   `publishing` `html` `documents` `oauth` `remote`
+- **[PDF & Image to Markdown/Text (Apify Actors)](https://github.com/Skaarking/pdf-to-markdown-api)** `JavaScript` — Converts public text-layer PDF URLs to Markdown with page markers and detected tables, and extracts text from images with English/Spanish OCR, via two hosted Apify Actors billed per document.  
+  `pdf` `markdown` `ocr` `rag` `remote`
 - **[PDF MCP Server](https://github.com/jztan/pdf-mcp)** `Python` — Extract text and metadata from PDF documents for analysis.  
   `pdf` `documents` `extraction`
 - **[pdf-table-pull-lite](https://github.com/tidybytetools/pdf-table-pull-lite)** `Python` — Pulls tables out of local text PDFs as CSV text or CSV files, with no OCR and no API key.  
