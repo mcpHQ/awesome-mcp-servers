@@ -1218,7 +1218,7 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `perfume` `fragrance` `reference-data` `remote`
 - **[AcesAPI](https://acesapi.com)** `Official` `JavaScript` — ATP and WTA tennis since 2007: results with every set, draws, rankings, head to head, surface splits and Elo ratings. ([source](https://github.com/noahowsh/acesapi-mcp))  
   `tennis` `atp` `wta` `sports` `remote`
-- **[Adspy](https://www.adspy.sh)** `Official` `Other` — Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.  
+- **[Adspy](https://www.adspy.sh)** `Official` `Other` — Hosted MCP server for ad research: brands' public Meta and Google ads, TikTok and Pinterest ads in listed regions, and organic TikTok, YouTube and Instagram posts, from Claude, ChatGPT, Claude Code or Codex. No spend or ROAS.  
   `ad-library` `meta-ads` `google-ads` `competitor-research` `remote`
 - **[AgenticWebScore](https://github.com/marifeting/agenticwebscore-mcp)** `Official` `TypeScript` — Scan a public website for AI agent readiness: 60 checks, a score and evidence for each, through a hosted Streamable HTTP endpoint with no sign-up or API key.  
   `seo` `agent-readiness` `llms-txt` `remote`
