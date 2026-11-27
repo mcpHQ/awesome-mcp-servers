@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1062-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1063-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (108)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (99)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (100)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (42)
 - [Communication and Productivity](#communication-and-productivity) (138)
@@ -395,6 +395,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `youtube` `transcripts` `search` `speakers` `research`
 - **[Awesome Tools](https://awesome.tools)** `Official` `TypeScript` — Search curated SaaS and AI tools, browse categories and tags, submit a product, and verify backlink badges. ([source](https://github.com/Illyism/awesome-tools-mcp))  
   `search` `directory` `saas` `ai-tools` `remote`
+- **[B2B Market Intel MCP](https://github.com/truonggiang0111/b2b-market-intel-mcp)** `JavaScript` — Zero-key MCP STDIO server for decoding Google News CBMi URLs, live UK Gov Contracts Finder buyer tenders, ClinicalTrials.gov biotech sponsors, and optional Apify batch tools for app churn and hiring signals.  
+  `b2b-leads` `google-news` `uk-tenders` `clinical-trials` `scraping`
 - **[Baizhi Cloud Agent Toolkit](https://github.com/chaitin/baizhi-agent-toolkit)** `Official` `Other` — Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits.  
   `search` `web` `hosted`
 - **[Baizhi Cloud Browser (CapyBrowser)](https://github.com/chaitin/baizhi-cloud-browser)** `Official` `Other` — Manage cloud browser sessions, saved profiles, human handoff and downloads via hosted MCP; page actions require a CDP client, and a Baizhi API key and paid browser runtime apply.  
