@@ -12606,6 +12606,32 @@
     ]
   },
   {
+    "name": "CheckLeaked MCP",
+    "url": "https://checkleaked.cc/developers",
+    "description": "Searches breach data by email, username, phone, domain or hash, checks password exposure with k-anonymity, cracks hashes, runs IP and WHOIS lookups and manages breach monitoring.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "CheckLeaked",
+    "tags": [
+      "breach-data",
+      "osint",
+      "security",
+      "password"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.checkleaked.cc/mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
     "name": "ScentVerdict",
     "url": "https://scentverdict.com/connect",
     "description": "Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.",
