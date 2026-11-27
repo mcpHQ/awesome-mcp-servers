@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1062 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1064 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10496,6 +10496,22 @@ Search and read PentestCompare, filter penetration testing providers, and read p
 - Auth: none
 - Streamable HTTP endpoint: https://pentestcompare.com/mcp
 
+### priorart
+
+Local stdio MCP and CLI that searches audit reports and public write-ups for prior art and duplicate findings. Offline; no network required.
+
+- URL: https://github.com/KhomDev/priorart
+- Language: Rust
+- Provider: KhomDev
+- Official: no
+- Tags: security, audit, smart-contracts, stdio
+- Category: Security and Identity
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: cargo priorart
+
 ### qURL
 
 Mint, resolve, audit, and rotate scope-limited expiring access links (qURLs) for AI agents.
@@ -10512,6 +10528,22 @@ Mint, resolve, audit, and rotate scope-limited expiring access links (qURLs) for
 - Install: npx @layervai/qurl-mcp
 - Verified: 2026-11-03
 - Streamable HTTP endpoint: https://mcp.connector.layerv.ai/mcp
+
+### realism-gate
+
+Local stdio MCP and CLI that statically checks Foundry, Solana, and Move (Sui/Aptos) exploit PoC tests and binds claims to evidence. Offline; never runs the PoC.
+
+- URL: https://github.com/KhomDev/realism-gate
+- Language: Rust
+- Provider: KhomDev
+- Official: no
+- Tags: security, static-analysis, smart-contracts, foundry, solana
+- Category: Security and Identity
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: cargo realism-gate
 
 ### Scalekit MCP Server
 

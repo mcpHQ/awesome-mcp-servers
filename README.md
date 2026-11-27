@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1062-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1064-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (115)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (137)
 - [Legal and Court Data](#legal-and-court-data) (12)
-- [Security and Identity](#security-and-identity) (50)
+- [Security and Identity](#security-and-identity) (52)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (230)
 - [Utilities and Examples](#utilities-and-examples) (55)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
@@ -1652,8 +1652,12 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `penetration-testing` `security-headers` `security-audit` `remote`
 - **[PentestCompare MCP](https://pentestcompare.com/developers/)** `Official` `JavaScript` — Search and read PentestCompare, filter penetration testing providers, and read provider profiles. ([source](https://github.com/Excession-Labs/mcp-servers))  
   `penetration-testing` `security-providers` `directory` `remote`
+- **[priorart](https://github.com/KhomDev/priorart)** `Rust` — Local stdio MCP and CLI that searches audit reports and public write-ups for prior art and duplicate findings. Offline; no network required.  
+  `security` `audit` `smart-contracts` `stdio`
 - **[qURL](https://github.com/layervai/qurl-mcp)** `Official` `TypeScript` — Mint, resolve, audit, and rotate scope-limited expiring access links (qURLs) for AI agents.  
   `access-links` `expiring-links` `localhost-sharing` `security`
+- **[realism-gate](https://github.com/KhomDev/realism-gate)** `Rust` — Local stdio MCP and CLI that statically checks Foundry, Solana, and Move (Sui/Aptos) exploit PoC tests and binds claims to evidence. Offline; never runs the PoC.  
+  `security` `static-analysis` `smart-contracts` `foundry` `solana`
 - **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.  
   `auth` `identity` `oauth` `mcp`
 - **[ScanMalware](https://mcp.scanmalware.com/)** `Official` `Python` — Submits URLs for analysis in isolated environments and searches the public scan archive by domain, IP, ASN, JARM or favicon hash, with AI classification of suspicious pages by scam type. ([source](https://github.com/scanmalware/mcp-server))  
