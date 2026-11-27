@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1061-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1062-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (108)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (99)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (42)
 - [Communication and Productivity](#communication-and-productivity) (138)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (115)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (137)
@@ -711,6 +711,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `anycast` `data-centers` `edge` `networking`
 - **[Network Sketcher](https://github.com/cisco-open/network-sketcher)** `Official` `Python` — Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.  
   `networking` `diagrams` `automation` `cursor` `cisco`
+- **[NodeRings](https://docs.noderings.com/docs/client-guides/mcp)** `Official` `TypeScript` — Discover, deploy and manage compute from independent hosting providers through one API.  
+  `cloud` `infrastructure` `hosting` `mcp`
 - **[omnivm](https://github.com/SalyyS1/omnivm)** `Go` — MCP server for provisioning hardware-isolated scale-to-zero Linux microVMs on Cloud Hypervisor and KVM, with single-file JSON configuration, snapshot-based fast boot, cgroup v2 quotas, and ephemeral AI sandbox lifecycle.  
   `kvm` `microvm` `sandbox` `cloud-hypervisor` `scale-to-zero`
 - **[Port MCP Server](https://github.com/port-labs/port-mcp-server)** `Official` `TypeScript` — Manage software catalog, scorecards, and actions in Port.io.  

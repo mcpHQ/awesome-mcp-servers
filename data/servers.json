@@ -13009,6 +13009,31 @@
     "official": true
   },
   {
+    "name": "NodeRings",
+    "url": "https://docs.noderings.com/docs/client-guides/mcp",
+    "description": "Discover, deploy and manage compute from independent hosting providers through one API.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "NodeRings",
+    "tags": [
+      "cloud",
+      "infrastructure",
+      "hosting",
+      "mcp"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.noderings.com/mcp"
+    },
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "PlanetScale MCP Server",
     "url": "https://planetscale.com/docs/connect/mcp",
     "description": "Manage PlanetScale MySQL databases, branches, and schema changes.",
