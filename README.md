@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-996-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-997-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (113)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (125)
 - [Legal and Court Data](#legal-and-court-data) (11)
-- [Security and Identity](#security-and-identity) (46)
+- [Security and Identity](#security-and-identity) (47)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (213)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
@@ -1516,6 +1516,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `x402` `trust` `monitoring` `payments` `remote`
 - **[Bridge Watch](https://github.com/LakeSky/bridge-watch-mcp)** `Official` `TypeScript` — On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call.  
   `web3` `base` `address-labels` `risk` `x402`
+- **[Caelo](https://caelo.sh)** `TypeScript` — Free, local security scanner for AI-built apps: finds exposed API keys, Supabase service-role keys, browser-bundled secrets, open Firebase rules, and committed .env files. ([source](https://github.com/arthi-arumugam-git/caelo))  
+  `security` `secret-scanning` `static-analysis` `local`
 - **[Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai)** `Official` `TypeScript` — AI-governance measurement MCP server with free verification readers and x402-metered signed-evidence doors; remote endpoint at https://councilof.ai/mcp/.  
   `governance` `compliance` `evidence` `x402`
 - **[CrowdStrike MCP Server](https://github.com/CrowdStrike/falcon-mcp)** `Official` `Python` — Query CrowdStrike Falcon detections and endpoint security data.  
