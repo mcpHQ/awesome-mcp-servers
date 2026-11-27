@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-995-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-996-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (113)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (125)
 - [Legal and Court Data](#legal-and-court-data) (11)
-- [Security and Identity](#security-and-identity) (45)
+- [Security and Identity](#security-and-identity) (46)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (213)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
@@ -1580,6 +1580,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `security` `prompt-injection` `scanner` `python`
 - **[Tanod](https://tanod.dev)** `Official` `Python` — Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).  
   `security` `smart-contracts` `x402` `web3` `remote`
+- **[The Network Tools](https://thenetworktools.com/docs/mcp)** `Official` `TypeScript` — Hosted read-only MCP server for DNS records, MX routing, SPF/DMARC email security, HTTP security headers, and ICANN RDAP lookups.  
+  `dns` `ssl` `dmarc` `security` `remote`
 - **[Vault MCP Server](https://github.com/hashicorp/vault-mcp-server)** `Official` `Go` — Read secrets and manage HashiCorp Vault policies via MCP.  
   `secrets` `vault` `security`
 - **[vibe-shield](https://github.com/avivgerz-hue/vibe-shield)** `TypeScript` — Static security scanner with 92 rules for AI-generated codebases, covering secrets, authentication, injection, Supabase and database misconfiguration, and agent skill or MCP config poisoning, exposed through an MCP subcommand.  

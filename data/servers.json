@@ -10548,6 +10548,33 @@
     ]
   },
   {
+    "name": "The Network Tools",
+    "url": "https://thenetworktools.com/docs/mcp",
+    "description": "Hosted read-only MCP server for DNS records, MX routing, SPF/DMARC email security, HTTP security headers, and ICANN RDAP lookups.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "The Network Tools",
+    "tags": [
+      "dns",
+      "ssl",
+      "dmarc",
+      "security",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://thenetworktools.com/mcp"
+    }
+  },
+  {
     "name": "ScanMalware",
     "url": "https://mcp.scanmalware.com/",
     "description": "Submits URLs for analysis in isolated environments and searches the public scan archive by domain, IP, ASN, JARM or favicon hash, with AI classification of suspicious pages by scam type.",

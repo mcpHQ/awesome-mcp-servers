@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 995 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 996 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -9908,6 +9908,22 @@ Solidity contract scans, pre-transaction address risk checks, OFAC SDN address s
 - Pricing: freemium
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://tanod.dev/mcp
+
+### The Network Tools
+
+Hosted read-only MCP server for DNS records, MX routing, SPF/DMARC email security, HTTP security headers, and ICANN RDAP lookups.
+
+- URL: https://thenetworktools.com/docs/mcp
+- Language: TypeScript
+- Provider: The Network Tools
+- Official: yes
+- Tags: dns, ssl, dmarc, security, remote
+- Category: Security and Identity
+- License: proprietary
+- Pricing: free
+- Transport: streamable-http
+- Auth: none
+- Streamable HTTP endpoint: https://thenetworktools.com/mcp
 
 ### Vault MCP Server
 
