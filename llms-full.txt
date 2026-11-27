@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1000 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1001 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2265,6 +2265,22 @@ Search destinations and places and read published travel information through a h
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://govisit.ai/mcp
+
+### Groundsocial
+
+Read public data from 77 platforms (Reddit, X, TikTok, Instagram, YouTube, LinkedIn, Google, Amazon) as each platform's own JSON. Remote Streamable HTTP at https://api.groundsocial.dev/mcp.
+
+- URL: https://groundsocial.dev/docs/mcp
+- Language: TypeScript
+- Provider: Groundsocial
+- Official: yes
+- Tags: social-media, scraping, reddit, search, remote
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/shivanshmehendiratta/groundsocial-mcp
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://api.groundsocial.dev/mcp
 
 ### HolicAudit website checks
 
