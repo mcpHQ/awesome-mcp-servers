@@ -11862,6 +11862,28 @@
     ]
   },
   {
+    "name": "EverythingConnect Deconstructor",
+    "url": "https://github.com/jiangxingfan1-coder/EverythingConnect",
+    "description": "Local MCP server for inspecting application metadata and drafting ConnectIR definitions; requires local setup and approved read roots.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "EverythingConnect",
+    "tags": [
+      "developer-tools",
+      "desktop",
+      "stdio"
+    ],
+    "official": true,
+    "repository": "https://github.com/jiangxingfan1-coder/EverythingConnect",
+    "license": "Apache-2.0",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Obsidian MCP Server",
     "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
     "description": "Search and read notes from local Obsidian vaults.",
