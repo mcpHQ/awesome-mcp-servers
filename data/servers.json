@@ -10259,6 +10259,34 @@
     ]
   },
   {
+    "name": "Clema",
+    "url": "https://clema.ai/docs/mcp",
+    "description": "Hosted MCP server for higher-ed institutional research teams to manage IR data request tickets and run read-only SQL on public IPEDS and College Scorecard data.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Clema",
+    "tags": [
+      "higher-education",
+      "ipeds",
+      "college-scorecard",
+      "institutional-research",
+      "sql"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.clema.ai/mcp"
+    },
+    "repository": "https://github.com/wilsonbright/clema-mcp",
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Neither MCP",
     "url": "https://github.com/stonianua/neither-mcp",
     "description": "Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.",
