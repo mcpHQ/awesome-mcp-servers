@@ -13153,6 +13153,28 @@
     ]
   },
   {
+    "name": "ValorBrain",
+    "url": "https://github.com/ValorBrain/valorbrain-cli",
+    "description": "Shared memory for AI agent teams over MCP: dated facts, handoffs and reusable context across agents.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "Valor Digital",
+    "tags": [
+      "memory",
+      "agent-memory",
+      "team-memory",
+      "handoff",
+      "npx"
+    ],
+    "official": false,
+    "repository": "https://github.com/ValorBrain/valorbrain-cli",
+    "license": "MIT",
+    "install": {
+      "command": "npx",
+      "package": "@valorbrain/cli"
+    }
+  },
+  {
     "name": "Port MCP Server",
     "url": "https://github.com/port-labs/port-mcp-server",
     "description": "Manage software catalog, scorecards, and actions in Port.io.",

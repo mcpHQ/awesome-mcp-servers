@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1060-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1061-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
 - [Communication and Productivity](#communication-and-productivity) (138)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (114)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (115)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (137)
 - [Legal and Court Data](#legal-and-court-data) (12)
 - [Security and Identity](#security-and-identity) (50)
@@ -1245,6 +1245,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `chat-history` `semantic-search` `local-first`
 - **[UberLLM](https://uberllm.dev/docs/mcp)** `Official` `Go` — Generate and edit images, start and follow video and music jobs, list models with their current price, quote a request before running it, and check balance through one prepaid UberLLM API key. ([source](https://github.com/PSA-Team-source/uberllm))  
   `image-generation` `video-generation` `llm` `remote`
+- **[ValorBrain](https://github.com/ValorBrain/valorbrain-cli)** `JavaScript` — Shared memory for AI agent teams over MCP: dated facts, handoffs and reusable context across agents.  
+  `memory` `agent-memory` `team-memory` `handoff` `npx`
 - **[Varosity](https://varosity.ai/connect)** `Official` `JavaScript` — Video, images, voice and music for AI agents from one account: 78 models at the provider's list price with zero markup, a daily spend cap, and no charge for failed renders. ([source](https://github.com/varosity-ai/mcp-server))  
   `video-generation` `image-generation` `text-to-speech` `music-generation` `remote`
 - **[VideoGen MCP](https://videogen.io/videogen-mcp)** `Official` `TypeScript` — Official VideoGen server for creating and editing videos, images, voiceovers, music, and avatars, then remixing and exporting projects.  
