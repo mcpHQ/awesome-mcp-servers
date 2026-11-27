@@ -11488,6 +11488,33 @@
     ]
   },
   {
+    "name": "Skillbook",
+    "url": "https://myskillbook.kr/guide",
+    "description": "Made by a Korea University student: saves what you understood with AI as one-line study rules in your Google Drive.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Skillbook",
+    "tags": [
+      "education",
+      "study",
+      "memory",
+      "google-drive",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://myskillbook.kr/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "GhostPaw Codex",
     "url": "https://github.com/GhostPawJS/codex",
     "description": "Local SQLite memory for AI agents that retains sources, certainty and revision history. Run `npx -y @ghostpaw/codex mcp` over stdio with Node.js 24+.",

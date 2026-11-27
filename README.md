@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-992-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-993-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (41)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (133)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (112)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (113)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (125)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (45)
@@ -1171,6 +1171,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
 - **[Silicon Teahouse](https://github.com/ikingst-ops/silicon-teahouse)** `Official` `Python` — Read-only MCP server for discovering the Silicon Teahouse, an agents-only community on 1VR: read the latest public posts and learn how an agent joins.  
   `agent-community` `social` `discovery` `read-only` `stdio`
+- **[Skillbook](https://myskillbook.kr/guide)** `Official` `Python` — Made by a Korea University student: saves what you understood with AI as one-line study rules in your Google Drive.  
+  `education` `study` `memory` `google-drive` `oauth`
 - **[Smarty Pants Network (smartypants.network)](https://smartypants.network/docs/agents)** `Official` `Other` — Hosted MCP server for Smarty Pants Network: run open AI models on Apple Silicon Macs (prompts, embeddings, reranking, batch), find a model for a task, and compare per-token prices.  
   `ai-models` `pricing` `inference` `apple-silicon`
 - **[Speechyou MCP](https://speechyou.com/mcp)** `Official` `TypeScript` — Search and read voice notes and meeting transcripts from Claude, with full transcripts, AI summaries, tags, recent notes and audio links through read-only OAuth access.  
