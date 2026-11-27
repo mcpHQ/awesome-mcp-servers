@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1031 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1032 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8131,6 +8131,25 @@ Ask your AI about your product's events, delivery health and usage: search event
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://eventsend.io/mcp
+
+### EVP Public Data MCP
+
+Eleven read-only tools for marketplace, grant, spending, filing, clinical trial, podcast, and game data through public Apify Actors.
+
+- URL: https://intius.github.io/evp-labs-data-extractors/mcp/
+- Language: JavaScript
+- Provider: EVP Labs
+- Official: yes
+- Tags: public-data, apify, government, market-research, sec-filings
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/intius/evp-public-data-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: stdio, streamable-http
+- Auth: api-key, oauth
+- Install: npx github:intius/evp-public-data-mcp#v0.1.1
+- Verified: 2026-11-25
+- Streamable HTTP endpoint: https://mcp.apify.com/?tools=evpp/wordpress-plugin-directory,evpp/zapier-app-directory,evpp/atlassian-marketplace,evpp/vscode-marketplace,evpp/apple-podcasts-charts,evpp/steam-game-intel,evpp/grants-gov,evpp/usaspending,evpp/clinicaltrials-gov,evpp/sec-edgar-filings
 
 ### ExtensionDash
 

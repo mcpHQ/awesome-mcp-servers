@@ -12283,6 +12283,41 @@
     ]
   },
   {
+    "name": "EVP Public Data MCP",
+    "url": "https://intius.github.io/evp-labs-data-extractors/mcp/",
+    "description": "Eleven read-only tools for marketplace, grant, spending, filing, clinical trial, podcast, and game data through public Apify Actors.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "EVP Labs",
+    "tags": [
+      "public-data",
+      "apify",
+      "government",
+      "market-research",
+      "sec-filings"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=evpp/wordpress-plugin-directory,evpp/zapier-app-directory,evpp/atlassian-marketplace,evpp/vscode-marketplace,evpp/apple-podcasts-charts,evpp/steam-game-intel,evpp/grants-gov,evpp/usaspending,evpp/clinicaltrials-gov,evpp/sec-edgar-filings"
+    },
+    "repository": "https://github.com/intius/evp-public-data-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "github:intius/evp-public-data-mcp#v0.1.1"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "verified": "2026-11-25"
+  },
+  {
     "name": "Sortance",
     "url": "https://sortance.com/docs/mcp",
     "description": "Hosted MCP server that checks whether a signup email is real, disposable, role-based or risky and returns allow, review or block.",
