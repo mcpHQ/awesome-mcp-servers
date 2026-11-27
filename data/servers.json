@@ -10455,6 +10455,63 @@
     ]
   },
   {
+    "name": "priorart",
+    "url": "https://github.com/KhomDev/priorart",
+    "description": "Local stdio MCP and CLI that searches audit reports and public write-ups for prior art and duplicate findings. Offline; no network required.",
+    "category": "security-and-identity",
+    "language": "Rust",
+    "provider": "KhomDev",
+    "tags": [
+      "security",
+      "audit",
+      "smart-contracts",
+      "stdio"
+    ],
+    "official": false,
+    "repository": "https://github.com/KhomDev/priorart",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "cargo",
+      "package": "priorart"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "realism-gate",
+    "url": "https://github.com/KhomDev/realism-gate",
+    "description": "Local stdio MCP and CLI that statically checks Foundry, Solana, and Move (Sui/Aptos) exploit PoC tests and binds claims to evidence. Offline; never runs the PoC.",
+    "category": "security-and-identity",
+    "language": "Rust",
+    "provider": "KhomDev",
+    "tags": [
+      "security",
+      "static-analysis",
+      "smart-contracts",
+      "foundry",
+      "solana"
+    ],
+    "official": false,
+    "repository": "https://github.com/KhomDev/realism-gate",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "cargo",
+      "package": "realism-gate"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Mixpanel MCP Server",
     "url": "https://docs.mixpanel.com/docs/mcp",
     "description": "Query Mixpanel funnels, retention, and event analytics.",
