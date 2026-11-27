@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1048 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1049 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -752,6 +752,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ForeclosureListings](https://foreclosurelistings.fyi): Look up US foreclosure resources by city and state: county sale schedules, notice postings, HUD-approved counselors and legal aid, each fact citing its public source. (TypeScript)
 - [Lintelly HR Deutschland](https://github.com/NicksAdvisory/lintelly-hr-deutschland): German employment law for small companies: 38 read-only tools for notice periods, employer costs, sick pay, maternity protection and contract clauses, each answer with calculation and official source; remote server without sign-in. (TypeScript, official)
 - [My Spain Visa](https://myspainvisa.com/mcp/): Spain visa rules for 2026, a Schengen 90/180 calculator and consulate processing times from a Barcelona immigration law firm's own cases. Free hosted server, no account. (PHP, official)
+- [Pandex](https://www.pandex.io/docs): Official legislation and case law for AI agents (EU, UK, DE, FR, ES, NL, AT, CH and more): every past version with dates, citations linked to the passage. Remote MCP, free tier. (Python, official)
 - [Polish MCP Servers](https://github.com/kamilkaczmareksolutions/polish-mcp-servers): Stdio server with 12 read-only tools for Polish law and public registers (Sejm ELI acts, SAOS judgments, tenders, building permits, land parcels and zoning), each running a public Apify Actor billed to your Apify account. (TypeScript)
 - [US Code MCP](https://github.com/lrehmann/uscode-mcp): Read-only U.S. Code search, section retrieval, and title browsing with citations linked to uscode.ecfr.io and published OLRC release metadata; independent OLRC corpus mirror, not a government service. (TypeScript)
 
