@@ -9976,6 +9976,39 @@
     ]
   },
   {
+    "name": "Outscraper MCP",
+    "url": "https://mcp.outscraper.com/",
+    "description": "Business catalog search, Google Maps scraping, reviews, and enrichment through a local Node bridge using an API key or the hosted OAuth MCP endpoint.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Outscraper",
+    "tags": [
+      "business-data",
+      "google-maps",
+      "reviews",
+      "enrichment",
+      "web-scraping"
+    ],
+    "official": true,
+    "repository": "https://github.com/outscraper/outscraper-mcp-server",
+    "license": "MIT",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "outscraper-mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.outscraper.com/mcp"
+    }
+  },
+  {
     "name": "MCPJungle",
     "url": "https://github.com/duaraghav8/MCPJungle",
     "description": "Self-hosted MCP server registry for enterprise AI agent deployments.",
@@ -10739,6 +10772,32 @@
     ]
   },
   {
+    "name": "SimOwl",
+    "url": "https://simowl.com/ai-assistants",
+    "description": "Find prepaid travel eSIM plans for 148 countries and 10 regions, check if a phone supports eSIM, and estimate trip data, through a hosted read-only MCP server with no sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "SimOwl",
+    "tags": [
+      "travel",
+      "esim",
+      "commerce",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/AnisDhiyaEddine/simowl-mcp",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://simowl.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Neither MCP",
     "url": "https://github.com/stonianua/neither-mcp",
     "description": "Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.",
@@ -11256,6 +11315,27 @@
     ]
   },
   {
+    "name": "booksy-mcp",
+    "url": "https://github.com/PiotrZapolski/booksy-mcp",
+    "description": "MCP server for Booksy Biz (salon and barbershop software) that reads calendar, staff schedules, clients, payments and reports through your own logged-in Chrome tab, with no API key and no hosted service.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "booksy",
+      "salon",
+      "scheduling",
+      "chrome"
+    ],
+    "official": false,
+    "repository": "https://github.com/PiotrZapolski/booksy-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ]
+  },
+  {
     "name": "Inkspira",
     "url": "https://inkspira.de/tattoo-generator/",
     "description": "Plan a tattoo with style and placement options, prefilled generator links, actual-size 3 cm and 5 cm print samples, and a photo placement preview.",
@@ -11521,6 +11601,35 @@
       "stdio"
     ],
     "verified": "2026-11-25"
+  },
+  {
+    "name": "PayGate USDT",
+    "url": "https://github.com/EzequielLech/paygate-usdt",
+    "description": "Non-custodial multi-chain crypto checkout and x402 paywall MCP server verifying USDC, USDT, ETH, BNB, POL, SOL, and BTC payments on-chain across 7 networks.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "PayGate",
+    "tags": [
+      "crypto-payments",
+      "usdt",
+      "usdc",
+      "x402",
+      "checkout"
+    ],
+    "official": false,
+    "repository": "https://github.com/EzequielLech/paygate-usdt",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://chainguard-studio-production.up.railway.app/paygate/mcp"
+    }
   },
   {
     "name": "Vertov MCP",
@@ -14226,6 +14335,34 @@
     ],
     "auth": [
       "api-key"
+    ]
+  },
+  {
+    "name": "Pandex",
+    "url": "https://www.pandex.io/docs",
+    "description": "Official legislation and case law for AI agents (EU, UK, DE, FR, ES, NL, AT, CH and more): every past version with dates, citations linked to the passage. Remote MCP, free tier.",
+    "category": "legal-and-court-data",
+    "language": "Python",
+    "provider": "Pandex",
+    "tags": [
+      "legal",
+      "legislation",
+      "case-law",
+      "citations",
+      "streamable-http"
+    ],
+    "official": true,
+    "repository": "https://github.com/pandex-io/pandex-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://api.pandex.io/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
     ]
   },
   {
