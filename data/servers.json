@@ -11377,6 +11377,31 @@
     "repository": "https://github.com/netdata/netdata"
   },
   {
+    "name": "docs-rag-mcp",
+    "url": "https://github.com/Ahmed-Manai/docs-rag-mcp",
+    "repository": "https://github.com/Ahmed-Manai/docs-rag-mcp",
+    "description": "Local RAG over your own Markdown, text, HTML, Word and PDF files: indexes a folder into one SQLite file with Ollama, OpenAI or Azure OpenAI embeddings and serves hybrid search with file and heading citations.",
+    "category": "filesystems-and-documents",
+    "language": "C#",
+    "provider": "Community",
+    "tags": [
+      "rag",
+      "semantic-search",
+      "documents",
+      "ollama",
+      "sqlite"
+    ],
+    "official": false,
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Apidly Tools MCP Server",
     "url": "https://github.com/idimetrix/apidly-tools/tree/main/mcp",
     "description": "Prices, launches and manages Apidly Cloud GPU servers from an AI assistant; read-only by default, with an optional hourly price cap for writes.",

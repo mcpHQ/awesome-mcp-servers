@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1035-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1036-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,7 +45,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (19)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (101)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (95)
-- [Filesystems and Documents](#filesystems-and-documents) (43)
+- [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
 - [Communication and Productivity](#communication-and-productivity) (136)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (114)
@@ -566,6 +566,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `pdf` `html` `markdown`
 - **[Dock](https://dock.space/agents)** `Official` `Other` — dock.space presentation editor for PowerPoint, Keynote and PDF: agents create decks from Dock templates or uploaded .pptx and .key files, edit with 200+ actions, render slides to check the result, and export PPTX or PDF.  
   `presentations` `powerpoint` `pptx` `slides` `remote`
+- **[docs-rag-mcp](https://github.com/Ahmed-Manai/docs-rag-mcp)** `C#` — Local RAG over your own Markdown, text, HTML, Word and PDF files: indexes a folder into one SQLite file with Ollama, OpenAI or Azure OpenAI embeddings and serves hybrid search with file and heading citations.  
+  `rag` `semantic-search` `documents` `ollama` `sqlite`
 - **[DocuQueue MCP](https://github.com/docuqueue/docuqueue-mcp)** `Official` `TypeScript` — Generate PDFs from templates, fill existing PDF forms, and batch-create invoices, contracts, and certificates through a hosted MCP server with a free tier.  
   `pdf` `document-generation` `form-filling` `invoice`
 - **[DROP File Transfer](https://drop.space/en/agent-file-transfer/#check-mcp-connection)** `Official` `TypeScript` — Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.  
