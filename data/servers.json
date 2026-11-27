@@ -12199,6 +12199,33 @@
     ]
   },
   {
+    "name": "Sortance",
+    "url": "https://sortance.com/docs/mcp",
+    "description": "Hosted MCP server that checks whether a signup email is real, disposable, role-based or risky and returns allow, review or block.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Sortance",
+    "tags": [
+      "email-validation",
+      "fraud-prevention",
+      "signup",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/wilsonbright/sortance-mcp",
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://api.sortance.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "FiveSocket MT5",
     "url": "https://fivesocket.com/mcp",
     "description": "Hosted MetaTrader 5 MCP server and REST API: read balances, positions, history and candles on any MT5 broker, place orders (opt-in), no Windows needed. Read-only endpoint available.",
