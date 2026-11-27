@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1003 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1004 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4613,6 +4613,22 @@ Hosted OAuth MCP server where agents draft X, LinkedIn, Bluesky and TikTok posts
 - Transport: streamable-http
 - Auth: oauth
 - Streamable HTTP endpoint: https://app.flaghand.com/mcp
+
+### Freepost
+
+Hosted MCP for Freepost, an AI social media team for Chinese and global platforms: drafts a version of each post per platform, you review, then schedules and publishes from your own signed-in accounts; live on Xiaohongshu, Instagram and X.
+
+- URL: https://freepost.io/developers
+- Language: Other
+- Provider: Freepost
+- Official: yes
+- Tags: social-media, scheduling, publishing, remote, oauth
+- Category: Communication and Productivity
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth
+- Streamable HTTP endpoint: https://freepost.io/api/mcp
 
 ### Gesher
 
