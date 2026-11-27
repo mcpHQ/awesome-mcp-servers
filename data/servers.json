@@ -11282,6 +11282,27 @@
     ]
   },
   {
+    "name": "booksy-mcp",
+    "url": "https://github.com/PiotrZapolski/booksy-mcp",
+    "description": "MCP server for Booksy Biz (salon and barbershop software) that reads calendar, staff schedules, clients, payments and reports through your own logged-in Chrome tab, with no API key and no hosted service.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "booksy",
+      "salon",
+      "scheduling",
+      "chrome"
+    ],
+    "official": false,
+    "repository": "https://github.com/PiotrZapolski/booksy-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ]
+  },
+  {
     "name": "Inkspira",
     "url": "https://inkspira.de/tattoo-generator/",
     "description": "Plan a tattoo with style and placement options, prefilled generator links, actual-size 3 cm and 5 cm print samples, and a photo placement preview.",
