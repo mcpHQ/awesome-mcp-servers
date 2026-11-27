@@ -7437,7 +7437,7 @@ ATP and WTA tennis since 2007: results with every set, draws, rankings, head to 
 
 ### Adspy
 
-Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.
+Hosted MCP server for ad research: brands' public Meta and Google ads, TikTok and Pinterest ads in listed regions, and organic TikTok, YouTube and Instagram posts, from Claude, ChatGPT, Claude Code or Codex. No spend or ROAS.
 
 - URL: https://www.adspy.sh
 - Language: Other
