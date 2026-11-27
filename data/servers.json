@@ -8926,6 +8926,31 @@
     ]
   },
   {
+    "name": "MCP Automation Starter",
+    "url": "https://github.com/alborotar/mcp-automation-starter",
+    "description": "Zero-dependency local MCP server that scores and triages B2B leads, drafts English or Korean follow-up emails for human review, and exports results to CSV.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "crm",
+      "sales",
+      "lead-scoring",
+      "korean",
+      "stdio"
+    ],
+    "official": false,
+    "repository": "https://github.com/alborotar/mcp-automation-starter",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "OmniForge Launch Audit MCP",
     "url": "https://github.com/zColdWater/mcp-launch-audit",
     "description": "Read-only pre-deploy web security, Supabase RLS, SPF/DKIM/DMARC email DNS, RDAP domain, and llms.txt readiness MCP server.",

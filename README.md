@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-974-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-975-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (44)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (209)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (210)
 - [Utilities and Examples](#utilities-and-examples) (51)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -357,10 +357,10 @@ Browse the web, scrape content, search, and automate browser interactions.
   `proxy` `residential-proxy` `x402` `remote`
 - **[AI Resources](https://github.com/Drix10/ai-resources/tree/main/mcp)** `Official` `JavaScript` — Search and read dated AI news briefings on model releases, dev tools, funding rounds and research, each linking to the original post; no API key. ([source](https://github.com/Drix10/ai-resources))  
   `ai-news` `search` `research` `citations`
-- **[AIHOT](https://aihot.news/agent?tab=mcp)** `Official` `TypeScript` — Searches Chinese-language AI industry news and retrieves daily, weekly, and monthly briefings. ([source](https://github.com/KKKKhazix/AIHOT))  
-  `news` `search` `chinese` `remote`
 - **[AI观潮 News MCP](https://aiguanchao.com/en/agent)** `Official` `Go` — Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Needs a personal token (free daily quota).  
   `news` `ai-news` `chinese` `remote`
+- **[AIHOT](https://aihot.news/agent?tab=mcp)** `Official` `TypeScript` — Searches Chinese-language AI industry news and retrieves daily, weekly, and monthly briefings. ([source](https://github.com/KKKKhazix/AIHOT))  
+  `news` `search` `chinese` `remote`
 - **[Allscreenshots](https://github.com/allscreenshots/allscreenshots-plugin)** `Official` `Python` — Captures website screenshots, runs bulk captures, and manages screenshot schedules and history via the Allscreenshots API; available as a local Python server or a remote endpoint.  
   `screenshot` `web-capture` `remote`
 - **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `Official` `TypeScript` — Run Apify Actors and extract web datasets at scale.  
@@ -1793,6 +1793,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `japan` `human-services` `reservations`
 - **[MCP Ads](https://mcp-ads.com)** `Official` `Python` — Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.  
   `advertising` `google-ads` `meta-ads` `remote` `oauth`
+- **[MCP Automation Starter](https://github.com/alborotar/mcp-automation-starter)** `JavaScript` — Zero-dependency local MCP server that scores and triages B2B leads, drafts English or Korean follow-up emails for human review, and exports results to CSV.  
+  `crm` `sales` `lead-scoring` `korean` `stdio`
 - **[MCP Price Tracker](https://github.com/zovo-one/mcp-price-tracker)** `TypeScript` — Track product prices for any product URL: current price lookup, drop tracking and alerts when a target price is hit.  
   `price-tracking` `e-commerce` `shopping` `alerts`
 - **[MCPKit — Yandex Direct MCP](https://mcpkit.ru/mcp-yandex-direct?utm_source=mcphq&utm_medium=mcp_directory&utm_campaign=yandex_direct)** `Python` — Retrieve Yandex Direct campaign reports and manage supported advertising settings in ChatGPT.  
