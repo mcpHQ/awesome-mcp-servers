@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1036 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1038 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -409,6 +409,22 @@ Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd)
 - Official: no
 - Tags: scheduled-agents, diagnostics, launchd, cron, claude-code
 - Category: Developer Tools and Code Intelligence
+
+### Agent360 Computer MCP
+
+macOS computer-use MCP server that works through the accessibility API in windows behind yours, blacks out password fields before screenshots and asks before deleting or sending.
+
+- URL: https://github.com/Agent360dk/computerMCP
+- Language: JavaScript
+- Provider: Agent360
+- Official: no
+- Tags: macos, desktop-automation, computer-use, accessibility, security
+- Category: Developer Tools and Code Intelligence
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx @agent360/computer-mcp
 
 ### AgentSandboxes
 
@@ -1760,6 +1776,22 @@ Cheap flights worldwide. Fare search, price calendars, cheap destinations and bo
 - Transport: streamable-http
 - Auth: none, api-key
 - Streamable HTTP endpoint: https://lowest.flights/mcp
+
+### Agent360 Browser MCP
+
+Chrome extension plus local MCP server that lets agents drive the user's signed-in Chrome and asks the person on screen for 2FA codes, CAPTCHAs or decisions.
+
+- URL: https://github.com/Agent360dk/browser-mcp
+- Language: JavaScript
+- Provider: Agent360
+- Official: no
+- Tags: browser, chrome-extension, human-in-the-loop, automation
+- Category: Browsers, Search, and Web Automation
+- License: MIT
+- Pricing: free
+- Transport: stdio
+- Auth: none
+- Install: npx @agent360/browser-mcp
 
 ### AgentRender
 

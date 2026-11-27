@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1036-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1038-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,8 +43,8 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (101)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (95)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (102)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (96)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
 - [Communication and Productivity](#communication-and-productivity) (136)
@@ -144,6 +144,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `testing` `regression` `browser` `mobile` `mcp`
 - **[agent-chain-doctor](https://github.com/elfovo/agent-chain-doctor)** `Python` — Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd) and trace files of a scheduled AI agent and reports which of 30 silent-failure modes it is exposed to.  
   `scheduled-agents` `diagnostics` `launchd` `cron` `claude-code`
+- **[Agent360 Computer MCP](https://github.com/Agent360dk/computerMCP)** `JavaScript` — macOS computer-use MCP server that works through the accessibility API in windows behind yours, blacks out password fields before screenshots and asks before deleting or sending.  
+  `macos` `desktop-automation` `computer-use` `accessibility` `security`
 - **[AgentSandboxes](https://agentsandboxes.fyi)** `TypeScript` — Search an index of cloud sandbox providers for AI agents: isolation, cold start, persistence, GPU support and pricing, each fact linked to its source.  
   `sandboxes` `agents` `developer-tools` `directory`
 - **[AgentTask Atlas](https://agenttaskatlas.com/mcp)** `Official` `TypeScript` — Read-only, no-auth search over a curated catalog of MCP servers and Agent Skills organized by dev task, each with a one-line verdict, install command and source link.  
@@ -357,6 +359,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `browser-automation` `mcp` `chrome` `live-viewer`
 - **[Agent Flights](https://lowest.flights/connect)** `Official` `TypeScript` — Cheap flights worldwide. Fare search, price calendars, cheap destinations and booking links through a hosted MCP server. ([source](https://github.com/lomiafrica/agent-flights-mcp))  
   `travel` `flights` `remote`
+- **[Agent360 Browser MCP](https://github.com/Agent360dk/browser-mcp)** `JavaScript` — Chrome extension plus local MCP server that lets agents drive the user's signed-in Chrome and asks the person on screen for 2FA codes, CAPTCHAs or decisions.  
+  `browser` `chrome-extension` `human-in-the-loop` `automation`
 - **[AgentRender](https://github.com/corbinvachal48/agentrender-mcp)** `Official` `Python` — Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.  
   `screenshot` `pdf` `web-extraction` `remote`
 - **[AgentSearch](https://github.com/agentsearchhq-coder/agentsearch-mcp)** `Official` `TypeScript` — Web search, news, URL-to-Markdown, JS render, screenshots, search_and_read. Free keyless search plus an extract/render trial; then direct x402 on Base from $0.002 (search $0.003). `npx -y @agentsearchhq/agentsearch-mcp`.  

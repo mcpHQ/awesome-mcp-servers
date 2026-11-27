@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1036 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1038 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -55,6 +55,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [A1 Gallery](https://www.a1.gallery/mcp): Search a hand-picked gallery of real live websites for design references: sections, full pages, fonts, font pairings, and colours, type sizes, and spacing measured off each live page. (TypeScript, official)
 - [Agent QA](https://github.com/vostride/agent-qa): Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces. (TypeScript, official)
 - [agent-chain-doctor](https://github.com/elfovo/agent-chain-doctor): Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd) and trace files of a scheduled AI agent and reports which of 30 silent-failure modes it is exposed to. (Python)
+- [Agent360 Computer MCP](https://github.com/Agent360dk/computerMCP): macOS computer-use MCP server that works through the accessibility API in windows behind yours, blacks out password fields before screenshots and asks before deleting or sending. (JavaScript)
 - [AgentSandboxes](https://agentsandboxes.fyi): Search an index of cloud sandbox providers for AI agents: isolation, cold start, persistence, GPU support and pricing, each fact linked to its source. (TypeScript)
 - [AgentTask Atlas](https://agenttaskatlas.com/mcp): Read-only, no-auth search over a curated catalog of MCP servers and Agent Skills organized by dev task, each with a one-line verdict, install command and source link. (TypeScript, official)
 - [AI Review](https://github.com/purge-unlimited/ai-review): Zero-dependency MCP server that asks a second cloud or local OpenAI-compatible model for independent code review, architectural scrutiny, and second opinions. (JavaScript)
@@ -161,6 +162,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [agdata](https://agdata.shveik.dev): Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key. (Go, official)
 - [Agent Browser Use](https://github.com/cavaldos/agent-browser-use): Let AI coding agents drive a real browser over MCP (Playwright-style element refs) while you watch every step live in a web viewer and take over at any time. (Go)
 - [Agent Flights](https://lowest.flights/connect): Cheap flights worldwide. Fare search, price calendars, cheap destinations and booking links through a hosted MCP server. (TypeScript, official)
+- [Agent360 Browser MCP](https://github.com/Agent360dk/browser-mcp): Chrome extension plus local MCP server that lets agents drive the user's signed-in Chrome and asks the person on screen for 2FA codes, CAPTCHAs or decisions. (JavaScript)
 - [AgentRender](https://github.com/corbinvachal48/agentrender-mcp): Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card. (Python, official)
 - [AgentSearch](https://github.com/agentsearchhq-coder/agentsearch-mcp): Web search, news, URL-to-Markdown, JS render, screenshots, search_and_read. Free keyless search plus an extract/render trial; then direct x402 on Base from $0.002 (search $0.003). `npx -y @agentsearchhq/agentsearch-mcp`. (TypeScript, official)
 - [AgentWeb](https://agentweb.us): Hosted remote MCP server that lets any agent act on real signed-in sites through typed, verified actions. (Other, official)

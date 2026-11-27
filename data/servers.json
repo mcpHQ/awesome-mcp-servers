@@ -10536,6 +10536,34 @@
     "repository": "https://github.com/gileshall/nanotea"
   },
   {
+    "name": "Agent360 Browser MCP",
+    "url": "https://github.com/Agent360dk/browser-mcp",
+    "description": "Chrome extension plus local MCP server that lets agents drive the user's signed-in Chrome and asks the person on screen for 2FA codes, CAPTCHAs or decisions.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Agent360",
+    "tags": [
+      "browser",
+      "chrome-extension",
+      "human-in-the-loop",
+      "automation"
+    ],
+    "official": false,
+    "repository": "https://github.com/Agent360dk/browser-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@agent360/browser-mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "CorpusIQ",
     "url": "https://docs.corpusiq.io?utm_source=mcphq&utm_medium=listing",
     "description": "Remote MCP server for live business data: read-only retrieval across 40+ connected systems including Stripe, Shopify, QuickBooks, HubSpot and GA4, with source-cited answers and OAuth 2.1 dynamic client registration.",
@@ -12980,6 +13008,35 @@
     ],
     "official": true,
     "repository": "https://github.com/intuit/quickbooks-online-mcp-server"
+  },
+  {
+    "name": "Agent360 Computer MCP",
+    "url": "https://github.com/Agent360dk/computerMCP",
+    "description": "macOS computer-use MCP server that works through the accessibility API in windows behind yours, blacks out password fields before screenshots and asks before deleting or sending.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Agent360",
+    "tags": [
+      "macos",
+      "desktop-automation",
+      "computer-use",
+      "accessibility",
+      "security"
+    ],
+    "official": false,
+    "repository": "https://github.com/Agent360dk/computerMCP",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@agent360/computer-mcp"
+    },
+    "auth": [
+      "none"
+    ]
   },
   {
     "name": "Railway MCP Server",
