@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1062-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1063-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (137)
 - [Legal and Court Data](#legal-and-court-data) (12)
 - [Security and Identity](#security-and-identity) (50)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (230)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (231)
 - [Utilities and Examples](#utilities-and-examples) (55)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -2081,6 +2081,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `travel` `private-jet` `charter` `marketplace` `remote`
 - **[SoChain](https://sochain.com/docs)** `Official` `Other` — Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits.  
   `bitcoin` `litecoin` `dogecoin` `zcash` `blockchain`
+- **[Solana Rent & Rug Shield](https://rentandrugshield.com/mcp)** `Official` `TypeScript` — Solana 12-layer Token-2022 rug scanner, inner-CPI transaction drain simulator, and read-only empty ATA 0x09 rent scanner via MCP and x402. ([source](https://github.com/sonnyman2014/solana-rent-rug-shield-mcp))  
+  `solana` `defi` `security` `x402` `blockchain`
 - **[SpellBook Finance](https://spellbook-finance.com/agent/mcp.md)** `Official` `TypeScript` — Source, list, and run a trading-card store through MCP with market research, inventory management, pricing controls, and marketplace tools.  
   `trading-cards` `market-data` `inventory` `ecommerce` `remote`
 - **[Sprout](https://sprout.mindcrafters.group/mcp)** `Official` `TypeScript` — Hosted OAuth MCP server with read-only cash flow, spending, recurring charges and transaction search over your connected US and Canadian bank and card accounts. ([source](https://github.com/MindCraftersGroup/sprout-claude-plugin))  
