@@ -10739,6 +10739,32 @@
     ]
   },
   {
+    "name": "SimOwl",
+    "url": "https://simowl.com/ai-assistants",
+    "description": "Find prepaid travel eSIM plans for 148 countries and 10 regions, check if a phone supports eSIM, and estimate trip data, through a hosted read-only MCP server with no sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "SimOwl",
+    "tags": [
+      "travel",
+      "esim",
+      "commerce",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/AnisDhiyaEddine/simowl-mcp",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://simowl.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Neither MCP",
     "url": "https://github.com/stonianua/neither-mcp",
     "description": "Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.",
@@ -11542,6 +11568,35 @@
       "stdio"
     ],
     "verified": "2026-11-25"
+  },
+  {
+    "name": "PayGate USDT",
+    "url": "https://github.com/EzequielLech/paygate-usdt",
+    "description": "Non-custodial multi-chain crypto checkout and x402 paywall MCP server verifying USDC, USDT, ETH, BNB, POL, SOL, and BTC payments on-chain across 7 networks.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "PayGate",
+    "tags": [
+      "crypto-payments",
+      "usdt",
+      "usdc",
+      "x402",
+      "checkout"
+    ],
+    "official": false,
+    "repository": "https://github.com/EzequielLech/paygate-usdt",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://chainguard-studio-production.up.railway.app/paygate/mcp"
+    }
   },
   {
     "name": "Vertov MCP",
