@@ -11814,6 +11814,32 @@
     ]
   },
   {
+    "name": "FiveSocket MT5",
+    "url": "https://fivesocket.com/mcp",
+    "description": "Hosted MetaTrader 5 MCP server and REST API: read balances, positions, history and candles on any MT5 broker, place orders (opt-in), no Windows needed. Read-only endpoint available.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "FiveSocket",
+    "tags": [
+      "trading",
+      "forex",
+      "metatrader",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.fivesocket.com/mcp/read"
+    },
+    "repository": "https://github.com/fivesocket/mt5-mcp-server",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Skillbook",
     "url": "https://myskillbook.kr/guide",
     "description": "Made by a Korea University student: saves what you understood with AI as one-line study rules in your Google Drive.",

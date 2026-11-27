@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1008-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1009-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (126)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (48)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (217)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (218)
 - [Utilities and Examples](#utilities-and-examples) (52)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1769,6 +1769,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `drug-prices` `pharmacy` `healthcare` `discount-card` `multilingual`
 - **[FirstSales MCP](https://developer.firstsales.io/agents/mcp-server)** `Official` `TypeScript` — Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan.  
   `crm` `contacts` `sales` `oauth` `remote`
+- **[FiveSocket MT5](https://fivesocket.com/mcp)** `Official` `TypeScript` — Hosted MetaTrader 5 MCP server and REST API: read balances, positions, history and candles on any MT5 broker, place orders (opt-in), no Windows needed. Read-only endpoint available. ([source](https://github.com/fivesocket/mt5-mcp-server))  
+  `trading` `forex` `metatrader` `remote`
 - **[Flight Seatmap](https://flightseatmap.com/mcp)** `Official` `Other` — Seat maps, seat ratings, traveller reviews and seat alerts for 100+ airlines, as a hosted remote MCP server.  
   `travel` `flights` `seat-map` `aviation`
 - **[Formquote MCP](https://github.com/Keith-CY/formquote-mcp)** `JavaScript` — Remote, read-only MCP server that compares published prices and licence fit for email-verification credits, sound-effect packs and font licences, citing the source and check date for each answer.  
