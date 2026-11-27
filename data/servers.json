@@ -15150,6 +15150,33 @@
     "official": true
   },
   {
+    "name": "SmartDrugs",
+    "url": "https://smartdrugs.com.br/desenvolvedores/",
+    "description": "Independent evidence-based information platform on nootropics in Brazilian Portuguese, with public read-only access and optional community tools after Google sign-in, always with confirmation in the chat.",
+    "category": "filesystems-and-documents",
+    "language": "Other",
+    "provider": "SmartDrugs",
+    "tags": [
+      "knowledge-base",
+      "nootropics",
+      "remote",
+      "research"
+    ],
+    "official": false,
+    "repository": "https://github.com/smartdrugs-org/mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://smartdrugs.com.br/mcp"
+    }
+  },
+  {
     "name": "vibe-testing",
     "url": "https://github.com/AishwaryShrivastav/vibe-testing",
     "description": "Scan web app routes and forms, run Playwright browser checks, and produce HTML QA reports through a local MCP server.",
