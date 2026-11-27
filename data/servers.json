@@ -6190,6 +6190,40 @@
     "repository": "https://github.com/nickgeorgeseo/mcp-gatehouse"
   },
   {
+    "name": "Proxies.sx",
+    "url": "https://agents.proxies.sx/mcp/",
+    "description": "Mobile and residential proxies for agents, metered per GB: check live stock by country, build rotating or sticky HTTP and SOCKS5 proxy URLs, rotate IPs, read usage and gateway errors, and rent a dedicated 4G/5G modem by day, week or month.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Proxies.sx",
+    "tags": [
+      "proxy",
+      "residential-proxy",
+      "mobile-proxy",
+      "web-scraping",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.proxies.sx/mcp"
+    },
+    "repository": "https://github.com/bolivian-peru/proxies-sx-mcp-server",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@proxies-sx/mcp-server"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "ichi-mcp",
     "url": "https://github.com/bernik-bot/ichi-mcp",
     "description": "Read the free public ICHI Internet Cyber Health Index: current threat band and score, recent critical-advisory alerts, and source feed health.",

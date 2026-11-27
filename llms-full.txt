@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1050 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1051 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2653,6 +2653,24 @@ Official Microsoft Playwright server for browser automation via accessibility sn
 - Official: yes
 - Tags: browser, playwright, automation
 - Category: Browsers, Search, and Web Automation
+
+### Proxies.sx
+
+Mobile and residential proxies for agents, metered per GB: check live stock by country, build rotating or sticky HTTP and SOCKS5 proxy URLs, rotate IPs, read usage and gateway errors, and rent a dedicated 4G/5G modem by day, week or month.
+
+- URL: https://agents.proxies.sx/mcp/
+- Language: TypeScript
+- Provider: Proxies.sx
+- Official: yes
+- Tags: proxy, residential-proxy, mobile-proxy, web-scraping, remote
+- Category: Browsers, Search, and Web Automation
+- Repository: https://github.com/bolivian-peru/proxies-sx-mcp-server
+- License: MIT
+- Pricing: paid
+- Transport: stdio, streamable-http
+- Auth: none, api-key
+- Install: npx @proxies-sx/mcp-server
+- Streamable HTTP endpoint: https://api.proxies.sx/mcp
 
 ### Puppeteer MCP Server
 
