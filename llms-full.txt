@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 984 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 985 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -8359,6 +8359,24 @@ An MCP for marketers that gives agents tools for SEO, AEO, socials and ads data,
 - Category: Data, Analytics, and BI
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.manifoldmcp.com/mcp
+
+### maviapi
+
+The unofficial API for any website, as MCP tools: search ready site APIs, read their endpoints, call them for live structured JSON, or have a new one built. Data only; it never acts on the target sites.
+
+- URL: https://maviapi.com/docs#mcp
+- Language: TypeScript
+- Provider: KuzenLabs
+- Official: yes
+- Tags: structured-data, json, site-apis, remote
+- Category: Data, Analytics, and BI
+- Repository: https://github.com/kuzenlabs/maviapi-mcp
+- License: MIT
+- Pricing: freemium
+- Transport: stdio, streamable-http
+- Auth: none, api-key, oauth
+- Install: npx @maviapi/mcp
+- Streamable HTTP endpoint: https://mcp.maviapi.com/mcp
 
 ### Metabase MCP Server
 
