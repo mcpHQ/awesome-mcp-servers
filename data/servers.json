@@ -5261,7 +5261,7 @@
   {
     "name": "Adspy",
     "url": "https://www.adspy.sh",
-    "description": "Hosted MCP server for ad research: search brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Shows no spend or ROAS; TikTok ads are not covered.",
+    "description": "Hosted MCP server for ad research: brands' public Meta and Google ads, TikTok and Pinterest ads in listed regions, and organic TikTok, YouTube and Instagram posts, from Claude, ChatGPT, Claude Code or Codex. No spend or ROAS.",
     "category": "data-analytics-and-bi",
     "language": "Other",
     "provider": "Adspy",
@@ -5693,6 +5693,34 @@
     ],
     "auth": [
       "oauth"
+    ]
+  },
+  {
+    "name": "Dock",
+    "url": "https://dock.space/agents",
+    "description": "dock.space presentation editor for PowerPoint, Keynote and PDF: agents create decks from Dock templates or uploaded .pptx and .key files, edit with 200+ actions, render slides to check the result, and export PPTX or PDF.",
+    "category": "filesystems-and-documents",
+    "language": "Other",
+    "provider": "GNTC",
+    "tags": [
+      "presentations",
+      "powerpoint",
+      "pptx",
+      "slides",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.dock.space/v1/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
     ]
   },
   {
@@ -6837,6 +6865,34 @@
     ]
   },
   {
+    "name": "PDF & Image to Markdown/Text (Apify Actors)",
+    "url": "https://github.com/Skaarking/pdf-to-markdown-api",
+    "description": "Converts public text-layer PDF URLs to Markdown with page markers and detected tables, and extracts text from images with English/Spanish OCR, via two hosted Apify Actors billed per document.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "gunpark",
+    "tags": [
+      "pdf",
+      "markdown",
+      "ocr",
+      "rag",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=gunpark/pdf-to-markdown-extractor,gunpark/bulk-image-ocr"
+    },
+    "repository": "https://github.com/Skaarking/pdf-to-markdown-api",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Carbon",
     "url": "https://github.com/CarbonDataSolutions/carbon-mcp",
     "description": "Hire skills-assessed data professionals from any MCP host. Post your role free. Hosted Streamable HTTP server with OAuth.",
@@ -7468,6 +7524,30 @@
     "license": "MIT",
     "transport": [
       "stdio"
+    ]
+  },
+  {
+    "name": "Kanvas",
+    "url": "https://github.com/open-kanvas/kanvas",
+    "description": "Gives an AI agent a screen in any browser to show tables, dashboards and diagrams.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Kanvas",
+    "tags": [
+      "visualization",
+      "display",
+      "dashboard",
+      "remote"
+    ],
+    "official": false,
+    "repository": "https://github.com/open-kanvas/kanvas",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "auth": [
+      "oauth"
+    ],
+    "transport": [
+      "streamable-http"
     ]
   },
   {
@@ -9198,6 +9278,35 @@
     ]
   },
   {
+    "name": "MotionVideo",
+    "url": "https://motionvideo.xyz/docs/mcp",
+    "description": "Hosted MCP server for searching the motionvideo.xyz catalog of AI-made motion videos, pulling the original prompt behind an entry, and browsing motion tools and studios.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "MotionVideo",
+    "tags": [
+      "video",
+      "motion-design",
+      "prompts",
+      "animation",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/motionvideohq/motionvideo-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.motionvideo.xyz/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none",
+      "oauth"
+    ]
+  },
+  {
     "name": "MCP Inspector",
     "url": "https://github.com/modelcontextprotocol/inspector",
     "description": "Visual testing tool for debugging MCP server capabilities and messages.",
@@ -9434,6 +9543,34 @@
     "repository": "https://github.com/modelcontextprotocol/servers"
   },
   {
+    "name": "Genaya Connect",
+    "url": "https://developer.genaya.com/mcp",
+    "description": "Hosted MCP server for Genaya, an operations app for service businesses: ask about appointments, clients, invoices, calls and tasks, and prepare changes that run only after the member confirms them.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Genaya",
+    "tags": [
+      "crm",
+      "scheduling",
+      "invoicing",
+      "small-business",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://api.genaya.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "MailVeri MCP",
     "url": "https://github.com/mailveri/mailveri-mcp",
     "description": "Verify single emails or bulk lists (valid, invalid, disposable, catch-all, role) from an AI agent through the MailVeri API.",
@@ -9523,6 +9660,30 @@
     "repository": "https://github.com/modelcontextprotocol/typescript-sdk"
   },
   {
+    "name": "Gradium",
+    "url": "https://registry.modelcontextprotocol.io/?q=ai.gradium%2Fmcp",
+    "description": "Gradium text-to-speech: browse voices, generate speech as WAV audio, and check your organization's credit balance.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Gradium",
+    "tags": [
+      "text-to-speech",
+      "voice",
+      "audio",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.gradium.ai/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "xmcp",
     "url": "https://xmcp.dev",
     "description": "Search the xmcp TypeScript MCP framework documentation through a public read-only MCP server.",
@@ -9565,6 +9726,32 @@
     ],
     "auth": [
       "oauth"
+    ]
+  },
+  {
+    "name": "HospitalAid",
+    "url": "https://hospitalaid.org/for-ai/",
+    "description": "Free, read-only lookup of US hospital charity care policies and health center sliding fees, with a source link for each number. Five tools find facilities, estimate eligibility, show the policy and the steps to apply.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "HospitalAid",
+    "tags": [
+      "healthcare",
+      "hospital-bills",
+      "charity-care",
+      "public-data",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://hospitalaid.org/mcp"
+    },
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
     ]
   },
   {
@@ -9728,6 +9915,33 @@
     ]
   },
   {
+    "name": "RZLT",
+    "url": "https://github.com/therzlt/rzlt-mcp",
+    "description": "Official hosted MCP server for RZLT, an AI-native growth and marketing agency: services, case studies, a fit check, a free website AI-readiness check and a contact tool.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "RZLT",
+    "tags": [
+      "marketing",
+      "agency",
+      "seo",
+      "ai-readiness",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/therzlt/rzlt-mcp",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://mcp.rzlt.io/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "MELRA",
     "url": "https://github.com/XAGI-Lab/melra",
     "description": "Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation.",
@@ -9743,6 +9957,31 @@
     ],
     "official": true,
     "repository": "https://github.com/XAGI-Lab/melra"
+  },
+  {
+    "name": "Mint",
+    "url": "https://mint.gg/mcp-config-generator",
+    "description": "Hosted Mint server for agents to generate, revise and approve 3D models and 3D worlds, upload reference images, and read assets, statuses and credits.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Mint",
+    "tags": [
+      "3d-generation",
+      "text-to-3d",
+      "image-to-3d",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.mint.gg/mcp"
+    }
   },
   {
     "name": "3Q Tools",
@@ -9851,6 +10090,34 @@
     ],
     "official": false,
     "repository": "https://github.com/InditexTech/mcp-teams-server"
+  },
+  {
+    "name": "Groundsocial",
+    "url": "https://groundsocial.dev/docs/mcp",
+    "description": "Read public data from 77 platforms (Reddit, X, TikTok, Instagram, YouTube, LinkedIn, Google, Amazon) as each platform's own JSON. Remote Streamable HTTP at https://api.groundsocial.dev/mcp.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Groundsocial",
+    "tags": [
+      "social-media",
+      "scraping",
+      "reddit",
+      "search",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/shivanshmehendiratta/groundsocial-mcp",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://api.groundsocial.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
   },
   {
     "name": "Mixpanel MCP Server",
@@ -10064,6 +10331,31 @@
     "official": true
   },
   {
+    "name": "AppStruct Docs MCP",
+    "url": "https://blog.appstruct.ai/blog/docs-mcp-meeting-notes-to-project-brief?utm_source=mcphq&utm_medium=referral&utm_campaign=docs_claude_code_20261120&utm_content=docs_listing_01",
+    "description": "Read, search and edit documents you own in AppStruct Docs using hosted MCP and a scoped Bearer key; requires an AppStruct account with Docs access.",
+    "category": "filesystems-and-documents",
+    "language": "Other",
+    "provider": "AppStruct",
+    "tags": [
+      "documents",
+      "docs",
+      "productivity",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.appstruct.cloud/v1/docs/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "AI SEO Tracker",
     "url": "https://aiseotracker.com/docs/mcp",
     "description": "Track brand visibility, citations, prompts, competitors, and missing citation sources across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews.",
@@ -10208,6 +10500,34 @@
     ]
   },
   {
+    "name": "Clema",
+    "url": "https://clema.ai/docs/mcp",
+    "description": "Hosted MCP server for higher-ed institutional research teams to manage IR data request tickets and run read-only SQL on public IPEDS and College Scorecard data.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Clema",
+    "tags": [
+      "higher-education",
+      "ipeds",
+      "college-scorecard",
+      "institutional-research",
+      "sql"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.clema.ai/mcp"
+    },
+    "repository": "https://github.com/wilsonbright/clema-mcp",
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Neither MCP",
     "url": "https://github.com/stonianua/neither-mcp",
     "description": "Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.",
@@ -10310,6 +10630,217 @@
     ]
   },
   {
+    "name": "Branching Story MCP",
+    "url": "https://github.com/ouba-studio/branching-story-mcp",
+    "description": "Zero-dependency stdio MCP server that validates branching story graphs, runs deterministic state transitions with a verifiable trace hash, detects memory drift in transcripts, and exposes the 2026 AI Story Continuity Benchmark dataset.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Ouba Studio",
+    "tags": [
+      "interactive-fiction",
+      "story-engine",
+      "benchmark",
+      "stdio",
+      "state-machine"
+    ],
+    "official": true,
+    "repository": "https://github.com/ouba-studio/branching-story-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "branching-story-mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "Inkspira",
+    "url": "https://inkspira.de/tattoo-generator/",
+    "description": "Plan a tattoo with style and placement options, prefilled generator links, actual-size 3 cm and 5 cm print samples, and a photo placement preview.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "Inkspira",
+    "tags": [
+      "tattoo",
+      "design",
+      "printables",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/TJLDC/inkspira-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://inkspira-mcp.743078294ldc.workers.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-26"
+  },
+  {
+    "name": "The Network Tools",
+    "url": "https://thenetworktools.com/docs/mcp",
+    "description": "Hosted read-only MCP server for DNS records, MX routing, SPF/DMARC email security, HTTP security headers, and ICANN RDAP lookups.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "The Network Tools",
+    "tags": [
+      "dns",
+      "ssl",
+      "dmarc",
+      "security",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://thenetworktools.com/mcp"
+    }
+  },
+  {
+    "name": "ScanMalware",
+    "url": "https://mcp.scanmalware.com/",
+    "description": "Submits URLs for analysis in isolated environments and searches the public scan archive by domain, IP, ASN, JARM or favicon hash, with AI classification of suspicious pages by scam type.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "ScanMalware",
+    "tags": [
+      "phishing",
+      "url-scanning",
+      "threat-intelligence",
+      "osint",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/scanmalware/mcp-server",
+    "license": "Apache-2.0",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.scanmalware.com/mcp"
+    }
+  },
+  {
+    "name": "maviapi",
+    "url": "https://maviapi.com/docs#mcp",
+    "description": "The unofficial API for any website, as MCP tools: search ready site APIs, read their endpoints, call them for live structured JSON, or have a new one built. Data only; it never acts on the target sites.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "KuzenLabs",
+    "tags": [
+      "structured-data",
+      "json",
+      "site-apis",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/kuzenlabs/maviapi-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.maviapi.com/mcp"
+    },
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@maviapi/mcp"
+    },
+    "auth": [
+      "none",
+      "api-key",
+      "oauth"
+    ]
+  },
+  {
+    "name": "Cueston",
+    "url": "https://cueston.com/docs/mcp",
+    "description": "Hosted MCP server to build, preview and publish in-app product tours, tooltips, banners, onboarding checklists, surveys and announcements on a SaaS app, and read their analytics.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Cueston",
+    "tags": [
+      "onboarding",
+      "product-tours",
+      "in-app-guidance",
+      "saas",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/andreycretsu/cueston-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "cueston"
+    },
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://app.cueston.com/api/mcp"
+    }
+  },
+  {
+    "name": "FineRx",
+    "url": "https://www.finerxfinder.com/en/connect",
+    "description": "Observed US prescription prices by pharmacy chain with the date seen, the free FineRx discount card and US equivalents of foreign-brand medicines, in 12 languages; an independent comparison service, not insurance or medical advice.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "FineRx",
+    "tags": [
+      "drug-prices",
+      "pharmacy",
+      "healthcare",
+      "discount-card",
+      "multilingual"
+    ],
+    "official": true,
+    "repository": "https://github.com/andrewfinerx/finerx-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "finerx-mcp"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "Netdata MCP Server",
     "url": "https://github.com/netdata/netdata",
     "description": "Real-time infrastructure monitoring and health metrics via MCP.",
@@ -10323,6 +10854,31 @@
     ],
     "official": true,
     "repository": "https://github.com/netdata/netdata"
+  },
+  {
+    "name": "Vertov MCP",
+    "url": "https://vertov.app/docs/mcp",
+    "description": "Search workspace recordings, read timestamped transcripts, and upload videos for sharing.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Vertov",
+    "tags": [
+      "video",
+      "screen-recording",
+      "transcripts"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://vertov.app/mcp"
+    }
   },
   {
     "name": "WhatsDownNow",
@@ -10534,6 +11090,30 @@
     "repository": "https://github.com/ateymoori/oh-my-android"
   },
   {
+    "name": "FastScribe",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/org.fastscribe%2Ffastscribe/versions/latest",
+    "description": "Transcribe a supported public video link and retrieve the transcript as plain text, timestamped text, or SRT using a FastScribe access token.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "FastScribe",
+    "tags": [
+      "transcription",
+      "subtitles",
+      "video",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://fastscribe.org/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "OMX for Hyperliquid",
     "url": "https://github.com/Lumen-Founder/omx",
     "description": "Non-custodial Hyperliquid perps execution for AI agents: pre-trade limits, human approval, kill switch, audit log; keyless demo via `uvx omx-hyperliquid`; optional disclosed 1 bp builder fee.",
@@ -10660,6 +11240,35 @@
     "transport": [
       "streamable-http"
     ]
+  },
+  {
+    "name": "Vadyu AI Video Ad Studio",
+    "url": "https://vadyu.com/api-docs#mcp",
+    "description": "Preview Shopify or DTC storefronts with zero auth and render multi-cut 9:16, 4:5, 1:1, and 16:9 commercial AI video ads with 3D studio lighting and voiceover.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Vadyu",
+    "tags": [
+      "video-ads",
+      "shopify",
+      "ecommerce",
+      "marketing"
+    ],
+    "official": true,
+    "repository": "https://github.com/crawde/mcp-vadyu",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http",
+      "stdio"
+    ],
+    "auth": [
+      "none",
+      "api-key"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://vadyu.com/api/mcp"
+    }
   },
   {
     "name": "ORANO",
@@ -11000,6 +11609,35 @@
     ]
   },
   {
+    "name": "Benchline",
+    "url": "https://benchline.fabwaseem.com",
+    "description": "Free remote MCP server exposing 61 developer tools (JSON, PDF, images, JWT, DNS, llms.txt and more) over Streamable HTTP with no API key, account, or session.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Benchline",
+    "tags": [
+      "developer-tools",
+      "json",
+      "pdf",
+      "jwt",
+      "dns"
+    ],
+    "official": true,
+    "repository": "https://github.com/fabwaseem/benchline",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://benchline.fabwaseem.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
     "name": "Cockatoo",
     "url": "https://cockatoo.com.au/docs/",
     "description": "Create, edit and publish hosted business websites with owner-approved access.",
@@ -11074,7 +11712,7 @@
   },
   {
     "name": "DROP File Transfer",
-    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/space.drop%2Fdrop/versions/latest",
+    "url": "https://drop.space/en/agent-file-transfer/#check-mcp-connection",
     "description": "Send selected files, collect client uploads through file requests, and share approved results from an agent with expiring download links.",
     "category": "filesystems-and-documents",
     "language": "TypeScript",
@@ -11093,6 +11731,59 @@
     ],
     "auth": [
       "api-key"
+    ]
+  },
+  {
+    "name": "Skillbook",
+    "url": "https://myskillbook.kr/guide",
+    "description": "Made by a Korea University student: saves what you understood with AI as one-line study rules in your Google Drive.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Skillbook",
+    "tags": [
+      "education",
+      "study",
+      "memory",
+      "google-drive",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://myskillbook.kr/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "GhostPaw Codex",
+    "url": "https://github.com/GhostPawJS/codex",
+    "description": "Local SQLite memory for AI agents that retains sources, certainty and revision history. Run `npx -y @ghostpaw/codex mcp` over stdio with Node.js 24+.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "GhostPawJS",
+    "tags": [
+      "memory",
+      "sqlite",
+      "agent-memory"
+    ],
+    "official": true,
+    "repository": "https://github.com/GhostPawJS/codex",
+    "license": "MIT",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@ghostpaw/codex"
+    },
+    "auth": [
+      "none"
     ]
   },
   {
@@ -11962,6 +12653,32 @@
     "official": true,
     "repository": "https://github.com/scalekit-inc/scalekit-mcp-server",
     "auth": [
+      "oauth"
+    ]
+  },
+  {
+    "name": "CheckLeaked MCP",
+    "url": "https://checkleaked.cc/developers",
+    "description": "Searches breach data by email, username, phone, domain or hash, checks password exposure with k-anonymity, cracks hashes, runs IP and WHOIS lookups and manages breach monitoring.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "CheckLeaked",
+    "tags": [
+      "breach-data",
+      "osint",
+      "security",
+      "password"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.checkleaked.cc/mcp"
+    },
+    "auth": [
+      "api-key",
       "oauth"
     ]
   },
@@ -12996,6 +13713,33 @@
     ]
   },
   {
+    "name": "Freepost",
+    "url": "https://freepost.io/developers",
+    "description": "Hosted MCP for Freepost, an AI social media team for Chinese and global platforms: drafts a version of each post per platform, you review, then schedules and publishes from your own signed-in accounts; live on Xiaohongshu, Instagram and X.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Freepost",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "publishing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://freepost.io/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "SwarmMemo",
     "url": "https://github.com/Hugo0/swarmmemo",
     "description": "Public message board for AI agents: read and post with no account, use an agent toolkit (web fetch, memory, wake-ups, webhook receivers) and paid APIs on a free daily allowance, and sign in with OAuth for MCP clients.",
@@ -13226,6 +13970,22 @@
     "auth": [
       "oauth"
     ]
+  },
+  {
+    "name": "ACQ",
+    "url": "https://github.com/damri-labs/acq",
+    "description": "Two-seat plain-text relay for agents on different machines, over MCP or curl; the relay can read text, and guest rooms expire with best-effort deletion.",
+    "category": "communication-and-productivity",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "communication",
+      "mcp",
+      "curl"
+    ],
+    "official": false,
+    "repository": "https://github.com/damri-labs/acq",
+    "license": "MIT"
   },
   {
     "name": "Tale",
@@ -14026,9 +14786,9 @@
     "repository": "https://github.com/isdaniel/mcp_weather_server"
   },
   {
-    "name": "Whimbrel MedTech Analyst",
-    "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
-    "description": "Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.",
+    "name": "Whimbrel: Medtech Research",
+    "url": "https://whimbrelresearch.com/",
+    "description": "Find US medical device clients and Contacts at each company, in ChatGPT, Claude or the web app.",
     "category": "finance-commerce-and-business-apps",
     "language": "JavaScript",
     "provider": "Whimbrel Research",
@@ -14947,6 +15707,33 @@
     "verified": "2026-11-03"
   },
   {
+    "name": "Hydracept",
+    "url": "https://docs.hydracept.com/",
+    "description": "Executes external capabilities such as image, video, audio, text, DNS, and domain operations for agents through one catalog with sealed pricing and receipts.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Hydracept",
+    "tags": [
+      "agents",
+      "capabilities",
+      "media-generation",
+      "receipts"
+    ],
+    "official": true,
+    "repository": "https://github.com/zencodeinc/hydracept-public",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.hydracept.com/mcp"
+    },
+    "auth": [
+      "api-key"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
     "name": "PostOnce",
     "url": "https://docs.postonce.to/mcp/docs",
     "description": "Official remote MCP server to post and schedule one video or image to many social networks, including Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Threads, Pinterest and Bluesky.",
@@ -15614,7 +16401,7 @@
   {
     "name": "CoreSpeed",
     "url": "https://corespeed.io/docs/mcp",
-    "description": "Hosted OAuth MCP gateway for any agent: your connected apps (Notion, Slack, GitHub, Gmail and more), shared team memory, web search, social data and media tools, with spend caps and an activity log.",
+    "description": "CoreSpeed is the agent-native cloud: one MCP endpoint that gives AI agents such as Claude Code, Codex and Cursor your apps, built-in tools and team memory.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
     "provider": "CoreSpeed",
@@ -20472,7 +21259,7 @@
       "oauth"
     ],
     "official": true,
-    "repository": "https://github.com/photo2skin/clippertask-mcp",
+    "repository": "https://github.com/clippertask/clippertask-mcp",
     "endpoints": {
       "streamableHttp": "https://mcp.clippertask.com/mcp"
     },
@@ -21961,5 +22748,33 @@
       "finance"
     ],
     "official": true
+  },
+  {
+    "name": "Caelo",
+    "url": "https://caelo.sh",
+    "description": "Free, local security scanner for AI-built apps: finds exposed API keys, Supabase service-role keys, browser-bundled secrets, open Firebase rules, and committed .env files.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Irth Labs",
+    "tags": [
+      "security",
+      "secret-scanning",
+      "static-analysis",
+      "local"
+    ],
+    "official": false,
+    "repository": "https://github.com/arthi-arumugam-git/caelo",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "caelo"
+    },
+    "auth": [
+      "none"
+    ]
   }
 ]
