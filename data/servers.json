@@ -10574,6 +10574,35 @@
     ]
   },
   {
+    "name": "Branching Story MCP",
+    "url": "https://github.com/ouba-studio/branching-story-mcp",
+    "description": "Zero-dependency stdio MCP server that validates branching story graphs, runs deterministic state transitions with a verifiable trace hash, detects memory drift in transcripts, and exposes the 2026 AI Story Continuity Benchmark dataset.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Ouba Studio",
+    "tags": [
+      "interactive-fiction",
+      "story-engine",
+      "benchmark",
+      "stdio",
+      "state-machine"
+    ],
+    "official": true,
+    "repository": "https://github.com/ouba-studio/branching-story-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "uvx",
+      "package": "branching-story-mcp"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Inkspira",
     "url": "https://inkspira.de/tattoo-generator/",
     "description": "Plan a tattoo with style and placement options, prefilled generator links, actual-size 3 cm and 5 cm print samples, and a photo placement preview.",
