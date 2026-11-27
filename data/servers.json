@@ -13427,6 +13427,33 @@
     "repository": "https://github.com/snyk/studio-mcp"
   },
   {
+    "name": "StickerByVIN",
+    "url": "https://stickerbyvin.com/developers",
+    "description": "Check whether a car's original window sticker (Monroney label) is on file for a VIN, with vehicle decode and recall count.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "StickerByVIN",
+    "tags": [
+      "vin",
+      "automotive",
+      "window-sticker",
+      "recalls",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://stickerbyvin.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "SoChain",
     "url": "https://sochain.com/docs",
     "description": "Hosted MCP server for Bitcoin, Litecoin, Dogecoin and Zcash: address balances and history, transactions, blocks and mempool fee estimates. Lookups work without an API key; a key raises the limits.",
