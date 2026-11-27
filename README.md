@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1032-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1033-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (95)
 - [Filesystems and Documents](#filesystems-and-documents) (43)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
-- [Communication and Productivity](#communication-and-productivity) (134)
+- [Communication and Productivity](#communication-and-productivity) (135)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (114)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (134)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -982,6 +982,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `social-media` `tiktok` `instagram` `remote` `oauth`
 - **[Whisper Memos](https://whispermemos.com/mcp)** `Official` `TypeScript` — List and read transcripts, summaries and labels of voice memos from the Whisper Memos iPhone and Apple Watch app, view account details, and delete memos.  
   `voice-memos` `transcription` `notes` `oauth`
+- **[Wiro Agent Connectors](https://github.com/wiroai/Wiro-Agent-Connectors)** `TypeScript` — MCP connectors for 45 services with no official MCP server, such as Gmail, Google Ads, Shopify, YouTube and Notion; each one runs as its own stdio server with npx and your own credentials.  
+  `connectors` `social-media` `marketing` `google` `ecommerce`
 - **[WriteStack MCP Server](https://www.writestack.io/mcp)** `Official` `TypeScript` — Official hosted server for drafting and scheduling Substack Notes, managing articles, and reading writing statistics in a WriteStack account.  
   `substack` `writing` `newsletter` `social-media` `remote`
 - **[Zoom MCP Server](https://developers.zoom.us/docs/mcp/)** `Official` `Other` — Official hosted Zoom MCP servers for meetings, chat, docs, and whiteboards.  
