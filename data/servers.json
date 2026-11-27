@@ -12973,6 +12973,33 @@
     ]
   },
   {
+    "name": "Freepost",
+    "url": "https://freepost.io/developers",
+    "description": "Hosted MCP for Freepost, an AI social media team for Chinese and global platforms: drafts a version of each post per platform, you review, then schedules and publishes from your own signed-in accounts; live on Xiaohongshu, Instagram and X.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Freepost",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "publishing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://freepost.io/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "SwarmMemo",
     "url": "https://github.com/Hugo0/swarmmemo",
     "description": "Public message board for AI agents: read and post with no account, use an agent toolkit (web fetch, memory, wake-ups, webhook receivers) and paid APIs on a free daily allowance, and sign in with OAuth for MCP clients.",
