@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1007 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1008 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -835,6 +835,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [CorpusIQ](https://docs.corpusiq.io?utm_source=mcphq&utm_medium=listing): Remote MCP server for live business data: read-only retrieval across 40+ connected systems including Stripe, Shopify, QuickBooks, HubSpot and GA4, with source-cited answers and OAuth 2.1 dynamic client registration. (Other, official)
 - [CreditUnions](https://creditunions.fyi): Query federally insured US credit unions from NCUA call report data by city and state: charter, field of membership, assets, members and branches. (TypeScript)
 - [Crevio](https://crevio.co/docs/developer/mcp): Delegate work to an AI agent that runs your small business (products, orders, customers, email, sites), or run scripts against the Crevio API and 3,000+ connected apps. (Ruby, official)
+- [CrowdWisdom Trading](https://github.com/CrowdWisdomTradingx402/crowdwisdomtrading-python): Hosted MCP server that returns a crowd sentiment score from -100 to +100 and the count of pro traders for a ticker, for today or for the week. (Python, official)
 - [Crypto Regime MCP](https://github.com/Shicodiez/crypto-regime-mcp): Crypto trend, regime and indicators tools, pay-per-call via x402 on Base. (JavaScript)
 - [CryptoExchangeIn](https://cryptoexchangein.com/about): Crypto exchange legality by country, true fee and spread calculator, and cold wallet comparisons, through a keyless remote MCP server. (TypeScript, official)
 - [CueHQ](https://www.cuehq.social/agents): Finds the Reddit, X, YouTube and TikTok threads where people ask for a product like yours, ranked, with reply drafts in your voice. (TypeScript, official)

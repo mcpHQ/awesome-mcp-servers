@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1007-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1008-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (126)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (48)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (216)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (217)
 - [Utilities and Examples](#utilities-and-examples) (52)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
 
@@ -1713,6 +1713,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `credit-unions` `ncua` `banking` `directory`
 - **[Crevio](https://crevio.co/docs/developer/mcp)** `Official` `Ruby` — Delegate work to an AI agent that runs your small business (products, orders, customers, email, sites), or run scripts against the Crevio API and 3,000+ connected apps.  
   `small-business` `ecommerce` `agents` `automation` `remote`
+- **[CrowdWisdom Trading](https://github.com/CrowdWisdomTradingx402/crowdwisdomtrading-python)** `Official` `Python` — Hosted MCP server that returns a crowd sentiment score from -100 to +100 and the count of pro traders for a ticker, for today or for the week.  
+  `sentiment` `stocks` `trading` `remote` `x402`
 - **[Crypto Regime MCP](https://github.com/Shicodiez/crypto-regime-mcp)** `JavaScript` — Crypto trend, regime and indicators tools, pay-per-call via x402 on Base.  
   `crypto` `trading` `x402` `base`
 - **[CryptoExchangeIn](https://cryptoexchangein.com/about)** `Official` `TypeScript` — Crypto exchange legality by country, true fee and spread calculator, and cold wallet comparisons, through a keyless remote MCP server.  

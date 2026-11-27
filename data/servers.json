@@ -8089,6 +8089,32 @@
     ]
   },
   {
+    "name": "CrowdWisdom Trading",
+    "url": "https://github.com/CrowdWisdomTradingx402/crowdwisdomtrading-python",
+    "description": "Hosted MCP server that returns a crowd sentiment score from -100 to +100 and the count of pro traders for a ticker, for today or for the week.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "CrowdWisdom Trading",
+    "tags": [
+      "sentiment",
+      "stocks",
+      "trading",
+      "remote",
+      "x402"
+    ],
+    "official": true,
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://api.crowdwisdomtrading.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "GetYouTubeTranscript",
     "url": "https://github.com/tubeagentkit/youtube-mcp",
     "description": "YouTube transcripts and data over MCP: fetch a video's captions (language choice, optional timestamps), search YouTube, and browse channels, playlists and related videos.",
