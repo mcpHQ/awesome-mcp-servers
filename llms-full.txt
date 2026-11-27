@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 974 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 975 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1459,6 +1459,20 @@ Code intelligence and search across large codebases with Cody.
 - Official: yes
 - Tags: code-search, ai, enterprise
 - Category: Developer Tools and Code Intelligence
+
+### SPARDA
+
+Behavioural verification engine for backends: compiles declared routes, mutations, guards, effects and constraints into a deterministic graph, then evaluates verification obligations on it, and runs offline with a CLI and an MCP runtime.
+
+- URL: https://github.com/zakariagharzouli/sparda
+- Language: JavaScript
+- Provider: Residual Labs
+- Official: no
+- Tags: backend, verification, static-analysis
+- Category: Developer Tools and Code Intelligence
+- License: source-available
+- Transport: stdio
+- Install: npx sparda-mcp
 
 ### Spinnaker MCP Server
 
