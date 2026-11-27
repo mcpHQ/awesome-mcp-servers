@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-990-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-991-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (40)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
 - [Communication and Productivity](#communication-and-productivity) (133)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (111)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (112)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (125)
 - [Legal and Court Data](#legal-and-court-data) (11)
 - [Security and Identity](#security-and-identity) (45)
@@ -1099,6 +1099,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `agents` `mcp` `policy` `approvals` `recovery`
 - **[mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp)** `Official` `Other` — Hosted persistent memory layer for personalized agent interactions.  
   `memory` `personalization` `agents`
+- **[Mint](https://mint.gg/mcp-config-generator)** `Official` `Other` — Hosted Mint server for agents to generate, revise and approve 3D models and 3D worlds, upload reference images, and read assets, statuses and credits.  
+  `3d-generation` `text-to-3d` `image-to-3d` `remote` `oauth`
 - **[Mnemosyne OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/tree/main/packages/mcp)** `Official` `TypeScript` — Stdio MCP server (MIT) for Mnemosyne OS, a desktop memory app where watched folders feed separate vaults on the user's machine, searched by vector and local BM25; open core, the memory engine ships closed. ([source](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS))  
   `memory` `local-first` `rag` `vaults` `desktop`
 - **[MuAPI MCP Server](https://muapi.ai/docs/mcp)** `Official` `Other` — Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.  
