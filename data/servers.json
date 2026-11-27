@@ -6190,6 +6190,40 @@
     "repository": "https://github.com/nickgeorgeseo/mcp-gatehouse"
   },
   {
+    "name": "Proxies.sx",
+    "url": "https://agents.proxies.sx/mcp/",
+    "description": "Mobile and residential proxies for agents, metered per GB: check live stock by country, build rotating or sticky HTTP and SOCKS5 proxy URLs, rotate IPs, read usage and gateway errors, and rent a dedicated 4G/5G modem by day, week or month.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Proxies.sx",
+    "tags": [
+      "proxy",
+      "residential-proxy",
+      "mobile-proxy",
+      "web-scraping",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.proxies.sx/mcp"
+    },
+    "repository": "https://github.com/bolivian-peru/proxies-sx-mcp-server",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "@proxies-sx/mcp-server"
+    },
+    "auth": [
+      "none",
+      "api-key"
+    ]
+  },
+  {
     "name": "ichi-mcp",
     "url": "https://github.com/bernik-bot/ichi-mcp",
     "description": "Read the free public ICHI Internet Cyber Health Index: current threat band and score, recent critical-advisory alerts, and source feed health.",
@@ -6675,6 +6709,35 @@
     ]
   },
   {
+    "name": "DNS Lookup MCP",
+    "url": "https://apify.com/publicrecords/dns-lookup",
+    "description": "Bulk DNS lookup for a list of domains: A, MX, NS, TXT, SPF, DMARC and email provider, one row per domain.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "dns",
+      "mx",
+      "spf",
+      "dmarc",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/dns-lookup"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "genesis-blackbox",
     "url": "https://github.com/johannschiffer/genesis-blackbox",
     "description": "Deterministic runtime flight recorder, AST blast-radius analyzer, and causal crash compiler for AI-assisted engineering.",
@@ -7145,6 +7208,34 @@
     },
     "transport": [
       "streamable-http"
+    ]
+  },
+  {
+    "name": "Academic Paper Search & DOI Lookup MCP",
+    "url": "https://apify.com/publicrecords/crossref-papers-doi-lookup",
+    "description": "Search Crossref scholarly works or look up DOIs for title, authors, journal, citation counts and retraction flags.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "crossref",
+      "doi",
+      "research",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/crossref-papers-doi-lookup"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
     ]
   },
   {
@@ -9438,6 +9529,34 @@
     ]
   },
   {
+    "name": "Wikipedia Search, ECB FX & Treasury Yields MCP",
+    "url": "https://apify.com/publicrecords/wikipedia-search",
+    "description": "Search Wikipedia for article extracts, or fetch official ECB euro foreign-exchange reference rates and U.S. Treasury par yields.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "wikipedia",
+      "exchange-rates",
+      "treasury",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/wikipedia-search"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "MotionVideo",
     "url": "https://motionvideo.xyz/docs/mcp",
     "description": "Hosted MCP server for searching the motionvideo.xyz catalog of AI-made motion videos, pulling the original prompt behind an entry, and browsing motion tools and studios.",
@@ -9974,6 +10093,39 @@
     "auth": [
       "none"
     ]
+  },
+  {
+    "name": "Outscraper MCP",
+    "url": "https://mcp.outscraper.com/",
+    "description": "Business catalog search, Google Maps scraping, reviews, and enrichment through a local Node bridge using an API key or the hosted OAuth MCP endpoint.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Outscraper",
+    "tags": [
+      "business-data",
+      "google-maps",
+      "reviews",
+      "enrichment",
+      "web-scraping"
+    ],
+    "official": true,
+    "repository": "https://github.com/outscraper/outscraper-mcp-server",
+    "license": "MIT",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "outscraper-mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.outscraper.com/mcp"
+    }
   },
   {
     "name": "MCPJungle",
@@ -10739,6 +10891,32 @@
     ]
   },
   {
+    "name": "SimOwl",
+    "url": "https://simowl.com/ai-assistants",
+    "description": "Find prepaid travel eSIM plans for 148 countries and 10 regions, check if a phone supports eSIM, and estimate trip data, through a hosted read-only MCP server with no sign-in.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "SimOwl",
+    "tags": [
+      "travel",
+      "esim",
+      "commerce",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/AnisDhiyaEddine/simowl-mcp",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://simowl.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "Neither MCP",
     "url": "https://github.com/stonianua/neither-mcp",
     "description": "Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.",
@@ -11287,6 +11465,27 @@
     ]
   },
   {
+    "name": "booksy-mcp",
+    "url": "https://github.com/PiotrZapolski/booksy-mcp",
+    "description": "MCP server for Booksy Biz (salon and barbershop software) that reads calendar, staff schedules, clients, payments and reports through your own logged-in Chrome tab, with no API key and no hosted service.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "booksy",
+      "salon",
+      "scheduling",
+      "chrome"
+    ],
+    "official": false,
+    "repository": "https://github.com/PiotrZapolski/booksy-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "stdio"
+    ]
+  },
+  {
     "name": "Inkspira",
     "url": "https://inkspira.de/tattoo-generator/",
     "description": "Plan a tattoo with style and placement options, prefilled generator links, actual-size 3 cm and 5 cm print samples, and a photo placement preview.",
@@ -11554,6 +11753,35 @@
     "verified": "2026-11-25"
   },
   {
+    "name": "PayGate USDT",
+    "url": "https://github.com/EzequielLech/paygate-usdt",
+    "description": "Non-custodial multi-chain crypto checkout and x402 paywall MCP server verifying USDC, USDT, ETH, BNB, POL, SOL, and BTC payments on-chain across 7 networks.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "PayGate",
+    "tags": [
+      "crypto-payments",
+      "usdt",
+      "usdc",
+      "x402",
+      "checkout"
+    ],
+    "official": false,
+    "repository": "https://github.com/EzequielLech/paygate-usdt",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://chainguard-studio-production.up.railway.app/paygate/mcp"
+    }
+  },
+  {
     "name": "Vertov MCP",
     "url": "https://vertov.app/docs/mcp",
     "description": "Search workspace recordings, read timestamped transcripts, and upload videos for sharing.",
@@ -11744,6 +11972,28 @@
     "pricing": "free",
     "transport": [
       "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "EverythingConnect Deconstructor",
+    "url": "https://github.com/jiangxingfan1-coder/EverythingConnect",
+    "description": "Local MCP server for inspecting application metadata and drafting ConnectIR definitions; requires local setup and approved read roots.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "EverythingConnect",
+    "tags": [
+      "developer-tools",
+      "desktop",
+      "stdio"
+    ],
+    "official": true,
+    "repository": "https://github.com/jiangxingfan1-coder/EverythingConnect",
+    "license": "Apache-2.0",
+    "transport": [
+      "stdio"
     ],
     "auth": [
       "none"
@@ -12892,6 +13142,31 @@
     "repository": "https://github.com/port-labs/port-mcp-server"
   },
   {
+    "name": "Signatoro",
+    "url": "https://signatoro.com/docs/install-signature/agent/mcp",
+    "description": "Hosted MCP server for email signatures: make a free signature without signing in, fetch or update the saved one so emails an agent sends carry it, and manage a company's people.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Signatoro",
+    "tags": [
+      "email",
+      "email-signature",
+      "productivity",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "endpoints": {
+      "streamableHttp": "https://signatoro.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Postbag MCP Server",
     "url": "https://github.com/faahim/postbag",
     "description": "Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks.",
@@ -13627,6 +13902,32 @@
     "repository": "https://github.com/sandbaseai/sandbase-harness"
   },
   {
+    "name": "Sandscale",
+    "url": "https://sandscale.dev/sandboxes/mcp",
+    "description": "Hosted MCP server that lets an agent create a Firecracker microVM sandbox, run commands in it, move files in and out, and stop it, with every call recorded in an audit log.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Sandscale",
+    "tags": [
+      "sandbox",
+      "microvm",
+      "code-execution",
+      "remote"
+    ],
+    "official": true,
+    "license": "proprietary",
+    "pricing": "freemium",
+    "endpoints": {
+      "streamableHttp": "https://mcp.sandscale.dev/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Scalekit MCP Server",
     "url": "https://github.com/scalekit-inc/scalekit-mcp-server",
     "description": "Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.",
@@ -14235,6 +14536,34 @@
     ]
   },
   {
+    "name": "Pandex",
+    "url": "https://www.pandex.io/docs",
+    "description": "Official legislation and case law for AI agents (EU, UK, DE, FR, ES, NL, AT, CH and more): every past version with dates, citations linked to the passage. Remote MCP, free tier.",
+    "category": "legal-and-court-data",
+    "language": "Python",
+    "provider": "Pandex",
+    "tags": [
+      "legal",
+      "legislation",
+      "case-law",
+      "citations",
+      "streamable-http"
+    ],
+    "official": true,
+    "repository": "https://github.com/pandex-io/pandex-mcp",
+    "license": "MIT",
+    "pricing": "free",
+    "endpoints": {
+      "streamableHttp": "https://api.pandex.io/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "FastOCR MCP",
     "url": "https://github.com/fastocr-org/fastocr-mcp",
     "description": "OCR local PDF files through the FastOCR API and check API balance from MCP clients.",
@@ -14446,6 +14775,34 @@
     },
     "transport": [
       "streamable-http"
+    ]
+  },
+  {
+    "name": "Phone Number Validator MCP",
+    "url": "https://apify.com/publicrecords/phone-number-validator",
+    "description": "Validate and format phone numbers to E.164 with country and line type from the numbering plan. Not a live carrier lookup.",
+    "category": "utilities-and-examples",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "phone",
+      "validation",
+      "e164",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/phone-number-validator"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
     ]
   },
   {
@@ -17539,6 +17896,34 @@
     "transport": [
       "streamable-http",
       "sse"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
+    "name": "Tech Stack Detector MCP",
+    "url": "https://apify.com/publicrecords/tech-stack-detector",
+    "description": "Find what any website is built with: CMS, frameworks, analytics, CDN, hosting and more, with evidence for each match.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "publicrecords",
+    "tags": [
+      "tech-stack",
+      "cms",
+      "websites",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com?tools=publicrecords/tech-stack-detector"
+    },
+    "repository": "https://github.com/GeminiGeorge22/publicrecords-mcp",
+    "license": "MIT",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
     ],
     "auth": [
       "oauth",
