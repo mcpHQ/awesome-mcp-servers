@@ -10628,6 +10628,30 @@
     "repository": "https://github.com/ateymoori/oh-my-android"
   },
   {
+    "name": "FastScribe",
+    "url": "https://registry.modelcontextprotocol.io/v0.1/servers/org.fastscribe%2Ffastscribe/versions/latest",
+    "description": "Transcribe a supported public video link and retrieve the transcript as plain text, timestamped text, or SRT using a FastScribe access token.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "FastScribe",
+    "tags": [
+      "transcription",
+      "subtitles",
+      "video",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://fastscribe.org/api/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "api-key"
+    ]
+  },
+  {
     "name": "OMX for Hyperliquid",
     "url": "https://github.com/Lumen-Founder/omx",
     "description": "Non-custodial Hyperliquid perps execution for AI agents: pre-trade limits, human approval, kill switch, audit log; keyless demo via `uvx omx-hyperliquid`; optional disclosed 1 bp builder fee.",

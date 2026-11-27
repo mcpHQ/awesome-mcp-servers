@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-982-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-983-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (92)
 - [Filesystems and Documents](#filesystems-and-documents) (39)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (40)
-- [Communication and Productivity](#communication-and-productivity) (131)
+- [Communication and Productivity](#communication-and-productivity) (132)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (109)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (123)
 - [Legal and Court Data](#legal-and-court-data) (11)
@@ -776,6 +776,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `email` `validation` `mx` `disposable`
 - **[FairValid](https://fairvalid.com/en/help/mcp)** `Official` `Other` — Verify email addresses, read verification jobs and find verified work emails with FairMatch through the official hosted MCP connector. ([source](https://github.com/moonlitnayeem/fairvalid-ai))  
   `email-verification` `sales` `remote`
+- **[FastScribe](https://registry.modelcontextprotocol.io/v0.1/servers/org.fastscribe%2Ffastscribe/versions/latest)** `Official` `TypeScript` — Transcribe a supported public video link and retrieve the transcript as plain text, timestamped text, or SRT using a FastScribe access token.  
+  `transcription` `subtitles` `video` `remote`
 - **[Fax for Agents](https://github.com/faxforagents/mcp)** `Official` `TypeScript` — Send and receive faxes from AI agents through the Fax for Agents API, hosted or local, with quotes, human review, delegated policies and delivery evidence.  
   `fax` `communication` `agents` `remote`
 - **[Fezola](https://app.fezola.com/en/docs)** `Official` `TypeScript` — Hosted MCP server that puts several mailboxes (Gmail, iCloud, OVH, any IMAP server), Google Chat and Telegram behind one connector: unified recent view, cross-account search and reply drafts.  
