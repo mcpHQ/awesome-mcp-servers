@@ -9976,6 +9976,39 @@
     ]
   },
   {
+    "name": "Outscraper MCP",
+    "url": "https://mcp.outscraper.com/",
+    "description": "Business catalog search, Google Maps scraping, reviews, and enrichment through a local Node bridge using an API key or the hosted OAuth MCP endpoint.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Outscraper",
+    "tags": [
+      "business-data",
+      "google-maps",
+      "reviews",
+      "enrichment",
+      "web-scraping"
+    ],
+    "official": true,
+    "repository": "https://github.com/outscraper/outscraper-mcp-server",
+    "license": "MIT",
+    "transport": [
+      "stdio",
+      "streamable-http"
+    ],
+    "install": {
+      "command": "npx",
+      "package": "outscraper-mcp"
+    },
+    "auth": [
+      "api-key",
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://api.outscraper.com/mcp"
+    }
+  },
+  {
     "name": "MCPJungle",
     "url": "https://github.com/duaraghav8/MCPJungle",
     "description": "Self-hosted MCP server registry for enterprise AI agent deployments.",
