@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1044 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1045 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -10998,6 +10998,20 @@ Remote MCP provides RPC and indexed Data API tools through /mcp with per-tool au
 - Transport: streamable-http
 - Auth: none
 - Streamable HTTP endpoint: https://docs.blockvectra.com/mcp
+
+### booksy-mcp
+
+MCP server for Booksy Biz (salon and barbershop software) that reads calendar, staff schedules, clients, payments and reports through your own logged-in Chrome tab, with no API key and no hosted service.
+
+- URL: https://github.com/PiotrZapolski/booksy-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: booksy, salon, scheduling, chrome
+- Category: Finance, Commerce, and Business Apps
+- License: MIT
+- Pricing: free
+- Transport: stdio
 
 ### Budna MCP
 
