@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1057-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1058-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (107)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (108)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (98)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (41)
@@ -312,6 +312,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `testing` `simulators` `api-mocking` `agents`
 - **[SanctionsKit Developer MCP](https://www.sanctionskit.com/resources/mcp)** `Official` `Other` — Public SanctionsKit documentation, API schemas, and request validation, with authenticated synthetic sandbox tools for building sanctions screening integrations.  
   `api` `documentation` `sanctions` `sandbox`
+- **[Sandscale](https://sandscale.dev/sandboxes/mcp)** `Official` `Other` — Hosted MCP server that lets an agent create a Firecracker microVM sandbox, run commands in it, move files in and out, and stop it, with every call recorded in an audit log.  
+  `sandbox` `microvm` `code-execution` `remote`
 - **[Semgrep MCP Server](https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp)** `Official` `Python` — Run static analysis and security scans on codebases via Semgrep. ([source](https://github.com/semgrep/semgrep))  
   `security` `sast` `code-quality`
 - **[Sentry MCP Server](https://docs.sentry.io/product/sentry-mcp/)** `Official` `TypeScript` — Investigate errors, releases, and performance issues in Sentry.  
