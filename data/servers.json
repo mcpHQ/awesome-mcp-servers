@@ -10691,6 +10691,34 @@
     ]
   },
   {
+    "name": "Agent Desk",
+    "url": "https://yellowstake.com/tools/agent-desk",
+    "description": "Checks whether a US insurance lead can be called, autodialed or texted now, citing TCPA, Do Not Call and state calling-hours rules.",
+    "category": "legal-and-court-data",
+    "language": "JavaScript",
+    "provider": "Yellow Stake",
+    "tags": [
+      "tcpa",
+      "compliance",
+      "insurance",
+      "telemarketing",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/yellowstake/agent-desk",
+    "endpoints": {
+      "streamableHttp": "https://yellowstake.com/mcp"
+    },
+    "license": "MIT",
+    "pricing": "free",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "AI SEO Tracker",
     "url": "https://aiseotracker.com/docs/mcp",
     "description": "Track brand visibility, citations, prompts, competitors, and missing citation sources across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews.",
