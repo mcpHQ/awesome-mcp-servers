@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1062-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1063-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -48,7 +48,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (42)
 - [Communication and Productivity](#communication-and-productivity) (138)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (115)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (116)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (137)
 - [Legal and Court Data](#legal-and-court-data) (12)
 - [Security and Identity](#security-and-identity) (50)
@@ -1159,6 +1159,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `agents` `mcp` `policy` `approvals` `recovery`
 - **[mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp)** `Official` `Other` — Hosted persistent memory layer for personalized agent interactions.  
   `memory` `personalization` `agents`
+- **[MindPal](https://docs.mindpal.space/mcp)** `Official` `TypeScript` — Hosted MCP server for MindPal: build and run no-code agents, multi-step workflows, knowledge and published chatbots in your MindPal workspace from Claude, ChatGPT or other assistants.  
+  `agents` `workflows` `no-code` `remote`
 - **[Mint](https://mint.gg/mcp-config-generator)** `Official` `Other` — Hosted Mint server for agents to generate, revise and approve 3D models and 3D worlds, upload reference images, and read assets, statuses and credits.  
   `3d-generation` `text-to-3d` `image-to-3d` `remote` `oauth`
 - **[Mnemosyne OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS/tree/main/packages/mcp)** `Official` `TypeScript` — Stdio MCP server (MIT) for Mnemosyne OS, a desktop memory app where watched folders feed separate vaults on the user's machine, searched by vector and local BM25; open core, the memory engine ships closed. ([source](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS))  
