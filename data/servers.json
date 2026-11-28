@@ -11514,6 +11514,33 @@
     "verified": "2026-11-26"
   },
   {
+    "name": "QRSteward",
+    "url": "https://qrsteward.com/docs",
+    "description": "Hosted MCP server for printed dynamic QR codes: bulk creation, editable destinations, replaceable hosted PDFs, campaigns and scan reports.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "QRSteward",
+    "tags": [
+      "qr-code",
+      "dynamic-qr-codes",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/qrsteward/qr-code-mcp-server",
+    "license": "proprietary",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://mcp.qrsteward.com/mcp"
+    }
+  },
+  {
     "name": "The Network Tools",
     "url": "https://thenetworktools.com/docs/mcp",
     "description": "Hosted read-only MCP server for DNS records, MX routing, SPF/DMARC email security, HTTP security headers, and ICANN RDAP lookups.",
