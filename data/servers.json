@@ -10951,6 +10951,35 @@
     "repository": "https://github.com/neondatabase/mcp-server-neon"
   },
   {
+    "name": "Cygnix SEO MCP",
+    "url": "https://mcp.cygnixlabs.com",
+    "description": "Hosted SEO and AI-search (AEO) audits with guided top-5 fixes and a before/after re-audit, plus llms.txt, keyword and Search Console tools; free tier and paid plans.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Cygnix Labs",
+    "tags": [
+      "seo",
+      "aeo",
+      "llms-txt",
+      "audit",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.cygnixlabs.com/mcp"
+    },
+    "repository": "https://github.com/cygnixlabs-cmd/cygnix-seo-mcp",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "Nestbolt",
     "url": "https://github.com/skulitom/Nestbolt",
     "description": "Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutting, with validated layouts and per-sheet SVG/DXF export.",

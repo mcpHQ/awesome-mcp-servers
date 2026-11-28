@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1062-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1063-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (42)
 - [Communication and Productivity](#communication-and-productivity) (138)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (115)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (137)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (138)
 - [Legal and Court Data](#legal-and-court-data) (12)
 - [Security and Identity](#security-and-identity) (50)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (230)
@@ -1338,6 +1338,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `analytics` `seo` `search-console` `bing` `remote`
 - **[CrakSEO SEO MCP](https://docs.crakseo.com/seo-mcp/connect)** `Official` `Other` — Hosted SEO MCP server for keyword research, SERP data, backlinks, rank tracking, site audits and local SEO, with pay-as-you-go API credits and a free balance check. ([source](https://github.com/CrakSEO/crakseo-mcp-plugins))  
   `seo` `keyword-research` `backlinks` `rank-tracking` `remote`
+- **[Cygnix SEO MCP](https://mcp.cygnixlabs.com)** `Official` `TypeScript` — Hosted SEO and AI-search (AEO) audits with guided top-5 fixes and a before/after re-audit, plus llms.txt, keyword and Search Console tools; free tier and paid plans. ([source](https://github.com/cygnixlabs-cmd/cygnix-seo-mcp))  
+  `seo` `aeo` `llms-txt` `audit` `remote`
 - **[Datadog MCP Server](https://github.com/datadog-labs/mcp-server)** `Official` `Python` — Query metrics, logs, and monitors from Datadog via the official Datadog Labs MCP server.  
   `datadog` `metrics` `logs`
 - **[dbt MCP Server](https://github.com/dbt-labs/dbt-mcp)** `Official` `Python` — Run dbt models, tests, and documentation workflows via MCP.  
