@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1062 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1064 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -129,6 +129,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [pluginscope](https://github.com/SalyyS1/pluginscope): Static bytecode, shading collision, ASM dataflow leak, and paper-plugin.yml dependency auditor MCP server for Minecraft Paper and Folia plugins. (Kotlin)
 - [POSH](https://github.com/skatkov/posh-mcp): Search and read local Ruby and gem documentation matched to project versions; proprietary POSH agent-tools license required. (Go, official)
 - [Postman MCP Server](https://github.com/postmanlabs/postman-mcp-server): Explore and run Postman collections and API workflows from AI clients. (TypeScript, official)
+- [PromptBill](https://github.com/danielneuron/promptbill): Local-first AI coding cost attribution and client PDF/Xero/QuickBooks invoice generator for Claude Code, Codex CLI, Gemini CLI, Cline, and Roo Code logs. (TypeScript, official)
 - [REA](https://github.com/morluto/rea): Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies. (TypeScript)
 - [Reflex Computer Use](https://github.com/8itlab/reflex-computer-use): Control macOS and Windows desktops, including remote Windows over SSH, using accessibility trees and Jev for element selection and action verification. (Python)
 - [ReMCP](https://github.com/getremcp/remcp): Securely access computers explicitly paired to your account through a hosted OAuth MCP connection, including state-changing file, terminal, browser, and desktop tools. (TypeScript, official)
@@ -774,6 +775,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [AcqPath](https://github.com/reflectme-source/acqpath-distribution): Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows. (Other, official)
 - [ActSeal](https://github.com/arults/actseal-mcp): Issue and verify Ed25519-signed receipts for agent actions via MCP tools issue_receipt and verify_receipt. Best-effort signed log; free 100/day at actseal.xyz. (TypeScript, official)
 - [Agency Check](https://agency-check.app): Hosted remote MCP that checks what an AI agent is about to buy, send, sign up for, or connect before it acts, and returns proceed, pause, or ask with the reason. (TypeScript, official)
+- [AuditDeck](https://github.com/danielneuron/auditdeck): Local-first 5-pillar Git repository auditor and Client Handover PDF report generator scanning masked secrets, lockfiles, CI/tests, and Git bus-factor. (TypeScript, official)
 - [Auth0 MCP Server](https://github.com/auth0/auth0-mcp-server): Manage Auth0 tenants, applications, and user identity settings. (TypeScript, official)
 - [Automaton Onchain Tools](https://github.com/povrouyre-wq/automaton-onchain-tools): Read-only crypto safety checks for Base, Ethereum and BNB Chain (tx explainer, approvals, contract risk, URL phishing, token deep scan with honeypot simulation), pay-per-call via x402 USDC; remote, no key. (JavaScript)
 - [BotsRated](https://github.com/botsrated/botsrated): Checks a paid x402 seller or remote MCP server before an agent pays it: latest unpaid probe, listed vs quoted price and payTo, with signed receipts; free preflight and search, paid lookups via x402 on Base. (TypeScript, official)
