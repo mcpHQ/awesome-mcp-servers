@@ -11709,6 +11709,33 @@
     ]
   },
   {
+    "name": "MindPal",
+    "url": "https://docs.mindpal.space/mcp",
+    "description": "Hosted MCP server for MindPal: build and run no-code agents, multi-step workflows, knowledge and published chatbots in your MindPal workspace from Claude, ChatGPT or other assistants.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "MindPal",
+    "tags": [
+      "agents",
+      "workflows",
+      "no-code",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.mindpal.space/mcp"
+    },
+    "license": "proprietary",
+    "pricing": "freemium",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth",
+      "api-key"
+    ]
+  },
+  {
     "name": "docs-rag-mcp",
     "url": "https://github.com/Ahmed-Manai/docs-rag-mcp",
     "repository": "https://github.com/Ahmed-Manai/docs-rag-mcp",

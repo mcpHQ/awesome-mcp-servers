@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 1062 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 1063 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Repository, license, pricing, transport, auth, install, and verified date are included only when the catalog has them. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -7130,6 +7130,22 @@ Hosted persistent memory layer for personalized agent interactions.
 - Category: AI, Agents, and Memory
 - Transport: streamable-http
 - Streamable HTTP endpoint: https://mcp.mem0.ai/mcp
+
+### MindPal
+
+Hosted MCP server for MindPal: build and run no-code agents, multi-step workflows, knowledge and published chatbots in your MindPal workspace from Claude, ChatGPT or other assistants.
+
+- URL: https://docs.mindpal.space/mcp
+- Language: TypeScript
+- Provider: MindPal
+- Official: yes
+- Tags: agents, workflows, no-code, remote
+- Category: AI, Agents, and Memory
+- License: proprietary
+- Pricing: freemium
+- Transport: streamable-http
+- Auth: oauth, api-key
+- Streamable HTTP endpoint: https://mcp.mindpal.space/mcp
 
 ### Mint
 
