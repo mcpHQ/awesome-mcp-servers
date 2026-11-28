@@ -4081,13 +4081,13 @@ Real-time status, recent incidents and an overall health score for 41 internet b
 
 ### Lantern Works
 
-Read-only GPU rental price comparison across providers, refreshed regularly with each price's age shown, cited rates, job-cost estimates, and a keyless MCP (local uvx or hosted Streamable HTTP).
+GPU rental price comparison across providers, refreshed regularly with each price's age shown, cited rates, job-cost estimates, and a keyless MCP (local uvx or hosted Streamable HTTP; the local uvx package is read-only, the hosted endpoint adds optional price watches and alerts).
 
 - URL: https://thelanternworks.com/for-agents/?ref=fg-mcphq
 - Language: Python
 - Provider: Lantern Works
 - Official: yes
-- Tags: gpu, cloud, pricing, read-only
+- Tags: gpu, cloud, pricing
 - Category: Cloud and Infrastructure
 - Repository: https://github.com/connormatthewdouglas/agent-work-stack-deals
 - License: MIT

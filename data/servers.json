@@ -19348,15 +19348,14 @@
   {
     "name": "Lantern Works",
     "url": "https://thelanternworks.com/for-agents/?ref=fg-mcphq",
-    "description": "Read-only GPU rental price comparison across providers, refreshed regularly with each price's age shown, cited rates, job-cost estimates, and a keyless MCP (local uvx or hosted Streamable HTTP).",
+    "description": "GPU rental price comparison across providers, refreshed regularly with each price's age shown, cited rates, job-cost estimates, and a keyless MCP (local uvx or hosted Streamable HTTP; the local uvx package is read-only, the hosted endpoint adds optional price watches and alerts).",
     "category": "cloud-and-infrastructure",
     "language": "Python",
     "provider": "Lantern Works",
     "tags": [
       "gpu",
       "cloud",
-      "pricing",
-      "read-only"
+      "pricing"
     ],
     "official": true,
     "repository": "https://github.com/connormatthewdouglas/agent-work-stack-deals",
