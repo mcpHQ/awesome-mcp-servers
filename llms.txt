@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 1062 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 1063 Model Context Protocol (MCP) servers in 14 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. Repository, license, pricing, transport, auth, install, and a verified date are included when known. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -434,6 +434,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server. (TypeScript, official)
 - [OsmO Phone Calls](https://github.com/Mountainheads-Private-limited/osmo-ai-plugins): OsmO's hosted MCP server places real phone calls to businesses and helplines after the user confirms, and returns the outcome, summary and transcript. (Other, official)
 - [Outbound OS](https://github.com/RecepioHQ/outbound-os): Local MCP tools for evidence-gated email outreach with default-disabled live sending (JavaScript, official)
+- [P-999K](https://github.com/lazy9sascha/p-999k/blob/main/docs/quickstart.md): A self-hosted MCP message queue that gives each agent its own mailbox and links each reply to its original request. (Rust)
 - [Pageree](https://pageree.com): Build landing pages as private previews and publish them once you approve, send form leads to email or a CRM webhook, hold back spam with submission rules, connect a custom domain, and read per-section visitor analytics. (TypeScript, official)
 - [Pallyy](https://pallyy.com/docs/api/mcp): Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks. (TypeScript, official)
 - [Paper Plane Post](https://paperplanepost.com/for/agents): Create and send an AI-illustrated postcard anywhere in the world (TypeScript, official)
