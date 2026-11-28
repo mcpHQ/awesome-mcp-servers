@@ -557,6 +557,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `twitter` `social-data` `search`
 - **[YouTube Transcripts MCP](https://github.com/gunnargray-dev/youtube-transcripts-mcp)** `TypeScript` — Fetches YouTube transcripts with video metadata as text, timestamped segments, or SRT, plus filtered YouTube search, chapters, and timestamped extractive summaries, with no YouTube API key.  
   `youtube` `transcripts` `search` `summaries` `remote`
+- **[The SEO Agent MCP](https://github.com/jeremy665/theseoagent-mcp)** `Community` `TypeScript` - Technical SEO site audits, keyword planning, and CMS publishing workflows for AI assistants. ([website](https://www.theseoagent.ai))  
+  `seo` `search` `audit` `content`
 
 <a id="filesystems-and-documents"></a>
 
