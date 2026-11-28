@@ -316,7 +316,7 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `visual-testing` `testing` `code-review` `api-key` `remote`
 - **[unslop](https://github.com/avivgerz-hue/unslop)** `TypeScript` — Design-craft linter with 72 rules for CSS, Tailwind and React that audits contrast, typography and spacing, exposed to MCP clients through 4 tools.  
   `linter` `design` `css` `accessibility` `code-quality`
-- **[viaSocket](https://viasocket.com/)** `Official` `Other` — Integration and AI infrastructure for developers: explore viaSocket's docs and APIs, then let your users connect their own apps and run actions across 2,300+ apps. ([source](https://github.com/walkover-mcp/viasocket))  
+- **[viaSocket](https://viasocket.com/)** `Official` `Other` — Infrastructure for building apps and AI agents, with integrations, automation and AI capabilities. ([source](https://github.com/walkover-mcp/viasocket))  
   `integrations` `automation` `oauth` `remote`
 - **[Vibe Monitor](https://github.com/tubban1/vibe-monitor)** `JavaScript` — Local architecture checkpoints for AI coding agents; read-only source analysis and practical advice (Node 22+; default-on pseudonymous telemetry, required for Free analysis).  
   `architecture` `code-quality` `ai-coding` `local`
