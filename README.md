@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1062-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1064-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (19)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (108)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (109)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (99)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (42)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (115)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (137)
 - [Legal and Court Data](#legal-and-court-data) (12)
-- [Security and Identity](#security-and-identity) (50)
+- [Security and Identity](#security-and-identity) (51)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (230)
 - [Utilities and Examples](#utilities-and-examples) (55)
 - [Logistics and Shipping](#logistics-and-shipping) (2)
@@ -292,6 +292,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `ruby` `rails` `documentation` `local` `stdio`
 - **[Postman MCP Server](https://github.com/postmanlabs/postman-mcp-server)** `Official` `TypeScript` — Explore and run Postman collections and API workflows from AI clients.  
   `api` `testing` `http`
+- **[PromptBill](https://github.com/danielneuron/promptbill)** `Official` `TypeScript` — Local-first AI coding cost attribution and client PDF/Xero/QuickBooks invoice generator for Claude Code, Codex CLI, Gemini CLI, Cline, and Roo Code logs.  
+  `claude-code` `cost-tracking` `invoicing` `local-first` `pdf`
 - **[REA](https://github.com/morluto/rea)** `TypeScript` — Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies.  
   `reverse-engineering` `binary-analysis` `devtools`
 - **[Reflex Computer Use](https://github.com/8itlab/reflex-computer-use)** `Python` — Control macOS and Windows desktops, including remote Windows over SSH, using accessibility trees and Jev for element selection and action verification.  
@@ -1590,6 +1592,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `receipts` `ed25519` `attestations` `agents` `audit`
 - **[Agency Check](https://agency-check.app)** `Official` `TypeScript` — Hosted remote MCP that checks what an AI agent is about to buy, send, sign up for, or connect before it acts, and returns proceed, pause, or ask with the reason. ([source](https://github.com/CyberStrategy1/agency-check))  
   `agent-safety` `guardrails` `approvals` `oauth` `remote`
+- **[AuditDeck](https://github.com/danielneuron/auditdeck)** `Official` `TypeScript` — Local-first 5-pillar Git repository auditor and Client Handover PDF report generator scanning masked secrets, lockfiles, CI/tests, and Git bus-factor.  
+  `codebase-audit` `secret-scanning` `security` `local-first` `pdf`
 - **[Auth0 MCP Server](https://github.com/auth0/auth0-mcp-server)** `Official` `TypeScript` — Manage Auth0 tenants, applications, and user identity settings.  
   `auth` `identity` `oauth`
 - **[Automaton Onchain Tools](https://github.com/povrouyre-wq/automaton-onchain-tools)** `JavaScript` — Read-only crypto safety checks for Base, Ethereum and BNB Chain (tx explainer, approvals, contract risk, URL phishing, token deep scan with honeypot simulation), pay-per-call via x402 USDC; remote, no key.  

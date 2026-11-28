@@ -8861,6 +8861,64 @@
     }
   },
   {
+    "name": "AuditDeck",
+    "url": "https://github.com/danielneuron/auditdeck",
+    "description": "Local-first 5-pillar Git repository auditor and Client Handover PDF report generator scanning masked secrets, lockfiles, CI/tests, and Git bus-factor.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "DanielNeuron",
+    "tags": [
+      "codebase-audit",
+      "secret-scanning",
+      "security",
+      "local-first",
+      "pdf"
+    ],
+    "official": true,
+    "repository": "https://github.com/danielneuron/auditdeck",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "docker",
+      "package": "ghcr.io/danielneuron/auditdeck:1.1.0"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
+    "name": "PromptBill",
+    "url": "https://github.com/danielneuron/promptbill",
+    "description": "Local-first AI coding cost attribution and client PDF/Xero/QuickBooks invoice generator for Claude Code, Codex CLI, Gemini CLI, Cline, and Roo Code logs.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "DanielNeuron",
+    "tags": [
+      "claude-code",
+      "cost-tracking",
+      "invoicing",
+      "local-first",
+      "pdf"
+    ],
+    "official": true,
+    "repository": "https://github.com/danielneuron/promptbill",
+    "license": "MIT",
+    "pricing": "freemium",
+    "transport": [
+      "stdio"
+    ],
+    "install": {
+      "command": "docker",
+      "package": "ghcr.io/danielneuron/promptbill:1.5.0"
+    },
+    "auth": [
+      "none"
+    ]
+  },
+  {
     "name": "FlightQueue",
     "url": "https://flightqueue.com/mcp",
     "description": "Airport security wait times, forecasts, FAA delays, EES border queues and baggage stats for 8,000+ airports over a hosted MCP server.",
