@@ -12367,6 +12367,32 @@
     ]
   },
   {
+    "name": "ExpiryRegister",
+    "url": "https://expiryregister.com/docs",
+    "description": "Hosted register of business expiry and renewal dates that emails each item's named owner before it is due and escalates to the next contact until someone acknowledges.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "ExpiryRegister",
+    "tags": [
+      "reminders",
+      "compliance",
+      "renewals",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.expiryregister.com/mcp"
+    },
+    "repository": "https://github.com/expiryregister/expiryregister-mcp-server",
+    "pricing": "paid",
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Aethel",
     "url": "https://aethel.pro/mcp",
     "description": "What 42 companies' own pages say about their AI and video interviews, each fact with its source page and the day it was read. Read-only; no sign-in.",

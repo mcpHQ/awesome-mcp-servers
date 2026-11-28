@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-1062-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-1063-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (99)
 - [Filesystems and Documents](#filesystems-and-documents) (44)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (42)
-- [Communication and Productivity](#communication-and-productivity) (138)
+- [Communication and Productivity](#communication-and-productivity) (139)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (115)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (137)
 - [Legal and Court Data](#legal-and-court-data) (12)
@@ -822,6 +822,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `education` `school` `france` `messaging` `parents`
 - **[EveryApp](https://everyapp.pro/mcp)** `Official` `TypeScript` — Run 300+ EveryApp tools from your AI assistant, such as compressing a PDF, converting a video or making an image, and build your own apps.  
   `productivity` `pdf` `image` `video` `remote`
+- **[ExpiryRegister](https://expiryregister.com/docs)** `Official` `TypeScript` — Hosted register of business expiry and renewal dates that emails each item's named owner before it is due and escalates to the next contact until someone acknowledges. ([source](https://github.com/expiryregister/expiryregister-mcp-server))  
+  `reminders` `compliance` `renewals` `remote`
 - **[Faceless](https://faceless.so)** `Official` `TypeScript` — Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).  
   `video` `social-media` `publishing` `remote`
 - **[Fairquery Email Validator](https://github.com/fairquery/email-validator-mx-disposable)** `Official` `TypeScript` — Validates email addresses without sending mail: syntax, MX, disposable, role and typo checks and SPF/DMARC, with a free offline syntax tool and paid DNS checks.  
