@@ -703,7 +703,7 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `pricing` `gpu` `vps` `llm` `remote`
 - **[InternetVitals](https://github.com/internetvitals/mcp-server)** `Official` `TypeScript` — Real-time status, recent incidents and an overall health score for 41 internet backbone services such as AWS, Cloudflare, GitHub and OpenAI.  
   `status` `uptime` `incidents` `monitoring`
-- **[Lantern Works](https://thelanternworks.com/for-agents/?ref=fg-mcphq)** `Official` `Python` — GPU rental price comparison across providers, refreshed regularly with each price's age shown, cited rates, job-cost estimates, and a keyless MCP (local uvx or hosted Streamable HTTP; the local uvx package is read-only, the hosted endpoint adds optional price watches and alerts). ([source](https://github.com/connormatthewdouglas/agent-work-stack-deals))  
+- **[Lantern Works](https://thelanternworks.com/for-agents/?ref=fg-mcphq)** `Official` `Python` — GPU rental price comparison across providers with cited rates, each price's age and job-cost estimates. Keyless MCP: the local uvx package is read-only; the hosted endpoint adds optional price watches and alerts. ([source](https://github.com/connormatthewdouglas/agent-work-stack-deals))  
   `gpu` `cloud` `pricing`
 - **[mountable.io](https://github.com/writeitai/mountable)** `Official` `Go` — Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid mountable.io service.  
   `filesystem` `storage` `stdio`

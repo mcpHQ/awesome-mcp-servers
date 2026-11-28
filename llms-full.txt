@@ -4081,7 +4081,7 @@ Real-time status, recent incidents and an overall health score for 41 internet b
 
 ### Lantern Works
 
-GPU rental price comparison across providers, refreshed regularly with each price's age shown, cited rates, job-cost estimates, and a keyless MCP (local uvx or hosted Streamable HTTP; the local uvx package is read-only, the hosted endpoint adds optional price watches and alerts).
+GPU rental price comparison across providers with cited rates, each price's age and job-cost estimates. Keyless MCP: the local uvx package is read-only; the hosted endpoint adds optional price watches and alerts.
 
 - URL: https://thelanternworks.com/for-agents/?ref=fg-mcphq
 - Language: Python
