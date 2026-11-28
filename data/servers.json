@@ -4948,7 +4948,7 @@
   },
   {
     "name": "Magic Hour MCP Server",
-    "url": "https://docs.magichour.ai/integration/mcp-agent",
+    "url": "https://magichour.ai/mcp",
     "description": "Create and edit images and videos, generate music and speech, and retrieve completed media through MCP.",
     "category": "ai-agents-and-memory",
     "language": "Python",

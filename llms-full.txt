@@ -7079,7 +7079,7 @@ Find open-weight AI models that fit your hardware, with weight file sizes, memor
 
 Create and edit images and videos, generate music and speech, and retrieve completed media through MCP.
 
-- URL: https://docs.magichour.ai/integration/mcp-agent
+- URL: https://magichour.ai/mcp
 - Language: Python
 - Provider: Magic Hour
 - Official: yes
