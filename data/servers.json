@@ -12367,6 +12367,33 @@
     ]
   },
   {
+    "name": "CaptureBatch",
+    "url": "https://capturebatch.com/docs",
+    "description": "Capture screenshots of many web pages, schedule repeats and keep 12 months of dated history.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "CaptureBatch",
+    "tags": [
+      "screenshots",
+      "full-page",
+      "scheduling",
+      "remote"
+    ],
+    "official": true,
+    "repository": "https://github.com/capturebatch/website-screenshot-mcp-server",
+    "license": "MIT",
+    "pricing": "paid",
+    "endpoints": {
+      "streamableHttp": "https://mcp.capturebatch.com/mcp"
+    },
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ]
+  },
+  {
     "name": "Aethel",
     "url": "https://aethel.pro/mcp",
     "description": "What 42 companies' own pages say about their AI and video interviews, each fact with its source page and the day it was read. Read-only; no sign-in.",
