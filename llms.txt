@@ -292,7 +292,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Droply](https://docs.droply.so/#mcp): Hosted MCP server that publishes HTML pages, documents and files as shareable links on name.droply.page and updates them without changing the link. (TypeScript, official)
 - [DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp): Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google. (JavaScript, official)
 - [Duplicacy MCP Server](https://github.com/GeiserX/duplicacy-mcp): Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status. (Go)
-- [Embarko](https://embarko.ai): Deploy and host AI-built apps and websites, and get a live URL without any DevOps setup. (Other, official)
+- [Embarko](https://embarko.ai): A shared workspace to publish, use and improve anything built with AI. (Other, official)
 - [Fly.io MCP Server](https://github.com/superfly/flymcp): Manage Fly.io apps, machines, and deployments via MCP. (TypeScript, official)
 - [gpu.nz GPU Cloud](https://gpu.nz/en/docs/mcp): Find live cloud GPU offers, estimate model VRAM needs, and launch, stop, or delete per-minute GPU servers on gpu.nz. (TypeScript, official)
 - [InternetVitals](https://github.com/internetvitals/mcp-server): Real-time status, recent incidents and an overall health score for 41 internet backbone services such as AWS, Cloudflare, GitHub and OpenAI. (TypeScript, official)
