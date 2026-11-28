@@ -621,7 +621,7 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `hosting` `deployment` `domains` `https` `remote`
 - **[Duplicacy MCP Server](https://github.com/GeiserX/duplicacy-mcp)** `Go` — Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.  
   `duplicacy` `backup` `prometheus`
-- **[Embarko](https://embarko.ai)** `Official` `Other` — Deploy and host AI-built apps and websites, and get a live URL without any DevOps setup. ([source](https://github.com/walkover-mcp/embarko))  
+- **[Embarko](https://embarko.ai)** `Official` `Other` — A shared workspace to publish, use and improve anything built with AI. ([source](https://github.com/walkover-mcp/embarko))  
   `deployment` `hosting` `remote` `oauth`
 - **[Fly.io MCP Server](https://github.com/superfly/flymcp)** `Official` `TypeScript` — Manage Fly.io apps, machines, and deployments via MCP.  
   `fly` `deploy` `edge`
